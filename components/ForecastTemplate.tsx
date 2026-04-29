@@ -69,7 +69,7 @@ function severityFor(score: number): "danger" | "warn" | "ok" {
 }
 
 function adImageExists(slug: string, n: number): boolean {
-  const p = path.join(process.cwd(), "public", "ads", slug, `ad-${n}.jpg`)
+  const p = path.join(process.cwd(), "public", "creatives", slug, `creative-${n}.jpg`)
   return fs.existsSync(p)
 }
 
@@ -139,36 +139,36 @@ export default function ForecastTemplate({
         const sev = ad.severity ?? severityFor(ad.fatigue_score)
         const hasImage = adImageExists(slug, ad.ad_number)
         return (
-          <div key={i} className={`ad-card severity-${sev}`}>
-            <div className="ad-head">
-              <div className={`ad-thumb ${hasImage ? "" : phClasses[i % 5]}`}>
-                <span className="ad-thumb-tag">Ad #{ad.ad_number}</span>
+          <div key={i} className={`creative-card severity-${sev}`}>
+            <div className="creative-head">
+              <div className={`creative-thumb ${hasImage ? "" : phClasses[i % 5]}`}>
+                <span className="creative-thumb-tag">Ad #{ad.ad_number}</span>
                 {hasImage ? (
                   <img
-                    src={`/ads/${slug}/ad-${ad.ad_number}.jpg`}
+                    src={`/creatives/${slug}/creative-${ad.ad_number}.jpg`}
                     alt={`Ad #${ad.ad_number} creative`}
                   />
                 ) : (
-                  <div className="ad-thumb-placeholder">Ad creative</div>
+                  <div className="creative-thumb-placeholder">Ad creative</div>
                 )}
               </div>
-              <div className="ad-head-left">
-                <div className="ad-tag">Ad #{ad.ad_number}</div>
-                <div className="ad-head-headline">"{ad.headline}"</div>
-                <div className="ad-head-body">"{ad.body}"</div>
+              <div className="creative-head-left">
+                <div className="creative-tag">Ad #{ad.ad_number}</div>
+                <div className="creative-head-headline">"{ad.headline}"</div>
+                <div className="creative-head-body">"{ad.body}"</div>
               </div>
-              <div className="ad-score">
-                <div className="ad-score-num">{ad.fatigue_score}</div>
-                <div className="ad-score-lbl">Fatigue score</div>
+              <div className="creative-score">
+                <div className="creative-score-num">{ad.fatigue_score}</div>
+                <div className="creative-score-lbl">Fatigue score</div>
               </div>
             </div>
-            <div className="ad-bar">
+            <div className="creative-bar">
               <div
-                className="ad-bar-fill"
+                className="creative-bar-fill"
                 style={{ width: `${ad.fatigue_score}%` }}
               />
             </div>
-            <div className="ad-bar-labels">
+            <div className="creative-bar-labels">
               <span>Fresh</span>
               <span>
                 <strong className="days-num">

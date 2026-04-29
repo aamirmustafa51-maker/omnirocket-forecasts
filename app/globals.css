@@ -141,22 +141,22 @@ p { margin: 0 0 14px; }
   margin-top: 8px;
 }
 
-.ad-card {
+.creative-card {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: 2px;
   padding: 22px 24px;
   margin-bottom: 14px;
 }
-.ad-head {
+.creative-head {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   gap: 16px;
   margin-bottom: 14px;
 }
-.ad-head-left { min-width: 0; flex: 1; }
-.ad-thumb {
+.creative-head-left { min-width: 0; flex: 1; }
+.creative-thumb {
   width: 96px;
   height: 120px;
   flex-shrink: 0;
@@ -166,13 +166,13 @@ p { margin: 0 0 14px; }
   position: relative;
   border: 1px solid var(--line);
 }
-.ad-thumb img {
+.creative-thumb img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
 }
-.ad-thumb-placeholder {
+.creative-thumb-placeholder {
   position: absolute;
   inset: 0;
   display: flex;
@@ -187,14 +187,14 @@ p { margin: 0 0 14px; }
   padding: 8px;
   line-height: 1.4;
 }
-.ad-thumb.ph-1 { background: linear-gradient(135deg, #2a2a2a 0%, #4a4a4a 100%); }
-.ad-thumb.ph-2 { background: linear-gradient(135deg, #c9b8a8 0%, #e8dcc8 100%); }
-.ad-thumb.ph-3 { background: linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%); }
-.ad-thumb.ph-4 { background: linear-gradient(135deg, #b8a896 0%, #d4c4ae 100%); }
-.ad-thumb.ph-5 { background: linear-gradient(135deg, #8a7e72 0%, #b0a092 100%); }
-.ad-thumb.ph-1 .ad-thumb-placeholder,
-.ad-thumb.ph-3 .ad-thumb-placeholder { color: rgba(255,255,255,0.55); }
-.ad-thumb-tag {
+.creative-thumb.ph-1 { background: linear-gradient(135deg, #2a2a2a 0%, #4a4a4a 100%); }
+.creative-thumb.ph-2 { background: linear-gradient(135deg, #c9b8a8 0%, #e8dcc8 100%); }
+.creative-thumb.ph-3 { background: linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%); }
+.creative-thumb.ph-4 { background: linear-gradient(135deg, #b8a896 0%, #d4c4ae 100%); }
+.creative-thumb.ph-5 { background: linear-gradient(135deg, #8a7e72 0%, #b0a092 100%); }
+.creative-thumb.ph-1 .creative-thumb-placeholder,
+.creative-thumb.ph-3 .creative-thumb-placeholder { color: rgba(255,255,255,0.55); }
+.creative-thumb-tag {
   position: absolute;
   top: 6px;
   left: 6px;
@@ -207,7 +207,7 @@ p { margin: 0 0 14px; }
   border-radius: 2px;
   letter-spacing: 0.04em;
 }
-.ad-tag {
+.creative-tag {
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-size: 11px;
   text-transform: uppercase;
@@ -215,44 +215,44 @@ p { margin: 0 0 14px; }
   color: var(--ink-soft);
   margin-bottom: 6px;
 }
-.ad-head-headline {
+.creative-head-headline {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 6px;
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
-.ad-head-body {
+.creative-head-body {
   font-size: 15px;
   color: var(--ink-soft);
   font-style: italic;
 }
-.ad-score {
+.creative-score {
   text-align: right;
   flex-shrink: 0;
   font-family: ui-sans-serif, system-ui, sans-serif;
 }
-.ad-score-num {
+.creative-score-num {
   font-size: 32px;
   font-weight: 600;
   line-height: 1;
   font-family: ui-serif, Georgia, serif;
 }
-.ad-score-lbl {
+.creative-score-lbl {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink-soft);
   margin-top: 2px;
 }
-.ad-bar {
+.creative-bar {
   height: 6px;
   background: var(--line);
   border-radius: 4px;
   overflow: hidden;
   margin: 14px 0;
 }
-.ad-bar-fill { height: 100%; border-radius: 4px; }
-.ad-bar-labels {
+.creative-bar-fill { height: 100%; border-radius: 4px; }
+.creative-bar-labels {
   display: flex;
   justify-content: space-between;
   font-family: ui-sans-serif, system-ui, sans-serif;
@@ -260,15 +260,15 @@ p { margin: 0 0 14px; }
   color: var(--ink-soft);
   margin-bottom: 16px;
 }
-.severity-danger .ad-score-num,
+.severity-danger .creative-score-num,
 .severity-danger .days-num { color: var(--danger); }
-.severity-danger .ad-bar-fill { background: var(--danger); }
-.severity-warn .ad-score-num,
+.severity-danger .creative-bar-fill { background: var(--danger); }
+.severity-warn .creative-score-num,
 .severity-warn .days-num { color: var(--warn); }
-.severity-warn .ad-bar-fill { background: var(--warn); }
-.severity-ok .ad-score-num,
+.severity-warn .creative-bar-fill { background: var(--warn); }
+.severity-ok .creative-score-num,
 .severity-ok .days-num { color: var(--ok); }
-.severity-ok .ad-bar-fill { background: var(--ok); }
+.severity-ok .creative-bar-fill { background: var(--ok); }
 
 .drivers {
   list-style: none; padding: 0; margin: 0;
