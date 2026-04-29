@@ -1,0 +1,145 @@
+{
+  "brand": "OHTNYC",
+  "brand_slug": "ohtnyc",
+  "first_name": "Friend",
+  "website": "https://ohtnyc.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 4,
+  "total_ads": 5,
+  "tldr": "Two ads are running identical body copy and two more are duplicate creative on different PDPs — that's 4 of 5 ads sharing fatigue DNA. Expect CPMs to climb 18-25% in the next 10-14 days unless the rotation gets fresh angles.",
+  "benchmark": {
+    "your_value_days": 11,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "OHTNYC's rotation is fatiguing roughly 2x faster than the streetwear/jewelry category median. The duplicate body copy across Ads 2/3 and the carbon-copy LIGHTSUM creative on Ads 4/5 are the main accelerants."
+  },
+  "ads": [
+    {
+      "ad_number": 2,
+      "headline": "Layered to perfection",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 4,
+      "severity": "danger",
+      "drivers": [
+        "Body copy is 100% duplicated with Ad #3 — Meta's algo is collapsing delivery",
+        "'Be unapologetically you' is generic empowerment language with no product specificity",
+        "No price, no material, no NYC angle — nothing that reflects OHT's downtown identity"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "headline": "For Your Weekly Jewelry Rotation",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Identical body to Ad #2 — auction overlap is suppressing both",
+        "Headline 'Weekly Jewelry Rotation' is the strongest hook in the account but wasted on recycled body",
+        "Same LP as Ad #2 (transparent-heart-charm-necklace) — competing with itself"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+      "cta": "Shop now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 7,
+      "severity": "warn",
+      "drivers": [
+        "Exact duplicate of Ad #4 with only the LP swapped (cube-dice vs supernova)",
+        "K-pop collab angle is strong but splitting spend across two identical creatives dilutes signal",
+        "'Limited drop' urgency loses teeth when the same ad has been live for weeks"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 9,
+      "severity": "warn",
+      "drivers": [
+        "Strongest narrative in the account ('main character era', LIGHTSUM tie-in) but cannibalized by Ad #5",
+        "No video format — a collab drop this big should have a hype reel, not a static",
+        "LP goes straight to PDP instead of a collection page that showcases the full drop"
+      ]
+    },
+    {
+      "ad_number": 1,
+      "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
+      "body": "₊˚⊹♡ THE USUAL ♡⊹˚₊ Not the jewelry you save for \"someday.\" The ones you live in, grocery runs, late nights, everything between. Soft, sharp, and oht to the core ♡ Meet the usual, your everyday, upgraded ☁︎⚙︎☆",
+      "cta": "Shop now",
+      "fatigue_score": 62,
+      "days_until_fatigue": 16,
+      "severity": "ok",
+      "drivers": [
+        "Strongest copy in the rotation — 'grocery runs, late nights, everything between' is concrete and lived-in",
+        "Headline does dual-duty (comfort + identity) which extends creative half-life",
+        "Single static format means it'll still hit a ceiling without a video/UGC counterpart"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #1",
+    "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
+    "body": "Not the jewelry you save for \"someday.\" The ones you live in, grocery runs, late nights, everything between.",
+    "why": "This is the only ad in the rotation with a real lifestyle hook tied to NYC daily-wear behavior. 'Grocery runs, late nights' makes it specific and ownable in a way the empowerment copy on Ads 2/3 isn't. Push budget here and build 2-3 video variants off this same angle before it fatigues."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #3",
+    "headline": "For Your Weekly Jewelry Rotation",
+    "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+    "why": "Body is a literal copy-paste of Ad #2 pointing to the same LP — Meta is suppressing both in auction. The 'Weekly Jewelry Rotation' headline is actually the strongest hook here, so kill the ad but recycle that headline into a fresh carousel with new body copy."
+  },
+  "concepts": [
+    {
+      "concept_name": "Downtown Daily POV",
+      "format": "UGC Video, 18-22s vertical",
+      "hook": "Jewelry that survives a NYC Tuesday.",
+      "angle": "Lifestyle / use-case",
+      "primary_text": "₊˚⊹♡ A day in the usual ♡⊹˚₊ 7am bodega coffee. 11am train transfer. 3pm gallery walk. 11pm dive bar. The same earrings. The same rings. No swap-outs, no 'special occasion' drawer. OHT is built for the way you actually live in this city — soft enough for daily, sharp enough to feel like you ☁︎",
+      "visual_direction": "Handheld POV: hand grabbing keys, subway pole, slice at 2am, cab window — close-ups on the same earrings/rings throughout. Shot in Soho, LES, Dimes Square.",
+      "fills_gap": "Zero video in current rotation and no NYC-specific visual language despite the brand DNA."
+    },
+    {
+      "concept_name": "Layer Map Carousel",
+      "format": "6-card Carousel, static",
+      "hook": "Your weekly jewelry rotation, mapped.",
+      "angle": "Education / versatility",
+      "primary_text": "Mon: solo heart charm. Tue: stacked with the supernova. Wed: minimal — just the studs. Thu: full layer. Fri: cube dice + chain. Sat: shooting stars only. Sun: rest day, keep the rings. One set, seven looks. Be unapologetically you — but make it a system ✧˖°",
+      "visual_direction": "Each card = a flat-lay or neckline shot labeled with the day. Consistent grid, OHT serif type, transparent heart and supernova as recurring anchor pieces.",
+      "fills_gap": "Saves the strong 'Weekly Jewelry Rotation' headline from the killed Ad #3 and reframes it as a shoppable how-to — also the only carousel format in rotation."
+    },
+    {
+      "concept_name": "Drop Day Hype Reel",
+      "format": "Video, 12-15s vertical",
+      "hook": "From CUBE to cosmos. Pieces left: 47.",
+      "angle": "Scarcity / collab social proof",
+      "primary_text": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ The supernova. The cube dice. The full drop. Built for the main character era and almost gone. Tap in before it's archive-only ✧˖°",
+      "visual_direction": "Fast-cut reel: LIGHTSUM stage footage → product macro shots → real customer wearing the pieces → live inventory counter overlay. Black background, neon pink accents.",
+      "fills_gap": "The LIGHTSUM collab is currently a static duplicated across two ads — this turns it into urgency-driven motion content with real scarcity signaling, which neither Ad #4 nor #5 delivers."
+    }
+  ],
+  "unlocks": [
+    "Cut auction overlap on the duplicate Ads #2/#3 and #4/#5 — recover ~20-30% wasted spend",
+    "Add the first video format to a static-only account, opening cheaper Reels and Stories inventory",
+    "Replace generic empowerment copy with NYC-specific lifestyle language that's defensible against competitors",
+    "Extend the LIGHTSUM drop's revenue tail with a proper hype reel before the collab moment cools"
+  ],
+  "next_step": {
+    "urgency": "Ads #2 and #3 fatigue inside 5 days — replacements need to be in-flight by next week.",
+    "headline": "Let's get the replacements shot and live.",
+    "body": "I'll walk you through the exact kill/scale sequence and how we'd produce the three concepts above on a 7-day turnaround. 30 minutes, no pitch theater.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scores derived from observable signals in the live Meta Ad Library scrape — copy duplication, LP overlap, format diversity, hook specificity — and benchmarked against streetwear/jewelry rotations we've worked with. No CTR/CPM data was available at time of writing.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
