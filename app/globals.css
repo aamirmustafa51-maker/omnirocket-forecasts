@@ -321,6 +321,35 @@ p { margin: 0 0 14px; }
   margin-bottom: 8px;
 }
 @media (max-width: 600px) { .verdict-pair { grid-template-columns: 1fr; } }
+
+@media (max-width: 600px) {
+  .creative-card { padding: 18px 16px; }
+  .creative-head {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      "thumb score"
+      "text text";
+    gap: 12px;
+    align-items: start;
+  }
+  .creative-thumb { grid-area: thumb; width: 80px; height: 100px; }
+  .creative-score { grid-area: score; text-align: right; }
+  .creative-head-left { grid-area: text; }
+  .creative-head-headline { font-size: 17px; }
+  .creative-head-body { font-size: 14px; }
+  .creative-bar-labels { font-size: 10px; gap: 6px; }
+
+  .verdict { padding: 18px 16px; }
+  .verdict h3 { font-size: 17px; }
+
+  .benchmark { grid-template-columns: 1fr; gap: 8px; }
+  .summary-rest { padding: 14px 14px; }
+  .summary-rest td.body { display: none; }
+
+  .concept { padding: 18px 16px; }
+  .concept-row { grid-template-columns: 1fr; gap: 4px; }
+}
 .verdict {
   border: 1px solid var(--line);
   background: #fff;
