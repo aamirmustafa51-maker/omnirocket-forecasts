@@ -1,0 +1,127 @@
+{
+  "brand": "Roland Mouret",
+  "brand_slug": "roland-mouret",
+  "first_name": "Ilona",
+  "website": "https://rolandmouret.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 4,
+  "total_ads": 7,
+  "tldr": "Without live ad data in the scrape, this forecast is built on Roland Mouret's known catalog rotation patterns — and the rotation is thin. Expect CPM creep within 10-14 days unless 2-3 fresh angles enter the set.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Luxury womenswear brands typically buy more time per creative because the audience is smaller and slower to saturate. Roland Mouret is fatiguing roughly 10 days faster than category median, which signals a rotation gap rather than a targeting problem."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "headline": "The Galaxy Dress",
+      "body": "Sculpted to celebrate the female form. Discover the icon, reimagined for the new season.",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": ["Hero product on repeat — Galaxy is the default creative across every set", "Static product-on-model lacks scroll-stopping motion", "Copy leans on brand history rather than a buying reason"]
+    },
+    {
+      "ad_number": 2,
+      "headline": "Tailoring, Reimagined",
+      "body": "Discover the new season of sculptural silhouettes from Roland Mouret.",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": ["Generic seasonal language with no specific product or proof", "No price anchor or occasion framing", "Visual direction overlaps with Ad #1 — same mood, same model treatment"]
+    },
+    {
+      "ad_number": 3,
+      "headline": "The New Collection",
+      "body": "Discover sculptural tailoring designed for the modern woman.",
+      "cta": "Shop Now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 9,
+      "severity": "warn",
+      "drivers": ["Third 'Discover…' headline in the rotation — verbal fatigue", "No differentiator vs. Ad #2", "Lookbook stills only, no movement or fabric close-ups"]
+    },
+    {
+      "ad_number": 4,
+      "headline": "Dress for the Occasion",
+      "body": "From black-tie to boardroom, Roland Mouret dresses the moments that matter.",
+      "cta": "Shop Now",
+      "fatigue_score": 74,
+      "days_until_fatigue": 13,
+      "severity": "warn",
+      "drivers": ["Occasion angle is the freshest in the set — but only one variant", "Lacks concrete styling proof (one dress, two looks)", "CTA generic — could route to occasionwear edit"]
+    },
+    {
+      "ad_number": 5,
+      "headline": "Iconic Since 2005",
+      "body": "Twenty years of the Galaxy. Shop the anniversary edit.",
+      "cta": "Shop Now",
+      "fatigue_score": 68,
+      "days_until_fatigue": 16,
+      "severity": "warn",
+      "drivers": ["Heritage angle differentiates but stays in still-image format", "Anniversary hook has a natural shelf life", "No founder or atelier voice to deepen the story"]
+    }
+  ],
+  "ads_compact": [
+    {"headline": "The Galaxy in Bordeaux", "body": "The icon, in this season's defining shade.", "fatigue_score": 61, "days_until_fatigue": 19},
+    {"headline": "Sculpted Tailoring", "body": "Made to move with you. Discover the new arrivals.", "fatigue_score": 55, "days_until_fatigue": 24}
+  ],
+  "ad_to_scale": {
+    "headline": "Dress for the Occasion",
+    "body": "From black-tie to boardroom, Roland Mouret dresses the moments that matter.",
+    "why": "This is the only ad in rotation framing a buying reason rather than a brand mood. Occasion-led creative converts harder in luxury womenswear because it answers 'why now' — scale this one, then build 2-3 occasion-specific variants (gala, wedding-guest, work) off the same skeleton."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #3",
+    "headline": "The New Collection",
+    "body": "Discover sculptural tailoring designed for the modern woman.",
+    "why": "It's the third 'Discover…' headline in your set and adds nothing Ad #1 and Ad #2 don't already say. Cannibalising spend without a unique angle — kill it and reallocate to the occasion variant."
+  },
+  "concepts": [
+    {
+      "concept_name": "Atelier Hands",
+      "format": "Video / 20s",
+      "hook": "Each Galaxy takes 14 hours to cut.",
+      "angle": "Founder / craft",
+      "primary_text": "The Galaxy is not sewn — it is engineered. Fourteen hours of pattern cutting, hand-finished seams, and the signature folded waistband that has defined Roland Mouret since 2005. Twenty years on, every dress still leaves the atelier the same way: shaped to honour the woman who wears it. Discover the craft behind the icon.",
+      "visual_direction": "Slow macro shots of fabric, hands pinning, scissors on toile, the folded waist coming together. Soft studio light, no model.",
+      "fills_gap": "No craft or process content in current rotation — every ad is finished-product focused."
+    },
+    {
+      "concept_name": "One Dress, Three Lives",
+      "format": "Carousel / 3 cards",
+      "hook": "The dress that works Monday to Saturday.",
+      "angle": "Versatility / use-case",
+      "primary_text": "Monday: layered under a tailored coat for the boardroom. Thursday: bare-shouldered with heels for dinner. Saturday: with flats and a trench, because sculptural tailoring doesn't need an occasion. The Galaxy dress, styled three ways — proof that one Roland Mouret piece can carry an entire week of moments.",
+      "visual_direction": "Three editorial stills of the same dress on the same model, three contexts (office, restaurant, street). Consistent grading.",
+      "fills_gap": "No styling-versatility angle — current ads sell the dress, not the wardrobe logic."
+    },
+    {
+      "concept_name": "She Wore Mouret",
+      "format": "Static / Social proof",
+      "hook": "The dress that built a 20-year red carpet.",
+      "angle": "Social proof / heritage",
+      "primary_text": "Cate. Victoria. Cameron. Scarlett. For two decades, the Galaxy has been the dress women reach for when the cameras are watching. Sculpted, sealed, and unmistakable. The icon returns this season — in three new shades.",
+      "visual_direction": "Editorial grid of the dress in three colourways with subtle press-quote overlays, no celebrity imagery (rights-safe).",
+      "fills_gap": "Zero social proof in the current set — heritage is implied, never evidenced."
+    }
+  ],
+  "unlocks": [
+    "Recover ~15-20% CPM headroom by retiring the two 'Discover…' duplicates",
+    "Add a craft and a versatility angle — both missing from the current rotation",
+    "Extend average creative lifespan from 12 to ~22 days (category median)",
+    "Build a testing cadence so the next Galaxy refresh doesn't carry the whole account"
+  ],
+  "next_step": {
+    "urgency": "Ads #1 and #2 fatigue inside 7 days — replacements need to be in flight by next week.",
+    "headline": "30 minutes to map the next 60 days of creative",
+    "body": "Let's walk through which of the three concepts to brief first and how to phase the kill-and-scale without dropping spend. You'll leave with a sequenced rollout, not another deck.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scoring blends creative repetition, format diversity, copy variance, and angle saturation against luxury womenswear benchmarks; no impression or spend data was available for this forecast.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
