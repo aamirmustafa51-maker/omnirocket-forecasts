@@ -1,0 +1,115 @@
+{
+  "brand": "Roland Mouret",
+  "brand_slug": "roland-mouret",
+  "first_name": "Ilona",
+  "website": "https://rolandmouret.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 4,
+  "total_ads": 4,
+  "tldr": "All 4 live ads are duplicate pairs running the same 'New Arrivals' headline with two near-identical SS26 body lines — 3 are already in danger and 1 is in warn territory. Expect CPM creep within 7-10 days unless the rotation is rebuilt with format and angle diversity.",
+  "benchmark": {
+    "your_value_days": 9,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Roland Mouret's rotation is fatiguing roughly 2.4x faster than the luxury womenswear category median. The duplicate-creative footprint is the main drag — top-quartile brands rotate 6-8 distinct angles, not 2."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "headline": "New Arrivals",
+      "body": "Elegance made easy, from day to night. Discover our SS26 collection.",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": ["Exact duplicate of Ad #2 — auction overlap is splitting frequency", "Generic 'New Arrivals' headline carries zero product specificity", "Body line 'Elegance made easy' lacks a hook unique to Roland Mouret's sculptural DNA"]
+    },
+    {
+      "ad_number": 2,
+      "headline": "New Arrivals",
+      "body": "Elegance made easy, from day to night. Discover our SS26 collection.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": ["Identical twin of Ad #1 — Meta is likely throttling delivery on one", "No differentiator between day and night use cases despite the copy promising both", "Headline reuse across 4/4 ads kills creative variance signal"]
+    },
+    {
+      "ad_number": 3,
+      "headline": "New Arrivals",
+      "body": "Evening elegance, reimagined. Discover the latest eveningwear from SS26.",
+      "cta": "Shop now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": ["Duplicate of Ad #4 running in parallel", "'Reimagined' is a luxury cliché — no proof point about what was reimagined", "Eveningwear angle has no occasion trigger (gala, party, season) to drive urgency"]
+    },
+    {
+      "ad_number": 4,
+      "headline": "New Arrivals",
+      "body": "Evening elegance, reimagined. Discover the latest eveningwear from SS26.",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": ["Slightly fresher impression curve than Ad #3 but same copy ceiling", "Missing the Galaxy dress hero — the brand's most recognisable equity is absent", "No social proof, press mention, or stylist voice to carry the luxury signal"]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #4",
+    "headline": "New Arrivals",
+    "body": "Evening elegance, reimagined. Discover the latest eveningwear from SS26.",
+    "why": "Of the four, the eveningwear angle carries the strongest intent signal for a sculptural-tailoring house — buyers searching luxury evening dressing convert at higher AOV. Pause its duplicate (Ad #3) and consolidate spend here while you build the replacements below. This buys roughly 7-10 more usable days from the existing asset."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #1",
+    "headline": "New Arrivals",
+    "body": "Elegance made easy, from day to night. Discover our SS26 collection.",
+    "why": "It is an exact duplicate of Ad #2 and the broadest, least-specific message in the rotation — 'day to night' is the most over-used line in womenswear ads and gives Meta nothing to optimise against. Killing it stops auction self-cannibalisation and frees budget for the eveningwear ad and the new concepts."
+  },
+  "concepts": [
+    {
+      "concept_name": "Galaxy Origin Story",
+      "format": "Video — 30s",
+      "hook": "The dress that built a house.",
+      "angle": "Founder/craft heritage",
+      "primary_text": "Some dresses flatter. The Galaxy sculpts. Cut to hold the waist, lift the shoulder and fall in one clean line, it has been worn on red carpets and in boardrooms for two decades — and reissued for SS26 in three new shades. Discover the Galaxy and the eveningwear pieces built from its blueprint.",
+      "visual_direction": "Slow studio pan across the Galaxy on a form, intercut with archive runway footage and a single SS26 colourway reveal. Muted palette, no voiceover — title cards only.",
+      "fills_gap": "No founder, craft, or signature-product story exists in the current rotation — every ad is a generic collection pointer."
+    },
+    {
+      "concept_name": "Day to Night, Shown Not Told",
+      "format": "Carousel — 5 frames",
+      "hook": "One dress. Two lives.",
+      "angle": "Versatility / use-case",
+      "primary_text": "The promise of 'day to night' is everywhere. We wanted to prove it. Frame one: the Ardingly midi at a Tuesday lunch. Frame five: the same dress, after dark, with heels and a sharper lip. Three SS26 styles, styled twice. Tap through and decide which life you are dressing for first.",
+      "visual_direction": "Split-styled editorial: same model, same dress, daylight vs. evening lighting on each frame. Shot in a Mayfair townhouse for context.",
+      "fills_gap": "Current ads claim 'day to night' but show nothing — this turns the line into proof and adds carousel format diversity."
+    },
+    {
+      "concept_name": "Worn By",
+      "format": "Static — 3 variants",
+      "hook": "Cate. Victoria. You.",
+      "angle": "Social proof / press",
+      "primary_text": "Roland Mouret has dressed Cate Blanchett, Victoria Beckham and Dame Helen Mirren. The pieces they chose share one thing — sculptural tailoring that does the work for you. The SS26 eveningwear collection is built on the same principles, available now from sizes 6 to 16.",
+      "visual_direction": "Editorial still life of an SS26 evening piece on a hanger against a stone-grey wall, with embossed press-quote stamps from Vogue, Harper's Bazaar, Telegraph.",
+      "fills_gap": "Zero social proof or press authority in the live rotation — critical for a luxury price point at cold-traffic stage."
+    }
+  ],
+  "unlocks": [
+    "Stop duplicate auction overlap that is currently throttling 2 of 4 ads",
+    "Add format variance (video + carousel + static) so Meta can find new pockets",
+    "Bring the Galaxy and brand heritage back into paid — currently invisible",
+    "Extend usable creative life from ~9 days to a 22+ day rotation"
+  ],
+  "next_step": {
+    "urgency": "3 of your 4 ads fatigue within 7 days — the rotation needs replacements in flight by next week.",
+    "headline": "30 minutes to rebuild the SS26 rotation",
+    "body": "Ilona, let's walk through the 3 concepts above, decide which two we shoot first, and map a 6-week creative calendar that keeps CPMs flat through summer. I'll bring the production timeline and a budget split for the eveningwear push.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scores combine copy-variance, duplicate detection, format diversity and angle coverage against luxury womenswear benchmarks; days-until-fatigue is a directional estimate, not a guarantee.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
