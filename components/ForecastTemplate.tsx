@@ -47,7 +47,7 @@ export type ForecastData = {
   }
   ads: Ad[]
   ads_compact: CompactAd[]
-  ad_to_scale: { headline: string; body: string; why: string }
+  ad_to_scale: { headline: string; body: string; why: string; ad_label?: string }
   ad_to_kill: { headline: string; body: string; why: string; ad_label: string }
   concepts: Concept[]
   unlocks: string[]
@@ -71,6 +71,12 @@ function severityFor(score: number): "danger" | "warn" | "ok" {
 function adImageExists(slug: string, n: number): boolean {
   const p = path.join(process.cwd(), "public", "creatives", slug, `creative-${n}.jpg`)
   return fs.existsSync(p)
+}
+
+function parseAdNumber(label?: string): number | null {
+  if (!label) return null
+  const m = label.match(/\d+/)
+  return m ? parseInt(m[0], 10) : null
 }
 
 export default function ForecastTemplate({
@@ -212,30 +218,54 @@ export default function ForecastTemplate({
 
       <h2>What we'd do this week</h2>
       <div className="verdict-pair">
-        <div className="verdict scale">
-          <div className="verdict-tag">Scale this one</div>
-          <div className="verdict-head">
-            <div className="verdict-thumb t-scale" />
-            <div className="verdict-head-text">
-              <h3>"{data.ad_to_scale.headline}"</h3>
-              <div className="verdict-body">"{data.ad_to_scale.body}"</div>
-            </div>
-          </div>
-          <div className="verdict-why">{data.ad_to_scale.why}</div>
-        </div>
-        <div className="verdict kill">
-          <div className="verdict-tag">Kill this one today</div>
-          <div className="verdict-head">
-            <div className="verdict-thumb t-kill" />
-            <div className="verdict-head-text">
-              <h3>
-                "{data.ad_to_kill.headline}" ({data.ad_to_kill.ad_label})
-              </h3>
-              <div className="verdict-body">"{data.ad_to_kill.body}"</div>
-            </div>
-          </div>
-          <div className="verdict-why">{data.ad_to_kill.why}</div>
-        </div>
+        {(() => {
+          const scaleNum = parseAdNumber(data.ad_to_scale.ad_label)
+          const scaleHasImg = scaleNum != null && adImageExists(slug, scaleNum)
+          const killNum = parseAdNumber(data.ad_to_kill.ad_label)
+          const killHasImg = killNum != null && adImageExists(slug, killNum)
+          return (
+            <>
+              <div className="verdict scale">
+                <div className="verdict-tag">Scale this one</div>
+                <div className="verdict-head">
+                  <div className="verdict-thumb t-scale">
+                    {scaleHasImg && (
+                      <img
+                        src={`/creatives/${slug}/creative-${scaleNum}.jpg`}
+                        alt={`Ad #${scaleNum} creative`}
+                      />
+                    )}
+                  </div>
+                  <div className="verdict-head-text">
+                    <h3>"{data.ad_to_scale.headline}"</h3>
+                    <div className="verdict-body">"{data.ad_to_scale.body}"</div>
+                  </div>
+                </div>
+                <div className="verdict-why">{data.ad_to_scale.why}</div>
+              </div>
+              <div className="verdict kill">
+                <div className="verdict-tag">Kill this one today</div>
+                <div className="verdict-head">
+                  <div className="verdict-thumb t-kill">
+                    {killHasImg && (
+                      <img
+                        src={`/creatives/${slug}/creative-${killNum}.jpg`}
+                        alt={`Ad #${killNum} creative`}
+                      />
+                    )}
+                  </div>
+                  <div className="verdict-head-text">
+                    <h3>
+                      "{data.ad_to_kill.headline}" ({data.ad_to_kill.ad_label})
+                    </h3>
+                    <div className="verdict-body">"{data.ad_to_kill.body}"</div>
+                  </div>
+                </div>
+                <div className="verdict-why">{data.ad_to_kill.why}</div>
+              </div>
+            </>
+          )
+        })()}
       </div>
 
       <h2>{data.concepts.length} replacement concepts in your voice</h2>
