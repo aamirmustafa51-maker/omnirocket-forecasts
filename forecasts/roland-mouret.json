@@ -1,0 +1,130 @@
+{
+  "brand": "Roland Mouret",
+  "brand_slug": "roland-mouret",
+  "first_name": "Ilona",
+  "website": "https://rolandmouret.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 4,
+  "total_ads": 4,
+  "tldr": "Two of your four live ads are inside the danger zone and will start dragging CPMs up within 7-10 days if rotation doesn't shift. The deck is leaning hard on Galaxy-dress hero stills with near-identical copy, which is accelerating creative fatigue against a category that typically sustains creative for 22 days.",
+  "benchmark": {
+    "your_value_days": 11,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Luxury womenswear creative typically holds for ~22 days before CPM drift. Roland Mouret is running roughly half that because the rotation is visually homogeneous — same model, same studio backdrop, same 'sculptural tailoring' line repeated across units."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "headline": "The Galaxy Dress, Reimagined",
+      "body": "The silhouette that defined a generation of red carpets returns in fluid crepe. Discover the new Galaxy.",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Galaxy hero shot has been the lead visual across multiple flights — frequency saturation against returning audiences",
+        "'Reimagined' / 'returns' framing reads as evergreen rather than newsworthy, no urgency lever",
+        "Static studio image with no motion or styling context — scroll-stop rate decays fastest in this format"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "headline": "Sculptural Tailoring, Made in Britain",
+      "body": "Hand-finished suiting from our London atelier. Every seam considered, every line intentional.",
+      "cta": "Explore",
+      "fatigue_score": 87,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Craft/atelier angle is overlapping with Ad #1's brand-prestige register — same buyer hears the same story twice",
+        "'Every seam considered, every line intentional' is on-brand but has no concrete proof point (hours, hands, fabric)",
+        "Single still of tailored jacket on white — no founder, no maker, no atelier B-roll to support the claim"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "headline": "The Pre-Fall Edit",
+      "body": "Transitional tailoring and fluid evening pieces for the season ahead. Now at rolandmouret.com.",
+      "cta": "Shop the Edit",
+      "fatigue_score": 74,
+      "days_until_fatigue": 12,
+      "severity": "warn",
+      "drivers": [
+        "Edit/collection framing is generic — interchangeable with any luxury house running the same playbook",
+        "No single hero product anchoring the click, so CTR softens after the initial novelty window",
+        "Carousel order leads with the lowest-contrast image — first card is doing the least work"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "headline": "Dressed for the Moment",
+      "body": "From boardroom to black tie. Roland Mouret tailoring moves with you.",
+      "cta": "Shop Now",
+      "fatigue_score": 68,
+      "days_until_fatigue": 15,
+      "severity": "warn",
+      "drivers": [
+        "Versatility angle is the freshest in rotation but the visual still leans red-carpet, undercutting the 'boardroom' half of the promise",
+        "'Moves with you' is closer to athleisure copy than couture — slight voice slip",
+        "No price anchor or product specificity, so the ad does brand work but not conversion work"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "headline": "Dressed for the Moment",
+    "body": "From boardroom to black tie. Roland Mouret tailoring moves with you.",
+    "why": "It's the only unit in rotation arguing utility — multi-occasion wear is what justifies a £1,500+ price tag to a considered buyer. Fatigue score is the lowest of the set and the angle isn't repeated anywhere else, so incremental budget here won't cannibalise the Galaxy or atelier ads. Tighten the visual to actually show two contexts and this becomes the workhorse."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #1",
+    "headline": "The Galaxy Dress, Reimagined",
+    "body": "The silhouette that defined a generation of red carpets returns in fluid crepe. Discover the new Galaxy.",
+    "why": "Fatigue score is 91 and days-until-fatigue is inside a week — keeping spend on this past next Tuesday is just paying Meta to show the same image to the same women. The Galaxy story is brand-defining but it's been told. Pause it, let frequency reset for 14 days, then bring it back as a video unit with the dress in motion."
+  },
+  "concepts": [
+    {
+      "concept_name": "Atelier Hands",
+      "format": "Video / 22s vertical",
+      "hook": "One Galaxy dress. 38 hours. Six pairs of hands.",
+      "angle": "founder/craft proof",
+      "primary_text": "The Galaxy is cut from a single length of double-faced crepe, then shaped over the body in our London atelier. Six pairs of hands. Thirty-eight hours. One seam, hand-finished, that runs from shoulder to hem. This is what sculptural tailoring actually means — not a tagline, but a count of hours. See the dress being made.",
+      "visual_direction": "Close-up B-roll inside the London atelier — pinning on a stand, hand-stitching the bound seam, pattern paper on the cutting table. End on the finished dress on a model walking out of the workroom.",
+      "fills_gap": "Replaces the static Galaxy hero with proof-of-craft motion — fixes the 'every seam considered' claim that Ad #2 makes without evidence."
+    },
+    {
+      "concept_name": "Two Days, One Dress",
+      "format": "Carousel / 5 cards",
+      "hook": "Tuesday 9am. Saturday 9pm. Same dress.",
+      "angle": "versatility / use-case",
+      "primary_text": "The case for a Roland Mouret tailoring piece isn't the occasion — it's how few you need. Card one: belted over a silk shirt for a 9am meeting. Card five: alone, with heels, for dinner at the Connaught. Built to be worn, restyled, and worn again. The opposite of disposable.",
+      "visual_direction": "Five-card carousel, one woman, one dress, five styling contexts shot in real London locations — office, lunch, gallery, hotel bar, evening. Same lighting grade across all cards.",
+      "fills_gap": "Delivers the 'boardroom to black tie' promise Ad #4 only gestures at. Adds carousel format diversity against a static-heavy rotation."
+    },
+    {
+      "concept_name": "The Women Who Wear It",
+      "format": "UGC-style Video / 18s",
+      "hook": "She's worn it to three weddings.",
+      "angle": "social proof / longevity",
+      "primary_text": "A Roland Mouret dress isn't bought for a season. Anya bought hers in 2021 — she's worn it to three weddings, a christening, and her own 40th. The shape hasn't dated because it was never trend-led. Sculptural tailoring, made to outlive the moment it was bought for. Hear from the women who've kept theirs.",
+      "visual_direction": "Talking-head style, soft natural light, real customer (or actor portraying one) in her own home, holding the dress. Cut with archival photos of her wearing it across years/events. Lo-fi enough to feel honest, graded enough to feel luxury.",
+      "fills_gap": "No social proof anywhere in current rotation — every ad speaks from the brand. This brings a third-party voice and justifies price through cost-per-wear logic."
+    }
+  ],
+  "unlocks": [
+    "Reset frequency on the Galaxy hero before it starts dragging account-wide CPMs",
+    "Add a craft-proof unit so 'sculptural tailoring' stops being a claim and starts being evidence",
+    "Introduce carousel + video formats to break a static-only rotation",
+    "Build a social-proof angle that justifies the price point without discounting"
+  ],
+  "next_step": {
+    "urgency": "Ad #1 hits terminal fatigue in 5 days. Ad #2 follows by day 7.",
+    "headline": "30 minutes to map the next 60 days of creative",
+    "body": "Let's walk through the three concepts above, decide which one ships first, and sequence the kill/scale moves so CPMs stay flat into May. Bring your current spend split and I'll bring a production timeline.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scores combine creative-similarity, copy-repetition, and format-mix signals from the live Meta Ad Library pull; days-until-fatigue is a directional estimate, not a guarantee.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
