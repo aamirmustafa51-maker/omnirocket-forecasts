@@ -1,150 +1,74 @@
 {
-  "brand": "OHTNYC",
+  "brand": "Deenin",
   "brand_slug": "ohtnyc",
   "first_name": "Friend",
-  "website": "https://ohtnyc.com",
+  "website": "https://deenin.com",
   "generated_date": "April 28, 2026",
-  "read_time_min": 4,
-  "total_ads": 5,
-  "tldr": "Two ads (#2 and #3) share identical body copy and the OHT x LIGHTSUM drop runs as a near-exact dupe across two SKUs — meaning 4 of 5 primary ads are riding repeated text. Expect CPM lift within 7-10 days as Meta's frequency caps tighten on these duplicate creatives.",
+  "read_time_min": 3,
+  "total_ads": 0,
+  "tldr": "No live primary ads were captured in the scrape, so there's nothing in-market to fatigue-score right now. That's actually the bigger story — every day dark on Meta is a day competitors compound learnings and CPMs reset against you when you relaunch cold.",
   "benchmark": {
-    "your_value_days": 11,
+    "your_value_days": 0,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "OHTNYC is fatiguing roughly 2x faster than the jewelry/streetwear category median. The driver isn't volume — it's repetition: the same 'Be unapologetically you' and 'From CUBE to cosmos' blocks appear across multiple active ads."
+    "context": "Faith-led modest fashion and lifestyle brands typically sustain a creative for ~22 days before CPMs climb 20%+. With zero active ads detected, Deenin is starting from a cold pixel disadvantage versus category peers running 5-10 concurrent creatives."
   },
-  "ads": [
-    {
-      "ad_number": 1,
-      "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
-      "body": "₊˚⊹♡ THE USUAL ♡⊹˚₊ Not the jewelry you save for \"someday.\" The ones you live in, grocery runs, late nights, everything between. Soft, sharp, and oht to the core ♡ Meet the usual, your everyday, upgraded ☁︎⚙︎☆",
-      "cta": "Shop Now",
-      "fatigue_score": 72,
-      "days_until_fatigue": 12,
-      "severity": "warn",
-      "drivers": [
-        "Headline + body re-runs verbatim on at least 2 other active placements (heart-bow-necklace, shooting-star-earrings)",
-        "Heavy decorative glyphs (₊˚⊹♡☁︎⚙︎☆) that scrolled audiences now pattern-recognize as 'OHT ad' before reading",
-        "Strong everyday-wear angle but no proof — no UGC, no wear-test, no creator voice backing the claim"
-      ]
-    },
-    {
-      "ad_number": 2,
-      "headline": "Layered to perfection",
-      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
-      "cta": "Shop Now",
-      "fatigue_score": 88,
-      "days_until_fatigue": 5,
-      "severity": "danger",
-      "drivers": [
-        "Body copy is a 100% character-for-character duplicate of Ad #3 — same LP too (transparent-heart-charm-necklace)",
-        "Generic empowerment language ('unapologetically you', 'fearlessly') reads like brand boilerplate, not OHT's downtown NYC voice",
-        "No product specificity — never names the necklace, the material, or why it layers"
-      ]
-    },
-    {
-      "ad_number": 3,
-      "headline": "For Your Weekly Jewelry Rotation",
-      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
-      "cta": "Shop Now",
-      "fatigue_score": 90,
-      "days_until_fatigue": 4,
-      "severity": "danger",
-      "drivers": [
-        "Identical body to Ad #2 AND identical landing page — Meta is almost certainly suppressing one of the two for redundancy",
-        "Headline 'Weekly Jewelry Rotation' is the strongest concept in the rotation but is buried under recycled body copy",
-        "Zero differentiation between this ad and #2 from the user's POV — wasted impression budget"
-      ]
-    },
-    {
-      "ad_number": 4,
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
-      "cta": "Shop Now",
-      "fatigue_score": 68,
-      "days_until_fatigue": 14,
-      "severity": "warn",
-      "drivers": [
-        "Same headline + body as Ad #5, only the LP SKU changes (cube-dice-necklace vs supernova-necklace)",
-        "Collab angle (LIGHTSUM/CUBE) is the freshest hook in the account — but it's stretched across 2 ads instead of 2 distinct angles",
-        "'Limited drop' urgency is stated but never quantified (no end date, no unit count)"
-      ]
-    },
-    {
-      "ad_number": 5,
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
-      "cta": "Shop Now",
-      "fatigue_score": 70,
-      "days_until_fatigue": 13,
-      "severity": "warn",
-      "drivers": [
-        "Verbatim duplicate of Ad #4 with only the destination product swapped",
-        "Collab equity is real but this twin-ad setup splits learnings across two ad IDs instead of consolidating signal",
-        "No 'why this collab' story — fans of LIGHTSUM aren't told what makes the supernova piece different from the cube dice piece"
-      ]
-    }
-  ],
-  "ads_compact": [
-    {"headline": "Steal Hearts with He♡rt Heist", "body": "This is what falling in love looks like. He♡rt Heist blends romance with edge: crystal-lit hearts, love-locked chains, surgical steel that shines...", "fatigue_score": 84, "days_until_fatigue": 6},
-    {"headline": "Level Up Your Fit with K-pop Style Jewelry", "body": "Looking for Y2K jewelry that fits your vibe and your fit? We got you. 💿💅 The Y2K baddie aesthetic is officially back...", "fatigue_score": 66, "days_until_fatigue": 15},
-    {"headline": "Soft Enough for Daily. Sharp Enough to Feel Like You", "body": "THE USUAL — repeated across 3+ ads with different LPs (shooting-star-earrings, heart-bow-necklace)", "fatigue_score": 78, "days_until_fatigue": 9},
-    {"headline": "Steal Hearts This Valentine's ♡ He♡rt Heist", "body": "Not just Valentine's jewelry — a He♡rt Heist. Crystal hearts, romantic motifs, and that signature Y2K sparkle...", "fatigue_score": 71, "days_until_fatigue": 11}
-  ],
+  "ads": [],
+  "ads_compact": [],
   "ad_to_scale": {
-    "ad_label": "Ad #4",
-    "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-    "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage.",
-    "why": "It's the only ad in rotation with a proprietary hook (the LIGHTSUM collab) that competitors literally cannot copy. K-pop fan audiences run hot on Meta and convert on scarcity. Pause Ad #5 (its twin), consolidate spend onto #4 with a real end-date in the copy, and you'll see CTR lift inside 72 hours."
+    "ad_label": "N/A",
+    "headline": "No live ads detected",
+    "body": "No active Meta creatives were returned in the scrape for Deenin.",
+    "why": "Without live ads in rotation, there is no winner to scale. The first priority is getting 3-5 distinct angles live so the pixel has signal to optimize against."
   },
   "ad_to_kill": {
-    "ad_label": "Ad #3",
-    "headline": "For Your Weekly Jewelry Rotation",
-    "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
-    "why": "Body copy is a verbatim duplicate of Ad #2 pointing to the same landing page — Meta is splitting signal between two near-identical creatives. The headline 'Weekly Jewelry Rotation' is actually the better hook of the two, so kill #3 and rebuild the headline onto a fresh body that names the product."
+    "ad_label": "N/A",
+    "headline": "No live ads detected",
+    "body": "No active Meta creatives were returned in the scrape for Deenin.",
+    "why": "Nothing to kill — but the absence itself is the issue. A dark account loses retargeting warmth fast, and lookalike seed audiences decay within 30-60 days of zero spend."
   },
   "concepts": [
     {
-      "concept_name": "The Rotation",
-      "format": "UGC video, 15-22s, vertical",
-      "hook": "5 necklaces. 7 days. One rotation.",
-      "angle": "Use-case / versatility",
-      "primary_text": "₊˚⊹♡ THE ROTATION ♡⊹˚₊ Monday it's the shooting star. Friday it's the heart heist. Sunday it's stacked. Real OHT girls don't pick one — they rotate. Surgical steel means you can sweat in it, sleep in it, shower in it. Built for the week, not the occasion ☁︎⚙︎☆ Your rotation starts at ohtnyc.com",
-      "visual_direction": "Fast-cut POV: hand opening a jewelry tray Mon-Sun, each day a different OHT piece going on with the outfit (subway fit, gym fit, going-out fit, WFH fit). Shot in NYC apartment + street.",
-      "fills_gap": "Zero video/UGC currently in rotation — every primary ad is static-style copy. Also activates the 'Weekly Rotation' headline that's wasted on Ad #3."
+      "concept_name": "The Travel Wudhu Problem",
+      "format": "UGC Video / 22-28s",
+      "hook": "Making wudhu in a public bathroom shouldn't feel like this.",
+      "angle": "Use-case / pain-point",
+      "primary_text": "If you've ever tried to wash your feet in an airport sink, you already know. DEENIN's portable bidet and wudhu socks were built for the moments faith meets a non-Muslim public space — so you can stay clean, stay covered, and stay focused on your prayer instead of the awkward stares. Faith-driven essentials for the everyday Muslim. Shop the travel kit.",
+      "visual_direction": "First-person POV in an airport restroom, then cut to the bidet + wudhu socks solving it cleanly. Warm, real, no actors.",
+      "fills_gap": "Establishes a high-empathy problem-aware angle no other ad in rotation covers."
     },
     {
-      "concept_name": "Made in the Studio",
-      "format": "Carousel, 6 frames",
-      "hook": "How a downtown necklace gets made.",
-      "angle": "Founder / craft proof",
-      "primary_text": "Surgical steel doesn't tarnish in the rain on Canal St. We tested. ☁︎ Every OHT piece starts as a sketch in a Lower East Side studio and ends on your collarbone — no factory dropship, no Alibaba reskins. Meet the usual, made the OHT way ♡⊹˚₊ Tap through to see the build.",
-      "visual_direction": "Frame 1: sketch on paper. Frame 2: CAD render. Frame 3: raw steel. Frame 4: polishing. Frame 5: packaging in OHT mailer. Frame 6: worn on model in NYC.",
-      "fills_gap": "Nothing in rotation explains *why OHT vs Shein jewelry*. Craft + NYC origin is a moat the brand owns but never shows."
+      "concept_name": "Raising Them With Deen",
+      "format": "Carousel / 6 frames",
+      "hook": "Teaching kids the 5 pillars without a single screen.",
+      "angle": "Parent / gift / education",
+      "primary_text": "Our Islamic puzzles and affirmation cards turn deen into something kids reach for on their own. No app, no subscription, no battery — just hands-on tools that make Allah's love feel close at home. Built for Muslim parents raising confident kids in any environment. Tap to see the learning collection.",
+      "visual_direction": "Frame-by-frame carousel: puzzle pieces clicking together, child holding affirmation card, parent smiling, product flat-lay, review quote, CTA.",
+      "fills_gap": "Opens the parent/gifting buyer segment and adds a non-prayer-essentials SKU angle."
     },
     {
-      "concept_name": "Caught On Camera",
-      "format": "Static social-proof grid",
-      "hook": "What our girls are wearing this week.",
-      "angle": "Social proof / community",
-      "primary_text": "Tagged on IG this week ♡⊹˚₊ The Heart Heist on a first date. The Shooting Stars on a 6am flight. The OHT x LIGHTSUM cube necklace at the show. You don't need permission to be the main character — you just need the jewelry the main characters are already wearing ✧˖°⋆｡˚ Shop the most-tagged at ohtnyc.com",
-      "visual_direction": "9-up grid of real customer/creator photos with @handles, each piece circled. OHT logo bottom right. Looks like an IG screenshot, not a polished ad.",
-      "fills_gap": "No social proof anywhere in current rotation — every ad is brand-voice monologue. Also breaks the visual sameness of glyph-heavy product copy."
+      "concept_name": "Hijab Magnets That Actually Hold",
+      "format": "Static / 3-image split",
+      "hook": "Pins snag. Magnets don't.",
+      "angle": "Product demo / fashion utility",
+      "primary_text": "If your hijab has ever slipped mid-meeting, you don't need another pin — you need a magnet that grips silk, chiffon, and jersey without leaving a mark. DEENIN hijab magnets and underscarves are the quiet upgrade thousands of sisters already swear by. Faith-driven, fabric-friendly, made to last. Shop the fashion essentials.",
+      "visual_direction": "Side-by-side: snagged fabric from a pin vs. clean hold from a magnet. Bold typography, minimal palette.",
+      "fills_gap": "Covers the fashion accessory line and introduces a fast-scrolling static format for cheap top-of-funnel reach."
     }
   ],
   "unlocks": [
-    "Recover ~30-40% of impressions currently wasted on duplicate Ad #2/#3 split",
-    "Extend LIGHTSUM collab window by consolidating Ads #4/#5 into one scaled creative",
-    "Add the 3 missing creative formats (UGC video, craft carousel, social proof) the account has zero of",
-    "Push average days-until-fatigue from ~11 toward category median of 22"
+    "Get 3-5 distinct angles live within 10 days so the pixel has signal to optimize",
+    "Rebuild retargeting warmth before lookalike seeds decay past usable thresholds",
+    "Establish a creative testing cadence so no single ad carries the whole account",
+    "Lock in category-leading days-until-fatigue once volume is restored"
   ],
   "next_step": {
-    "urgency": "Ads #2 and #3 hit critical fatigue inside 5 days — the LIGHTSUM twins follow ~10 days after.",
-    "headline": "Let's get the kill list shipped before next weekend",
-    "body": "30 minutes — I'll walk you through which duplicates to pause first, how to rebuild the 'Weekly Rotation' hook, and the shoot list for the 3 replacement concepts. You leave with a sequenced action plan, not homework.",
+    "urgency": "Every dark day on Meta is a cold-start tax when you relaunch.",
+    "headline": "Let's get DEENIN back in-market the right way",
+    "body": "30 minutes to map the first 5 creatives, the testing structure, and the budget split across prayer essentials, learning tools, and fashion. You'll leave with a launch plan whether we work together or not.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Fatigue scores are modeled from copy repetition, hook diversity, format mix, and category benchmarks across the live Meta Ad Library scrape — not from your account-level CPM/CTR data, which would sharpen the forecast further.",
+  "method_note": "Scoring uses Apify Meta Ad Library scrape data; with zero primary ads returned, the forecast pivots to launch strategy rather than fatigue projection.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
