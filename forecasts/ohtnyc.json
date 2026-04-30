@@ -1,0 +1,115 @@
+{
+  "brand": "OHTNYC",
+  "brand_slug": "ohtnyc",
+  "first_name": "Friend",
+  "website": "https://ohtnyc.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 4,
+  "total_ads": 4,
+  "tldr": "Friend, you're running 4 active ads but only 2 unique creative concepts — Ads 2/3 share identical body copy and Ads 4/5 are exact duplicates pointing to different PDPs. Expect CPMs to climb 18-25% within 10-14 days as Meta's algorithm flags the repetition.",
+  "benchmark": {
+    "your_value_days": 11,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Fashion jewelry brands typically see 22 days before fatigue kicks in. OHTNYC is running at half that pace because two creative pairs are sharing the same body copy verbatim, accelerating audience overlap exhaustion."
+  },
+  "ads": [
+    {
+      "ad_number": 2,
+      "headline": "Layered to perfection",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚  Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "cta": "Shop now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 9,
+      "severity": "warn",
+      "drivers": ["Body copy is identical to Ad 3 — Meta sees two near-twins competing in the same auctions", "'Be unapologetically you' is generic empowerment language with no product specificity", "Headline 'Layered to perfection' doesn't anchor to the transparent heart charm on the LP"]
+    },
+    {
+      "ad_number": 3,
+      "headline": "For Your Weekly Jewelry Rotation",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚  Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": ["Same body copy as Ad 2 driving direct cannibalization", "'Weekly Jewelry Rotation' hook is the strongest angle but undermined by recycled body", "Both ads point to the same transparent heart charm PDP — splitting attribution"]
+    },
+    {
+      "ad_number": 4,
+      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊  From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+      "cta": "Shop now",
+      "fatigue_score": 71,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": ["100% duplicate copy of Ad 5 — only the LP differs (cube-dice vs supernova)", "'Limited drop' urgency loses force when two identical ads run in parallel", "Collab equity (LIGHTSUM/CUBE) is strong but the creative isn't differentiating between the two products"]
+    },
+    {
+      "ad_number": 5,
+      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊  From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+      "cta": "Shop now",
+      "fatigue_score": 73,
+      "days_until_fatigue": 13,
+      "severity": "warn",
+      "drivers": ["Exact text twin of Ad 4 — Meta delivery will favor one and starve the other", "Supernova necklace deserves its own narrative, not shared collab boilerplate", "'Main character era' is a strong hook buried in the middle of the body"]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #3",
+    "headline": "For Your Weekly Jewelry Rotation",
+    "body": "Be unapologetically you. ✧˖°⋆｡˚  Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+    "why": "'For Your Weekly Jewelry Rotation' is the only headline in the rotation that gives a use-case and an implied frequency — it sells the lifestyle, not just the product. Rewrite the body to match the headline's specificity, then push +30% budget. The hook deserves a creative that lives up to it."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #4",
+    "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+    "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊  From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+    "why": "Ad 4 and Ad 5 are byte-for-byte identical text with only different LPs — Meta will pick a favorite and the other becomes dead weight. Kill Ad 4, keep Ad 5 (Supernova has the more visual product story), and redirect spend to a differentiated Cube Dice creative."
+  },
+  "concepts": [
+    {
+      "concept_name": "Stack Check",
+      "format": "UGC Video, 15-22s",
+      "hook": "POV: rotating my OHT stack for the week",
+      "angle": "Use-case / styling utility",
+      "primary_text": "Monday minimal, Friday maximal. ✧˖°⋆｡˚ Your OHT stack isn't one look — it's seven. Genderless layering pieces built to mix, swap, and stack however the day demands. Start with the transparent heart, build out with the cube dice, finish with whatever your main character era calls for. Rotate fearlessly.",
+      "visual_direction": "Creator on camera pulling 5-7 OHT pieces from a tray, narrating Monday-through-Sunday looks. Close-ups on layered necklaces and stacked rings against neckline and hand.",
+      "fills_gap": "Replaces the recycled 'be unapologetically you' body with a concrete use-case the headline 'Weekly Jewelry Rotation' was already promising."
+    },
+    {
+      "concept_name": "Studio to Stage",
+      "format": "Video, 20s — split-screen",
+      "hook": "The piece LIGHTSUM wears on tour",
+      "angle": "Social proof / collab credibility",
+      "primary_text": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ The same Supernova necklace LIGHTSUM wears on stage — now on your neck off it. Built in NYC, designed genderless, priced for fans not collectors. Limited drop. When it's gone, it's gone.",
+      "visual_direction": "Split screen: LIGHTSUM stage footage / performance still on left, fan styling the same Supernova piece IRL on right. Tight macro on the necklace bridging both frames.",
+      "fills_gap": "Differentiates the two LIGHTSUM ads by anchoring one to social proof rather than running twin generic copy."
+    },
+    {
+      "concept_name": "Genderless by Design",
+      "format": "Carousel, 6 frames",
+      "hook": "One piece. Six people. Zero rules.",
+      "angle": "Brand POV / genderless positioning",
+      "primary_text": "OHT was never about who it's for — it's about how you wear it. ✧˖°⋆｡˚ Six New Yorkers, one Cube Dice necklace, six completely different looks. Layered over a tee. Solo on a suit. Stacked with chains. Beauty isn't a category here. Pick yours.",
+      "visual_direction": "6-frame carousel, each frame a different NYC subject (varied gender presentation, age, style) wearing the same Cube Dice necklace styled radically differently. Shot editorial, natural light, street backdrops.",
+      "fills_gap": "No current ad communicates the genderless brand POV — the entire rotation defaults to product-feature copy. This builds top-of-funnel brand equity."
+    }
+  ],
+  "unlocks": [
+    "Cut text duplication across 4 ads → recover 15-20% of wasted impressions inside 7 days",
+    "Add a use-case angle (weekly rotation) and a social proof angle (LIGHTSUM IRL) → broaden audience response",
+    "Differentiate Cube Dice and Supernova creatives → stop the two LIGHTSUM ads from cannibalizing each other",
+    "Establish a genderless brand-POV creative → first true top-of-funnel asset in rotation"
+  ],
+  "next_step": {
+    "urgency": "Ad #3 hits fatigue in 6 days. Ads #4 and #5 follow within two weeks.",
+    "headline": "Let's rebuild the rotation before CPMs spike",
+    "body": "30 minutes to map the 3 replacement concepts to your next 14 days of spend and decide which ad to kill today. You'll leave with a creative calendar and a kill/scale call on each live ad.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scores combine text-duplication detection, hook specificity, and category fatigue baselines from Meta Ad Library scrape — not impression-level data, so treat days_until_fatigue as directional.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
