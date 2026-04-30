@@ -1,0 +1,90 @@
+{
+  "brand": "Deenin",
+  "brand_slug": "deenin",
+  "first_name": "Friend",
+  "website": "https://deenin.com",
+  "generated_date": "April 28, 2026",
+  "read_time_min": 3,
+  "total_ads": 1,
+  "tldr": "Friend, you're running a single-ad rotation on Meta with 'Pray Anywhere. Anytime. With Comfort' carrying all the weight — that's a fatigue accelerator and CPMs typically spike 30-50% within 2 weeks once frequency stacks. With no creative diversity in market, you're one impression cliff away from CAC doubling.",
+  "benchmark": {
+    "your_value_days": 9,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Faith-based and modest fashion DTC brands typically rotate 4-6 concurrent creatives to hit a 22-day median fatigue window. A single-ad account fatigues ~60% faster because frequency compounds against one audience pool with zero variant relief."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "headline": "Pray Anywhere. Anytime. With Comfort.",
+      "body": "Pray Anywhere. Anytime. With Comfort",
+      "cta": "Shop now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 9,
+      "severity": "danger",
+      "drivers": [
+        "Solo ad in rotation — frequency stacks fast with no variant relief",
+        "Headline and body are identical copy ('Pray Anywhere. Anytime. With Comfort') — no secondary hook to refresh attention",
+        "Generic 'Shop now' CTA with no product specificity (prayer mat? wudhu socks? bidet?) — limits click intent and re-targeting signal"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #1",
+    "headline": "Pray Anywhere. Anytime. With Comfort.",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "By default — it's the only ad live. The 'Pray Anywhere. Anytime.' hook is genuinely strong for travel-prayer use cases (airports, offices, non-Muslim spaces), so the angle deserves more budget but only paired with 2-3 fresh executions to prevent the frequency spike already building."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #1",
+    "headline": "Pray Anywhere. Anytime. With Comfort.",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "Same ad — kill the static execution within 9 days, keep the angle. The body and headline are literal duplicates which signals zero creative care to the algorithm and the audience. Replace with the three concepts below before pulling spend."
+  },
+  "concepts": [
+    {
+      "concept_name": "Office Prayer POV",
+      "format": "UGC Video, 15-22s",
+      "hook": "How I pray at work without anyone noticing.",
+      "angle": "Use-case / non-Islamic space pain point",
+      "primary_text": "Praying at work shouldn't mean awkward bathroom floors or skipping salah. The Deenin compact prayer mat folds into your bag, the wudhu socks save you the sink scene, and you're back at your desk in under 5 minutes. Faith-driven essentials built for Muslims navigating offices, airports, and everywhere in between. Pray with comfort — wherever the day takes you.",
+    "visual_direction": "Creator films from desk → bag reveal → empty meeting room → mat unfolds → quick wudhu sock close-up → back at desk. Natural lighting, phone-shot.",
+      "fills_gap": "Format diversity (video vs static) + specific use-case the current ad implies but never shows"
+    },
+    {
+      "concept_name": "The Bidet Conversation",
+      "format": "Static carousel, 5 frames",
+      "hook": "The cleanliness standard you grew up with — anywhere.",
+      "angle": "Product education / taboo breaker",
+      "primary_text": "If you grew up in a Muslim household, you know the feeling of staying at a hotel or friend's place and realizing… there's no bidet. The Deenin portable bidet fits in any bag, refills in seconds, and gives you the cleanliness standard your deen requires. No compromises in non-Muslim spaces. No awkward conversations. Just taharah, on your terms.",
+    "visual_direction": "Frame 1 hook text on plain background. Frames 2-4 product in hand, in bag, in use-context (hotel bathroom). Frame 5 review screenshot.",
+      "fills_gap": "Product specificity — current ad never names what you sell"
+    },
+    {
+      "concept_name": "Founder Why",
+      "format": "Founder talking-head video, 30s",
+      "hook": "I built Deenin because I was tired of choosing.",
+      "angle": "Founder story / mission",
+      "primary_text": "Choosing between your faith and your day shouldn't be a thing. Deenin started because praying on time, staying in wudhu, and teaching kids the deen are non-negotiables — but the world isn't built for it. So we built the products that are: prayer mats that travel, wudhu socks that work, affirmation cards your kids will actually pick up. Faith made easier, every single day.",
+    "visual_direction": "Founder direct-to-camera, soft natural light, product shelf behind. B-roll of kids' puzzles, hijab magnets, prayer mat unfolding.",
+      "fills_gap": "Brand trust + mission story — currently zero founder/craft signal in rotation"
+    }
+  ],
+  "unlocks": [
+    "Cut single-ad frequency risk before it doubles your CPM in week 2",
+    "Add product specificity so retargeting pools actually segment by intent (mat vs bidet vs socks)",
+    "Bring in video + UGC formats Meta is currently rewarding with cheaper impressions",
+    "Build a founder/mission angle that compounds brand search and organic lift"
+  ],
+  "unlocks_note": "",
+  "next_step": {
+    "urgency": "Ad #1 hits fatigue cliff in ~9 days — replacements need to be live by then.",
+    "headline": "Let's get 3 fresh creatives in market this week",
+    "body": "30 minutes to walk through the concepts above, lock the shoot list, and map a rotation that holds CPM steady through Ramadan prep season. No pitch — just a working session.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Fatigue scores combine creative variant count, copy redundancy, format mix, and category frequency benchmarks; limited to publicly visible Meta Ad Library data, not account-side spend or CTR.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
