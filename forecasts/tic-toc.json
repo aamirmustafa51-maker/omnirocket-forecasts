@@ -6,12 +6,12 @@
   "generated_date": "May 1, 2026",
   "read_time_min": 3,
   "total_ads": 2,
-  "tldr": "Bernard, both live ads are byte-for-byte duplicates of the same 'Your New Favorite Outfit Starts Here' creative pointing at the homepage — that's 100% creative concentration with zero variant testing. Expect CPM lift within 7-10 days as Meta's frequency cap compounds against a single hook.",
+  "tldr": "Bernard, both of your live ads are running the exact same headline, body, and CTA — it's effectively one creative spending twice. Expect CPM to climb sharply within 7-10 days as frequency stacks against the same audience pocket.",
   "benchmark": {
     "your_value_days": 8,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "Tic Toc is well below category median because the entire active pool is one recycled hook, one headline, one body, one CTA, and one landing page. Fashion ecom brands in the top quartile typically rotate 6-10 distinct hooks against category-specific PDPs."
+    "context": "Fashion ecom brands at your stage typically rotate 6-10 distinct creative angles in-market at once. With two identical 'Your New Favorite Outfit Starts Here' variants live, you're well below category median for creative variety."
   },
   "ads": [
     {
@@ -24,9 +24,9 @@
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "Exact duplicate of Ad #2 — same headline, body, CTA, and landing URL means Meta is serving identical creative twice into the same auctions",
-        "Generic 'Your New Favorite Outfit Starts Here' hook has no product, category, or fit specificity — nothing for a returning viewer to re-engage with",
-        "Landing page is the homepage, not a category like babydolls/bustiers/swim — kills relevance score after the first impression cluster"
+        "Headline 'Your New Favorite Outfit Starts Here' is duplicated verbatim across both live ads — Meta's algorithm reads this as one creative for frequency capping",
+        "Body copy with the LA sparkle emoji and 15% off line is identical to the second variant, so you're not actually testing anything",
+        "Generic 'must-have looks from LA' hook gives no product, no silhouette, no reason — fatigue accelerates fast on vague openers"
       ]
     },
     {
@@ -39,32 +39,34 @@
       "days_until_fatigue": 8,
       "severity": "danger",
       "drivers": [
-        "Carbon copy of Ad #1 — duplicate creative cannibalizes its own delivery and inflates frequency without incremental reach",
-        "'15% OFF your first order' positions this as a pure prospecting hook but it's the only angle running, leaving warm and retargeting audiences with no fresh message",
-        "No product hero in the copy — for a brand with babydolls, plush fleece, swim, and outerwear, leading with 'looks from LA' wastes the catalog's hook potential"
+        "Carbon copy of the other live variant — same headline, same body, same CTA, same homepage landing",
+        "Both ads point to the bare homepage instead of a collection or hero SKU, so even cold traffic that converts has no clear path",
+        "'Shop now' CTA paired with a generic homepage drop is the highest-friction combo for first-time buyers in fashion"
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "ROSA Babydoll Hero — Product-Led PDP Driver",
+    "concept_name": "ROSA Babydoll — Hero SKU Pivot",
     "format": "Static image",
-    "hook": "The babydoll selling out twice this month.",
-    "headline": "Meet ROSA. Sheer, soft, sold-out-soon.",
-    "primary_text": "The ROSA V-Neck Lace Trim Sheer Babydoll Cami is the piece our LA girls keep restocking carts for — delicate lace, a clean V neckline, and that barely-there cami drape that layers under everything from plush fleece sets to denim. New here? Take 15% off your first order. Tap to shop ROSA before she's gone again.",
-    "cta": "Shop Now",
-    "visual_direction": "Editorial close-up of the ROSA babydoll on a soft satin surface with morning light, evoking an LA bedroom-flatlay aesthetic that contrasts the homepage-generic ads currently running.",
-    "fills_gap": "Both live ads run identical generic 'looks from LA' homepage copy with zero product hero — this concept replaces vague brand-level messaging with a specific SKU, a specific category (intimates/cami), and a PDP-level destination, giving Meta a fresh angle to rotate against the recycled duplicate.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft LA bedroom flatlay on cream silk sheets with delicate lace ribbon, a small ceramic coffee cup, and a single dried rose stem nearby, with warm morning sunlight filtering through sheer curtains casting gentle shadows across the fabric. Modern, fashion-forward, feminine and slightly sultry aesthetic with a clean editorial polish that feels like a Reformation or Are You Am I campaign. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "hook": "The babydoll cami doing all the heavy lifting this spring.",
+    "headline": "Sheer. Soft. Sold Out Twice.",
+    "primary_text": "Tic Toc started in LA with one rule: the pieces women actually reach for first should feel as good as they look.\n\nThe ROSA V-Neck Lace Trim Babydoll Cami is that piece — sheer where it counts, lace trim that doesn't itch, cut to layer under a blazer or wear with denim and nothing else.\n\n15% off your first order. Ships from LA in 48 hours.",
+    "cta": "Shop ROSA",
+    "visual_direction": "The ROSA babydoll cami styled on a soft, sunlit set with warm LA-afternoon light and a clean editorial backdrop.",
+    "fills_gap": "Right now both live ads send cold traffic to the homepage with the same generic 'must-have looks from LA' line and no actual product in frame. Leading with a specific hero SKU and a tactile copy angle gives the algorithm a fresh creative signal and gives shoppers a reason to click.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a softly lit California bedroom corner with linen sheets, a vintage wooden chair, and a sunlit window casting golden afternoon light, with warm directional sunlight and gentle shadows that highlight the lace trim and sheer fabric texture. Modern, fashion-forward, feminine aesthetic with a creamy neutral palette — think LA editorial meets cozy minimalism. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "reference_title": "ROSA V Neck Lace Trim Sheer Babydoll Cami Top",
+    "reference_url": "https://tictocclothing.com/products/th32065-rosa-bundle",
     "image_path": "/creatives/tic-toc/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Both ads hit fatigue inside 8 days — replacements need to be in BM by next week.",
-    "headline": "Let's map your next 30 days of creative",
-    "body": "Bernard, I'll walk you through a 6-hook rotation built around ROSA and 2-3 other catalog heroes so you stop burning spend on duplicate homepage creative. 30 minutes, you leave with a shotlist and angle matrix.",
+    "urgency": "Both live ads hit fatigue within 7-8 days — window to swap is now.",
+    "headline": "Let's map your next 6 creative angles",
+    "body": "Bernard, 30 minutes and we'll plot out the hero SKU rotations, hook variants, and landing pages that should replace the duplicate homepage ads. You'll leave the call with a shoot list and a launch order.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scoring blends 6 fatigue signals across the live pool; with only 2 ads visible in the library, confidence is directional and assumes the scraped set reflects active spend.",
+  "method_note": "Signals were scored by walking through every live Tic Toc ad in Meta Ad Library; fatigue projections assume current spend level and audience size.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
