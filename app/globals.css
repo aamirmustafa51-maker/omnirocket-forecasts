@@ -551,3 +551,168 @@ footer {
   line-height: 1.5;
 }
 footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
+
+/* ── Hero Concept Mockup (Facebook ad chrome wrapping AI-generated image) ── */
+.hero-mockup {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 12px;
+}
+.fb-ad {
+  background: #fff;
+  border: 1px solid #dadde1;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  max-width: 504px;
+  margin: 0 auto;
+  width: 100%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+.fb-ad-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px 10px;
+}
+.fb-ad-avatar.prospect-logo,
+.fb-ad-avatar.prospect-wordmark {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #f0f2f5;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 40px;
+  max-height: 40px;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-align: center;
+  padding: 4px;
+  line-height: 1.1;
+  border: 1px solid #e4e6eb;
+}
+.fb-ad-meta { display: flex; flex-direction: column; line-height: 1.2; min-width: 0; }
+.fb-ad-pagename {
+  font-size: 14px;
+  font-weight: 600;
+  color: #050505;
+  letter-spacing: 0;
+}
+.fb-ad-sponsored {
+  font-size: 12px;
+  color: #65676b;
+  margin-top: 2px;
+}
+.fb-ad-primary {
+  padding: 0 14px 12px;
+  font-size: 15px;
+  color: #050505;
+  line-height: 1.33;
+  white-space: pre-line;
+}
+.fb-ad-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #f0f2f5;
+  position: relative;
+  overflow: hidden;
+}
+.fb-ad-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.fb-ad-image-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  text-align: center;
+  background: linear-gradient(135deg, #efeae2 0%, #d4c4ae 100%);
+}
+.fb-ad-image-fallback-label {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(0,0,0,0.5);
+  margin-bottom: 8px;
+}
+.fb-ad-image-fallback-text {
+  font-family: ui-serif, Georgia, serif;
+  font-size: 15px;
+  color: #1a1a1a;
+  line-height: 1.4;
+  font-style: italic;
+}
+.fb-ad-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  background: #f7f8fa;
+  border-top: 1px solid #e4e6eb;
+}
+.fb-ad-footer-left { min-width: 0; flex: 1; }
+.fb-ad-domain {
+  font-size: 12px;
+  color: #65676b;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fb-ad-headline {
+  font-size: 15px;
+  font-weight: 600;
+  color: #050505;
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+.fb-ad-cta {
+  background: #e4e6eb;
+  color: #050505;
+  border: 0;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  white-space: nowrap;
+  cursor: default;
+  font-family: inherit;
+  flex-shrink: 0;
+}
+.hero-mockup-rationale {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--ink);
+  padding: 18px 22px;
+  border-radius: 2px;
+}
+.hero-mockup-tag {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-soft);
+  margin-bottom: 8px;
+}
+.hero-mockup-rationale p { margin: 0 0 12px; }
+.hero-mockup-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px;
+  color: var(--ink-soft);
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+.hero-mockup-meta strong { color: var(--ink); font-weight: 600; }

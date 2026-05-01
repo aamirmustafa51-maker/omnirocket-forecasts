@@ -4,23 +4,25 @@ import { useState } from "react"
 export default function ProspectLogo({
   website,
   brand,
-  token
+  token,
+  className
 }: {
   website: string
   brand: string
   token: string
+  className?: string
 }) {
   const [failed, setFailed] = useState(false)
   const domain = website.replace(/^https?:\/\//, "").replace(/\/.*$/, "")
   const src = `https://img.logo.dev/${domain}?token=${token}&size=200&format=png`
 
   if (failed) {
-    return <span className="prospect-wordmark">{brand}</span>
+    return <span className={`prospect-wordmark ${className ?? ""}`.trim()}>{brand}</span>
   }
 
   return (
     <img
-      className="prospect-logo"
+      className={`prospect-logo ${className ?? ""}`.trim()}
       src={src}
       alt={brand}
       onError={() => setFailed(true)}

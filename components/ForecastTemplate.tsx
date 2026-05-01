@@ -20,14 +20,17 @@ export type CompactAd = {
   days_until_fatigue: number
 }
 
-export type Concept = {
+export type HeroConcept = {
   concept_name: string
   format: string
   hook: string
-  angle: string
+  headline: string
   primary_text: string
+  cta: string
   visual_direction: string
   fills_gap: string
+  image_prompt?: string
+  image_path?: string | null
 }
 
 export type ForecastData = {
@@ -49,8 +52,7 @@ export type ForecastData = {
   ads_compact: CompactAd[]
   ad_to_scale: { headline: string; body: string; why: string; ad_label?: string }
   ad_to_kill: { headline: string; body: string; why: string; ad_label: string }
-  concepts: Concept[]
-  unlocks: string[]
+  hero_concept: HeroConcept
   next_step: {
     urgency: string
     headline: string
@@ -73,6 +75,11 @@ function adImageExists(slug: string, n: number): boolean {
   return fs.existsSync(p)
 }
 
+function mockupImageExists(slug: string): boolean {
+  const p = path.join(process.cwd(), "public", "creatives", slug, "hero-mockup.jpg")
+  return fs.existsSync(p)
+}
+
 function parseAdNumber(label?: string): number | null {
   if (!label) return null
   const m = label.match(/\d+/)
@@ -84,6 +91,14 @@ function FieldText({ value, missingLabel }: { value: string; missingLabel: strin
   return <span className="field-missing">({missingLabel})</span>
 }
 
+function brandDomain(website: string): string {
+  try {
+    return new URL(website).hostname.replace(/^www\./, "")
+  } catch {
+    return website
+  }
+}
+
 export default function ForecastTemplate({
   data,
   slug
@@ -92,6 +107,13 @@ export default function ForecastTemplate({
   slug: string
 }) {
   const phClasses = ["ph-1", "ph-2", "ph-3", "ph-4", "ph-5"]
+  const hero = data.hero_concept
+  const heroImageReady = hero && hero.image_path && mockupImageExists(slug)
+  const scaleNum = parseAdNumber(data.ad_to_scale.ad_label)
+  const killNum = parseAdNumber(data.ad_to_kill.ad_label)
+  const sameAd =
+    (scaleNum != null && killNum != null && scaleNum === killNum) ||
+    data.ad_to_scale.headline.trim() === data.ad_to_kill.headline.trim()
 
   return (
     <div className="wrap">
@@ -198,131 +220,105 @@ export default function ForecastTemplate({
         )
       })}
 
-      {data.ads_compact.length > 0 && (
-        <div className="summary-rest">
-          <div className="sr-head">
-            The other {data.ads_compact.length} {data.ads_compact.length === 1 ? "ad" : "ads"} (analyzed, lower priority)
-          </div>
-          <table>
-            <tbody>
-              {data.ads_compact.map((a, i) => (
-                <tr key={i}>
-                  <td>
-                    <strong><FieldText value={a.headline} missingLabel="no headline on this ad" /></strong>
-                  </td>
-                  <td className="body"><FieldText value={a.body} missingLabel="no body copy on this ad" /></td>
-                  <td className="score-cell">
-                    {a.fatigue_score} · ~{a.days_until_fatigue}d
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-
-      <h2>What we'd do this week</h2>
+      <h2>Scale this. Kill this.</h2>
       <div className="verdict-pair">
-        {(() => {
-          const scaleNum = parseAdNumber(data.ad_to_scale.ad_label)
-          const scaleHasImg = scaleNum != null && adImageExists(slug, scaleNum)
-          const killNum = parseAdNumber(data.ad_to_kill.ad_label)
-          const killHasImg = killNum != null && adImageExists(slug, killNum)
-          const sameAd =
-            (scaleNum != null && killNum != null && scaleNum === killNum) ||
-            data.ad_to_scale.headline.trim() === data.ad_to_kill.headline.trim()
-          return (
-            <>
-              <div className={`verdict scale${sameAd ? " solo" : ""}`}>
-                <div className="verdict-tag">Scale this one</div>
-                <div className="verdict-head">
-                  <div className="verdict-thumb t-scale">
-                    {scaleHasImg && (
-                      <img
-                        src={`/creatives/${slug}/creative-${scaleNum}.jpg`}
-                        alt={`Ad #${scaleNum} creative`}
-                      />
-                    )}
-                  </div>
-                  <div className="verdict-head-text">
-                    <h3><FieldText value={data.ad_to_scale.headline} missingLabel="no headline on this ad" /></h3>
-                    <div className="verdict-body"><FieldText value={data.ad_to_scale.body} missingLabel="no body copy on this ad" /></div>
-                  </div>
+        <div className={`verdict scale${sameAd ? " solo" : ""}`}>
+          <div className="verdict-tag">Scale this one</div>
+          <div className="verdict-head">
+            <div className="verdict-thumb t-scale">
+              {scaleNum != null && adImageExists(slug, scaleNum) && (
+                <img
+                  src={`/creatives/${slug}/creative-${scaleNum}.jpg`}
+                  alt={`Ad #${scaleNum} creative`}
+                />
+              )}
+            </div>
+            <div className="verdict-head-text">
+              <h3><FieldText value={data.ad_to_scale.headline} missingLabel="no headline on this ad" /></h3>
+              <div className="verdict-body"><FieldText value={data.ad_to_scale.body} missingLabel="no body copy on this ad" /></div>
+            </div>
+          </div>
+          <div className="verdict-why">{data.ad_to_scale.why}</div>
+          {sameAd && (
+            <div className="verdict-solo-note">
+              Only one ad live right now — there's no second creative to kill yet. Once the
+              replacement concept below is launched, retire this static within ~12 days to
+              avoid CPM penalty from frequency stacking.
+            </div>
+          )}
+        </div>
+        {!sameAd && (
+          <div className="verdict kill">
+            <div className="verdict-tag">Kill this one today</div>
+            <div className="verdict-head">
+              <div className="verdict-thumb t-kill">
+                {killNum != null && adImageExists(slug, killNum) && (
+                  <img
+                    src={`/creatives/${slug}/creative-${killNum}.jpg`}
+                    alt={`Ad #${killNum} creative`}
+                  />
+                )}
+              </div>
+              <div className="verdict-head-text">
+                <h3>
+                  <FieldText value={data.ad_to_kill.headline} missingLabel="no headline on this ad" /> ({data.ad_to_kill.ad_label})
+                </h3>
+                <div className="verdict-body"><FieldText value={data.ad_to_kill.body} missingLabel="no body copy on this ad" /></div>
+              </div>
+            </div>
+            <div className="verdict-why">{data.ad_to_kill.why}</div>
+          </div>
+        )}
+      </div>
+
+      {/* Hero Concept Mockup — image generated by Nano Banana 2 wrapped in FB ad chrome */}
+      {hero && (
+        <>
+          <h2>Here's the ad we'd run for you</h2>
+          <div className="hero-mockup">
+            <div className="fb-ad">
+              <div className="fb-ad-header">
+                <ProspectLogo
+                  website={data.website}
+                  brand={data.brand}
+                  token={data.logodev_token}
+                  className="fb-ad-avatar"
+                />
+                <div className="fb-ad-meta">
+                  <div className="fb-ad-pagename">{data.brand}</div>
+                  <div className="fb-ad-sponsored">Sponsored · <span aria-label="globe">🌐</span></div>
                 </div>
-                <div className="verdict-why">{data.ad_to_scale.why}</div>
-                {sameAd && (
-                  <div className="verdict-solo-note">
-                    Only one ad live right now — there's no second creative to kill yet. Once the
-                    replacement concepts below are launched, retire this static within ~12 days to
-                    avoid CPM penalty from frequency stacking.
+              </div>
+              <div className="fb-ad-primary">{hero.primary_text}</div>
+              <div className="fb-ad-image">
+                {heroImageReady ? (
+                  <img src={`/creatives/${slug}/hero-mockup.jpg`} alt={hero.concept_name} />
+                ) : (
+                  <div className="fb-ad-image-fallback">
+                    <div className="fb-ad-image-fallback-label">Visual direction</div>
+                    <div className="fb-ad-image-fallback-text">{hero.visual_direction}</div>
                   </div>
                 )}
               </div>
-              {!sameAd && (
-              <div className="verdict kill">
-                <div className="verdict-tag">Kill this one today</div>
-                <div className="verdict-head">
-                  <div className="verdict-thumb t-kill">
-                    {killHasImg && (
-                      <img
-                        src={`/creatives/${slug}/creative-${killNum}.jpg`}
-                        alt={`Ad #${killNum} creative`}
-                      />
-                    )}
-                  </div>
-                  <div className="verdict-head-text">
-                    <h3>
-                      <FieldText value={data.ad_to_kill.headline} missingLabel="no headline on this ad" /> ({data.ad_to_kill.ad_label})
-                    </h3>
-                    <div className="verdict-body"><FieldText value={data.ad_to_kill.body} missingLabel="no body copy on this ad" /></div>
-                  </div>
+              <div className="fb-ad-footer">
+                <div className="fb-ad-footer-left">
+                  <div className="fb-ad-domain">{brandDomain(data.website)}</div>
+                  <div className="fb-ad-headline">{hero.headline}</div>
                 </div>
-                <div className="verdict-why">{data.ad_to_kill.why}</div>
+                <button className="fb-ad-cta" type="button">{hero.cta}</button>
               </div>
-              )}
-            </>
-          )
-        })()}
-      </div>
-
-      <h2>{data.concepts.length} replacement {data.concepts.length === 1 ? "concept" : "concepts"} in your voice</h2>
-      {data.concepts.map((c, i) => (
-        <div key={i} className="concept">
-          <div className="concept-head">
-            <div className="concept-name">{c.concept_name}</div>
-            <div className="concept-format">{c.format}</div>
+            </div>
+            <div className="hero-mockup-rationale">
+              <div className="hero-mockup-tag">Why this concept</div>
+              <p>{hero.fills_gap}</p>
+              <div className="hero-mockup-meta">
+                <span><strong>Format:</strong> {hero.format}</span>
+                <span><strong>Hook:</strong> &ldquo;{hero.hook}&rdquo;</span>
+              </div>
+            </div>
           </div>
-          <div className="concept-row">
-            <div className="k">Hook</div>
-            <div className="v hook">"{c.hook}"</div>
-          </div>
-          <div className="concept-row">
-            <div className="k">Angle</div>
-            <div className="v">{c.angle}</div>
-          </div>
-          <div className="concept-row">
-            <div className="k">Primary text</div>
-            <div className="v">{c.primary_text}</div>
-          </div>
-          <div className="concept-row">
-            <div className="k">Visual</div>
-            <div className="v">{c.visual_direction}</div>
-          </div>
-          <div className="concept-gap">
-            <strong>Gap this fills</strong>
-            {c.fills_gap}
-          </div>
-        </div>
-      ))}
-
-      <div className="unlocks">
-        <h2>If you ship these in the next 14 days</h2>
-        <ul>
-          {data.unlocks.map((u, i) => (
-            <li key={i}>{u}</li>
-          ))}
-        </ul>
-      </div>
+        </>
+      )}
 
       <div className="next-step">
         <div className="urgency">⚠ {data.next_step.urgency}</div>
@@ -350,4 +346,3 @@ export default function ForecastTemplate({
     </div>
   )
 }
-

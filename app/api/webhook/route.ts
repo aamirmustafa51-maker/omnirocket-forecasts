@@ -12,6 +12,7 @@ type WebhookPayload = {
   company_overview_summary: string;
   facebook_page_id?: string;
   facebook_url?: string;
+  website_url?: string;
   category?: string;
 };
 
@@ -46,6 +47,15 @@ type NormalizedAd = {
   image_url: string | null;
   ad_archive_id: string;
   start_date: number | null;
+};
+
+// Test fallback: hardcoded website lookup by slug while Smartlead payload is
+// being updated to include website_url. Production reads from payload.
+const WEBSITE_FALLBACK: Record<string, string> = {
+  deenin: "https://deenin.com/",
+  "deenin-v2": "https://deenin.com/",
+  ohtnyc: "https://ohtnyc.com/",
+  "ohtnyc-v2": "https://ohtnyc.com/",
 };
 
 const env = (k: string): string => {
@@ -181,7 +191,101 @@ function compactCount(totalUsable: number): number {
   return 3;
 }
 
-function buildPrompt(payload: WebhookPayload, slug: string, allAds: NormalizedAd[]) {
+// Shopify exposes /products.json publicly on most stores. First product = most
+// recently updated, which usually correlates with the brand's active push.
+type ShopifyProduct = { title: string; image_url: string };
+async function fetchShopifyHeroProduct(websiteUrl: string): Promise<ShopifyProduct | null> {
+  try {
+    const base = websiteUrl.replace(/\/$/, "");
+    const res = await fetch(`${base}/products.json?limit=1`, {
+      signal: AbortSignal.timeout(8000),
+    });
+    if (!res.ok) return null;
+    const data = (await res.json()) as {
+      products?: Array<{ title?: string; images?: Array<{ src?: string }> }>;
+    };
+    const p = data.products?.[0];
+    const img = p?.images?.[0]?.src;
+    if (!p?.title || !img) return null;
+    return { title: p.title, image_url: img };
+  } catch (e) {
+    console.error("Shopify fetch failed:", e);
+    return null;
+  }
+}
+
+// KIE Nano Banana 2 (1K, 8 credits). Async task — submit, then poll.
+async function kieGenerateMockup(prompt: string, referenceImageUrl: string): Promise<string | null> {
+  const apiKey = process.env.KIE_API_KEY;
+  if (!apiKey) {
+    console.error("KIE_API_KEY not set — skipping mockup");
+    return null;
+  }
+  try {
+    const submitRes = await fetch("https://api.kie.ai/api/v1/jobs/createTask", {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: "nano-banana-2",
+        input: {
+          prompt,
+          image_input: [referenceImageUrl],
+          aspect_ratio: "1:1",
+          resolution: "1K",
+          output_format: "jpg",
+        },
+      }),
+    });
+    if (!submitRes.ok) {
+      console.error("KIE submit failed:", submitRes.status, await submitRes.text());
+      return null;
+    }
+    const submitJson = (await submitRes.json()) as { data?: { taskId?: string } };
+    const taskId = submitJson.data?.taskId;
+    if (!taskId) {
+      console.error("KIE no taskId returned");
+      return null;
+    }
+
+    // Poll up to 120s (test runs took ~40-60s)
+    const start = Date.now();
+    while (Date.now() - start < 120000) {
+      await new Promise((r) => setTimeout(r, 4000));
+      const pollRes = await fetch(
+        `https://api.kie.ai/api/v1/jobs/recordInfo?taskId=${taskId}`,
+        { headers: { Authorization: `Bearer ${apiKey}` } },
+      );
+      if (!pollRes.ok) continue;
+      const pollJson = (await pollRes.json()) as {
+        data?: { state?: string; resultJson?: string; failMsg?: string };
+      };
+      const state = pollJson.data?.state;
+      if (state === "success") {
+        const result = JSON.parse(pollJson.data?.resultJson ?? "{}") as { resultUrls?: string[] };
+        return result.resultUrls?.[0] ?? null;
+      }
+      if (state === "fail") {
+        console.error("KIE generation failed:", pollJson.data?.failMsg);
+        return null;
+      }
+    }
+    console.error("KIE polling timeout");
+    return null;
+  } catch (e) {
+    console.error("KIE error:", e);
+    return null;
+  }
+}
+
+function buildPrompt(
+  payload: WebhookPayload,
+  slug: string,
+  allAds: NormalizedAd[],
+  heroProductTitle: string | null,
+) {
   const adsText = allAds
     .map(
       (a) =>
@@ -200,25 +304,34 @@ function buildPrompt(payload: WebhookPayload, slug: string, allAds: NormalizedAd
   const topK = Math.min(5, adsWithImages);
   const compactK = compactCount(totalUsable);
 
+  const heroProductLine = heroProductTitle
+    ? `\nHero product to feature in the mockup: "${heroProductTitle}" (sourced from their Shopify store — most recently active SKU).`
+    : "";
+
   const userMessage = `Brand: ${payload.lead_company}
 Brand slug: ${slug}
 First name: ${payload.lead_first_name}
 Voice (for replacement copy): ${payload.company_overview_summary}
 Today's date: ${today}
 Total ads scraped (use ALL for pattern analysis): ${totalUsable}
-Ads with images available: ${adsWithImages}
+Ads with images available: ${adsWithImages}${heroProductLine}
 
 ALL LIVE ADS (analyze every one to detect patterns — duplicates, hook recycling, format gaps):
 ${adsText}
 
 YOUR TASK
 =========
-1. Analyze ALL ${totalUsable} ads above for fatigue signals across the full pool. Use the full pool to inform: tldr, benchmark.context, drivers per top ad, concepts.fills_gap, and unlocks.
+1. Analyze ALL ${totalUsable} ads above for fatigue signals across the full pool.
 2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
-3. Pick the ${topK} most fatigued ads THAT HAVE IMAGES (IMG:yes). Output them as full ad cards in "ads", numbered sequentially: ad_number 1 = most fatigued, ad_number 2 = second most fatigued, etc. Each top ad MUST include a "source_index" field with the ad's [INDEX:N] from above.
+3. Pick the ${topK} most fatigued ads THAT HAVE IMAGES (IMG:yes). Output as full ad cards in "ads", numbered 1..${topK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above.
 4. Pick ${compactK} additional representative ads (with or without images) from the remaining pool. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
 5. Keep ad_to_scale and ad_to_kill referencing entries in "ads" by ad_label (e.g. "Ad #1"). If only 1 ad exists in "ads", set ad_to_scale to that ad and set ad_to_kill to the SAME ad with body explaining "single creative — retire after launching replacements."
-6. Write 3 replacement concepts. Their fills_gap should reference patterns observed across ALL ${totalUsable} ads, not just the top ${topK}.
+6. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} ads.
+7. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
+
+IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
+
+"A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products."
 
 Return a single valid JSON object matching this EXACT schema:
 
@@ -228,7 +341,7 @@ Return a single valid JSON object matching this EXACT schema:
   "first_name": "${payload.lead_first_name}",
   "website": "https://example.com",
   "generated_date": "${today}",
-  "read_time_min": 4,
+  "read_time_min": 3,
   "total_ads": ${totalUsable},
   "tldr": "2-sentence executive summary mentioning fatigue counts and CPM impact timeframe.",
   "benchmark": {
@@ -255,18 +368,17 @@ Return a single valid JSON object matching this EXACT schema:
   ],
   "ad_to_scale": { "ad_label": "Ad #1", "headline": "...", "body": "...", "why": "2-3 sentences." },
   "ad_to_kill": { "ad_label": "Ad #3", "headline": "...", "body": "...", "why": "2-3 sentences." },
-  "concepts": [
-    {
-      "concept_name": "short descriptor",
-      "format": "Video / Carousel / Static / UGC + length",
-      "hook": "≤10 words",
-      "angle": "strategic angle",
-      "primary_text": "~60 words in brand voice",
-      "visual_direction": "what the visual shows",
-      "fills_gap": "what gap this fills, referencing patterns from the full ad pool"
-    }
-  ],
-  "unlocks": ["3-4 short bullets describing what improves if user acts on this"],
+  "hero_concept": {
+    "concept_name": "short descriptor",
+    "format": "Static image / Carousel / etc",
+    "hook": "≤10 words — appears as primary text above the ad image",
+    "headline": "≤6 words — appears below the ad image as the headline",
+    "primary_text": "~50 words in brand voice. This is the body copy that appears above the image in the mockup.",
+    "cta": "Shop Now / Learn More / etc — short button label",
+    "visual_direction": "1 sentence describing what the visual shows",
+    "fills_gap": "What gap this fills, referencing patterns from the full ad pool — 1-2 sentences.",
+    "image_prompt": "the fully-filled image generation prompt using the template above with {SCENE}, {LIGHTING}, {AESTHETIC} slots filled in based on the brand's aesthetic"
+  },
   "next_step": {
     "urgency": "short urgency line tied to ad death dates",
     "headline": "call CTA headline",
@@ -282,19 +394,19 @@ HARD RULES
 ==========
 - "ads" length must equal exactly ${topK}. Each entry MUST have source_index pointing to one of the [INDEX:N] values where IMG was "yes". No duplicates.
 - ad_number values in "ads" are sequential 1..${topK} where 1 = most fatigued.
-- "ads_compact" length must equal exactly ${compactK}.
+- "ads_compact" length must equal exactly ${compactK} (the rest of the pool — used for analysis context only, not rendered).
 - "severity": danger if fatigue_score>=85, warn if 65-84, ok if <65.
 - "days_until_fatigue" must be an integer.
-- "concepts" length is exactly 3.
+- Exactly ONE hero_concept (not multiple).
+- hero_concept.image_prompt MUST follow the template structure exactly with the negative section preserved verbatim.
 - All copy grounded in the actual live ads above.
-- If an ad has an empty headline (the "Headline:" line is blank in the input), exactly ONE of its 3 "drivers" MUST explicitly call out the missing headline and explain the fatigue impact (e.g. "No headline set — body copy is doing all the persuasion, which limits scroll-stop power"). Phrase it conversationally as if you manually reviewed the ad.
-- Same rule if an ad has empty body copy: one driver MUST flag the missing body and explain the impact (e.g. "No body copy on this ad — context-setting depends entirely on the visual, which weakens cold-audience comprehension").
+- If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact.
 - Output ONLY the JSON object. No markdown fences. No prose before or after.`;
 
   return userMessage;
 }
 
-const SYSTEM_PROMPT = `You are an ad creative strategist generating a Fatigue Forecast deliverable for OmniRocket (a Meta ads agency for ecommerce fashion brands). You score live Meta ads on creative fatigue signals, predict days-until-fatigue, identify the 1 ad to scale and the 1 to kill, and write 3 replacement creative concepts in the brand's voice. TONE: peer operator. Specific, not generic. Quote actual ad copy from the live ads provided. NEVER use the words 'audit', 'review', or 'analysis'. OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.`;
+const SYSTEM_PROMPT = `You are an ad creative strategist generating a Fatigue Forecast deliverable for OmniRocket (a Meta ads agency for ecommerce fashion brands). You score live Meta ads on creative fatigue signals, predict days-until-fatigue, identify the 1 ad to scale and the 1 to kill, and write ONE hero replacement creative concept (with a mockup image prompt) in the brand's voice. TONE: peer operator. Specific, not generic. Quote actual ad copy from the live ads provided. NEVER use the words 'audit', 'review', or 'analysis'. OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.`;
 
 function extractJson(raw: string): unknown {
   const start = raw.indexOf("{");
@@ -329,10 +441,15 @@ export async function POST(req: NextRequest) {
 
   const isPageId = !!payload.facebook_page_id;
   const fbValue = payload.facebook_page_id || payload.facebook_url!;
+  const websiteUrl = payload.website_url || WEBSITE_FALLBACK[slug] || null;
 
   try {
-    // 1. Apify scrape
-    const apifyAds = await apifyScrape(fbValue, isPageId);
+    // 1. Apify scrape + Shopify hero product fetch in parallel
+    const [apifyAds, heroProduct] = await Promise.all([
+      apifyScrape(fbValue, isPageId),
+      websiteUrl ? fetchShopifyHeroProduct(websiteUrl) : Promise.resolve(null),
+    ]);
+
     if (!apifyAds || apifyAds.length === 0) {
       await postSlack(`⚠️ *No ads found* — ${tag} has no live Meta ads. Skipping forecast.`);
       return NextResponse.json({ ok: true, status: "no_ads" });
@@ -349,9 +466,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true, status: "no_usable_ads" });
     }
 
-    // 3. Claude analyzes ALL ads, picks top K (with images) + compact
+    // 3. Claude analyzes ALL ads, picks top K + writes ONE hero concept with image_prompt
     const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
-    const userMessage = buildPrompt(payload, slug, normalized);
+    const userMessage = buildPrompt(payload, slug, normalized, heroProduct?.title ?? null);
     const claudeRes = await anthropic.messages.create({
       model: "claude-opus-4-7",
       max_tokens: 8192,
@@ -365,9 +482,10 @@ export async function POST(req: NextRequest) {
     }
     const forecastJson = extractJson(textBlock.text) as {
       ads: Array<{ ad_number: number; source_index?: number }>;
+      hero_concept?: { image_prompt?: string; image_path?: string | null };
     };
 
-    // 4. Upload images for each top ad using Claude's source_index
+    // 4. Upload top-ad images
     const indexById = new Map(normalized.map((a) => [a.index, a]));
     for (const ad of forecastJson.ads) {
       if (typeof ad.source_index !== "number") continue;
@@ -388,7 +506,37 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    // 5. PUT forecast JSON
+    // 5. Generate hero mockup ad image (skip-and-revert: any failure → null path)
+    if (
+      forecastJson.hero_concept &&
+      heroProduct &&
+      forecastJson.hero_concept.image_prompt
+    ) {
+      const mockupUrl = await kieGenerateMockup(
+        forecastJson.hero_concept.image_prompt,
+        heroProduct.image_url,
+      );
+      if (mockupUrl) {
+        try {
+          const b64 = await downloadImageBase64(mockupUrl);
+          await githubPut(
+            `public/creatives/${slug}/hero-mockup.jpg`,
+            b64,
+            `chore: add hero-mockup for ${slug}`,
+          );
+          forecastJson.hero_concept.image_path = `/creatives/${slug}/hero-mockup.jpg`;
+        } catch (e) {
+          console.error("Mockup upload failed:", e);
+          forecastJson.hero_concept.image_path = null;
+        }
+      } else {
+        forecastJson.hero_concept.image_path = null;
+      }
+    } else if (forecastJson.hero_concept) {
+      forecastJson.hero_concept.image_path = null;
+    }
+
+    // 6. PUT forecast JSON
     const forecastBase64 = Buffer.from(JSON.stringify(forecastJson, null, 2)).toString("base64");
     await githubPut(`forecasts/${slug}.json`, forecastBase64, `feat: forecast for ${slug}`);
 
