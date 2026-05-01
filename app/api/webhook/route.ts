@@ -175,18 +175,17 @@ async function downloadImageBase64(url: string): Promise<string> {
   return buf.toString("base64");
 }
 
-function buildPrompt(payload: WebhookPayload, slug: string, top5: NormalizedAd[], rest: NormalizedAd[]) {
-  const top5Text = top5
-    .map(
-      (a, i) =>
-        `Ad: ${i + 1}\nHeadline: ${a.headline}\nBody: ${a.body}\nCTA: ${a.cta}\nLanding: ${a.landing_url}\nImage: /creatives/${slug}/creative-${i + 1}.jpg`,
-    )
-    .join("\n---\n");
+function compactCount(totalUsable: number): number {
+  if (totalUsable <= 5) return 0;
+  if (totalUsable <= 7) return totalUsable - 5;
+  return 3;
+}
 
-  const restText = rest
+function buildPrompt(payload: WebhookPayload, slug: string, allAds: NormalizedAd[]) {
+  const adsText = allAds
     .map(
-      (a, i) =>
-        `Ad: ${i + 6}\nHeadline: ${a.headline}\nBody: ${a.body}\nCTA: ${a.cta}\nLanding: ${a.landing_url}`,
+      (a) =>
+        `[INDEX:${a.index}] [IMG:${a.image_url ? "yes" : "no"}]\nHeadline: ${a.headline}\nBody: ${a.body}\nCTA: ${a.cta}\nLanding: ${a.landing_url}`,
     )
     .join("\n---\n");
 
@@ -196,27 +195,32 @@ function buildPrompt(payload: WebhookPayload, slug: string, top5: NormalizedAd[]
     year: "numeric",
   });
 
-  const totalAds = top5.length + rest.length;
+  const adsWithImages = allAds.filter((a) => a.image_url).length;
+  const totalUsable = allAds.length;
+  const topK = Math.min(5, adsWithImages);
+  const compactK = compactCount(totalUsable);
 
   const userMessage = `Brand: ${payload.lead_company}
 Brand slug: ${slug}
 First name: ${payload.lead_first_name}
 Voice (for replacement copy): ${payload.company_overview_summary}
 Today's date: ${today}
-Total ads scraped: ${totalAds}
+Total ads scraped (use ALL for pattern analysis): ${totalUsable}
+Ads with images available: ${adsWithImages}
 
-TOP 5 most-recent live ads (full detail — score these and include as full ad cards):
-${top5Text}
+ALL LIVE ADS (analyze every one to detect patterns — duplicates, hook recycling, format gaps):
+${adsText}
 
-REMAINING ads (text only — include as ads_compact):
-${restText || "(none)"}
+YOUR TASK
+=========
+1. Analyze ALL ${totalUsable} ads above for fatigue signals across the full pool. Use the full pool to inform: tldr, benchmark.context, drivers per top ad, concepts.fills_gap, and unlocks.
+2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
+3. Pick the ${topK} most fatigued ads THAT HAVE IMAGES (IMG:yes). Output them as full ad cards in "ads", numbered sequentially: ad_number 1 = most fatigued, ad_number 2 = second most fatigued, etc. Each top ad MUST include a "source_index" field with the ad's [INDEX:N] from above.
+4. Pick ${compactK} additional representative ads (with or without images) from the remaining pool. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
+5. Keep ad_to_scale and ad_to_kill referencing entries in "ads" by ad_label (e.g. "Ad #1"). If only 1 ad exists in "ads", set ad_to_scale to that ad and set ad_to_kill to the SAME ad with body explaining "single creative — retire after launching replacements."
+6. Write 3 replacement concepts. Their fills_gap should reference patterns observed across ALL ${totalUsable} ads, not just the top ${topK}.
 
-Score each TOP-5 ad 0-10 on 6 fatigue signals (10=severe fatigue):
-FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER.
-Sum and normalize to 0-100. Map to days_until_fatigue:
-80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
-
-Return a single valid JSON object matching this EXACT schema. Quote real headlines and body copy where possible.
+Return a single valid JSON object matching this EXACT schema:
 
 {
   "brand": "${payload.lead_company}",
@@ -225,17 +229,18 @@ Return a single valid JSON object matching this EXACT schema. Quote real headlin
   "website": "https://example.com",
   "generated_date": "${today}",
   "read_time_min": 4,
-  "total_ads": ${totalAds},
+  "total_ads": ${totalUsable},
   "tldr": "2-sentence executive summary mentioning fatigue counts and CPM impact timeframe.",
   "benchmark": {
     "your_value_days": 12,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "1-2 sentences comparing this brand to category averages."
+    "context": "1-2 sentences comparing this brand to category averages, grounded in patterns from all ${totalUsable} ads."
   },
   "ads": [
     {
       "ad_number": 1,
+      "source_index": 7,
       "headline": "actual headline",
       "body": "actual body",
       "cta": "Shop Now",
@@ -258,7 +263,7 @@ Return a single valid JSON object matching this EXACT schema. Quote real headlin
       "angle": "strategic angle",
       "primary_text": "~60 words in brand voice",
       "visual_direction": "what the visual shows",
-      "fills_gap": "what gap this fills"
+      "fills_gap": "what gap this fills, referencing patterns from the full ad pool"
     }
   ],
   "unlocks": ["3-4 short bullets describing what improves if user acts on this"],
@@ -273,13 +278,14 @@ Return a single valid JSON object matching this EXACT schema. Quote real headlin
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
 
-Rules:
-- "ads" = the TOP 5 ads with full detail. Number them sequentially 1-5 (use the "Ad: N" labels in the input). Order the array by fatigue_score descending.
-- "ads_compact" = the remaining ads from the REMAINING section.
+HARD RULES
+==========
+- "ads" length must equal exactly ${topK}. Each entry MUST have source_index pointing to one of the [INDEX:N] values where IMG was "yes". No duplicates.
+- ad_number values in "ads" are sequential 1..${topK} where 1 = most fatigued.
+- "ads_compact" length must equal exactly ${compactK}.
 - "severity": danger if fatigue_score>=85, warn if 65-84, ok if <65.
-- "ad_to_scale.ad_label" and "ad_to_kill.ad_label" must reference the ad_number field (e.g. "Ad #1").
-- 3 distinct "concepts", each filling a different creative gap.
 - "days_until_fatigue" must be an integer.
+- "concepts" length is exactly 3.
 - All copy grounded in the actual live ads above.
 - Output ONLY the JSON object. No markdown fences. No prose before or after.`;
 
@@ -330,34 +336,20 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true, status: "no_ads" });
     }
 
-    // 2. Normalize
-    const normalized = apifyAds.map(normalizeAd);
+    // 2. Normalize and keep usable ads (must have body text)
+    const normalized = apifyAds
+      .map(normalizeAd)
+      .filter((a) => a.body)
+      .map((a, i) => ({ ...a, index: i }));
 
-    // 3. Pick top 5 with images, rest text-only (next 15)
-    const withImages = normalized.filter((a) => a.image_url && a.body);
-    const top5 = withImages.slice(0, 5);
-    const rest = normalized.filter((a) => !top5.includes(a)).slice(0, 15);
-
-    if (top5.length === 0) {
-      await postSlack(`⚠️ *No usable ads* — ${tag} ad data missing images/body. Manual review.`);
+    if (normalized.length === 0) {
+      await postSlack(`⚠️ *No usable ads* — ${tag} ad data missing body text. Manual review.`);
       return NextResponse.json({ ok: true, status: "no_usable_ads" });
     }
 
-    // 4. Download + upload top 5 images sequentially as creative-1..N.jpg
-    for (let i = 0; i < top5.length; i++) {
-      const ad = top5[i];
-      const n = i + 1;
-      const b64 = await downloadImageBase64(ad.image_url!);
-      await githubPut(
-        `public/creatives/${slug}/creative-${n}.jpg`,
-        b64,
-        `chore: add creative-${n} for ${slug}`,
-      );
-    }
-
-    // 5. Claude API
+    // 3. Claude analyzes ALL ads, picks top K (with images) + compact
     const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
-    const userMessage = buildPrompt(payload, slug, top5, rest);
+    const userMessage = buildPrompt(payload, slug, normalized);
     const claudeRes = await anthropic.messages.create({
       model: "claude-opus-4-7",
       max_tokens: 8192,
@@ -369,9 +361,32 @@ export async function POST(req: NextRequest) {
     if (!textBlock || textBlock.type !== "text") {
       throw new Error("Claude returned no text content");
     }
-    const forecastJson = extractJson(textBlock.text);
+    const forecastJson = extractJson(textBlock.text) as {
+      ads: Array<{ ad_number: number; source_index?: number }>;
+    };
 
-    // 6. PUT forecast JSON
+    // 4. Upload images for each top ad using Claude's source_index
+    const indexById = new Map(normalized.map((a) => [a.index, a]));
+    for (const ad of forecastJson.ads) {
+      if (typeof ad.source_index !== "number") continue;
+      const src = indexById.get(ad.source_index);
+      if (!src || !src.image_url) continue;
+      try {
+        const b64 = await downloadImageBase64(src.image_url);
+        await githubPut(
+          `public/creatives/${slug}/creative-${ad.ad_number}.jpg`,
+          b64,
+          `chore: add creative-${ad.ad_number} for ${slug}`,
+        );
+      } catch (e) {
+        console.error(
+          `Image upload failed for creative-${ad.ad_number} (source_index=${ad.source_index}):`,
+          e,
+        );
+      }
+    }
+
+    // 5. PUT forecast JSON
     const forecastBase64 = Buffer.from(JSON.stringify(forecastJson, null, 2)).toString("base64");
     await githubPut(`forecasts/${slug}.json`, forecastBase64, `feat: forecast for ${slug}`);
 

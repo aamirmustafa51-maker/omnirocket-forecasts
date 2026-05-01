@@ -111,7 +111,7 @@ export default function ForecastTemplate({
           Fatigue Forecast · Prepared for {data.first_name}
         </div>
         <h1>
-          {data.brand} — your {data.total_ads} live Meta {data.total_ads === 1 ? "ad" : "ads"}, modeled.
+          {data.brand} — your {data.ads.length} live Meta {data.ads.length === 1 ? "ad" : "ads"}, modeled.
         </h1>
         <div className="meta">
           Built {data.generated_date} · {data.read_time_min}-min read
@@ -141,7 +141,7 @@ export default function ForecastTemplate({
 
       <h2>Your {data.ads.length} most fatigued {data.ads.length === 1 ? "ad" : "ads"}</h2>
 
-      {data.ads.map((ad, i) => {
+      {[...data.ads].sort((a, b) => a.ad_number - b.ad_number).map((ad, i) => {
         const sev = ad.severity ?? severityFor(ad.fatigue_score)
         const hasImage = adImageExists(slug, ad.ad_number)
         return (
