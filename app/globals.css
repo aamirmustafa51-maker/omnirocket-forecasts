@@ -322,6 +322,11 @@ p { margin: 0 0 14px; }
 }
 .verdict-pair:has(.verdict.solo) { grid-template-columns: 1fr; }
 @media (max-width: 600px) { .verdict-pair { grid-template-columns: 1fr; } }
+.field-missing {
+  font-style: italic;
+  color: var(--muted, #888);
+  font-weight: 400;
+}
 .verdict-solo-note {
   margin-top: 14px;
   padding-top: 14px;

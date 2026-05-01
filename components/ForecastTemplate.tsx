@@ -79,6 +79,11 @@ function parseAdNumber(label?: string): number | null {
   return m ? parseInt(m[0], 10) : null
 }
 
+function FieldText({ value, missingLabel }: { value: string; missingLabel: string }) {
+  if (value && value.trim()) return <>&ldquo;{value}&rdquo;</>
+  return <span className="field-missing">({missingLabel})</span>
+}
+
 export default function ForecastTemplate({
   data,
   slug
@@ -160,8 +165,8 @@ export default function ForecastTemplate({
               </div>
               <div className="creative-head-left">
                 <div className="creative-tag">Ad #{ad.ad_number}</div>
-                <div className="creative-head-headline">"{ad.headline}"</div>
-                <div className="creative-head-body">"{ad.body}"</div>
+                <div className="creative-head-headline"><FieldText value={ad.headline} missingLabel="headline empty in Meta Ad Library" /></div>
+                <div className="creative-head-body"><FieldText value={ad.body} missingLabel="no body copy on this ad" /></div>
               </div>
               <div className="creative-score">
                 <div className="creative-score-num">{ad.fatigue_score}</div>
@@ -203,9 +208,9 @@ export default function ForecastTemplate({
               {data.ads_compact.map((a, i) => (
                 <tr key={i}>
                   <td>
-                    <strong>"{a.headline}"</strong>
+                    <strong><FieldText value={a.headline} missingLabel="headline empty in Meta Ad Library" /></strong>
                   </td>
-                  <td className="body">"{a.body}"</td>
+                  <td className="body"><FieldText value={a.body} missingLabel="no body copy on this ad" /></td>
                   <td className="score-cell">
                     {a.fatigue_score} · ~{a.days_until_fatigue}d
                   </td>
@@ -240,8 +245,8 @@ export default function ForecastTemplate({
                     )}
                   </div>
                   <div className="verdict-head-text">
-                    <h3>"{data.ad_to_scale.headline}"</h3>
-                    <div className="verdict-body">"{data.ad_to_scale.body}"</div>
+                    <h3><FieldText value={data.ad_to_scale.headline} missingLabel="headline empty in Meta Ad Library" /></h3>
+                    <div className="verdict-body"><FieldText value={data.ad_to_scale.body} missingLabel="no body copy on this ad" /></div>
                   </div>
                 </div>
                 <div className="verdict-why">{data.ad_to_scale.why}</div>
@@ -267,9 +272,9 @@ export default function ForecastTemplate({
                   </div>
                   <div className="verdict-head-text">
                     <h3>
-                      "{data.ad_to_kill.headline}" ({data.ad_to_kill.ad_label})
+                      <FieldText value={data.ad_to_kill.headline} missingLabel="headline empty in Meta Ad Library" /> ({data.ad_to_kill.ad_label})
                     </h3>
-                    <div className="verdict-body">"{data.ad_to_kill.body}"</div>
+                    <div className="verdict-body"><FieldText value={data.ad_to_kill.body} missingLabel="no body copy on this ad" /></div>
                   </div>
                 </div>
                 <div className="verdict-why">{data.ad_to_kill.why}</div>
