@@ -1,0 +1,67 @@
+{
+  "brand": "Deenin",
+  "brand_slug": "deenin-v2",
+  "first_name": "Friend",
+  "website": "https://deenin.com",
+  "generated_date": "May 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 1,
+  "tldr": "Friend, you're running a single creative against the entire funnel — 'Pray Anywhere. Anytime. With Comfort' is doing 100% of the work. Expect CPM creep within 7-10 days as frequency stacks on a one-ad rotation.",
+  "benchmark": {
+    "your_value_days": 8,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Single-ad accounts in faith/modest-fashion typically fatigue 2-3x faster than the category median because there's no creative rotation to dilute frequency. Deenin sits well below the median with zero variants in market."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "",
+      "body": "Pray Anywhere. Anytime. With Comfort",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Headline field is empty — Meta is auto-pulling from the Page or body, which kills your control over the post-image hook and tanks CTR on placements that prioritize the headline slot",
+        "Single-creative account: 100% of impressions land on this one asset, so frequency compounds with no rotation relief",
+        "Generic prayer-mat angle ('Pray Anywhere. Anytime.') misses the higher-AOV catalog — kufis, learning kits, tasbihs are absent from the message"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #1",
+    "headline": "",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "It's your only ad in market, so by default it's both the scale candidate and the kill candidate. Keep the spend on while you stage 3-5 replacements, then phase it out."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #1",
+    "headline": "",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "Single creative — retire after launching replacements. Frequency will hit fatigue territory inside 8 days, and there's no headline filled in to give Meta any ranking signal beyond the body line."
+  },
+  "hero_concept": {
+    "concept_name": "Raise Them With Deen",
+    "format": "Static image",
+    "hook": "Make Islamic learning the highlight of their day.",
+    "headline": "Built for little Muslims",
+    "primary_text": "Friend, raising kids who love their deen starts with tools that meet them where they are. The Growing Muslim Minds Kit pairs interactive learning with daily practice — duas, surahs, and Islamic values made playful. No screens. No filler. Just rich, hands-on learning your child will actually reach for. Ships worldwide.",
+    "cta": "Shop Now",
+    "visual_direction": "The Growing Muslim Minds Kit laid out flat on a warm linen surface with soft natural light, styled like a premium children's brand editorial.",
+    "fills_gap": "The only live ad sells prayer mats to adults with a generic comfort hook. This opens a parent/child audience and showcases a higher-AOV catalog SKU that's completely absent from current rotation.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a warm flat-lay arrangement on natural cream linen with subtle Islamic geometric pattern accents and a few wooden children's blocks in soft earth tones around it, with soft diffused natural daylight from a side window casting gentle long shadows. Calm, premium, family-oriented aesthetic with a muted earth-tone palette of cream, sand, sage, and warm wood — evoking a thoughtful modern Muslim household. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "image_path": null
+  },
+  "next_step": {
+    "urgency": "Your one ad fatigues in ~8 days — replacements need to be live this week.",
+    "headline": "Let's stage your next 5 creatives",
+    "body": "30 minutes to map a rotation across thobes, prayer mats, kufis, and the Growing Muslim Minds Kit so you're never single-creative again. You'll leave with a shot list and hooks ready for production.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scored on 6 fatigue signals across all live Meta ads scraped from the public Ad Library; limited visibility into spend, frequency, and CTR.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
