@@ -1,0 +1,70 @@
+{
+  "brand": "Tic Toc",
+  "brand_slug": "tic-toc",
+  "first_name": "Bernard",
+  "website": "https://www.tictocclothing.com",
+  "generated_date": "May 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 2,
+  "tldr": "Bernard, both live ads are byte-for-byte duplicates of the same 'Your New Favorite Outfit Starts Here' creative pointing at the homepage — that's 100% creative concentration with zero variant testing. Expect CPM lift within 7-10 days as Meta's frequency cap compounds against a single hook.",
+  "benchmark": {
+    "your_value_days": 8,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Tic Toc is well below category median because the entire active pool is one recycled hook, one headline, one body, one CTA, and one landing page. Fashion ecom brands in the top quartile typically rotate 6-10 distinct hooks against category-specific PDPs."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Your New Favorite Outfit Starts Here",
+      "body": "Shop the latest must-have looks from LA ✨ Get 15% OFF your first order — limited time.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Exact duplicate of Ad #2 — same headline, body, CTA, and landing URL means Meta is serving identical creative twice into the same auctions",
+        "Generic 'Your New Favorite Outfit Starts Here' hook has no product, category, or fit specificity — nothing for a returning viewer to re-engage with",
+        "Landing page is the homepage, not a category like babydolls/bustiers/swim — kills relevance score after the first impression cluster"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "Your New Favorite Outfit Starts Here",
+      "body": "Shop the latest must-have looks from LA ✨ Get 15% OFF your first order — limited time.",
+      "cta": "Shop now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Carbon copy of Ad #1 — duplicate creative cannibalizes its own delivery and inflates frequency without incremental reach",
+        "'15% OFF your first order' positions this as a pure prospecting hook but it's the only angle running, leaving warm and retargeting audiences with no fresh message",
+        "No product hero in the copy — for a brand with babydolls, plush fleece, swim, and outerwear, leading with 'looks from LA' wastes the catalog's hook potential"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "ROSA Babydoll Hero — Product-Led PDP Driver",
+    "format": "Static image",
+    "hook": "The babydoll selling out twice this month.",
+    "headline": "Meet ROSA. Sheer, soft, sold-out-soon.",
+    "primary_text": "The ROSA V-Neck Lace Trim Sheer Babydoll Cami is the piece our LA girls keep restocking carts for — delicate lace, a clean V neckline, and that barely-there cami drape that layers under everything from plush fleece sets to denim. New here? Take 15% off your first order. Tap to shop ROSA before she's gone again.",
+    "cta": "Shop Now",
+    "visual_direction": "Editorial close-up of the ROSA babydoll on a soft satin surface with morning light, evoking an LA bedroom-flatlay aesthetic that contrasts the homepage-generic ads currently running.",
+    "fills_gap": "Both live ads run identical generic 'looks from LA' homepage copy with zero product hero — this concept replaces vague brand-level messaging with a specific SKU, a specific category (intimates/cami), and a PDP-level destination, giving Meta a fresh angle to rotate against the recycled duplicate.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft LA bedroom flatlay on cream silk sheets with delicate lace ribbon, a small ceramic coffee cup, and a single dried rose stem nearby, with warm morning sunlight filtering through sheer curtains casting gentle shadows across the fabric. Modern, fashion-forward, feminine and slightly sultry aesthetic with a clean editorial polish that feels like a Reformation or Are You Am I campaign. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "image_path": "/creatives/tic-toc/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Both ads hit fatigue inside 8 days — replacements need to be in BM by next week.",
+    "headline": "Let's map your next 30 days of creative",
+    "body": "Bernard, I'll walk you through a 6-hook rotation built around ROSA and 2-3 other catalog heroes so you stop burning spend on duplicate homepage creative. 30 minutes, you leave with a shotlist and angle matrix.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scoring blends 6 fatigue signals across the live pool; with only 2 ads visible in the library, confidence is directional and assumes the scraped set reflects active spend.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
