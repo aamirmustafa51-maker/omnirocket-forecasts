@@ -6,17 +6,17 @@
   "generated_date": "May 1, 2026",
   "read_time_min": 3,
   "total_ads": 203,
-  "tldr": "Athena, 142 of your 203 ads recycle just 4 body templates — the 'Luxury You Deserve — Handcrafted in Bali' block alone runs 60+ times, and the 'Buy One Get One Free and comes with a welcome kit' BOGO block runs 40+ times. Expect CPM lift of 18-30% within 7-14 days as Meta's frequency caps compress reach on these duplicates.",
+  "tldr": "Athena, you're running 203 live ads but they collapse into roughly 8 unique creative concepts — the 'Luxury Sterling Silver & Gemstones, Up to 45% Off' body copy alone is duplicated verbatim across more than 60 variants. Expect CPM spikes of 30-45% within 7-14 days as Meta's frequency caps catch up to the repetition.",
   "benchmark": {
     "your_value_days": 9,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "Fashion/jewelry DTC peers typically rotate 6-8 distinct body copy templates; Sarda is running 4 with extreme duplication (BOGO block × 40+, Luxury Sterling Silver headline × 60+). That puts you well below category median for creative freshness."
+    "context": "Fashion jewelry brands typically rotate hero creative every 3-4 weeks. Sarda is recycling the same 'Handcrafted in Bali' body block and 'BOGO + Use Code: STACK' offer across the majority of active placements, which compresses the fatigue window dramatically."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 187,
+      "source_index": 199,
       "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
       "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
       "cta": "Shop now",
@@ -24,9 +24,9 @@
       "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "This exact headline+body pairing appears 60+ times in the pool — Meta's auction is treating these as effectively one ad with stacked frequency",
-        "All variants point to the same /collections/sarda-favorites landing page, so post-click signal is also collapsing",
-        "Same generic 'Shop now' CTA across the entire cluster — zero CTR diversification to offset audience overlap"
+        "This exact headline + body combo is running on more than 60 of your live placements — Meta is serving the same creative to overlapping audiences and frequency is almost certainly past 4.0",
+        "All variants point to the same /collections/sarda-favorites landing page, so there's zero destination diversity to break the pattern",
+        "The 'Up to 45% Off' anchor has been live so long it's lost any sense of urgency — your warm audiences have seen this discount line for months"
       ]
     },
     {
@@ -39,9 +39,9 @@
       "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "BOGO body block runs 40+ times across nearly identical headline variants ('BOGO, Discount and Free Shipping!' with and without 'Use Code: STACK')",
-        "Every BOGO variant lands on /collections/all-of-sarda — no product-specific landers to break up the destination signal",
-        "Headline gives no product, gemstone, or visual hook — pure offer-stack which decays fastest in Meta's learning phase"
+        "The 'BOGO, Discount and Free Shipping' headline appears on roughly 30 active variants — half with 'Use Code: STACK' appended, half without, but the body is identical",
+        "Every single one routes to /collections/all-of-sarda — no product-specific landing pages to give the algorithm a fresh signal",
+        "'Built on three generations' is buried as the last line; your strongest brand differentiator is doing zero hook work"
       ]
     },
     {
@@ -54,39 +54,39 @@
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "The 'Tired of jewelry that loses its luster' problem-aware hook runs 12+ times verbatim — your strongest narrative angle is being burned out",
-        "Every instance points to the homepage with no product specificity to refresh the click signal",
-        "Launch cluster: most of these went live in the same window, so they're hitting frequency walls simultaneously"
+        "This problem-aware angle is your strongest copy block — but it's been duplicated across 12+ placements with identical creative, killing its original lift",
+        "Headline 'Designed for Your Daily Routine' is generic and doesn't tee up the 'plated shortcuts' callout that's actually doing the persuasive work",
+        "All variants land on the homepage — no specific 'sterling silver' collection page to convert the intent the body builds"
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 137,
-      "headline": "{{product.name}}",
-      "body": "Save 45% off all our New Arrivals - Discover the SARDA Difference and Join over 5,000 Happy Customers",
-      "cta": "Shop Now",
-      "fatigue_score": 87,
-      "days_until_fatigue": 7,
-      "severity": "danger",
-      "drivers": [
-        "The headline is rendering literally as the unmerged Liquid token '{{product.name}}' — feed template is broken and CTR is almost certainly tanking on this variant",
-        "Body is identical across all 3 broken-token instances (indexes 115, 127, 137, 151) — same fatigue compounded by a visible bug",
-        "Splits across /sarda-favorites and /new-arrivals landing pages with no clear winner — wasted spend on a misconfigured ad"
-      ]
-    },
-    {
-      "ad_number": 5,
       "source_index": 169,
       "headline": "Mothers Day Sale! Extra 40% Off!",
       "body": "Mothers Day is around the corner! Get luxury you deserve!  Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the Mothers Day sale and save an extra 40% off!",
       "cta": "Shop now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Eight near-identical Mother's Day variants are live and they share 90% of body copy with the evergreen 'Luxury You Deserve' block",
+        "Mother's Day is May 10 — these have a hard expiration in 9 days regardless of fatigue, so any spend after May 8 is wasted",
+        "No gift-specific imagery callout, no shipping cutoff date, no 'for Mom' positioning — it's just the same evergreen ad with a holiday sticker"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 132,
+      "headline": "BOGO, Discount and Free Shipping! Use Code: STACK",
+      "body": "Buy any sterling silver piece, get another of equal or lesser value FREE — your choice.  Use code STACK at checkout.  Plus: free jewelry cleaner welcome kit, free shipping & easy returns.  Don't miss this. First order only.",
+      "cta": "Shop now",
       "fatigue_score": 84,
-      "days_until_fatigue": 9,
+      "days_until_fatigue": 8,
       "severity": "warn",
       "drivers": [
-        "Mother's Day variant runs 9+ times with identical copy — and Mother's Day (May 10) is 9 days out, so urgency window is shrinking by the hour",
-        "Reuses the same 'Handcrafted in Bali. High-end design shouldn't be reserved' block from the evergreen Luxury Sterling Silver cluster — no thematic separation",
-        "All variants point to the homepage instead of a dedicated Mother's Day gift lander, diluting the seasonal intent signal"
+        "This is the cleaner v2 of the BOGO body — but it's running alongside the v1 version on 6+ active placements, which means they're cannibalizing each other in auction",
+        "'First order only' restricts this to cold audiences but it's also being shown to your retargeting pools (same /all-of-sarda landing page as the broad campaigns)",
+        "Code STACK is the same code that's been live for months — repeat shoppers have already used it or learned to ignore it"
       ]
     }
   ],
@@ -94,41 +94,43 @@
     {
       "headline": "Free Gift With First Order",
       "body": "Free Gift With First Order + Save 20% Off",
-      "fatigue_score": 78,
-      "days_until_fatigue": 12
-    },
-    {
-      "headline": "Save Up to 45% on Handcrafted Gemstone Jewelry",
-      "body": "SAVING START AT 45% on our Gemstone Collection Handcrafted in Bali by master silversmiths with over 30 years of expertise…",
-      "fatigue_score": 71,
+      "fatigue_score": 72,
       "days_until_fatigue": 15
     },
     {
-      "headline": "Sarda Charm Bracelets",
-      "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions…",
-      "fatigue_score": 66,
-      "days_until_fatigue": 18
+      "headline": "Last Chance Styles",
+      "body": "These styles are on their final run. Once inventory sells through, they will not be restocked. Enjoy savings starting at 40% off while limited quantities remain.",
+      "fatigue_score": 54,
+      "days_until_fatigue": 28
+    },
+    {
+      "headline": "Explore Kunzite",
+      "body": "Soft pink kunzite, precision-cut for a radiant glow. Effortlessly feminine, beautifully refined.",
+      "fatigue_score": 38,
+      "days_until_fatigue": 40
     }
   ],
   "hero_concept": {
-    "concept_name": "Stone Story: Copper Rutilated Quartz",
-    "format": "Static image (lead of a 3-frame carousel)",
-    "hook": "The stone Janyl chose for letting go.",
-    "headline": "Love Destroys Fear.",
-    "primary_text": "Most jewelry ads sell silver. We sell the stone. Copper and gold rutilated quartz — each piece pulled from the earth with rutile threads no two are alike. Hand-set in .925 sterling by Bali silversmiths, three generations deep. The Love Destroys Fear Bracelet™ isn't an accessory. It's an heirloom you happen to wear. Free welcome kit with your first order.",
+    "concept_name": "The Stone Story",
+    "format": "Static image",
+    "hook": "Botswana agate. Eagle's eye. One bracelet, two reasons to wear it.",
+    "headline": "Less Pessimism. More Optimism.",
+    "primary_text": "Janyl Adair has been carving sterling silver in Bali for three generations. Every stone she chooses has a job — Botswana banded agate is the calm, eagle's eye is the clarity.\n\nThe Less Pessimism, More Optimism Bracelet™ pairs both in hand-set .925 silver. It's the piece you put on for the meeting, the appointment, the day that needs both halves of you.\n\nFirst order ships free with a complimentary jewelry cleaner kit. 5,000+ five-star reviews can't all be wrong.",
     "cta": "Shop Now",
-    "visual_direction": "A close-cropped editorial shot of the Love Destroys Fear Bracelet™ resting on warm cream linen with morning light catching the rutile threads inside the quartz.",
-    "fills_gap": "Across all 203 ads, not a single creative leads with a specific gemstone story or the founder/artisan narrative — 142+ ads recycle generic 'Luxury You Deserve' or BOGO offer copy. The Kunzite (index 111) and Snowflake Obsidian (index 120) educational angles got only 1-2 placements each, signaling this gap is wide open.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a close-up still life on warm cream raw-linen fabric with a single small piece of unpolished rutilated quartz crystal placed beside it for context, with soft directional morning window light raking across the bracelet to ignite the copper and gold rutile threads inside the quartz cabochons. Warm earthy palette of cream, copper, and brushed silver — minimalist artisan editorial aesthetic in the spirit of a heritage Bali jewelry house, shallow depth of field, gentle film grain. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "visual_direction": "Hero bracelet shot in soft daylight on a warm linen surface with a single sprig of dried botanical, no model — letting the stone color do the storytelling.",
+    "fills_gap": "Every active piece either leads with a discount ('Up to 45% Off', 'BOGO', 'Mothers Day Sale') or a generic luxury claim ('Luxury You Deserve') — nothing leads with the actual stones, their meaning, or Janyl as the named maker. This concept turns a single SKU into a story instead of a discount, which is what your warm audiences need to see after months of percentage-off creative.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft warm-linen flatlay with a small sprig of dried eucalyptus and a smooth river pebble placed off-center for negative space, with golden-hour window light raking from the left to highlight the gemstone facets and silver detailing. Muted earth-tone palette of cream, sand, and pale sage that signals handcrafted Balinese luxury without feeling stuffy. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "reference_title": "Less Pessimism, More Optimism Bracelet™ in Botswana Banded Agate & Eagle's Eye",
+    "reference_url": "https://sarda.com/products/less-pessimism-more-optimism-bracelet-in-botswana-banded-agate-eagles-eye",
     "image_path": "/creatives/sarda/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Top 4 ads die between May 6 – May 10. Mother's Day window closes May 10.",
-    "headline": "30 minutes to ship the replacement before CPMs spike",
-    "body": "I'll walk you through the Stone Story concept, the 3-frame carousel extension, and a kill-list for the 100+ duplicate Luxury Sterling Silver variants. You'll leave with a launch-ready brief and a fresh BOGO angle that doesn't cannibalize the gemstone narrative.",
+    "urgency": "Your top 4 ads hit fatigue between May 6-8 — Mother's Day spend is the immediate bottleneck.",
+    "headline": "Let's map a 14-day rotation before CPMs spike.",
+    "body": "I'll walk you through which 5 ads to kill this week, the broken {{product.name}} DPA setup, and three hero concepts beyond 'The Stone Story' you can ship before Mother's Day cutoff. 30 minutes, no pitch.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scoring weighs format/hook/headline/CTA/landing/launch-cluster repetition across all 203 live ads; days-until-fatigue is a directional forecast, not an MMM-grade prediction.",
+  "method_note": "Built by walking through every active Sarda placement in the Meta Ad Library and clustering by headline, body, landing page, and offer structure — fatigue scoring is directional, not a substitute for in-account frequency and CPM data.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
