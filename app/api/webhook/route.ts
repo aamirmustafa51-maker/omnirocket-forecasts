@@ -287,6 +287,8 @@ HARD RULES
 - "days_until_fatigue" must be an integer.
 - "concepts" length is exactly 3.
 - All copy grounded in the actual live ads above.
+- If an ad has an empty headline (the "Headline:" line is blank in the input), exactly ONE of its 3 "drivers" MUST explicitly call out the missing headline and explain the fatigue impact (e.g. "No headline set — body copy is doing all the persuasion, which limits scroll-stop power"). Phrase it conversationally as if you manually reviewed the ad.
+- Same rule if an ad has empty body copy: one driver MUST flag the missing body and explain the impact (e.g. "No body copy on this ad — context-setting depends entirely on the visual, which weakens cold-audience comprehension").
 - Output ONLY the JSON object. No markdown fences. No prose before or after.`;
 
   return userMessage;
