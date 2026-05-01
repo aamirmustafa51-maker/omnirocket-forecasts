@@ -111,7 +111,7 @@ export default function ForecastTemplate({
           Fatigue Forecast · Prepared for {data.first_name}
         </div>
         <h1>
-          {data.brand} — your {data.total_ads} live Meta ads, modeled.
+          {data.brand} — your {data.total_ads} live Meta {data.total_ads === 1 ? "ad" : "ads"}, modeled.
         </h1>
         <div className="meta">
           Built {data.generated_date} · {data.read_time_min}-min read
@@ -139,7 +139,7 @@ export default function ForecastTemplate({
       </div>
       <p className="benchmark-context">{data.benchmark.context}</p>
 
-      <h2>Your {data.ads.length} most fatigued ads</h2>
+      <h2>Your {data.ads.length} most fatigued {data.ads.length === 1 ? "ad" : "ads"}</h2>
 
       {data.ads.map((ad, i) => {
         const sev = ad.severity ?? severityFor(ad.fatigue_score)
@@ -196,7 +196,7 @@ export default function ForecastTemplate({
       {data.ads_compact.length > 0 && (
         <div className="summary-rest">
           <div className="sr-head">
-            The other {data.ads_compact.length} ads (analyzed, lower priority)
+            The other {data.ads_compact.length} {data.ads_compact.length === 1 ? "ad" : "ads"} (analyzed, lower priority)
           </div>
           <table>
             <tbody>
@@ -280,7 +280,7 @@ export default function ForecastTemplate({
         })()}
       </div>
 
-      <h2>{data.concepts.length} replacement concepts in your voice</h2>
+      <h2>{data.concepts.length} replacement {data.concepts.length === 1 ? "concept" : "concepts"} in your voice</h2>
       {data.concepts.map((c, i) => (
         <div key={i} className="concept">
           <div className="concept-head">
