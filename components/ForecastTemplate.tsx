@@ -165,7 +165,7 @@ export default function ForecastTemplate({
               </div>
               <div className="creative-head-left">
                 <div className="creative-tag">Ad #{ad.ad_number}</div>
-                <div className="creative-head-headline"><FieldText value={ad.headline} missingLabel="headline empty in Meta Ad Library" /></div>
+                <div className="creative-head-headline"><FieldText value={ad.headline} missingLabel="no headline on this ad" /></div>
                 <div className="creative-head-body"><FieldText value={ad.body} missingLabel="no body copy on this ad" /></div>
               </div>
               <div className="creative-score">
@@ -208,7 +208,7 @@ export default function ForecastTemplate({
               {data.ads_compact.map((a, i) => (
                 <tr key={i}>
                   <td>
-                    <strong><FieldText value={a.headline} missingLabel="headline empty in Meta Ad Library" /></strong>
+                    <strong><FieldText value={a.headline} missingLabel="no headline on this ad" /></strong>
                   </td>
                   <td className="body"><FieldText value={a.body} missingLabel="no body copy on this ad" /></td>
                   <td className="score-cell">
@@ -245,7 +245,7 @@ export default function ForecastTemplate({
                     )}
                   </div>
                   <div className="verdict-head-text">
-                    <h3><FieldText value={data.ad_to_scale.headline} missingLabel="headline empty in Meta Ad Library" /></h3>
+                    <h3><FieldText value={data.ad_to_scale.headline} missingLabel="no headline on this ad" /></h3>
                     <div className="verdict-body"><FieldText value={data.ad_to_scale.body} missingLabel="no body copy on this ad" /></div>
                   </div>
                 </div>
@@ -272,7 +272,7 @@ export default function ForecastTemplate({
                   </div>
                   <div className="verdict-head-text">
                     <h3>
-                      <FieldText value={data.ad_to_kill.headline} missingLabel="headline empty in Meta Ad Library" /> ({data.ad_to_kill.ad_label})
+                      <FieldText value={data.ad_to_kill.headline} missingLabel="no headline on this ad" /> ({data.ad_to_kill.ad_label})
                     </h3>
                     <div className="verdict-body"><FieldText value={data.ad_to_kill.body} missingLabel="no body copy on this ad" /></div>
                   </div>
