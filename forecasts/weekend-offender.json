@@ -1,0 +1,134 @@
+{
+  "brand": "Weekend Offender",
+  "brand_slug": "weekend-offender",
+  "first_name": "Matt",
+  "website": "https://weekendoffender.com",
+  "generated_date": "May 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 66,
+  "tldr": "Matt, 66 live ads are leaning hard on one brand-name headline and a handful of recycled body lines across UK/FR/DE/IT — at least 18 ads will hit fatigue inside 14 days, with CPMs likely climbing 20-35% by mid-May. The Leo Gregory tee cluster and 'Out with the old. In with the new.' drop are already at terminal velocity.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Streetwear category median is ~22 days to fatigue; Weekend Offender is sitting at ~12 because 41 of 66 ads use the bare 'Weekend Offender' headline and the same 6-7 body lines are translated rather than re-conceived. Localization is being mistaken for variation."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 2,
+      "headline": "default_collection_headline",
+      "body": "Weekend Offender: Fresh tones and statement graphics designed with sharp focus on functionality and detail.",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Headline is literally the placeholder 'default_collection_headline' — Meta is serving an unfilled template variable, which kills CTR and signals zero creative QA",
+        "Body copy is duplicated verbatim across indexes 0, 1, 10, 13, 28 with only language swaps",
+        "Same Leo Gregory tee PDP landing as 4 other ads — auction overlap is cannibalizing itself"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 10,
+      "headline": "default_collection_headline",
+      "body": "Weekend Offender: Fresh tones and statement graphics designed with sharp focus on functionality and detail.",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Headline 'default_collection_headline' is a broken Shopify variable — this should never have shipped and is actively burning impressions",
+        "Identical Fresh tones / statement graphics body running in 6 languages across the account",
+        "Variant-level PDP link guarantees thin reach inside an already-saturated Leo Gregory tee cluster"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 9,
+      "headline": "Weekend Offender's Best",
+      "body": "The Overnighter. A fan favourite for a reason. Crafted from high-density weave 100% polyester with a compact, cabin-ready design that fits aeroplane hand luggage. Built tough. Travels light. Explore our bestsellers.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Exact same body copy as indexes 4 and 8 — three near-identical Overnighter ads competing in the same UK auction",
+        "Headline 'Weekend Offender's Best' is repeated three times with no angle differentiation",
+        "All three point to /collections/bestsellers with the same UTM term — Meta will throttle the lowest performer fast"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 37,
+      "headline": "Weekend Offender",
+      "body": "Out with the old. In with the new. Weekend Offender's new drop is here.",
+      "cta": "Learn more",
+      "fatigue_score": 86,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "'Out with the old. In with the new.' runs in EN (6, 37, 58), DE (11, 18), FR (14, 23, 31) — 8 clones across the pool",
+        "Generic 'Weekend Offender' headline shared with 40+ other ads, zero hook differentiation in feed",
+        "Same /collections/new-in destination as 9 other live ads — placement diversity is gone"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 27,
+      "headline": "Leo Gregory Graphic T-Shirt White - XL / White",
+      "body": "Were you looking at this? If you weren't, you should be.",
+      "cta": "Shop Now",
+      "fatigue_score": 83,
+      "days_until_fatigue": 9,
+      "severity": "warn",
+      "drivers": [
+        "Retargeting hook 'Were you looking at this? If you weren't, you should be.' duplicated on indexes 15 and 59",
+        "SKU-with-size headline format ('XL / White') reads like a feed export, not a hook",
+        "Leo Gregory tee has 9 separate ads in the pool — cookie-pool overlap is severe"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Weekend Offender",
+      "body": "The Technician Jacket with mesh-lining, water-repellent coating and built-in face mask for protection against the elements.",
+      "fatigue_score": 71,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "Weekend Offender",
+      "body": "Not all trainers are equal. Karhu. Diadora. Saucony. WO x Veras. See the difference. Now available at Weekend Offender.",
+      "fatigue_score": 54,
+      "days_until_fatigue": 26
+    },
+    {
+      "headline": "New spring '26 collection.",
+      "body": "New silhouettes. Fresh palette with softer tones and considered contrasts.",
+      "fatigue_score": 42,
+      "days_until_fatigue": 33
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Grohl Over-Top: Camo Code",
+    "format": "Static image",
+    "hook": "Camo, but make it terrace.",
+    "headline": "Grohl Over-Top. Cyclone Grey.",
+    "primary_text": "Cut for the walk to the ground, the after-party, and the train home. The Grohl Over-Top in Cyclone Grey Camo — heavyweight shell, oversized fit, pulled straight from the terrace playbook. Music. Rave. Terrace. Film. Designed in the UK. New drop, no apologies.",
+    "cta": "Shop Now",
+    "visual_direction": "Hero shot of the Grohl Over-Top Cyclone Grey Camo on a concrete plinth against a graffiti-tagged wall, single-product focus with editorial framing.",
+    "fills_gap": "Across all 66 ads there's no single-product hero shot tied to a specific named SKU with a culture-led hook — everything is either a generic 'Weekend Offender' brand line, a recycled translated body, or a thin Leo Gregory tee variant. This concept finally pairs a named hero piece with the brand's strongest existing voice ('Music. Rave. Terrace. Film.') in the format Matt's pool is missing.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a raw concrete underpass setting with a tagged graffiti wall behind and a low matte-grey plinth presenting the garment, with directional cool overcast daylight raking across the fabric to reveal the camo texture and weight of the shell. Moody British streetwear aesthetic — desaturated cyclone-grey palette, subtle film grain, contemporary terrace-culture mood, premium fashion editorial styling reminiscent of Weekend Offender's UK design language. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "image_path": null
+  },
+  "next_step": {
+    "urgency": "5 ads die inside 9 days. The 'default_collection_headline' bug is bleeding now.",
+    "headline": "Book 30 min — let's ship the Grohl hero before next weekend",
+    "body": "Matt, I'll walk you through the auction overlap on the Leo Gregory cluster and the Overnighter triplet, then we line up the Grohl Over-Top hero plus 2 backups so you've got fresh creative live before mid-May CPM creep. Quick, specific, no fluff.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scores derived from pattern detection across all 66 live ads (headline/body/CTA/landing repetition + launch clustering); directional, not a substitute for in-platform frequency and CPM data.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
