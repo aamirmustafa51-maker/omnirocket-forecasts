@@ -517,29 +517,26 @@ p { margin: 0 0 14px; }
 .next-step p { font-size: 16px; color: var(--ink); margin-bottom: 18px; }
 .cta-row {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
 }
 .cta-primary {
   display: inline-block;
-  padding: 16px 28px;
-  background: var(--ink);
+  padding: 16px 32px;
+  background: #6D3BD9;
   color: #fff;
-  border-radius: 2px;
+  border-radius: 4px;
   font-family: ui-sans-serif, system-ui, sans-serif;
   font-size: 15px;
   font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.005em;
+  text-align: center;
   transition: background 0.15s ease;
 }
-.cta-primary:hover { background: #000; }
-.cta-secondary {
-  font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
-  color: var(--ink-soft);
-}
+.cta-primary:hover { background: #5B2EC4; }
 
 footer {
   margin-top: 64px;
