@@ -716,3 +716,46 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   border-top: 1px solid var(--line);
 }
 .hero-mockup-meta strong { color: var(--ink); font-weight: 600; }
+
+/* ── Liquid token (broken CMS placeholder) styling ── */
+.field-broken-token {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+.field-broken-token code {
+  background: #faf2e8;
+  border: 1px solid #f0e0c8;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-size: 12.5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: #8a5a1a;
+  font-style: normal;
+  margin: 0 1px;
+}
+
+/* ── Hero mockup disclaimer (shown under FB ad chrome) ── */
+.hero-mockup-disclaimer {
+  max-width: 504px;
+  margin: 8px auto 0;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+  text-align: center;
+  padding: 0 6px;
+}
+.hero-mockup-disclaimer a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-color: var(--ink-soft);
+  text-underline-offset: 2px;
+}
+.hero-mockup-disclaimer a:hover { text-decoration-color: var(--ink); }
+
+/* ── Tighter paragraph spacing inside FB ad primary text ── */
+.fb-ad-primary {
+  white-space: pre-line;
+}

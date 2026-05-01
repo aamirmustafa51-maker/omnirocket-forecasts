@@ -31,6 +31,8 @@ export type HeroConcept = {
   fills_gap: string
   image_prompt?: string
   image_path?: string | null
+  reference_title?: string | null
+  reference_url?: string | null
 }
 
 export type ForecastData = {
@@ -78,9 +80,24 @@ function mockupImageExists(slug: string): boolean {
   return fs.existsSync(p)
 }
 
+// Detects unmerged template tokens like {{product.name}}, {% ... %}, or
+// `default_collection_headline` / `default_*_*` placeholders that bleed
+// through when a brand's CMS template fails to render.
+const LIQUID_TOKEN = /\{\{[^}]+\}\}|\{%[^%]+%\}|\bdefault_[a-z_]+\b/i
+function looksLikeBrokenToken(value: string): boolean {
+  return LIQUID_TOKEN.test(value)
+}
+
 function FieldText({ value, missingLabel }: { value: string; missingLabel: string }) {
-  if (value && value.trim()) return <>&ldquo;{value}&rdquo;</>
-  return <span className="field-missing">({missingLabel})</span>
+  if (!value || !value.trim()) return <span className="field-missing">({missingLabel})</span>
+  if (looksLikeBrokenToken(value)) {
+    return (
+      <span className="field-broken-token">
+        (their CMS template didn't render — the live ad shows: <code>{value}</code>)
+      </span>
+    )
+  }
+  return <>&ldquo;{value}&rdquo;</>
 }
 
 function brandDomain(website: string): string {
@@ -244,6 +261,19 @@ export default function ForecastTemplate({
                 <button className="fb-ad-cta" type="button">{hero.cta}</button>
               </div>
             </div>
+            {hero.reference_title && (
+              <div className="hero-mockup-disclaimer">
+                Mocked from your{" "}
+                {hero.reference_url ? (
+                  <a href={hero.reference_url} target="_blank" rel="noopener">
+                    {hero.reference_title}
+                  </a>
+                ) : (
+                  <em>{hero.reference_title}</em>
+                )}
+                {" "}· AI rendering from public catalog photos — directional, not exact.
+              </div>
+            )}
             <div className="hero-mockup-rationale">
               <div className="hero-mockup-tag">Why this concept</div>
               <p>{hero.fills_gap}</p>

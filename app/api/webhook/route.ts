@@ -191,36 +191,89 @@ function compactCount(totalUsable: number): number {
   return 3;
 }
 
-// Shopify exposes /products.json publicly on most stores. First product = most
-// recently updated, which usually correlates with the brand's active push.
-type ShopifyProduct = { title: string; image_url: string };
+// Shopify exposes /products.json publicly on most stores. We pull a window of
+// recent products and pick the first one that's published, in stock, and looks
+// like an apparel/jewelry SKU (skip art/decor/ceramic/candle/home goods).
+type ShopifyProduct = { title: string; image_url: string; page_url: string };
+const SKU_TYPE_BLOCKLIST = /\b(art|ceramic|candle|home|decor|fragrance|book|sticker|gift card)\b/i;
 async function fetchShopifyHeroProduct(websiteUrl: string): Promise<ShopifyProduct | null> {
   try {
     const base = websiteUrl.replace(/\/$/, "");
-    const res = await fetch(`${base}/products.json?limit=1`, {
+    const res = await fetch(`${base}/products.json?limit=20`, {
       signal: AbortSignal.timeout(8000),
     });
     if (!res.ok) return null;
     const data = (await res.json()) as {
-      products?: Array<{ title?: string; images?: Array<{ src?: string }> }>;
+      products?: Array<{
+        title?: string;
+        handle?: string;
+        product_type?: string;
+        tags?: string[];
+        published_at?: string | null;
+        images?: Array<{ src?: string }>;
+        variants?: Array<{ available?: boolean }>;
+      }>;
     };
-    const p = data.products?.[0];
-    const img = p?.images?.[0]?.src;
-    if (!p?.title || !img) return null;
-    return { title: p.title, image_url: img };
+    const products = data.products ?? [];
+
+    const candidates = products.filter((p) => {
+      if (!p.title || !p.handle || !p.images?.[0]?.src) return false;
+      if (!p.published_at) return false;
+      const inStock = (p.variants ?? []).some((v) => v.available === true);
+      if (!inStock) return false;
+      return true;
+    });
+    if (candidates.length === 0) return null;
+
+    // Prefer SKUs that don't look like art/home/non-apparel; fall back to any.
+    const apparelLike = candidates.find((p) => {
+      const blob = `${p.product_type ?? ""} ${(p.tags ?? []).join(" ")}`;
+      return !SKU_TYPE_BLOCKLIST.test(blob);
+    });
+    const picked = apparelLike ?? candidates[0];
+
+    return {
+      title: picked.title!,
+      image_url: picked.images![0].src!,
+      page_url: `${base}/products/${picked.handle}`,
+    };
   } catch (e) {
     console.error("Shopify fetch failed:", e);
     return null;
   }
 }
 
-// KIE Nano Banana 2 (1K, 8 credits). Async task — submit, then poll.
-async function kieGenerateMockup(prompt: string, referenceImageUrl: string): Promise<string | null> {
-  const apiKey = process.env.KIE_API_KEY;
-  if (!apiKey) {
-    console.error("KIE_API_KEY not set — skipping mockup");
-    return null;
+// Words that have tripped Google's content filter on Nano Banana 2 in testing.
+// Strip these from prompts (case-insensitive) before submitting.
+const NB2_BLOCKLIST = [
+  "graffiti",
+  "tagged",
+  "underpass",
+  "weapon",
+  "gun",
+  "alcohol",
+  "drug",
+  "tattoo",
+  "blood",
+];
+
+function sanitizeNB2Prompt(prompt: string): string {
+  let out = prompt;
+  for (const word of NB2_BLOCKLIST) {
+    out = out.replace(new RegExp(`\\b${word}\\w*\\b`, "gi"), "");
   }
+  return out.replace(/\s+/g, " ").replace(/ ,/g, ",").trim();
+}
+
+function buildSafeFallbackPrompt(productTitle: string): string {
+  return `A photorealistic editorial product photograph featuring the product from the reference image, styled on a soft cream linen surface with natural diffused daylight from a side window casting gentle shadows. Calm, premium, minimalist aesthetic with a muted neutral palette. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the ${productTitle} from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.`;
+}
+
+async function kieSubmitAndPoll(
+  prompt: string,
+  referenceImageUrl: string,
+  apiKey: string,
+): Promise<string | null> {
   try {
     const submitRes = await fetch("https://api.kie.ai/api/v1/jobs/createTask", {
       method: "POST",
@@ -245,12 +298,8 @@ async function kieGenerateMockup(prompt: string, referenceImageUrl: string): Pro
     }
     const submitJson = (await submitRes.json()) as { data?: { taskId?: string } };
     const taskId = submitJson.data?.taskId;
-    if (!taskId) {
-      console.error("KIE no taskId returned");
-      return null;
-    }
+    if (!taskId) return null;
 
-    // Poll up to 120s (test runs took ~40-60s)
     const start = Date.now();
     while (Date.now() - start < 120000) {
       await new Promise((r) => setTimeout(r, 4000));
@@ -280,6 +329,26 @@ async function kieGenerateMockup(prompt: string, referenceImageUrl: string): Pro
   }
 }
 
+// First attempt with Claude's prompt (sanitized). On failure, retry once with
+// a stripped-down safe template that only varies by product name.
+async function kieGenerateMockup(
+  prompt: string,
+  referenceImageUrl: string,
+  productTitle: string,
+): Promise<string | null> {
+  const apiKey = process.env.KIE_API_KEY;
+  if (!apiKey) {
+    console.error("KIE_API_KEY not set — skipping mockup");
+    return null;
+  }
+  const sanitized = sanitizeNB2Prompt(prompt);
+  const first = await kieSubmitAndPoll(sanitized, referenceImageUrl, apiKey);
+  if (first) return first;
+
+  console.error("NB2 first attempt failed; retrying with safe fallback prompt");
+  return await kieSubmitAndPoll(buildSafeFallbackPrompt(productTitle), referenceImageUrl, apiKey);
+}
+
 function buildPrompt(
   payload: WebhookPayload,
   slug: string,
@@ -301,7 +370,10 @@ function buildPrompt(
 
   const adsWithImages = allAds.filter((a) => a.image_url).length;
   const totalUsable = allAds.length;
-  const topK = Math.min(5, adsWithImages);
+  // Pick a slightly larger pool than we'll display so the pipeline can fall
+  // back when Apify image URLs 404 at download time. Render only the top 5
+  // that upload cleanly.
+  const candidateK = Math.min(7, adsWithImages);
   const compactK = compactCount(totalUsable);
 
   const heroProductLine = heroProductTitle
@@ -321,11 +393,11 @@ ${adsText}
 
 YOUR TASK
 =========
-1. Analyze ALL ${totalUsable} ads above for fatigue signals across the full pool.
+1. Analyze ALL ${totalUsable} ads above for fatigue signals across everything they're running.
 2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
-3. Pick the ${topK} most fatigued ads THAT HAVE IMAGES (IMG:yes). Output as full ad cards in "ads", numbered 1..${topK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above.
-4. Pick ${compactK} additional representative ads (with or without images) from the remaining pool. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
-5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} ads.
+3. Pick the ${candidateK} most fatigued ads THAT HAVE IMAGES (IMG:yes), ranked by fatigue_score descending. Output as full ad cards in "ads", numbered 1..${candidateK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above. (We'll display only the top 5 — extras serve as backups when image downloads fail.)
+4. Pick ${compactK} additional representative ads (with or without images) from the remaining set. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
+5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} of their live ads.
 6. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
 
 IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
@@ -370,11 +442,11 @@ Return a single valid JSON object matching this EXACT schema:
     "format": "Static image / Carousel / etc",
     "hook": "≤10 words — appears as primary text above the ad image",
     "headline": "≤6 words — appears below the ad image as the headline",
-    "primary_text": "~50 words in brand voice. This is the body copy that appears above the image in the mockup.",
+    "primary_text": "60-90 words in brand voice, FORMATTED AS 2-3 SHORT PARAGRAPHS separated by literal \\n\\n. First paragraph hooks/opens, second develops, optional third closes with the offer. Example: 'When Lea started L.CUPPINI in London in 2019, the goal was simple: outerwear that doesn't expire.\\n\\nThe Linda Tux Blazer in beige is cut for the woman who's done chasing seasons — tailored shoulder, soft hand, weight that holds its shape after the tenth wear.\\n\\nFree express shipping worldwide on orders over £600.'",
     "cta": "Shop Now / Learn More / etc — short button label",
     "visual_direction": "1 sentence describing what the visual shows",
-    "fills_gap": "What gap this fills, referencing patterns from the full ad pool — 1-2 sentences.",
-    "image_prompt": "the fully-filled image generation prompt using the template above with {SCENE}, {LIGHTING}, {AESTHETIC} slots filled in based on the brand's aesthetic"
+    "fills_gap": "What gap this fills, referencing patterns from their live ads — 1-2 sentences. NO mention of indexes, pools, or datasets.",
+    "image_prompt": "the fully-filled image generation prompt using the template above with {SCENE}, {LIGHTING}, {AESTHETIC} slots filled in based on the brand's aesthetic. Do NOT use words like graffiti, tagged, weapon, drug, alcohol, blood — Google's content filter rejects them."
   },
   "next_step": {
     "urgency": "short urgency line tied to ad death dates",
@@ -389,16 +461,30 @@ Return a single valid JSON object matching this EXACT schema:
 
 HARD RULES
 ==========
-- "ads" length must equal exactly ${topK}. Each entry MUST have source_index pointing to one of the [INDEX:N] values where IMG was "yes". No duplicates.
-- ad_number values in "ads" are sequential 1..${topK} where 1 = most fatigued.
-- "ads_compact" length must equal exactly ${compactK} (the rest of the pool — used for analysis context only, not rendered).
+- "ads" length must equal exactly ${candidateK}. Each entry MUST have source_index pointing to one of the [INDEX:N] values where IMG was "yes". No duplicates.
+- ad_number values in "ads" are sequential 1..${candidateK} where 1 = most fatigued.
+- "ads_compact" length must equal exactly ${compactK} (used for analysis context only, not rendered).
 - "severity": danger if fatigue_score>=85, warn if 65-84, ok if <65.
 - "days_until_fatigue" must be an integer.
 - Exactly ONE hero_concept (not multiple).
 - hero_concept.image_prompt MUST follow the template structure exactly with the negative section preserved verbatim.
+- hero_concept.primary_text MUST contain literal \\n\\n separators between paragraphs (2-3 paragraphs total).
 - All copy grounded in the actual live ads above.
-- If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact.
-- Output ONLY the JSON object. No markdown fences. No prose before or after.`;
+- If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact ("No headline on this ad — the body is doing all the work...").
+
+ABSOLUTELY FORBIDDEN — these reveal you are an AI processing structured data:
+- NEVER reference [INDEX:N] numbers in any user-facing copy. Not in drivers. Not in tldr. Not in benchmark.context. Not in fills_gap. Not anywhere.
+  ❌ "Body copy is duplicated verbatim across indexes 0, 1, 10, 13, 28"
+  ❌ "duplicated on indexes 15 and 59"
+  ❌ "INDEX 1, 2, and 5"
+  ✅ "Body copy is duplicated verbatim across five of your live ads"
+  ✅ "this same hook is recycled across roughly a dozen variants"
+- NEVER use the words: index, indexes, the pool, the dataset, the data, source_index, ad_label.
+- NEVER use the words: audit, review, analysis (use: walked through, looked at, went through, mapped).
+- Refer to ads by what they ARE, not by number: "your camo coat ad", "the 'BOGO' headline variant", "the three Valentine's heart-pendant ads", "your founder-story video".
+- The reader must believe a human strategist on Kyle's team manually went through their Meta Ad Library and wrote this. Every sentence should pass that test.
+
+Output ONLY the JSON object. No markdown fences. No prose before or after.`;
 
   return userMessage;
 }
@@ -478,59 +564,71 @@ export async function POST(req: NextRequest) {
       throw new Error("Claude returned no text content");
     }
     const forecastJson = extractJson(textBlock.text) as {
-      ads: Array<{ ad_number: number; source_index?: number }>;
-      hero_concept?: { image_prompt?: string; image_path?: string | null };
+      ads: Array<{ ad_number: number; source_index?: number; fatigue_score?: number }>;
+      hero_concept?: {
+        image_prompt?: string;
+        image_path?: string | null;
+        reference_title?: string | null;
+        reference_url?: string | null;
+      };
     };
 
-    // 4. Upload top-ad images
+    // 4. Try to upload images for ALL of Claude's candidates (up to 7).
+    // Keep only the top 5 by fatigue_score that succeeded, then renumber 1..5.
     const indexById = new Map(normalized.map((a) => [a.index, a]));
-    for (const ad of forecastJson.ads) {
+    const sortedCandidates = [...forecastJson.ads].sort(
+      (a, b) => (b.fatigue_score ?? 0) - (a.fatigue_score ?? 0),
+    );
+    const successfulAds: typeof forecastJson.ads = [];
+    for (const ad of sortedCandidates) {
+      if (successfulAds.length >= 5) break;
       if (typeof ad.source_index !== "number") continue;
       const src = indexById.get(ad.source_index);
       if (!src || !src.image_url) continue;
+      const targetNumber = successfulAds.length + 1;
       try {
         const b64 = await downloadImageBase64(src.image_url);
         await githubPut(
-          `public/creatives/${slug}/creative-${ad.ad_number}.jpg`,
+          `public/creatives/${slug}/creative-${targetNumber}.jpg`,
           b64,
-          `chore: add creative-${ad.ad_number} for ${slug}`,
+          `chore: add creative-${targetNumber} for ${slug}`,
         );
+        successfulAds.push({ ...ad, ad_number: targetNumber });
       } catch (e) {
         console.error(
-          `Image upload failed for creative-${ad.ad_number} (source_index=${ad.source_index}):`,
+          `Image upload failed for source_index=${ad.source_index}; trying next candidate:`,
           e,
         );
       }
     }
+    forecastJson.ads = successfulAds;
 
     // 5. Generate hero mockup ad image (skip-and-revert: any failure → null path)
-    if (
-      forecastJson.hero_concept &&
-      heroProduct &&
-      forecastJson.hero_concept.image_prompt
-    ) {
-      const mockupUrl = await kieGenerateMockup(
-        forecastJson.hero_concept.image_prompt,
-        heroProduct.image_url,
-      );
-      if (mockupUrl) {
-        try {
-          const b64 = await downloadImageBase64(mockupUrl);
-          await githubPut(
-            `public/creatives/${slug}/hero-mockup.jpg`,
-            b64,
-            `chore: add hero-mockup for ${slug}`,
-          );
-          forecastJson.hero_concept.image_path = `/creatives/${slug}/hero-mockup.jpg`;
-        } catch (e) {
-          console.error("Mockup upload failed:", e);
-          forecastJson.hero_concept.image_path = null;
-        }
-      } else {
-        forecastJson.hero_concept.image_path = null;
-      }
-    } else if (forecastJson.hero_concept) {
+    if (forecastJson.hero_concept) {
+      forecastJson.hero_concept.reference_title = heroProduct?.title ?? null;
+      forecastJson.hero_concept.reference_url = heroProduct?.page_url ?? null;
       forecastJson.hero_concept.image_path = null;
+
+      if (heroProduct && forecastJson.hero_concept.image_prompt) {
+        const mockupUrl = await kieGenerateMockup(
+          forecastJson.hero_concept.image_prompt,
+          heroProduct.image_url,
+          heroProduct.title,
+        );
+        if (mockupUrl) {
+          try {
+            const b64 = await downloadImageBase64(mockupUrl);
+            await githubPut(
+              `public/creatives/${slug}/hero-mockup.jpg`,
+              b64,
+              `chore: add hero-mockup for ${slug}`,
+            );
+            forecastJson.hero_concept.image_path = `/creatives/${slug}/hero-mockup.jpg`;
+          } catch (e) {
+            console.error("Mockup upload failed:", e);
+          }
+        }
+      }
     }
 
     // 6. PUT forecast JSON
