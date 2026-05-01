@@ -320,7 +320,17 @@ p { margin: 0 0 14px; }
   gap: 14px;
   margin-bottom: 8px;
 }
+.verdict-pair:has(.verdict.solo) { grid-template-columns: 1fr; }
 @media (max-width: 600px) { .verdict-pair { grid-template-columns: 1fr; } }
+.verdict-solo-note {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border, #ddd);
+  font-size: 14px;
+  color: var(--muted, #666);
+  font-style: italic;
+  line-height: 1.5;
+}
 
 @media (max-width: 600px) {
   .creative-card { padding: 18px 16px; }

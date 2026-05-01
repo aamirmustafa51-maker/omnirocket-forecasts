@@ -223,9 +223,12 @@ export default function ForecastTemplate({
           const scaleHasImg = scaleNum != null && adImageExists(slug, scaleNum)
           const killNum = parseAdNumber(data.ad_to_kill.ad_label)
           const killHasImg = killNum != null && adImageExists(slug, killNum)
+          const sameAd =
+            (scaleNum != null && killNum != null && scaleNum === killNum) ||
+            data.ad_to_scale.headline.trim() === data.ad_to_kill.headline.trim()
           return (
             <>
-              <div className="verdict scale">
+              <div className={`verdict scale${sameAd ? " solo" : ""}`}>
                 <div className="verdict-tag">Scale this one</div>
                 <div className="verdict-head">
                   <div className="verdict-thumb t-scale">
@@ -242,7 +245,15 @@ export default function ForecastTemplate({
                   </div>
                 </div>
                 <div className="verdict-why">{data.ad_to_scale.why}</div>
+                {sameAd && (
+                  <div className="verdict-solo-note">
+                    Only one ad live right now — there's no second creative to kill yet. Once the
+                    replacement concepts below are launched, retire this static within ~12 days to
+                    avoid CPM penalty from frequency stacking.
+                  </div>
+                )}
               </div>
+              {!sameAd && (
               <div className="verdict kill">
                 <div className="verdict-tag">Kill this one today</div>
                 <div className="verdict-head">
@@ -263,6 +274,7 @@ export default function ForecastTemplate({
                 </div>
                 <div className="verdict-why">{data.ad_to_kill.why}</div>
               </div>
+              )}
             </>
           )
         })()}
