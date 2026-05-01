@@ -6,76 +6,46 @@
   "generated_date": "May 1, 2026",
   "read_time_min": 3,
   "total_ads": 5,
-  "tldr": "Caroline, 3 of your 5 live ads are near-identical 'Shop New Arrivals / ZII ROPA SS26' clones — that's a hook collision that typically lifts CPM 18-30% within 10-14 days. Two retail/pop-up ads are diluting the prospecting pool further with no product-led story carrying the SS26 launch.",
+  "tldr": "Three of your five live ads are running the identical 'Shop New Arrivals / ZII ROPA SS26' lockup pointing to the same New Women collection — that's a frequency bomb that'll spike CPMs inside 7-10 days. The two event ads (Roma Norte flagship, Williamsburg pop-up) are doing different work but neither is carrying the craft story that's actually your moat.",
   "benchmark": {
-    "your_value_days": 11,
+    "your_value_days": 9,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "Slow-fashion peers running Japanese-fabric and small-batch positioning typically refresh creative every 22 days. Three duplicate SS26 New Arrivals ads pointing to the same /collections/new-women URL are accelerating fatigue well below the category median."
+    "context": "Sustainable fashion brands in your tier typically rotate 6-8 distinct creative angles at once. You're effectively running two: 'new arrivals' (3x) and 'come visit us' (2x). The Japanese fabrics + Made in Mexico City line only appears once across all five ads — that's the story competitors can't copy."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 4,
-      "headline": "Shop New Arrivals",
-      "body": "ZII ROPA SS26",
-      "cta": "Shop now",
-      "fatigue_score": 91,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "Exact duplicate of ad [1] — same headline, body, CTA, and landing URL competing in the same auction",
-        "Body copy 'ZII ROPA SS26' carries zero product or craft signal — no fabric, no silhouette, no reason to click",
-        "Third instance of the same /collections/new-women destination across the pool — Meta is pooling learnings against itself"
-      ]
-    },
-    {
-      "ad_number": 2,
       "source_index": 1,
       "headline": "Shop New Arrivals",
       "body": "ZII ROPA SS26",
       "cta": "Shop now",
-      "fatigue_score": 88,
+      "fatigue_score": 91,
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "Identical twin of ad [4] — duplicate creative bidding on overlapping audiences",
-        "No differentiation hook: 'SS26' alone won't stop the scroll for a cold prospector",
-        "Hook recycling — 3 of 5 ads in the pool open with 'Shop New Arrivals'"
+        "Body copy is just two words — 'ZII ROPA SS26' — which gives the algorithm nothing to optimize against and tells your buyer nothing about why to click",
+        "Identical headline + body + CTA + landing URL as two other live ads, so Meta is bidding against itself in the same auction",
+        "No mention of fabric, craft, or what 'SS26' actually contains — the conscious-consumer hook is missing entirely"
       ]
     },
     {
-      "ad_number": 3,
+      "ad_number": 2,
       "source_index": 3,
       "headline": "Shop New Arrivals",
       "body": "ZII ROPA SS26  Japanese fabrics. Made in Mexico City.",
       "cta": "Shop now",
-      "fatigue_score": 78,
-      "days_until_fatigue": 14,
+      "fatigue_score": 76,
+      "days_until_fatigue": 16,
       "severity": "warn",
       "drivers": [
-        "Strongest of the three twins — 'Japanese fabrics. Made in Mexico City.' actually says something — but the headline is still recycled",
-        "Same /collections/new-women landing as two other ads — destination fatigue compounding",
-        "Craft story buried as a tagline instead of being the hook"
+        "This is the strongest of the three 'New Arrivals' variants because it actually names the craft story — but it's drowning because the other two duplicates are eating its impressions",
+        "Same headline and CTA as two sibling ads, so creative differentiation lives entirely in the body — fragile",
+        "The 'Japanese fabrics. Made in Mexico City.' line deserves to be the headline, not buried after a SKU code"
       ]
     },
     {
-      "ad_number": 4,
-      "source_index": 0,
-      "headline": "Join us at our flagship store located at Tabasco 61, Roma Norte, CDMX",
-      "body": "{{product.brand}}",
-      "cta": "Learn More",
-      "fatigue_score": 82,
-      "days_until_fatigue": 10,
-      "severity": "warn",
-      "drivers": [
-        "Body copy is a broken Liquid variable '{{product.brand}}' — this shipped untemplated and reads as a bug to anyone who notices",
-        "Headline doubles as the body — no narrative, no reason to learn more beyond an address",
-        "Retail-driver creative running in the same account as e-com prospecting with no audience separation"
-      ]
-    },
-    {
-      "ad_number": 5,
+      "ad_number": 3,
       "source_index": 2,
       "headline": "",
       "body": "Williamsburg, this week only ZII ROPA + ODISSEA pop-up 135 Wythe Ave April 30 – May 4 11–7PM",
@@ -84,32 +54,34 @@
       "days_until_fatigue": 18,
       "severity": "warn",
       "drivers": [
-        "Headline field is empty — Meta will auto-pull from the landing page, which is a share.google redirect, so you're forfeiting the most valuable real estate on the placement",
-        "Pop-up ends May 4 — by the time fatigue hits, the offer is dead anyway",
-        "Landing goes to a Google share link instead of a branded ziiropa.com page, eroding trust signal"
+        "No headline on this ad — the body is doing all the work, and Meta typically truncates after ~125 characters in feed, so 'April 30 – May 4 11–7PM' may not even render",
+        "Pop-up ends May 4 — this ad has 4 days of useful life left and then becomes a wasted impression generator unless someone pauses it manually",
+        "Landing URL is a share.google redirect, which Meta's quality score penalizes and conscious-consumer buyers don't trust"
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "The Fabric Origin Story",
-    "format": "Static image (1:1) — first in a 3-part carousel test",
-    "hook": "The Japanese mill behind your next favorite piece.",
-    "headline": "Made to outlast the season",
-    "primary_text": "Every SS26 piece begins with a fabric we couldn't find anywhere else — a limited run of Japanese linen, woven slowly, finished by hand in our Mexico City atelier. The Julia DeRose Ceramic is one of them: structured, breathable, designed to live in your closet for a decade. Limited cuts. No restocks.",
-    "cta": "Shop SS26",
-    "visual_direction": "Editorial still life of the Julia DeRose Ceramic piece on a raw linen surface beside a folded swatch of its source fabric, soft Mexico City morning light.",
-    "fills_gap": "Four of your five live ads lead with destination ('Shop New Arrivals') or logistics (pop-up address) — none lead with the actual reason someone buys Zii Ropa: the fabric story and the craft. This concept replaces three duplicate SS26 ads with a product-led hook that earns the click instead of asking for it.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet Mexico City atelier still-life with raw linen fabric draped on a warm-toned ceramic surface and a folded swatch of natural Japanese linen placed beside it, with soft diffused morning window light casting gentle shadows from the left. Muted earth-tone palette of bone, oat, and warm clay; minimalist slow-fashion aesthetic with intentional negative space and an artisanal, considered mood. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
-    "image_path": null
+    "concept_name": "Japanese Fabric, Mexico City Hands",
+    "format": "Static image",
+    "hook": "Cut once. Worn for a decade.",
+    "headline": "The LAURENT Pant",
+    "primary_text": "Caroline sources the linen from a third-generation mill outside Kyoto. Then it travels to a small atelier in Roma Norte, where four people cut and stitch every LAURENT pant by hand.\n\nThat's why the drape sits the way it does — and why the seams will still be square after a hundred wears. Limited run. When this linen is gone, it's gone.\n\nShop SS26 at ziiropa.com.",
+    "cta": "Shop Now",
+    "visual_direction": "The LAURENT pant photographed on a soft natural backdrop in warm Mexico City afternoon light, with subtle texture detail showing the linen weave.",
+    "fills_gap": "Three of your five live ads are running the same 'Shop New Arrivals / SS26' lockup with no story attached — the craft narrative (Japanese fabrics, Made in Mexico City) only appears as a buried tag on one variant. This concept makes that craft story the entire ad and gives a single hero SKU to anchor it.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet Roma Norte atelier setting with the pant displayed against soft linen and natural wood surfaces, with warm late-afternoon Mexico City daylight raking across the fabric to reveal the weave texture. Muted, earthy palette — bone, sand, soft terracotta — with a calm, intentional, slow-fashion editorial mood that signals craft and longevity. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "reference_title": "LAURENT Pant",
+    "reference_url": "https://ziiropa.com/products/laurent-pant-arles-mini-check-purple",
+    "image_path": "/creatives/zii-ropa/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Two ads hit fatigue inside 7 days — the duplicates need to come down this week.",
-    "headline": "15 min to map the SS26 refresh",
-    "body": "I'll walk you through which ad to kill today, which one to scale, and a 3-concept shotlist built around the Japanese-fabric story. No pitch — just the plan.",
+    "urgency": "Three duplicate ads hit hard fatigue inside 7-9 days.",
+    "headline": "15 minutes to map your SS26 rotation",
+    "body": "I'll walk you through which of the three 'New Arrivals' duplicates to kill today and how to rebuild around the Japanese-fabric story. We can also queue a replacement for the Williamsburg pop-up before May 4.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scoring is based on observable creative signals across the 5 live ads in Meta Ad Library; spend, CTR, and frequency data are not included.",
+  "method_note": "Signals scored from publicly visible Meta Ad Library creative — frequency and CPM modeled, not measured from your ad account.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
