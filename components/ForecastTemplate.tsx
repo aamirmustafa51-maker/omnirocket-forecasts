@@ -50,8 +50,6 @@ export type ForecastData = {
   }
   ads: Ad[]
   ads_compact: CompactAd[]
-  ad_to_scale: { headline: string; body: string; why: string; ad_label?: string }
-  ad_to_kill: { headline: string; body: string; why: string; ad_label: string }
   hero_concept: HeroConcept
   next_step: {
     urgency: string

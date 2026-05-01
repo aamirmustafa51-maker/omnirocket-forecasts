@@ -325,9 +325,8 @@ YOUR TASK
 2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
 3. Pick the ${topK} most fatigued ads THAT HAVE IMAGES (IMG:yes). Output as full ad cards in "ads", numbered 1..${topK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above.
 4. Pick ${compactK} additional representative ads (with or without images) from the remaining pool. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
-5. Keep ad_to_scale and ad_to_kill referencing entries in "ads" by ad_label (e.g. "Ad #1"). If only 1 ad exists in "ads", set ad_to_scale to that ad and set ad_to_kill to the SAME ad with body explaining "single creative — retire after launching replacements."
-6. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} ads.
-7. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
+5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} ads.
+6. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
 
 IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
 
@@ -366,8 +365,6 @@ Return a single valid JSON object matching this EXACT schema:
   "ads_compact": [
     { "headline": "...", "body": "...", "fatigue_score": 58, "days_until_fatigue": 21 }
   ],
-  "ad_to_scale": { "ad_label": "Ad #1", "headline": "...", "body": "...", "why": "2-3 sentences." },
-  "ad_to_kill": { "ad_label": "Ad #3", "headline": "...", "body": "...", "why": "2-3 sentences." },
   "hero_concept": {
     "concept_name": "short descriptor",
     "format": "Static image / Carousel / etc",
