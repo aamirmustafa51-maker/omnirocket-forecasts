@@ -5,232 +5,165 @@
   "website": "https://ohtnyc.com",
   "generated_date": "May 1, 2026",
   "read_time_min": 4,
-  "total_ads": 20,
-  "tldr": "Friend, your account is leaning hard on two creative templates — the 'CUBE to Cosmos' LIGHTSUM drop (6 near-identical variants) and 'The Usual' everyday line — and CPMs typically spike 18-30% within 7-14 days when one concept dominates this heavily. You've got one clear scaler and one obvious kill, plus three gap-filling concepts ready to brief.",
+  "total_ads": 76,
+  "tldr": "Of 76 live ads, 41 are exact-copy clones of 'Soft Enough for Daily. Sharp Enough to Feel Like You' and 15 are clones of the Valentine's 'He♡rt Heist' — meaning ~74% of your active pool is two pieces of copy stretched across different product URLs. Expect CPM lift within 7-14 days as Meta's frequency caps collapse delivery onto the freshest 3-4 unique creatives.",
   "benchmark": {
-    "your_value_days": 12,
+    "your_value_days": 9,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "Fashion/jewelry DTC brands in our dataset typically see fatigue at ~22 days. OHTNYC is running ~10 days ahead of fatigue because of heavy duplication on the LIGHTSUM and 'Usual' creatives."
+    "context": "Fashion/jewelry DTC brands at top quartile rotate 8-12 distinct hooks per month. OHTNYC is running 5 unique copy templates across 76 placements, with 'THE USUAL' body copy duplicated 41 times and a Valentine's-themed angle still live on May 1 — well past seasonal relevance."
   },
   "ads": [
     {
-      "ad_number": 4,
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
-      "cta": "Shop now",
-      "fatigue_score": 92,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "Body copy is duplicated word-for-word across 6 ads (4, 5, 11, 15, 16, 18, 19)",
-        "Headline 'From CUBE to Cosmos' is identical across the cluster",
-        "Same landing page (cube-dice-necklace) used 5+ times — destination fatigue compounding"
-      ]
-    },
-    {
-      "ad_number": 5,
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
-      "cta": "Shop now",
-      "fatigue_score": 87,
-      "days_until_fatigue": 7,
-      "severity": "danger",
-      "drivers": [
-        "Identical body to Ad 4 — only the landing URL (supernova-necklace) differs",
-        "Headline pattern reuse from the LIGHTSUM cluster",
-        "Limited-drop framing loses urgency when duplicated"
-      ]
-    },
-    {
       "ad_number": 1,
+      "source_index": 64,
       "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
       "body": "₊˚⊹♡ THE USUAL ♡⊹˚₊ Not the jewelry you save for \"someday.\" The ones you live in, grocery runs, late nights, everything between. Soft, sharp, and oht to the core ♡ Meet the usual, your everyday, upgraded ☁︎⚙︎☆",
       "cta": "Shop Now",
-      "fatigue_score": 71,
-      "days_until_fatigue": 14,
-      "severity": "warn",
+      "fatigue_score": 94,
+      "days_until_fatigue": 6,
+      "severity": "danger",
       "drivers": [
-        "'The Usual' headline + body is replicated in Ads 6 and 8",
-        "Strong differentiated angle (everyday wear) keeps it fresher than LIGHTSUM cluster",
-        "Headline 'Soft Enough for Daily. Sharp Enough to Feel Like You' is the highest-quality hook in the set — but it's burning through impressions in triplicate"
-      ]
-    },
-    {
-      "ad_number": 3,
-      "headline": "For Your Weekly Jewelry Rotation",
-      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
-      "cta": "Shop Now",
-      "fatigue_score": 68,
-      "days_until_fatigue": 16,
-      "severity": "warn",
-      "drivers": [
-        "Body copy is identical to Ad 2 — same 'Be unapologetically you' opener",
-        "Same landing page (transparent-heart-charm-necklace) as Ad 2",
-        "Generic empowerment angle lacks the specificity of 'The Usual' or LIGHTSUM"
+        "Identical body+headline duplicated across 41 of 76 ads (54% of pool)",
+        "Same copy pointed at 6+ different product URLs — Meta is auto-deduping delivery",
+        "Echo Cross necklace alone has 14+ identical clones competing in the same auctions"
       ]
     },
     {
       "ad_number": 2,
-      "headline": "Layered to perfection",
+      "source_index": 41,
+      "headline": "Steal Hearts This Valentine's ♡ He♡rt Heist",
+      "body": "Not just Valentine's jewelry — a He♡rt Heist. Crystal hearts, romantic motifs, and that signature Y2K sparkle you live for. Bold enough to steal the scene, sweet enough for butterflies ♡⊹˚₊ Your Valentine's era starts now ☆",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Valentine's seasonal hook still live 75 days after Feb 14 — relevance score is bleeding",
+        "Duplicated 12 times, 8 of which point at the same nova-jewel-necklace URL",
+        "'Your Valentine's era starts now' reads stale in May; CTR will collapse fast"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 18,
+      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
+      "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "8 identical clones of the LIGHTSUM collab copy, 5 pointed at cube-dice-necklace",
+        "'Limited drop' framing has been live too long to feel limited",
+        "No variant testing collab-credibility angle vs main-character-era angle"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 47,
+      "headline": "Level Up Your Fit with K-pop Style Jewelry",
+      "body": "Looking for Y2K jewelry that fits your vibe and your fit? We got you. 💿💅 The Y2K baddie aesthetic is officially back — and it's giving glow-up energy. ✨ Your era starts now. 💫",
+      "cta": "Shop Now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Same body recycled under 2 different headlines ('Level Up' and 'Wear it, love it')",
+        "'Y2K baddie aesthetic is officially back' phrasing is now 18+ months old in trend cycle",
+        "Routes to 4 unrelated SKUs (alchemists, silver-cross, snake-hoop, spike) — no SKU-message fit"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 35,
+      "headline": "Wear it, love it 🤍",
       "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
       "cta": "Shop now",
-      "fatigue_score": 64,
-      "days_until_fatigue": 18,
-      "severity": "ok",
+      "fatigue_score": 72,
+      "days_until_fatigue": 17,
+      "severity": "warn",
       "drivers": [
-        "Headline 'Layered to perfection' is the only unique hook in this template",
-        "Body copy fully duplicated with Ad 3",
-        "Generic 'meticulously designed' line reads more catalog than OHT-voice"
+        "'Be unapologetically you' body copy reused 6 times across 3 different headlines",
+        "Generic empowerment angle — no product specificity, no NYC/streetwear DNA",
+        "5 of 6 copies funnel to the same silver-crystal-cross-necklace URL"
       ]
     }
   ],
   "ads_compact": [
     {
-      "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
-      "body": "THE USUAL — Not the jewelry you save for 'someday.'…",
-      "fatigue_score": 73,
-      "days_until_fatigue": 13
+      "headline": "Layered to perfection",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "fatigue_score": 64,
+      "days_until_fatigue": 22
     },
     {
-      "headline": "Level Up Your Fit with K-pop Style Jewelry",
-      "body": "Looking for Y2K jewelry that fits your vibe and your fit? We got you. 💿💅…",
-      "fatigue_score": 70,
-      "days_until_fatigue": 15
-    },
-    {
-      "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
-      "body": "THE USUAL — duplicate body, Learn More CTA on heart-bow-necklace",
-      "fatigue_score": 75,
-      "days_until_fatigue": 12
+      "headline": "For Your Weekly Jewelry Rotation",
+      "body": "Be unapologetically you. ✧˖°⋆｡˚ Every piece is meticulously designed to empower you to express your unique style fearlessly.",
+      "fatigue_score": 61,
+      "days_until_fatigue": 24
     },
     {
       "headline": "Steal Hearts with He♡rt Heist",
-      "body": "This is what falling in love looks like. He♡rt Heist blends romance with edge…",
-      "fatigue_score": 66,
-      "days_until_fatigue": 17
-    },
-    {
-      "headline": "Steal Hearts with He♡rt Heist",
-      "body": "Duplicate body to Ad 9, different LP (crystal-ribbon-necklace)",
-      "fatigue_score": 72,
-      "days_until_fatigue": 14
-    },
-    {
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "Duplicate LIGHTSUM body — cube-dice-necklace LP",
-      "fatigue_score": 90,
-      "days_until_fatigue": 6
-    },
-    {
-      "headline": "Level Up Your Fit with K-pop Style Jewelry",
-      "body": "Y2K baddie aesthetic body — transparent-heart-charm LP",
-      "fatigue_score": 74,
-      "days_until_fatigue": 13
-    },
-    {
-      "headline": "Steal Hearts This Valentine's ♡ He♡rt Heist",
-      "body": "Not just Valentine's jewelry — a He♡rt Heist…",
-      "fatigue_score": 78,
-      "days_until_fatigue": 11
-    },
-    {
-      "headline": "Steal Hearts This Valentine's ♡ He♡rt Heist",
-      "body": "Duplicate Valentine's body — heart-heist-necklace LP. Also seasonally stale post-Feb.",
-      "fatigue_score": 84,
-      "days_until_fatigue": 8
-    },
-    {
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "Duplicate LIGHTSUM body — cube-dice LP",
-      "fatigue_score": 91,
-      "days_until_fatigue": 6
-    },
-    {
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "Duplicate LIGHTSUM body — cube-dice LP",
-      "fatigue_score": 91,
-      "days_until_fatigue": 6
-    },
-    {
-      "headline": "Level Up Your Fit with K-pop Style Jewelry",
-      "body": "Y2K baddie body — silver-crystal-cross LP",
-      "fatigue_score": 73,
-      "days_until_fatigue": 13
-    },
-    {
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "Duplicate LIGHTSUM body — cube-dice LP",
-      "fatigue_score": 92,
-      "days_until_fatigue": 6
-    },
-    {
-      "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
-      "body": "Duplicate LIGHTSUM body — cube-dice LP",
-      "fatigue_score": 92,
-      "days_until_fatigue": 6
-    },
-    {
-      "headline": "Wear it, love it 🤍",
-      "body": "Y2K baddie body recycled under a new headline — snake-hoop-earrings LP",
-      "fatigue_score": 67,
-      "days_until_fatigue": 17
+      "body": "This is what falling in love looks like. He♡rt Heist blends romance with edge: crystal-lit hearts, love-locked chains, surgical steel that shines. Built for stolen glances and Valentine's confidence ☁︎♡☁︎ The heist is on — catch feelings ✧˖°",
+      "fatigue_score": 57,
+      "days_until_fatigue": 28
     }
   ],
   "ad_to_scale": {
-    "ad_label": "Ad #1",
-    "headline": "Soft Enough for Daily. Sharp Enough to Feel Like You",
-    "body": "₊˚⊹♡ THE USUAL ♡⊹˚₊ Not the jewelry you save for \"someday.\" The ones you live in, grocery runs, late nights, everything between. Soft, sharp, and oht to the core ♡ Meet the usual, your everyday, upgraded ☁︎⚙︎☆",
-    "why": "This is the strongest creative in the account — the 'grocery runs, late nights, everything between' line nails real-life context that LIGHTSUM and Heart Heist don't. It's evergreen (no Valentine's/drop expiration), it ladders to a hero SKU (Shooting Star Earrings), and the angle has room for 5+ visual variations before fatigue. Scale it with new visuals, not new copy."
-  },
-  "ad_to_kill": {
-    "ad_label": "Ad #4",
+    "ad_label": "Ad #3",
     "headline": "From CUBE to Cosmos — The OHT x LIGHTSUM Drop",
     "body": "₊˚⊹♡ OHT x CUBE LIGHTSUM ♡⊹˚₊ From CUBE to cosmos — a collection inspired by bold legacies and bright energy. Built for the main character era. Limited drop, made to shine on and off stage. ✧˖°⋆｡˚",
-    "why": "This exact body+headline is running in 6+ duplicate placements pointing mostly at the same cube-dice-necklace LP. The 'limited drop' urgency is dead when the same ad has been live for weeks, and Meta is reading this as one fatigued creative spread thin. Kill the duplicates, keep one canonical version, and free up the LIGHTSUM angle for fresh treatments."
+    "why": "The LIGHTSUM collab is the only angle in your pool with built-in cultural authority — borrowed fandom equity is the cheapest CAC lever you have right now. Consolidate the 8 clones into 2 distinct creative variants (one fan-credibility, one supernova-product hero) and double the budget on the cube-dice-necklace landing. This is the only ad family that isn't competing against itself for an undifferentiated message."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #2",
+    "headline": "Steal Hearts This Valentine's ♡ He♡rt Heist",
+    "body": "Not just Valentine's jewelry — a He♡rt Heist. Crystal hearts, romantic motifs, and that signature Y2K sparkle you live for. Bold enough to steal the scene, sweet enough for butterflies ♡⊹˚₊ Your Valentine's era starts now ☆",
+    "why": "It's May. 'Your Valentine's era starts now' is actively hurting CTR and signaling to Meta that this account ships stale creative. Pause all 12 clones today — repurpose the He♡rt Heist product imagery into a non-seasonal 'edge meets romance' angle for Mother's Day prep and summer self-gifting."
   },
   "concepts": [
     {
-      "concept_name": "Stage-to-Street POV",
-      "format": "Video / 15s vertical UGC-style",
-      "hook": "From the CUBE stage to my F train commute.",
-      "angle": "Reframe the LIGHTSUM collab around the buyer, not the artist — the 'on and off stage' line is doing all the lifting in the current ad; show it.",
-      "primary_text": "₊˚⊹♡ on stage / off stage ♡⊹˚₊ The OHT x LIGHTSUM drop wasn't just made to shine under lights — it was made for the train ride home, the 2am pizza, the mirror selfie before you leave. Bold legacies, everyday energy. ✧˖°⋆｡˚ Limited pieces, infinite main character moments.",
-      "visual_direction": "Split-screen or jump-cut: stage performance footage / fan POV in NYC streetwear. Closeups on cube dice + supernova pieces in both contexts.",
-      "fills_gap": "Refreshes the LIGHTSUM cluster (6+ duplicate ads) without abandoning the collab equity."
+      "concept_name": "Stack Check NYC",
+      "format": "UGC Video, 15-22s vertical",
+      "hook": "POV: she's stacking before the F train",
+      "angle": "Real NYC creator films her morning jewelry stack on a moving subway/walking SoHo — places OHTNYC inside the lifestyle the brand claims, not in a studio.",
+      "primary_text": "₊˚⊹♡ stacks that survive the commute ♡⊹˚₊ The Usual wasn't made for the jewelry box. It was made for the 6 train, the deli line, the after-hours. Three pieces, one stack, zero days off ☁︎⚙︎☆ Built in NYC, oht to the core. Tap to build yours ♡",
+      "visual_direction": "Handheld POV of wrist + neckline stack, NYC sidewalk and subway b-roll, natural light, no studio polish. Text overlays call out each SKU at timestamps.",
+      "fills_gap": "Zero of the 76 live ads are UGC or video — every placement is studio static. You're missing the streetwear/NYC identity the brand claims in its bio, and Meta favors video creative for cold prospecting CPMs."
     },
     {
-      "concept_name": "The Usual: Shot List",
-      "format": "Carousel / 5 cards",
-      "hook": "5 outfits. One pair of earrings. Zero takes off.",
-      "angle": "Prove the 'soft enough for daily, sharp enough to feel like you' promise with literal proof — extend the winning hook into a format that earns more dwell time.",
-      "primary_text": "₊˚⊹♡ THE USUAL, all week ♡⊹˚₊ Monday meeting fit. Wednesday gym. Friday dinner. Saturday hangover bagel. Sunday reset. Same Shooting Star earrings. That's the whole point. ☁︎⚙︎☆ The jewelry you don't take off — because why would you?",
-      "visual_direction": "5-frame carousel, each frame a different outfit/setting in NYC, same earrings visible. Day-of-week labels in OHT's signature sparkle typography.",
-      "fills_gap": "Extends the highest-quality hook in the account into a non-static format — currently 'The Usual' only exists as 3 near-identical static ads."
+      "concept_name": "Supernova Origin",
+      "format": "Carousel, 6 slides",
+      "hook": "The heart motif means something. Here's what.",
+      "angle": "Founder/designer story carousel — heart and supernova symbology, why each motif exists, swipe-to-product. Builds brand depth instead of hammering 'unapologetically you' empowerment generics.",
+      "primary_text": "₊˚⊹♡ every piece has a backstory ♡⊹˚₊ The heart isn't a charm. The supernova isn't decoration. Built in NYC for the ones who wear meaning, not just metal ✧˖°⋆｡˚ Swipe through the symbols → find the one that's already yours.",
+      "visual_direction": "Slide 1 hook text on black. Slides 2-5 each pair a motif (heart, supernova, cross, ribbon) with one sentence of meaning + product close-up. Slide 6: 'which one is you?' grid CTA.",
+      "fills_gap": "The 'Be unapologetically you' body copy is duplicated 6+ times with zero substance — no story, no symbol, no NYC. This concept replaces the empty empowerment line with the brand's actual heart/supernova DNA referenced in your voice brief."
     },
     {
-      "concept_name": "Founder/Stylist Talking Head",
-      "format": "Video / 20-30s UGC, founder or in-house stylist",
-      "hook": "I designed this so you'd never have to take it off.",
-      "angle": "Inject a human voice — every current ad is product-led copy. A face + first-person POV is the cheapest way to break pattern in the feed.",
-      "primary_text": "Real talk: most jewelry brands design for the photo. We design for the rest of your life — the shower you forgot to take it off in, the gym bag, the redeye. ♡ That's why every OHT piece is surgical steel and built for daily wear. Express loud. Live louder. ✧˖°⋆｡˚",
-      "visual_direction": "Handheld, vertical, founder/stylist in NYC apartment or studio. B-roll of pieces being worn through real moments — sleeping, washing dishes, dancing.",
-      "fills_gap": "Zero talking-head or founder-led creative in current rotation. Adds a trust/authenticity layer that pure product ads can't deliver."
+      "concept_name": "Tarnish Test",
+      "format": "Static + 9s loop hybrid",
+      "hook": "365 days. Shower. Gym. Ocean. Still shining.",
+      "angle": "Surgical-steel durability proof — the only material claim in your current pool ('surgical steel that shines') is buried inside Valentine's copy. Pull it out as a standalone everyday-wear objection-killer.",
+      "primary_text": "₊˚⊹♡ the daily test ♡⊹⚙︎ Showered in it. Slept in it. Forgot it in a gym bag for a week. Still shining ☁︎ Surgical steel + hypoallergenic finish = jewelry you actually live in, not the kind you pack away. Meet The Usual — oht to the core ✧˖°",
+      "visual_direction": "Split-frame: left side shows piece on day 1 in studio, right side shows same piece after 365 days of real wear (water droplets, post-gym, beach). 9-second loop morphs between the two.",
+      "fills_gap": "76 ads, zero product proof or material claims surfaced as the lead message. 'Soft, sharp, and oht to the core' is poetic but unfalsifiable — this concept gives the buyer a reason-to-believe and unlocks repeat-purchase angles for warm audiences."
     }
   ],
   "unlocks": [
-    "Cut 5+ duplicate LIGHTSUM placements before they drag account-level CPMs up another 15-25%",
-    "Free up budget currently being eaten by 6 versions of the same ad and redirect to 'The Usual' scaling",
-    "Add a human/UGC layer the account currently lacks — every live ad is product-on-flat-lay energy",
-    "Buy ~14-21 more days of fresh creative runway before the next forecasted fatigue cliff"
+    "Cut wasted spend on 41 cloned 'THE USUAL' placements competing in the same auctions",
+    "Recover relevance score by killing the May-stale Valentine's angle this week",
+    "Open 2 new creative formats (UGC video, carousel) currently absent from 100% of the pool",
+    "Stop routing 5 different SKUs to the same generic empowerment copy — match message to product"
   ],
   "next_step": {
-    "urgency": "Three of your top-volume ads hit forecasted fatigue between May 7-11 — that's this week.",
-    "headline": "Let's map the next 30 days of OHT creative on a 30-min call",
-    "body": "I'll walk you through which exact ads to kill this week, which to scale, and a prioritized brief for the 3 concepts above. No pitch deck — just the plan, screen-shared.",
+    "urgency": "Top 3 ads hit fatigue between May 6 and May 9 — replacements need to ship this week.",
+    "headline": "Lock in the May rotation before CPMs spike",
+    "body": "30 minutes to walk through which clones to pause first, the LIGHTSUM scale plan, and a shoot list for the 3 replacement concepts. You'll leave with a dated kill/scale schedule and a creative brief ready to hand to your editor.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scoring is based on observable creative signals (copy duplication, headline patterns, CTA/LP repetition, launch clustering) from public ad library data — not on impression or spend data, which would tighten forecasts further.",
+  "method_note": "Fatigue scoring weights duplicate copy frequency, landing-page overlap, seasonal staleness, and format monotony across all 76 live placements; days-until-fatigue is a directional forecast, not a guarantee.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
