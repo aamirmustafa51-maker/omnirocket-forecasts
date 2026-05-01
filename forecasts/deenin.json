@@ -1,0 +1,89 @@
+{
+  "brand": "Deenin",
+  "brand_slug": "deenin",
+  "first_name": "Friend",
+  "website": "https://deenin.com",
+  "generated_date": "May 1, 2026",
+  "read_time_min": 4,
+  "total_ads": 1,
+  "tldr": "Friend, you're running a single live creative — 'Pray Anywhere. Anytime. With Comfort' — which means 100% of spend is concentrated in one asset trending toward fatigue inside ~2 weeks. Expect CPM creep within 10-14 days unless you diversify the angle stack now.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Deenin's effective creative lifespan is roughly half the modest faith/lifestyle ecommerce median. Brands running 4-6 concurrent angles routinely hit 38+ days because the algorithm has variants to lean on."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "headline": "Pray Anywhere. Anytime. With Comfort",
+      "body": "Pray Anywhere. Anytime. With Comfort",
+      "cta": "Shop Now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 12,
+      "severity": "warn",
+      "drivers": [
+        "Single-creative account — zero rotation, 100% spend concentration on one static",
+        "Headline and body are identical ('Pray Anywhere. Anytime. With Comfort') — no copy variant to test against",
+        "Generic 'Shop Now' CTA with no urgency, social proof, or product specificity"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "ad_to_scale": {
+    "ad_label": "Ad #1",
+    "headline": "Pray Anywhere. Anytime. With Comfort",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "It's the only ad live, so by default it's also the scale candidate — but only after you split it into 3-4 copy variants to give the algorithm room to optimize. The 'Pray Anywhere. Anytime.' hook is genuinely strong because it names a real pain point (travel, work, school prayer logistics); it just needs supporting creative to extend its life."
+  },
+  "ad_to_kill": {
+    "ad_label": "Ad #1",
+    "headline": "Pray Anywhere. Anytime. With Comfort",
+    "body": "Pray Anywhere. Anytime. With Comfort",
+    "why": "Same ad — because with only one creative live, the kill and the scale are the same asset. Once the replacements below are launched, retire this exact static within 12 days to avoid CPM penalty from frequency stacking on a single image."
+  },
+  "concepts": [
+    {
+      "concept_name": "The Travel Prayer Story",
+      "format": "UGC Video, 25-35s",
+      "hook": "I prayed in an airport bathroom. Never again.",
+      "angle": "Problem-agitate-solve around the real friction of praying outside the home — airports, offices, road trips — positioning the portable prayer mat/kit as the fix.",
+      "primary_text": "Salah doesn't pause for your travel schedule. DEENIN's portable prayer essentials fold into your bag so you can pray with comfort wherever the day takes you — gate B12, the office, a hotel room. Built for Muslims who refuse to compromise on their faith just because life is moving fast. Tap to see what fits in your carry-on.",
+      "visual_direction": "Phone-shot UGC: creator unfolds prayer mat in three locations (airport lounge, office, car), ends with on-screen text 'pray anywhere, anytime'.",
+      "fills_gap": "Adds a story-driven video format — currently zero motion creative in the account."
+    },
+    {
+      "concept_name": "Learning Tools Bundle Carousel",
+      "format": "Carousel, 5 cards",
+      "hook": "Raising kids who love their deen?",
+      "angle": "Shifts from prayer comfort to family/learning angle — opens a second buyer (parents) and a second product line (Islamic learning tools) the current ad ignores entirely.",
+      "primary_text": "Building a stronger connection to faith starts at home. DEENIN's Islamic learning tools — interactive Quran readers, dua flashcards, kid-friendly prayer guides — turn everyday moments into deen moments. Made for parents who want their kids growing up confident in who they are. Swipe to see the full lineup.",
+      "visual_direction": "Card 1 hook text on warm beige; Cards 2-4 product shots with kids interacting; Card 5 'Shop the bundle' CTA card.",
+      "fills_gap": "Introduces the learning tools category and a parent persona — both currently invisible in ads."
+    },
+    {
+      "concept_name": "Accessory Drop Static Set",
+      "format": "Static image set, 3 variants",
+      "hook": "Wear your faith, quietly.",
+      "angle": "Fashion accessories angle (tasbih bracelets, hijab pins, Allah pendants) targeting a younger style-conscious Muslim buyer — pure aesthetic play, no problem framing.",
+      "primary_text": "Faith you can wear without saying a word. DEENIN accessories — tasbih bracelets, minimalist pendants, hijab pins — designed for Muslims who want their style to reflect what they believe. Quiet, considered pieces that go with everything in your closet. Tap to shop the new drop.",
+      "visual_direction": "Three flat-lay statics on linen backgrounds, soft natural light, single product hero per image with subtle Arabic typography accent.",
+      "fills_gap": "Adds a fashion/aesthetic angle — current ad is purely functional, missing the style buyer entirely."
+    }
+  ],
+  "unlocks": [
+    "Move from 1 creative to 4 active concepts — algorithm gets room to optimize and CPM drops",
+    "Open two new buyer personas (parents, style-driven youth) currently unaddressed",
+    "Extend effective creative lifespan from ~12 days to 25-35 days through rotation",
+    "Activate two product lines (learning tools, accessories) that drive nothing in current spend"
+  ],
+  "next_step": {
+    "urgency": "Ad #1 hits fatigue around May 13. New creative needs to be live before then.",
+    "headline": "Let's build your next 30 days of creative",
+    "body": "30-minute working call to map the angle stack, prioritize the three concepts above, and lock a shoot/production timeline. You'll leave with a launch calendar that gets you off single-creative dependence.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scoring based on six fatigue signals across live Meta ads scraped May 1, 2026; limited sample (n=1) means benchmark comparisons are directional, not absolute.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
