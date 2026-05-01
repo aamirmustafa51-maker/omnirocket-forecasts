@@ -1,0 +1,128 @@
+{
+  "brand": "L. Cuppini",
+  "brand_slug": "l-cuppini",
+  "first_name": "Lea",
+  "website": "https://lcuppini.com",
+  "generated_date": "May 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 7,
+  "tldr": "Lea, 6 of your 7 live ads are running the exact same 'All U.S. Orders Ship and Return from Texas' + '15% off your first purchase 🤍' combo with the headline and body literally swapped between variants. Expect frequency to spike and CPMs to climb 25-40% within 10-14 days as Meta caps delivery on near-duplicates.",
+  "benchmark": {
+    "your_value_days": 11,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Luxury outerwear competitors typically rotate 4-6 distinct creative angles (product hero, founder story, fabric close-up, styling). Your pool is essentially one shipping/discount message duplicated 6 ways, which is why fatigue is hitting roughly 2x faster than category median."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Identical headline + body copy as ads at INDEX 1, 2, and 5 — four-way duplicate competing with itself in auction",
+        "Logistics line ('Ship and Return from Texas') is doing the hook work where a product or fabric story should be",
+        "All traffic dumped to /collections/leather-jackets — no landing page rotation across the entire pool"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Carbon copy of INDEX 0, 2, 5 — Meta will throttle one or more in the same ad set within days",
+        "Discount-led body cheapens a luxury cashmere/fur positioning Lea built the brand on",
+        "Zero hook variance to test what actually drives clicks — shipping vs. discount vs. product"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 2,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Third instance of the identical creative — frequency on warm audiences is almost certainly above 4.0",
+        "No founder voice or 'L.CUPPINI established London 2019' story anywhere in the pool",
+        "CTA 'Shop now' used in 5 of 7 ads — no urgency or specificity tested"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 3,
+      "headline": "Take 15% off your first purchase 🤍",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "cta": "Shop Now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Same two lines as INDEX 0/1/2/5 just flipped — Meta's creative similarity detector treats this as a near-duplicate",
+        "Discount-first headline trains the audience to wait for promos instead of buying at full price",
+        "Landing page identical to all 6 other ads — leather jackets only, hiding the cashmere and outerwear catalog"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 6,
+      "headline": "Nationwide Shipping & Returns",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Only ad in the pool with a different headline, but the body still repeats the Texas shipping line for the 7th time",
+        "Pure logistics message with no product, no price, no aspiration — won't carry cold prospecting",
+        "Same /leather-jackets landing as every other ad — wasted opportunity to send to Linda Tux Blazer or cashmere"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Take 15% off your first purchase 🤍",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "fatigue_score": 86,
+      "days_until_fatigue": 8
+    },
+    {
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "fatigue_score": 89,
+      "days_until_fatigue": 7
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Founder-Led Tux Blazer Story",
+    "format": "Static image",
+    "hook": "The blazer Lea designed to outlast every trend.",
+    "headline": "Linda Tux Blazer, Beige",
+    "primary_text": "When Lea Lindaas started L.CUPPINI in London in 2019, the goal was simple: outerwear that doesn't expire. The Linda Tux Blazer in beige is cut for the woman who's done chasing seasons — tailored shoulder, soft hand, weight that holds its shape after the tenth wear. Free express shipping worldwide on orders over £600.",
+    "cta": "Shop Now",
+    "visual_direction": "The Linda Tux Blazer Beige photographed on a minimalist wooden hanger against a warm off-white plaster wall, soft morning light, editorial luxury feel.",
+    "fills_gap": "All 7 live ads lead with shipping logistics or a 15% discount — none feature a specific product, fabric story, or the founder's London origin. This concept introduces product-led, full-price luxury positioning that the entire pool is missing.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a minimalist Parisian atelier setting on a slim wooden hanger against a warm off-white plaster wall with a single sculptural ceramic vase nearby, with soft directional morning light from a tall window casting gentle shadows across the fabric weave. Muted neutral palette of cream, beige, and warm taupe with a quiet, timeless luxury aesthetic that feels closer to a Céline lookbook than a discount ecommerce ad. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
+    "image_path": "/creatives/l-cuppini/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "4 of your 7 ads hit fatigue between May 7-9 — under a week out.",
+    "headline": "Get the May refresh plan on a 30-min call",
+    "body": "Lea, I'll walk you through a 5-creative replacement slate built around Linda Tux, the cashmere line, and your London founder story — full-price positioning, no shipping-line crutch. We'll map launch order against the ads dying first so spend doesn't dip.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scored from public Meta Ad Library creative signals; does not include account-level frequency, CTR, or ROAS data.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
