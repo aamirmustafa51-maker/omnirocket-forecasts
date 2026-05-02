@@ -417,6 +417,7 @@ Return a single valid JSON object matching this EXACT schema:
   "generated_date": "${today}",
   "read_time_min": 3,
   "total_ads": ${totalUsable},
+  "niche": "ONE plain-English noun the brand's customers would use to describe what they sell — lowercase, 1-3 words, used in a sentence as 'other ___ brands'. Examples: 'jewelry', 'streetwear', 'outerwear', 'luxury womenswear', 'modest fashion', 'sustainable fashion', 'skincare', 'home fragrance'. Avoid jargon ('DTC', 'D2C', 'ecom', 'fashion ecom') and avoid the brand's own name.",
   "tldr": "2-sentence executive summary mentioning fatigue counts and CPM impact timeframe.",
   "benchmark": {
     "your_value_days": 12,

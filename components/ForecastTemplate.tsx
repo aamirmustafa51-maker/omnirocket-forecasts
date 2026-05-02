@@ -43,6 +43,7 @@ export type ForecastData = {
   generated_date: string
   read_time_min: number
   total_ads: number
+  niche: string
   tldr: string
   benchmark: {
     your_value_days: number
@@ -194,19 +195,19 @@ export default function ForecastTemplate({
         <p>{stripTokens(data.tldr)}</p>
       </div>
 
-      <h2>Where you sit today</h2>
+      <h2>How fast your ads burn out vs. other {data.niche || "ecom"} brands</h2>
       <div className="benchmark">
         <div className="you">
           <div className="num">{data.benchmark.your_value_days}d</div>
-          <div className="lbl">Your creative half-life</div>
+          <div className="lbl">Your ads (avg lifespan)</div>
         </div>
         <div className="median">
           <div className="num">{data.benchmark.category_median_days}d</div>
-          <div className="lbl">Category median</div>
+          <div className="lbl">Typical brand in your space</div>
         </div>
         <div className="top">
           <div className="num">{data.benchmark.top_quartile_days}d</div>
-          <div className="lbl">Top quartile</div>
+          <div className="lbl">Best 25% of brands</div>
         </div>
       </div>
       <p className="benchmark-context">{stripTokens(data.benchmark.context)}</p>
