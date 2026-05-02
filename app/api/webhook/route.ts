@@ -266,7 +266,7 @@ function sanitizeNB2Prompt(prompt: string): string {
 }
 
 function buildSafeFallbackPrompt(productTitle: string): string {
-  return `A photorealistic editorial product photograph featuring the product from the reference image, styled on a soft cream linen surface with natural diffused daylight from a side window casting gentle shadows. Calm, premium, minimalist aesthetic with a muted neutral palette. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the ${productTitle} from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.`;
+  return `A photorealistic editorial product photograph featuring the product from the reference image, styled on a soft cream linen surface with natural diffused daylight from a side window casting gentle shadows. Calm, premium, minimalist aesthetic with a muted neutral palette. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact metal type, color, finish, fabric, weave, stones, and surface treatment of the ${productTitle} as shown in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones.`;
 }
 
 async function kieSubmitAndPoll(
@@ -400,9 +400,16 @@ YOUR TASK
 5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} of their live ads.
 6. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
 
-IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
+IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC}, and {MATERIAL_LOCK} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
 
-"A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products."
+"A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — {MATERIAL_LOCK}. Render the product's metal, color, finish, fabric, weave, stones, and surface treatment EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones."
+
+{MATERIAL_LOCK} INSTRUCTIONS:
+Read the reference product title and, if you can see it in the ads above, its visible properties. Write a single sentence locking the dominant material/color/finish in plain language with explicit forbids. Examples:
+- Sterling silver bracelet → "preserve sterling silver / .925 silver finish exactly as shown — strictly NO gold, brass, yellow, copper, or warm metallic tones"
+- Beige wool blazer → "preserve the exact beige/camel wool tone shown — strictly NO grey, taupe, cream, or color shift"
+- Natural undyed cotton tee → "preserve the exact natural undyed cotton color shown — strictly NO whitening, NO color cast, NO bleaching"
+- Black streetwear jacket → "preserve the exact deep black colorway shown — strictly NO charcoal, navy, or grey shift, NO sheen change"
 
 HARD RULE — NO TEMPLATE TOKENS IN PROSE:
 Every text field you write (tldr, benchmark.context, hero_concept.*, next_step.*, method_note, etc.) must be fully-rendered human English. Never emit template syntax like {{product.name}}, {{ collection.title }}, {% if ... %}, or default_collection_headline / default_*_* placeholders. If you would otherwise reference a value you don't have, rewrite the sentence so the phrase is gone — do not leave a placeholder.
@@ -450,7 +457,7 @@ Return a single valid JSON object matching this EXACT schema:
     "cta": "Shop Now / Learn More / etc — short button label",
     "visual_direction": "1 sentence describing what the visual shows",
     "fills_gap": "What gap this fills, referencing patterns from their live ads — 1-2 sentences. NO mention of indexes, pools, or datasets.",
-    "image_prompt": "the fully-filled image generation prompt using the template above with {SCENE}, {LIGHTING}, {AESTHETIC} slots filled in based on the brand's aesthetic. Do NOT use words like graffiti, tagged, weapon, drug, alcohol, blood — Google's content filter rejects them."
+    "image_prompt": "the fully-filled image generation prompt using the template above with {SCENE}, {LIGHTING}, {AESTHETIC}, and {MATERIAL_LOCK} slots all filled in. The MATERIAL_LOCK clause must name the reference product's exact material/metal/color/finish and explicitly forbid the wrong-tone swap (e.g. 'preserve sterling silver — strictly NO gold or warm metallic tones'). Do NOT use words like graffiti, tagged, weapon, drug, alcohol, blood — Google's content filter rejects them."
   },
   "next_step": {
     "urgency": "short urgency line tied to ad death dates",
@@ -471,7 +478,7 @@ HARD RULES
 - "severity": danger if fatigue_score>=85, warn if 65-84, ok if <65.
 - "days_until_fatigue" must be an integer.
 - Exactly ONE hero_concept (not multiple).
-- hero_concept.image_prompt MUST follow the template structure exactly with the negative section preserved verbatim.
+- hero_concept.image_prompt MUST follow the template structure exactly with the {MATERIAL_LOCK} clause and negative section both preserved verbatim. The MATERIAL_LOCK must name the actual material/metal/color/finish of the reference product (e.g. "sterling silver", "beige wool", "natural undyed cotton") and explicitly forbid the wrong-tone swaps the model is prone to.
 - hero_concept.primary_text MUST contain literal \\n\\n separators between paragraphs (2-3 paragraphs total).
 - All copy grounded in the actual live ads above.
 - If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact ("No headline on this ad — the body is doing all the work...").
