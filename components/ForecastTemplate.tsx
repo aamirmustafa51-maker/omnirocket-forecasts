@@ -184,10 +184,14 @@ export default function ForecastTemplate({
           Fatigue Forecast · Prepared for {data.first_name}
         </div>
         <h1>
-          {data.brand} — your {data.ads.length} live Meta {data.ads.length === 1 ? "ad" : "ads"}, modeled.
+          {data.brand} — {data.total_ads === 1
+            ? "your only live Meta ad, modeled."
+            : `your ${data.total_ads} live Meta ads, modeled.`}
         </h1>
         <div className="meta">
-          Built {data.generated_date} · {data.read_time_min}-min read
+          {data.total_ads >= 10
+            ? `${data.total_ads} ads analyzed, top 5 shown`
+            : `Built ${data.generated_date} · ${data.read_time_min}-min read`}
         </div>
       </header>
 
