@@ -84,8 +84,23 @@ function mockupImageExists(slug: string): boolean {
 // `default_collection_headline` / `default_*_*` placeholders that bleed
 // through when a brand's CMS template fails to render.
 const LIQUID_TOKEN = /\{\{[^}]+\}\}|\{%[^%]+%\}|\bdefault_[a-z_]+\b/i
+const LIQUID_TOKEN_GLOBAL = /\{\{[^}]+\}\}|\{%[^%]+%\}|\bdefault_[a-z_]+\b/gi
 function looksLikeBrokenToken(value: string): boolean {
   return LIQUID_TOKEN.test(value)
+}
+
+// Removes any leaked Liquid/template tokens from narrative copy and tidies up
+// the surrounding whitespace and stray articles ("the  DPA setup" → "the DPA
+// setup", "with  ," → ","). Used as a backstop when Claude echoes a placeholder
+// it saw in source ads instead of substituting.
+function stripTokens(value: string | undefined | null): string {
+  if (!value) return ""
+  return value
+    .replace(LIQUID_TOKEN_GLOBAL, "")
+    .replace(/\s{2,}/g, " ")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .replace(/\(\s*\)/g, "")
+    .trim()
 }
 
 // Strips robotic/SKU-style chrome from a Shopify product title so it reads
@@ -165,7 +180,7 @@ export default function ForecastTemplate({
       </header>
 
       <div className="tldr">
-        <p>{data.tldr}</p>
+        <p>{stripTokens(data.tldr)}</p>
       </div>
 
       <h2>Where you sit today</h2>
@@ -183,7 +198,7 @@ export default function ForecastTemplate({
           <div className="lbl">Top quartile</div>
         </div>
       </div>
-      <p className="benchmark-context">{data.benchmark.context}</p>
+      <p className="benchmark-context">{stripTokens(data.benchmark.context)}</p>
 
       {(() => {
         const renderedAds = [...data.ads]
@@ -270,21 +285,21 @@ export default function ForecastTemplate({
                   <div className="fb-ad-sponsored">Sponsored · <span aria-label="globe">🌐</span></div>
                 </div>
               </div>
-              <div className="fb-ad-primary">{hero.primary_text}</div>
+              <div className="fb-ad-primary">{stripTokens(hero.primary_text)}</div>
               <div className="fb-ad-image">
                 {heroImageReady ? (
                   <img src={`/creatives/${slug}/hero-mockup.jpg`} alt={hero.concept_name} />
                 ) : (
                   <div className="fb-ad-image-fallback">
                     <div className="fb-ad-image-fallback-label">Visual direction</div>
-                    <div className="fb-ad-image-fallback-text">{hero.visual_direction}</div>
+                    <div className="fb-ad-image-fallback-text">{stripTokens(hero.visual_direction)}</div>
                   </div>
                 )}
               </div>
               <div className="fb-ad-footer">
                 <div className="fb-ad-footer-left">
                   <div className="fb-ad-domain">{brandDomain(data.website)}</div>
-                  <div className="fb-ad-headline">{hero.headline}</div>
+                  <div className="fb-ad-headline">{stripTokens(hero.headline)}</div>
                 </div>
                 <button className="fb-ad-cta" type="button">{hero.cta}</button>
               </div>
@@ -307,10 +322,10 @@ export default function ForecastTemplate({
             })()}
             <div className="hero-mockup-rationale">
               <div className="hero-mockup-tag">Why this concept</div>
-              <p>{hero.fills_gap}</p>
+              <p>{stripTokens(hero.fills_gap)}</p>
               <div className="hero-mockup-meta">
                 <span><strong>Format:</strong> {hero.format}</span>
-                <span><strong>Hook:</strong> &ldquo;{hero.hook}&rdquo;</span>
+                <span><strong>Hook:</strong> &ldquo;{stripTokens(hero.hook)}&rdquo;</span>
               </div>
             </div>
           </div>
@@ -318,9 +333,9 @@ export default function ForecastTemplate({
       )}
 
       <div className="next-step">
-        <div className="urgency">⚠ {data.next_step.urgency}</div>
-        <h2>{data.next_step.headline}</h2>
-        <p>{data.next_step.body}</p>
+        <div className="urgency">⚠ {stripTokens(data.next_step.urgency)}</div>
+        <h2>{stripTokens(data.next_step.headline)}</h2>
+        <p>{stripTokens(data.next_step.body)}</p>
         <div className="cta-row">
           <a
             className="cta-primary"
@@ -335,7 +350,7 @@ export default function ForecastTemplate({
 
       <footer>
         <div className="pb">{data.prepared_by}</div>
-        {data.method_note}
+        {stripTokens(data.method_note)}
       </footer>
     </div>
   )

@@ -404,6 +404,9 @@ IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC} slots based 
 
 "A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products."
 
+HARD RULE — NO TEMPLATE TOKENS IN PROSE:
+Every text field you write (tldr, benchmark.context, hero_concept.*, next_step.*, method_note, etc.) must be fully-rendered human English. Never emit template syntax like {{product.name}}, {{ collection.title }}, {% if ... %}, or default_collection_headline / default_*_* placeholders. If you would otherwise reference a value you don't have, rewrite the sentence so the phrase is gone — do not leave a placeholder.
+
 Return a single valid JSON object matching this EXACT schema:
 
 {
