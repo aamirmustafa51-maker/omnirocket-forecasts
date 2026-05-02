@@ -97,8 +97,10 @@ function stripTokens(value: string | undefined | null): string {
   if (!value) return ""
   return value
     .replace(LIQUID_TOKEN_GLOBAL, "")
-    .replace(/\s{2,}/g, " ")
-    .replace(/\s+([,.;:!?])/g, "$1")
+    // Collapse only horizontal whitespace runs — preserve \n\n paragraph
+    // breaks that `hero.primary_text` and other multi-paragraph fields rely on.
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/[ \t]+([,.;:!?])/g, "$1")
     .replace(/\(\s*\)/g, "")
     .trim()
 }
