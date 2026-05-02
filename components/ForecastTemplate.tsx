@@ -93,6 +93,15 @@ function looksLikeBrokenToken(value: string): boolean {
 // the surrounding whitespace and stray articles ("the  DPA setup" → "the DPA
 // setup", "with  ," → ","). Used as a backstop when Claude echoes a placeholder
 // it saw in source ads instead of substituting.
+// Truncates a quoted ad body to keep card layout consistent when a brand runs
+// long-form copy. Splits on whitespace, keeps the first N words, appends "…".
+function truncateWords(value: string, maxWords = 25): string {
+  if (!value) return ""
+  const words = value.trim().split(/\s+/)
+  if (words.length <= maxWords) return value
+  return words.slice(0, maxWords).join(" ").replace(/[,;:.!?\-–—]+$/g, "") + "…"
+}
+
 function stripTokens(value: string | undefined | null): string {
   if (!value) return ""
   return value
@@ -234,7 +243,7 @@ export default function ForecastTemplate({
               <div className="creative-head-left">
                 <div className="creative-tag">Ad #{ad.ad_number}</div>
                 <div className="creative-head-headline"><FieldText value={ad.headline} missingLabel="no headline on this ad" /></div>
-                <div className="creative-head-body"><FieldText value={ad.body} missingLabel="no body copy on this ad" /></div>
+                <div className="creative-head-body"><FieldText value={truncateWords(ad.body, 25)} missingLabel="no body copy on this ad" /></div>
               </div>
               <div className="creative-score">
                 <div className="creative-score-num">{ad.fatigue_score}</div>
