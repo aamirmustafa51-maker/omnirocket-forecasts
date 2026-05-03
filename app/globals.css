@@ -735,15 +735,21 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
 
 /* ── Hero mockup intro (shown above FB ad chrome, under section h2) ── */
 .hero-mockup-intro {
-  max-width: 504px;
-  margin: -8px auto 16px;
+  margin: -6px 0 18px;
   font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: 13px;
-  line-height: 1.55;
+  font-size: 14px;
+  line-height: 1.5;
   color: var(--ink-soft);
-  text-align: center;
-  padding: 0 6px;
+  text-align: left;
   font-style: italic;
+  max-width: 640px;
+}
+@media (max-width: 600px) {
+  .hero-mockup-intro {
+    font-size: 13px;
+    line-height: 1.45;
+    margin: -4px 0 14px;
+  }
 }
 
 /* ── Hero mockup disclaimer (shown under FB ad chrome) ── */
