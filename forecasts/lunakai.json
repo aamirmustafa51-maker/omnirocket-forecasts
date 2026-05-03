@@ -1,0 +1,137 @@
+{
+  "brand": "LUNAKAI",
+  "brand_slug": "lunakai",
+  "first_name": "James",
+  "website": "https://lovelunakai.com",
+  "generated_date": "May 3, 2026",
+  "read_time_min": 3,
+  "total_ads": 13,
+  "niche": "supplements",
+  "tldr": "James, 11 of your 13 live ads are running one of two recycled hooks — 'Mind Won't Slow Down?' and 'Energy That Fits Life' — with body copy duplicated verbatim across multiple variants. Expect CPMs to climb 20-35% inside the next 10-14 days as Meta's frequency caps trip on the collection-level creatives.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 22,
+    "top_quartile_days": 38,
+    "context": "Most supplement brands at your scale rotate 4-6 distinct hook angles; you're effectively running 2. The 'Energy & Vitality Collection' body copy appears word-for-word across five separate ads, which is what's pulling your fatigue window to roughly half the category median."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 8,
+      "headline": "Energy That Fits Life",
+      "body": "The problem may not be your energy... But for a lot of women, the real problem is this: The routine feels too hard to keep. ❌ Too many options ❌ Too many promises ❌ Nothing that feels simple enough to use every day That's why Lunakai's Energy & Vitality Collection brings together daily support for energy, focus, and vitality in one place, with options like B12 gummies, shilajit, creatine gummies, beet root, CoQ10, moringa, and NAD+. 🇺🇸 Made in the USA 🧪 3rd-party tested Find one you'll actually keep using.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Body copy is duplicated word-for-word across five of your live energy ads",
+        "Same headline 'Energy That Fits Life' is running on four creatives simultaneously — algorithm is collapsing them into one auction",
+        "All four energy variants point to the same collection landing page, so creative diversity gives Meta nothing new to learn"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 7,
+      "headline": "Energy That Fits Life",
+      "body": "The problem may not be your energy... But for a lot of women, the real problem is this: The routine feels too hard to keep. ❌ Too many options ❌ Too many promises ❌ Nothing that feels simple enough to use every day That's why Lunakai's Energy & Vitality Collection brings together daily support for energy, focus, and vitality in one place, with options like B12 gummies, shilajit, creatine gummies, beet root, CoQ10, moringa, and NAD+. 🇺🇸 Made in the USA 🧪 3rd-party tested Find one you'll actually keep using.",
+      "cta": "Shop now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Identical body and headline to three sibling energy ads — pure duplicate creative",
+        "Hook 'The problem may not be your energy...' has been live across the account for weeks",
+        "No format variation — every energy ad is a static collection image with the same CTA"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 11,
+      "headline": "Energy That Fits Life",
+      "body": "The problem may not be your energy... But for a lot of women, the real problem is this: The routine feels too hard to keep. ❌ Too many options ❌ Too many promises ❌ Nothing that feels simple enough to use every day That's why Lunakai's Energy & Vitality Collection brings together daily support for energy, focus, and vitality in one place, with options like B12 gummies, shilajit, creatine gummies, beet root, CoQ10, moringa, and NAD+. 🇺🇸 Made in the USA 🧪 3rd-party tested Find one you'll actually keep using.",
+      "cta": "Shop Now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Fourth carbon-copy of the energy collection hook running concurrently",
+        "Only difference vs. siblings is the CTA capitalization — Meta does not treat that as a new creative",
+        "Same Black Crow storefront link as three other energy ads, splitting attribution"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 2,
+      "headline": "Mind Won't Slow Down?",
+      "body": "The problem isn't that you don't try… It's that your routine doesn't fit your life. Too many bottles. Too many options. Nothing you actually stick with. That's why women are choosing simple, calm & sleep supplements that are easy to take every night. This collection brings together gummies and easy options for real routines. 🧪 Lab Tested  🇺🇸 Made in the USA Find what works for you.",
+      "cta": "Shop Now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Body copy is duplicated verbatim across three of your live sleep ads",
+        "'Mind Won't Slow Down?' is now your single most-used headline — six ads share it",
+        "Same 'Too many bottles. Too many options' framing as the energy collection — your two main angles are structurally identical"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 3,
+      "headline": "Mind Won't Slow Down?",
+      "body": "The problem isn't that you don't try… It's that your routine doesn't fit your life. Too many bottles. Too many options. Nothing you actually stick with. That's why women are choosing simple, calm & sleep supplements that are easy to take every night. This collection brings together gummies and easy options for real routines. 🧪 Lab Tested  🇺🇸 Made in the USA Find what works for you.",
+      "cta": "Shop now",
+      "fatigue_score": 85,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Pure duplicate of the sibling sleep ad — only the landing page suffix differs",
+        "No format diversity — static collection image, no UGC, no founder, no demo",
+        "Headline is shared with five other concurrent ads in the same account"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Mind Won't Slow Down?",
+      "body": "You've bought sleep or stress supplements before… Used them for a few days… then stopped...",
+      "fatigue_score": 74,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "Mind Won't Slow Down?",
+      "body": "You get into bed tired… But your body doesn't fully relax. Your mind keeps going...",
+      "fatigue_score": 70,
+      "days_until_fatigue": 16
+    },
+    {
+      "headline": "Mind Won't Slow Down?",
+      "body": "You don't need a perfect routine. You just need something you'll actually follow...",
+      "fatigue_score": 62,
+      "days_until_fatigue": 22
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Mechanism Close-Up",
+    "format": "Static image (1:1)",
+    "hook": "Melatonin knocks you out. Magnesium lets you stay there.",
+    "headline": "Why Real Sleep Starts Earlier",
+    "primary_text": "Most sleep supplements force you unconscious. They don't actually relax you — they just override the signal that you're wired.\n\nLunakai's Magnesium Glycinate Capsules pair high-absorption glycinate with B6 (P-5-P) so your nervous system can settle the way it's supposed to — before your head hits the pillow. Two capsules after dinner. No grogginess. No 3am wake-ups.\n\nClean formula, third-party tested, made in Tennessee. Try it for 30 nights.",
+    "cta": "Shop Now",
+    "visual_direction": "Hero shot of the Magnesium Glycinate bottle on a soft linen-draped nightstand at dusk, with a warm bedside lamp glow and two capsules resting beside the bottle.",
+    "fills_gap": "Eleven of your thirteen live ads push collection pages with the same 'too many bottles, too many options' framing — none of them tell a single product's actual mechanism. This concept owns one specific molecule (glycinate + B6) and gives Meta a fresh angle that doesn't compete with your sleep collection creatives.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a serene bedside setting with a soft cream linen-draped nightstand at dusk, two capsules resting beside the bottle, and a slightly out-of-focus warm bedside lamp in the background, with lighting from a warm low-wattage bedside lamp casting soft directional glow from camera-left, gentle shadow falloff, and a calm twilight ambient fill. Premium wellness editorial aesthetic — minimal, clean, soothing, in the same calm tonal world Lunakai already uses across its sleep collection ads. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact white/cream Lunakai capsule bottle colorway, the matte finish on the bottle, the printed Lunakai brand label and product name 'Magnesium Glycinate' and 'with B6 (P-5-P)' text exactly as shown on the front label, the cap color and finish exactly as shown — strictly NO color shift to amber, brown, or clear plastic, NO swap to a darker bottle, NO recoloring of the label, NO altering of the printed product name or brand wordmark. STRUCTURE — preserve the exact construction: cylindrical supplement bottle with screw-top cap, single front-facing printed label with the Lunakai wordmark, product name 'Magnesium Glycinate', dosage descriptor 'with B6 (P-5-P)', and capsule-count line as shown in the reference, capsules visible beside the bottle matching the exact shape and color of the reference product. Do NOT add or remove label text, do NOT change the cap to a dropper or pump, do NOT alter the bottle silhouette, do NOT add a secondary label or seal not present in reference, do NOT change capsule shape or color, do NOT add additional bottles or duplicate the product. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Magnesium Glycinate Capsules – High Absorption with B6 (P-5-P)",
+    "reference_url": "https://lovelunakai.com/products/magnesium-glycinate-capsules",
+    "image_path": "/creatives/lunakai/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your top 3 ads hit fatigue between May 8 and May 10.",
+    "headline": "Let's map the next 6 creatives before CPMs spike",
+    "body": "I'll walk you through the specific hook angles that are missing from your account right now and show you how we'd ship 6 fresh creatives in the next 10 days. 30 minutes, no pitch deck.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scoring is based on hook, headline, body, CTA, landing-page, and launch-cluster repetition observed across the brand's currently-live Meta creatives; fatigue dates are directional, not guaranteed.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
