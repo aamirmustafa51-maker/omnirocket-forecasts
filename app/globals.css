@@ -733,6 +733,19 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   margin: 0 1px;
 }
 
+/* ── Hero mockup intro (shown above FB ad chrome, under section h2) ── */
+.hero-mockup-intro {
+  max-width: 504px;
+  margin: -8px auto 16px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  text-align: center;
+  padding: 0 6px;
+  font-style: italic;
+}
+
 /* ── Hero mockup disclaimer (shown under FB ad chrome) ── */
 .hero-mockup-disclaimer {
   max-width: 504px;

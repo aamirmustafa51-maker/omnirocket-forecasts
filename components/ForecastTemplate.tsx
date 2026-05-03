@@ -287,6 +287,11 @@ export default function ForecastTemplate({
       {hero && (
         <>
           <h2>Here's the ad we'd run for you</h2>
+          {slug === "sarda" && (
+            <div className="hero-mockup-intro">
+              Built from public catalog photos to show direction — once we work from your raw assets, our team ships 10–20 production-ready variations (including videos) like this every week.
+            </div>
+          )}
           <div className="hero-mockup">
             <div className="fb-ad">
               <div className="fb-ad-header">
@@ -332,7 +337,6 @@ export default function ForecastTemplate({
                   ) : (
                     <em>{cleanTitle}</em>
                   )}
-                  {" "}· AI rendering from public catalog photos — directional, not exact.
                 </div>
               )
             })()}
