@@ -686,7 +686,6 @@ async function callClaude(
   const res = await anthropic.messages.create({
     model: "claude-opus-4-7",
     max_tokens: 8192,
-    temperature: 0.3,
     system,
     messages: [{ role: "user", content: user }],
   });
