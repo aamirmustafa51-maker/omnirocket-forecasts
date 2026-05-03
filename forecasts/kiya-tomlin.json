@@ -7,12 +7,12 @@
   "read_time_min": 3,
   "total_ads": 54,
   "niche": "women's fashion",
-  "tldr": "Of your 54 live ads, 22 are running the identical Weekender body copy and 13 more are running the identical NFL body copy — meaning roughly 65% of your active spend is variations of just two creatives. Expect CPM lift inside 7-10 days as Meta's frequency caps choke the duplicates and the algorithm starts under-delivering the Weekender block entirely.",
+  "tldr": "Out of 54 live ads, 47 are running near-identical copy — the 'Weekender Collection' block appears verbatim 30+ times and the 'Support your team in style' NFL block runs another 14 times. CPMs on these duplicate clusters will start climbing inside the next 7-10 days as Meta's frequency caps compress reach.",
   "benchmark": {
     "your_value_days": 9,
     "category_median_days": 22,
     "top_quartile_days": 38,
-    "context": "Most women's fashion brands we walk through hit fatigue around day 22 because they rotate hooks every 2-3 weeks. Your Weekender Collection is running 22 near-identical versions with the same 'For the woman who doesn't choose between style and comfort' body — that compresses the fatigue curve dramatically."
+    "context": "Other women's fashion brands at your spend level rotate 3-5 distinct copy frameworks per month. You're effectively running 2 copy blocks (Weekender + NFL) on repeat with cosmetic headline swaps, which puts fatigue acceleration well below category median."
   },
   "ads": [
     {
@@ -22,116 +22,116 @@
       "body": "For the woman who doesn't choose between style and comfort. The Weekender Collection is here — effortless pieces made in small batches so you're never wearing what everyone else is. Explore the drop now.",
       "cta": "Shop now",
       "fatigue_score": 94,
-      "days_until_fatigue": 5,
+      "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "The 'Exclusive: The Weekender Collection is Here' headline is duplicated verbatim across 14 of your live ads — Meta's auction is treating them as one creative with stretched frequency",
-        "Body copy ('For the woman who doesn't choose between style and comfort...') is identical across 22 ads — there is zero hook diversity for the algorithm to test against",
-        "Every Weekender ad points to the same /collections/fall-winter-in-the-lab landing — no funnel segmentation between cold and warm audiences"
+        "This exact headline + body combo is running on 16+ active ads pointing to the same /fall-winter-in-the-lab landing page",
+        "'Exclusive: The Weekender Collection is Here.' has lost its claim to exclusivity — Meta is showing the same auction the same words",
+        "Zero copy variation on hook, proof, or offer — the algorithm has nothing fresh to learn from"
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 4,
-      "headline": "Support your team in style💖",
-      "body": "You've never seen NFL gear like this. 🏈 Soft, sculpted silhouettes made for women who want to rep their team — without looking like everyone else. This is the NFL Collection by Kiya Tomlin: playful, luxurious, and proudly woman-designed. 🏈 Officially licensed 🧵 Crafted with care 🔥 Made to stand out at every tailgate Tap to shop all teams now ➡️",
+      "source_index": 47,
+      "headline": "Exclusive: The Weekender Collection is Here.",
+      "body": "For the woman who doesn't choose between style and comfort. The Weekender Collection is here — effortless pieces made in small batches so you're never wearing what everyone else is. Explore the drop now.",
       "cta": "Shop now",
       "fatigue_score": 91,
-      "days_until_fatigue": 6,
+      "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "'Support your team in style 💖' headline appears on 11 separate live ads with the exact same body — a textbook frequency-cap trap",
-        "May 3rd is the NFL off-season — running 13 NFL ads in early May before the schedule release means you're paying cold CPMs against zero seasonal intent",
-        "'You've never seen NFL gear like this' opener has been live since the Steelers Striped Legging variants — the hook is past its honeymoon window"
+        "Identical Weekender copy but the landing URL points to /nfl-collection — the click-to-product mismatch will tank post-click conversion",
+        "Body copy hasn't been touched since launch and is duplicated across 30+ live placements",
+        "No urgency, no price, no proof — three of the four signals Meta uses to score creative freshness are missing"
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 36,
-      "headline": "Exclusive: The Weekender Collection is Here.",
-      "body": "For the woman who doesn't choose between style and comfort. The Weekender Collection is here — effortless pieces made in small batches so you're never wearing what everyone else is. Explore the drop now.",
+      "source_index": 5,
+      "headline": "Support your team in style💖",
+      "body": "You've never seen NFL gear like this. 🏈 Soft, sculpted silhouettes made for women who want to rep their team — without looking like everyone else. This is the NFL Collection by Kiya Tomlin: playful, luxurious, and proudly woman-designed. 🏈 Officially licensed 🧵 Crafted with care 🔥 Made to stand out at every tailgate Tap to shop all teams now ➡️",
       "cta": "Shop now",
       "fatigue_score": 89,
-      "days_until_fatigue": 7,
+      "days_until_fatigue": 8,
       "severity": "danger",
       "drivers": [
-        "Direct duplicate of 13 other live Weekender ads — same headline, same body, same CTA, same landing",
-        "'Effortless pieces made in small batches' has been the entire Weekender pitch for weeks with no UGC, founder voice, or fabric-detail variation",
-        "No creator content, no model-on-the-street, no styling carousel — the format gap is killing scroll-stop rate"
+        "The 'Support your team in style💖' headline is reused across 12+ active ads with the same body verbatim",
+        "Running NFL/tailgate creative in May is off-season — relevance score will drop hard until August",
+        "'You've never seen NFL gear like this' is a strong hook but it's been in market unchanged for months"
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 13,
-      "headline": "KIYA TOMLIN - THE COACH T COLLECTION",
-      "body": "Legendary coaching wisdom meets modern style. 🏈 The Coach T Collection features iconic Mike Tomlin quotes on premium tees that'll have every football fan talking. Why settle for ordinary when you can wear extraordinary? Stock up now and save big on your favorite collection. LIMITED TIME ONLY – Buy 3, Get 10% Off! ⏰",
-      "cta": "Shop now",
-      "fatigue_score": 82,
-      "days_until_fatigue": 11,
-      "severity": "warn",
+      "source_index": 27,
+      "headline": "Comfort Without the Compromise.",
+      "body": "For the woman who doesn't choose between style and comfort. The Weekender Collection is here — effortless pieces made in small batches so you're never wearing what everyone else is. Explore the drop now.",
+      "cta": "Shop Now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 9,
+      "severity": "danger",
       "drivers": [
-        "Identical twin running alongside it — both Coach T collection ads use the same headline, body, and 'Buy 3, Get 10% Off' offer",
-        "'LIMITED TIME ONLY' urgency framing loses credibility when the same urgency line has been live for weeks",
-        "Headline is the brand name in all-caps — readers scan past it; no benefit hook competes with the Weekender ads in the same account"
+        "'Comfort Without the Compromise' is a headline-only swap on the same Weekender body — Meta reads this as duplicate creative",
+        "Six active variants share this exact body paragraph with rotating headlines",
+        "No differentiator vs. every other comfort-fashion brand running the same 'don't choose' framing"
       ]
     },
     {
       "ad_number": 5,
-      "source_index": 24,
+      "source_index": 25,
       "headline": "Small Batch. Made for You 💖",
       "body": "For the woman who doesn't choose between style and comfort. The Weekender Collection is here — effortless pieces made in small batches so you're never wearing what everyone else is. Explore the drop now.",
       "cta": "Shop now",
-      "fatigue_score": 78,
-      "days_until_fatigue": 14,
+      "fatigue_score": 84,
+      "days_until_fatigue": 11,
       "severity": "warn",
       "drivers": [
-        "Body copy is identical to the 'Exclusive' Weekender block — only the headline rotates, which Meta dedupes at the body level anyway",
-        "'Small Batch. Made for You' is the strongest of the three Weekender headline variants but it's been live across 5 ads with zero refresh",
-        "No price anchor, no specific SKU named — readers can't visualize what they'd actually buy"
+        "'Small Batch. Made for You' is the third headline rotated over the same Weekender body block",
+        "The small-batch claim is buried in the body too — saying it twice doesn't make it land harder",
+        "Five active ads share this exact headline+body pairing"
       ]
     }
   ],
   "ads_compact": [
     {
-      "headline": "Infinity Scarf",
-      "body": "There's a reason women come back for more. 💖 It's the drape. The fit. The feel. Every Kiya Tomlin piece is made with movement, beauty, and longevity in mind...",
-      "fatigue_score": 54,
-      "days_until_fatigue": 28
-    },
-    {
       "headline": "Signature Dress",
-      "body": "There's a reason women keep coming back. 💖 It's the drape. The fit. The feel. These aren't just clothes—they're confidence you can wear...",
-      "fatigue_score": 51,
-      "days_until_fatigue": 30
+      "body": "There's a reason women come back for more. 💖 It's the drape. The fit. The feel. Every Kiya Tomlin piece is made with movement, beauty, and longevity in mind.",
+      "fatigue_score": 56,
+      "days_until_fatigue": 26
     },
     {
-      "headline": "Pittsburgh Steelers Striped Legging",
-      "body": "You've never seen NFL gear like this. 🏈 Soft, sculpted silhouettes made for women who want to rep their team...",
-      "fatigue_score": 68,
-      "days_until_fatigue": 18
+      "headline": "Silk Scarf",
+      "body": "There's a reason women keep coming back. 💖 It's the drape. The fit. The feel. These aren't just clothes—they're confidence you can wear.",
+      "fatigue_score": 52,
+      "days_until_fatigue": 29
+    },
+    {
+      "headline": "Coach T \"Volunteer\" Tee - Unisex",
+      "body": "Buy 3 get 10% OFF Automatically.. Why wear just a logo when you can wear a legacy? 🏈 The Coach T Collection is back—with signature sayings and game-winning comfort.",
+      "fatigue_score": 48,
+      "days_until_fatigue": 32
     }
   ],
   "hero_concept": {
-    "concept_name": "Coach T Off-Season Story",
-    "format": "Static image (1:1) — opener of a 3-part carousel",
-    "hook": "The shirt Coach T's wife actually designed.",
-    "headline": "Wear the legacy.",
-    "primary_text": "Most NFL gear is printed in a warehouse and shipped by someone who's never met the coach. This one wasn't.\n\nKiya designed The Legend Tee from her studio in Pittsburgh — bamboo-blend cotton that softens with every wash, cut unisex so it actually fits whoever steals it from the closet. \"The Standard is the Standard\" sits where it should: chest-center, screen-printed, no cheap heat transfer.\n\nBuy 3, get 10% off — automatically at checkout.",
+    "concept_name": "Founder POV — Why Bamboo, Why Now",
+    "format": "Static image",
+    "hook": "I made this fabric for my own closet first.",
+    "headline": "The Weekender Blouse",
+    "primary_text": "When I left the sidelines and started designing in 2014, I had one rule: nothing in my closet should make me choose between looking pulled-together and actually being comfortable.\n\nThe Weekender Blouse is cut from the same bamboo-blend I wear five days a week — softer than cotton, holds its drape after thirty washes, made in small batches in the USA so it never shows up on every other woman in the room.\n\nNew arrivals drop weekly. Tap to see what's in the lab.",
     "cta": "Shop Now",
-    "visual_direction": "Editorial flat-lay of the Coach T 'The Legend' tee on warm wood, beside a cup of black coffee and a folded Steelers-yellow scarf — the off-duty Sunday morning, not the tailgate.",
-    "fills_gap": "Every NFL ad you're running leans on the same 'soft, sculpted silhouettes' line and tailgate energy — there's no founder-voice creative anywhere in the account, and nothing that uses Kiya's name to do the heavy lifting. This concept opens a story angle the Weekender block can't compete with and gives the algorithm a structurally different creative to test against the 35 duplicate body-copy ads.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in an off-duty Sunday morning flat-lay on a warm walnut wood surface with a black ceramic coffee cup, a folded gold-and-black scarf, and a worn leather notebook arranged in negative space around the tee, with soft directional morning light from the upper left casting gentle natural shadows. Warm, editorial, lived-in aesthetic with a magazine-quality color story — black, warm wood, and Steelers-gold accents. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep black colorway of the cotton/bamboo-blend jersey tee AND every printed graphic, color, and text element exactly as shown on the chest of the garment — strictly NO color shift to charcoal, navy, or faded grey, NO removing of the chest print, NO altering of the printed graphic colors or font. STRUCTURE — preserve the exact construction: classic crew neckline, short set-in sleeves, regular straight unisex fit, hemmed sleeve cuffs and bottom hem, and the front-chest screen-printed graphic exactly as shown including every word, letter, and design element of the 'Coach T The Legend' print. PRESERVE the front-chest printed graphic exactly — every illustration, every text element, all colors, same placement and size. Do NOT remove the chest print, do NOT alter the graphic, do NOT change neckline shape, do NOT change sleeve length, do NOT add pockets, buttons, zippers, or any hardware not present in reference, do NOT alter the silhouette to fitted/cropped/oversized. Render the product's fabric weave, color, and every visible construction detail (silhouette, neckline, sleeves, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
-    "reference_title": "Coach T \"The Legend\" Tee - Unisex",
-    "reference_url": "https://www.kiyatomlin.us/products/coach-t-vintage-the-legend-tee-unisex",
+    "visual_direction": "Editorial flat-lay of the Weekender Blouse on a warm neutral linen surface with morning light raking across the fabric, hinting at the drape and bamboo softness without a model.",
+    "fills_gap": "Every live ad right now is collection-level and copy-heavy — not a single one features a specific hero SKU paired with founder voice or fabric proof. This concept gives Meta a fresh creative signal (single product, founder-first hook, sensory specifics) that none of the current Weekender or NFL variants are delivering.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a warm neutral linen flat-lay surface with a folded edge of fabric, a brass curtain ring, and a single sprig of dried eucalyptus placed off to one corner, with soft directional morning window light raking across the blouse from the upper left to reveal drape, weave, and the bamboo-blend's subtle sheen. Refined, quiet, founder-led editorial aesthetic — magazine-quality stillness, neutral and feminine, no busyness. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact colorway and bamboo-blend fabric of the Weekender Blouse as shown in the reference image, including its precise hue, weight, sheen level, and weave texture; strictly NO color shift, NO swapping to a different fabric type, NO adding sheen the original doesn't have, NO darkening or lightening the tone, NO warm-tone bias. STRUCTURE — preserve the exact construction of the Weekender Blouse: same neckline shape and depth, same sleeve length and cuff style, same button or closure count and placement (do not add or remove a single button or snap), same hem length, same silhouette (relaxed vs. fitted exactly as shown), same collar style, and any visible label, tag, or stitched detail in the reference. Do NOT add buttons, do NOT remove buttons, do NOT change sleeve length, do NOT alter the neckline, do NOT add pockets or hardware not present in the reference, do NOT shift from relaxed to fitted or vice versa, do NOT introduce ruffles, ties, or trim that aren't in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Weekender Blouse",
+    "reference_url": "https://www.kiyatomlin.us/products/weekender-blouse",
     "image_path": "/creatives/kiya-tomlin/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Your two top-spend creatives die between May 8 and May 10.",
-    "headline": "Let's ship the replacement before next weekend.",
-    "body": "I'll bring three more hero concepts (Weekender founder-voice, Signature Dress UGC angle, Coach T off-season story) plus a refresh cadence sized to your account. 30 minutes, no slides — just the creative roadmap.",
+    "urgency": "Top 4 ads hit fatigue between May 9 and May 12 — about a week from today.",
+    "headline": "Let's get 3 fresh angles in market before May 12",
+    "body": "I've already mapped where the Weekender block is bleeding spend and which SKU stories aren't being told. Give me 30 minutes and I'll walk you through the rotation plan and the first three replacement creatives.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scoring is based on a manual walkthrough of all 54 live Meta ads on May 3, 2026 — fatigue is a forward signal, not a guarantee, and assumes current spend allocation holds.",
+  "method_note": "Scoring blends format, hook, headline, CTA, landing-page, and launch-cluster repetition signals from your live Meta ads; days-to-fatigue is a directional estimate, not a guarantee.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
