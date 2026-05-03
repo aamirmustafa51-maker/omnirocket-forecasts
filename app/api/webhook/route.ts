@@ -663,29 +663,39 @@ export async function POST(req: NextRequest) {
     }
     forecastJson.ads = successfulAds;
 
-    // 5. Generate hero mockup ad image (skip-and-revert: any failure → null path)
+    // 5. Generate hero mockup ad image. If we couldn't fetch a real Shopify
+    // hero product, drop the hero_concept entirely — Claude's copy is anchored
+    // to a hallucinated SKU and the image is missing, so the section would
+    // render off-brand. Better to hide it (template gates on `hero && ...`).
     if (forecastJson.hero_concept) {
-      forecastJson.hero_concept.reference_title = heroProduct?.title ?? null;
-      forecastJson.hero_concept.reference_url = heroProduct?.page_url ?? null;
-      forecastJson.hero_concept.image_path = null;
-
-      if (heroProduct && forecastJson.hero_concept.image_prompt) {
-        const mockupUrl = await kieGenerateMockup(
-          forecastJson.hero_concept.image_prompt,
-          heroProduct.image_url,
-          heroProduct.title,
+      if (!heroProduct) {
+        delete forecastJson.hero_concept;
+        await postSlack(
+          `ℹ️ *Hero section dropped* for ${tag} — no Shopify product fetched (non-Shopify site, geo-block, or 404). Forecast still delivered without the "Here's the ad we'd run for you" section.`,
         );
-        if (mockupUrl) {
-          try {
-            const b64 = await downloadImageBase64(mockupUrl);
-            await githubPut(
-              `public/creatives/${slug}/hero-mockup.jpg`,
-              b64,
-              `chore: add hero-mockup for ${slug}`,
-            );
-            forecastJson.hero_concept.image_path = `/creatives/${slug}/hero-mockup.jpg`;
-          } catch (e) {
-            console.error("Mockup upload failed:", e);
+      } else {
+        forecastJson.hero_concept.reference_title = heroProduct.title;
+        forecastJson.hero_concept.reference_url = heroProduct.page_url;
+        forecastJson.hero_concept.image_path = null;
+
+        if (forecastJson.hero_concept.image_prompt) {
+          const mockupUrl = await kieGenerateMockup(
+            forecastJson.hero_concept.image_prompt,
+            heroProduct.image_url,
+            heroProduct.title,
+          );
+          if (mockupUrl) {
+            try {
+              const b64 = await downloadImageBase64(mockupUrl);
+              await githubPut(
+                `public/creatives/${slug}/hero-mockup.jpg`,
+                b64,
+                `chore: add hero-mockup for ${slug}`,
+              );
+              forecastJson.hero_concept.image_path = `/creatives/${slug}/hero-mockup.jpg`;
+            } catch (e) {
+              console.error("Mockup upload failed:", e);
+            }
           }
         }
       }

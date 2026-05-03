@@ -25,9 +25,9 @@
       "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Headline is the three-benefit boilerplate — same exact phrasing is running as the body on two other live ads, so Meta is reading these as near-duplicates",
+        "Headline is the three-benefit boilerplate \u2014 same exact phrasing is running as the body on two other live ads, so Meta is reading these as near-duplicates",
         "Body is a raw product SKU string ('0100410 CMR-301... Rail Master Pro Tan Rifle') with zero hook, benefit, or use-case framing",
-        "'See Details' CTA paired with a deep PDP link gives no reason to click beyond the SKU itself — no urgency, no social proof, no buyer context"
+        "'See Details' CTA paired with a deep PDP link gives no reason to click beyond the SKU itself \u2014 no urgency, no social proof, no buyer context"
       ]
     },
     {
@@ -40,7 +40,7 @@
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "Identical headline to your CMR-301 ad — Meta's creative-similarity detection treats this as a recycle and throttles delivery",
+        "Identical headline to your CMR-301 ad \u2014 Meta's creative-similarity detection treats this as a recycle and throttles delivery",
         "Body reads like a backend product feed ('011150 LG-305... J-Frame Round Butt') instead of a reason to buy",
         "Fourth ad in a row pointing to a single-SKU PDP with no category page, comparison, or bundle alternative"
       ]
@@ -55,9 +55,9 @@
       "days_until_fatigue": 10,
       "severity": "warn",
       "drivers": [
-        "Headline is an internal SKU code in ALL CAPS ('CRIM 01-01720 RIG 400LUM') — reads like a warehouse label, not an ad",
+        "Headline is an internal SKU code in ALL CAPS ('CRIM 01-01720 RIG 400LUM') \u2014 reads like a warehouse label, not an ad",
         "Body is the same three-benefit line that appears as the headline on two other ads, just rearranged",
-        "No mention of who this 400-lumen light is for (duty officer? home defense? hunter?) — leaves Meta zero behavioral signal to optimize against"
+        "No mention of who this 400-lumen light is for (duty officer? home defense? hunter?) \u2014 leaves Meta zero behavioral signal to optimize against"
       ]
     },
     {
@@ -70,34 +70,20 @@
       "days_until_fatigue": 11,
       "severity": "warn",
       "drivers": [
-        "Headline is 80+ characters of feed-spec text — gets truncated in feed and tells deer hunters nothing about why this scope matters for 350 Legend",
+        "Headline is 80+ characters of feed-spec text \u2014 gets truncated in feed and tells deer hunters nothing about why this scope matters for 350 Legend",
         "Body is the recycled 'Price Match / Free Shipping / Financing' line shared with your white-light ad",
-        "All four live ads share the same Crimson Trace brand and same boilerplate — no audience, format, or angle diversification"
+        "All four live ads share the same Crimson Trace brand and same boilerplate \u2014 no audience, format, or angle diversification"
       ]
     }
   ],
   "ads_compact": [],
-  "hero_concept": {
-    "concept_name": "Who It's For — Use-Case Hero",
-    "format": "Static image",
-    "hook": "Patrol shift at 2AM. What's on your rifle?",
-    "headline": "Built For The Low-Light Call",
-    "primary_text": "Every ad in your feed right now is a SKU number and a shipping promise. That's fine for the buyer who already knows what they want — but most don't.\n\nThe Crimson Trace CMR-301 Rail Master Pro is the green laser + 400-lumen light combo that LE patrol and home-defense shooters keep coming back to: one rail slot, two tools, zero compromise on a Tan rifle setup.\n\nPrice-matched, financing available, ships free from a real optics shop — not a marketplace reseller.",
-    "cta": "Shop Now",
-    "visual_direction": "Dramatic low-key product shot of the Rail Master Pro mounted on a rifle rail, green laser dot visible faintly in haze, deep matte tactical aesthetic.",
-    "fills_gap": "Every live ad opens with either a SKU code or the 'Price Match / Free Shipping / Financing' line — there's no creative answering 'who is this for and when do I need it.' This concept leads with the use-case (low-light patrol, home defense) so Meta finally gets a behavioral signal beyond the SKU feed.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a moody low-light tactical scene with the Rail Master Pro mounted on a Picatinny rail section resting on a dark matte surface, with cool cinematic side lighting from a single hard key light at low angle producing deep shadows and a faint green laser glow emanating from the unit. Premium tactical-gear editorial aesthetic, atmospheric haze, deep blacks, subtle teal ambient fill. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact tan/flat-dark-earth (FDE) polymer body color, black control buttons, and the integrated green laser + white LED light module exactly as shown in the reference; strictly NO color shift to brown, coyote, grey, or black, NO swap of the green laser to red, NO change in the lens housing finish. STRUCTURE — preserve the exact construction: single rail-mount housing with integrated quick-detach lever on one side, one round laser emitter lens and one square/rectangular LED light lens on the front face, ambidextrous activation pads on both sides, screw-adjustable windage/elevation ports, all printed Crimson Trace branding and model text ('CMR-301' / 'Rail Master Pro') exactly as shown on the housing. Do NOT add or remove buttons, switches, or rail clamps, do NOT change the lens count or layout, do NOT alter the QD lever style, do NOT remove or modify the printed Crimson Trace logo or model designation text on the unit. Render the product's polymer, color, finish, lens glass, hardware, AND every visible construction detail EXACTLY as they appear in the reference image. Do NOT change the color, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the housing. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
-    "reference_title": null,
-    "reference_url": null,
-    "image_path": null
-  },
   "next_step": {
-    "urgency": "Two ads tip into severe fatigue inside a week — rotation needs to start now.",
+    "urgency": "Two ads tip into severe fatigue inside a week \u2014 rotation needs to start now.",
     "headline": "30 minutes to map your next creative wave",
-    "body": "Let's walk through your top 3 SKUs by margin and build use-case angles for each — patrol, hunting, home defense — so you're not running SKU codes as headlines. We'll leave with a 6-creative shot list ready to brief.",
+    "body": "Let's walk through your top 3 SKUs by margin and build use-case angles for each \u2014 patrol, hunting, home defense \u2014 so you're not running SKU codes as headlines. We'll leave with a 6-creative shot list ready to brief.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
-  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "prepared_by": "Prepared by Kyle Hamar \u2014 OmniRocket",
   "method_note": "Scored from publicly visible Meta ads on May 3, 2026; fatigue windows are directional projections, not delivery guarantees.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
