@@ -3,135 +3,135 @@
   "brand_slug": "sarda",
   "first_name": "Athena",
   "website": "https://www.sarda.com",
-  "generated_date": "May 1, 2026",
+  "generated_date": "May 3, 2026",
   "read_time_min": 3,
-  "total_ads": 203,
+  "total_ads": 185,
   "niche": "jewelry",
-  "tldr": "Athena, you're running 203 live ads but they collapse into roughly 8 unique creative concepts — the 'Luxury Sterling Silver & Gemstones, Up to 45% Off' body copy alone is duplicated verbatim across more than 60 variants. Expect CPM spikes of 30-45% within 7-14 days as Meta's frequency caps catch up to the repetition.",
+  "tldr": "Athena — your account fatigue score is 27/100 with a healthy refresh cadence and 34 distinct concepts running, which is well above the Andromeda diversity floor. The bigger story isn't fatigue, it's that most of those 34 concepts are buried under heavy duplication of the same BOGO and 'Luxury Sterling Silver & Gemstones, Up to 45% Off' ad — so the unique angles aren't getting the oxygen they deserve.",
   "benchmark": {
-    "your_value_days": 9,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "Fashion jewelry brands typically rotate hero creative every 3-4 weeks. Sarda is recycling the same 'Handcrafted in Bali' body block and 'BOGO + Use Code: STACK' offer across the majority of active placements, which compresses the fatigue window dramatically."
+    "your_value_days": 10,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your spend bracket (whale tier), hero creatives should be refreshed inside 10 days and definitely before 14. Concept-count-wise you're already in excellent territory at 34 distinct angles — Andromeda's clustering only starts hurting brands below 8 concepts, so the lever here is consolidation and rotation, not adding more."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 199,
-      "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
-      "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
+      "source_index": 94,
+      "headline": "Luxury Sterling Silver & Gemstones",
+      "body": "Save Up to 45% Off Our New Arrivals Get 20% Off Your First Order + Free Gift Over 5,000 Five Star Reviews",
       "cta": "Shop now",
-      "fatigue_score": 96,
-      "days_until_fatigue": 5,
-      "severity": "danger",
+      "fatigue_score": 37,
+      "days_until_fatigue": 3,
+      "severity": "ok",
       "drivers": [
-        "This exact headline + body combo is running on more than 60 of your live placements — Meta is serving the same creative to overlapping audiences and frequency is almost certainly past 4.0",
-        "All variants point to the same /collections/sarda-favorites landing page, so there's zero destination diversity to break the pattern",
-        "The 'Up to 45% Off' anchor has been live so long it's lost any sense of urgency — your warm audiences have seen this discount line for months"
+        "Running 20 days — twice the 10-day stale-hero threshold for a brand at your spend bracket",
+        "The body copy ('Save Up to 45% Off… 20% Off First Order + Free Gift… 5,000 Five Star Reviews') is recycled verbatim across roughly a half-dozen of your new-arrivals carousels",
+        "Single-product framing on a video — no transformation, no founder voice, no UGC; visual is doing all the work and the algorithm has clustered it with your other discount-led variants"
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 75,
-      "headline": "BOGO, Discount and Free Shipping!",
-      "body": "Buy One Get One Free and comes with a welcome kit on your first purchase.  ✦  Free Shipping ✦  Easy Returns Handcrafted in Bali Built on three generations.",
+      "source_index": 7,
+      "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
+      "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
       "cta": "Shop now",
-      "fatigue_score": 93,
-      "days_until_fatigue": 6,
-      "severity": "danger",
+      "fatigue_score": 32,
+      "days_until_fatigue": 3,
+      "severity": "ok",
       "drivers": [
-        "The 'BOGO, Discount and Free Shipping' headline appears on roughly 30 active variants — half with 'Use Code: STACK' appended, half without, but the body is identical",
-        "Every single one routes to /collections/all-of-sarda — no product-specific landing pages to give the algorithm a fresh signal",
-        "'Built on three generations' is buried as the last line; your strongest brand differentiator is doing zero hook work"
+        "Past the 10-day stale-hero line and 1 day from the warn band",
+        "This exact body copy ('Luxury You Deserve — Handcrafted in Bali…') appears verbatim on more than 40 of your live ads — Andromeda treats this as one cluster, not 40 ads",
+        "Same headline + same body + same landing page (/collections/sarda-favorites) repeated across image, video, and carousel placements with no creative differentiation"
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 145,
-      "headline": "Designed for Your Daily Routine",
-      "body": "Tired of jewelry that loses its luster after a month?  Most \"trendy\" pieces are just plated shortcuts. At Sarda, we provide the solution: Jewelry made slowly, so it lasts longer.  - No plated shortcuts.  - No substitutions.  - Just sterling silver and natural gemstones built to endure.",
+      "source_index": 8,
+      "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
+      "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
       "cta": "Shop now",
-      "fatigue_score": 88,
-      "days_until_fatigue": 7,
-      "severity": "danger",
+      "fatigue_score": 32,
+      "days_until_fatigue": 3,
+      "severity": "ok",
       "drivers": [
-        "This problem-aware angle is your strongest copy block — but it's been duplicated across 12+ placements with identical creative, killing its original lift",
-        "Headline 'Designed for Your Daily Routine' is generic and doesn't tee up the 'plated shortcuts' callout that's actually doing the persuasive work",
-        "All variants land on the homepage — no specific 'sterling silver' collection page to convert the intent the body builds"
+        "13 days running — comfortably past the 10-day refresh window",
+        "Static-image variant of an already-overcrowded copy cluster; identical headline runs across video and carousel siblings",
+        "Routes to the same /sarda-favorites collection as a dozen of your other actives, so retargeting overlap is unavoidable"
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 169,
-      "headline": "Mothers Day Sale! Extra 40% Off!",
-      "body": "Mothers Day is around the corner! Get luxury you deserve!  Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the Mothers Day sale and save an extra 40% off!",
-      "cta": "Shop now",
-      "fatigue_score": 86,
-      "days_until_fatigue": 7,
-      "severity": "danger",
+      "source_index": 14,
+      "headline": "Renewed Faith Ring™ in Chainlink",
+      "body": "These are the pieces that define SARDA™. Our core collection features the designs customers return for — handcrafted sterling silver, premium gemstones, and timeless silhouettes made to be worn every day.",
+      "cta": "Shop Now",
+      "fatigue_score": 32,
+      "days_until_fatigue": 3,
+      "severity": "ok",
       "drivers": [
-        "Eight near-identical Mother's Day variants are live and they share 90% of body copy with the evergreen 'Luxury You Deserve' block",
-        "Mother's Day is May 10 — these have a hard expiration in 9 days regardless of fatigue, so any spend after May 8 is wasted",
-        "No gift-specific imagery callout, no shipping cutoff date, no 'for Mom' positioning — it's just the same evergreen ad with a holiday sticker"
+        "13 days running with no rotation in the carousel art",
+        "Strong brand-voice copy ('the designs customers return for') — but it's stranded; this premium narrative isn't echoed in your higher-spend BOGO variants",
+        "Single-SKU carousel competing for delivery against your /sarda-favorites cluster which serves the same buyer intent at a louder discount"
       ]
     },
     {
       "ad_number": 5,
-      "source_index": 132,
-      "headline": "BOGO, Discount and Free Shipping! Use Code: STACK",
-      "body": "Buy any sterling silver piece, get another of equal or lesser value FREE — your choice.  Use code STACK at checkout.  Plus: free jewelry cleaner welcome kit, free shipping & easy returns.  Don't miss this. First order only.",
+      "source_index": 25,
+      "headline": "Save Up to 45% on Handcrafted Gemstone Jewelry",
+      "body": "SAVING START AT 45% on our Gemstone Collection Handcrafted in Bali by master silversmiths with over 30 years of expertise — each piece is genuine gemstone set in premium sterling silver that's polished with care. Join 5,000+ shoppers leaving ⭐⭐⭐⭐⭐ reviews — once you wear SARDA, you'll see why. Shop now before your style sells out.",
       "cta": "Shop now",
-      "fatigue_score": 84,
-      "days_until_fatigue": 8,
-      "severity": "warn",
+      "fatigue_score": 32,
+      "days_until_fatigue": 3,
+      "severity": "ok",
       "drivers": [
-        "This is the cleaner v2 of the BOGO body — but it's running alongside the v1 version on 6+ active placements, which means they're cannibalizing each other in auction",
-        "'First order only' restricts this to cold audiences but it's also being shown to your retargeting pools (same /all-of-sarda landing page as the broad campaigns)",
-        "Code STACK is the same code that's been live for months — repeat shoppers have already used it or learned to ignore it"
+        "13 days running — past the whale-tier 10-day threshold",
+        "Body copy opens with a typo ('SAVING START AT 45%') that's been live for almost two weeks across multiple variants",
+        "Strongest piece of social proof in your account ('30 years of expertise', '5,000+ reviews') is buried inside a generic discount frame instead of being its own concept"
       ]
     }
   ],
   "ads_compact": [
     {
-      "headline": "Free Gift With First Order",
-      "body": "Free Gift With First Order + Save 20% Off",
-      "fatigue_score": 72,
-      "days_until_fatigue": 15
+      "headline": "BOGO, Discount and Free Shipping!",
+      "body": "Buy One Get One Free and comes with a welcome kit on your first purchase.  ✦  Free Shipping ✦  Easy Returns Handcrafted in Bali Built on three generations.",
+      "fatigue_score": 32,
+      "days_until_fatigue": 3
     },
     {
-      "headline": "Last Chance Styles",
-      "body": "These styles are on their final run. Once inventory sells through, they will not be restocked. Enjoy savings starting at 40% off while limited quantities remain.",
-      "fatigue_score": 54,
-      "days_until_fatigue": 28
+      "headline": "{{product.name}}",
+      "body": "Save 45% off all our New Arrivals - Discover the SARDA Difference and Join over 5,000 Happy Customers",
+      "fatigue_score": 17,
+      "days_until_fatigue": 9
     },
     {
-      "headline": "Explore Kunzite",
-      "body": "Soft pink kunzite, precision-cut for a radiant glow. Effortlessly feminine, beautifully refined.",
-      "fatigue_score": 38,
-      "days_until_fatigue": 40
+      "headline": "Mothers Day Sale! Extra 40% Off!",
+      "body": "Mothers Day is around the corner! Get luxury you deserve!  Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the Mothers Day sale and save an extra 40% off!",
+      "fatigue_score": 17,
+      "days_until_fatigue": 8
     }
   ],
   "hero_concept": {
-    "concept_name": "The Stone Story",
+    "concept_name": "Three Generations, One Stone",
     "format": "Static image",
-    "hook": "Chrysocolla. Sterling silver. The stone Bali jewelers reach for when calm matters.",
-    "headline": "Ocean's of Grace.",
-    "primary_text": "Janyl Adair has been carving sterling silver in Bali for three generations. Every stone she chooses has a job — chrysocolla is the one she reaches for when the day needs to feel quieter.\n\nThe Ocean's of Grace bundle pairs hand-set chrysocolla with .925 silver. It's the piece you put on for the meeting, the appointment, the morning that asks for a little more steadiness.\n\nFirst order ships free with a complimentary jewelry cleaner kit. 5,000+ five-star reviews can't all be wrong.",
+    "hook": "Janyl cuts the chrysocolla. Her mother polished the silver.",
+    "headline": "Built To Outlast Trends",
+    "primary_text": "Sarda is on its third generation of Balinese silversmiths. Same workshop. Same hands-and-hammer process. No plating shortcuts.\n\nThe Ocean's of Grace bundle is set in genuine chrysocolla and .925 sterling silver — the kind of piece that gets passed down, not replaced next season.\n\nFirst-order BOGO with code STACK. Free welcome kit and free shipping included.",
     "cta": "Shop Now",
-    "visual_direction": "Hero bundle shot in soft daylight on a warm linen surface with a single sprig of dried botanical, no model — letting the chrysocolla teal play against the silver.",
-    "fills_gap": "Every active piece either leads with a discount ('Up to 45% Off', 'BOGO', 'Mothers Day Sale') or a generic luxury claim ('Luxury You Deserve') — nothing leads with the actual stones, their meaning, or Janyl as the named maker. This concept turns a single SKU into a story instead of a discount, which is what your warm audiences need to see after months of percentage-off creative.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft warm-linen flatlay with a small sprig of dried eucalyptus and a smooth river pebble placed off-center for negative space, with natural soft north-window daylight raking from the left to highlight the gemstone facets and silver detailing. Muted earth-tone palette of cream, sand, and pale sage that signals handcrafted Balinese luxury without feeling stuffy. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve sterling silver / .925 silver finish exactly as shown in the reference image — strictly NO gold, brass, yellow, copper, rose gold, or warm metallic tones. The metal must remain bright cool silver. Render the product metal, color, finish, stones, and surface treatment EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones.",
+    "visual_direction": "Hero shot of the Ocean's of Grace chrysocolla bundle resting on weathered linen with artisan tools (silversmith hammer, polishing cloth) softly out of focus in the background — quiet, editorial, lets the sterling and the blue-green stone breathe.",
+    "fills_gap": "Right now your account is leaning hard on discount-led copy ('Up to 45% Off', 'BOGO') across most actives, with the heritage angle ('three generations', 'master silversmiths with over 30 years of expertise') buried inside the same blocks. This concept pulls the heritage story up to the front and uses the BOGO as the close, giving Andromeda a meaningfully different cluster to surface against your existing discount-led ones.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet artisan workshop scene with the bundle resting on weathered natural linen alongside softly out-of-focus silversmithing tools (a small polishing cloth, a worn wooden bench corner), with directional natural window light from the upper left casting a soft cool highlight across the silver and a gentle shadow to the lower right. Editorial, museum-quality, restrained luxury aesthetic with cool neutral tones — no warm golden cast. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact .925 sterling silver finish and the exact blue-green chrysocolla stone color (mottled turquoise-and-teal with natural matrix veining) as shown in the reference image — strictly NO gold, brass, yellow, copper, rose-gold, or warm metallic tones on the metal, and strictly NO color shift on the chrysocolla to solid blue, solid green, lapis, or turquoise — preserve the natural mottled chrysocolla pattern exactly. STRUCTURE — preserve the exact construction of the bundle: same number of pieces, same number of chrysocolla stones, same stone shapes and sizes, same bezel/setting style, same chain link pattern, same clasp type, and the same arrangement as shown in the reference. Do NOT add or remove stones, do NOT add or remove pieces from the bundle, do NOT change the setting style, do NOT swap the chain pattern, do NOT alter clasp hardware, do NOT introduce additional charms or pendants. Render the product's metal, color, finish, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "Ocean's of Grace In Chrysocolla Bundle",
     "reference_url": "https://sarda.com/products/oceans-of-grace-in-chrysocolla-bundle-1",
     "image_path": "/creatives/sarda/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Your top 4 ads hit fatigue between May 6-8 — Mother's Day spend is the immediate bottleneck.",
-    "headline": "Let's map a 14-day rotation before CPMs spike.",
-    "body": "I'll walk you through which 5 ads to kill this week, the broken DPA setup, and three hero concepts beyond 'The Stone Story' you can ship before Mother's Day cutoff. 30 minutes, no pitch.",
+    "urgency": "Most of your hero set crosses the warn line within 3 days.",
+    "headline": "Want us to map the full rotation plan?",
+    "body": "Your concept count is genuinely strong — the issue is delivery overlap from duplicated body copy across 40+ ads. Book 30 minutes and we'll walk you through the consolidation map and the next 4 hero concepts in your voice.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Built by walking through every active Sarda placement in the Meta Ad Library and clustering by headline, body, landing page, and offer structure — fatigue scoring is directional, not a substitute for in-account frequency and CPM data.",
+  "method_note": "Patterns drawn from your 185 currently-running Meta ads via the public Ad Library; no private metrics were used or implied.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
