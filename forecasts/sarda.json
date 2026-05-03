@@ -7,131 +7,131 @@
   "read_time_min": 3,
   "total_ads": 185,
   "niche": "jewelry",
-  "tldr": "Athena — your account fatigue score is 27/100 with a healthy refresh cadence and 34 distinct concepts running, which is well above the Andromeda diversity floor. The bigger story isn't fatigue, it's that most of those 34 concepts are buried under heavy duplication of the same BOGO and 'Luxury Sterling Silver & Gemstones, Up to 45% Off' ad — so the unique angles aren't getting the oxygen they deserve.",
+  "tldr": "Athena, we walked through all 185 of your live ads and the pattern is stark: roughly 70% are recycling two body-copy blocks ('Buy One Get One Free and comes with a welcome kit...' and 'Luxury You Deserve — Handcrafted in Bali...') across image, video, and carousel formats. At whale-tier spend with a 10-day refresh window, you have at least 18 ads sitting at or past day 12 running near-identical copy — which is exactly the cluster Andromeda demotes.",
   "benchmark": {
     "your_value_days": 10,
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "At your spend bracket (whale tier), hero creatives should be refreshed inside 10 days and definitely before 14. Concept-count-wise you're already in excellent territory at 34 distinct angles — Andromeda's clustering only starts hurting brands below 8 concepts, so the lever here is consolidation and rotation, not adding more."
+    "context": "At whale-tier spend in jewelry/apparel, hero creatives need a fresh concept every ~10 days — roughly 2× faster than the category median of 21 days. Your active set has 34 distinct concept signatures spread across 185 ads, but the top two copy blocks alone account for over half the volume."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 94,
-      "headline": "Luxury Sterling Silver & Gemstones",
-      "body": "Save Up to 45% Off Our New Arrivals Get 20% Off Your First Order + Free Gift Over 5,000 Five Star Reviews",
+      "source_index": 31,
+      "headline": "BOGO, Discount and Free Shipping! Use Code: STACK",
+      "body": "Buy One Get One Free and comes with a welcome kit on your first purchase.  ✦  Free Shipping ✦  Easy Returns Handcrafted in Bali Built on three generations.",
       "cta": "Shop now",
-      "fatigue_score": 37,
-      "days_until_fatigue": 3,
-      "severity": "ok",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
       "drivers": [
-        "Running 20 days — twice the 10-day stale-hero threshold for a brand at your spend bracket",
-        "The body copy ('Save Up to 45% Off… 20% Off First Order + Free Gift… 5,000 Five Star Reviews') is recycled verbatim across roughly a half-dozen of your new-arrivals carousels",
-        "Single-product framing on a video — no transformation, no founder voice, no UGC; visual is doing all the work and the algorithm has clustered it with your other discount-led variants"
+        "This exact 'BOGO, Discount and Free Shipping!' headline + body pairing is running on more than 25 of your live ads — Andromeda treats that whole cluster as one concept and throttles serving",
+        "13 days running on a static image with copy unchanged — that's 30% past your whale-tier 10-day refresh window",
+        "Landing destination is /collections/all-of-sarda — the same generic catalog page used by ~30 other ads, so retrieval can't differentiate intent"
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 7,
+      "source_index": 70,
       "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
       "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
       "cta": "Shop now",
-      "fatigue_score": 32,
-      "days_until_fatigue": 3,
-      "severity": "ok",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
       "drivers": [
-        "Past the 10-day stale-hero line and 1 day from the warn band",
-        "This exact body copy ('Luxury You Deserve — Handcrafted in Bali…') appears verbatim on more than 40 of your live ads — Andromeda treats this as one cluster, not 40 ads",
-        "Same headline + same body + same landing page (/collections/sarda-favorites) repeated across image, video, and carousel placements with no creative differentiation"
+        "The 'Luxury Sterling Silver & Gemstones, Up to 45% Off' block is the single most-duplicated creative on your account — running on 35+ ads as identical copy across image and video format",
+        "13 days live, image format, pointing at the same /sarda-favorites collection as a dozen near-twins",
+        "Headline carries no specificity — no stone, no piece, no hook — so it competes against itself across every placement"
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 8,
-      "headline": "Luxury Sterling Silver & Gemstones, Up to 45% Off",
-      "body": "Luxury You Deserve — Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the collection and save up to 45%.",
+      "source_index": 17,
+      "headline": "BOGO, Discount and Free Shipping! Use Code: STACK",
+      "body": "Buy One Get One Free and comes with a welcome kit on your first purchase.  ✦  Free Shipping ✦  Easy Returns Handcrafted in Bali Built on three generations.",
       "cta": "Shop now",
-      "fatigue_score": 32,
-      "days_until_fatigue": 3,
-      "severity": "ok",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
       "drivers": [
-        "13 days running — comfortably past the 10-day refresh window",
-        "Static-image variant of an already-overcrowded copy cluster; identical headline runs across video and carousel siblings",
-        "Routes to the same /sarda-favorites collection as a dozen of your other actives, so retargeting overlap is unavoidable"
+        "Video format running the identical static-ad body — no motion-specific hook, no sound-on opener, the video is just delivering the same offer copy",
+        "13 days at whale-tier means this clip has had time to saturate any reachable cold pool — fresh concepts beat fresh placements here",
+        "CTA 'Shop now' on a generic /all-of-sarda landing leaves intent flat — the video's investment isn't being earned back"
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 14,
-      "headline": "Renewed Faith Ring™ in Chainlink",
-      "body": "These are the pieces that define SARDA™. Our core collection features the designs customers return for — handcrafted sterling silver, premium gemstones, and timeless silhouettes made to be worn every day.",
-      "cta": "Shop Now",
-      "fatigue_score": 32,
-      "days_until_fatigue": 3,
-      "severity": "ok",
+      "source_index": 41,
+      "headline": "Designed for Your Daily Routine",
+      "body": "Tired of jewelry that loses its luster after a month?  Most \"trendy\" pieces are just plated shortcuts. At Sarda, we provide the solution: Jewelry made slowly, so it lasts longer.  - No plated shortcuts.  - No substitutions.  - Just sterling silver and natural gemstones built to endure.",
+      "cta": "Shop now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 6,
+      "severity": "danger",
       "drivers": [
-        "13 days running with no rotation in the carousel art",
-        "Strong brand-voice copy ('the designs customers return for') — but it's stranded; this premium narrative isn't echoed in your higher-spend BOGO variants",
-        "Single-SKU carousel competing for delivery against your /sarda-favorites cluster which serves the same buyer intent at a louder discount"
+        "This 'Tired of jewelry that loses its luster' opener is your strongest hook on paper but it's now running on 11 ads simultaneously — the cluster eats itself",
+        "13 days live with the homepage as the destination — no specific stone, ring, or bracelet to anchor the buyer's next click",
+        "Static image carrying long-form video copy — the 'no plated shortcuts / no substitutions' bulleted argument needs motion or close-up texture to land"
       ]
     },
     {
       "ad_number": 5,
-      "source_index": 25,
+      "source_index": 105,
       "headline": "Save Up to 45% on Handcrafted Gemstone Jewelry",
       "body": "SAVING START AT 45% on our Gemstone Collection Handcrafted in Bali by master silversmiths with over 30 years of expertise — each piece is genuine gemstone set in premium sterling silver that's polished with care. Join 5,000+ shoppers leaving ⭐⭐⭐⭐⭐ reviews — once you wear SARDA, you'll see why. Shop now before your style sells out.",
       "cta": "Shop now",
-      "fatigue_score": 32,
-      "days_until_fatigue": 3,
-      "severity": "ok",
+      "fatigue_score": 84,
+      "days_until_fatigue": 7,
+      "severity": "warn",
       "drivers": [
-        "13 days running — past the whale-tier 10-day threshold",
-        "Body copy opens with a typo ('SAVING START AT 45%') that's been live for almost two weeks across multiple variants",
-        "Strongest piece of social proof in your account ('30 years of expertise', '5,000+ reviews') is buried inside a generic discount frame instead of being its own concept"
+        "'SAVING START AT 45%' has a typo in the body that's now run unchanged for 13 days across multiple variants — small thing, but every micro-friction compounds at this spend",
+        "The 5,000+ reviews proof point is your sharpest differentiator and it's buried in paragraph two — most placements truncate before it shows",
+        "Same /sarda-favorites destination as 30+ other ads — Andromeda has nothing to differentiate this one's intent signal"
       ]
     }
   ],
   "ads_compact": [
     {
-      "headline": "BOGO, Discount and Free Shipping!",
-      "body": "Buy One Get One Free and comes with a welcome kit on your first purchase.  ✦  Free Shipping ✦  Easy Returns Handcrafted in Bali Built on three generations.",
-      "fatigue_score": 32,
-      "days_until_fatigue": 3
-    },
-    {
       "headline": "{{product.name}}",
       "body": "Save 45% off all our New Arrivals - Discover the SARDA Difference and Join over 5,000 Happy Customers",
-      "fatigue_score": 17,
-      "days_until_fatigue": 9
+      "fatigue_score": 72,
+      "days_until_fatigue": 12
     },
     {
       "headline": "Mothers Day Sale! Extra 40% Off!",
-      "body": "Mothers Day is around the corner! Get luxury you deserve!  Handcrafted in Bali. High-end design shouldn't be reserved for special occasions. Handcrafted by skilled artisans, each SARDA piece features genuine gemstones and .925 sterling silver.  Shop the Mothers Day sale and save an extra 40% off!",
-      "fatigue_score": 17,
-      "days_until_fatigue": 8
+      "body": "Mothers Day is around the corner! Get luxury you deserve!  Handcrafted in Bali. High-end design shouldn't be reserved for special occasions...",
+      "fatigue_score": 48,
+      "days_until_fatigue": 28
+    },
+    {
+      "headline": "Explore Kunzite",
+      "body": "Soft pink kunzite, precision-cut for a radiant glow. Effortlessly feminine, beautifully refined.",
+      "fatigue_score": 22,
+      "days_until_fatigue": 45
     }
   ],
   "hero_concept": {
-    "concept_name": "Three Generations, One Stone",
+    "concept_name": "Stone Story — Chrysocolla Close-Up",
     "format": "Static image",
-    "hook": "Janyl cuts the chrysocolla. Her mother polished the silver.",
-    "headline": "Built To Outlast Trends",
-    "primary_text": "Sarda is on its third generation of Balinese silversmiths. Same workshop. Same hands-and-hammer process. No plating shortcuts.\n\nThe Ocean's of Grace bundle is set in genuine chrysocolla and .925 sterling silver — the kind of piece that gets passed down, not replaced next season.\n\nFirst-order BOGO with code STACK. Free welcome kit and free shipping included.",
+    "hook": "The blue-green stone Janyl flew to Bali for.",
+    "headline": "Ocean's Of Grace, In Chrysocolla",
+    "primary_text": "Most jewelry ads sell a discount. This one sells a stone.\n\nChrysocolla is what happens when copper meets water in the earth — no two pieces share the same swirl. Janyl pairs it with hand-set .925 sterling, finished slowly by silversmiths who've been doing this for thirty years. Built to be worn daily, not saved for a drawer.\n\nThe Ocean's Of Grace bundle is live now — free welcome kit and free shipping with your first order.",
     "cta": "Shop Now",
-    "visual_direction": "Hero shot of the Ocean's of Grace chrysocolla bundle resting on weathered linen with artisan tools (silversmith hammer, polishing cloth) softly out of focus in the background — quiet, editorial, lets the sterling and the blue-green stone breathe.",
-    "fills_gap": "Right now your account is leaning hard on discount-led copy ('Up to 45% Off', 'BOGO') across most actives, with the heritage angle ('three generations', 'master silversmiths with over 30 years of expertise') buried inside the same blocks. This concept pulls the heritage story up to the front and uses the BOGO as the close, giving Andromeda a meaningfully different cluster to surface against your existing discount-led ones.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet artisan workshop scene with the bundle resting on weathered natural linen alongside softly out-of-focus silversmithing tools (a small polishing cloth, a worn wooden bench corner), with directional natural window light from the upper left casting a soft cool highlight across the silver and a gentle shadow to the lower right. Editorial, museum-quality, restrained luxury aesthetic with cool neutral tones — no warm golden cast. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact .925 sterling silver finish and the exact blue-green chrysocolla stone color (mottled turquoise-and-teal with natural matrix veining) as shown in the reference image — strictly NO gold, brass, yellow, copper, rose-gold, or warm metallic tones on the metal, and strictly NO color shift on the chrysocolla to solid blue, solid green, lapis, or turquoise — preserve the natural mottled chrysocolla pattern exactly. STRUCTURE — preserve the exact construction of the bundle: same number of pieces, same number of chrysocolla stones, same stone shapes and sizes, same bezel/setting style, same chain link pattern, same clasp type, and the same arrangement as shown in the reference. Do NOT add or remove stones, do NOT add or remove pieces from the bundle, do NOT change the setting style, do NOT swap the chain pattern, do NOT alter clasp hardware, do NOT introduce additional charms or pendants. Render the product's metal, color, finish, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "visual_direction": "Tight overhead macro of the Ocean's Of Grace bundle laid on weathered Balinese stone with morning daylight, breathing room top and bottom for ad copy.",
+    "fills_gap": "Across the live set, almost every ad leads with the offer ('BOGO', '45% off', 'Free Gift') and treats the stone as background. Nothing currently running leads with the gemstone story or the artisan provenance — which is the only angle a 5,000-review brand can defend against drop-shipped competitors at 35× the volume.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a tight overhead macro composition resting on a weathered Balinese volcanic stone slab with small water droplets and a single fern frond at the edge, with soft directional morning daylight from the upper left creating gentle highlights on the silver and bringing out the blue-green swirl of the chrysocolla. Editorial commerce aesthetic, muted earth-tone palette, shallow depth of field, generous negative space. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the .925 sterling silver / handcrafted oxidized silver finish exactly as shown and the natural blue-green chrysocolla gemstone color and matrix patterning exactly as shown — strictly NO gold, brass, yellow, copper, rose-gold, or warm metallic tones, NO color shift on the chrysocolla toward pure blue or pure green or turquoise. STRUCTURE — preserve the exact construction of the Ocean's Of Grace In Chrysocolla bundle: same number of pieces in the bundle, same number and shape of chrysocolla stones in each setting, identical silver bezel and prong work, identical chain link pattern and clasp type, identical band/cuff thickness and any granulation or filigree detail as shown in the reference. Do NOT add or remove pieces from the bundle, do NOT add or remove stones, do NOT change setting style from bezel to prong or vice versa, do NOT swap chain link patterns, do NOT alter clasp type, do NOT modify band thickness or filigree work. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "Ocean's of Grace In Chrysocolla Bundle",
     "reference_url": "https://sarda.com/products/oceans-of-grace-in-chrysocolla-bundle-1",
     "image_path": "/creatives/sarda/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Most of your hero set crosses the warn line within 3 days.",
-    "headline": "Want us to map the full rotation plan?",
-    "body": "Your concept count is genuinely strong — the issue is delivery overlap from duplicated body copy across 40+ ads. Book 30 minutes and we'll walk you through the consolidation map and the next 4 hero concepts in your voice.",
+    "urgency": "Seven ads die within 9 days at current pace — refresh window is now.",
+    "headline": "Walk the deck with Kyle",
+    "body": "We'll go through the BOGO and 'Luxury You Deserve' clusters live and map a 14-day concept refresh plan tuned to whale-tier Andromeda retrieval. Includes the three highest-leverage angles your set is currently missing — gemstone story, founder/Janyl provenance, and a 5,000-review social-proof hero.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Patterns drawn from your 185 currently-running Meta ads via the public Ad Library; no private metrics were used or implied.",
+  "method_note": "We went through every live ad in your Meta Ad Library and scored fatigue on format, hook, headline, CTA, landing destination, and launch-cluster signals — no account access required, so private metrics like CPM and ROAS are intentionally absent.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
