@@ -3,86 +3,86 @@
   "brand_slug": "zii-ropa",
   "first_name": "Caroline",
   "website": "https://ziiropa.com",
-  "generated_date": "May 1, 2026",
+  "generated_date": "May 3, 2026",
   "read_time_min": 3,
   "total_ads": 5,
-  "niche": "sustainable fashion",
-  "tldr": "Three of your five live ads are running the identical 'Shop New Arrivals / ZII ROPA SS26' lockup pointing to the same New Women collection — that's a frequency bomb that'll spike CPMs inside 7-10 days. The two event ads (Roma Norte flagship, Williamsburg pop-up) are doing different work but neither is carrying the craft story that's actually your moat.",
+  "niche": "slow fashion",
+  "tldr": "Three of your five live ads run the identical 'Shop New Arrivals / ZII ROPA SS26' lockup pointed at the same New Women collection page — that's a hook-recycling pattern Andromeda will cluster as a single creative. The bigger structural issue: you're running 3 distinct concepts across 5 ads, which sits below Meta's 5-concept retrieval floor and is the single biggest lever on this account right now.",
   "benchmark": {
-    "your_value_days": 9,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "Sustainable fashion brands in your tier typically rotate 6-8 distinct creative angles at once. You're effectively running two: 'new arrivals' (3x) and 'come visit us' (2x). The Japanese fabrics + Made in Mexico City line only appears once across all five ads — that's the story competitors can't copy."
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're refreshing roughly every 28 days; the typical slow-fashion brand refreshes every ~21 days and the top quartile every ~14. More urgent than cadence: with only 3 distinct concepts in market, you're under Meta's Andromeda 5-concept retrieval floor — meaning the algorithm is treating most of your active set as one creative, which compresses reach regardless of how often you ship new variants."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 1,
+      "source_index": 2,
       "headline": "Shop New Arrivals",
       "body": "ZII ROPA SS26",
       "cta": "Shop now",
-      "fatigue_score": 91,
+      "fatigue_score": 88,
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "Body copy is just two words — 'ZII ROPA SS26' — which gives the algorithm nothing to optimize against and tells your buyer nothing about why to click",
-        "Identical headline + body + CTA + landing URL as two other live ads, so Meta is bidding against itself in the same auction",
-        "No mention of fabric, craft, or what 'SS26' actually contains — the conscious-consumer hook is missing entirely"
+        "This exact 'Shop New Arrivals' headline + 'ZII ROPA SS26' body combo runs verbatim on two other live ads pointed at the same New Women landing page — Andromeda clusters semantically identical creatives and serves only the strongest, so the other two are likely getting suppressed delivery.",
+        "Body is just three words ('ZII ROPA SS26') with no benefit, no fabric story, no craft proof — for a brand whose entire positioning is curated Japanese fabrics and intentional construction, this leaves the differentiator completely off the page.",
+        "11 days in with zero copy variation and a duplicated cluster — at your refresh cadence this lands inside the danger band fast."
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 3,
+      "source_index": 4,
       "headline": "Shop New Arrivals",
-      "body": "ZII ROPA SS26  Japanese fabrics. Made in Mexico City.",
+      "body": "ZII ROPA SS26",
       "cta": "Shop now",
-      "fatigue_score": 76,
-      "days_until_fatigue": 16,
-      "severity": "warn",
+      "fatigue_score": 86,
+      "days_until_fatigue": 8,
+      "severity": "danger",
       "drivers": [
-        "This is the strongest of the three 'New Arrivals' variants because it actually names the craft story — but it's drowning because the other two duplicates are eating its impressions",
-        "Same headline and CTA as two sibling ads, so creative differentiation lives entirely in the body — fragile",
-        "The 'Japanese fabrics. Made in Mexico City.' line deserves to be the headline, not buried after a SKU code"
+        "Identical twin to the other 'Shop New Arrivals / SS26' static — same headline, same body, same CTA, same landing URL. From Meta's retrieval perspective these are one ad split across two delivery lanes, which is the textbook 100-variants-of-one-concept trap.",
+        "Generic e-com headline with no specificity — 'Shop New Arrivals' could belong to any apparel brand on Shopify. Your IG bio and product pages lead with 'Japanese fabrics, made in Mexico City' and that hook is nowhere in the active set except on one of the three triplets.",
+        "No video, no UGC, no founder voice — this is the third static in a single-format lane, which compounds the cluster problem."
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 2,
-      "headline": "",
-      "body": "Williamsburg, this week only ZII ROPA + ODISSEA pop-up 135 Wythe Ave April 30 – May 4 11–7PM",
-      "cta": "See Details",
-      "fatigue_score": 68,
-      "days_until_fatigue": 18,
+      "source_index": 0,
+      "headline": "Join us at our flagship store located at Tabasco 61, Roma Norte, CDMX",
+      "body": "{{product.brand}}",
+      "cta": "Learn More",
+      "fatigue_score": 82,
+      "days_until_fatigue": 5,
       "severity": "warn",
       "drivers": [
-        "No headline on this ad — the body is doing all the work, and Meta typically truncates after ~125 characters in feed, so 'April 30 – May 4 11–7PM' may not even render",
-        "Pop-up ends May 4 — this ad has 4 days of useful life left and then becomes a wasted impression generator unless someone pauses it manually",
-        "Landing URL is a share.google redirect, which Meta's quality score penalizes and conscious-consumer buyers don't trust"
+        "Body copy is rendering as a literal template token — the merge field never resolved, so the ad is shipping a placeholder where the brand name should be. That's a credibility hit anyone scrolling past will register as 'broken ad', and Meta's quality signals downrank it.",
+        "117 days running unchanged. That's more than 4× your 28-day refresh window and more than 8× the top-quartile 14-day window. A flagship-store ad pointed at a specific physical address has a useful life of maybe 30–45 days before the same locals have all seen it.",
+        "Headline is the full street address with no hook — no opening event, no in-store exclusive, no reason to come in beyond 'we exist at this address.'"
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "Japanese Fabric, Mexico City Hands",
+    "concept_name": "Fabric-First Founder Frame",
     "format": "Static image",
-    "hook": "Cut once. Worn for a decade.",
-    "headline": "The LAURENT Pant",
-    "primary_text": "Caroline sources the linen from a third-generation mill outside Kyoto. Then it travels to a small atelier in Roma Norte, where four people cut and stitch every LAURENT pant by hand.\n\nThat's why the drape sits the way it does — and why the seams will still be square after a hundred wears. Limited run. When this linen is gone, it's gone.\n\nShop SS26 at ziiropa.com.",
+    "hook": "Most pants are made in a week. These took six months.",
+    "headline": "Japanese cloth, Mexico City hands",
+    "primary_text": "Caroline sources the cloth before she designs the garment. The Laurent Pant started with a roll of Japanese mid-weight cotton-linen — chosen for the way it falls, the way it holds a press, the way it earns its second decade.\n\nCut and finished by a small atelier in Mexico City. Wide-leg, mid-rise, made to outlast the season it was named for.\n\nLimited run. New arrivals from SS26 — shop the Laurent and the rest of the collection.",
     "cta": "Shop Now",
-    "visual_direction": "The LAURENT pant laid on a jute mat with a single hand-thrown stoneware mug, warm late-afternoon Mexico City daylight raking across the fabric to reveal the mini-check weave.",
-    "fills_gap": "Three of your five live ads are running the same 'Shop New Arrivals / SS26' lockup with no story attached — the craft narrative (Japanese fabrics, Made in Mexico City) only appears as a buried tag on one variant. This concept makes that craft story the entire ad and gives a single hero SKU to anchor it.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the wide-leg dusty lavender mini-check pant from the reference image, styled in a quiet Roma Norte Mexico City atelier setting with the pant laid flat against a soft jute mat and a single hand-thrown stoneware mug off-center, with warm late-afternoon Mexico City daylight raking across the fabric to reveal the woven mini-check pattern and the natural drape of the leg. Muted earthy palette of bone, sand, soft terracotta, and dusty lavender that signals slow-fashion craft and longevity. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact dusty lavender / muted purple-grey mini-check pattern, the same fine woven cotton-linen fabric, the same full-length wide-leg silhouette (loose hip to ankle, no taper), the same waistband construction. Render the check pattern at the same scale and proportions as the reference — the mini-check must be clearly visible, not smoothed into a solid. Do NOT change the lavender color (no flat grey, no blue shift, no taupe shift), do NOT alter the check pattern scale or replace with stripes/plaid/solids, do NOT change pant silhouette to slim, tapered, straight, or cropped, do NOT add or remove pleats, darts, or pockets. Premium commerce photography quality. NEGATIVE: no overlay text, no overlay logos, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no recoloring of fabric, no pattern modifications, no silhouette alterations, no added accessories like belts or shoes alongside.",
+    "visual_direction": "Editorial flat-lay or hung-on-wall shot of the Laurent Pant against raw plaster or natural linen backdrop, with a folded swatch of the source Japanese fabric and a brass tailor's pin alongside — quiet, considered, no model.",
+    "fills_gap": "Three of your five live ads run the same generic 'Shop New Arrivals / SS26' lockup — none of them carry the actual reason someone buys Zii Ropa over Aritzia or COS, which is the fabric story and the maker story. This concept lifts your strongest line ('Japanese fabrics. Made in Mexico City.') out of body copy and builds a full creative around it, giving Andromeda a genuinely distinct concept lane to retrieve against.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet still-life composition against a raw plaster or natural undyed linen backdrop with a small folded swatch of Japanese cotton-linen fabric and a single brass tailor's pin placed alongside, with soft diffused north-window daylight casting gentle shadow gradients across the surface. Considered, intentional, slow-fashion editorial mood reminiscent of Toogood or Lemaire campaign imagery — restrained, tonal, no clutter. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact natural off-white / ecru / undyed cotton-linen colorway and visible woven texture of the LAURENT Pant fabric exactly as shown in the reference — strictly NO color shift to grey, beige, taupe, cream-yellow, or warm-tone bias, NO smoothing of the visible weave, NO substitution to a flat solid material. STRUCTURE — preserve the exact construction of the LAURENT Pant: full-length wide-leg silhouette (loose hip to ankle, no taper), mid-rise flat waistband, any visible front pleats, belt loops, side pockets, and fly closure exactly as they appear in the reference. Do NOT change to slim/tapered/cropped/flared, do NOT add or remove pleats, darts, pockets, or belt loops, do NOT alter the waistband height or closure style, do NOT add cuffs or hem detailing not present in reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "LAURENT Pant",
     "reference_url": "https://ziiropa.com/products/laurent-pant-arles-mini-check-purple",
     "image_path": "/creatives/zii-ropa/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Three duplicate ads hit hard fatigue inside 7-9 days.",
-    "headline": "15 minutes to map your SS26 rotation",
-    "body": "I'll walk you through which of the three 'New Arrivals' duplicates to kill today and how to rebuild around the Japanese-fabric story. We can also queue a replacement for the Williamsburg pop-up before May 4.",
+    "urgency": "Two ads hit the danger band inside 8 days; the flagship-store ad is shipping a broken merge token right now.",
+    "headline": "Want me to walk you through the fix?",
+    "body": "I'll show you the three concept lanes I'd build out to clear the Andromeda 5-concept floor, plus how to cut the duplicate SS26 statics without losing the working hook. 30 minutes, no pitch deck.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Signals scored from publicly visible Meta Ad Library creative — frequency and CPM modeled, not measured from your ad account.",
+  "method_note": "Walked through every currently-running ad in your Meta Ad Library; fatigue scoring is heuristic and based on public signals only (days running, copy duplication, format mix, concept count) — no account-side data was used.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
