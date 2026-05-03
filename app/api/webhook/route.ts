@@ -1,5 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
+import { scoreAds, inferBrandSize, type ScoringAd, type ScoringResult } from "@/lib/fatigue";
+import { getBenchmark, classifyNiche, q4InflationMultiplier, type NicheKey } from "@/lib/benchmarks";
+import { buildKbBlock } from "@/lib/kb";
+import { fetchInstagramFollowerCount } from "@/lib/instagram";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -48,6 +52,7 @@ type NormalizedAd = {
   image_url: string | null;
   ad_archive_id: string;
   start_date: number | null;
+  creative_type: "image" | "video" | "carousel" | "unknown";
 };
 
 // Test fallback: hardcoded website lookup by slug while Smartlead payload is
@@ -123,6 +128,17 @@ function normalizeAd(ad: ApifyAd, idx: number): NormalizedAd {
     card?.video_preview_image_url ||
     null;
 
+  // Derive creative_type from the snapshot shape:
+  //   - cards array with >1 entries → carousel
+  //   - any video metadata → video
+  //   - otherwise image (or unknown if neither)
+  const cardsCount = snap.cards?.length ?? 0;
+  const hasVideo = (snap.videos?.length ?? 0) > 0 || !!card?.video_preview_image_url;
+  let creative_type: NormalizedAd["creative_type"] = "unknown";
+  if (cardsCount > 1) creative_type = "carousel";
+  else if (hasVideo) creative_type = "video";
+  else if (image_url) creative_type = "image";
+
   return {
     index: idx,
     headline,
@@ -132,6 +148,7 @@ function normalizeAd(ad: ApifyAd, idx: number): NormalizedAd {
     image_url,
     ad_archive_id: ad.ad_archive_id ?? "",
     start_date: ad.start_date ?? null,
+    creative_type,
   };
 }
 
@@ -388,13 +405,40 @@ function buildPrompt(
   slug: string,
   allAds: NormalizedAd[],
   heroProductTitle: string | null,
+  scoring: ScoringResult,
+  nicheKey: NicheKey,
 ) {
+  const benchmark = getBenchmark(nicheKey);
+  const q4 = q4InflationMultiplier();
+  const scoreByIndex = new Map(scoring.perAd.map((s) => [s.ad_index, s]));
+
   const adsText = allAds
-    .map(
-      (a) =>
-        `[INDEX:${a.index}] [IMG:${a.image_url ? "yes" : "no"}]\nHeadline: ${a.headline}\nBody: ${a.body}\nCTA: ${a.cta}\nLanding: ${a.landing_url}`,
-    )
+    .map((a) => {
+      const s = scoreByIndex.get(a.index);
+      const stats = s
+        ? `\nDays running: ${s.days_running} | fatigue_score: ${s.fatigue_score} | days_until_fatigue: ${s.days_until_fatigue} | severity: ${s.severity}`
+        : "";
+      return `[INDEX:${a.index}] [IMG:${a.image_url ? "yes" : "no"}] [FORMAT:${a.creative_type}]\nHeadline: ${a.headline}\nBody: ${a.body}\nCTA: ${a.cta}\nLanding: ${a.landing_url}${stats}`;
+    })
     .join("\n---\n");
+
+  const r = scoring.rollup;
+  const factsBlock = `══════ DETERMINISTIC FACTS — quote verbatim, do NOT invent or alter ══════
+Brand size (inferred): ${r.brand_size} (stale-hero threshold: ${r.brand_size_threshold_days} days)
+Account fatigue score: ${r.account_fatigue_score} / 100
+Active concept count: ${r.S2_concept_count} ${r.hero_concept_call_out_required ? "(BELOW Andromeda 5-concept floor — MANDATORY call-out)" : "(at or above Andromeda floor)"}
+Format mix: image=${r.format_mix.image}, video=${r.format_mix.video}, carousel=${r.format_mix.carousel}
+Refresh cadence: ${r.cadence_label}
+
+Niche: ${nicheKey}
+Per-niche CPM band: $${benchmark.cpm_low}–$${benchmark.cpm_high} (industry benchmark — context only, not their actual CPM)
+E-com median CPM: $${benchmark.ecom_cpm_median}
+E-com median ROAS: ${benchmark.ecom_roas_median}× | Advantage+ Sales: ${benchmark.ecom_roas_advantage_plus}× | Retargeting: ${benchmark.ecom_roas_retargeting}×
+Andromeda concept-count buckets: ≤2 critical, 3–4 poor, 5–7 acceptable, 8–12 good, 13+ excellent
+Q4 timing: ${q4.label}${q4.in_q4 ? " — flag stale-hero entering expensive impressions" : ""}
+
+Per-ad scores are pre-computed above each ad's [INDEX:N] block. Use these numbers EXACTLY in the JSON output. Do NOT recompute, do NOT round, do NOT invent.
+══════════════════════════════════════════════════════════════════════════════`;
 
   const today = new Date().toLocaleDateString("en-US", {
     month: "long",
@@ -422,17 +466,21 @@ Today's date: ${today}
 Total ads scraped (use ALL for pattern analysis): ${totalUsable}
 Ads with images available: ${adsWithImages}${heroProductLine}
 
-ALL LIVE ADS (analyze every one to detect patterns — duplicates, hook recycling, format gaps):
+${factsBlock}
+
+ALL LIVE ADS (each ad is annotated with its pre-computed scores — quote those numbers verbatim in the JSON):
 ${adsText}
 
 YOUR TASK
 =========
-1. Analyze ALL ${totalUsable} ads above for fatigue signals across everything they're running.
-2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d.
-3. Pick the ${candidateK} most fatigued ads THAT HAVE IMAGES (IMG:yes), ranked by fatigue_score descending. Output as full ad cards in "ads", numbered 1..${candidateK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above. (We'll display only the top 5 — extras serve as backups when image downloads fail.)
-4. Pick ${compactK} additional representative ads (with or without images) from the remaining set. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
-5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} of their live ads.
-6. Generate an image_prompt for the hero concept's mockup ad image. This will be passed to an image generation model (Nano Banana 2) along with a reference photo of the brand's hero product. Follow the prompt template strictly.
+1. DO NOT recompute fatigue scores or days_until_fatigue. Each ad's numbers are pre-computed in the [INDEX:N] block above; copy them verbatim into the JSON.
+2. Pick the ${candidateK} most fatigued ads THAT HAVE IMAGES (IMG:yes), ranked by the pre-computed fatigue_score descending. Output as full ad cards in "ads", numbered 1..${candidateK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above. (We'll display only the top 5 — extras serve as backups when image downloads fail.)
+3. Pick ${compactK} additional representative ads (with or without images) from the remaining set. Output them in "ads_compact". For each, copy the pre-computed fatigue_score and days_until_fatigue verbatim. If ${compactK} is 0, return an empty array.
+4. For "benchmark": set your_value_days to the account-level stale-hero threshold (${r.brand_size_threshold_days}). Set category_median_days to the brand-size-mid threshold (21). Set top_quartile_days to the brand-size-large threshold (14). Write the context line referencing the brand_size, the concept count, and (if applicable) the Andromeda call-out — do NOT invent CPM/CTR/ROAS numbers about THIS brand.
+5. Write ONE hero replacement concept (the strongest creative direction you'd ship right now). fills_gap MUST reference the deterministic patterns above (e.g., "you're at ${r.S2_concept_count} concepts, below the Andromeda 5-concept floor"). DO NOT cite any number that doesn't appear in the FACTS block or per-ad annotations.
+6. Generate an image_prompt for the hero mockup. Follow the IMAGE PROMPT TEMPLATE below strictly.
+
+For each ad's "drivers" field: write 3 short bullets explaining WHY this ad's score landed where it did, citing the pre-computed numbers (e.g., "running ${r.brand_size_threshold_days}+ days past brand-size-${r.brand_size} threshold", "shares hook with N other ads in your set"). Do NOT invent counts — use group sizes implied by the per-ad sub-scores or rely on what you can VERIFY in the ad list above.
 
 IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, and {STRUCTURE_LOCK} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
 
@@ -472,12 +520,12 @@ Return a single valid JSON object matching this EXACT schema:
   "read_time_min": 3,
   "total_ads": ${totalUsable},
   "niche": "ONE plain-English noun the brand's customers would use to describe what they sell — lowercase, 1-3 words, used in a sentence as 'other ___ brands'. Examples: 'jewelry', 'streetwear', 'outerwear', 'luxury womenswear', 'modest fashion', 'sustainable fashion', 'skincare', 'home fragrance'. Avoid jargon ('DTC', 'D2C', 'ecom', 'fashion ecom') and avoid the brand's own name.",
-  "tldr": "2-sentence executive summary mentioning fatigue counts and CPM impact timeframe.",
+  "tldr": "2-sentence executive summary citing the pre-computed account_fatigue_score (${r.account_fatigue_score}/100), the concept count (${r.S2_concept_count}), and ${q4.in_q4 ? "the Q4 timing" : "the cadence label"}. Do NOT invent CPM/CTR/ROAS figures about THIS brand.",
   "benchmark": {
-    "your_value_days": 12,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "1-2 sentences comparing this brand to category averages, grounded in patterns from all ${totalUsable} ads."
+    "your_value_days": ${r.brand_size_threshold_days},
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "1-2 sentences. Reference the brand_size (${r.brand_size}), the concept count vs Andromeda floor, and — if applicable — Q4 inflation framing. Industry CPM context: per-niche band $${benchmark.cpm_low}–$${benchmark.cpm_high} (only mention if useful)."
   },
   "ads": [
     {
@@ -547,13 +595,134 @@ Output ONLY the JSON object. No markdown fences. No prose before or after.`;
   return userMessage;
 }
 
-const SYSTEM_PROMPT = `You are an ad creative strategist generating a Fatigue Forecast deliverable for OmniRocket (a Meta ads agency for ecommerce fashion brands). You score live Meta ads on creative fatigue signals, predict days-until-fatigue, identify the 1 ad to scale and the 1 to kill, and write ONE hero replacement creative concept (with a mockup image prompt) in the brand's voice. TONE: peer operator. Specific, not generic. Quote actual ad copy from the live ads provided. NEVER use the words 'audit', 'review', or 'analysis'. OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.`;
+function buildSystemPrompt(nicheKey: NicheKey): string {
+  return `You are an ad creative strategist generating a Fatigue Forecast deliverable for OmniRocket (a Meta ads agency for ecommerce fashion brands). You identify the ads to scale and to kill, and write ONE hero replacement creative concept (with a mockup image prompt) in the brand's voice.
+
+CRITICAL — DETERMINISM RULE:
+The user message contains a "DETERMINISTIC FACTS" block and per-ad pre-computed scores (fatigue_score, days_until_fatigue, severity, days_running). These numbers are computed by deterministic code, not by you. Your job is to NARRATE them, not invent them. NEVER output a number that doesn't appear in the FACTS block or per-ad annotations. NEVER recompute. NEVER round.
+
+TONE: peer operator. Specific, not generic. Quote actual ad copy verbatim from the live ads provided.
+NEVER use the words 'audit', 'review', or 'analysis' — use 'walked through', 'looked at', 'went through', 'mapped'.
+OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.
+
+The following knowledge base is your source of truth for Meta ad policy, anti-patterns, and 2025–2026 platform reality. Apply it when writing findings, drivers, and the hero concept. Cite Andromeda by name when concept count is below floor.
+${buildKbBlock(nicheKey)}`;
+}
 
 function extractJson(raw: string): unknown {
   const start = raw.indexOf("{");
   const end = raw.lastIndexOf("}");
   if (start === -1 || end === -1) throw new Error("No JSON object in Claude response");
   return JSON.parse(raw.slice(start, end + 1));
+}
+
+type ForecastJson = {
+  ads: Array<{
+    ad_number: number;
+    source_index?: number;
+    fatigue_score?: number;
+    days_until_fatigue?: number;
+    severity?: string;
+  }>;
+  ads_compact?: Array<{ fatigue_score?: number; days_until_fatigue?: number }>;
+  benchmark?: { your_value_days?: number; category_median_days?: number; top_quartile_days?: number };
+  hero_concept?: {
+    image_prompt?: string;
+    image_path?: string | null;
+    reference_title?: string | null;
+    reference_url?: string | null;
+  };
+};
+
+// Diff Claude's per-ad numbers + benchmark.your_value_days against deterministic
+// truth. Returns mismatch descriptions; does NOT mutate.
+function findMismatches(json: ForecastJson, scoring: ScoringResult): string[] {
+  const out: string[] = [];
+  const scoreByIndex = new Map(scoring.perAd.map((s) => [s.ad_index, s]));
+  for (const ad of json.ads ?? []) {
+    if (typeof ad.source_index !== "number") continue;
+    const truth = scoreByIndex.get(ad.source_index);
+    if (!truth) continue;
+    if (ad.fatigue_score !== truth.fatigue_score) {
+      out.push(`ad ${ad.source_index} fatigue_score: claude=${ad.fatigue_score} truth=${truth.fatigue_score}`);
+    }
+    if (ad.days_until_fatigue !== truth.days_until_fatigue) {
+      out.push(`ad ${ad.source_index} days_until_fatigue: claude=${ad.days_until_fatigue} truth=${truth.days_until_fatigue}`);
+    }
+    if (ad.severity !== truth.severity) {
+      out.push(`ad ${ad.source_index} severity: claude=${ad.severity} truth=${truth.severity}`);
+    }
+  }
+  if (json.benchmark) {
+    const expected = scoring.rollup.brand_size_threshold_days;
+    if (json.benchmark.your_value_days !== expected) {
+      out.push(`benchmark.your_value_days: claude=${json.benchmark.your_value_days} truth=${expected}`);
+    }
+  }
+  return out;
+}
+
+// Apply deterministic truth to the JSON in place. Last resort after retry.
+function applyOverwrite(json: ForecastJson, scoring: ScoringResult): void {
+  const scoreByIndex = new Map(scoring.perAd.map((s) => [s.ad_index, s]));
+  for (const ad of json.ads ?? []) {
+    if (typeof ad.source_index !== "number") continue;
+    const truth = scoreByIndex.get(ad.source_index);
+    if (!truth) continue;
+    ad.fatigue_score = truth.fatigue_score;
+    ad.days_until_fatigue = truth.days_until_fatigue;
+    ad.severity = truth.severity;
+  }
+  if (json.benchmark) {
+    json.benchmark.your_value_days = scoring.rollup.brand_size_threshold_days;
+  }
+}
+
+async function callClaude(
+  anthropic: Anthropic,
+  system: string,
+  user: string,
+): Promise<ForecastJson> {
+  const res = await anthropic.messages.create({
+    model: "claude-opus-4-7",
+    max_tokens: 8192,
+    temperature: 0.3,
+    system,
+    messages: [{ role: "user", content: user }],
+  });
+  const block = res.content.find((b) => b.type === "text");
+  if (!block || block.type !== "text") throw new Error("Claude returned no text content");
+  return extractJson(block.text) as ForecastJson;
+}
+
+async function runClaudeWithValidation(
+  anthropic: Anthropic,
+  systemPrompt: string,
+  userMessage: string,
+  scoring: ScoringResult,
+): Promise<{ forecastJson: ForecastJson; mismatchesAfterRetry: string[]; retried: boolean }> {
+  const first = await callClaude(anthropic, systemPrompt, userMessage);
+  const firstMismatches = findMismatches(first, scoring);
+  if (firstMismatches.length === 0) {
+    return { forecastJson: first, mismatchesAfterRetry: [], retried: false };
+  }
+
+  // Retry once with a corrective addendum. We DO NOT change the numbers in the
+  // user message — Claude already has the truth, it just failed to copy it.
+  const correction = `\n\nYOUR PREVIOUS OUTPUT HAD ${firstMismatches.length} NUMBER MISMATCHES against the deterministic FACTS block. Specifically:\n${firstMismatches
+    .slice(0, 20)
+    .map((m) => `  - ${m}`)
+    .join("\n")}\n\nRegenerate the FULL JSON now. Copy the truth values verbatim into the JSON. Make sure the surrounding prose (drivers, tldr, fills_gap, benchmark.context) is consistent with the corrected numbers.`;
+  const retried = await callClaude(anthropic, systemPrompt + correction, userMessage);
+  const retriedMismatches = findMismatches(retried, scoring);
+  if (retriedMismatches.length === 0) {
+    return { forecastJson: retried, mismatchesAfterRetry: [], retried: true };
+  }
+
+  // Retry still wrong — overwrite the numbers and ship. Prose may drift from
+  // the corrected values; the Slack alert flags this for human review.
+  applyOverwrite(retried, scoring);
+  return { forecastJson: retried, mismatchesAfterRetry: retriedMismatches, retried: true };
 }
 
 export async function POST(req: NextRequest) {
@@ -609,29 +778,79 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true, status: "no_usable_ads" });
     }
 
-    // 3. Claude analyzes ALL ads, picks top K + writes ONE hero concept with image_prompt
-    const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
-    const userMessage = buildPrompt(payload, slug, normalized, heroProduct?.title ?? null);
-    const claudeRes = await anthropic.messages.create({
-      model: "claude-opus-4-7",
-      max_tokens: 8192,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: "user", content: userMessage }],
+    // 2.5 Pre-classify niche (for KB injection) from operator-provided fields.
+    // Claude still writes the user-facing `niche` string in the JSON output.
+    const nicheKey = classifyNiche(
+      `${payload.category ?? ""} ${payload.company_overview_summary ?? ""}`,
+    );
+
+    // 2.6 Brand-size proxy: try IG followers, soft-fallback to ad count + countries.
+    const igFollowers = websiteUrl
+      ? await fetchInstagramFollowerCount({ website_url: websiteUrl })
+      : null;
+    const countriesCount = new Set(
+      apifyAds.flatMap((a) => {
+        const sd = (a as { reached_countries?: string[] }).reached_countries;
+        return Array.isArray(sd) ? sd : [];
+      }),
+    ).size;
+    const brandSize = inferBrandSize({
+      ig_follower_count: igFollowers,
+      total_active_ads: normalized.length,
+      countries_count: countriesCount || 1,
     });
 
-    const textBlock = claudeRes.content.find((b) => b.type === "text");
-    if (!textBlock || textBlock.type !== "text") {
-      throw new Error("Claude returned no text content");
+    // 2.7 Deterministic scoring — replaces the Claude-side math.
+    const scoringInput: ScoringAd[] = normalized.map((a) => ({
+      index: a.index,
+      headline: a.headline,
+      body: a.body,
+      cta: a.cta,
+      landing_url: a.landing_url,
+      start_date: a.start_date,
+      creative_type: a.creative_type,
+    }));
+    const scoring = scoreAds(scoringInput, {
+      brand_size: brandSize,
+      total_active_ads: normalized.length,
+      countries_count: countriesCount || 1,
+      ig_follower_count: igFollowers,
+    });
+
+    // 3. Claude narrates the deterministic facts + writes ONE hero concept.
+    // Validate output against scoring; on mismatch, retry ONCE with corrective
+    // addendum so prose stays coherent with corrected numbers. Final fallback
+    // is overwrite-and-ship with Slack alert.
+    const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
+    const userMessage = buildPrompt(
+      payload,
+      slug,
+      normalized,
+      heroProduct?.title ?? null,
+      scoring,
+      nicheKey,
+    );
+    const systemPrompt = buildSystemPrompt(nicheKey);
+
+    const { forecastJson, mismatchesAfterRetry, retried } = await runClaudeWithValidation(
+      anthropic,
+      systemPrompt,
+      userMessage,
+      scoring,
+    );
+
+    if (retried) {
+      const detail =
+        mismatchesAfterRetry.length === 0
+          ? "✅ retry produced clean numbers"
+          : `❌ retry still had ${mismatchesAfterRetry.length} mismatches — overwritten and shipped`;
+      await postSlack(
+        `⚠️ *Number-validator triggered retry* for ${tag}\n${detail}` +
+          (mismatchesAfterRetry.length > 0
+            ? "\n```" + mismatchesAfterRetry.slice(0, 8).join("\n") + (mismatchesAfterRetry.length > 8 ? `\n…(+${mismatchesAfterRetry.length - 8} more)` : "") + "```"
+            : ""),
+      );
     }
-    const forecastJson = extractJson(textBlock.text) as {
-      ads: Array<{ ad_number: number; source_index?: number; fatigue_score?: number }>;
-      hero_concept?: {
-        image_prompt?: string;
-        image_path?: string | null;
-        reference_title?: string | null;
-        reference_url?: string | null;
-      };
-    };
 
     // 4. Try to upload images for ALL of Claude's candidates (up to 7).
     // Keep only the top 5 by fatigue_score that succeeded, then renumber 1..5.
