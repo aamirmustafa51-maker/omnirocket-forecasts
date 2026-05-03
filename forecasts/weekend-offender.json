@@ -3,91 +3,91 @@
   "brand_slug": "weekend-offender",
   "first_name": "Matt",
   "website": "https://weekendoffender.com",
-  "generated_date": "May 1, 2026",
+  "generated_date": "May 3, 2026",
   "read_time_min": 3,
-  "total_ads": 66,
+  "total_ads": 73,
   "niche": "streetwear",
-  "tldr": "Matt — 66 live ads, but roughly 70% are translation clones of about 10 underlying creatives. The Leo Gregory tee block and the 'Out with the old. In with the new.' new-drop set are stacking frequency fast and will start dragging CPMs inside 7-12 days.",
+  "tldr": "You're shipping fresh creative consistently and running 13 distinct concepts — that's healthy and clears Andromeda's diversity floor. The bigger issue is that a cluster of your Leo Gregory tee carousels and the 'Out with the old. In with the new.' new-drop posts have been live 60–90 days with identical body copy across languages, and they're now in the danger band while your spring '26 SS26 launches are doing the heavy lifting.",
   "benchmark": {
-    "your_value_days": 12,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "Streetwear brands at your scale typically refresh hero creative every 3 weeks. You're effectively running ~10 unique concepts dressed up as 66 ads through EN/FR/DE/IT splits, which is why your fatigue clock is twice as fast as the category median."
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Streetwear brands at your scale should be cycling hero creative every ~14 days, with the highest-volume accounts pushing closer to 10. You're in good company on refresh cadence — the problem is a tail of evergreen carousels from Q1 that nobody retired when SS26 shipped."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 2,
-      "headline": "default_collection_headline",
+      "source_index": 0,
+      "headline": "Leo Gregory Graphic T-Shirt White - XXXL / White",
       "body": "Weekend Offender: Fresh tones and statement graphics designed with sharp focus on functionality and detail.",
       "cta": "Shop Now",
       "fatigue_score": 92,
-      "days_until_fatigue": 6,
+      "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "Headline reads 'default_collection_headline' — that's a placeholder string that shipped live, so the ad is running with no real headline at all and the body is carrying the whole click.",
-        "Body copy is duplicated verbatim across five of your Leo Gregory variants in EN/DE/IT/FR — Meta's algo is treating these as one creative for frequency.",
-        "Generic catalog feed landing with no product hero in the hook — CTR will keep sliding as the audience saturates."
+        "Live for 90 days — six full refresh cycles past your 14-day window for a hero SKU",
+        "The exact same body copy ('Fresh tones and statement graphics...') runs verbatim on at least eight other Leo Gregory tee variants in English, French, German and Italian — Andromeda is treating these as one cluster",
+        "The headline is just the SKU + size + colour, which reads as a feed entry, not an ad — no hook, no benefit, no reason to stop scrolling"
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 10,
-      "headline": "default_collection_headline",
-      "body": "Weekend Offender: Fresh tones and statement graphics designed with sharp focus on functionality and detail.",
-      "cta": "Shop Now",
+      "source_index": 6,
+      "headline": "Weekend Offender",
+      "body": "Out with the old. In with the new. Weekend Offender's new drop is here.",
+      "cta": "Learn More",
       "fatigue_score": 90,
-      "days_until_fatigue": 6,
+      "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "Another 'default_collection_headline' placeholder live in-feed — second ad shipping with the literal template variable instead of a headline.",
-        "Same body string as the English Leo Gregory block, pointing at the same navy tee SKU — it's cannibalizing its own siblings.",
-        "No hook differentiation: identical copy + identical destination + identical CTA across the cluster."
+        "Live for 90 days promoting a 'new drop' that is no longer new — the spring '26 collection has since launched in parallel, undercutting the claim",
+        "The same 'Out with the old. In with the new.' line is recycled across UK, German and French versions still running side-by-side",
+        "Headline field is just the brand name doing nothing — pair that with a generic body and there's zero specificity to anchor against the SS26 work"
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 28,
-      "headline": "default_collection_headline",
-      "body": "Weekend Offender: Frische Töne und markante Grafiken, entwickelt mit klarem Fokus auf Funktionalität und Details.",
+      "source_index": 3,
+      "headline": "Leo Gregory Graphic T-Shirt White - XL / White",
+      "body": "Weekend Offender : Des tons frais et des graphismes affirmés, conçus avec un sens aigu de la fonctionnalité et du détail.",
       "cta": "Shop Now",
-      "fatigue_score": 88,
-      "days_until_fatigue": 7,
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Third placeholder-headline ad live, this one on the DE feed — the templating bug is affecting multiple markets.",
-        "DE body is a 1:1 translation of the EN Leo Gregory line, no localization beyond Google-Translate-grade phrasing.",
-        "Same Leo Gregory navy SKU pile-up — DACH audience is seeing the same shirt three different ways."
+        "90 days live — French translation of the same Leo Gregory tee carousel that's been the workhorse since February",
+        "Body copy is functionally identical to the English, German and Italian variants — five-language clones of one concept compressed by Andromeda's retrieval clustering",
+        "SKU-as-headline pattern repeats — no editorial reason to click beyond raw product listing"
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 13,
-      "headline": "default_collection_headline",
-      "body": "Weekend Offender: Toni freschi e grafiche decise, progettati con una forte attenzione alla funzionalità e ai dettagli.",
+      "source_index": 7,
+      "headline": "Leo Gregory Graphic T-Shirt White - XL / White",
+      "body": "Weekend Offender: Frische Töne und markante Grafiken, entwickelt mit klarem Fokus auf Funktionalität und Details.",
       "cta": "Shop Now",
-      "fatigue_score": 86,
-      "days_until_fatigue": 8,
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Italian-market version with the same 'default_collection_headline' placeholder — fourth ad with a broken headline field.",
-        "Body is the IT translation of the same Leo Gregory script — zero creative variance vs. the EN/DE/FR siblings.",
-        "Routes to the white tee variant while three other live ads route to the navy — splitting the same buyer across SKUs."
+        "90 days live in the German market — past the natural decay curve for any single tee SKU",
+        "Direct German translation of an English ad that's also been running 90 days; Andromeda reads these as the same concept with localisation",
+        "No seasonal angle, no founder voice, no UGC layer — just product + size + colour, which is the lowest-leverage version of streetwear creative"
       ]
     },
     {
       "ad_number": 5,
-      "source_index": 9,
-      "headline": "Weekend Offender's Best",
-      "body": "The Overnighter. A fan favourite for a reason. Crafted from high-density weave 100% polyester with a compact, cabin-ready design that fits aeroplane hand luggage. Built tough. Travels light. Explore our bestsellers.",
-      "cta": "Shop now",
-      "fatigue_score": 84,
-      "days_until_fatigue": 9,
-      "severity": "warn",
+      "source_index": 11,
+      "headline": "Weekend Offender",
+      "body": "Raus mit dem Alten. Rein mit dem Neuen. Der neue Drop von Weekend Offender ist da.",
+      "cta": "Learn More",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
       "drivers": [
-        "Exact same Overnighter body copy is running on at least three near-identical English ads — same headline, same destination, same UTM term.",
-        "'Built tough. Travels light.' has been in-market long enough that warm audiences will have seen this exact bag photo dozens of times.",
-        "No price anchor, no social proof, no scarcity — pure product description, which is the first format to fatigue on retargeting."
+        "87 days live — the German 'new drop' announcement is no longer announcing anything new",
+        "Headline is just 'Weekend Offender' — the brand name carrying the entire top-of-ad real estate is wasted impressions for a cold prospecting placement",
+        "You shipped a fresh image-format version of this exact German new-drop message three days ago — the old carousel should have been paused when the new asset went live"
       ]
     }
   ],
@@ -95,43 +95,43 @@
     {
       "headline": "Weekend Offender",
       "body": "The Technician Jacket with mesh-lining, water-repellent coating and built-in face mask for protection against the elements.",
-      "fatigue_score": 71,
-      "days_until_fatigue": 15
+      "fatigue_score": 68,
+      "days_until_fatigue": 16
     },
     {
       "headline": "Weekend Offender",
       "body": "Music. Rave. Terrace. Film. Designed in the UK. Premium graphic tees at Weekend Offender.",
-      "fatigue_score": 64,
-      "days_until_fatigue": 20
+      "fatigue_score": 55,
+      "days_until_fatigue": 24
     },
     {
-      "headline": "New spring '26 collection.",
-      "body": "New silhouettes. Fresh palette with softer tones and considered contrasts.",
-      "fatigue_score": 48,
-      "days_until_fatigue": 28
+      "headline": "Your basket...",
+      "body": "Free socks with orders over £70. T&Cs apply.",
+      "fatigue_score": 28,
+      "days_until_fatigue": 42
     }
   ],
   "hero_concept": {
-    "concept_name": "Terrace Uniform — Sheffield Tee",
-    "format": "Static image (1:1) — first in a 3-card carousel: hero shot, print/detail macro, on-body terrace shot",
-    "hook": "Sheffield, 1989. Printed on a tee for 2026.",
-    "headline": "City Series 8. The Sheffield drop.",
-    "primary_text": "The City Series isn't a logo tee. It's a stamp — each one names a city that built the band, the scene, the team. This one is Sheffield: the red-and-white kit that ruined a generation of away ends, hand-painted onto matte black cotton.\n\nMusic. Rave. Terrace. Film. The same four reference points every Weekend Offender drop is built around — this one just happens to be the one you'll wear all summer and the one your mate will ask about in the pub.\n\nLimited print run. Old enough to mean something, new enough to still be in stock.",
+    "concept_name": "Sheffield — City Series, On The Move",
+    "format": "Static image",
+    "hook": "Sheffield. Steel city. Cut sharper.",
+    "headline": "City Series 8. Out now.",
+    "primary_text": "The City Series is how we tell where we've been. Sheffield is the latest — black cotton jersey, red graphic, every detail built for the way you actually wear a tee on a Saturday.\n\nNo studio shot. No filler. Just the next chapter of a series that started with the cities we grew up on.\n\nFree socks with orders over £70 this week.",
     "cta": "Shop Now",
-    "visual_direction": "Single hero shot of the Sheffield tee on darkened oak with a worn match-day ticket and a brass key, soft north-window daylight raking across the matte black cotton and the painted chest print.",
-    "fills_gap": "Every current ad either runs the brand name as the headline or the raw Shopify product title — there's no creative that names a specific hero piece with a story-led terrace hook. This concept gives one product a clean spotlight instead of yet another 'Weekend Offender / new drop' generic.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the black graphic t-shirt from the reference image, styled in a moody British terrace flatlay on a darkened oak wood surface with a worn match-day paper stub and a single brass key off-center, with natural soft north-window daylight raking from the left to highlight the cotton weave and the matte print texture on the chest. Atmospheric palette — deep black tee against warm grey-brown wood and faded paper — that signals authentic British football terrace culture. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep black colorway, the same medium-weight cotton jersey, the same crew neckline, the same short-sleeve length, the same regular straight fit. PRESERVE EXACTLY the printed graphic on the front chest — the red-and-white striped Sheffield football jersey illustration, the bold white SHEFFIELD text, the WEEKEND OFFENDER subtitle, the RUNNING THE NEIGHBOURHOOD SINCE 2004 tagline, and the small printed brand label at the back of the neck — every printed element must match the reference exactly. IMPORTANT: the no-text and no-logos items in the NEGATIVE list apply ONLY to overlay text or logos added to the photograph itself — they do NOT apply to text, logos, or printed designs that exist ON the garment in the reference image. The product is a graphic tee — its printed graphics are part of the product and must be preserved. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift on the garment, no recoloring of the print, no removing or replacing of the printed graphics on the t-shirt, no design modifications to the printed artwork.",
+    "visual_direction": "The Sheffield tee shot in a real Northern English urban context — wet pavement, brick terrace, late-afternoon light — laid flat or hung on a railing rather than on a model, so the graphic and colourway are the hero.",
+    "fills_gap": "Almost every recent ad either runs the brand name as the headline or the raw SKU string — there's no creative that names a specific product story or city the way City Series does in your catalogue. This concept also breaks the carousel-and-collection-page habit by anchoring on one SKU with editorial weight, which is what your spring '26 video work is doing well and your evergreen statics are missing.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a wet Northern English urban setting with the tee laid flat across weathered red brick beside a damp cobbled side-street, with low-angle late-afternoon golden light raking across the fabric and casting soft long shadows. Contemporary streetwear aesthetic, moody but clean, editorial product-first composition with cinematic colour grading. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep black colorway of the cotton jersey AND every printed graphic, color, and text element exactly as shown on the chest, including the red 'Sheffield' / 'City Series 8' graphic typography and any secondary print elements in their exact placement, scale, and color — strictly NO color shift to grey or charcoal, NO red shift to orange or pink, NO removing of print, NO altering of graphic colors or typography. STRUCTURE — preserve the exact construction: crew neckline, short sleeves, regular straight fit, printed brand label at back of neck if visible. PRESERVE the front-chest printed graphic exactly — every illustration, every text element, all colors, same placement and scale. Do NOT add additional graphics or text not present in the reference, do NOT remove the chest print, do NOT alter the graphic, do NOT change neckline shape or sleeve length, do NOT add pockets, do NOT change to a fitted or oversized silhouette beyond what the reference shows. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "City Series 8 Sheffield T-Shirt Black/Red",
     "reference_url": "https://weekendoffender.com/products/city-series-8-sheffield-t-shirt-black-red",
     "image_path": "/creatives/weekend-offender/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Four ads hit fatigue inside 8 days — including three with a broken 'default_collection_headline' placeholder live in-feed.",
-    "headline": "30 minutes — let's fix the placeholder bug and ship the SS26 hero",
-    "body": "I want to walk you through the four ads bleeding budget right now and the City Series Sheffield tee concept that should replace them. Half the call is the fix list, half is what we'd queue for the next two weeks.",
+    "urgency": "Four of your top ads pass their refresh window inside ten days.",
+    "headline": "Walk through the kill list with me",
+    "body": "I'll show you which of the 90-day Leo Gregory and 'new drop' carousels to pause this week and what shape of replacement creative would carry the next 30 days. Thirty minutes, no deck.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Scored from public Meta Ad Library creatives only — no spend or CTR data, so timing is directional based on creative-signal patterns across all 66 live ads.",
+  "method_note": "We went through every live ad in your Meta Ad Library on May 3, 2026 and scored each on six fatigue signals against streetwear refresh windows; we don't have your account-side CPM, CTR or ROAS, so all calls are based on public creative patterns and days-running.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
