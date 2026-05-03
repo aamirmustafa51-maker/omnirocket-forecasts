@@ -227,7 +227,9 @@ export default function ForecastTemplate({
           .sort((a, b) => a.ad_number - b.ad_number)
         return (
           <>
-            <h2>Your {renderedAds.length} most fatigued {renderedAds.length === 1 ? "ad" : "ads"}</h2>
+            <h2>{renderedAds.length < 5
+              ? `Your live ads, ranked by fatigue`
+              : `Your ${renderedAds.length} most fatigued ads`}</h2>
             {renderedAds.map((ad, i) => {
         const sev = ad.severity ?? severityFor(ad.fatigue_score)
         const hasImage = adImageExists(slug, ad.ad_number)
