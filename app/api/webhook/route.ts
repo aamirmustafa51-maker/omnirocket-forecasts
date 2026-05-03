@@ -425,16 +425,25 @@ function buildPrompt(
   // benchmarks + Q4 timing inform Claude's scoring; we don't pre-compute the
   // scores themselves (that produced numbers that didn't match narrative
   // urgency — see hybrid revert decision in conversation 2026-05-03).
-  const factsBlock = `══════ ACCOUNT FACTS (Claude can't derive these — use as context for scoring + narrative) ══════
-Brand size (inferred): ${r.brand_size} (typical hero-creative refresh window: ${r.brand_size_threshold_days} days)
-Total active concepts (cheap proxy — first-5-headline-words × format): ${r.S2_concept_count}${r.hero_concept_call_out_required ? " ⚠️ BELOW Andromeda 5-concept floor — MANDATORY call-out per KB §14" : ""}
-Format mix: image=${r.format_mix.image}, video=${r.format_mix.video}, carousel=${r.format_mix.carousel}
-Refresh cadence label: ${r.cadence_label}
+  // No internal taxonomy ("whale-tier", "S2", "bucket") — Claude must
+  // translate to plain English in the report (see system prompt rule).
+  const cadenceCopy: Record<typeof r.cadence_label, string> = {
+    healthy: "fresh ads shipping consistently across recent weeks",
+    trickle: "new creative arriving slowly — long gaps between launches",
+    cliff: "all active ads launched within a tight window — they'll fatigue together",
+    "pulse-burn": "big batch shipped at once, nothing since — burst-and-stall pattern",
+  };
+  const factsBlock = `══════ ACCOUNT FACTS (Claude can't derive these — use as context, but translate to plain English in the report) ══════
+This brand is running ${r.S2_concept_count} distinct creative concepts across ${allAds.length} ads. ${r.hero_concept_call_out_required ? "⚠️ This is BELOW Meta's Andromeda 5-concept floor — MANDATORY call-out per KB §14." : "(at or above Andromeda's 5-concept floor)"}
+Format mix: ${r.format_mix.image} static image / ${r.format_mix.video} video / ${r.format_mix.carousel} carousel.
+Refresh pattern: ${cadenceCopy[r.cadence_label]}.
+
+This brand's typical hero-creative refresh window: ${r.brand_size_threshold_days} days. (Use this for benchmark.your_value_days. Do NOT mention "tier", "bracket", "whale", or any internal taxonomy.)
+Refresh window context (for benchmark.category_median_days = 21, top_quartile_days = 14): the typical brand refreshes every ~21 days; the top performers refresh every ~14 days; high-volume accounts at this brand's scale should refresh every ~10 days.
 
 Niche: ${nicheKey}
-Per-niche CPM band (industry context, NOT their actual CPM): $${benchmark.cpm_low}–$${benchmark.cpm_high}
-E-com median CPM: $${benchmark.ecom_cpm_median} | median ROAS: ${benchmark.ecom_roas_median}× | Advantage+ Sales: ${benchmark.ecom_roas_advantage_plus}× | Retargeting: ${benchmark.ecom_roas_retargeting}×
-Brand-size hero-creative refresh windows (use these in benchmark.* fields): small=28d / mid=21d / large=14d / whale=10d. THIS brand is ${r.brand_size} → ${r.brand_size_threshold_days}d.
+Per-niche industry CPM band (background only — NOT their actual CPM): $${benchmark.cpm_low}–$${benchmark.cpm_high}
+E-commerce industry medians: CPM $${benchmark.ecom_cpm_median} / ROAS ${benchmark.ecom_roas_median}× / Advantage+ Sales ROAS ${benchmark.ecom_roas_advantage_plus}× / Retargeting ROAS ${benchmark.ecom_roas_retargeting}×
 Q4 timing: ${q4.label}${q4.in_q4 ? " — if you flag stale hero, mention they're entering expensive impressions with fatigued creative" : ""}
 ══════════════════════════════════════════════════════════════════════════════`;
 
@@ -472,7 +481,7 @@ ${adsText}
 YOUR TASK
 =========
 1. Analyze ALL ${totalUsable} ads above for fatigue signals across everything they're running. Use the ACCOUNT FACTS block as context (brand size, niche policy from KB, Q4 timing).
-2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d. Calibrate scoring against the brand's refresh window (${r.brand_size_threshold_days}d for ${r.brand_size}-tier) — an ad past that window with copy duplication should land in the danger band.
+2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d. Calibrate scoring against the brand's refresh window (${r.brand_size_threshold_days}d) — an ad past that window with copy duplication should land in the danger band.
 3. Pick the ${candidateK} most fatigued ads THAT HAVE IMAGES (IMG:yes), ranked by fatigue_score descending. Output as full ad cards in "ads", numbered 1..${candidateK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above. (We'll display only the top 5 — extras serve as backups when image downloads fail.)
 4. Pick ${compactK} additional representative ads (with or without images) from the remaining set. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
 5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} of their live ads.
@@ -598,6 +607,8 @@ The user message contains an ACCOUNT FACTS block (brand size, niche benchmarks, 
 
 TONE: peer operator. Specific, not generic. Quote actual ad copy verbatim from the live ads provided.
 NEVER use the words 'audit', 'review', or 'analysis' — use 'walked through', 'looked at', 'went through', 'mapped'.
+
+PLAIN ENGLISH RULE: the reader is a Shopify brand owner, not a media buyer. NEVER use internal taxonomy or scoring jargon. Specifically banned: "whale-tier", "mid-tier", "small-tier", "spend bracket", "S1/S2/S3 signal", "fatigue bucket", "cluster bucket", "concept signature", "first-5-words proxy". Industry terms (Andromeda, CPM, ROAS, Advantage+ Sales, retargeting, hook, headline, CTA, carousel, BFCM) ARE fine — they're the language brand owners hear from their existing agency. When you mean "high-volume account at this scale", say that — not "whale-tier".
 OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.
 
 The following knowledge base is your source of truth for Meta ad policy, anti-patterns, and 2025–2026 platform reality. Apply it when writing findings, drivers, and the hero concept. Cite Andromeda by name when concept count is below floor.
