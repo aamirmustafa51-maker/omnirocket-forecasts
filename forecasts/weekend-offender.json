@@ -112,23 +112,23 @@
     }
   ],
   "hero_concept": {
-    "concept_name": "Terrace Uniform — The Grohl Over-Top",
-    "format": "Static image (1:1) — first in a 3-card carousel: hero shot, fabric/detail macro, on-body terrace shot",
-    "hook": "Built for the away end. Cut for the city.",
-    "headline": "Grohl Over-Top. Now in Cyclone.",
-    "primary_text": "The Grohl Over-Top in Cyclone Grey Camo isn't a shell jacket pretending to be streetwear. It's a terrace piece — designed in the UK, weighted to layer over a hood, cut to move when the crowd does.\n\nMusic. Rave. Terrace. Film. The same four reference points every Weekend Offender drop is built around — this one just happens to be the one you'll actually wear from March through October.\n\nNew season. New camo. Limited run — when it's gone, it's gone.",
+    "concept_name": "Terrace Uniform — Sheffield Tee",
+    "format": "Static image (1:1) — first in a 3-card carousel: hero shot, print/detail macro, on-body terrace shot",
+    "hook": "Sheffield, 1989. Printed on a tee for 2026.",
+    "headline": "City Series 8. The Sheffield drop.",
+    "primary_text": "The City Series isn't a logo tee. It's a stamp — each one names a city that built the band, the scene, the team. This one is Sheffield: the red-and-white kit that ruined a generation of away ends, hand-painted onto matte black cotton.\n\nMusic. Rave. Terrace. Film. The same four reference points every Weekend Offender drop is built around — this one just happens to be the one you'll wear all summer and the one your mate will ask about in the pub.\n\nLimited print run. Old enough to mean something, new enough to still be in stock.",
     "cta": "Shop Now",
-    "visual_direction": "Single hero shot of the Grohl Over-Top Cyclone Grey Camo on a clean concrete-grey backdrop, slight overhead angle, garment laid with intentional folds showing the camo pattern and over-top silhouette.",
+    "visual_direction": "Single hero shot of the Sheffield tee on darkened oak with a worn match-day ticket and a brass key, soft north-window daylight raking across the matte black cotton and the painted chest print.",
     "fills_gap": "Every current ad either runs the brand name as the headline or the raw Shopify product title — there's no creative that names a specific hero piece with a story-led terrace hook. This concept gives one product a clean spotlight instead of yet another 'Weekend Offender / new drop' generic.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a minimalist concrete and steel studio set with brushed grey backdrop and a single weathered metal bench, with directional cool daylight from camera-left creating soft shadows and crisp fabric texture. Moody UK streetwear aesthetic, muted palette of slate, charcoal and pale concrete, cinematic editorial framing reminiscent of British terrace and rave-culture lookbooks. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
-    "reference_title": "Grohl Over-Top Cyclone Grey Camo",
-    "reference_url": "https://weekendoffender.com/products/grohl-over-top-cyclone-grey-camo",
+    "image_prompt": "A photorealistic editorial product photograph featuring the black graphic t-shirt from the reference image, styled in a moody British terrace flatlay on a darkened oak wood surface with a worn match-day paper stub and a single brass key off-center, with natural soft north-window daylight raking from the left to highlight the cotton weave and the matte print texture on the chest. Atmospheric palette — deep black tee against warm grey-brown wood and faded paper — that signals authentic British football terrace culture. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep black colorway, the same medium-weight cotton jersey, the same crew neckline, the same short-sleeve length, the same regular straight fit. PRESERVE EXACTLY the printed graphic on the front chest — the red-and-white striped Sheffield football jersey illustration, the bold white SHEFFIELD text, the WEEKEND OFFENDER subtitle, the RUNNING THE NEIGHBOURHOOD SINCE 2004 tagline, and the small printed brand label at the back of the neck — every printed element must match the reference exactly. IMPORTANT: the no-text and no-logos items in the NEGATIVE list apply ONLY to overlay text or logos added to the photograph itself — they do NOT apply to text, logos, or printed designs that exist ON the garment in the reference image. The product is a graphic tee — its printed graphics are part of the product and must be preserved. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift on the garment, no recoloring of the print, no removing or replacing of the printed graphics on the t-shirt, no design modifications to the printed artwork.",
+    "reference_title": "City Series 8 Sheffield T-Shirt Black/Red",
+    "reference_url": "https://weekendoffender.com/products/city-series-8-sheffield-t-shirt-black-red",
     "image_path": "/creatives/weekend-offender/hero-mockup.jpg"
   },
   "next_step": {
     "urgency": "Four ads hit fatigue inside 8 days — including three with a broken 'default_collection_headline' placeholder live in-feed.",
     "headline": "30 minutes — let's fix the placeholder bug and ship the SS26 hero",
-    "body": "I want to walk you through the four ads bleeding budget right now and the Grohl Over-Top concept that should replace them. Half the call is the fix list, half is what we'd queue for the next two weeks.",
+    "body": "I want to walk you through the four ads bleeding budget right now and the City Series Sheffield tee concept that should replace them. Half the call is the fix list, half is what we'd queue for the next two weeks.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",

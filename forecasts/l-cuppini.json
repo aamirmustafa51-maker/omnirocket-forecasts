@@ -106,17 +106,17 @@
     }
   ],
   "hero_concept": {
-    "concept_name": "Founder-Voice Linda Tux",
+    "concept_name": "Founder-Voice Laura Suede",
     "format": "Static image",
-    "hook": "Lea's tailoring rule: shoulders first, season never.",
-    "headline": "The Linda Tux, in beige.",
-    "primary_text": "When I started L.CUPPINI in London in 2019, I had one rule: build outerwear that doesn't expire when the trend cycle does.\n\nThe Linda Tux Blazer in beige is cut for that — a clean tailored shoulder, weight that holds its shape past the tenth wear, and a tone that sits next to denim, slip dresses, or a cashmere roll-neck without flinching.\n\nFree worldwide express shipping on orders over £600.",
+    "hook": "Lea's rule: suede that earns its second decade.",
+    "headline": "The Laura Suede, in chocolate.",
+    "primary_text": "When I started L.CUPPINI in London in 2019, I had one rule: build pieces that don't expire when the trend cycle does.\n\nThe Laura Suede co-ord — cropped jacket and matching shorts in deep chocolate — is cut for that. Stand collar with snap closure, two chest pockets with snap flaps, hand-finished suede that softens with every wear instead of breaking down.\n\nFree worldwide express shipping on orders over £600.",
     "cta": "Shop Now",
-    "visual_direction": "Editorial flat-lay or styled mannequin shot of the Linda Tux Blazer in beige against a warm neutral backdrop, with soft daylight modeling the shoulder and lapel structure.",
+    "visual_direction": "Editorial flat-lay of the Laura Suede co-ord on warm cream linen with curling dried fig branches off-frame, soft north-window daylight modeling the suede nap and the silver-tone snap hardware.",
     "fills_gap": "Every ad currently in market leads with shipping logistics or a 15% code — none of them name a product, show the cut, or use Lea's voice. This concept anchors the feed on a specific SKU and a founder POV, which is what the £600+ price point actually needs to convert.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet London atelier flat-lay on a warm sand-toned linen surface with a single folded cashmere swatch and a brass hanger just out of frame, with soft north-facing window daylight that models the shoulder seam and lapel structure with gentle directional shadow. Muted neutral palette of beige, oat, and warm taupe; minimalist luxury aesthetic in the spirit of The Row and Khaite editorial spreads; shallow depth of field with crisp focus on the blazer fabric weave. Square 1:1 composition with breathing room top and bottom for ad text overlay. Maintain the exact appearance, color, and details of the product from the reference image. Premium commerce photography quality. NEGATIVE: no text, no logos, no watermarks, no UI elements, no Facebook interface, no buttons, no faces, no collage, no borders, no duplicate products.",
-    "reference_title": "Linda Tux Blazer Beige",
-    "reference_url": "https://lcuppini.com/products/linda-tux-blazer-beige",
+    "image_prompt": "A photorealistic editorial product photograph featuring the dark chocolate brown suede co-ord (cropped snap-front jacket and matching mid-thigh shorts) from the reference image, styled in a quiet Italian atelier flatlay on a worn cream linen surface with a curl of dried fig branch off-center, with natural soft north-window daylight raking from the left to highlight the suede nap and stitching detail. Muted earth-tone palette of cream, sand, and soft taupe that signals modern Italian craft. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact dark chocolate brown suede color, the same matte nap and texture, the same garment construction (jacket: cropped, stand-up collar with snap closure, two chest patch pockets with snap-flap, snap-front placket; shorts: high-rise, mid-thigh, matching suede). Render the metal hardware as small silver-tone snaps, count and placement matching the reference. Do NOT change the suede color (no caramel, tan, gold-brown, or black shift), do NOT add or remove buttons/snaps/zippers/pockets, do NOT alter the silhouette. Premium commerce photography quality. NEGATIVE: no overlay text, no overlay logos, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no warm-tone bias on suede, no recoloring of suede, no extra hardware, no design modifications.",
+    "reference_title": "The Laura Suede Shorts",
+    "reference_url": "https://lcuppini.com/products/laura-suede-shorts",
     "image_path": "/creatives/l-cuppini/hero-mockup.jpg"
   },
   "next_step": {
