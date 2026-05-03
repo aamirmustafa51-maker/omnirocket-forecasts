@@ -3,16 +3,16 @@
   "brand_slug": "tic-toc",
   "first_name": "Bernard",
   "website": "https://www.tictocclothing.com",
-  "generated_date": "May 1, 2026",
+  "generated_date": "May 3, 2026",
   "read_time_min": 3,
   "total_ads": 2,
-  "niche": "clothing",
-  "tldr": "Bernard, both of your live ads are running the exact same headline, body, and CTA — it's effectively one creative spending twice. Expect CPM to climb sharply within 7-10 days as frequency stacks against the same audience pocket.",
+  "niche": "LA fashion",
+  "tldr": "Bernard, both of your live ads are running the exact same headline, body, and CTA — functionally one creative duplicated twice, and the older one is already two days past your typical refresh window. Under Andromeda's clustering, two ads with identical copy register as a single concept, which is well below the five-concept floor Meta's retrieval engine needs to keep serving you efficiently.",
   "benchmark": {
-    "your_value_days": 8,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "Fashion ecom brands at your stage typically rotate 6-10 distinct creative angles in-market at once. With two identical 'Your New Favorite Outfit Starts Here' variants live, you're well below category median for creative variety."
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're running 1 distinct concept across 2 ads — below the 5-concept floor Meta's Andromeda retrieval system uses for clustering since October 2025. Other LA fashion brands at your size refresh hero creative roughly every 21 days; the top performers are on a 14-day cycle, and at your scrape both ads are inside the danger window with identical copy."
   },
   "ads": [
     {
@@ -22,12 +22,12 @@
       "body": "Shop the latest must-have looks from LA ✨ Get 15% OFF your first order — limited time.",
       "cta": "Shop now",
       "fatigue_score": 92,
-      "days_until_fatigue": 7,
+      "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "Headline 'Your New Favorite Outfit Starts Here' is duplicated verbatim across both live ads — Meta's algorithm reads this as one creative for frequency capping",
-        "Body copy with the LA sparkle emoji and 15% off line is identical to the second variant, so you're not actually testing anything",
-        "Generic 'must-have looks from LA' hook gives no product, no silhouette, no reason — fatigue accelerates fast on vague openers"
+        "26 days running — already past your 28-day refresh window when you account for the duplicate sibling ad eating the same retrieval cluster.",
+        "Headline 'Your New Favorite Outfit Starts Here' is generic — no product, no specificity, no hook. It's a category headline any apparel brand could run.",
+        "Body copy is identical to your second live ad. Andromeda treats two ads with verbatim copy as one concept, so spend is competing with itself instead of expanding reach."
       ]
     },
     {
@@ -36,38 +36,38 @@
       "headline": "Your New Favorite Outfit Starts Here",
       "body": "Shop the latest must-have looks from LA ✨ Get 15% OFF your first order — limited time.",
       "cta": "Shop now",
-      "fatigue_score": 90,
+      "fatigue_score": 86,
       "days_until_fatigue": 8,
       "severity": "danger",
       "drivers": [
-        "Carbon copy of the other live variant — same headline, same body, same CTA, same homepage landing",
-        "Both ads point to the bare homepage instead of a collection or hero SKU, so even cold traffic that converts has no clear path",
-        "'Shop now' CTA paired with a generic homepage drop is the highest-friction combo for first-time buyers in fashion"
+        "Verbatim duplicate of your other live video — same headline, same body, same CTA, same offer. The retrieval engine collapses these into a single creative.",
+        "'Limited time' framing on a 17-day-old ad reads as evergreen scarcity — the platform has seen the same 'limited time' message running for over two weeks.",
+        "Both ads are video, both lead with the 15% first-order discount. There's no static, no carousel, no founder/styling angle — one format, one offer, one hook across the entire active set."
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "ROSA Babydoll — Hero SKU Pivot",
+    "concept_name": "ROSA babydoll — 'the cami that doesn't try'",
     "format": "Static image",
-    "hook": "The babydoll cami doing all the heavy lifting this spring.",
-    "headline": "Sheer. Soft. Sold Out Twice.",
-    "primary_text": "Tic Toc started in LA with one rule: the pieces women actually reach for first should feel as good as they look.\n\nThe ROSA V-Neck Lace Trim Babydoll Cami is that piece — sheer where it counts, lace trim that doesn't itch, cut to layer under a blazer or wear with denim and nothing else.\n\n15% off your first order. Ships from LA in 48 hours.",
-    "cta": "Shop ROSA",
-    "visual_direction": "The ROSA babydoll cami flat-styled on cream linen with a small posy of dried chamomile, soft afternoon daylight backlighting the scalloped lace and sheer fabric.",
-    "fills_gap": "Right now both live ads send cold traffic to the homepage with the same generic 'must-have looks from LA' line and no actual product in frame. Leading with a specific hero SKU and a tactile copy angle gives the algorithm a fresh creative signal and gives shoppers a reason to click.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the pale buttery yellow sheer babydoll cami top from the reference image, styled in a soft sunlit conservatory flatlay on a cream linen surface with a small posy of dried chamomile off-center, with warm afternoon daylight filtering through sheer curtains from the side to backlight the lace trim and reveal the fabric's translucency. Muted palette of cream, ivory, and soft butter yellow that signals romantic cottage-core feminine aesthetic. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact pale buttery yellow color, the same lightweight sheer mesh fabric, the same babydoll silhouette (gathered empire-waist body that flows loose below the bust, V-neckline), the same delicate spaghetti straps, and the same scalloped lace trim at BOTH the neckline AND the bottom hem. Render the lace pattern exactly as shown. Do NOT change the yellow color (no white, cream, peach, greenish, or orange shift), do NOT alter the V-neckline depth, do NOT change strap thickness, do NOT remove or relocate lace trim, do NOT change the babydoll empire silhouette to a fitted cami, do NOT add embellishments not present in reference. Premium commerce photography quality. NEGATIVE: no overlay text, no overlay logos, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no recoloring of fabric or lace, no design modifications, no added bows beads or appliqué not in the reference.",
+    "hook": "The cami you'll reach for before the going-out top.",
+    "headline": "Lace trim. Zero effort.",
+    "primary_text": "ROSA is the V-neck babydoll cami we keep restocking — sheer enough to layer, soft enough to sleep in, finished with scalloped lace at the neckline and hem.\n\nIt's the piece that quietly becomes the most-worn thing in your drawer. Pair it with denim for a coffee run, or under an open blazer when you want the night to do the talking.\n\nNew customers get 15% off — code at checkout.",
+    "cta": "Shop Now",
+    "visual_direction": "Flat-lay editorial: ROSA cami laid on warm-toned linen with a coffee cup, gold hoops, and folded denim styled around it — soft late-morning daylight, no model, product is the hero.",
+    "fills_gap": "Both of your live ads are videos selling 'must-have looks from LA' with a generic discount headline — no product is named, no specific piece is shown long enough to anchor the creative. A static, product-led concept featuring an actual SKU breaks the duplicate-copy cluster and gives Andromeda a second distinct concept to test against your video.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a warm flat-lay scene on natural cream linen with a folded pair of light-wash denim, a small ceramic coffee cup, and a pair of gold hoop earrings arranged loosely beside the garment, with soft late-morning daylight raking across the fabric to catch the lace texture. Editorial fashion-commerce aesthetic, warm cream and bone color palette, soft shadows, slightly desaturated. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact pale ivory/off-white sheer mesh fabric and delicate cream lace trim of the ROSA cami exactly as shown — strictly NO white-out shift, NO cream-to-pink shift, NO yellow or beige cast on the mesh, NO color shift on the lace. STRUCTURE — preserve the exact construction: V-neckline with scalloped lace trim along the V, delicate spaghetti straps, gathered empire-waist body that flows loose and sheer below the bust, scalloped lace trim along the bottom hem. Do NOT change strap thickness, do NOT alter V-neckline depth, do NOT remove or relocate the lace trim at the neckline or hem, do NOT change to a fitted cami silhouette, do NOT add buttons, ties, or hardware not present in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "ROSA V Neck Lace Trim Sheer Babydoll Cami Top",
     "reference_url": "https://tictocclothing.com/products/th32065-rosa-bundle",
     "image_path": "/creatives/tic-toc/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Both live ads hit fatigue within 7-8 days — window to swap is now.",
-    "headline": "Let's map your next 6 creative angles",
-    "body": "Bernard, 30 minutes and we'll plot out the hero SKU rotations, hook variants, and landing pages that should replace the duplicate homepage ads. You'll leave the call with a shoot list and a launch order.",
+    "urgency": "Both ads hit the danger window inside 8 days — and they're duplicates of each other.",
+    "headline": "30 minutes to map your next 5 concepts",
+    "body": "Bernard, you're one concept deep against an algorithm that needs five. Let's walk through the angles we'd ship next — product-led statics, founder POV, styling carousels — and which ones to test first against your existing video.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Signals were scored by walking through every live Tic Toc ad in Meta Ad Library; fatigue projections assume current spend level and audience size.",
+  "method_note": "Walked through every live ad on the Tic Toc Meta page, mapped fatigue against your refresh cadence and Andromeda's concept-clustering rules; no private account data used.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
