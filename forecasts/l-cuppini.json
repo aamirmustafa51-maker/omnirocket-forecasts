@@ -3,91 +3,76 @@
   "brand_slug": "l-cuppini",
   "first_name": "Lea",
   "website": "https://lcuppini.com",
-  "generated_date": "May 1, 2026",
+  "generated_date": "May 3, 2026",
   "read_time_min": 3,
   "total_ads": 7,
-  "niche": "luxury outerwear",
-  "tldr": "Lea, all 7 of your live ads are running essentially the same two sentences — 'All U.S. Orders Ship and Return from Texas' and 'Take 15% off your first purchase 🤍' — just shuffled between headline and body slots. Expect CPMs to start climbing within 7-10 days as Meta's frequency caps catch up to the lack of creative variety.",
+  "niche": "outerwear",
+  "tldr": "All seven of your live ads launched on the same day twenty days ago and recycle the same two lines — 'All U.S. Orders Ship and Return from Texas' and 'Take 15% off your first purchase' — with the headline and body literally swapping places between variants. Six are already in the danger band, and you're sitting at four distinct creative concepts, which is below the floor Meta's Andromeda retrieval engine needs to keep your set varied enough to serve.",
   "benchmark": {
-    "your_value_days": 9,
-    "category_median_days": 22,
-    "top_quartile_days": 38,
-    "context": "Luxury outerwear brands at your price point typically rotate 4-6 distinct creative angles in market simultaneously. You're running one logistics message and one discount line across all 7 placements, with every ad pointing to the same leather jackets collection — that's roughly half the variety we see from peer brands."
+    "your_value_days": 20,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Most outerwear brands at your size refresh hero creative every ~21 days, with the sharpest operators shipping fresh concepts every ~14. You're running four distinct concepts across seven ads, which sits below the five-concept floor Andromeda needs to avoid clustering your variants together and suppressing the whole set. Background context only: per-niche CPM band for apparel is roughly $9–$14 — a fatigued cluster eats that band fast."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 0,
-      "headline": "All U.S. Orders Ship and Return from Texas",
-      "body": "Take 15% off your first purchase 🤍",
-      "cta": "Shop now",
-      "fatigue_score": 92,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "This exact headline-body pairing is running on at least four separate placements right now",
-        "Logistics-led headline buries the actual offer (15% off) in the body where it gets less visual weight",
-        "Landing page is the leather jackets collection — same destination as every other ad in rotation"
-      ]
-    },
-    {
-      "ad_number": 2,
-      "source_index": 1,
-      "headline": "All U.S. Orders Ship and Return from Texas",
-      "body": "Take 15% off your first purchase 🤍",
-      "cta": "Shop now",
-      "fatigue_score": 91,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "Identical copy to three other live ads — Meta's algorithm will treat these as one creative for frequency purposes",
-        "No product name, no fabric story, no price anchor — nothing that rewards a returning viewer with new info",
-        "CTA 'Shop now' is the default across every ad you're running"
-      ]
-    },
-    {
-      "ad_number": 3,
       "source_index": 2,
       "headline": "All U.S. Orders Ship and Return from Texas",
       "body": "Take 15% off your first purchase 🤍",
       "cta": "Shop now",
-      "fatigue_score": 90,
+      "fatigue_score": 86,
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "Third near-duplicate of the same Texas-shipping headline — audiences seeing this on repeat will scroll past",
-        "The 🤍 emoji is the only differentiator from the headline-flipped variants, which isn't enough",
-        "Zero mention of cashmere, fur, or coats — your actual hero categories per the brand positioning"
+        "Second video carrying the exact same headline-body pairing as the first video — you've doubled the format but not the concept, so Andromeda's retrieval engine sees one creative idea, not two.",
+        "No product name, no fabric callout, no silhouette reference in the copy — nothing for a returning shopper to anchor to except the discount.",
+        "Three weeks in, no creative iteration has shipped — at your size the top-quartile cadence is ~14 days, and you're already six days past that."
       ]
     },
     {
-      "ad_number": 4,
+      "ad_number": 2,
       "source_index": 3,
       "headline": "Take 15% off your first purchase 🤍",
       "body": "All U.S. Orders Ship and Return from Texas",
       "cta": "Shop Now",
-      "fatigue_score": 86,
+      "fatigue_score": 84,
       "days_until_fatigue": 9,
-      "severity": "danger",
+      "severity": "warn",
       "drivers": [
-        "Just the headline/body swap of your other variants — Meta sees through this as one creative concept",
-        "Discount-led headline at the top of funnel trains audiences to wait for codes",
-        "Same leather jackets landing page as the six other ads — no segmentation by intent or category"
+        "This is the same two lines as four of your other ads with the headline and body swapped — that's not a creative variant, that's a copy reshuffle, and the algorithm reads through it.",
+        "Carousel format is the right call for outerwear (multiple silhouettes, fabric details, styling), but the copy doesn't reference what's in the carousel — discount-led where it should be product-led.",
+        "Leading with '15% off' on a luxury outerwear positioning trains the buyer to wait for promo rather than buy on the strength of the cashmere or the cut."
       ]
     },
     {
-      "ad_number": 5,
+      "ad_number": 3,
       "source_index": 4,
       "headline": "Take 15% off your first purchase 🤍",
       "body": "All U.S. Orders Ship and Return from Texas",
       "cta": "Shop Now",
-      "fatigue_score": 85,
+      "fatigue_score": 82,
       "days_until_fatigue": 10,
-      "severity": "danger",
+      "severity": "warn",
       "drivers": [
-        "Duplicate of the other discount-headline variant — running both adds spend, not learning",
-        "No product specificity means the creative can't be tested against any clear winner",
-        "Capitalized 'Shop Now' vs lowercase 'Shop now' on sister ads is the only meaningful variation"
+        "Second carousel running the identical swapped-copy combo — both your carousels are concept-twins, which means the format that should be doing your heaviest browsing work is undifferentiated.",
+        "All seven ads point at the same /collections/leather-jackets URL — your landing destination has zero diversity, so even if a buyer clicks a coat ad they land on a leather-only page.",
+        "No fabric, no product name, no founder voice anywhere in the copy — for a brand built on cashmere, fur, and timeless tailoring, the ad set reads like a generic promo flight."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 6,
+      "headline": "Nationwide Shipping & Returns",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "cta": "Shop now",
+      "fatigue_score": 76,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "The only ad in the set with a different headline — but it's still a logistics line, not a product line, so it doesn't actually expand your concept count past four.",
+        "No discount mentioned in the body, which differentiates it slightly from the other six, but there's no offsetting hook to replace it — the ad reads as pure operational notice.",
+        "Body copy duplicates the headline of five other ads verbatim — same words, just relocated, so Andromeda still clusters this with the rest."
       ]
     }
   ],
@@ -95,37 +80,37 @@
     {
       "headline": "All U.S. Orders Ship and Return from Texas",
       "body": "Take 15% off your first purchase 🤍",
-      "fatigue_score": 89,
-      "days_until_fatigue": 7
+      "fatigue_score": 85,
+      "days_until_fatigue": 8
     },
     {
       "headline": "Take 15% off your first purchase 🤍",
       "body": "All U.S. Orders Ship and Return from Texas",
-      "fatigue_score": 85,
-      "days_until_fatigue": 10
+      "fatigue_score": 81,
+      "days_until_fatigue": 11
     }
   ],
   "hero_concept": {
-    "concept_name": "Founder-Voice Laura Suede",
+    "concept_name": "Founder-voice product story — The Laura Suede Shorts",
     "format": "Static image",
-    "hook": "Lea's rule: suede that earns its second decade.",
-    "headline": "The Laura Suede, in chocolate.",
-    "primary_text": "When I started L.CUPPINI in London in 2019, I had one rule: build pieces that don't expire when the trend cycle does.\n\nThe Laura Suede co-ord — cropped jacket and matching shorts in deep chocolate — is cut for that. Stand collar with snap closure, two chest pockets with snap flaps, hand-finished suede that softens with every wear instead of breaking down.\n\nFree worldwide express shipping on orders over £600.",
+    "hook": "Lea designed these for the women who never throw anything out.",
+    "headline": "The Laura Suede Shorts",
+    "primary_text": "When Lea started L.CUPPINI in London in 2019, the brief was the opposite of fashion: build pieces that outlive the season they were bought in.\n\nThe Laura Suede Shorts are cut from a deep, matte chocolate suede with a clean high-rise waist — designed to layer under the cashmere knits and tailored coats already in your wardrobe, not compete with them.\n\nShop the Laura — free U.S. returns, ships from Texas.",
     "cta": "Shop Now",
-    "visual_direction": "Editorial flat-lay of the Laura Suede co-ord on warm cream linen with curling dried fig branches off-frame, soft north-window daylight modeling the suede nap and the silver-tone snap hardware.",
-    "fills_gap": "Every ad currently in market leads with shipping logistics or a 15% code — none of them name a product, show the cut, or use Lea's voice. This concept anchors the feed on a specific SKU and a founder POV, which is what the £600+ price point actually needs to convert.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the dark chocolate brown suede co-ord (cropped snap-front jacket and matching mid-thigh shorts) from the reference image, styled in a quiet Italian atelier flatlay on a worn cream linen surface with a curl of dried fig branch off-center, with natural soft north-window daylight raking from the left to highlight the suede nap and stitching detail. Muted earth-tone palette of cream, sand, and soft taupe that signals modern Italian craft. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact dark chocolate brown suede color, the same matte nap and texture, the same garment construction (jacket: cropped, stand-up collar with snap closure, two chest patch pockets with snap-flap, snap-front placket; shorts: high-rise, mid-thigh, matching suede). Render the metal hardware as small silver-tone snaps, count and placement matching the reference. Do NOT change the suede color (no caramel, tan, gold-brown, or black shift), do NOT add or remove buttons/snaps/zippers/pockets, do NOT alter the silhouette. Premium commerce photography quality. NEGATIVE: no overlay text, no overlay logos, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no warm-tone bias on suede, no recoloring of suede, no extra hardware, no design modifications.",
+    "visual_direction": "Editorial flat-lay of the suede shorts on a soft cream linen surface beside a folded cashmere knit and a pair of leather gloves, shot in warm London-window daylight to evoke the brand's quiet-luxury heritage.",
+    "fills_gap": "Every one of your seven live ads leads with shipping logistics or a 15%-off line — none of them name a product, name Lea, or reference fabric. This concept introduces founder voice, a specific SKU, and a fabric story, which gives Andromeda a genuinely distinct concept to cluster separately from your discount-led set.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft cream linen surface flat-lay setting with a folded cream cashmere knit and a pair of caramel leather gloves arranged beside the shorts, with warm directional London-window daylight raking across the suede nap from the upper left. Quiet-luxury editorial aesthetic — restrained, considered, evocative of a Mayfair atelier rather than a discount retailer. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact dark chocolate brown suede color and matte nap texture of the Laura Suede Shorts exactly as shown in the reference — strictly NO caramel, tan, gold-brown, cognac, espresso-black, or any color shift; preserve the exact suede surface character with no leather-shine substitution. STRUCTURE — preserve the exact construction: high-rise waistband, mid-thigh shorts length, front zip-fly closure with single waistband button or hook closure as shown, two front pockets if visible in reference and only as shown, clean straight-cut hem with no cuff. Do NOT add or remove buttons, snaps, zippers, belt loops, or pockets, do NOT change the rise from high to mid or low, do NOT lengthen to bermuda or shorten to micro, do NOT add pleats, darts, or decorative stitching not present in the reference, do NOT alter the silhouette. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "The Laura Suede Shorts",
     "reference_url": "https://lcuppini.com/products/laura-suede-shorts",
     "image_path": "/creatives/l-cuppini/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Four ads hit fatigue inside the next 7 days.",
-    "headline": "15 minutes to map the next 30 days of creative",
-    "body": "Let's walk through which of the seven to kill this week and sequence three founder-led concepts (Linda Tux, cashmere knit, fur outerwear) into rotation. I'll bring the shot list and the copy directions.",
+    "urgency": "Six of your seven ads cross into the danger band within the next 10 days.",
+    "headline": "Want us to walk through the replacement plan?",
+    "body": "Happy to map out the four-concept refresh that would get your set above the Andromeda floor and replace the logistics-led hooks with founder-voice product stories. Thirty minutes, no pitch deck — just the plan.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "Signals scored from publicly visible Meta Ad Library creative; without backend spend and frequency data, fatigue dates are directional, not absolute.",
+  "method_note": "We went through every currently-running L.CUPPINI ad in Meta's public Ad Library and scored each on six creative-fatigue signals; no private account data was used.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
