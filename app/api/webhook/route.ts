@@ -14,6 +14,7 @@ type WebhookPayload = {
   facebook_url?: string;
   website_url?: string;
   category?: string;
+  hero_product_handle?: string;
 };
 
 type ApifyAd = {
@@ -196,9 +197,42 @@ function compactCount(totalUsable: number): number {
 // like an apparel/jewelry SKU (skip art/decor/ceramic/candle/home goods).
 type ShopifyProduct = { title: string; image_url: string; page_url: string };
 const SKU_TYPE_BLOCKLIST = /\b(art|ceramic|candle|home|decor|fragrance|book|sticker|gift card)\b/i;
-async function fetchShopifyHeroProduct(websiteUrl: string): Promise<ShopifyProduct | null> {
+async function fetchShopifyHeroProduct(
+  websiteUrl: string,
+  overrideHandle?: string | null,
+): Promise<ShopifyProduct | null> {
   try {
     const base = websiteUrl.replace(/\/$/, "");
+
+    // If caller specified an exact product handle, fetch that product directly.
+    // Bypasses the auto-pick heuristic for brands with noisy catalogs (e.g. a
+    // licensed-merch line that overshadows the core SKUs).
+    if (overrideHandle) {
+      const res = await fetch(`${base}/products/${overrideHandle}.json`, {
+        signal: AbortSignal.timeout(8000),
+      });
+      if (res.ok) {
+        const data = (await res.json()) as {
+          product?: {
+            title?: string;
+            handle?: string;
+            images?: Array<{ src?: string }>;
+          };
+        };
+        const p = data.product;
+        if (p?.title && p?.handle && p.images?.[0]?.src) {
+          return {
+            title: p.title,
+            image_url: p.images[0].src,
+            page_url: `${base}/products/${p.handle}`,
+          };
+        }
+      }
+      console.error(
+        `Shopify override handle "${overrideHandle}" not found at ${base}; falling back to auto-pick`,
+      );
+    }
+
     const res = await fetch(`${base}/products.json?limit=20`, {
       signal: AbortSignal.timeout(8000),
     });
@@ -554,7 +588,9 @@ export async function POST(req: NextRequest) {
     // 1. Apify scrape + Shopify hero product fetch in parallel
     const [apifyAds, heroProduct] = await Promise.all([
       apifyScrape(fbValue, isPageId),
-      websiteUrl ? fetchShopifyHeroProduct(websiteUrl) : Promise.resolve(null),
+      websiteUrl
+        ? fetchShopifyHeroProduct(websiteUrl, payload.hero_product_handle ?? null)
+        : Promise.resolve(null),
     ]);
 
     if (!apifyAds || apifyAds.length === 0) {
