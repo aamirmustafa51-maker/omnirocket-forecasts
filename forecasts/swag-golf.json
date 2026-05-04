@@ -1,0 +1,137 @@
+{
+  "brand": "Swag Golf",
+  "brand_slug": "swag-golf",
+  "first_name": "Corey",
+  "website": "https://swag.golf",
+  "generated_date": "May 4, 2026",
+  "read_time_min": 3,
+  "total_ads": 60,
+  "niche": "golf gear",
+  "tldr": "Walked through all 60 of your live ads — the concept count is healthy (23 distinct angles, well above Andromeda's floor) and the format mix between static, video, and carousel is balanced. The fatigue problem is concentrated in one specific cluster: the 'New Face of Premium Golf' headcover video has been running with identical body copy across roughly a dozen variants, with the oldest ones now past 60 days, and the 'Anniversary Drop' scratch-off copy is duplicated word-for-word across at least six placements past the 21-day mark.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Most apparel and accessory brands refresh hero creative every ~21 days; the top quartile sits at ~14 days. At your scale and creative velocity, the practical window is closer to 10–12 days before Andromeda's clustering starts suppressing the duplicates you have running on the headcover and Anniversary lanes."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 55,
+      "headline": "The New Face of Premium Golf",
+      "body": "🏌️‍♂️SWAG Golf headcovers are built different—for golfers who know that details matter and, no matter what they try to tell you, design doesn't have to play by the rules. 💀",
+      "cta": "Shop now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "63 days running with the exact same body copy you're using on at least eleven other live videos — Andromeda treats this entire cluster as one creative",
+        "Headline 'The New Face of Premium Golf' appears on roughly a dozen of your active ads, all pointing to the same homepage URL — semantic similarity score on this lane is effectively maxed",
+        "Past your practical 12-day refresh window by 5x — this is the oldest duplicate in the cluster and should be the first to come down"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 4,
+      "headline": "The New Face of Premium Golf",
+      "body": "🏌️‍♂️SWAG Golf headcovers are built different—for golfers who know that details matter and, no matter what they try to tell you, design doesn't have to play by the rules. 💀",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Identical twin to your other 60+ day headcover video — same headline, same body, same homepage destination",
+        "Beyond the 14-day top-quartile refresh window by 4.5x — every additional day is paid impressions burning on a creative the algorithm has already clustered and deprioritized",
+        "Body copy duplicated verbatim across the headcover lane is the single biggest fatigue driver in your account right now"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 17,
+      "headline": "",
+      "body": "Official Headcover Partner of the \"3\" Aces 💀 @4acesgc x SWAG Golf",
+      "cta": "Visit Instagram profile",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "No headline on this ad — the one-line body is doing all the work, and 'Visit Instagram profile' is the weakest CTA in your active set for a brand selling $200+ headcovers",
+        "67 days running, the oldest ad in your account, with no clear conversion path — it routes to Instagram rather than a product or collection page",
+        "Partnership-tagged content this old without a refresh signals to the algorithm the campaign has stopped iterating"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 0,
+      "headline": "Rewind Golf Happy Gilmore Chubbs Peterson Golf Academy Fairway Headcover",
+      "body": "When Chubbs died, he left behind a legacy of greatness. And a bunch of unsold merch in the pro shop at the Chubbs Peterson Golf Academy. Luckily for you, we got our hands on it before the Estate Executors did. Now that's money. \t* Officially Licensed by © Universal City Studios LLC. \t* Durable UV Resistant Vinyl \t* Plush Protective Interior \t* Dimensions: 12\" x 5\" x 1\" \t* Weight: 5 oz",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "65 days running on a single licensed-IP angle with no creative iteration — at this age the cluster has fully ranked and the algorithm is no longer testing new audiences against it",
+        "Headline reads as a product-feed string ('Rewind Golf Happy Gilmore Chubbs Peterson Golf Academy Fairway Headcover') rather than a hook — this is the longest, least-scroll-stopping headline in your live set",
+        "Body buries the cultural hook (Happy Gilmore tie-in) under a feature spec sheet — for a 65-day-old ad, a fresh edit leading with the joke would be a different creative entirely"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 16,
+      "headline": "🏌️‍♂️See What the Hype Is About",
+      "body": "🤔 Need a new putter? We can tell... Shop our new collection of premium putters. Level up your game!",
+      "cta": "Shop Now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 8,
+      "severity": "warn",
+      "drivers": [
+        "65 days running and the body copy ('Need a new putter? We can tell...') is the closest thing to a personal-attribute prompt in your live set — soft delivery throttle risk",
+        "Generic 'Level up your game!' close lacks the specificity that's making your Florida Man and High Roller drops land",
+        "Tone is off-brand — the rest of your account is bold, irreverent, 'Don't Give A Putt'; this one reads like stock copy"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "💀 The Drop You've Been Waiting For.",
+      "body": "The Anniversary Drop is live. Every item you buy comes with a Putt King Scratch-Off Card. Buy 5 pieces, get 5 scratch-offs. Real prizes. Real chances. Limited supply. Gear that turns heads. Cards that might just pay off.",
+      "fatigue_score": 72,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "💀 Gear Up. Scratch Off. Repeat.",
+      "body": "The Anniversary Drop is here. Bold. Loud. Limited. Every piece comes with a Putt King Scratch-Off Card. More gear, more chances.  The math is simple. The window is short.",
+      "fatigue_score": 68,
+      "days_until_fatigue": 17
+    },
+    {
+      "headline": "Tour Precision. SWAG Energy",
+      "body": "We took Cleveland's most advanced wedge technology and gave it the SWAG treatment. 💥 Z-Alloy steel. Black satin low-glare finish. Gambling Edition artwork that hits as hard as the performance behind it. Limited drop. Tour-ready. Nothing safe about it. 🔥⛳",
+      "fatigue_score": 54,
+      "days_until_fatigue": 24
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Cien Pesos POV — In-Hand on the Green",
+    "format": "Static image",
+    "hook": "The mallet cover that doesn't ask for permission.",
+    "headline": "Cien Pesos. Live Now.",
+    "primary_text": "Most mallet covers play it safe. Beige leather. A little stitched logo. The same one your dad had in 1994.\n\nThe Cien Pesos doesn't do that. It's loud where everything else on the green is muted, and it's built with the same magnetic closure and plush interior protection we put on every SWAG cover that hits Tour.\n\nDon't Give A Putt. Cien Pesos drop is live — limited run, no restock.",
+    "cta": "Shop Now",
+    "visual_direction": "A close, slightly low-angle product shot of the Cien Pesos Mallet Cover sitting on the head of a putter, planted on a real green, late golden-hour sun raking across the design — punchy, editorial, no model, just the cover doing the work.",
+    "fills_gap": "Twelve of your active videos run the same 'New Face of Premium Golf' body copy on the same homepage URL — that's one creative as far as Meta's clustering is concerned. A single-product hero on the new Cien Pesos with a specific landing page breaks the cluster and gives the algorithm a fresh distinct concept to test against the broad headcover lane.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a close, slightly low-angle composition showing the Cien Pesos Mallet Cover seated on the head of a mallet putter planted upright in real cut bentgrass on a golf green with a softly out-of-focus fairway and bunker edge in the deep background, with warm late golden-hour sun raking low across the cover from camera-left so the printed graphics and stitched details catch the light and the grass blades show defined shadow texture. Punchy, editorial, premium-DTC commerce mood — confident, bold, irreverent, no model, the product is the entire hero. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact colorway, printed graphic artwork, embroidered/screened text, and finish of the Cien Pesos Mallet Cover exactly as shown in the reference image, including the exact base fabric color, every printed illustration element, and every stitched or printed text element on the cover — strictly NO color shift, NO desaturation, NO recoloring of the printed graphics, NO converting matte to glossy or vice versa, NO substituting the artwork for a generic skull or generic peso design. STRUCTURE — preserve the exact construction: mallet-shaped headcover silhouette with the same proportions as the reference, magnetic closure opening at the back/throat as shown, plush interior lining visible only if shown in reference, all printed and stitched graphics on the front face and side panels in the exact placement and scale as the reference, any visible SWAG branding or skull motif preserved exactly, and the cover seated on a putter head so its full silhouette reads. Do NOT add or remove printed elements, do NOT alter the cover's silhouette or proportions, do NOT add piping, tags, or hardware not present in reference, do NOT swap the closure type, do NOT modify or simplify the artwork, do NOT remove the stitched/printed text. Render the product's fabric, color, finish, printed graphics, stitching, and every visible construction detail (silhouette, closure, interior lining if visible, printed artwork, embroidered text) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Cien Pesos Mallet Cover",
+    "reference_url": "https://swag.golf/products/cien-pesos-mallet-cover",
+    "image_path": "/creatives/swag-golf/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "The headcover-video cluster fatigues inside 10 days — the duplicate lane needs to come down before it drags the broader account.",
+    "headline": "Walk through the Swag Golf refresh plan with Kyle",
+    "body": "Corey, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Pulled from your live Meta Ad Library on May 4, 2026 — 60 active ads went through manually. Public data only; no claims about your CPM, ROAS, or frequency.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
