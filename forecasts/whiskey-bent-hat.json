@@ -1,0 +1,137 @@
+{
+  "brand": "Whiskey Bent Hat Co.",
+  "brand_slug": "whiskey-bent-hat",
+  "first_name": "Will",
+  "website": "https://whiskeybenthatco.com",
+  "generated_date": "May 4, 2026",
+  "read_time_min": 3,
+  "total_ads": 12,
+  "niche": "western apparel",
+  "tldr": "Will, six of your twelve live ads are running the exact same 'Our Quality, Your Logo' custom-embroidery copy word-for-word, and your O'Bannon carousel has been on air for 105 days unchanged. You're running 4 distinct creative concepts across 12 ads — that's below Meta's Andromeda 5-concept floor, which means the algorithm is treating most of your active set as one cluster.",
+  "benchmark": {
+    "your_value_days": 10,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical apparel brand refreshes hero creative every ~21 days; top performers do it every ~14. At your spend velocity and with only 4 concepts in market, Andromeda's October 2025 retrieval engine is clustering your custom-hat ads as a single creative — which compresses your practical refresh window to closer to 10 days until you add concept variety. Apparel CPM bands typically sit in the $9–$14 range, but those numbers move against you fast when one cluster is doing the lifting."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 5,
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "cta": "Learn more",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This exact headline and body are running on six separate ads simultaneously — Andromeda reads that as one creative, not six.",
+        "'Our Quality, Your Logo' is a feature line, not a hook — there's no specificity, no proof, nothing about the buyer (small business owner? team? rancher?).",
+        "All six duplicates point to the same /pages/custom-hats landing destination, so the algorithm has zero diversity signal to redistribute spend across."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 7,
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "cta": "Learn more",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Verbatim duplicate of five other custom-embroidery ads in your active set — semantic similarity north of 95%.",
+        "Static image format with no pattern interrupt; the cluster has no UGC, no founder voice, no shop-floor footage to break it up.",
+        "'Learn more' CTA on a custom-quote intent ad is fine, but it's the only CTA across the entire embroidery cluster — no urgency variant to test."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 8,
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "cta": "Learn more",
+      "fatigue_score": 90,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Third copy of the same ad in your live set — at this point you're spending against yourself.",
+        "Body copy says 'Same Whiskey Bent quality' but doesn't define what that means to a business buyer (durability? stitch count? wool weight?).",
+        "Launched in the same five-day cluster as the other embroidery ads — Andromeda treats simultaneous launches with identical copy as a single concept signal."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 9,
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "cta": "Learn more",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Fourth identical embroidery ad — these are running in parallel, not sequenced as a test.",
+        "No proof element: no count of customers served, no logo wall, no sample stitch close-up.",
+        "Static image cluster with zero motion in your B2B lane — competing custom-apparel brands are running shop-floor video."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 10,
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "cta": "Learn more",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Fifth duplicate of the embroidery copy — the cluster is large enough that retrieval suppression is the likely outcome.",
+        "Headline 'Our Quality, Your Logo' is generic to any custom-apparel brand; nothing in it says Whiskey Bent specifically.",
+        "Same five-day launch window as siblings — concentrated launch with no copy variation reads as one concept to the algorithm."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Starting from $10",
+      "body": "Premium blank trucker hats. Same Whiskey Bent quality. Bulk discounts available.",
+      "fatigue_score": 68,
+      "days_until_fatigue": 16
+    },
+    {
+      "headline": "NEW HATS!",
+      "body": "NEW DROP: Banquet Black!",
+      "fatigue_score": 38,
+      "days_until_fatigue": 38
+    },
+    {
+      "headline": "Our Quality, Your Logo",
+      "body": "Custom embroidered hats for your business. Same Whiskey Bent quality with your logo.",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Heritage Hook — '1906 Stitch'",
+    "format": "Static image",
+    "hook": "Made the way ranch hats were made in 1906.",
+    "headline": "Black Trucker. White Rope.",
+    "primary_text": "We started in 1906 on a Texas ranch — long before 'lifestyle apparel' was a phrase anyone said out loud.\n\nThe Black Trucker with white rope is the same shape you've seen on a foreman's head for four generations: clean black crown, contrast white braid across the front, snap-back fit. Built for the truck, the chute, and the bar afterward.\n\nShop the drop — same Whiskey Bent quality, none of the fuss.",
+    "cta": "Shop Now",
+    "visual_direction": "The Black Trucker White Rope hat resting on the weathered wood of a ranch fence post in late afternoon Texas light, with a coil of working rope softly out of focus behind it.",
+    "fills_gap": "Your live set is six identical custom-embroidery ads, three identical 'Starting from $10' blank-trucker ads, and a 105-day-old O'Bannon carousel — there is nothing in market right now that leans on the 1906 heritage story or treats a hero SKU as a single, styled lifestyle moment. This concept introduces a new angle (heritage), a new visual lane (lifestyle context, not studio render), and a hero-product focus your other ads aren't carrying.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a rugged Western ranch setting — the hat resting flat on the weathered top rail of an aged wooden corral fence, with a coiled working lariat softly out of focus in the background, dust and dry grass texture suggesting late-afternoon on a working Texas ranch, with warm golden-hour sidelight raking across the hat's brim and crown to bring out the texture of the black panel and the white rope braid. Heritage Western lifestyle aesthetic — earned, weathered, masculine, no costume cosplay; the styling should feel like a real foreman set the hat down for a minute, not a studio shoot. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep black colorway of the front trucker panel, the exact bright white twisted-rope braid running across the front of the crown, and the mesh-back trucker construction exactly as shown — strictly NO color shift to grey, charcoal, navy, or off-black, NO yellowing or cream-shifting of the white rope, NO swap of the mesh back to a solid panel. STRUCTURE — preserve the exact construction: classic six-panel trucker silhouette with structured front crown, solid black front two panels, mesh back four panels, flat brim (or pre-curved exactly as shown in reference), single white twisted-rope braid stitched across the front above the brim, snap-back closure at the rear, and any front-panel embroidered logo/patch/text exactly as it appears in the reference image. PRESERVE any embroidered Whiskey Bent logo, patch, or text on the front panel exactly as shown — every stitch, every color, same placement and scale. Do NOT add or remove panels, do NOT change the brim shape or length, do NOT add a second rope or remove the rope, do NOT swap snap-back for fitted or strap-back, do NOT remove or alter the front embroidery or patch, do NOT add eyelets or grommets not present in reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Black Trucker White Rope",
+    "reference_url": "https://whiskeybenthatco.com/products/black-trucker-white-rope",
+    "image_path": "/creatives/whiskey-bent-hat/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Six of your twelve ads hit the danger band inside the next 7 days.",
+    "headline": "Walk through the Whiskey Bent Hat Co. refresh plan with Kyle",
+    "body": "Will, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We went through every ad currently live on your Meta Ad Library page, mapped concept clusters, copy duplication, and days-running against Andromeda's 2025–2026 retrieval rules. We do not have access to your account, so all numbers are public-data shape estimates, not your reported metrics.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
