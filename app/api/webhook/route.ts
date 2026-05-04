@@ -197,10 +197,19 @@ async function githubPut(path: string, contentBase64: string, message: string): 
 }
 
 async function downloadImageBase64(url: string): Promise<string> {
-  const res = await fetch(url);
-  if (!res.ok) throw new Error(`Image download failed: ${res.status} ${url}`);
-  const buf = Buffer.from(await res.arrayBuffer());
-  return buf.toString("base64");
+  let lastErr: unknown;
+  for (let attempt = 0; attempt < 2; attempt++) {
+    try {
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`Image download failed: ${res.status} ${url}`);
+      const buf = Buffer.from(await res.arrayBuffer());
+      return buf.toString("base64");
+    } catch (e) {
+      lastErr = e;
+      if (attempt === 0) await new Promise((r) => setTimeout(r, 500));
+    }
+  }
+  throw lastErr;
 }
 
 function compactCount(totalUsable: number): number {
@@ -458,7 +467,7 @@ Q4 timing: ${q4.label}${q4.in_q4 ? " — if you flag stale hero, mention they're
   // Pick a slightly larger pool than we'll display so the pipeline can fall
   // back when Apify image URLs 404 at download time. Render only the top 5
   // that upload cleanly.
-  const candidateK = Math.min(7, adsWithImages);
+  const candidateK = Math.min(10, adsWithImages);
   const compactK = compactCount(totalUsable);
 
   const heroProductLine = heroProductTitle
