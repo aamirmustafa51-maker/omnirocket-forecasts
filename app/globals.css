@@ -520,6 +520,7 @@ p { margin: 0 0 14px; }
   margin-bottom: 10px;
 }
 .next-step p { font-size: 16px; color: var(--ink); margin-bottom: 18px; }
+.next-step .next-step-body { white-space: pre-line; }
 .cta-row {
   display: flex;
   justify-content: center;

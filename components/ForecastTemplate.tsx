@@ -355,7 +355,7 @@ export default function ForecastTemplate({
       <div className="next-step">
         <div className="urgency">⚠ {stripTokens(data.next_step.urgency)}</div>
         <h2>{stripTokens(data.next_step.headline)}</h2>
-        <p>{stripTokens(data.next_step.body)}</p>
+        <p className="next-step-body">{stripTokens(data.next_step.body)}</p>
         <div className="cta-row">
           <a
             className="cta-primary"

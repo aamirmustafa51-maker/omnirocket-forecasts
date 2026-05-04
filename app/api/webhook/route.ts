@@ -647,6 +647,12 @@ type ForecastJson = {
     reference_title?: string | null;
     reference_url?: string | null;
   };
+  next_step?: {
+    urgency?: string;
+    headline?: string;
+    body?: string;
+    calendly_url?: string;
+  };
 };
 
 
@@ -767,6 +773,14 @@ export async function POST(req: NextRequest) {
       throw new Error("Claude returned no text content");
     }
     const forecastJson = extractJson(textBlock.text) as ForecastJson;
+
+    // Lock next_step headline + body to a fixed template — value-stack copy
+    // tested with Kyle. Only `urgency` stays Claude-generated (dynamic per the
+    // analysis). Server-side overwrite avoids any drift on the offer copy.
+    if (forecastJson.next_step) {
+      forecastJson.next_step.headline = `Walk through the ${payload.lead_company} refresh plan with Kyle`;
+      forecastJson.next_step.body = `${payload.lead_first_name}, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.`;
+    }
 
     // 4. Try to upload images for ALL of Claude's candidates (up to 7).
     // Keep only the top 5 by fatigue_score that succeeded, then renumber 1..5.
