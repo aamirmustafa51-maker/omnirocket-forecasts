@@ -628,7 +628,16 @@ function extractJson(raw: string): unknown {
   const start = raw.indexOf("{");
   const end = raw.lastIndexOf("}");
   if (start === -1 || end === -1) throw new Error("No JSON object in Claude response");
-  return JSON.parse(raw.slice(start, end + 1));
+  const slice = raw.slice(start, end + 1);
+  try {
+    return JSON.parse(slice);
+  } catch (e) {
+    // Claude occasionally emits unescaped control chars (raw \n, \t, \r) inside
+    // string values, which JSON.parse rejects. Strip them and retry once before
+    // surfacing the failure.
+    const sanitized = slice.replace(/[\u0000-\u001F]+/g, " ");
+    return JSON.parse(sanitized);
+  }
 }
 
 type ForecastJson = {
