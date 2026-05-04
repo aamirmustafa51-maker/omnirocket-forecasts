@@ -1,0 +1,131 @@
+{
+  "brand": "L.Cuppini",
+  "brand_slug": "l-cuppini-v3",
+  "first_name": "Lea",
+  "website": "https://lcuppini.com",
+  "generated_date": "May 4, 2026",
+  "read_time_min": 3,
+  "total_ads": 7,
+  "niche": "luxury outerwear",
+  "tldr": "Lea, all seven of your live ads are running the same two-line shipping-and-discount message — `All U.S. Orders Ship and Return from Texas` paired with `Take 15% off your first purchase 🤍` — just shuffled between headline and body slots. Every ad shipped 21 days ago, nothing has been added since, and the whole set is now sitting at the edge of fatigue with zero product story, zero founder voice, and zero hero piece in the creative.",
+  "benchmark": {
+    "your_value_days": 21,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're running 4 distinct creative concepts across 7 ads — that's below Meta's Andromeda 5-concept floor, which means the retrieval engine is treating most of your set as one cluster and only surfacing whichever ad wins inside that cluster. Other luxury outerwear brands at your scale typically refresh hero creative every ~21 days; the top performers are at ~14."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Headline leads with a logistics fact (Texas shipping) instead of the product — for a leather and suede label, this buries the brand under a fulfillment line",
+        "Body copy `Take 15% off your first purchase 🤍` is duplicated verbatim across five of your seven live ads — Andromeda is clustering these together",
+        "21 days in, video format is the most-fatigued of your three formats because it competes most directly against fresh video in feed"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 2,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Identical headline and body to your other Texas-shipping video — Meta sees these as a single concept, not two ads",
+        "No product mentioned anywhere in the copy — landing page is `/collections/leather-jackets` but a viewer has no idea what they're clicking toward",
+        "Burst-and-stall pattern: all 7 ads shipped on the same day 21 days ago, no fresh creative since, so the cluster has no escape valve"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 1,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Static image carrying the same shipping-line headline as your videos — no differentiation by format",
+        "`Take 15% off your first purchase 🤍` is your default body across the set; the heart emoji is the only voice signal anywhere in the account",
+        "Past your typical 21-day refresh window with no replacement queued — practical fatigue window is closing this week"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 5,
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "cta": "Shop now",
+      "fatigue_score": 85,
+      "days_until_fatigue": 9,
+      "severity": "danger",
+      "drivers": [
+        "Third static running the identical headline-body combination — three near-duplicates inside one format",
+        "No product name, no material, no founder voice — for a London leather house this reads like a Shopify default banner",
+        "All traffic pointed at `/collections/leather-jackets` regardless of what the image shows; landing destination is doing none of the segmenting work"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 3,
+      "headline": "Take 15% off your first purchase 🤍",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "cta": "Shop Now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": [
+        "Same two lines as the other five, just flipped — headline becomes body, body becomes headline. Andromeda reads this as the same concept",
+        "Carousel format wasted on a discount-and-shipping message; carousels work hardest when each card carries a different product or angle",
+        "Heart emoji as the only brand signal in a 6-word headline — this is leading with a coupon, not a leather jacket"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "All U.S. Orders Ship and Return from Texas",
+      "body": "Take 15% off your first purchase 🤍",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7
+    },
+    {
+      "headline": "Take 15% off your first purchase 🤍",
+      "body": "All U.S. Orders Ship and Return from Texas",
+      "fatigue_score": 81,
+      "days_until_fatigue": 11
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Founder-led suede shorts in editorial daylight",
+    "format": "Static image",
+    "hook": "Suede that earns its place in May.",
+    "headline": "The Laura Suede Shorts",
+    "primary_text": "When I started L.CUPPINI in London in 2019, the rule was that nothing leaves the studio unless it earns its place in your wardrobe past one season.\n\nThe Laura Suede Shorts are cut high on the waist, mid-thigh, in a butter-soft suede we sourced specifically because it holds its shape after a summer of wear. Pair them with a white tee in May, layer them under one of our leather jackets in October.\n\n15% off your first piece, and U.S. orders ship and return from Texas.\n— Lea",
+    "cta": "Shop Now",
+    "visual_direction": "Editorial daylight shot of the Laura Suede Shorts laid flat or styled on a model's lap against a clean off-white surface, with a folded white tee and a worn leather jacket placed beside them to signal the seasonless layering story.",
+    "fills_gap": "Every one of your seven live ads is leading with shipping logistics or a discount line — there is no product, no material, no founder voice, and no specific SKU anywhere in the active set. This concept gives Andromeda a genuinely different cluster to surface: a named product, a tactile material story, and Lea speaking directly.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean off-white linen surface with a softly folded white cotton tee and a worn black leather jacket placed nearby to suggest seasonless layering, with bright diffused natural daylight from a tall studio window casting soft shadows. Clean editorial London-studio aesthetic in the spirit of L.Cuppini's founder-led brand: minimal, tactile, premium, neutral palette with the suede as the only color note. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact warm tan/caramel suede color and matte napped suede texture of the Laura Suede Shorts exactly as shown in the reference image; strictly NO chocolate brown, NO black, NO beige-grey, NO leather-shine finish, NO color shift toward pink, orange, or yellow, and NO smoothing of the suede nap into flat fabric. STRUCTURE — preserve the exact construction: high-rise waistband with the original button/zip closure exactly as shown, mid-thigh inseam length, the original belt loop count and pocket configuration as shown in the reference, suede front and back panels with the same seam placement. Do NOT add or remove belt loops, pockets, buttons, zippers, or pleats, do NOT change the rise from high to mid or low, do NOT shorten or lengthen the inseam, do NOT change to a tapered or flared silhouette, do NOT add cuffs or rolled hems that aren't in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "The Laura Suede Shorts",
+    "reference_url": "https://lcuppini.com/products/laura-suede-shorts",
+    "image_path": "/creatives/l-cuppini-v3/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your top two ads hit terminal fatigue inside the next week.",
+    "headline": "Walk through the L.Cuppini refresh plan with Kyle",
+    "body": "Lea, in 30 minutes we'll map the next 30 days of creative — five fresh concepts to clear the Andromeda floor, with Laura Suede Shorts and the leather-jacket hero piece anchoring the rotation. You'll leave the call with the shot list and copy directions, whether or not we work together.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We mapped every currently-running L.Cuppini ad in the public Meta Ad Library, scored each on six fatigue signals (format, hook, headline, CTA, landing destination, launch cluster), and compared against 2026 Andromeda concept-floor norms — no private account access required.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
