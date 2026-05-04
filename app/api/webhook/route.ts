@@ -104,7 +104,7 @@ async function apifyScrape(fbTarget: string, isPageId: boolean): Promise<ApifyAd
   const res = await fetch(apifyUrl, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ urls: [{ url }], resultsLimit: 30 }),
+    body: JSON.stringify({ urls: [{ url }], resultsLimit: 100 }),
   });
   if (!res.ok) {
     throw new Error(`Apify failed: ${res.status} ${await res.text()}`);
@@ -416,6 +416,7 @@ function buildPrompt(
   heroProductTitle: string | null,
   scoring: ScoringResult,
   nicheKey: NicheKey,
+  rawScrapeCount: number,
 ) {
   const benchmark = getBenchmark(nicheKey);
   const q4 = q4InflationMultiplier();
@@ -479,7 +480,7 @@ Brand slug: ${slug}
 First name: ${payload.lead_first_name}
 Voice (for replacement copy): ${payload.company_overview_summary}
 Today's date: ${today}
-Total ads scraped (use ALL for pattern analysis): ${totalUsable}
+Total live ads in their Meta Library: ${rawScrapeCount} ${rawScrapeCount === totalUsable ? "" : `(${totalUsable} have usable copy and are listed below for analysis; the remaining ${rawScrapeCount - totalUsable} are DCO template ads or copy-empty variants — count them in the total but don't try to analyze copy you can't see)`}
 Ads with images available: ${adsWithImages}${heroProductLine}
 
 ${factsBlock}
@@ -493,7 +494,7 @@ YOUR TASK
 2. Score each ad 0-10 on 6 fatigue signals (10=severe): FORMAT_REPETITION, HOOK_REPETITION, HEADLINE_PATTERN, CTA_REPETITION, LANDING_DESTINATION, LAUNCH_CLUSTER. Sum and normalize to 0-100. Map to days_until_fatigue: 80-100 → 5-10d, 60-79 → 11-20d, 40-59 → 21-35d, <40 → 36+d. Calibrate scoring against the brand's refresh window (${r.brand_size_threshold_days}d) — an ad past that window with copy duplication should land in the danger band.
 3. Pick the ${candidateK} most fatigued ads THAT HAVE IMAGES (IMG:yes), ranked by fatigue_score descending. Output as full ad cards in "ads", numbered 1..${candidateK} where 1 = most fatigued. Each MUST include a "source_index" field with the [INDEX:N] from above. (We'll display only the top 5 — extras serve as backups when image downloads fail.)
 4. Pick ${compactK} additional representative ads (with or without images) from the remaining set. Output them in "ads_compact". If ${compactK} is 0, return an empty array.
-5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${totalUsable} of their live ads.
+5. Write ONE hero replacement concept (the strongest creative direction you'd ship for this brand right now). Its fills_gap should reference patterns observed across ALL ${rawScrapeCount} of their live ads.
 6. Generate an image_prompt for the hero concept's mockup ad image. Follow the IMAGE PROMPT TEMPLATE strictly.
 
 IMAGE PROMPT TEMPLATE (fill in the {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, and {STRUCTURE_LOCK} slots based on the brand's existing creative style — observed from the ads above — and the concept's visual direction):
@@ -532,7 +533,7 @@ Return a single valid JSON object matching this EXACT schema:
   "website": "https://example.com",
   "generated_date": "${today}",
   "read_time_min": 3,
-  "total_ads": ${totalUsable},
+  "total_ads": ${rawScrapeCount},
   "niche": "ONE plain-English noun the brand's customers would use to describe what they sell — lowercase, 1-3 words, used in a sentence as 'other ___ brands'. Examples: 'jewelry', 'streetwear', 'outerwear', 'luxury womenswear', 'modest fashion', 'sustainable fashion', 'skincare', 'home fragrance'. Avoid jargon ('DTC', 'D2C', 'ecom', 'fashion ecom') and avoid the brand's own name.",
   "tldr": "2-sentence executive summary mentioning fatigue counts and the most pointed observation (concept-count gap, copy duplication, format monoculture, etc.). Do NOT invent CPM/CTR/ROAS figures about THIS brand.",
   "benchmark": {
@@ -641,6 +642,7 @@ function extractJson(raw: string): unknown {
 }
 
 type ForecastJson = {
+  total_ads?: number;
   ads: Array<{
     ad_number: number;
     source_index?: number;
@@ -768,6 +770,7 @@ export async function POST(req: NextRequest) {
       heroProduct?.title ?? null,
       scoring,
       nicheKey,
+      apifyAds.length,
     );
     const systemPrompt = buildSystemPrompt(nicheKey);
 
@@ -782,6 +785,12 @@ export async function POST(req: NextRequest) {
       throw new Error("Claude returned no text content");
     }
     const forecastJson = extractJson(textBlock.text) as ForecastJson;
+
+    // Force total_ads to the raw scrape count — display value, not the
+    // post-body-filter count Claude analyzes from. Keeps the report headline
+    // accurate to "what's actually live in their Library" even when DCO
+    // template ads with empty body get filtered out of analysis.
+    forecastJson.total_ads = apifyAds.length;
 
     // Lock next_step headline + body to a fixed template — value-stack copy
     // tested with Kyle. Only `urgency` stays Claude-generated (dynamic per the
