@@ -1,0 +1,137 @@
+{
+  "brand": "Sauce & Brown",
+  "brand_slug": "sauce-and-brown",
+  "first_name": "Anthony",
+  "website": "https://sauceandbrown.com",
+  "generated_date": "May 4, 2026",
+  "read_time_min": 3,
+  "total_ads": 9,
+  "niche": "menswear",
+  "tldr": "Anthony, your scarcity message — 'Only 100 made' — is doing real work, but it's getting recycled across five of your nine live ads with near-identical body copy, which Andromeda's retrieval engine reads as one concept, not five. Two ads are now past your 28-day refresh window with that same recycled hook, so the danger band is real even though you're shipping fresh creative consistently.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your scale in menswear, the typical brand refreshes hero creative every ~21 days and top performers do it every ~14. Your 28-day window is a touch slow for the category, and the practical window tightens further when the same scarcity line is being re-skinned rather than rewritten."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Only 100 made",
+      "body": "British menswear. Only 100 pieces of each design. Once it's gone, it's gone. Sauce & Brown.",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "55 days running — nearly double your 28-day refresh window, on a carousel where the body copy is identical to three other live ads",
+        "Headline 'Only 100 made' is the most-recycled line in your active set — Andromeda clusters this with the other scarcity ads and serves them as one concept",
+        "Lands on /collections/new-arrivals-1 alongside three other ads pointing at the exact same URL, compounding the cluster"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 2,
+      "headline": "Limited Edition Badge Pack",
+      "body": "Don't Miss Out!",
+      "cta": "Shop Now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 9,
+      "severity": "warn",
+      "drivers": [
+        "46 days running and well past your refresh window with no copy variation",
+        "Body is a two-word generic urgency line — 'Don't Miss Out!' — which under-sells what makes the badge pack worth buying versus everything else in your range",
+        "Only ad in the active set pointing at the badge-pack PDP, so it has no concept siblings to share retrieval load and is being asked to carry the whole sub-funnel alone"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 3,
+      "headline": "The Roots Tee",
+      "body": "Built for everyday wear. The Roots tee — premium weight, clean fit. Limited to 100. No restocks.",
+      "cta": "Shop Now",
+      "fatigue_score": 81,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": [
+        "42 days running on a carousel — past the 28-day window — and the same body copy is duplicated word-for-word in a newer Roots Tee ad you launched two weeks ago",
+        "Two near-identical Roots Tee variants in market means Andromeda is choosing one and starving the other rather than treating them as independent tests",
+        "Headline is the product name, not a benefit or hook — there's no reason for a scroller to stop on it"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 4,
+      "headline": "Only 100 made",
+      "body": "British menswear. Only 100 pieces of each design. Once it's gone, it's gone. Sauce & Brown.",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "21 days running — at the category median already — with body copy duplicated verbatim across three other live ads",
+        "Static image format duplicating a carousel that's been running 55 days; the algorithm reads them as the same concept in a different wrapper",
+        "Same /new-arrivals-1 destination as the other three scarcity ads — there's no funnel differentiation between them"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 7,
+      "headline": "The Roots Tee",
+      "body": "Built for everyday wear. The Roots tee — premium weight, clean fit. Limited to 100. No restocks.",
+      "cta": "Shop Now",
+      "fatigue_score": 72,
+      "days_until_fatigue": 18,
+      "severity": "warn",
+      "drivers": [
+        "14 days in but a verbatim copy of an older Roots Tee carousel that's been running 42 days — Andromeda will treat these two as one concept and only serve the stronger signal",
+        "Same headline, same body, same CTA, same landing page as its older twin — the only thing that changed is the launch date",
+        "Carousel format on a single-product PDP — most of the slots are likely doing the same job a single hero shot would do"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Only 100 made",
+      "body": "British menswear. Only 100 pieces of each design. Once it's gone, it's gone. Sauce & Brown.",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7
+    },
+    {
+      "headline": "The Roots Tee",
+      "body": "Built for everyday wear. The Roots tee — premium weight, clean fit. Limited to 100. No restocks.",
+      "fatigue_score": 76,
+      "days_until_fatigue": 16
+    },
+    {
+      "headline": "Modern British Menswear",
+      "body": "Understated. Considered. Built to last. Clean fits. Proper fabrics.",
+      "fatigue_score": 44,
+      "days_until_fatigue": 33
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Numbered Drop — Piece 47 of 100",
+    "format": "Static image",
+    "hook": "Piece 47 of 100. The other 53 won't last the week.",
+    "headline": "47 of 100 left",
+    "primary_text": "Every Sauce & Brown piece ships with a number stamped inside the collar. The Ash Hoodie is one of 100 — and once we hit 100, the pattern is retired for good.\n\nVintage washed grey cotton fleece, heavyweight body, dropped shoulder. Made for the men who'd rather be the only one in the room wearing it than blend in with everyone wearing the same thing.\n\nWhen it's gone, it's gone. No restocks. No second runs.",
+    "cta": "Shop Now",
+    "visual_direction": "The Ash Hoodie laid flat on a textured concrete surface with the inside collar flipped up to reveal a stamped edition number, shot from directly above in soft daylight.",
+    "fills_gap": "Five of your nine live ads carry the 'Only 100 made' line as an abstract claim — none of them actually show the proof. This concept turns the scarcity story into a visual receipt and locks it to a specific SKU instead of the generic /new-arrivals-1 destination most of your active set is pointed at.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a flat-lay arrangement on a textured raw concrete surface with the inside collar flipped open to reveal a small stamped edition number on the interior collar tape, with {LIGHTING}. Moody, understated British menswear aesthetic — restrained, considered, no clutter, the garment as the hero. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact vintage washed grey colorway of the cotton fleece hoodie, with its slightly faded, lived-in tonal quality — strictly NO charcoal, NO black shift, NO blue-grey shift, NO crisp new-fabric look, NO color saturation boost. STRUCTURE — preserve the exact construction: pullover hoodie silhouette with a single front kangaroo pouch pocket centered below the chest, drawstring hood with two cord ends hanging down, ribbed cuffs at the wrists, ribbed hem at the bottom, long sleeves, dropped shoulder seams as shown in the reference. PRESERVE any printed brand label, woven tag, or stamped marking visible on the interior collar exactly as it appears in the reference — these are part of the product, not overlay text. Do NOT add or remove the kangaroo pocket, do NOT add zippers or buttons (this is a pullover), do NOT change to a zip-up hoodie, do NOT add chest prints or graphics that aren't in the reference, do NOT alter sleeve length or hood construction, do NOT remove the drawstrings. The lighting should be soft, diffused overhead daylight with a gentle directional shadow falling to one side — natural, editorial, not harsh studio. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Ash Hoodie — Vintage Washed Grey",
+    "reference_url": "https://sauceandbrown.com/products/ash-hoodie-vintage-washed-grey",
+    "image_path": "/creatives/sauce-and-brown/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Two ads cross fatigue this week — the 55-day scarcity carousel and the 46-day badge pack.",
+    "headline": "Walk through the Sauce & Brown refresh plan with Kyle",
+    "body": "Anthony, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Built from your live Meta Ad Library set as of May 4, 2026; days-running and copy duplication are observed directly, refresh windows are calibrated to public benchmarks for menswear at your scale.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
