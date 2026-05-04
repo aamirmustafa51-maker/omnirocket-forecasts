@@ -1,0 +1,117 @@
+{
+  "brand": "High Tea with Mrs. Woo",
+  "brand_slug": "high-tea-with-mrs-woo",
+  "first_name": "Angela",
+  "website": "https://highteawithmrswoo.com.au",
+  "generated_date": "May 4, 2026",
+  "read_time_min": 3,
+  "total_ads": 5,
+  "niche": "sustainable fashion",
+  "tldr": "Angela, all five of your live ads launched in the same four-day window and four of them lean on the same 'how do you love to feel in your clothes' brand-voice angle — that's a single concept doing the work of five. Under Andromeda's retrieval clustering, semantically similar creatives get treated as one ad, so you're effectively running a single concept against the auction right now.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're sitting at five distinct concepts, which puts you right at — and arguably below — Meta's Andromeda 5-concept floor for diverse retrieval. Sustainable-fashion brands at your scale typically refresh hero creative every ~28 days; the top operators in apparel are doing it every 14, with much wider angle variety than what's currently live."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Crafted for Comfort, Built to Last",
+      "body": "“As I age, I want my clothes to make me feel like the best version of myself - elegant and confident.” We craft clothing with ethics, sustainability and care. But what matters most is how it makes us feel. ✊🏼 Empowered 🤌🏼 Sophisticated 👌🏼 Effortless How do you love to feel in your clothes? Join us →",
+      "cta": "Shop now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 9,
+      "severity": "danger",
+      "drivers": [
+        "This ad shares its hook DNA with two other live videos — same 'as I age / how do you love to feel in your clothes / Join us →' beats, just reshuffled. Andromeda will cluster these and surface only one.",
+        "The 'Empowered / Sophisticated / Effortless' emoji bullet stack is reused verbatim in another live ad, which is the textbook copy-duplication signal that triggers retrieval suppression on the whole set.",
+        "All five of your ads launched on the same day, so there's no fresh creative behind this one when it cools — the entire set will fatigue together rather than in waves."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 2,
+      "headline": "Crafted for Confidence & Comfort, Style & Sustainability",
+      "body": "Dress how you want to feel 👉🏻 We make clothes for you with care and ethics but what also matters is that they make you feel like the best version of yourself. ✊🏼 Empowered - made with care and ethics 👌🏼 Sophisticated - natural, breathable fabrics 🤌🏼 Effortless - designed for style and comfort Wear your confidence. Join us →",
+      "cta": "Shop now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": [
+        "The headline tries to do four things at once ('Confidence & Comfort, Style & Sustainability') — that's a brand-values list, not a hook. Specificity beats virtue-stacking every time.",
+        "Same 'Empowered / Sophiscated / Effortless' framework as your other live videos, just with sub-bullets bolted on. Andromeda reads this as a near-duplicate of the other brand-voice ads.",
+        "Landing destination is a Facebook canvas doc rather than a product or collection page on your site — that's a friction step and it breaks attribution post-Jan-2026 attribution-window changes."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 1,
+      "headline": "Slow Clothing for Modern Living",
+      "body": "\"I want to wear clothes that make me feel like a better, more elegant version of myself - especially as I age.\" Along with all the ethics, sustainability and care of making clothes the way we do, the big thing really is how it feels when we wear them. It's gotta be damn good 🤌🏼✨ How do you love to feel in your clothes? Join us →",
+      "cta": "Shop now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 12,
+      "severity": "warn",
+      "drivers": [
+        "The customer-quote opener is almost word-identical to your 'Crafted for Comfort, Built to Last' ad — same 'as I age / elegant version of myself' shape. Two ads, one quote.",
+        "'Slow Clothing for Modern Living' is also being used as the body copy on your carousel — same line working as both headline and body across two formats means Andromeda treats them as a pair.",
+        "Lands on /collections/clothing, which is your widest possible page — no specific product pull-through, so the ad-to-page narrative resets at the click."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 3,
+      "headline": "Crafted for Comfort, Built to Last",
+      "body": "Slow Clothing for Modern Living",
+      "cta": "Shop Now",
+      "fatigue_score": 80,
+      "days_until_fatigue": 13,
+      "severity": "warn",
+      "drivers": [
+        "Headline and body are both lifted from other live ads — the headline matches your top video, the body matches another video's headline. This carousel is essentially a remix of copy you're already running.",
+        "Body copy is just five words. With no story, no specificity, and no product callout, the carousel frames are doing all the persuasion work — and we can't see whether they're earning it.",
+        "Carousel format is one of only two non-video creatives you have live. If this fatigues, you lose half your format diversity in a single ad."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 4,
+      "headline": "Light up Every Moment",
+      "body": "Japanese Rice Wax Candles",
+      "cta": "Shop Now",
+      "fatigue_score": 58,
+      "days_until_fatigue": 26,
+      "severity": "ok",
+      "drivers": [
+        "This is the only ad in the set selling a homewares SKU rather than clothing, so it isn't being clustered with the four apparel-voice ads — that's why it scores cleaner.",
+        "Body copy is just the product category name — 'Japanese Rice Wax Candles' tells the algorithm what it is but gives the buyer no reason to click. There's room for a sensory or ritual hook here.",
+        "Headline 'Light up Every Moment' is generic candle-category copy — it could run for any candle brand on Meta. Nothing here makes it unmistakably yours."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "Twenty-Year Quiet — founder origin static",
+    "format": "Static image",
+    "hook": "Twenty years of slow. One blue top.",
+    "headline": "The Significant Other",
+    "primary_text": "Mrs Woo started this label twenty years ago with one quiet idea: clothing that ages with you, made from natural fabrics, made to be kept.\n\nThe Significant Other top in Deep Russian Blue is exactly that piece — a soft, considered shape in a colour we mixed ourselves, cut in a fabric that breathes, drapes, and gets better the more you wear it.\n\nA new arrival from our autumn drop. Free shipping across Australia.",
+    "cta": "Shop Now",
+    "visual_direction": "A single Significant Other top in Deep Russian Blue laid flat on warm natural linen with morning sidelight — quiet, editorial, product-forward, no model.",
+    "fills_gap": "Every live ad you have right now is a brand-voice piece about how clothes make you feel — none of them name a specific product, a specific colour, or your twenty-year heritage. This concept anchors a single SKU in a single story so Andromeda has a meaningfully different creative to retrieve.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a quiet flat-lay scene on a warm natural-linen tablecloth with a folded raw-edge linen napkin and a small ceramic cup of tea placed at the corner, with soft directional morning sidelight casting a gentle long shadow across the fabric. Slow-fashion editorial aesthetic — calm, considered, timeless, the kind of imagery that belongs in an independent Australian apparel brand's lookbook. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep Russian blue colour of the top exactly as shown in the reference image, a rich saturated cool-toned dark blue with no warmth shift; strictly NO navy, NO indigo, NO teal, NO purple shift, NO black shift, NO faded or washed-out rendering, NO warm-tone bias. STRUCTURE — preserve the exact construction of the SIGNIFICANT OTHER top as shown in the reference: same neckline shape, same sleeve length and cuff style, same body silhouette and length, same closure style (buttons, ties, or open placket exactly as in reference, with the same number of any visible buttons or fastenings), same seam placement, same hem finish, and the same natural-fabric drape and texture. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "SIGNIFICANT OTHER top - Deep Russian Blue",
+    "reference_url": "https://highteawithmrswoo.com.au/products/significantother-top-deeprussianblue",
+    "image_path": "/creatives/high-tea-with-mrs-woo/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your top three ads cool inside the next two weeks — and they all launched on the same day.",
+    "headline": "Walk through the High Tea with Mrs. Woo refresh plan with Kyle",
+    "body": "Angela, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Built from a manual walk-through of your live Meta Ad Library creatives on May 4, 2026 — public data only, no account access, no private metrics."
+}
