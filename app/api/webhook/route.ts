@@ -704,6 +704,19 @@ export async function POST(req: NextRequest) {
 
   const slug = slugify(payload.lead_company);
   const tag = `${payload.lead_company} (${payload.lead_email})`;
+  const forecastUrl = `https://omnirocket-forecasts.vercel.app/forecast/${slug}`;
+
+  // Idempotency: if forecast already exists for this slug, re-Slack and exit.
+  // Smartlead fires Lead Category Updated on activity beyond manual recategorization,
+  // so we guard against duplicate pipeline runs at the slug level.
+  const existingSha = await githubGetSha(`forecasts/${slug}.json`);
+  if (existingSha) {
+    console.log(`[webhook] forecast already exists for ${slug}, skipping pipeline`);
+    await postSlack(
+      `🔁 *Duplicate fire skipped* — ${tag} already has a forecast.\n🔗 ${forecastUrl}`,
+    );
+    return NextResponse.json({ ok: true, status: "already_exists", url: forecastUrl });
+  }
 
   // No FB target → manual handling
   const fbTarget = payload.facebook_page_id || payload.facebook_url || "";
