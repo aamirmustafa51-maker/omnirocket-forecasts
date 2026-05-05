@@ -77,6 +77,25 @@ const slugify = (s: string): string =>
 
 const stripNewlines = (s: string): string => s.replace(/[\r\n]+/g, " ").trim();
 
+function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
+  const r = (raw ?? {}) as Record<string, unknown>;
+  const leadData = (r.lead_data ?? {}) as Record<string, unknown>;
+  const cf = (leadData.custom_fields ?? {}) as Record<string, unknown>;
+  const str = (v: unknown): string => (typeof v === "string" ? v : "");
+  const optStr = (v: unknown): string | undefined => (typeof v === "string" && v ? v : undefined);
+
+  return {
+    lead_email: str(r.lead_email) || str(leadData.email),
+    lead_first_name: str(leadData.first_name) || str(r.lead_name),
+    lead_company: str(leadData.company_name),
+    company_overview_summary: str(cf["Company_Overview_(Response)"]),
+    facebook_page_id: optStr(cf.Page_Id),
+    facebook_url: optStr(cf.Facebook_Url),
+    website_url: optStr(leadData.website),
+    category: optStr(cf.Category),
+  };
+}
+
 async function postSlack(text: string): Promise<void> {
   try {
     await fetch(env("SLACK_WEBHOOK_URL"), {
@@ -667,21 +686,21 @@ type ForecastJson = {
 
 
 export async function POST(req: NextRequest) {
-  let payload: WebhookPayload;
   let rawBody: unknown;
   try {
     rawBody = await req.json();
-    payload = rawBody as WebhookPayload;
   } catch {
     return NextResponse.json({ error: "invalid json" }, { status: 400 });
   }
 
-  console.log("[webhook] received payload:", JSON.stringify(rawBody));
+  const payload = normalizeSmartleadPayload(rawBody);
 
   if (!payload.lead_company) {
-    console.log("[webhook] missing lead_company. Keys present:", Object.keys(rawBody as object));
+    console.log("[webhook] missing lead_company after normalization. Raw payload:", JSON.stringify(rawBody));
     return NextResponse.json({ error: "missing required fields" }, { status: 400 });
   }
+
+  console.log(`[webhook] normalized payload for ${payload.lead_company} (${payload.lead_email})`);
 
   const slug = slugify(payload.lead_company);
   const tag = `${payload.lead_company} (${payload.lead_email})`;
