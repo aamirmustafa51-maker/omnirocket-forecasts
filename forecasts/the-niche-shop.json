@@ -7,12 +7,12 @@
   "read_time_min": 3,
   "total_ads": 5,
   "niche": "vintage fashion",
-  "tldr": "Nichole, all five of your live ads are past their refresh window — three are sitting at 71 days running, and the same 'NYC vintage shopping + custom Italian charm bracelet = elite combo' line is pasted verbatim across two of your videos. Bigger picture: you're running 2 distinct concepts across 5 ads, which sits below Meta's Andromeda 5-concept floor and is actively suppressing reach.",
+  "tldr": "Three of your five live ads are in the danger band, and all five point to Instagram instead of a shoppable destination. The bigger structural issue: you're running two distinct creative concepts across five ads, which sits below Meta's Andromeda 5-concept floor — the system is treating most of these as one ad.",
   "benchmark": {
     "your_value_days": 28,
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "Other vintage fashion brands at your scale typically refresh hero creative around every 21 days; the top performers are at 14. Your active set has been untouched for 64-71 days, and you're sitting at 2 distinct concepts — Meta's Andromeda retrieval engine treats anything below 5 concepts as a single cluster, which compresses delivery regardless of how many ads you stack on top."
+    "context": "The typical vintage fashion brand refreshes hero creative every ~21 days; top performers cycle every ~14. You've had the same five ads in market for 64–71 days with only two distinct concepts behind them — Meta's Andromeda retrieval engine (Oct 2025) requires at least 5 distinct concepts in an ad set to avoid cluster suppression, so functionally you're competing with yourself."
   },
   "ads": [
     {
@@ -21,13 +21,13 @@
       "headline": "",
       "body": "NYC vintage shopping + custom Italian charm bracelet = elite combo.",
       "cta": "Visit Instagram profile",
-      "fatigue_score": 92,
+      "fatigue_score": 91,
       "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "Body copy is identical to another live video — same one-line hook, no variation. Andromeda clusters these as a single ad.",
-        "No headline on this ad — the body is doing all the work, and a single-line hook with no headline gives Meta nothing to A/B at the asset level.",
-        "64 days running, more than double your 28-day refresh window. The cluster has been served past the point of diminishing returns."
+        "No headline on this ad — the one-line body is doing all the work, and Meta has nothing to A/B in the headline slot, which compresses delivery.",
+        "Body copy is word-for-word identical to another live video ad you have running, so Andromeda is reading these as a single creative.",
+        "Day 64 with no refresh — well past your 28-day window and 3x the top-quartile cycle for vintage fashion."
       ]
     },
     {
@@ -36,83 +36,83 @@
       "headline": "",
       "body": "NYC vintage shopping + custom Italian charm bracelet = elite combo.",
       "cta": "Visit Instagram profile",
-      "fatigue_score": 91,
-      "days_until_fatigue": 5,
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Verbatim duplicate of another live video — Andromeda's retrieval clustering treats these as the same creative, so you're paying for two impressions of one concept.",
-        "No headline field filled — same gap as its twin, which means neither ad benefits from headline-level diversity.",
-        "71 days in market with no refresh. Vintage/lifestyle creative typically loses pattern-interrupt power around day 21-28."
+        "No headline on this ad — same blank-headline pattern across all three of your video ads, leaving placement variants without a hook to test.",
+        "Identical body to your other charm-bracelet video — duplicate copy on duplicate format means the Andromeda cluster is collapsing both into one served creative.",
+        "71 days running on a single one-line concept, with no offer, no scarcity, and no second angle layered in."
       ]
     },
     {
       "ad_number": 3,
-      "source_index": 1,
-      "headline": "instagram.com",
-      "body": "Warning: you're about to become a regular 👀 Say hello to your new favorite vintage store. Fresh vintage and secondhand finds for women + men and home decor that sparks joy. Come visit and see for yourself  📍 Upper East Side - 311 E 81st  📍Upper West Side -  2206 Broadway",
-      "cta": "Visit Instagram profile",
-      "fatigue_score": 78,
-      "days_until_fatigue": 12,
-      "severity": "warn",
-      "drivers": [
-        "Headline auto-fills as 'instagram.com' — that's the URL pulling through, not a written headline. You're losing your strongest above-the-fold real estate.",
-        "Same store-visit framing and same two-address footer as another live static — copy reads as a duplicate concept with light rewording.",
-        "71 days running on a static format. Static creative without rotation is the fastest cluster to fatigue under Andromeda."
-      ]
-    },
-    {
-      "ad_number": 4,
-      "source_index": 3,
-      "headline": "instagram.com",
-      "body": "We don't gatekeep! Colorful racks. Fun finds. Women's, men's, accessories, Italian charms, and home decor waiting for you. Come visit and see what everyone's talking about  📍 Upper East Side - 311 E 81st  📍Upper West Side -  2206 Broadway",
-      "cta": "Visit Instagram profile",
-      "fatigue_score": 76,
-      "days_until_fatigue": 13,
-      "severity": "warn",
-      "drivers": [
-        "Headline is the URL ('instagram.com') instead of a written line — Meta pulls the domain when you leave the field blank, and it costs you the headline slot entirely.",
-        "Identical address block and store-visit CTA as the other static. Two ads, same concept, light copy variation = one cluster in Andromeda's eyes.",
-        "71 days in flight. The 'Come visit' angle has been the only foot-traffic message running for 10+ weeks straight."
-      ]
-    },
-    {
-      "ad_number": 5,
       "source_index": 0,
       "headline": "",
       "body": "Finding and sharing the best vintage in NYC. One-of-a-kind pieces you won't find anywhere else. Stop by and discover your next favorite fit.",
       "cta": "Visit Instagram profile",
-      "fatigue_score": 72,
-      "days_until_fatigue": 15,
+      "fatigue_score": 82,
+      "days_until_fatigue": 9,
       "severity": "warn",
       "drivers": [
-        "No headline written — the video has to carry both the hook and the headline slot, which weakens stop-rate on feed scroll.",
-        "Body recycles the same 'NYC vintage / one-of-a-kind / come visit' angle that runs across the rest of the active set. No second concept lane.",
-        "71 days running. Past every refresh benchmark — your own 28-day window, the category median, and the top-quartile bar."
+        "No headline on this ad — third video in a row with the headline slot left empty, which is the single biggest delivery lever you're not using.",
+        "71 days in market with the same generic 'one-of-a-kind pieces' framing — no specific product, no price anchor, no reason-to-act-now.",
+        "Landing destination is Instagram, not a product page or category — every click leaks out of any kind of measurable funnel."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 1,
+      "headline": "instagram.com",
+      "body": "Warning: you're about to become a regular 👀 Say hello to your new favorite vintage store. Fresh vintage and secondhand finds for women + men and home decor that sparks joy. Come visit and see for yourself  📍 Upper East Side - 311 E 81st  📍Upper West Side -  2206 Broadway",
+      "cta": "Visit Instagram profile",
+      "fatigue_score": 71,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Headline reads 'instagram.com' — that's the auto-pulled URL, not a written headline, so Meta is rendering a literal domain string where a hook should be.",
+        "Same store-locator pin block appears on a second live static, so the two image ads are doing nearly identical jobs in the cluster.",
+        "Day 71 with zero refresh and a burst-and-stall launch pattern — every ad in your account shipped within a week of each other and nothing has gone live since."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 3,
+      "headline": "instagram.com",
+      "body": "We don't gatekeep! Colorful racks. Fun finds. Women's, men's, accessories, Italian charms, and home decor waiting for you. Come visit and see what everyone's talking about  📍 Upper East Side - 311 E 81st  📍Upper West Side -  2206 Broadway",
+      "cta": "Visit Instagram profile",
+      "fatigue_score": 68,
+      "days_until_fatigue": 16,
+      "severity": "warn",
+      "drivers": [
+        "Headline is 'instagram.com' again — same auto-domain default as your other static, no actual written hook.",
+        "Body lists six product categories ('Women's, men's, accessories, Italian charms, and home decor') in one sentence — broad-everything copy underperforms a single-product hero in Andromeda's clustering.",
+        "71 days running, paired with a near-twin static ad, so you have two ads competing for the same impression at the same age."
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "Charm-of-the-Week Close-Up",
+    "concept_name": "One Charm, One Story",
     "format": "Static image",
-    "hook": "The charm everyone keeps asking about.",
-    "headline": "Build it. Wear it. Keep it.",
-    "primary_text": "Every week, one Italian charm walks out of the shop more than the others. This week it's the Music Note — soldered onto wrists from the Upper East Side to the Upper West.\n\nThe charm bar is open seven days a week at both stores. Pick your bracelet, pick your charms, walk out wearing it. No assembly line, no waiting on shipping — it's built in front of you.\n\n📍 311 E 81st  📍 2206 Broadway. Stop in this weekend.",
-    "cta": "Get Directions",
-    "visual_direction": "Macro overhead shot of the Music Note charm on a soft cream linen surface beside an in-progress charm bracelet, shallow depth of field, golden-hour window light.",
-    "fills_gap": "Your active set has zero product-forward creative — every ad is either a wide store hype-video or an address-and-emoji static, with the charm bracelet only mentioned as a one-liner. A close-up product shot of the actual hero SKU opens a second concept lane and gets you above the Andromeda 5-concept floor.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a macro overhead flat-lay on a cream linen surface with one in-progress charm bracelet softly out of focus in the background, with warm golden-hour window light raking from the upper left and casting soft natural shadows. Editorial vintage-shop aesthetic — warm, tactile, hand-crafted, mirroring the curated 'one-of-a-kind' feel of the brand's own video creative. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact gold-tone Italian charm metal finish, the exact engraved music-note motif, and the exact polished surface treatment shown in the reference; strictly NO silver, white-gold, rose-gold, brass-shift, or warm-to-cool tone bias, and NO recoloring of the charm body. STRUCTURE — preserve the exact construction: a single Italian charm tile featuring the engraved music-note (eighth-note / quaver) motif on the front face, with the same charm-tile shape, the same edge profile, and the same connector loops/links on the sides exactly as shown in the reference. Do NOT add or remove charm links, do NOT change the music-note engraving into a different symbol, do NOT alter the tile shape, do NOT add gemstones or enamel that aren't present, do NOT modify the connector hardware. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "hook": "The charm she'll never take off.",
+    "headline": "Music Note charm — $42",
+    "primary_text": "Every Italian charm we sell has a reason behind it. The Music Note is for the friend who always knew the lyrics first, the one who made you a playlist before she texted back.\n\nHand-finished sterling silver, sized for our ready-to-wear charm bracelets or yours. One piece, one meaning — not another generic 'fun find.'\n\nShop the Music Note charm in-store at 311 E 81st & 2206 Broadway, or DM @the.niche.shop to reserve.",
+    "cta": "Shop Now",
+    "visual_direction": "A single Music Note sterling silver charm shown in macro on a soft neutral linen surface, with one bracelet softly out of focus behind it — quiet, editorial, the opposite of the busy storefront energy in your current ads.",
+    "fills_gap": "Every one of your live ads is broad store-promotion copy ('colorful racks,' 'fun finds,' 'one-of-a-kind pieces') with no specific product, no price, and no headline. This concept gives Andromeda a third distinct creative angle anchored on a single SKU with a real headline filled in — which is the exact gap that's keeping you under the 5-concept floor.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft neutral linen surface flat-lay with a single ready-to-wear charm bracelet softly blurred in the background, with diffused natural daylight from a north-facing window casting gentle shadows. Minimal, quiet editorial aesthetic in the spirit of a curated Upper East Side boutique — warm but restrained, no clutter, generous negative space. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve sterling silver / .925 silver finish on the Music Note charm exactly as shown — strictly NO gold, brass, yellow, copper, rose gold, or warm metallic tones; the metal must read cool silver-white. STRUCTURE — preserve the exact construction of the Music Note charm: same musical note silhouette (eighth note or whichever exact note shape is shown in the reference), same proportions of the note head and stem, same bail/loop at the top for attaching to a bracelet, same polished finish vs. textured areas as shown. Do NOT add gemstones, do NOT add engravings or text not present, do NOT alter the note shape, do NOT change the bail style, do NOT add a second charm. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "Music Note",
     "reference_url": "https://thenicheshop.co/products/green-music-note-italian-charm",
     "image_path": "/creatives/the-niche-shop/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Two of your ads hit cluster fatigue inside the next 5 days.",
+    "urgency": "Three ads cross the danger line in the next 6–9 days.",
     "headline": "Walk through the The Niche Shop refresh plan with Kyle",
     "body": "Nichole, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "We went through every live ad in your Meta Ad Library and mapped concept count, copy duplication, format mix, and days-running against current Andromeda retrieval rules. No private account data was used.",
+  "method_note": "I went through every live ad in your Meta Ad Library on May 5, 2026 and mapped fatigue signals against current Andromeda clustering rules; I don't have access to your ad account, so days-running, concept count, and copy duplication are the proxies in play.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
