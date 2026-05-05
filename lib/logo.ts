@@ -18,7 +18,9 @@ export async function fetchProspectLogoUrl(websiteUrl: string): Promise<string |
     const html = await res.text();
     const base = new URL(res.url);
 
-    // Prefer largest apple-touch-icon, fall back to og:image, then favicon.
+    // Prefer apple-touch-icon, fall back to favicon. Skip og:image — it's
+    // the brand's social-share image (often a hero/lifestyle photo, not a logo).
+    // Twenty Compass case: og:image was a 4999x2800 slideshow of a model.
     const candidates: string[] = [];
 
     const appleMatches = [...html.matchAll(/<link[^>]+rel=["'](?:apple-touch-icon[^"']*)["'][^>]*>/gi)];
@@ -26,9 +28,6 @@ export async function fetchProspectLogoUrl(websiteUrl: string): Promise<string |
       const href = /href=["']([^"']+)["']/i.exec(m[0])?.[1];
       if (href) candidates.push(href);
     }
-
-    const og = /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i.exec(html)?.[1];
-    if (og) candidates.push(og);
 
     const iconMatches = [...html.matchAll(/<link[^>]+rel=["'](?:icon|shortcut icon)["'][^>]*>/gi)];
     for (const m of iconMatches) {
