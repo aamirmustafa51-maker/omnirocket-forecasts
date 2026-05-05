@@ -12,7 +12,6 @@ type WebhookPayload = {
   lead_email: string;
   lead_first_name: string;
   lead_company: string;
-  normalized_company_name: string;
   company_overview_summary: string;
   facebook_page_id?: string;
   facebook_url?: string;
@@ -675,11 +674,11 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "invalid json" }, { status: 400 });
   }
 
-  if (!payload.lead_company || !payload.normalized_company_name) {
+  if (!payload.lead_company) {
     return NextResponse.json({ error: "missing required fields" }, { status: 400 });
   }
 
-  const slug = slugify(payload.normalized_company_name);
+  const slug = slugify(payload.lead_company);
   const tag = `${payload.lead_company} (${payload.lead_email})`;
 
   // No FB target → manual handling
