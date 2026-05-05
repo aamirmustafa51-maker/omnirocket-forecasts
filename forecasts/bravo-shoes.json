@@ -1,0 +1,87 @@
+{
+  "brand": "Bravo Shoes",
+  "brand_slug": "bravo-shoes",
+  "first_name": "Tom",
+  "website": "https://shopbybravo.com",
+  "generated_date": "May 5, 2026",
+  "read_time_min": 3,
+  "total_ads": 3,
+  "niche": "formal footwear",
+  "tldr": "Tom — went through your three live Meta ads and the picture is stark: two of them have been running unchanged for 151 days, and you're sitting at three distinct concepts when Meta's Andromeda retrieval engine wants at least five to avoid clustering you into one bucket. The Vanderpump tumbler and Bravoholic sweatshirt ads are well past any reasonable refresh window for an apparel-adjacent account.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Your hero refresh window sits around 28 days, while the typical apparel brand refreshes every ~21 and the top performers ship fresh creative every ~14. More urgent: you're running 3 distinct concepts — below Meta's Andromeda 5-concept floor — which means the algorithm is treating your active set as functionally one ad and suppressing reach across the cluster."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Vanderpump Rules It's Not about the Pasta 12 oz Stainless Steel Wine Tumbler",
+      "body": "Make sure your love for Bravo is always on display with new apparel and merch from Shop by Bravo.",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "151 days running unchanged — more than 5× your 28-day refresh window. Under Andromeda, a creative this old is barely being surfaced; the algorithm has long since decided what it thinks of this ad and moved on.",
+        "The body copy 'Make sure your love for Bravo is always on display with new apparel and merch from Shop by Bravo' is generic catalog language — no specificity, no benefit, no hook tied to the actual tumbler in the image.",
+        "Headline is the raw product title with SKU-style phrasing ('12 oz Stainless Steel Wine Tumbler'). That reads as a feed import, not a written ad — Andromeda penalizes this pattern as low-effort creative."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "Bravoholic Fleece Crewneck Sweatshirt",
+      "body": "Check out Shop by Bravo for best-selling merch & apparel from your favorite shows!",
+      "cta": "Shop Now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Also 151 days old and shipped in the same batch as the tumbler ad — burst-and-stall pattern. Nothing fresh has gone live behind these for five months.",
+        "Body copy ('Check out Shop by Bravo for best-selling merch & apparel from your favorite shows!') is a near-duplicate of the tumbler ad's catalog blurb. To Andromeda's clustering, these two ads register as the same concept — collapsing your already-thin diversity.",
+        "Headline is the product title verbatim with no benefit, no fan hook, no scarcity. For superfan merch, the emotional angle ('Bravoholic') is buried in the SKU instead of being the hook."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 2,
+      "headline": "Shop Bravo x Reebok",
+      "body": "Step into style with the limited-edition Bravo x Reebok collab!",
+      "cta": "Shop Now",
+      "fatigue_score": 68,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "32 days running — already past your 28-day refresh window with no variant cycling behind it. Limited-edition collab energy fades fast; this ad is now selling 'limited' to people who've seen it for over a month.",
+        "Only carousel format across all three live ads — zero static-image, zero video. That format monoculture means you're missing the placements (Reels, Stories) where collab launches typically over-index.",
+        "Body line 'Step into style with the limited-edition Bravo x Reebok collab!' leans on the collab name to do the work — no specific shoe, no fan-of-the-show angle, no urgency mechanic beyond the word 'limited-edition.'"
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "School-Year Loafer Hero — Static Closeup",
+    "format": "Static image (1:1 + 9:16 cutdown for Reels/Stories)",
+    "hook": "The dress shoe that survives the school year.",
+    "headline": "Made for boys who run.",
+    "primary_text": "Most kids' dress shoes look great on day one and split at the seam by week three. Bravo's WILLIAM-4KID loafer was built the other way around.\n\nFull-grain brown leather upper, reinforced stitched sole, and a slip-on fit that works for school uniforms on Monday and weddings on Saturday — without you re-buying in November.\n\nShop the WILLIAM-4KID loafer at shopbybravo.com. Free shipping on US orders over $75.",
+    "cta": "Shop Now",
+    "visual_direction": "Tight three-quarter editorial shot of the brown WILLIAM-4KID loafer on a clean neutral surface with a soft secondary prop (folded uniform tie or hardwood floor edge) suggesting school-and-formal duality.",
+    "fills_gap": "Your three live ads are all show-merch carousels (Vanderpump tumbler, Bravoholic sweatshirt, Bravo x Reebok) — none of them sell the actual formal-footwear category your brand is built around. This concept reintroduces the core product, breaks the carousel-only format monoculture with a static, and gives Andromeda a genuinely distinct fifth concept to pull you over the diversity floor.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean studio scene on a warm neutral linen surface with a softly out-of-focus folded navy school-uniform tie placed to the side as a contextual prop, with soft directional daylight from the upper left creating a gentle natural shadow under the shoe and a subtle highlight along the leather upper. Premium menswear catalog aesthetic — calm, considered, slightly warm, the kind of shot you'd see in a heritage shoemaker's lookbook. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact rich medium-brown full-grain leather color and finish of the WILLIAM-4KID loafer exactly as shown — strictly NO black, NO cognac/orange-brown shift, NO burgundy, NO grey, NO color temperature shift toward warm orange or cool grey, NO patent/glossy conversion of the matte-to-semi-matte leather finish. STRUCTURE — preserve the exact construction of the loafer: classic penny-loafer silhouette with rounded almond toe, low stacked heel, single-piece vamp with the characteristic penny-keeper saddle strap across the instep, moccasin-style stitching around the vamp, plain unadorned topline (no tassels, no kiltie, no horsebit), stitched leather outsole. Do NOT add tassels, do NOT add metal hardware or buckles, do NOT convert to a horsebit or bit-loafer, do NOT change to a lace-up or monk-strap, do NOT alter the toe shape, do NOT add broguing or perforations not present in the reference, do NOT change heel height, do NOT alter the saddle-strap shape. Render the product's leather grain, color, finish, stitching, AND every visible construction detail (silhouette, saddle strap, sole edge, heel, topline) EXACTLY as they appear in the reference image. Do NOT change the leather color, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buckles, straps, tassels, or any hardware, do NOT alter the silhouette, do NOT remove or modify any stitching detail. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "BRAVO Boy Dress Shoe WILLIAM-4KID Loafer Shoe School Uniform Brown",
+    "reference_url": "https://bravoshoesusa.com/products/bravo-boy-dress-shoe-william-4kid-loafer-shoe-school-uniform-brown",
+    "image_path": "/creatives/bravo-shoes/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Two ads are functionally dead within the week — and you're below Andromeda's concept floor.",
+    "headline": "Walk through the Bravo Shoes refresh plan with Kyle",
+    "body": "Tom, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We went through every live ad in your public Meta Ad Library, mapped days-running, format mix, copy duplication, and concept count against Andromeda's 2025 retrieval rules — no account access, no private metrics."
+}
