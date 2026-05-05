@@ -668,13 +668,18 @@ type ForecastJson = {
 
 export async function POST(req: NextRequest) {
   let payload: WebhookPayload;
+  let rawBody: unknown;
   try {
-    payload = (await req.json()) as WebhookPayload;
+    rawBody = await req.json();
+    payload = rawBody as WebhookPayload;
   } catch {
     return NextResponse.json({ error: "invalid json" }, { status: 400 });
   }
 
+  console.log("[webhook] received payload:", JSON.stringify(rawBody));
+
   if (!payload.lead_company) {
+    console.log("[webhook] missing lead_company. Keys present:", Object.keys(rawBody as object));
     return NextResponse.json({ error: "missing required fields" }, { status: 400 });
   }
 
