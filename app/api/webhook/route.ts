@@ -662,6 +662,7 @@ function extractJson(raw: string): unknown {
 
 type ForecastJson = {
   total_ads?: number;
+  prospect_logo_url?: string;
   ads: Array<{
     ad_number: number;
     source_index?: number;
