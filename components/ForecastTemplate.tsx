@@ -63,6 +63,7 @@ export type ForecastData = {
   prepared_by: string
   method_note: string
   logodev_token: string
+  prospect_logo_url?: string
 }
 
 function severityFor(score: number): "danger" | "warn" | "ok" {
@@ -170,6 +171,7 @@ export default function ForecastTemplate({
             website={data.website}
             brand={data.brand}
             token={data.logodev_token}
+            scrapedUrl={data.prospect_logo_url}
           />
         </div>
         <div className="right">
@@ -299,6 +301,7 @@ export default function ForecastTemplate({
                   website={data.website}
                   brand={data.brand}
                   token={data.logodev_token}
+                  scrapedUrl={data.prospect_logo_url}
                   className="fb-ad-avatar"
                 />
                 <div className="fb-ad-meta">

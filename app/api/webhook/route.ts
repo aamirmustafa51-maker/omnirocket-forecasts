@@ -4,6 +4,7 @@ import { scoreAds, inferBrandSize, type ScoringAd, type ScoringResult } from "@/
 import { getBenchmark, classifyNiche, q4InflationMultiplier, type NicheKey } from "@/lib/benchmarks";
 import { buildKbBlock } from "@/lib/kb";
 import { fetchInstagramFollowerCount } from "@/lib/instagram";
+import { fetchProspectLogoUrl } from "@/lib/logo";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -827,6 +828,15 @@ export async function POST(req: NextRequest) {
     // accurate to "what's actually live in their Library" even when DCO
     // template ads with empty body get filtered out of analysis.
     forecastJson.total_ads = apifyAds.length;
+
+    // Prospect logo: scrape apple-touch-icon from homepage. logo.dev returns
+    // wrong logos for SMB ecom (Bravo TV for Bravo Shoes, IG for unknowns).
+    if (websiteUrl) {
+      const prospectLogoUrl = await fetchProspectLogoUrl(websiteUrl);
+      if (prospectLogoUrl) {
+        forecastJson.prospect_logo_url = prospectLogoUrl;
+      }
+    }
 
     // Lock next_step headline + body to a fixed template — value-stack copy
     // tested with Kyle. Only `urgency` stays Claude-generated (dynamic per the
