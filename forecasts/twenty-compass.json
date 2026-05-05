@@ -1,0 +1,138 @@
+{
+  "brand": "Twenty Compass",
+  "brand_slug": "twenty-compass",
+  "first_name": "Julien",
+  "website": "https://twentycompass.com",
+  "generated_date": "May 5, 2026",
+  "read_time_min": 3,
+  "total_ads": 22,
+  "niche": "jewelry",
+  "tldr": "Julien — went through all 22 of your live ads and three are already past the danger line, with another four trailing close behind. The bigger pattern: 'New In: Chic Basics / Elevated basics. Just what your wardrobe needed.' is duplicated verbatim across four ads, and your Mother's Day Gift Shop unit is shipping the same headline-and-body pair three times in three formats.",
+  "benchmark": {
+    "your_value_days": 18,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical jewelry brand refreshes hero creative every ~21 days; top-quartile operators move every ~14. You're shipping fresh ads consistently and you've got 10 distinct concepts running — that's healthy — but the duplicate-copy clusters are pulling your practical refresh window down to ~18 days because Andromeda treats them as one ad."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "",
+      "body": "The perfect festive activity to shine bright all season long ✨ — Book your permanent bracelet appointment now and bring along your best friends, sisters, significant other, or anyone close to your heart to create memories that will sparkle forever.",
+      "cta": "Send message",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "461 days running — this permanent-bracelet booking ad is more than 22× past your typical refresh window. Even an evergreen booking unit shouldn't sit untouched this long under Andromeda.",
+        "No headline on this ad — the body is doing all the work, which means the 'festive activity' framing is reading as off-season in May and the algorithm has nothing to A/B against in the headline slot.",
+        "'Send message' CTA on a 461-day-old creative is the opposite of what Andromeda's 2025 retrieval clustering rewards — fresh concept, sharper hook, same booking destination."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "",
+      "body": "You already own the outfits, you're just missing the jewelry to make them feel special. 🖤 Four fall looks you can easily recreate. Save for future inspo!",
+      "cta": "Learn more",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "175 days running on a fall-styling video that's now five months past season — May audiences are scrolling past 'four fall looks' in spring weather.",
+        "No headline — your strongest line ('you already own the outfits, you're just missing the jewelry') is buried in body copy where the algorithm can't pattern-match it as a hook.",
+        "Bilingual stacked copy (English + French in the same body) is doubling the read-time and Andromeda penalizes long-dwell creatives that don't convert in-frame."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 3,
+      "headline": "",
+      "body": "2 more days... Stone Elements 🐆 This Thursday 26.02, make sure you sign up via the link in our bio to join the waitlist.",
+      "cta": "Learn more",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Time-bound launch copy ('2 more days... Thursday 26.02') is now 68 days expired — the launch happened in February and the ad is still live in May.",
+        "No headline, and the body references 'link in our bio' which is an Instagram convention that doesn't translate when this serves on Facebook feed.",
+        "This is the textbook Andromeda kill: an ad whose offer has already happened. Pause this today."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 8,
+      "headline": "New In: Chic Basics",
+      "body": "Elevated basics. Just what your wardrobe needed.",
+      "cta": "Shop now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": [
+        "This exact 'New In: Chic Basics / Elevated basics. Just what your wardrobe needed.' headline-and-body pair is running on four ads simultaneously — Andromeda clusters them as a single concept and throttles the cluster.",
+        "22 days running on a video variant of a creative whose carousel twin has been live the same 22 days — internal cannibalization in the same ad set.",
+        "'Elevated basics' as the entire body is six words doing no work — no proof, no specificity, no reason-to-click."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 7,
+      "headline": "New In: Chic Basics",
+      "body": "Elevated basics. Just what your wardrobe needed.",
+      "cta": "Shop now",
+      "fatigue_score": 80,
+      "days_until_fatigue": 12,
+      "severity": "warn",
+      "drivers": [
+        "Identical twin to the other Chic Basics video — same headline, same body, same CTA, same landing page, same 22 days. One of these two needs to die today.",
+        "22 days is already past your typical 21-day window, and the duplicate is compounding the fatigue signal at the cluster level.",
+        "Generic 'just what your wardrobe needed' framing — there's no product, no price, no model, no proof in the copy."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "You know who you are and where you're going. Your jewelry should do the same.",
+      "body": "Effortlessly you, only better.",
+      "fatigue_score": 52,
+      "days_until_fatigue": 24
+    },
+    {
+      "headline": "NEW COLLECTION",
+      "body": "Your new everyday essentials.",
+      "fatigue_score": 60,
+      "days_until_fatigue": 21
+    },
+    {
+      "headline": "Boho Ring - Silver",
+      "body": "We love these pieces too! Make them yours today. 💫",
+      "fatigue_score": 55,
+      "days_until_fatigue": 22
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Cléo, Day-to-Night Proof",
+    "format": "Static image",
+    "hook": "Waterproof. Tarnish-free. Never coming off.",
+    "headline": "Meet the Cléo Necklace",
+    "primary_text": "You shower in it, swim in it, sleep in it. Twenty Compass jewelry is designed in Montreal to live on your skin — not in a box.\n\nThe Cléo Necklace is the piece you'll forget you're wearing until someone asks where it's from. 100% waterproof, 100% tarnish-free, 100% the only chain you'll reach for from the morning meeting to dinner.\n\nFree shipping on orders over $75.",
+    "cta": "Shop Now",
+    "visual_direction": "Cléo Necklace photographed in soft natural daylight on a clean stone or marble surface with a faint water droplet detail to telegraph the waterproof claim, breathing room above and below for ad copy.",
+    "fills_gap": "Your strongest claim — 'jewelry you'll never have to take off, 100% waterproof and tarnish-free' — is buried in one 21-day-old carousel and a same-copy video twin. Meanwhile four ads run the dead-weight 'Elevated basics' line. This concept moves your sharpest proof point onto a single product hero (Cléo) so it can carry the account instead of riding shotgun in a collection ad.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean minimalist flat-lay on a pale travertine or honed marble surface with a single small water droplet beside the chain to telegraph the waterproof story, with soft diffused natural daylight from a single window source casting gentle directional shadows. Editorial Montreal-design aesthetic — quiet luxury, restrained, neutral palette, breathing room around the product. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact gold-tone finish of the Cléo Necklace as shown in the reference (whether 14k gold, gold vermeil, or gold-plated stainless steel) — strictly NO silver, white gold, rose gold, brass-yellow shift, copper, or cool-tone conversion; keep the warm gold color temperature exactly as shown. STRUCTURE — preserve the exact construction: same chain link pattern, same link size and proportion, same pendant or charm placement if present, same clasp type (lobster/spring-ring as shown), same chain length and drape. Do NOT add or remove charms, pendants, stones, or links, do NOT swap the chain pattern (no converting cable to figaro, rope, or curb), do NOT change the clasp style, do NOT layer additional necklaces, do NOT alter the necklace length. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Cléo Necklace",
+    "reference_url": "https://twentycompass.com/products/cleo-necklace",
+    "image_path": "/creatives/twenty-compass/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Three ads die in the next week. Mother's Day cluster retires May 11.",
+    "headline": "Walk through the Twenty Compass refresh plan with Kyle",
+    "body": "Julien, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Scored from your live Meta Ad Library — public creative, copy, format, and days-running only. No account access, no private metrics.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "http://twentycompass.com/cdn/shop/files/Slideshow_website_24_cde6df64-e6b9-4a78-a6f3-47edb84e2712.png?v=1762892573"
+}
