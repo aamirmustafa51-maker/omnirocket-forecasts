@@ -23,10 +23,12 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({ text }),
     });
 
-    try {
-      await bumpOpenPing(slug, new Date().toISOString());
-    } catch (e) {
-      console.error("Sheet bump failed:", e);
+    if (ref === "email") {
+      try {
+        await bumpOpenPing(slug, new Date().toISOString());
+      } catch (e) {
+        console.error("Sheet bump failed:", e);
+      }
     }
 
     return NextResponse.json({ ok: true });
