@@ -1,11 +1,15 @@
+// Webhook route for the Fatigue Forecast magnet. Smartlead "Lead Category Updated"
+// fires here. The Competitor Teardown magnet has its own route at
+// app/api/webhook/teardown/route.ts; this path stays /api/webhook/ for backward
+// compatibility with the existing Smartlead webhook configuration.
 import { NextRequest, NextResponse } from "next/server";
 import Anthropic from "@anthropic-ai/sdk";
-import { scoreAds, inferBrandSize, type ScoringAd, type ScoringResult } from "@/lib/fatigue";
-import { getBenchmark, classifyNiche, q4InflationMultiplier, type NicheKey } from "@/lib/benchmarks";
-import { buildKbBlock } from "@/lib/kb";
-import { fetchInstagramFollowerCount } from "@/lib/instagram";
-import { fetchProspectLogoUrl } from "@/lib/logo";
-import { appendNewLead } from "@/lib/sheets";
+import { scoreAds, inferBrandSize, type ScoringAd, type ScoringResult } from "@/magnets/fatigue-forecast/lib/fatigue";
+import { getBenchmark, classifyNiche, q4InflationMultiplier, type NicheKey } from "@/magnets/fatigue-forecast/lib/benchmarks";
+import { buildKbBlock } from "@/magnets/fatigue-forecast/lib/kb";
+import { fetchInstagramFollowerCount } from "@/lib/shared/instagram";
+import { fetchProspectLogoUrl } from "@/lib/shared/logo";
+import { appendNewLead } from "@/lib/shared/sheets";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";

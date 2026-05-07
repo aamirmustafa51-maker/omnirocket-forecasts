@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { bumpOpenPing } from "@/lib/sheets";
+import { bumpOpenPing } from "@/lib/shared/sheets";
 
 export const runtime = "nodejs";
 

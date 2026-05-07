@@ -1,7 +1,7 @@
 import fs from "fs"
 import path from "path"
 import { notFound } from "next/navigation"
-import ForecastTemplate, { ForecastData } from "@/components/ForecastTemplate"
+import ForecastTemplate, { ForecastData } from "@/magnets/fatigue-forecast/components/ForecastTemplate"
 import TrackOpen from "./TrackOpen"
 
 function loadForecast(slug: string): ForecastData | null {
