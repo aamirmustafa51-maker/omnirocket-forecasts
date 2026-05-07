@@ -1,6 +1,6 @@
 import fs from "fs"
 import path from "path"
-import ProspectLogo from "./ProspectLogo"
+import ProspectLogo from "@/components/ProspectLogo"
 
 export type Ad = {
   ad_number: number
