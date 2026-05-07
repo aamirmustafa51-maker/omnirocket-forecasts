@@ -5,6 +5,7 @@ import { getBenchmark, classifyNiche, q4InflationMultiplier, type NicheKey } fro
 import { buildKbBlock } from "@/lib/kb";
 import { fetchInstagramFollowerCount } from "@/lib/instagram";
 import { fetchProspectLogoUrl } from "@/lib/logo";
+import { appendNewLead } from "@/lib/sheets";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -12,12 +13,14 @@ export const runtime = "nodejs";
 type WebhookPayload = {
   lead_email: string;
   lead_first_name: string;
+  lead_last_name?: string;
   lead_company: string;
   company_overview_summary: string;
   facebook_page_id?: string;
   facebook_url?: string;
   website_url?: string;
   category?: string;
+  campaign_name?: string;
   hero_product_handle?: string;
 };
 
@@ -88,12 +91,14 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   return {
     lead_email: str(r.lead_email) || str(leadData.email),
     lead_first_name: str(leadData.first_name) || str(r.lead_name),
+    lead_last_name: optStr(leadData.last_name),
     lead_company: str(leadData.company_name),
     company_overview_summary: str(cf["Company_Overview_(Response)"]),
     facebook_page_id: optStr(cf.Page_Id),
     facebook_url: optStr(cf.Facebook_Url),
     website_url: optStr(leadData.website),
     category: optStr(cf.Category),
+    campaign_name: optStr(r.campaign_name) || optStr(r.sequence_name),
   };
 }
 
@@ -927,6 +932,24 @@ export async function POST(req: NextRequest) {
     await postSlack(
       `🟢 Fatigue Forecast ready: *${payload.lead_company}*\n📧 ${payload.lead_email}\n👤 ${payload.lead_first_name}\n🔗 ${forecastUrl}\n\nReply to the lead and paste this URL.`,
     );
+
+    try {
+      await appendNewLead({
+        date_sent: new Date().toISOString(),
+        first_name: payload.lead_first_name || "",
+        last_name: payload.lead_last_name || "",
+        email: payload.lead_email,
+        company: payload.lead_company || "",
+        website: payload.website_url || "",
+        facebook_url: payload.facebook_url || "",
+        report_url: forecastUrl,
+        slug,
+        category: payload.category || "",
+        smartlead_campaign: payload.campaign_name || "",
+      });
+    } catch (e) {
+      console.error("Sheet append failed:", e);
+    }
 
     return NextResponse.json({ ok: true, slug, url: forecastUrl });
   } catch (err) {

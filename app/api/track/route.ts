@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { bumpOpenPing } from "@/lib/sheets";
 
 export const runtime = "nodejs";
 
@@ -21,6 +22,12 @@ export async function POST(req: NextRequest) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ text }),
     });
+
+    try {
+      await bumpOpenPing(slug, new Date().toISOString());
+    } catch (e) {
+      console.error("Sheet bump failed:", e);
+    }
 
     return NextResponse.json({ ok: true });
   } catch (e) {
