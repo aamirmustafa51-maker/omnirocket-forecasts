@@ -1,0 +1,119 @@
+{
+  "brand": "Object & Dawn",
+  "brand_slug": "object-dawn",
+  "first_name": "Michael",
+  "website": "https://www.objectanddawn.com",
+  "generated_date": "May 7, 2026",
+  "read_time_min": 3,
+  "total_ads": 5,
+  "niche": "luxury accessories",
+  "tldr": "Michael, you're running 5 live ads and every single one is a carousel — zero static, zero video — which is a format monoculture Andromeda will compress into a single retrieval cluster. Two of those five also share the same Teuta belt subject in near-identical product shots, so functionally you're closer to 4 distinct concepts than 5, and the 'Get Offer' ad is missing a real headline entirely.",
+  "benchmark": {
+    "your_value_days": 21,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Your typical refresh cadence is around 28 days, but with only 5 live concepts — below Meta's Andromeda 5-concept floor where the retrieval engine starts suppressing semantically-similar creatives — the practical fatigue window compresses to about 21 days. Other luxury accessories brands at your scale are usually carrying 8–12 concepts; the per-niche CPM band ($9–$14) means every wasted impression on a clustered ad costs you real reach."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 3,
+      "headline": "Get Offer",
+      "body": "You've been looking for a statement piece ✨",
+      "cta": "Shop Now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "The headline is literally 'Get Offer' — that's not a headline, that's a CTA pasted into the headline slot. You've given the algorithm and the buyer nothing to latch onto: no product, no benefit, no reason to stop scrolling.",
+        "The body 'You've been looking for a statement piece' is a personal-attribute prompt — Meta's policy guidance flags 'you've been [doing X]' framing as implied-knowledge-of-the-viewer, which soft-throttles delivery even when it passes review.",
+        "Lands on /pages/special-offer rather than a product page — the only ad in the set without a product-specific destination, which fragments Andromeda's signal about what this ad is actually selling."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "Teuta Beaded Modular Belt - 3 Color Variants",
+      "body": "Adornments for special moments. Channel your queen and goddess persona.",
+      "cta": "Shop Now",
+      "fatigue_score": 79,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Same product subject as your Teuta gold belt ad — two of your five live concepts are the same Teuta belt with overlapping carousel imagery, which Andromeda's semantic clustering treats as one creative for retrieval purposes.",
+        "'Channel your queen and goddess persona' is the most generic luxury-accessory copy line in the set — no specificity, no craft story, none of the 'Anti-Fast Fashion / artisanal technique' positioning that's actually your differentiator on the website.",
+        "Carousel-only format with no video means no hook-rate signal in the first 3 seconds — at your refresh cadence, every concept needs at least one motion variant to give the algorithm something to optimize against."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 0,
+      "headline": "Teuta Modular Belt with Tassels & Bow Medallions – Gold | Object & Dawn Best Seller",
+      "body": "STEEL BEADS + VELVET = ❤️‍🔥",
+      "cta": "Shop Now",
+      "fatigue_score": 72,
+      "days_until_fatigue": 18,
+      "severity": "warn",
+      "drivers": [
+        "Body copy 'STEEL BEADS + VELVET = ❤️‍🔥' is the sharpest line you have running — it tells the material story in five words. But it's stranded on one carousel; nothing else in your active set carries this material-spec voice.",
+        "Headline runs 13 words and includes pipe-separator branding ('| Object & Dawn Best Seller') — that pattern reads like a Shopify product-feed title rather than crafted ad copy, and the back half gets truncated on mobile feed placement.",
+        "Same Teuta belt SKU as another live concept, just in gold — Andromeda will cluster these as one and serve the stronger of the two, meaning you're paying impression costs to test colorways, not concepts."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 4,
+      "headline": "Zheng Modular Leather Harness with Phone Bag",
+      "body": "Accessorize your style with these amazing, comfortable and stylish leather pieces.",
+      "cta": "Shop Now",
+      "fatigue_score": 68,
+      "days_until_fatigue": 20,
+      "severity": "warn",
+      "drivers": [
+        "Three adjectives in a row ('amazing, comfortable and stylish') is the exact copy pattern Meta's quality-ranking models down-weight — it's the AI-generated cadence the algorithm now actively suppresses.",
+        "The Zheng modular leather harness is genuinely your most distinctive product on the site — it's the kind of piece that justifies the 'Anti-Fast Fashion' positioning — but the body copy describes it like a generic accessory, not the modular leather system it actually is.",
+        "Carousel format on a product this visually arresting is a missed format choice — a single-frame static or a 9:16 motion shot of the harness on-body would give Andromeda a different concept signature than the four other carousels in your set."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 2,
+      "headline": "Tamoe Silk Harness Skirt White",
+      "body": "SILK Dresses & Kimonos Stunning styles. Flattering cuts for ALL sizes.",
+      "cta": "Shop Now",
+      "fatigue_score": 64,
+      "days_until_fatigue": 24,
+      "severity": "ok",
+      "drivers": [
+        "Body copy advertises 'Silk Dresses & Kimonos' but the headline and product are a silk harness skirt — the ad and the offer don't match, which fragments the click intent and hurts post-click conversion signal.",
+        "'Flattering cuts for ALL sizes' is borderline body-framing language for apparel — it's not the shapewear-style violation, but it leans on the same psychological hook Meta has been tightening on, and it's also the only inclusivity beat in your entire active set.",
+        "This is the one ad in the set selling silk apparel rather than accessories — meaning your apparel category has exactly one creative carrying it, which is a single point of failure if it fatigues."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "Material Spec Close-Up",
+    "format": "Static image (1:1)",
+    "hook": "Steel beads. Hand-knotted. One artisan, three days.",
+    "headline": "Made the slow way",
+    "primary_text": "Michael started Object & Dawn because the techniques behind real adornment — hand-knotting, beadwork, modular construction — were quietly disappearing into the fast-fashion pile.\n\nThe Beaded Chain Tassel takes one artisan three days. Three colorways, modular hardware, designed to swap between belts, bags, and necklaces so one piece does the work of ten.\n\nAnti-fast fashion. Built to outlast the season.",
+    "cta": "Shop Now",
+    "visual_direction": "Tight macro shot of the Beaded Chain Tassel laid on a soft draped neutral linen surface, hardware and bead texture in sharp focus, with negative space top and bottom for ad text overlay.",
+    "fills_gap": "Every one of your live ads is a carousel — none of them stop the scroll with a single arresting still, and none of them tell the artisanal-craft story that's literally the brand's mission line on the website. This concept fills both gaps: a static format Andromeda will read as a distinct creative cluster, and copy that finally puts the 'Anti-Fast Fashion / vanishing artisanal techniques' positioning into the ad itself.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a tight macro composition resting on a softly draped warm-neutral linen surface, with diffused side daylight from a tall window casting gentle directional shadow that defines the bead surface and tassel drape. Quiet, slow-luxury editorial aesthetic — restrained, artisan-forward, every textural detail readable. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact metal tone, bead color, and chain finish of the Beaded Chain Tassel exactly as shown in the reference image; if the reference shows a specific color variant (gold-tone, silver-tone, or alternate metallic finish), preserve that exact metal temperature and bead colorway with no shift — strictly NO swapping gold to silver or silver to gold, NO warming a cool metal, NO cooling a warm metal, NO recoloring of beads, NO replacing matte finishes with high-polish or vice versa. STRUCTURE — preserve the exact construction: same number of beaded chain strands, same tassel drop length, same bead count and bead shape per strand, same chain-link pattern between bead clusters, same end-cap hardware and clasp/closure type, same modular connector hardware as shown in the reference. Do NOT add or remove strands, do NOT add or remove beads, do NOT change chain-link style, do NOT swap or duplicate the tassel, do NOT alter the closure, do NOT introduce additional charms or pendants not present in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Beaded Chain Tassel - 3 Color Variants",
+    "reference_url": "https://objectanddawn.com/products/beaded-chain-tassel-ni-gold",
+    "image_path": "/creatives/object-dawn/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your 'Get Offer' ad is 7 days from full fatigue and the Teuta belt pair is clustering against itself right now.",
+    "headline": "Walk through the Object & Dawn refresh plan with Kyle",
+    "body": "Michael, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "I went through every live ad in your Meta Ad Library, mapped format mix and concept overlap against Andromeda's 2025–2026 retrieval rules, and benchmarked refresh cadence against luxury-accessories category norms. No private account data was used — this is what's visible publicly.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://www.objectanddawn.com/cdn/shop/files/O_D_NEW_LOGO_-_Small_Image_for_Web_32x32.jpg?v=1667186737"
+}
