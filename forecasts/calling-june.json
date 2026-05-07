@@ -1,0 +1,138 @@
+{
+  "brand": "Calling June",
+  "brand_slug": "calling-june",
+  "first_name": "Akanksha",
+  "website": "https://callingjune.com",
+  "generated_date": "May 7, 2026",
+  "read_time_min": 3,
+  "total_ads": 108,
+  "niche": "women's fashion",
+  "tldr": "Akanksha, you're shipping volume — 42 distinct concepts across 108 live ads is genuinely above the Andromeda floor most apparel brands trip on. The fatigue problem isn't concept count; it's that one creative (the 'Black makes it effortless' static and the 'Effortlessly Hot' mini-dress static) has been duplicated 12+ times each in a single launch cluster, which is how Andromeda's similarity scoring chokes a whole ad set even when the headline is fresh.",
+  "benchmark": {
+    "your_value_days": 10,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your scale and ad volume, your hero creative needs a fresh concept roughly every 10 days — top-quartile apparel brands run 14, the median brand runs 21. The reason your window is tighter is the same reason your ad count is high: you're feeding a larger budget through a niche where Q2 CPMs sit in the $9–$14 band, so a stale hero burns reach faster."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 62,
+      "headline": "Black makes it effortless.",
+      "body": "When in doubt… wear black. Effortless, flattering, and made for every plan on your calendar.",
+      "cta": "Shop now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This exact headline-and-body pair is running on twelve identical static-image ads launched the same day — Andromeda treats that as a single creative cluster and suppresses serving across all twelve.",
+        "Same landing destination (the Black Collection) on every variant, which compounds the similarity-score penalty rather than splitting the audience signal.",
+        "'When in doubt… wear black' is the kind of universal line that has no specificity for the buyer — no fabric story, no silhouette name, no Akanksha-voice detail like the founder-narrative ads carry."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 84,
+      "headline": "Effortlessly Hot",
+      "body": "Calling June dresses are designed for the woman who wants timeless style with a fresh seasonal twist.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Identical copy is running on nine static-image ads pointing to the same mini-dresses collection page — that's the textbook Andromeda 'minor variations of one concept' trap.",
+        "Body copy is generic brand-statement language, not a product hook — no garment named, no occasion, no transformation. Compare to your 'Rosewood Midi turned coffee plans into a main character moment' line, which actually lands.",
+        "'Effortlessly Hot' is also running as the headline on the Vera halter ad from two weeks ago, so the headline itself is recycled — Andromeda is reading the cluster as one ad."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 51,
+      "headline": "Effortlessly Hot",
+      "body": "Calling June dresses are designed for the woman who wants timeless style with a fresh seasonal twist.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "14 days running unchanged — past your 10-day refresh window for hero creative at this volume, and the same copy was relaunched in a fresh batch this week, which means the older version is competing against its own clones.",
+        "Generic collection page as the destination instead of a single SKU — your single-product ads (Amelia, Marlin, Rosewood) carry stronger landing clarity.",
+        "No specific garment cited in the body, so it can't compound with a product-detail page on intent."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 36,
+      "headline": "$59 | Carrie Blouse",
+      "body": "Find your perfect top. Lightweight fabrics, elegant silhouettes, and versatile styles for every occasion.",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Five carousel variants of the Carrie Blouse running with identical body copy ('Find your perfect top. Lightweight fabrics, elegant silhouettes…') — same template repurposed for the Blake, Nora, and Malé dress ads too, so the entire price-tag-headline format is one cluster.",
+        "14 days running, which is past your 10-day window — and there's a fresh Carrie variant from yesterday compounding the cluster.",
+        "Price-led headline ($59 | Carrie Blouse) is a low-emotion hook for a brand whose strongest performers lead with mood and identity ('coffee plans, nothing big… main character moment')."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 50,
+      "headline": "",
+      "body": "POV: you packed the perfect vacation wardrobe☀️And now every outfit just works, and everything's giving summer. Explore your holiday wardrobe at callingjune.com - Island time. Sun-warmed days. Slow travel. Travel inspo. Travel goals. Summer getaway. island time. Beach. Beaches. Coastal. Travel outfits. Summer time. Vacation outfits. Holiday style. Vacation fits. Holiday outfit inspo. Travel outfits. Travel guide. Travel inspo. a summer escape. New arrivals. Travel Wardrobe. spring inspo. Spring Summer. fyp. Vacation fits. Travel fits.",
+      "cta": "Shop Now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 8,
+      "severity": "warn",
+      "drivers": [
+        "No headline on this carousel — the body is doing all the work, and the body is buried under 30+ TikTok-style hashtags that read as keyword stuffing in a Meta carousel context.",
+        "14 days running with the same hashtag block that appears on roughly 14 of your other video and carousel ads — the tail copy is functionally identical across the Islaa cluster, which Andromeda reads as a similarity match.",
+        "The 'POV' opener is the strongest line in the ad and it's competing with the hashtag wall for the first three lines of feed real estate."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Wear the print, own the room",
+      "body": "Life's too short for plain clothes. This summer, go bold with prints that bring the energy — florals, stripes, and everything in between. The coord set that does the talking for you.",
+      "fatigue_score": 62,
+      "days_until_fatigue": 19
+    },
+    {
+      "headline": "Mother's Day Edit",
+      "body": "This Mother's Day, give her something as gentle and beautiful as her love. Thoughtfully designed silhouettes, soft fabrics, and timeless charm—just like mom.",
+      "fatigue_score": 55,
+      "days_until_fatigue": 24
+    },
+    {
+      "headline": "Easy, effortless, everywhere",
+      "body": "Holiday energy, every single day. This striped co-ord goes from brunch to candlelit dinners without missing a beat — all you need is the clutch and the confidence. Easy fits for everywhere you go.",
+      "fatigue_score": 48,
+      "days_until_fatigue": 28
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The One She Reaches For",
+    "format": "Static image",
+    "hook": "The mini that earns its hanger space.",
+    "headline": "Meet the Leah Mini",
+    "primary_text": "Akanksha designed Leah for the morning where you've already changed three times and the cab is ten minutes out.\n\nClean silhouette, the kind of cut that flatters without trying, in a color that doesn't fight whatever shoes you grabbed. The buyer who finds this dress wears it to brunch, to the airport, to dinner where she wants to feel like herself — not like she dressed for the room.\n\nNew on callingjune.com. Free shipping on your first order.",
+    "cta": "Shop Now",
+    "visual_direction": "Single Leah Mini Dress on a softly-lit warm linen surface, slight overhead angle, garment styled flat with one shoulder strap casually folded — editorial product still life, no model.",
+    "fills_gap": "Across your 108 ads you have hashtag-stuffed lifestyle reels and price-tag carousels, but almost no clean editorial product stills that name a single hero SKU with founder-voice copy. This format gives Andromeda a fresh visual cluster (no hashtag wall, no model, no influencer overlay) and pairs it with the kind of Akanksha-voice line your founder-story videos use but your product ads don't.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a still-life arrangement laid flat on a warm sand-colored linen surface with a single woven raffia hat and a small ceramic dish with sea salt placed nearby for context, with soft directional natural morning light from the upper left casting gentle shadows across the linen weave. Calm, sun-warmed, quietly luxurious editorial fashion still-life aesthetic — the kind of frame you'd see in a print resortwear lookbook. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact fabric color, print, and finish of the Leah Mini Dress as shown in the reference image, holding the original colorway and any printed pattern at the exact same scale and proportion as shown — strictly NO color shift, NO recoloring of the print, NO smoothing pattern to a solid, NO swap to a different floral or stripe, NO warm-tone or cool-tone bias, NO bleaching or darkening of the original hue. STRUCTURE — preserve the exact construction of the Leah Mini Dress as shown in the reference: same neckline shape, same strap or sleeve configuration, same mini-length hem, same waist seaming, same closure type and placement, same number of buttons or ties if any are visible, no visible pockets unless shown in reference. Do NOT add or remove straps, sleeves, buttons, ties, or pockets, do NOT change the mini-length hem, do NOT alter the neckline depth or shape, do NOT convert to a midi or maxi length, do NOT add a belt or sash that is not in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Leah Mini Dress",
+    "reference_url": "https://callingjune.com/products/leah-mini-dress-1-marine-seafoam",
+    "image_path": "/creatives/calling-june/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Two ad clusters die inside the next 7 days.",
+    "headline": "Walk through the Calling June refresh plan with Kyle",
+    "body": "Akanksha, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Built from a manual walk-through of every live Calling June ad in Meta's public Ad Library on May 7, 2026 — no account access, no private metrics, fatigue scoring is signal-based against Andromeda's 2025 retrieval clustering and your refresh-window benchmark.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://callingjune.com/cdn/shop/files/2_93a7e5f6-a45f-48ea-9271-dbe3074c9927.png?crop=center&height=180&v=1772021122&width=180"
+}
