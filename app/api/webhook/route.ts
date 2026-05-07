@@ -929,8 +929,9 @@ export async function POST(req: NextRequest) {
 
     // 8. Slack ready
     const forecastUrl = `https://omnirocket-forecasts.vercel.app/forecast/${slug}`;
+    const shareUrl = `${forecastUrl}?ref=email`;
     await postSlack(
-      `🟢 Fatigue Forecast ready: *${payload.lead_company}*\n📧 ${payload.lead_email}\n👤 ${payload.lead_first_name}\n🔗 ${forecastUrl}\n\nReply to the lead and paste this URL.`,
+      `🟢 Fatigue Forecast ready: *${payload.lead_company}*\n📧 ${payload.lead_email}\n👤 ${payload.lead_first_name}\n🔗 ${shareUrl}\n\nReply to the lead and paste this URL.`,
     );
 
     try {
