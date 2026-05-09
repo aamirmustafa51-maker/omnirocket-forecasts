@@ -1,0 +1,124 @@
+{
+  "lead_company": "Roland Mouret",
+  "lead_first_name": "Roland",
+  "lead_aesthetic": "Sculptural, architectural, refined British luxury — sharp tailoring, draped jersey, the iconic Galaxy dress silhouette. Mature, high-fashion, considered. Worn by Cate Blanchett, Victoria Beckham, royalty.",
+  "competitors": [
+    {
+      "name": "THEIA",
+      "domain": "theiacouture.com",
+      "instagram_handle": "theiacouture",
+      "type": "website",
+      "about_url": null,
+      "site_analysis": {
+        "competitor_name": "THEIA",
+        "summary": "Occasion-wear house leaning on poetic, nature-inspired seasonal storytelling and a broad 'dressed for every moment' wardrobe across cocktail, evening, and bridal.",
+        "leading_angle": {
+          "label": "Poetic Seasonal Storytelling",
+          "angle_explanation": "They lead with an evocative, mood-driven collection narrative rather than product specs or designer pedigree — selling the feeling of a season, not the dress.",
+          "verbatim_proof": "Utsuroi — the Japanese art of subtle transition. A garden at its fullest. Petals opening, blossom drifting across still water. An afternoon turning, imperceptibly, toward evening.",
+          "why_it_works": "Their occasion-wear buyer is shopping for an emotional moment (wedding, gala, milestone), so a romantic, sensorial frame converts better than technical fashion language."
+        },
+        "secondary_angles": [
+          {
+            "label": "Occasion Wardrobe Breadth",
+            "verbatim_proof": "Cocktail Evening Signature Day Fur Free Organza Floral Satin Wedding Shop Black Tie Cocktail Mother of the Bride Bridesmaids Bridal"
+          },
+          {
+            "label": "Day-to-Evening Versatility",
+            "verbatim_proof": "Daytime into Evening Shop the Capsule Dressed for the Moment"
+          }
+        ],
+        "likely_ad_directions": [
+          "They would likely test mood-led seasonal launch creative built around the 'Utsuroi / Softness Blooms' Summer 2026 narrative, leaning on cinematic florals and water imagery.",
+          "They would likely test occasion-segmented campaigns (Mother of the Bride, Bridesmaids, Black Tie, Cocktail Hour) targeting wedding-intent and event-driven shoppers.",
+          "They would likely test a 'Daytime into Evening' capsule angle aimed at versatility-seekers who want one dress to span multiple moments.",
+          "They would likely test a print/floral story angle ('A Print Story', 'Shop Summer Florals') as a soft, scroll-stopping hook for warm audiences.",
+          "They would likely test email-capture lead ads using the 'first access to new collections' promise, since their site already leans on this list-building hook."
+        ],
+        "swipeable_headlines": [
+          "Softness Blooms",
+          "Utsuroi — the Japanese art of subtle transition.",
+          "An afternoon turning, imperceptibly, toward evening.",
+          "Dressed for the Moment",
+          "A garden at its fullest. Petals opening, blossom drifting across still water."
+        ]
+      }
+    },
+    {
+      "name": "LUXE House of Couture",
+      "domain": "luxehouseofcouture.com",
+      "instagram_handle": "luxehouseofcouture",
+      "type": "skipped",
+      "reason": "Claude returned no text"
+    },
+    {
+      "name": "Ladivine",
+      "domain": "ladivine.com",
+      "instagram_handle": "cinderelladivineinc",
+      "type": "ads",
+      "active_ad_count": 12,
+      "ads_analysis": {
+        "competitor_name": "Ladivine",
+        "summary": "Ladivine leans almost entirely on aspirational 'main character' fantasy hooks tied to black-tie occasions, using sensory product detail and spotlight imagery rather than offers or social proof.",
+        "hooks": [
+          {
+            "label": "Spotlight Fantasy",
+            "pattern_explanation": "Casts the wearer as the center of attention at a high-stakes event, selling the emotional payoff of being seen rather than the garment itself.",
+            "example_ads": [
+              1,
+              2,
+              9,
+              10
+            ],
+            "example_copy": "All eyes on you at your next black tie affair with our unforgettable gowns.",
+            "why_it_works": "Occasion-anchored aspiration converts cold traffic by attaching the product to a vivid future moment; testable as a TOF angle for event-driven gown collections."
+          },
+          {
+            "label": "Occasion Anchoring",
+            "pattern_explanation": "Names a specific high-stakes context (black tie affair, black tie event) so the viewer self-qualifies based on an upcoming need.",
+            "example_ads": [
+              1,
+              4,
+              9,
+              11
+            ],
+            "example_copy": "Bring the drama and steal the spotlight on your next black tie event ✨",
+            "why_it_works": "Tying the offer to a concrete event triggers timely intent and filters audiences by purchase window; useful for MOF retargeting around event seasons."
+          },
+          {
+            "label": "Sensory Product Detail",
+            "pattern_explanation": "Opens with tactile, cinematic descriptions of fabric and construction to evoke craftsmanship and desire before any CTA.",
+            "example_ads": [
+              1,
+              3,
+              5
+            ],
+            "example_copy": "Glittering beadwork cascades over a sheer corset bodice, ready to make an entrance.",
+            "why_it_works": "Specific texture/material language signals quality and slows the scroll on image-led creative; works well for product-page-direct ads on hero SKUs."
+          },
+          {
+            "label": "Bestseller Authority",
+            "pattern_explanation": "A soft social-proof signal embedded in the copy that implies validation through popularity without naming numbers.",
+            "example_ads": [
+              9,
+              10,
+              11,
+              12
+            ],
+            "example_copy": "Our best-selling dresses don't just make an entrance, they own the night.",
+            "why_it_works": "'Bestseller' framing borrows crowd validation while staying on-brand for luxury; testable as a collection-level hook where reviews aren't the lead asset."
+          }
+        ],
+        "swipeable_headlines": [
+          "All Eyes On Ladivine",
+          "Own The Night",
+          "All eyes on you at your next black tie affair",
+          "Bring the drama and steal the spotlight on your next black tie event",
+          "Our best-selling dresses don't just make an entrance, they own the night",
+          "Glittering beadwork cascades over a sheer corset bodice, ready to make an entrance"
+        ]
+      }
+    }
+  ],
+  "generated_at": "2026-05-09T10:16:51.278Z"
+}
