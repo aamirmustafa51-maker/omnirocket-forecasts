@@ -24,6 +24,7 @@ type CompetitorInput = {
   domain: string | null;
   instagram_handle: string | null;
   facebook_page_name: string | null;
+  facebook_page_id: string | null;
   why_competitor: string | null;
 };
 
@@ -136,6 +137,8 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
     domain?: string | null;
     instagramHandle?: string | null;
     facebookPageName?: string | null;
+    facebookPageId?: string | number | null;
+    pageId?: string | number | null;
     whyCompetitor?: string | null;
   };
 
@@ -153,11 +156,15 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
       .slice(0, 3)
       .map((c: RawCandidate) => {
         if (!c?.brandName) return null;
+        const rawId = c.facebookPageId ?? c.pageId ?? null;
+        const pageId =
+          rawId === null || rawId === undefined || rawId === "" ? null : String(rawId);
         return {
           name: c.brandName,
           domain: c.domain ?? null,
           instagram_handle: c.instagramHandle ?? null,
           facebook_page_name: c.facebookPageName ?? null,
+          facebook_page_id: pageId,
           why_competitor: c.whyCompetitor ?? null,
         };
       })
@@ -175,6 +182,13 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
           cfGet(`Competitor_${n}_Instagram_Handle`, `competitor_${n}_instagram_handle`) ?? null,
         facebook_page_name:
           cfGet(`Competitor_${n}_Facebook_Page_Name`, `competitor_${n}_facebook_page_name`) ?? null,
+        facebook_page_id:
+          cfGet(
+            `Competitor_${n}_Facebook_Page_ID`,
+            `competitor_${n}_facebook_page_id`,
+            `Competitor_${n}_Page_ID`,
+            `competitor_${n}_page_id`,
+          ) ?? null,
         why_competitor: cfGet(`Competitor_${n}_Why`, `competitor_${n}_why`) ?? null,
       };
     };
@@ -211,15 +225,25 @@ async function postSlack(text: string): Promise<void> {
 }
 
 // Apify Meta Ad Library scraper — same actor used by the Fatigue webhook.
-// Searches by brand name (not page_id) since Clay-supplied competitors carry
-// `facebook_page_name` text, not numeric page_ids. Returns raw ad records.
+// Prefers numeric page_id (proven Fatigue pattern: search_type=page +
+// view_all_page_id). Falls back to keyword search by brand name when page_id
+// is absent — though keyword search empirically returns ADS_NOT_FOUND for
+// most brands, so a missing page_id usually drops us into the website-angle
+// path downstream.
 //
 // TODO Phase 1.8: extract this + normalizeAd into lib/shared/meta-ad-library.ts
 // alongside the Fatigue webhook's identical helpers.
-async function apifyScrapeByName(brandName: string): Promise<ApifyAd[]> {
-  const url = `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&q=${encodeURIComponent(
-    brandName,
-  )}&search_type=keyword_unordered`;
+async function apifyScrape(
+  brandName: string,
+  pageId: string | null,
+): Promise<ApifyAd[]> {
+  const url = pageId
+    ? `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&search_type=page&view_all_page_id=${encodeURIComponent(
+        pageId,
+      )}`
+    : `https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=ALL&q=${encodeURIComponent(
+        brandName,
+      )}&search_type=keyword_unordered`;
 
   const apifyUrl = `https://api.apify.com/v2/acts/curious_coder~facebook-ads-library-scraper/run-sync-get-dataset-items?token=${env(
     "APIFY_TOKEN",
@@ -384,7 +408,10 @@ async function processCompetitor(
   // signal for pattern detection, so fall through to website-angle.
   let normalizedAds: NormalizedAd[] = [];
   try {
-    const raw = await apifyScrapeByName(competitor.facebook_page_name || competitor.name);
+    const raw = await apifyScrape(
+      competitor.facebook_page_name || competitor.name,
+      competitor.facebook_page_id,
+    );
     normalizedAds = raw
       .map((ad, i) => normalizeAd(ad, i))
       .filter((a): a is NormalizedAd => a !== null)
