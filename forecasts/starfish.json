@@ -1,0 +1,88 @@
+{
+  "brand": "Starfish",
+  "brand_slug": "starfish",
+  "first_name": "Jenny",
+  "website": "https://www.starfishproject.com",
+  "generated_date": "May 9, 2026",
+  "read_time_min": 3,
+  "total_ads": 5,
+  "niche": "jewelry",
+  "tldr": "Jenny — went through your five live ads and the picture is tight: you're running 3 distinct creative concepts, which sits below the 5-concept floor Meta's Andromeda engine needs to avoid clustering your ads as one. Two of your three image-bearing ads are essentially the same Oasis Earrings story with overlapping copy, which means the algorithm is treating them as a single creative.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're refreshing roughly every 28 days; the typical jewelry brand is closer to 21, and top performers are at ~14. The bigger issue isn't cadence — it's that with only 3 distinct concepts in rotation, you're under Meta's Andromeda 5-concept floor, so similar ads collapse into one cluster and only the strongest variant gets meaningful serving."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Turquoise for a Cause",
+      "body": "Turn heads—and change lives. Our bestselling Oasis Earrings feature natural turquoise stones dipped in 14K gold. As compliments roll in, share the story behind your jewelry: every pair helps provide safe housing for women escaping exploitation.",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "22 days in market — already past the ~14-day mark where top jewelry advertisers ship a fresh angle, and closing in on your own 28-day window.",
+        "Same product, same landing page, same 'compliments + impact' frame as your 4-day-old Oasis ad — Andromeda will read these two as one cluster and suppress whichever is weaker.",
+        "The 'Turn heads—and change lives' hook leans on the same dual-benefit pattern as the rest of your active set; nothing in this ad is doing a different job than the others."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 2,
+      "headline": "Starfish Project",
+      "body": "Shop Starfish Project and your purchase will help women experience safe employment.",
+      "cta": "Shop Now",
+      "fatigue_score": 72,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Headline is just your brand name — it's doing no selling work, no curiosity, no benefit. With Andromeda surfacing the strongest creative in a cluster, a brand-name headline almost always loses to a benefit-led one.",
+        "Body copy is the most generic version of your mission line in the active set ('help women experience safe employment') — no product, no specificity, no proof. Compare to the Oasis ads where the cause is anchored to a tangible product moment.",
+        "18 days running on a Jayne ring landing page while your two other ads point at Oasis Earrings — the Jayne concept is isolated, with no companion creative reinforcing it in the cluster."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 1,
+      "headline": "Compliments Guaranteed, Impact Included",
+      "body": "Wear the change you want to see!  Our Oasis Earrings feature natural turquoise stones in 14K gold. But it's not just about looking good... Every pair helps provide safe housing for women escaping exploitation. What will your jewelry say about YOU?",
+      "cta": "Shop now",
+      "fatigue_score": 68,
+      "days_until_fatigue": 18,
+      "severity": "warn",
+      "drivers": [
+        "Only 4 days in market, but it's a near-twin of your 22-day Turquoise for a Cause ad — same product, same landing URL, same 'compliments + safe housing' beats. Andromeda will cluster them and serve one.",
+        "Two consecutive sentences both lean on the cause line ('helps provide safe housing for women escaping exploitation' is repeated almost verbatim from the older ad) — duplication inside a small concept set accelerates fatigue.",
+        "Three em-dashes / ellipses / questions stacked together makes the body feel busier than the older variant without saying anything new — the algorithm will likely pick the cleaner Turquoise for a Cause version over this one."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "Carry the Story — Legacy Keychain product-led mission piece",
+    "format": "Static image",
+    "hook": "She made this keychain. Now it goes everywhere with you.",
+    "headline": "Made by her. Carried by you.",
+    "primary_text": "Every Legacy Keychain in black leather is hand-finished by a woman who used to be trafficked. Today she has a paycheck, healthcare, and a name on the inside of the loop you'll see every time you reach for your keys.\n\n100% of profits go back into safe employment, housing, and counseling for women rebuilding their lives at Starfish Project. It's not a donation — it's a keychain you'd buy anyway, made by the women your purchase pays.\n\nShop the Legacy Keychain. Carry the story.",
+    "cta": "Shop Now",
+    "visual_direction": "Overhead editorial shot of the black leather Legacy Keychain resting on a warm linen surface beside a brass key and a folded handwritten note, soft daylight, mission-led but elevated.",
+    "fills_gap": "Your three image ads all sell the Oasis Earrings to a female buyer with a 'compliments + cause' frame — there's no men's gift entry point, no product variety, and no creative that names the maker. A leather keychain expands the catalog into men's gifts and grounds the cause in a specific person, not a generic 'women escaping exploitation' line.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a warm overhead flat-lay on a natural linen tabletop alongside a small brass key and a folded handwritten note card with breathing room around the keychain, with soft directional morning daylight from the upper-left casting a gentle shadow to the right. Elevated, mission-led but premium gift-photography aesthetic — quiet, intentional, human. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact black full-grain leather strap color, matte-to-low-sheen finish, and silver-tone metal hardware exactly as shown in the reference image; strictly NO brown, tan, cognac, oxblood, or warm-tone shift on the leather, and strictly NO gold, brass, rose-gold, or yellow-tone swap on the metal hardware. STRUCTURE — preserve the exact construction: single rectangular black leather strap with stitched edges, one silver-tone split key ring at the top, and any visible hardware rivet or stamped detail exactly as positioned in the reference; do NOT add a second strap, do NOT add extra rings, charms, tassels, clasps, or hardware not present in the reference, do NOT change the leather strap shape or proportions, do NOT alter or remove any stamped or embossed text/logo on the leather. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Legacy Keychain in Black Leather",
+    "reference_url": "https://starfishproject.com/products/copy-of-legacy-keychain-in-brown-leather-kf",
+    "image_path": "/creatives/starfish/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your top-fatigued ad has roughly 7 days of useful life left.",
+    "headline": "Walk through the Starfish refresh plan with Kyle",
+    "body": "Jenny, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Built from your 5 currently-running Meta ads in the public Ad Library on May 9, 2026 — no account access, no private metrics; fatigue is modeled from days-running, copy/landing duplication, and concept diversity against 2025–2026 Andromeda retrieval rules.",
+  "prospect_logo_url": "https://www.starfishproject.com/cdn/shop/files/Starfish-Project-Icon-No_Border-Black_1_2_32x32.png?v=1697798271"
+}
