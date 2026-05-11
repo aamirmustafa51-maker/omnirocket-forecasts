@@ -1,0 +1,138 @@
+{
+  "brand": "Dilli Grey",
+  "brand_slug": "dilli-grey",
+  "first_name": "Vickie",
+  "website": "https://www.dilligrey.com",
+  "generated_date": "May 11, 2026",
+  "read_time_min": 3,
+  "total_ads": 13,
+  "niche": "sustainable fashion",
+  "tldr": "Vickie — we walked through all 13 of your live ads and the picture is stark: you're running two creative concepts across thirteen placements, and twelve of those ads carry word-for-word identical body copy. Under Meta's Andromeda retrieval engine, that functionally collapses to one ad competing with itself.",
+  "benchmark": {
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your scale, the typical sustainable fashion brand refreshes hero creative every ~21 days; the top quartile does it every ~14. The bigger issue: you're sitting at 2 distinct concepts across 13 ads, which is below Andromeda's effective 5-concept floor — Meta's October 2025 retrieval update clusters semantically similar ads, so 13 variants of the same Jaipur block-print message gets served as one."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "26 days running with the exact same `New  Summer Arrivals` headline and the same Jaipur-block-print body — past your 21-day refresh window and well into the zone where Andromeda starts demoting the cluster.",
+        "Identical body copy appears verbatim on eight other live ads — Meta's 2025 retrieval engine treats this as one creative competing against itself.",
+        "There's a double-space typo in `New  Summer Arrivals` that's been live for nearly a month across multiple carousels."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 4,
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Day 26 on this carousel with zero copy or headline variation from four other ads launched the same week.",
+        "Same `Shop Now` CTA pointing to the same `/collections/new-in` landing page as every other live ad — no funnel differentiation.",
+        "Launch-cluster risk: five of your ads are at exactly day 26, meaning they'll all fatigue in the same window with nothing fresh queued behind them."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 6,
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "26 days live, identical creative concept to four sibling carousels — Andromeda will collapse these into one served variant.",
+        "Headline carries no specificity — no product, no proof, no hook beyond `New Arrivals` (a phrase apparel buyers scroll past).",
+        "Every active ad routes to the same collection page, so there's no read on which angle is actually pulling clicks."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 7,
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "cta": "Shop Now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Day 26 with the recycled summer-arrivals hook — 5 days past your 21-day refresh window.",
+        "Carousel format used 11 times out of 13 ads — no static or video variation to give the algorithm something to discriminate on.",
+        "The Jaipur block-print story is your strongest brand truth but it's been told the same way in every ad for nearly a month."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 11,
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "cta": "Shop Now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "26 days running, last of the older cohort — the entire wave will burn out together within the next week.",
+        "No SKU-specific hook anywhere — buyers can't tell from copy whether to click for the Jackie midi, the chikankari dresses, or the quilted jackets.",
+        "Body copy is duplicated verbatim across nine live ads — this is the single biggest Andromeda penalty visible from the public side."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "fatigue_score": 71,
+      "days_until_fatigue": 16
+    },
+    {
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "fatigue_score": 70,
+      "days_until_fatigue": 17
+    },
+    {
+      "headline": "New  Summer Arrivals",
+      "body": "Meet the latest Dilli Grey arrivals, hand-crafted slowly, with love by our block print partners in Jaipur. Consciously made in limited runs, on 100% cotton. Shop our new range of dresses, separates and loungewear for easy, boho summer styling.",
+      "fatigue_score": 69,
+      "days_until_fatigue": 18
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Dress, Named",
+    "format": "Static image",
+    "hook": "The Jackie midi — for the in-between days.",
+    "headline": "Sage, sun, slow craft.",
+    "primary_text": "Every Dilli Grey piece begins on a wooden block in Jaipur, carved by hand and pressed onto 100% cotton one panel at a time. The Jackie midi in white and sage is one of those pieces.\n\nLoose through the body, gathered at the waist, cut for the summer days when you want something easy but want it to mean something. Made in a limited run — when this batch is gone, the block goes back on the shelf.\n\nShop the Jackie midi and the rest of the summer collection.",
+    "cta": "Shop Now",
+    "visual_direction": "A single, named hero product — the Jackie midi in white and sage — photographed flat-lay or on a softly draped chair in natural side-light, with a wooden printing block and a folded length of cotton beside it to tell the craft story without a model.",
+    "fills_gap": "Every live ad leads with `New Arrivals` and routes to the same collection page — no single product is ever named, photographed solo, or given its own funnel. This concept introduces the SKU-specific angle that's missing from all 13 ads and gives Andromeda a genuinely distinct creative cluster, not another reshuffle of the same Jaipur paragraph.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a softly draped natural linen-covered surface with a hand-carved wooden block-printing block and a folded length of cream cotton placed beside the dress as quiet props, with warm midday side-light falling from the left through a sheer curtain creating gentle shadow. Slow-craft editorial aesthetic, calm and unhurried, ethical-fashion mood, muted natural palette, no busy props. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact ivory/white base cotton and the sage green block-print pattern of the Jackie midi dress exactly as shown in the reference, including the precise scale, spacing, and repeat of the block-printed motif; strictly NO color shift to mint, olive, teal, grey, or cream; strictly NO smoothing the block-print to a solid; strictly NO replacing the print with stripes, florals, or any other pattern. STRUCTURE — preserve the exact construction of the Jackie midi dress: midi length hem, relaxed loose-fit body, gathered/elasticated waist as shown, sleeve style exactly as in reference, neckline exactly as in reference, any buttons, ties, or closures in their exact count and placement as shown. Do NOT add or remove buttons, ties, pockets, or any closure, do NOT change sleeve length or style, do NOT alter the neckline, do NOT shorten or lengthen the hem, do NOT change to a fitted silhouette. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Jackie midi dress in white and sage",
+    "reference_url": "https://dilligrey.com/products/jackie-midi-dress-in-white-and-sage",
+    "image_path": "/creatives/dilli-grey/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Five ads cross day 30 inside the next week — and they all share the same copy.",
+    "headline": "Walk through the Dilli Grey refresh plan with Kyle",
+    "body": "Vickie, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We mapped all 13 of your live ads from the public Meta Ad Library against 2025–2026 Andromeda retrieval rules and apparel-niche creative benchmarks; we don't see your account-side CPM, CTR, or ROAS.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://www.dilligrey.com/cdn/shop/files/Dilli_Grey_teal_logo_stacked_-_small_e7435a68-5d62-479e-b541-7bdaa230ea4c_32x32.jpg?v=1673544504"
+}
