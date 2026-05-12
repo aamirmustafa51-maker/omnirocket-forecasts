@@ -1,0 +1,138 @@
+{
+  "brand": "Radical Yes",
+  "brand_slug": "radical-yes",
+  "first_name": "Kerryn",
+  "website": "https://radicalyes.com.au",
+  "generated_date": "May 12, 2026",
+  "read_time_min": 3,
+  "total_ads": 30,
+  "niche": "footwear",
+  "tldr": "We went through all 30 of your live ads and the picture is clear: 28 of them open with the same headline, 'Elevate Your Everyday', and you're running just 5 distinct creative concepts across the set — which sits below the floor Meta's Andromeda retrieval engine needs to keep serving you cheaply. The 'Poet Boot' and 'Cocoon: Autumn 26' body copy is duplicated word-for-word across multiple ads, which Andromeda treats as a single creative cluster regardless of how many ad IDs you've spun up.",
+  "benchmark": {
+    "your_value_days": 18,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your shipping cadence — 18 fresh ads in the last 8 days — the surface volume looks healthy, but you're sitting at 5 distinct concepts across 30 ads, which is below Meta's Andromeda 5-concept floor for retrieval diversity. Footwear CPMs typically run $9–$14, and concept consolidation under Andromeda is what compresses that band — fresh angles, not fresh SKUs."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "A$69 | Radical Yes | 'HASTEN SLOWLY' Radical Yes Souvenir Tee-Shirt",
+      "body": "Beautiful Shoes for Creative Women.",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been running unchanged for 371 days — over a year on the same creative, which is roughly 18× past your refresh window",
+        "Body copy is a single generic line, 'Beautiful Shoes for Creative Women' — no product specificity, no hook, no reason-to-click",
+        "Landing destination is a $69 tee-shirt, but the headline structure reads like a price-tag dump rather than a creative angle"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 13,
+      "headline": "The Perfect Hybrid Shoe",
+      "body": "⭐⭐⭐⭐⭐ \"Love love love these. Bought them on a bit of an impulse ahead of a big meeting - and haven't stopped wearing them since. So versatile and comfy - not quite a loafer, not quite a mary jane (neither of which I've found suit me) and well built for riding a bike / presenting to the board.\" - KM.",
+      "cta": "Shop Now",
+      "fatigue_score": 82,
+      "days_until_fatigue": 11,
+      "severity": "warn",
+      "drivers": [
+        "Day 32 on the Astral T-Bar review ad — past your 21-day refresh window and the only customer-review-led creative in your live set, so it's been carrying the social proof load alone",
+        "This is the strongest single piece of copy you're running (specific use case, named customer, vivid detail) but it has no sibling variants — the rest of the set is product-description voice",
+        "Single-format static review — no video cutdown, no carousel of more reviews, no rotation"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 2,
+      "headline": "Elevate Your Everyday",
+      "body": "Introducing Lucent. A high-rotation, centre-zip ankle boot in deep aubergine tumbled leather, featuring a tonal flatform outsole and double-layered insoles designed for comfort in motion. Now online 💜",
+      "cta": "Shop Now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "Day 28 on the Lucent launch copy — past your 21-day window, and an identical twin (same body, same product, day 8) is already running alongside it",
+        "Headline 'Elevate Your Everyday' is shared with 27 other live ads, so Andromeda clusters this into one retrieval bucket regardless of creative",
+        "Both Lucent ads point to the same product URL — you're paying to compete with yourself in the auction"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 17,
+      "headline": "Elevate Your Everyday",
+      "body": "We NEED to talk about awkward toes! 🎤 Introducing Cocoon: Autumn '26. New explorations in sculptural shapes and colours for statement dressing situations. Now online.",
+      "cta": "Shop now",
+      "fatigue_score": 76,
+      "days_until_fatigue": 15,
+      "severity": "warn",
+      "drivers": [
+        "The 'awkward toes' Cocoon hook is duplicated word-for-word across six live ads — three videos and three carousels — pointing to three different products",
+        "Day 12 video version, and Andromeda treats six near-identical creatives as one cluster regardless of format split",
+        "Hook recycling without copy variation: no A/B on the opener, no rewrite testing a different angle on the same drop"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 25,
+      "headline": "Elevate Your Everyday",
+      "body": "We NEED to talk about awkward toes! 🎤 Introducing Cocoon: Autumn '26. New explorations in sculptural shapes and colours for statement dressing situations. Now online.",
+      "cta": "Shop now",
+      "fatigue_score": 75,
+      "days_until_fatigue": 16,
+      "severity": "warn",
+      "drivers": [
+        "Identical Cocoon body to your other 'awkward toes' video at day 12 — same hook, same product page, same CTA",
+        "Two videos doing the same job means the algorithm picks one and starves the other",
+        "Cocoon collection has six ads competing for the same retrieval slot — this is the one to consolidate"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Elevate Your Everyday",
+      "body": "Ever wish you could wear your favorite loafers all winter long? ❄️ Meet the Poet Boot - a winter evolution of our beloved Miro Loafer...",
+      "fatigue_score": 68,
+      "days_until_fatigue": 20
+    },
+    {
+      "headline": "Elevate Your Everyday",
+      "body": "Meet the trainer that's actually built for the pavement 💚 The Tokyo Neoprene Trainer is our 'city-hiker' hybrid...",
+      "fatigue_score": 62,
+      "days_until_fatigue": 24
+    },
+    {
+      "headline": "Elevate Your Everyday",
+      "body": "The winter boot that doesn't look like a 'winter boot.' ❄️ Meet the Everything 2.0...",
+      "fatigue_score": 58,
+      "days_until_fatigue": 26
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Carry — Customer Voice in Frame",
+    "format": "Static image",
+    "hook": "Not quite a clutch. Not quite a wallet.",
+    "headline": "The North Star, in Biking Red",
+    "primary_text": "We made the North Star for the woman who's done deciding between 'event bag' and 'everyday bag' — a soft Italian leather clutch in Biking Red that slips into a tote on a Tuesday and stands on its own on a Friday.\n\nThe leather is full-grain, the lining is signature Electric Peach, and the colour is the kind of red that makes a navy coat make sense again. Small enough to forget you're carrying it. Loud enough to be the only accessory you need.\n\nNow online — same Radical Yes care that goes into the shoes.",
+    "cta": "Shop Now",
+    "visual_direction": "The North Star clutch in Biking Red photographed flat on warm natural linen with one of your shoes in soft focus beside it — accessories context the current 30-ad set is missing entirely.",
+    "fills_gap": "Every one of your 30 live ads is a shoe. The accessories line — clutches, bags, straps — has zero representation, and your strongest customer-review ad ('Astral T-Bar') proves a tighter, specificity-led voice outperforms the generic 'Elevate Your Everyday' headline that's on 28 ads. This concept opens a sixth angle, pulls budget pressure off the saturated Cocoon and Monae clusters, and gives Andromeda a genuinely new product category to retrieve against.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a flat-lay composition on warm natural unbleached linen with a single softly-blurred leather shoe in the background corner suggesting wardrobe context, with soft diffused window light from the upper left creating gentle shadow falloff and warm highlights on the leather grain. Considered, calm, editorial Australian-independent-fashion aesthetic — muted palette around a single saturated red focal point, generous negative space, the quiet confidence of a Radical Yes campaign image. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact deep saturated Biking Red colorway of the full-grain leather exactly as shown in the reference, with the signature Electric Peach interior lining visible if shown — strictly NO color shift to crimson, burgundy, orange-red, pink-red, or coral, NO desaturation to brick or rust, NO darkening to oxblood, NO swapping the peach interior lining for cream or white. STRUCTURE — preserve the exact construction of the North Star Leather Clutch: same envelope/clutch silhouette as shown in reference, same flap closure style, same number of visible seams and stitching lines, same hardware count and placement (clasp/magnetic snap as shown), same proportions, same edge finishing. Do NOT add a wrist strap, shoulder strap, chain, or handle that isn't in the reference, do NOT add buckles, studs, or hardware not present, do NOT change the closure mechanism, do NOT alter the silhouette to a wallet/pouch/box-bag shape, do NOT add visible logos or branded hardware that aren't in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "North Star Leather Clutch | Biking Red",
+    "reference_url": "https://radicalyes.com.au/products/north-star-2-0-leather-clutch-biking-red",
+    "image_path": "/creatives/radical-yes/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your oldest live ad is at day 371 and four Cocoon variants hit fatigue inside the next 19 days.",
+    "headline": "Walk through the Radical Yes refresh plan with Kyle",
+    "body": "Kerryn, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "Mapped from your live Meta Ad Library on May 12, 2026 — public creative only, no account access; benchmarks reference industry medians and Meta's 2025 Andromeda retrieval rules.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://radicalyes.com.au/cdn/shop/files/RY_Shopify_Favicon_Square.png?crop=center&height=32&v=1749530391&width=32"
+}
