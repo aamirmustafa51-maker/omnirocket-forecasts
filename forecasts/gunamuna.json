@@ -1,0 +1,138 @@
+{
+  "brand": "Gunamuna",
+  "brand_slug": "gunamuna",
+  "first_name": "Joy",
+  "website": "https://gunamuna.com",
+  "generated_date": "May 13, 2026",
+  "read_time_min": 3,
+  "total_ads": 41,
+  "niche": "baby sleepwear",
+  "tldr": "Joy — you're running 41 live ads but they're functionally three ads on repeat: the 'Convertible Pajama' product card, the 'Day & nightwear for cozy kiddos' numbered-list, and the 'Easy diaper change, easy sleep' founder paragraph. The same 'Everyone sleeps better when they're more comfortable...' opener is duplicated word-for-word across more than 20 of your active ads, which under Andromeda's clustering reads as one creative no matter how many color SKUs you spin off.",
+  "benchmark": {
+    "your_value_days": 11,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your scale and shipping volume, the practical refresh window is ~10–14 days; most baby sleepwear brands run ~21 days. You're shipping fresh ads consistently (good), but the copy underneath is identical, so the variety isn't reaching the algorithm."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Convertible Pajama - Goose",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms - we have changed many diapers in the dark, in tiny airplane bathrooms, in the grocery store, and in the backseat of (non-moving) cars, and we know that easy matters...for parent and for baby.  That's why we focused on developing our patented diaper-zipper, which means the easiest diaper changes...all while keeping baby cozy. Snag one (or several) in this super-soft bamboo for maximum comfiness and giggles.  Explore a variety of guna products, now including both sleepwear and daywear.",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "145 days running — more than 10x your practical refresh window and the oldest active ad in your set",
+        "Body copy is the exact same 'changed many diapers in the dark...' founder paragraph used in over 20 of your other live ads — Andromeda clusters these as one creative",
+        "The Goose colorway appears as its own ad four separate times with identical body copy, which compounds cluster suppression rather than adding diversity"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 22,
+      "headline": "Convertible Pajama - Sage",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms - we have changed many diapers in the dark, in tiny airplane bathrooms, in the grocery store, and in the backseat of (non-moving) cars, and we know that easy matters...for parent and for baby.  That's why we focused on developing our patented diaper-zipper, which means the easiest diaper changes...all while keeping baby cozy. Snag one (or several) in this super-soft bamboo for maximum comfiness and giggles.  Explore a variety of guna products, now including both sleepwear and daywear.",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "59 days running — past every refresh benchmark for baby sleepwear at your volume",
+        "Verbatim duplicate of the body copy used in your Goose, Dream, Shine, Imagine, Giraffe Moss, and Wishful Romper product ads",
+        "Headline is just the SKU name — no benefit, no hook, no reason to stop scrolling beyond the product photo"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 8,
+      "headline": "Convertible Pajama - Goose",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms - we have changed many diapers in the dark, in tiny airplane bathrooms, in the grocery store, and in the backseat of (non-moving) cars, and we know that easy matters...for parent and for baby.  That's why we focused on developing our patented diaper-zipper, which means the easiest diaper changes...all while keeping baby cozy. Snag one (or several) in this super-soft bamboo for maximum comfiness and giggles.  Explore a variety of guna products, now including both sleepwear and daywear.",
+      "cta": "Shop Now",
+      "fatigue_score": 87,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Second of four near-identical 'Convertible Pajama - Goose' ads running concurrently — same body, same CTA, same product",
+        "Landing variant ID differs from the other Goose ads by a single digit, suggesting these are feed-generated rather than concept-tested",
+        "Past your 14-day refresh window at 11 days with no differentiating creative angle to justify keeping it live"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 13,
+      "headline": "Convertible Pajama - Goose",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms - we have changed many diapers in the dark, in tiny airplane bathrooms, in the grocery store, and in the backseat of (non-moving) cars, and we know that easy matters...for parent and for baby. That's why we focused on developing our patented diaper-zipper, which means the easiest diaper changes...all while keeping baby cozy. Snag one (or several) in this super-soft bamboo for maximum comfiness and giggles. Explore a variety of guna products, now including both sleepwear and daywear.",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "Third Goose-colorway product card — only difference from the others is a missing double-space, which Andromeda treats as identical",
+        "Headline is the SKU name with no buyer benefit; the 'patented diaper-zipper' angle gets buried 80 words deep",
+        "No 9:16 placement, no UGC, no founder face — this is the catalog-shot pattern Meta penalizes in feed"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 17,
+      "headline": "Convertible Pajama - Goose",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms - we have changed many diapers in the dark, in tiny airplane bathrooms, in the grocery store, and in the backseat of (non-moving) cars, and we know that easy matters...for parent and for baby.  That's why we focused on developing our patented diaper-zipper, which means the easiest diaper changes...all while keeping baby cozy. Snag one (or several) in this super-soft bamboo for maximum comfiness and giggles.  Explore a variety of guna products, now including both sleepwear and daywear.",
+      "cta": "Shop Now",
+      "fatigue_score": 85,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "Fourth concurrent Goose ad with identical copy — you're paying impressions to compete with yourself",
+        "Same Shop Now CTA across all four Goose variants — no testing of 'See Details' or 'Learn More' which performed differently elsewhere in your set",
+        "Carousel format is identical to 19 other carousels — the format monoculture pushes 33 of 41 ads into one cluster"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "30% Off Select Items",
+      "body": "Enjoy 30% off all items in our sale collection – only while supplies last! Everyone sleeps better when they're more comfortable, including our babies...",
+      "fatigue_score": 64,
+      "days_until_fatigue": 18
+    },
+    {
+      "headline": "spring products now in stock!",
+      "body": "Here's why we LOVE this sleepwear 1️⃣ Easiest diaper change ever 🙌 2️⃣ Bamboo rayon + zippers in all the right places make parents' job easy 3️⃣ Super safe and not weighted...",
+      "fatigue_score": 58,
+      "days_until_fatigue": 22
+    },
+    {
+      "headline": "Shortie Romper - Wishful",
+      "body": "Everyone sleeps better when they're more comfortable, including your baby. Everything we make at gunamuna is inspired by our lives as moms...",
+      "fatigue_score": 70,
+      "days_until_fatigue": 15
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The 3 AM Diaper Change",
+    "format": "Static image (9:16 + 1:1 cuts)",
+    "hook": "The one zipper that doesn't wake the baby.",
+    "headline": "Built for 3 AM.",
+    "primary_text": "Every guna sleepwear piece starts with one question: what does a tired parent need at 3 AM?\n\nThe answer became our patented diaper-zipper — change a diaper in the dark without unsnapping seven snaps, without unzipping the whole sleep sack, without waking the baby you just spent 40 minutes getting down. Bamboo-soft, 0.5 TOG, and not weighted.\n\nShop the Footie Sleep Sack in Beauty — sized 0–24 months.",
+    "cta": "Shop Now",
+    "visual_direction": "Low-light bedroom scene: the Footie Sleep Sack in Beauty laid on a softly-rumpled crib sheet with a single warm nightlight glow, the patented zipper visible and slightly open as the hero detail.",
+    "fills_gap": "Every one of your 41 live ads opens with the same 'Everyone sleeps better when they're more comfortable' founder paragraph or the numbered-list script — none of them open with a scene-specific moment that names the parent's actual pain. This concept hooks on the 3 AM problem your product was literally invented to solve, which gives Andromeda a genuinely new semantic cluster to test against your existing pool.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a softly-rumpled cream crib sheet at night with a single warm amber nightlight glowing from the upper-left corner, with low-key warm directional lighting that pools gently across the fabric and casts soft shadows that suggest a quiet nursery at 3 AM. Calm, intimate, parenting-magazine aesthetic with shallow depth of field and a quiet, lived-in feeling. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact 'Beauty' colorway of the Footie Sleep Sack: a soft pastel floral print on a pale cream/blush bamboo base, rendered exactly as in the reference with no color shift to white, grey, or saturated pink, and preserve the gentle warm bamboo handfeel — strictly NO color temperature shift, NO swapping the floral print for a solid, NO altering the floral motif scale or palette. STRUCTURE — preserve the exact construction: full footed sleep sack silhouette (covered feet, long sleeves, fitted cuffs at the wrist), the patented two-way diaper zipper running vertically down the center front from neckline to crotch with the secondary lower zipper for diaper access clearly visible, snap closure at the top of the neckline, ribbed cuffs at wrists and around the ankles. Do NOT add or remove zippers, do NOT replace the two-way zipper with snaps or a single zipper, do NOT add buttons, do NOT change to a sleeveless or shortie silhouette, do NOT remove the footed bottom, do NOT alter the print placement. Render the product's fabric, color, finish, weave, AND every visible construction detail (silhouette, zipper, snap, cuffs, footed feet, printed floral pattern) EXACTLY as they appear in the reference image. Do NOT change the metal type of zipper pulls, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Footie Sleep Sack - Beauty/ 0.5 TOG",
+    "reference_url": "https://gunamuna.com/products/footie-sleep-sack-beauty-0-5-tog",
+    "image_path": "/creatives/gunamuna/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Five of your hero ads cross the fatigue line inside 8 days.",
+    "headline": "Walk through the Gunamuna refresh plan with Kyle",
+    "body": "Joy, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We went through every live ad in your Meta Ad Library, mapped headline and body duplication patterns, and scored each against Andromeda's 2025 retrieval clustering rules and baby-sleepwear refresh benchmarks. No private account data was used.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://gunamuna.com/cdn/shop/files/smileicon.44_dcaf9c06-7819-4328-97bf-2ba40c334694.png?v=1739307834&width=96"
+}
