@@ -1,0 +1,137 @@
+{
+  "brand": "Storm London",
+  "brand_slug": "storm-london",
+  "first_name": "Anna",
+  "website": "https://stormwatches.com",
+  "generated_date": "May 13, 2026",
+  "read_time_min": 3,
+  "total_ads": 59,
+  "niche": "watches",
+  "tldr": "Anna — you're shipping fresh concepts at a healthy clip (31 distinct angles across 59 live ads), but the back catalog is dragging the average down hard. Five Temptress Charm Gold-Teal ads carry identical body copy and have been running 229–605 days, plus there's zero video in a vertical where motion is now table stakes.",
+  "benchmark": {
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "At your scale, hero creative should rotate every ~14 days; the typical watch brand drifts closer to 21. You're hitting the cadence on new launches but leaving 12+ legacy ads running well past the 200-day mark, which Andromeda will cluster and suppress regardless of how fresh the new stuff is. The $9–$14 niche CPM band only holds when the cluster stays diverse — duplicates pull the whole ad set's delivery down."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Women's STORM Temptress Charm Gold-Teal Watch (47013/GD/T) -",
+      "body": "21k Gold and Teal = the dreamiest combination. 💚✨ featuring our gorgeous TEMPTRESS CHARM 🌟 https://stormwatches.com/products/temptress-charm-gold-teal",
+      "cta": "Learn more",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Running unchanged for 605 days — that's 43× past your 14-day refresh window for a single creative.",
+        "The exact same Temptress Charm Gold-Teal body copy is live across five different ads right now, which Andromeda reads as one concept and throttles delivery on.",
+        "Headline ends mid-sentence with a trailing dash — looks like a scraped product title rather than copywritten ad text, which depresses click intent."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 3,
+      "headline": "Women's STORM Temptress Charm Gold-Teal Watch (47013/GD/T) -",
+      "body": "21k Gold and Teal = the dreamiest combination. 💚✨ featuring our gorgeous TEMPTRESS CHARM 🌟 https://stormwatches.com/products/temptress-charm-gold-teal",
+      "cta": "Learn more",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "551 days live with zero copy or creative change — well into auto-suppression territory.",
+        "Identical body to four other live Temptress Charm Gold-Teal ads; Meta's retrieval engine collapses these into a single cluster.",
+        "CTA 'Learn more' on a hero product ad is a soft ask — at this fatigue level you need 'Shop Now' to recapture intent."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 8,
+      "headline": "TEMPTRESS CHARM RG-VIOLET (47013/V) - StormWatches.com",
+      "body": "Rose gold and lazer violet = the dreamiest combination. 💜✨ featuring our gorgeous TEMPTRESS CHARM 🌟 https://stormwatches.com/products/temptress-charm-rg-violet",
+      "cta": "Learn more",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "605 days running — the RG-Violet body is duplicated word-for-word across four live ads.",
+        "Headline reads 'StormWatches.com' at the end, a CMS export artifact that wastes 17 characters of premium headline real estate.",
+        "Body copy uses the same 'dreamiest combination 💚✨' template as the Gold-Teal variant — Andromeda treats both as the same concept signature."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 18,
+      "headline": "Hydron V2",
+      "body": "STORM Hydron | Machina Collection Signature industrial case. 50m water resistance. Designed in London.",
+      "cta": "Shop now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "554 days unchanged for the Hydron V2 — and the exact same copy is live on two additional ads (551 and 166 days respectively).",
+        "This is one of the few ads carrying a real product story ('Designed in London', '50m water resistance') and it's being wasted on three duplicate placements instead of three different angles.",
+        "No image variation across the three Hydron V2 ads — Andromeda's similarity score on this trio is almost certainly above the 60% suppression threshold."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 9,
+      "headline": "Women's STORM Watch STARLETTI GOLD LAZER GREEN (47313/GD/GN) - StormWatches.com",
+      "body": "21k Gold meets Lazer Green for a combo that's simply irresistible. 💚✨ Meet the stunning STARLETTI! 🌟\" https://stormwatches.com/products/starletti-gold-lazer-green",
+      "cta": "Learn more",
+      "fatigue_score": 87,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "551 days running with identical copy duplicated across three Starletti Gold-Green ads.",
+        "Body has a stray unclosed quote character (\\\") right before the URL — small, but it tells the algorithm this is auto-generated feed copy, not crafted.",
+        "Same 'metal + lazer color = dreamy combination 💚✨' template as your Temptress and Tulisa ads — concept signature blurs across the whole women's lane."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "{{product.name}}",
+      "body": "The new S-HERO smart watch features phone calling/notifications, fitness tracking, health monitoring, remote camera control and more! Each watch comes with a charging cable and is compatible with both Android and IOS ⚡",
+      "fatigue_score": 72,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "TEMPTRESS CHARM BLACK",
+      "body": "Crafted in high-grade stainless steel, the Camera V7 Special Edition showcases a unique rotating bezel, MX strap, Miyota movement and signature lazer blue glass. A true statement of STORM's design heritage.  #stormwatches #stormlondon",
+      "fatigue_score": 68,
+      "days_until_fatigue": 18
+    },
+    {
+      "headline": "Camera V7: The 1995 Icon Returns",
+      "body": "A STORM legend, evolved. Inspired by our iconic 1995 original, the Camera V7 brings back the mechanical shutter movement. Rotate the bezel to reveal the signature Lazer Blue dial. Engineering you  can feel.",
+      "fatigue_score": 38,
+      "days_until_fatigue": 38
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Vestine Black — On The Wrist",
+    "format": "Static image",
+    "hook": "The watch we made for people who hate logos.",
+    "headline": "New Vestine Black",
+    "primary_text": "Storm has been designed in London since 1989. Thirty-seven years of figuring out what makes a watch feel like yours instead of someone else's.\n\nThe new Vestine Black is the answer in its quietest form — blacked-out case, blacked-out dial, a single hour marker doing all the talking. No loud branding. No SKU on the strap. Just the shape.\n\nFree UK shipping. Two-year movement warranty. Shop the drop.",
+    "cta": "Shop Now",
+    "visual_direction": "Close-cropped wrist shot of the Vestine Black worn casually against a soft-focus London-grey backdrop, captured editorial-style with the watch face slightly angled toward camera.",
+    "fills_gap": "Your library is 47 static product-on-white shots and 12 carousels with zero in-context human wear — every ad sells the watch as an object, none of them sell the moment of wearing it. A wrist-shot lifestyle frame breaks the visual monoculture and gives the Camera V7 / Hydron 'Designed in London' heritage line a place to actually live in the feed.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a close-cropped men's wrist shot with the watch worn against a charcoal grey wool sleeve cuff, set against a soft out-of-focus moody London-grey backdrop, with cinematic directional side lighting that catches the bezel edge and dial markers while leaving the strap in soft shadow. Quiet, premium, restrained editorial aesthetic — think Hodinkee meets COS, minimal styling, no props, the watch is the only hero. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact blacked-out matte black case finish, black dial, and black strap of the Vestine Black exactly as shown in the reference image — strictly NO silver, NO gold, NO rose gold, NO chrome, NO warm metallic tones, NO color shift on the dial or strap, NO swap to a polished or glossy finish, keep the entire watch in its monochrome matte-black colorway. STRUCTURE — preserve the exact construction: round case shape, single crown placement as shown in reference, exact bezel style as shown, exact dial layout including hour markers and hand count as shown, exact strap material and stitching pattern as shown, the STORM brand mark on the dial preserved exactly as it appears in the reference. PRESERVE the dial text, the STORM logo, and any printed markings on the watch face exactly. Do NOT add subdials, do NOT add date windows not present in the reference, do NOT add or remove crown buttons, do NOT change strap from leather to metal or vice versa, do NOT alter the case shape or bezel, do NOT remove or alter the STORM brand mark on the dial. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "NEW VESTINE BLACK",
+    "reference_url": "https://stormwatches.com/products/new-vestine-black",
+    "image_path": "/creatives/storm-london/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Five of your ads cross terminal fatigue inside 7 days — the Temptress and Hydron clusters first.",
+    "headline": "Walk through the Storm London refresh plan with Kyle",
+    "body": "Anna, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We walked through all 59 of your live Meta ads using public Ad Library data — first-seen dates, copy duplication, and concept clustering. No account access, no private metrics.",
+  "prospect_logo_url": "https://stormwatches.com/cdn/shop/files/favicon-32x32.png?crop=center&height=32&v=1662995584&width=32"
+}
