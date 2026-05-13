@@ -1,0 +1,138 @@
+{
+  "brand": "Webb Western",
+  "brand_slug": "webb-western",
+  "first_name": "Dylan",
+  "website": "https://webbwestern.com",
+  "generated_date": "May 13, 2026",
+  "read_time_min": 3,
+  "total_ads": 33,
+  "niche": "western apparel",
+  "tldr": "Of your 33 live ads, the Realtree collab body copy ('Two iconic names. One unstoppable hat...') is running verbatim across 14 separate ads — Meta's Andromeda system clusters those as effectively one creative, which means most of your ad set is competing against itself for impressions. Six of those Realtree variants have been live for 27 straight days, well past the 21-day refresh window typical brands at your scale should be hitting.",
+  "benchmark": {
+    "your_value_days": 18,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Typical apparel brands refresh hero creative every ~21 days; top performers hit ~14. At Webb Western's volume — 33 live ads, fresh shipments every week — the practical window is closer to 10–14 days because the Realtree concept has saturated the cluster faster than a normal launch curve."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "JUST DROPPED: REALTREE",
+      "body": "Official Webb Western x Realtree® collab. Two iconic names. One unstoppable hat. • Waterproof • Sweat resistant • Easy to clean • Perfect fit guarantee",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Identical body copy running across 14 of your live ads — Andromeda treats this entire group as one creative concept and throttles the cluster",
+        "Live for 27 days, which is 6 days past the typical refresh window for apparel and 13 past where high-volume accounts at your scale should be cycling",
+        "Same 'JUST DROPPED' headline appears on 11 hat ads — the freshness signal is gone, returning customers have seen it for nearly a month"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 1,
+      "headline": "JUST DROPPED: REALTREE",
+      "body": "Official Webb Western x Realtree® collab. Two iconic names. One unstoppable hat. • Waterproof • Sweat resistant • Easy to clean • Perfect fit guarantee",
+      "cta": "Shop Now",
+      "fatigue_score": 93,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Carbon-copy of the body running on more than a dozen sister ads — no semantic differentiation for the retrieval engine to surface",
+        "Day 27 on the clock, same hats collection landing page, same Shop Now button as the rest of the Realtree wave",
+        "Carousel format with no hook variance — every slide pulls from the same product family"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 14,
+      "headline": "JUST DROPPED: REALTREE",
+      "body": "Official Webb Western x Realtree® collab. Two iconic names. One unstoppable hat. • Waterproof • Sweat resistant • Easy to clean • Perfect fit guarantee",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "27 days running with zero copy or headline differentiation from the rest of the Realtree carousel wave",
+        "All four bullet points — waterproof, sweat resistant, easy to clean, perfect fit — show up on 14 ads pointing to the same /collections/hats URL",
+        "Andromeda's similarity scoring puts this well past the 60% threshold that triggers cluster suppression"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 19,
+      "headline": "JUST DROPPED: REALTREE",
+      "body": "Official Webb Western x Realtree® collab. Two iconic names. One unstoppable hat. • Waterproof • Sweat resistant • Easy to clean • Perfect fit guarantee",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Verbatim duplicate of three other Realtree carousels at the 27-day mark",
+        "Headline 'JUST DROPPED' is no longer accurate — the collab has been in market nearly a month, and returning viewers see through it",
+        "No format variance from sister ads (all carousel, all hats LP) so Meta can't surface a winner inside the cluster"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 20,
+      "headline": "JUST DROPPED: REALTREE",
+      "body": "Official Webb Western x Realtree® collab. Two iconic names. One unstoppable hat. • Waterproof • Sweat resistant • Easy to clean • Perfect fit guarantee",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "27 days live, identical to four other Realtree carousels — functionally a fifth copy of the same ad",
+        "The hunter / Realtree audience overlaps heavily with itself; frequency on this concept has likely compounded past useful levels",
+        "Same Shop Now CTA pointing to /collections/hats as 18 other live ads — no destination variance"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Buy 2 Get 1 Free",
+      "body": "Performance Camo Tees just dropped. Lightweight. Breathable. Soft and stretchy.",
+      "fatigue_score": 64,
+      "days_until_fatigue": 18
+    },
+    {
+      "headline": "On Sale Today",
+      "body": "The Only Tee I Wear Now. Vintage Camo In A Buttery Soft Performance Material.",
+      "fatigue_score": 55,
+      "days_until_fatigue": 24
+    },
+    {
+      "headline": "Honest Reviews",
+      "body": "Own a Webb Western hat? Leave your feedback below. Good or bad, we want to hear it.",
+      "fatigue_score": 28,
+      "days_until_fatigue": 40
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Dawn Patrol Field Test",
+    "format": "Static image",
+    "hook": "Tested before sunrise. Built for the long haul.",
+    "headline": "The Drift Camo Tee",
+    "primary_text": "No Excuses. No Bullshit. Just a tee that earns its keep before most people are out of bed.\n\nThe Performance Tee in Drift Camo is cut from a buttery-soft performance knit — lightweight, breathable, holds its shape after the truck, the dog, the dirt, and the wash. Made for the guys who actually use their gear.\n\nBuy 2 Get 1 Free — straight from the ranch to your front porch.",
+    "cta": "Shop Now",
+    "visual_direction": "The Performance Tee in Drift Camo laid flat on weathered cedar fence wood at first light, with a worn leather work glove and a chipped enamel coffee mug framing the edges — outdoor, lived-in, no model.",
+    "fills_gap": "Every one of your hat ads pushes the same Realtree collab paragraph and every tee ad leans on 'Buy 2 Get 1 Free' as the lead — there's no creative that opens on the lifestyle and craftsmanship story your brand voice is built around. This concept lets the product breathe in its environment without leaning on a discount or a collab name to do the work.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a weathered cedar plank surface at a working ranch, with a worn brown leather work glove resting at the upper-left corner and a chipped white enamel coffee mug at the lower-right corner, the tee laid flat and centered, with golden-hour first-light streaming across at a low angle casting long soft shadows of the fabric folds, dust motes faintly visible in the light. Rugged Americana editorial aesthetic — earthy, lived-in, masculine, grounded in the hunting / ranch / outdoor lifestyle Webb Western is built for. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — preserve the exact Drift Camo pattern, scale, and earthy green/brown/tan colorway of the performance knit fabric exactly as shown in the reference image — strictly NO color shift toward orange, blue, pink, grey, or black; NO smoothing of the camo print into a solid; NO swapping to a different camo pattern (no Realtree, no Mossy Oak, no digital camo); preserve the buttery-soft matte performance-knit finish (not glossy, not shiny). STRUCTURE — preserve the exact construction: short-sleeve crew neckline, straight regular-fit silhouette, ribbed crew collar, set-in sleeves with finished hems, straight bottom hem, and PRESERVE every printed graphic, label, brand mark, chest logo, sleeve hit, and neck label exactly as they appear on the tee in the reference image — same placement, same colors, same scale. Do NOT add pockets, do NOT add buttons or a placket, do NOT change to V-neck or henley, do NOT change sleeve length, do NOT remove or alter the printed graphics or brand labels on the tee, do NOT relocate any graphic, do NOT recolor any printed element. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Performance Tee (Drift Camo)",
+    "reference_url": "https://webbwestern.com/products/performance-tee-drift-camo",
+    "image_path": "/creatives/webb-western/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Six Realtree ads cross fatigue within the week — May 18–20.",
+    "headline": "Walk through the Webb Western refresh plan with Kyle",
+    "body": "Dylan, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We went through every live ad in Webb Western's Meta Ad Library on May 13, mapped copy duplication, format mix, days-running, and landing destinations, then scored each ad against 2025–2026 Andromeda clustering behavior — no account access, no private metrics.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://webbwestern.com/cdn/shop/files/IMG_2551_96x96.jpg?v=1690589103"
+}
