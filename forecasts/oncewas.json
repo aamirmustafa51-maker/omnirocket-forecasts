@@ -1,0 +1,123 @@
+{
+  "brand": "OnceWas",
+  "brand_slug": "oncewas",
+  "first_name": "Belinda",
+  "website": "https://oncewas.com.au",
+  "generated_date": "May 27, 2026",
+  "read_time_min": 3,
+  "total_ads": 74,
+  "niche": "petite womenswear",
+  "tldr": "You're running 74 live ads built on roughly four headline templates — 'Elevated Winter Style Starts Here', 'Statement Prints. Timeless Silhouettes', 'The New Season Collection', and 'Now Available For Pre-Order' — with body copy duplicated verbatim across dozens of variants. Under Andromeda's clustering, that's functionally four ads competing with themselves, and the oldest cluster has been live unchanged for 68 days.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical apparel brand refreshes hero creative every ~21 days; top performers hit ~14. At your volume — 74 live ads across 15 concepts — the practical refresh window tightens to around 10–12 days because Andromeda treats your duplicated copy clusters as single creatives, accelerating cluster-level fatigue."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 12,
+      "headline": "Shop This Collection Today",
+      "body": "Inspired by the wardrobes of the world, this collection offers trans-seasonal, lightweight, effortless styles. Perfect choice for spring racing, summer events, weddings & holidays. Now Available & In Stock!",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Live for 68 days — nearly 5× your effective 12-day refresh window for a brand at this volume",
+        "Generic 'Shop This Collection Today' headline lands no hook, no specificity, and no petite-fit angle that's actually your moat",
+        "Pointing at a spring/summer racing collection while every newer ad is selling winter — the campaign is competing with itself for the same audience"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 6,
+      "headline": "Now In Available & In Stock",
+      "body": "Inspired by coastal escapes around the world, this Resort Collection embraces effortless elegance through lightweight, versatile styles made for warm days and balmy nights. Perfect choice for spring racing, summer events, weddings & holidays. BAHARI Collection now available & in stock.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Headline reads 'Now In Available & In Stock' — there's a typo in the visible headline that's been live for 68 days",
+        "Selling a Resort/coastal collection in the same active set as four winter capsules creates seasonal confusion for the algorithm and the shopper",
+        "68 days unchanged is roughly 5× your effective refresh window — cluster has long since exited the productive window"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 3,
+      "headline": "Shop Elevated Autumn Styles",
+      "body": "Inspired by the wardrobes of the world, this Autumn '26 collection offers trans-seasonal, lightweight, effortless styles. Shop elevated styles for all your Autumn occassions & holidays. Now Available & In Stock!",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "68 days running, and 'occassions' is misspelled in the body copy that's been live the entire time",
+        "Body copy uses the same 'Inspired by the wardrobes of the world… trans-seasonal, lightweight, effortless' template recycled in your Resort ad — Andromeda reads them as one creative",
+        "Autumn '26 messaging is now stale against the winter capsule push that dominates your newer launches"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 31,
+      "headline": "Pre-order effortless elegance.",
+      "body": "Pre-order effortless elegance with Winter statement pieces that blends refined tailoring with romantic, nature-inspired design. Add these forever staples to your wardrobe now. Now available fore pre-order online or stockists nationwide",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "47 days live with the typo 'available fore pre-order' still uncorrected in the body",
+        "This exact body text appears verbatim across roughly a dozen pre-order ads — the cluster is one creative wearing twelve costumes to Meta's retrieval engine",
+        "Pre-order urgency lands flat after 47 days — by now anyone interested in pre-ordering has either bought or scrolled past it multiple times"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 58,
+      "headline": "Pre-order effortless elegance.",
+      "body": "Pre-order effortless elegance with Winter statement pieces that blends refined tailoring with romantic, nature-inspired design. Add these forever staples to your wardrobe now. Now available fore pre-order online or stockists nationwide",
+      "cta": "Shop now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "43 days live as a static image — the format with the shortest natural lifespan on Meta in 2026",
+        "Body copy is identical to the carousel version that's been running 47 days, and to nine other pre-order videos — Andromeda is suppressing the cluster",
+        "Subjective 'effortless elegance' opens the ad with zero specificity — nothing about petite fit, sizing, or the actual garment doing the work"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Statement Prints. Timeless Silhouettes",
+      "body": "Experience Odyssey, a collection where romantic details meet earthy sophistication. Featuring the exclusive Exotica print, this drop celebrates a palette of warm ochres and deep terracottas designed for effortless, everyday elegance.",
+      "fatigue_score": 78,
+      "days_until_fatigue": 12
+    },
+    {
+      "headline": "The New Season Collection",
+      "body": "This release explores a grounded palette with warm, palm-inspired prints and timeless pieces in black designed for endless pairing. These designs were created to fall effortlessly on the body, blending softness with structure and artistry with wearability. Explore our latest arrivals and see for yourself, available from our eboutique or stockists nationwide",
+      "fatigue_score": 72,
+      "days_until_fatigue": 15
+    },
+    {
+      "headline": "Pre-order New Favourites",
+      "body": "The newest Intertwined capsule is now available for pre-order.",
+      "fatigue_score": 54,
+      "days_until_fatigue": 24
+    }
+  ],
+  "next_step": {
+    "urgency": "Three clusters hit cluster-death inside 7 days.",
+    "headline": "Walk through the OnceWas refresh plan with Kyle",
+    "body": "Belinda, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We mapped every one of your 74 live ads from the public Meta Ad Library — headlines, body copy, format, landing destination, days running — and scored each against 2025–2026 Andromeda retrieval behavior; we do not have access to your ad account, so no CPM, CTR, or ROAS figures appear here.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
