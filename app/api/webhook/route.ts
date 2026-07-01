@@ -85,6 +85,24 @@ const slugify = (s: string): string =>
 
 const stripNewlines = (s: string): string => s.replace(/[\r\n]+/g, " ").trim();
 
+// Detects unmerged template tokens like {{product.name}}, {% ... %}, or
+// default_*_* placeholders that bleed through from a brand's catalog/DPA ads
+// when Meta's Ad Library shows the raw Liquid template instead of the rendered
+// product. Mirrors the same detector in ForecastTemplate.tsx so the candidate
+// pool Claude ranks stays in lockstep with what actually renders.
+const LIQUID_TOKEN = /\{\{[^}]+\}\}|\{%[^%]+%\}|\bdefault_[a-z_]+\b/i;
+const looksLikeBrokenToken = (value: string): boolean => LIQUID_TOKEN.test(value);
+
+// An ad is usable only if, after stripping broken template tokens, at least one
+// of headline/body is real rendered copy. Excludes pure-DPA placeholder ads
+// (both fields are {{...}} tokens) that would otherwise be picked as top-K and
+// then silently dropped by the render layer, leaving gaps in the numbering.
+const hasRenderableCopy = (a: NormalizedAd): boolean => {
+  const h = looksLikeBrokenToken(a.headline) ? "" : a.headline.trim();
+  const b = looksLikeBrokenToken(a.body) ? "" : a.body.trim();
+  return !!(h || b);
+};
+
 function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   const r = (raw ?? {}) as Record<string, unknown>;
   const leadData = (r.lead_data ?? {}) as Record<string, unknown>;
@@ -756,14 +774,16 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true, status: "no_ads" });
     }
 
-    // 2. Normalize and keep usable ads (must have body text)
+    // 2. Normalize and keep usable ads (must have real rendered copy in at
+    //    least one field — excludes pure catalog/DPA placeholder ads whose
+    //    headline+body are both unrendered {{product.*}} tokens).
     const normalized = apifyAds
       .map(normalizeAd)
-      .filter((a) => a.body)
+      .filter(hasRenderableCopy)
       .map((a, i) => ({ ...a, index: i }));
 
     if (normalized.length === 0) {
-      await postSlack(`⚠️ *No usable ads* — ${tag} ad data missing body text. Manual review.`);
+      await postSlack(`⚠️ *No usable ads* — ${tag} ad copy is all unrendered template tokens. Manual review.`);
       return NextResponse.json({ ok: true, status: "no_usable_ads" });
     }
 
