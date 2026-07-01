@@ -1,0 +1,122 @@
+{
+  "brand": "Babynetic",
+  "brand_slug": "babynetic",
+  "first_name": "Friend",
+  "website": "https://babynetic.com",
+  "generated_date": "July 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 23,
+  "niche": "baby gear",
+  "tldr": "You've got 23 live ads but the copy work is thin — six of your carousels are pushing a broken Shopify variable (`{{product.brand}}`) as body text, and four different ads share the exact 'Magnetic silicone bib' headline. Six creatives are pushing past your 21-day refresh window with duplicated hooks, which is where Andromeda's clustering starts throttling delivery.",
+  "benchmark": {
+    "your_value_days": 18,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "You're refreshing at roughly the category median (~21 days), but at your scale in baby gear the top operators are on a 14-day cycle and volume accounts push closer to 10. The bigger issue isn't cadence — it's that a chunk of what you're shipping is copy-duplicate or missing body text entirely, which compresses the effective concept count Andromeda sees."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 6,
+      "headline": "Magnetic silicone bib",
+      "body": "{{product.brand}}",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Body copy is a broken Shopify template variable — `{{product.brand}}` is rendering literally instead of the brand name, which reads as a bug to any parent scrolling",
+        "Headline 'Magnetic silicone bib' is duplicated verbatim across four of your live carousels — Andromeda treats these as one cluster and suppresses the weakest",
+        "29 days in market, 8 days past your practical refresh window, with zero body-copy differentiation from three sister ads"
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 5,
+      "headline": "Magnetic Silicone Bib",
+      "body": "{{product.brand}}",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Same broken `{{product.brand}}` template variable in the body — no story, no benefit, no proof point for the parent reading it",
+        "Headline is a near-exact match to three other running ads (only the capitalization changes), so retrieval clusters them together",
+        "28 days running to the same collection page as its twin — you're paying to serve two versions of the same ad"
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 0,
+      "headline": "Magnetic silicone bib",
+      "body": "{{product.brand}}",
+      "cta": "Shop Now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Broken Shopify variable in the body — the `{{product.brand}}` placeholder never got swapped out before launch",
+        "Generic product-descriptor headline with zero hook — no transformation, no problem-solved, no parent-voice",
+        "29 days live, tied for the longest-running creative in your account with no rotation"
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 4,
+      "headline": "Magnetic silicone bib",
+      "body": "\"Necessity is the mother of invention\" ⚡️ Easy to snap on. Tough for little ones to pull off. Designed by parents who know mealtime.",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 8,
+      "severity": "danger",
+      "drivers": [
+        "The 'Necessity is the mother of invention' body copy is duplicated word-for-word on a second running ad (the one launched two days earlier), so both are competing in the same semantic cluster",
+        "Generic 'Magnetic silicone bib' headline pulls no weight — the actual hook (parent-designed, hard for baby to pull off) is buried in the body where fewer people read it",
+        "29 days in market on a product-page destination with no refresh, no new angle"
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 1,
+      "headline": "\"Necessity is the mother of invention\" ⚡️ Easy to snap on. Tough for little ones to pull off. Designed by parents who know mealtime.\"",
+      "body": "{{product.brand}}",
+      "cta": "Shop Now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 10,
+      "severity": "warn",
+      "drivers": [
+        "Same broken `{{product.brand}}` variable in the body — the whole message is being carried by the headline alone, which is 24 words long and gets truncated in-feed",
+        "Headline has a trailing stray quote mark (`mealtime.\"`) — sloppy detail that reads as low-effort to a parent",
+        "The exact same 'Necessity is the mother of invention' copy is running as body text on another live ad, so you're duplicating your best angle across two variants"
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Mealtime just got a whole lot easier.",
+      "body": "{{product.brand}}",
+      "fatigue_score": 54,
+      "days_until_fatigue": 28
+    },
+    {
+      "headline": "Mealtime just got a whole lot easier.",
+      "body": "{{product.brand}}",
+      "fatigue_score": 56,
+      "days_until_fatigue": 26
+    },
+    {
+      "headline": "Mealtime just got a whole lot easier.",
+      "body": "{{product.brand}}",
+      "fatigue_score": 55,
+      "days_until_fatigue": 27
+    }
+  ],
+  "next_step": {
+    "urgency": "Six ads cross fatigue in under 10 days — the bib carousels running the broken template variable are first.",
+    "headline": "Walk through the Babynetic refresh plan with Kyle",
+    "body": "Friend, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep — work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
+  "method_note": "We went through every live ad in your public Meta Ad Library and scored each on six fatigue signals; we don't see your CPM, CTR, or ROAS — those come in on the call."
+}
