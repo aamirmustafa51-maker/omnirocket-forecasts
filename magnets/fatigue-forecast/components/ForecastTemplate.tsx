@@ -239,7 +239,7 @@ export default function ForecastTemplate({
           <div key={i} className={`creative-card severity-${sev}`}>
             <div className="creative-head">
               <div className={`creative-thumb ${hasImage ? "" : phClasses[i % 5]}`}>
-                <span className="creative-thumb-tag">Ad #{ad.ad_number}</span>
+                <span className="creative-thumb-tag">Ad #{i + 1}</span>
                 {hasImage ? (
                   <img
                     src={`/creatives/${slug}/creative-${ad.ad_number}.jpg`}
@@ -250,7 +250,7 @@ export default function ForecastTemplate({
                 )}
               </div>
               <div className="creative-head-left">
-                <div className="creative-tag">Ad #{ad.ad_number}</div>
+                <div className="creative-tag">Ad #{i + 1}</div>
                 <div className="creative-head-headline"><FieldText value={ad.headline} missingLabel="no headline on this ad" /></div>
                 <div className="creative-head-body"><FieldText value={truncateWords(ad.body, 25)} missingLabel="no body copy on this ad" /></div>
               </div>
