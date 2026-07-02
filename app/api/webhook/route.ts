@@ -490,7 +490,7 @@ function buildPrompt(
     "pulse-burn": "big batch shipped at once, nothing since — burst-and-stall pattern",
   };
   const factsBlock = `══════ ACCOUNT FACTS (Claude can't derive these — use as context, but translate to plain English in the report) ══════
-This brand is running ${r.S2_concept_count} distinct creative concepts across ${allAds.length} ads. ${r.hero_concept_call_out_required ? "⚠️ This is BELOW Meta's Andromeda 5-concept floor — MANDATORY call-out per KB §14." : "(at or above Andromeda's 5-concept floor)"}
+This brand is running ${r.S2_concept_count} distinct ad ideas across ${allAds.length} ads. ${r.hero_concept_call_out_required ? "⚠️ Meta needs at least 5 genuinely different ad ideas, or it treats the near-identical ones as one ad and stops showing the rest. This brand is below that — you MUST call this out, but in plain owner English (no codenames), explaining the consequence to them." : "(this brand has enough distinct ad ideas)"}
 Format mix: ${r.format_mix.image} static image / ${r.format_mix.video} video / ${r.format_mix.carousel} carousel.
 Refresh pattern: ${cadenceCopy[r.cadence_label]}.
 
@@ -581,12 +581,12 @@ Return a single valid JSON object matching this EXACT schema:
   "read_time_min": 3,
   "total_ads": ${rawScrapeCount},
   "niche": "ONE plain-English noun the brand's customers would use to describe what they sell — lowercase, 1-3 words, used in a sentence as 'other ___ brands'. Examples: 'jewelry', 'streetwear', 'outerwear', 'luxury womenswear', 'modest fashion', 'sustainable fashion', 'skincare', 'home fragrance'. Avoid jargon ('DTC', 'D2C', 'ecom', 'fashion ecom') and avoid the brand's own name.",
-  "tldr": "2-sentence executive summary mentioning fatigue counts and the most pointed observation (concept-count gap, copy duplication, format monoculture, etc.). Do NOT invent CPM/CTR/ROAS figures about THIS brand.",
+  "tldr": "2 short sentences, grade 7-8, no jargon. Say how many ads are wearing out and the single biggest problem in plain words (too many near-identical ads, the same wording repeated, all one format, etc.), plus why it matters to them. Name the problem — do NOT tell them how to fix it. No made-up numbers.",
   "benchmark": {
     "your_value_days": "integer — the brand's actual hero-creative refresh window per the FACTS block (${r.brand_size_threshold_days} for this ${r.brand_size}-tier brand). Adjust DOWN if ads in danger band push the practical window earlier.",
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "1-2 sentences comparing this brand to category averages. Reference the brand_size${r.hero_concept_call_out_required ? ", the concept count below the Andromeda 5-floor (mandatory)" : ""}${q4.in_q4 ? ", and Q4 inflation framing" : ""}. Industry CPM context: per-niche band $${benchmark.cpm_low}–$${benchmark.cpm_high} (only mention if useful)."
+    "context": "1-2 plain-English sentences (grade 7-8, no jargon) comparing this brand to typical brands in their space.${r.hero_concept_call_out_required ? " You MUST mention, in plain terms with no codenames, that they don't have enough genuinely different ads, so Meta shows fewer of them." : ""}${q4.in_q4 ? " Briefly note that ad costs run higher this time of year." : ""} Do NOT mention CPM numbers or other made-up figures."
   },
   "ads": [
     {
@@ -598,7 +598,7 @@ Return a single valid JSON object matching this EXACT schema:
       "fatigue_score": 89,
       "days_until_fatigue": 6,
       "severity": "danger",
-      "drivers": ["driver 1", "driver 2", "driver 3"]
+      "drivers": ["one short plain-English sentence (grade 7-8, under ~18 words, no jargon or codenames): a specific problem with THIS ad and what it costs them — never how to fix it", "a second, DIFFERENT problem — don't repeat a point already made on another ad", "a third, distinct problem"]
     }
   ],
   "ads_compact": [
@@ -606,23 +606,23 @@ Return a single valid JSON object matching this EXACT schema:
   ],
   "hero_concept": {
     "concept_name": "short descriptor",
-    "format": "Static image / Carousel / etc",
+    "format": "the ad type in plain words: 'Single image', 'Swipeable set' (not 'carousel'), or 'Video'",
     "hook": "≤10 words — appears as primary text above the ad image",
     "headline": "≤6 words — appears below the ad image as the headline",
     "primary_text": "60-90 words in brand voice, FORMATTED AS 2-3 SHORT PARAGRAPHS separated by literal \\n\\n. First paragraph hooks/opens, second develops, optional third closes with the offer. Example: 'When Lea started L.CUPPINI in London in 2019, the goal was simple: outerwear that doesn't expire.\\n\\nThe Linda Tux Blazer in beige is cut for the woman who's done chasing seasons — tailored shoulder, soft hand, weight that holds its shape after the tenth wear.\\n\\nFree express shipping worldwide on orders over £600.'",
     "cta": "Shop Now / Learn More / etc — short button label",
     "visual_direction": "1 sentence describing what the visual shows",
-    "fills_gap": "What gap this fills, referencing patterns from their live ads — 1-2 sentences. NO mention of indexes, pools, or datasets.",
+    "fills_gap": "Why this ad idea, in plain owner English (grade 7-8, no jargon, no long dashes), 1-2 short sentences. Say what their current ads are missing in words the owner uses: say 'swipeable ad' not 'carousel', 'your best selling point' not 'proof point', 'runs your account' not 'carry the account'. Do NOT say 'video twin', 'collection ad', 'riding shotgun', or 'proof point'. NO indexes, pools, or datasets.",
     "image_prompt": "the fully-filled image generation prompt using the template above with ALL FIVE slots filled in: {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, {STRUCTURE_LOCK}. The MATERIAL_LOCK clause must name the reference product's exact material/metal/color/finish with explicit forbids on the wrong-tone swap. The STRUCTURE_LOCK clause must name every countable structural feature (button counts, pocket counts, closure type, silhouette, sleeve length, neckline, hardware, AND any printed graphics/text/logos on the garment) with explicit forbids on adding/removing/modifying them. Both clauses are MANDATORY — do not output an image_prompt missing either lock. Do NOT use words like graffiti, tagged, weapon, drug, alcohol, blood — Google's content filter rejects them."
   },
   "next_step": {
-    "urgency": "short urgency line tied to ad death dates",
+    "urgency": "one short plain-English line (grade 7-8, no jargon) about which ads stop working soon and roughly when",
     "headline": "call CTA headline",
     "body": "2-sentence pitch for the call.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar — OmniRocket",
-  "method_note": "1 sentence on methodology and limits.",
+  "method_note": "1 short plain sentence on how this was made and its limits, no jargon. Example: 'Based only on your public Facebook and Instagram ads — the pictures, the words, and how long each one has been running. No access to your account or private numbers.'",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
 }
 
@@ -637,18 +637,18 @@ HARD RULES
 - hero_concept.image_prompt MUST follow the template structure exactly with BOTH the {MATERIAL_LOCK} AND {STRUCTURE_LOCK} clauses filled in, the printed-graphics override note preserved, and the negative section preserved verbatim. The MATERIAL_LOCK must name the actual material/metal/color/finish (e.g. "sterling silver", "beige wool", "dark chocolate suede") with wrong-tone forbids. The STRUCTURE_LOCK must name visible construction (button/snap/zipper count, pocket count, closure style, silhouette, sleeves, neckline, hardware) AND any printed graphics/text/logos on the garment, with explicit forbids on adding, removing, or altering them. If the product has printed graphics or text on it (graphic tees, branded sweatshirts, logo'd items), the STRUCTURE_LOCK must explicitly name them so the no-overlay-text negative does not cause the model to wipe them.
 - hero_concept.primary_text MUST contain literal \\n\\n separators between paragraphs (2-3 paragraphs total).
 - All copy grounded in the actual live ads above.
-- If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact ("No headline on this ad — the body is doing all the work...").
+- If an ad has an empty headline or body, exactly ONE of its 3 drivers MUST conversationally call out the missing field and explain the impact ("No headline on this ad, so the body is doing all the work...").
 
 ABSOLUTELY FORBIDDEN — these reveal you are an AI processing structured data:
 - NEVER reference [INDEX:N] numbers in any user-facing copy. Not in drivers. Not in tldr. Not in benchmark.context. Not in fills_gap. Not anywhere.
   ❌ "Body copy is duplicated verbatim across indexes 0, 1, 10, 13, 28"
   ❌ "duplicated on indexes 15 and 59"
   ❌ "INDEX 1, 2, and 5"
-  ✅ "Body copy is duplicated verbatim across five of your live ads"
-  ✅ "this same hook is recycled across roughly a dozen variants"
+  ✅ "The exact same wording is copied word-for-word across five of your live ads"
+  ✅ "you're running the same opening line across roughly a dozen ads"
 - NEVER use the words: index, indexes, the pool, the dataset, the data, source_index, ad_label.
 - NEVER use the words: audit, review, analysis (use: walked through, looked at, went through, mapped).
-- Refer to ads by what they ARE, not by number: "your camo coat ad", "the 'BOGO' headline variant", "the three Valentine's heart-pendant ads", "your founder-story video".
+- Refer to ads by what they ARE, not by number: "your camo coat ad", "the 'BOGO' headline ad", "the three Valentine's heart-pendant ads", "your founder-story video".
 - The reader must believe a human strategist on Kyle's team manually went through their Meta Ad Library and wrote this. Every sentence should pass that test.
 
 Output ONLY the JSON object. No markdown fences. No prose before or after.`;
@@ -664,10 +664,25 @@ The user message contains an ACCOUNT FACTS block (brand size, niche benchmarks, 
 TONE: peer operator. Specific, not generic. Quote actual ad copy verbatim from the live ads provided.
 NEVER use the words 'audit', 'review', or 'analysis' — use 'walked through', 'looked at', 'went through', 'mapped'.
 
-PLAIN ENGLISH RULE: the reader is a Shopify brand owner, not a media buyer. NEVER use internal taxonomy or scoring jargon. Specifically banned: "whale-tier", "mid-tier", "small-tier", "spend bracket", "S1/S2/S3 signal", "fatigue bucket", "cluster bucket", "concept signature", "first-5-words proxy". Industry terms (Andromeda, CPM, ROAS, Advantage+ Sales, retargeting, hook, headline, CTA, carousel, BFCM) ARE fine — they're the language brand owners hear from their existing agency. When you mean "high-volume account at this scale", say that — not "whale-tier".
+PLAIN ENGLISH RULE: the reader is a Shopify brand OWNER with NO agency and NO media-buying background. They run their own ads and asked for a second opinion. Write so a smart 13-year-old (US grade 7-8) understands it on the first read. NEVER use marketing or ad-platform jargon. If a word would make the owner stop and think "what does that mean?", it is banned.
+
+These rules apply to every OWNER-FACING report field: tldr, benchmark.context, every ad's drivers, next_step.urgency, method_note, AND hero_concept.fills_gap and hero_concept.visual_direction (these two explain things TO the owner, so they must be plain and jargon-free like the rest of the report).
+ONE narrow exception: hero_concept.hook, hero_concept.headline, hero_concept.primary_text, and hero_concept.cta are the actual replacement AD's copy, written in the brand's marketing voice — they should read like a real ad, so they don't have to sound like a plain explanation. (They still must NOT use a long dash, and still avoid platform jargon like "carousel"/"CTA".)
+
+HARD-BANNED WORDS/PHRASES (must never appear in owner-facing fields): "Andromeda", "cluster"/"clustering"/"cluster suppression", "retrieval", "cannibalization"/"cannibalize", "ad set", "concept" as a noun for an ad (say "ad idea" or "different ad"), "creative" as a noun (say "ad" or "the image/video"), "CPM", "ROAS", "impressions", "reach" (say "how many people see it"), "throttle"/"soft-throttle"/"suppress" (say "shows it to fewer people"), "SKU" (say "product"), "hook" (say "opening line"), "A/B", "variant", "cadence", "refresh window" (say "how often you post new ads"), "top-quartile"/"quartile"/"category median" (say "the best brands"/"the typical brand"), "auction", "monoculture", "avatars", "verbatim" (say "word-for-word"), "landing page" (say "the page the ad sends people to"). Still banned: "whale-tier", "mid-tier", "spend bracket", "S1/S2/S3", "fatigue bucket", "concept signature".
+
+EXPLAIN, DON'T NAME: when a platform mechanic matters, describe it in plain cause-and-effect — never with its codename. E.g. instead of "Andromeda clusters these and throttles the cluster" → "Meta sees these near-identical ads as basically one ad, so it quietly shows just one and stops running the rest — you paid to make ads almost no one sees."
+
+READING RULES (owner-facing fields):
+- Grade 7-8. Short sentences, aim under 18 words, one idea each. Break long sentences in two.
+- NEVER use a long dash (em dash "—" or en dash "–"). They look AI-written. Use a normal hyphen "-" instead, or just start a new sentence.
+- Say each point ONCE. Do not repeat the same finding across tldr, benchmark.context, and several drivers. If multiple ads share a problem, say it once, then let each ad's drivers add something NEW.
+- Keep the whole owner-facing read (tldr + benchmark.context + all drivers + urgency) under ~300-350 words — a real 90-second read. Be ruthless.
+
+DIAGNOSE, DON'T PRESCRIBE (critical): your job is to make each problem vivid and show what it is COSTING them — not to hand over the fix. Name what is wrong and the consequence, then STOP. Never tell them what to do about it (do NOT write "pause this", "delete the duplicate", "write a benefit-led headline", "add a video", "refresh sooner", "shorten this", etc.). The owner should finish each ad thinking "that's bad, and I'm not sure how to fix it myself." The fix is what the call is for. State the symptom and the cost; withhold the cure.
 OUTPUT: a single valid JSON object only — starting with { and ending with }. No prose, no markdown fences, no explanation. Match the schema exactly as shown in the user message.
 
-The following knowledge base is your source of truth for Meta ad policy, anti-patterns, and 2025–2026 platform reality. Apply it when writing findings, drivers, and the hero concept. Cite Andromeda by name when concept count is below floor.
+The following knowledge base is your source of truth for Meta ad policy, anti-patterns, and 2025–2026 platform reality. Apply it when writing findings, drivers, and the hero concept — but translate every platform mechanic into plain owner English per the rules above. Never name internal systems (e.g. "Andromeda"); explain what they DO to the owner's ads instead.
 ${buildKbBlock(nicheKey)}`;
 }
 
@@ -943,6 +958,21 @@ export async function POST(req: NextRequest) {
         }
       }
     }
+
+    // Backstop: swap every long dash (em "—" / en "–") for a plain hyphen
+    // across all copy. Long dashes read as AI-written; keep surrounding spaces
+    // as authored so " — " becomes " - " and "day—to—day" becomes "day-to-day".
+    const normalizeDashes = (v: unknown): unknown => {
+      if (typeof v === "string") return v.replace(/[—–]/g, "-");
+      if (Array.isArray(v)) return v.map(normalizeDashes);
+      if (v && typeof v === "object") {
+        const obj = v as Record<string, unknown>;
+        for (const k of Object.keys(obj)) obj[k] = normalizeDashes(obj[k]);
+        return obj;
+      }
+      return v;
+    };
+    normalizeDashes(forecastJson);
 
     // 6. PUT forecast JSON
     const forecastBase64 = Buffer.from(JSON.stringify(forecastJson, null, 2)).toString("base64");

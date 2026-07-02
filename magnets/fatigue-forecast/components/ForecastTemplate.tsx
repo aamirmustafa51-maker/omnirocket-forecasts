@@ -136,7 +136,7 @@ function FieldText({ value, missingLabel }: { value: string; missingLabel: strin
   if (looksLikeBrokenToken(value)) {
     return (
       <span className="field-broken-token">
-        (their CMS template didn't render — the live ad shows: <code>{value}</code>)
+        (their CMS template didn't render - the live ad shows: <code>{value}</code>)
       </span>
     )
   }
@@ -186,7 +186,7 @@ export default function ForecastTemplate({
           Fatigue Forecast · Prepared for {data.first_name}
         </div>
         <h1>
-          {data.brand} — {data.total_ads === 1
+          {data.brand} - {data.total_ads === 1
             ? "your only live Meta ad, modeled."
             : `your ${data.total_ads} live Meta ads, modeled.`}
         </h1>
@@ -292,7 +292,7 @@ export default function ForecastTemplate({
         <>
           <h2>Here's the ad we'd run for you (concept)</h2>
           <div className="hero-mockup-intro">
-            Built from public catalog photos to show direction — once we work from your raw assets, our team ships 10–20 production-ready variations (including videos) like this every week.
+            Built from public catalog photos to show direction - once we work from your raw assets, our team ships 10-20 production-ready variations (including videos) like this every week.
           </div>
           <div className="hero-mockup">
             <div className="fb-ad">
@@ -348,7 +348,7 @@ export default function ForecastTemplate({
               <p>{stripTokens(hero.fills_gap)}</p>
               <div className="hero-mockup-meta">
                 <span><strong>Format:</strong> {hero.format}</span>
-                <span><strong>Hook:</strong> &ldquo;{stripTokens(hero.hook)}&rdquo;</span>
+                <span><strong>Opening line:</strong> &ldquo;{stripTokens(hero.hook)}&rdquo;</span>
               </div>
             </div>
           </div>
