@@ -159,5 +159,6 @@
       }
     ]
   },
-  "generated_at": "2026-07-05T09:55:24.674Z"
+  "generated_at": "2026-07-05T09:55:24.674Z",
+  "standalone": true
 }
