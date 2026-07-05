@@ -28,8 +28,8 @@ export default function PlaybookTemplate({ data }: { data: PlaybookData }) {
   const cl = data.customer_language
   const sourceLine =
     data.review_count > 0
-      ? `from your public site and ${data.review_count} customer reviews`
-      : "from your public website"
+      ? "from your site and customer reviews"
+      : "from your site"
 
   return (
     <div className="wrap">
