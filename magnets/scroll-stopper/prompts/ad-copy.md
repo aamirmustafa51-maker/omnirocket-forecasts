@@ -33,7 +33,7 @@ Return a JSON object with this EXACT shape:
     {
       "product_index": 1,
       "angle_label": "One of the angle names above",
-      "primary_text": "The Meta ad primary text (the caption above the image). 2-4 short sentences. Conversational, native to the feed, benefit-led. This is what stops the scroll.",
+      "primary_text": "The Meta ad primary text (the caption above the image). Format it like a real Meta ad, NOT one dense paragraph: open with a short punchy hook line, then a blank line, then 1-3 short sentences of body. Separate distinct thoughts with a blank line. Use actual line breaks in the string as \\n\\n between blocks (and \\n within a block if a line should wrap). Aim for 2-3 short blocks total. Conversational, native to the feed, benefit-led.",
       "headline": "The bold headline under the image (max ~40 chars). Punchy.",
       "cta": "A standard Meta CTA button label: 'Shop Now', 'Shop the Sale', 'Get Yours', or 'Learn More'.",
       "why_it_works": "ONE sentence, plain English, explaining why this angle fits THIS product and audience. This shows the brand owner we thought about it."
@@ -50,7 +50,8 @@ Return a JSON object with this EXACT shape:
 4. Do NOT invent facts (no fake discount %, no fake review counts, no "as seen in"). You may reference a real sale ONLY if the product data shows it's discounted.
 5. NO em dashes or en dashes anywhere. Use normal hyphens "-" or rewrite the sentence. This is a hard rule.
 6. Keep it clean and brand-safe. No ALL CAPS shouting, no more than one emoji per primary_text (zero is fine).
-7. Output ONLY the JSON object. No preamble, no markdown fences, no commentary.
+7. `primary_text` MUST use line breaks (`\n\n` between blocks). Never return it as a single unbroken paragraph.
+8. Output ONLY the JSON object. No preamble, no markdown fences, no commentary.
 
 # INPUT — PRODUCTS
 
