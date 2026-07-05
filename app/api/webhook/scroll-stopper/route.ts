@@ -149,7 +149,7 @@ async function writeAdCopy(
     .join("\n\n");
 
   const categoryHint =
-    products.map((p) => p.product_type).filter(Boolean).slice(0, 3).join(", ") || "fashion / apparel";
+    products.map((p) => p.product_type).filter(Boolean).slice(0, 3).join(", ") || "ecommerce / consumer products";
 
   const prompt = fillTemplate(tpl, {
     brand,
