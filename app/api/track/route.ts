@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
-import { bumpOpenPing, bumpScrollStopperOpen } from "@/lib/shared/sheets";
+import { bumpOpenPing, bumpScrollStopperOpen, bumpBrandPlaybookOpen } from "@/lib/shared/sheets";
 import { postSlack } from "@/lib/shared/publish";
 
 export const runtime = "nodejs";
 
 const BASE = "https://omnirocket-forecasts.vercel.app";
 const SCROLL_SLACK = "SLACK_WEBHOOK_URL_SCROLL_STOPPER";
+const BRAND_SLACK = "SLACK_WEBHOOK_URL_BRAND_PLAYBOOK";
 
 export async function POST(req: NextRequest) {
   try {
@@ -16,6 +17,19 @@ export async function POST(req: NextRequest) {
 
     const source = ref === "email" ? "via email" : "direct/preview";
     const uaLine = ua ? `\n_${ua}_` : "";
+
+    // Standalone Brand Playbook magnet → its own channel + tab.
+    if (magnet === "brand-playbook") {
+      await postSlack(`🧠 Playbook opened — *${slug}* (${source})\n${BASE}/playbook/${slug}${uaLine}`, BRAND_SLACK);
+      if (ref === "email") {
+        try {
+          await bumpBrandPlaybookOpen(slug, new Date().toISOString());
+        } catch (e) {
+          console.error("Brand-playbook sheet bump failed:", e);
+        }
+      }
+      return NextResponse.json({ ok: true });
+    }
 
     // Scroll-Stopper family (playbook + report) → its own channel + tab.
     if (magnet === "playbook" || magnet === "scroll-stopper") {
