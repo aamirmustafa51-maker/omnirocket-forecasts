@@ -1,0 +1,54 @@
+{
+  "lead_company": "Allbirds",
+  "lead_first_name": "Joey",
+  "website": "https://www.allbirds.com",
+  "brand_domain": "allbirds.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, understated and sustainability-first, letting natural materials do the talking.",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Women's Tree Runner NZ",
+      "product_url": "https://www.allbirds.com/products/womens-tree-runner-nz",
+      "image_url": "https://cdn.shopify.com/s/files/1/1104/4168/files/A11918_25Q3_Tree_Runner_NZ_Blizzard_Blizzard_Sole_PDP_LEFT-2000x2000_77f92b7c-e2d6-494c-aa3c-caa9a2d8b6bc.png?v=1751898682",
+      "price": 100.0,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Your feet run hot by 2pm. These don't.\n\nThe Tree Runner is spun from breathable eucalyptus fiber, so all-day wear feels like barely wearing anything at all. Machine washable when life happens.",
+      "headline": "The everyday shoe that breathes",
+      "cta": "Shop Now",
+      "why_it_works": "Leads with the one thing sneaker shoppers feel every afternoon, then ties it straight to the material, which is your real differentiator."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Men's Varsity",
+      "product_url": "https://www.allbirds.com/products/mens-varsity-mushroom",
+      "image_url": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12585_26Q1_Mens-Varsity-Mushroom-Blizzard-Sole_PDP_LEFT.png?v=1765307399",
+      "price": 120.0,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Most \"sustainable\" sneakers still ship in plastic and feel like cardboard.\n\nThe Varsity is a mushroom-toned retro runner made from natural materials that actually holds its shape. Comfort you don't have to feel guilty about.",
+      "headline": "Retro looks, zero compromise",
+      "cta": "Shop the Collection",
+      "why_it_works": "Names the credibility gap shoppers quietly suspect about eco brands, then positions this product as the honest answer."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Women's Dasher NZ",
+      "product_url": "https://www.allbirds.com/products/womens-dasher-nz-blizzard",
+      "image_url": "https://cdn.shopify.com/s/files/1/1104/4168/files/A12447_26Q1_Dasher-NZ-Blizzard-Blizzard_PDP_LEFT_43da74dc-9258-490a-b9d8-3083bd6eb85f.png?v=1768948724",
+      "price": 140.0,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Couch to 5k season is here.\n\nThe Dasher NZ was built for the runs you're actually going to do, with a supportive ride and a wool-blend upper that handles cold mornings. Start line optional.",
+      "headline": "Built for the miles ahead",
+      "cta": "Get Yours",
+      "why_it_works": "Anchors the shoe to a specific seasonal moment when people buy running gear, which raises intent without a discount."
+    }
+  ],
+  "generated_at": "2026-07-02T18:00:00.000Z",
+  "playbook_url": "preview-brand-playbook-allbirds.html"
+}

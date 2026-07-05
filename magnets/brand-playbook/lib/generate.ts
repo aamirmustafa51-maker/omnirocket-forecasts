@@ -1,0 +1,137 @@
+// Shared Brand Playbook generator. Takes a pre-fetched Shopify catalog + site
+// crawl and returns a validated PlaybookData. Deliberately webhook-agnostic:
+// the scroll-stopper route calls this alongside ad generation, and the future
+// standalone brand-playbook route will call the exact same function on a
+// different Smartlead category. No Meta-ads data required anywhere.
+import fs from "fs";
+import path from "path";
+import Anthropic from "@anthropic-ai/sdk";
+import type { ShopifyCatalog } from "@/lib/shared/shopify-products";
+import type { SiteCrawl } from "@/lib/shared/site-crawl";
+import { selectHeroProducts } from "@/magnets/scroll-stopper/lib/select";
+import { detectClaimCategory, claimRulesFor } from "@/magnets/brand-playbook/lib/claims-kb";
+import { extractJson } from "@/lib/shared/publish";
+import type { LadderItem, PlaybookCopy, PlaybookData } from "@/magnets/brand-playbook/lib/types";
+
+export type PlaybookMeta = {
+  lead_company: string;
+  lead_first_name: string;
+  website: string;
+  brand_domain: string;
+};
+
+function readPrompt(file: string): string {
+  return fs.readFileSync(path.join(process.cwd(), "magnets/brand-playbook/prompts", file), "utf8");
+}
+
+function fillTemplate(tpl: string, vars: Record<string, string>): string {
+  return tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
+}
+
+// Recursively strip em/en dashes from every string in Claude's output — the
+// no-em-dash rule is load-bearing for OmniRocket copy.
+function sanitize<T>(node: T): T {
+  if (typeof node === "string") {
+    return node.replace(/\s*[—–]\s*/g, " - ").replace(/[ \t]{2,}/g, " ").trim() as unknown as T;
+  }
+  if (Array.isArray(node)) return node.map((n) => sanitize(n)) as unknown as T;
+  if (node && typeof node === "object") {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(node)) out[k] = sanitize(v);
+    return out as T;
+  }
+  return node;
+}
+
+const money = (a: number | null): string => (a === null ? "" : ` ($${Number.isInteger(a) ? a : a.toFixed(2)})`);
+
+// Deterministic price ladder from real catalog data (no Claude). The selector
+// already ranks homepage-featured first, so index 0 is the hero; the rest are
+// labelled by price position.
+function buildLadder(catalog: ShopifyCatalog): LadderItem[] {
+  const heroes = selectHeroProducts(catalog.products, catalog.homepage_html, 4);
+  if (heroes.length === 0) return [];
+  const priced = heroes.filter((h) => h.price !== null);
+  const min = priced.length ? Math.min(...priced.map((h) => h.price as number)) : null;
+  const max = priced.length ? Math.max(...priced.map((h) => h.price as number)) : null;
+
+  return heroes.map((h, i) => {
+    let role = "Core";
+    if (i === 0) role = "Hero / best-seller";
+    else if (h.price !== null && h.price === min) role = "Entry point";
+    else if (h.price !== null && h.price === max) role = "Premium";
+    return { title: h.title, role, price: h.price };
+  });
+}
+
+function stripHtml(html: string): string {
+  return html.replace(/<[^>]+>/g, " ").replace(/&nbsp;/g, " ").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+}
+
+export async function buildPlaybook(
+  anthropic: Anthropic,
+  meta: PlaybookMeta,
+  catalog: ShopifyCatalog,
+  crawl: SiteCrawl,
+): Promise<PlaybookData> {
+  const ladder = buildLadder(catalog);
+
+  // Detect compliance category from product types + homepage text.
+  const categorySignal =
+    catalog.products.map((p) => `${p.product_type} ${p.tags.join(" ")}`).join(" ") +
+    " " +
+    stripHtml(catalog.homepage_html).slice(0, 1500);
+  const category = detectClaimCategory(categorySignal);
+  const { label: categoryLabel, rules: claimRules } = claimRulesFor(category);
+
+  const productsSummary =
+    ladder.map((l) => `${l.title}${money(l.price)}`).join("; ") ||
+    catalog.products.slice(0, 4).map((p) => p.title).join("; ") ||
+    "(none found)";
+
+  const pagesBlock =
+    crawl.pages.map((p) => `--- ${p.kind.toUpperCase()} (${p.url}) ---\n${p.text}`).join("\n\n") ||
+    "(no pages scraped)";
+  const reviewsBlock = crawl.reviews.length
+    ? crawl.reviews.map((r, i) => `${i + 1}. "${r}"`).join("\n")
+    : "(no customer reviews found - pull customer_language from the brand's own product copy instead)";
+
+  const prompt = fillTemplate(readPrompt("playbook.md"), {
+    brand: meta.lead_company,
+    website: meta.website,
+    category_label: categoryLabel,
+    products_summary: productsSummary,
+    claim_rules: claimRules,
+    pages_block: pagesBlock,
+    review_count: String(crawl.review_count),
+    reviews_block: reviewsBlock,
+  });
+
+  const res = await anthropic.messages.create({
+    model: "claude-opus-4-8",
+    max_tokens: 4096,
+    messages: [{ role: "user", content: prompt }],
+  });
+  const block = res.content.find((b) => b.type === "text");
+  if (!block || block.type !== "text") throw new Error("Claude returned no text for playbook");
+
+  const copy = sanitize(extractJson(block.text) as PlaybookCopy);
+
+  return {
+    lead_company: meta.lead_company,
+    lead_first_name: meta.lead_first_name,
+    website: meta.website,
+    brand_domain: meta.brand_domain,
+    currency: catalog.currency,
+    review_count: crawl.review_count,
+    brand_dna: copy.brand_dna,
+    voice_pillars: copy.voice_pillars ?? [],
+    customer_language: copy.customer_language ?? { phrases: [], words: [], avoid: [] },
+    icp: copy.icp ?? "",
+    personas: copy.personas ?? [],
+    products_ladder: ladder,
+    offers: copy.offers ?? [],
+    claims: copy.claims ?? { allowed: [], banned: [] },
+    generated_at: new Date().toISOString(),
+  };
+}

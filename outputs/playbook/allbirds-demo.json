@@ -1,0 +1,143 @@
+{
+  "lead_company": "Allbirds",
+  "lead_first_name": "Joey",
+  "website": "https://www.allbirds.com",
+  "brand_domain": "allbirds.com",
+  "currency": "USD",
+  "review_count": 1240,
+  "brand_dna": {
+    "category": "Comfort-first, sustainability-led footwear and apparel built from natural materials.",
+    "core_belief": "Better things, made in a better way. Comfort, design, and doing right by the planet are not a trade-off.",
+    "proof_points": [
+      "Eucalyptus tree fiber, merino wool and sugarcane SweetFoam soles",
+      "Certified B Corp",
+      "Carbon footprint printed on every product",
+      "Machine washable"
+    ],
+    "positioning": "Premium, understated, material-first. Design over logos and hype."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm & plainspoken",
+      "desc": "Conversational, zero jargon. You explain, you don't lecture.",
+      "quote": "Meet the shoe that started it all."
+    },
+    {
+      "name": "Quietly confident",
+      "desc": "You let the materials do the talking instead of shouting superlatives.",
+      "quote": "Made from nature."
+    },
+    {
+      "name": "Purpose-forward, never preachy",
+      "desc": "Sustainability is stated as fact, not guilt.",
+      "quote": "The carbon footprint of this product is on the label."
+    },
+    {
+      "name": "Understated wit",
+      "desc": "Light and human, never corporate.",
+      "quote": "No socks? No problem."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Most comfortable shoes I own.",
+      "Like walking on clouds.",
+      "They go with everything.",
+      "Wore them straight out of the box."
+    ],
+    "words": [
+      "comfortable",
+      "breathable",
+      "lightweight",
+      "everyday",
+      "machine-washable",
+      "natural",
+      "no-socks"
+    ],
+    "avoid": [
+      "athletic / performance jargon",
+      "hype superlatives"
+    ]
+  },
+  "icp": "28-45, values-driven professional with minimalist taste, willing to pay a premium for comfort and lower impact, buys quality over quantity.",
+  "personas": [
+    {
+      "name": "The Conscious Minimalist",
+      "description": "Wants fewer, better things. Sustainability is the tiebreaker, comfort and design are the driver."
+    },
+    {
+      "name": "The Comfort-First Commuter",
+      "description": "On their feet all day. Prioritizes all-day comfort and easy care, responds to the 'wear them everywhere' angle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Women's Tree Runner NZ",
+      "role": "Hero / best-seller",
+      "price": 100.0
+    },
+    {
+      "title": "Men's Varsity",
+      "role": "Core",
+      "price": 120.0
+    },
+    {
+      "title": "Dasher NZ",
+      "role": "Premium",
+      "price": 140.0
+    }
+  ],
+  "offers": [
+    "Free shipping & returns",
+    "30-day trial",
+    "Seasonal limited colors",
+    "No heavy discounting (premium)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made with natural materials: eucalyptus tree fiber, merino wool, sugarcane",
+        "source": "product pages"
+      },
+      {
+        "claim": "Machine washable",
+        "source": "care instructions"
+      },
+      {
+        "claim": "Carbon footprint labeled on every product",
+        "source": "product pages"
+      },
+      {
+        "claim": "Certified B Corporation",
+        "source": "about page"
+      },
+      {
+        "claim": "Free shipping and 30-day returns",
+        "source": "policies"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "100% sustainable / zero impact",
+        "why": "FTC Green Guides - unsubstantiated sustainability claim"
+      },
+      {
+        "claim": "Carbon neutral (unqualified)",
+        "why": "Needs verified offset backing to state flatly"
+      },
+      {
+        "claim": "Eco-friendly (blanket term)",
+        "why": "Too vague to defend per FTC"
+      },
+      {
+        "claim": "Relieves foot pain / corrects posture",
+        "why": "Unsupported medical claim"
+      },
+      {
+        "claim": "The most comfortable shoe in the world",
+        "why": "Unqualified superlative, ad-policy risk"
+      }
+    ]
+  },
+  "generated_at": "2026-07-05T12:00:00.000Z"
+}

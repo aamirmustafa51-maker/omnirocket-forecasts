@@ -949,3 +949,130 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   padding: 1px 5px;
   border-radius: 3px;
 }
+
+/* ── Scroll-Stopper Sheet magnet ── */
+.ss-concept {
+  margin: 40px 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.ss-concept:first-of-type { border-top: none; padding-top: 8px; }
+.ss-concept-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  max-width: 504px;
+  margin: 0 auto 14px;
+}
+.ss-concept-num {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: var(--ink);
+}
+.ss-angle-badge {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid #6D3BD9;
+  color: #6D3BD9;
+  background: rgba(109,59,217,0.06);
+  white-space: nowrap;
+}
+/* Sale flag overlaid on the product photo inside the FB ad frame. */
+.ss-sale-flag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--danger);
+  padding: 5px 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+}
+.ss-sale-flag s { opacity: 0.75; font-weight: 400; margin-left: 2px; }
+
+/* Brand Playbook callout on the Scroll-Stopper report */
+.ss-playbook-note {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin: 14px 0 8px;
+  padding: 16px 18px;
+  background: rgba(109,59,217,0.05);
+  border: 1px solid rgba(109,59,217,0.28);
+  border-left: 3px solid #6D3BD9;
+  border-radius: 2px;
+}
+.ss-playbook-key { font-size: 18px; line-height: 1.4; flex-shrink: 0; }
+.ss-playbook-note p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--ink); }
+.ss-playbook-note a {
+  color: #6D3BD9;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(109,59,217,0.5);
+  text-underline-offset: 2px;
+}
+.ss-playbook-note a:hover { text-decoration-color: #6D3BD9; }
+.ss-same-as-email {
+  color: var(--ink-soft);
+  opacity: 0.65;
+  font-size: 13px;
+  font-style: italic;
+}
+
+/* Playbook link inside the top TL;DR block */
+.tldr a {
+  color: #6D3BD9;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(109,59,217,0.5);
+  text-underline-offset: 2px;
+}
+.tldr a:hover { text-decoration-color: #6D3BD9; }
+
+/* ── Brand Playbook (Ad Brain) page ── */
+.pb-section { margin: 38px 0; }
+.pb-section > h2 { margin: 0 0 6px; font-size: 24px; }
+.pb-kicker { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); margin-bottom: 16px; }
+.pb-lead { font-size: 17px; line-height: 1.6; color: var(--ink); margin: 0 0 18px; }
+.pb-dna { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.pb-dna li { background:#fff; border:1px solid var(--line); border-left:3px solid var(--ink); border-radius:2px; padding:14px 18px; }
+.pb-dna .k { font-family: ui-sans-serif, system-ui, sans-serif; font-size:12px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-soft); display:block; margin-bottom:4px; }
+.pb-pillars { display:grid; grid-template-columns: 1fr 1fr; gap:14px; }
+.pb-pillar { background:#fff; border:1px solid var(--line); border-radius:2px; padding:16px 18px; }
+.pb-pillar .name { font-weight:700; font-size:15px; margin-bottom:6px; }
+.pb-pillar .desc { font-size:14px; color:var(--ink-soft); line-height:1.5; margin-bottom:10px; }
+.pb-pillar blockquote { margin:0; font-family: ui-serif, Georgia, serif; font-style:italic; font-size:14px; color:var(--ink); border-top:1px solid var(--line); padding-top:10px; }
+.pb-lang { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.pb-lang .box { background:#fff; border:1px solid var(--line); border-radius:2px; padding:16px 18px; }
+.pb-lang .box h4 { margin:0 0 10px; font-size:13px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-soft); font-family: ui-sans-serif, system-ui, sans-serif; }
+.pb-chips { display:flex; flex-wrap:wrap; gap:8px; }
+.pb-chip { font-size:13px; background:var(--bg); border:1px solid var(--line); border-radius:14px; padding:5px 12px; }
+.pb-quotes { margin:0; padding-left:18px; }
+.pb-quotes li { font-family: ui-serif, Georgia, serif; font-style:italic; margin-bottom:8px; font-size:14px; }
+.pb-persona { background:#fff; border:1px solid var(--line); border-radius:2px; padding:16px 18px; margin-bottom:12px; }
+.pb-persona .name { font-weight:700; margin-bottom:6px; }
+.pb-persona .row { font-size:14px; color:var(--ink-soft); line-height:1.55; }
+.pb-products { width:100%; border-collapse:collapse; background:#fff; border:1px solid var(--line); }
+.pb-products th, .pb-products td { text-align:left; padding:10px 14px; border-bottom:1px solid var(--line); font-size:14px; }
+.pb-products th { font-family: ui-sans-serif, system-ui, sans-serif; font-size:11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--ink-soft); }
+.claims-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.claim-col { background:#fff; border:1px solid var(--line); border-radius:2px; padding:16px 18px; }
+.claim-col.allowed { border-top:3px solid var(--ok); }
+.claim-col.banned { border-top:3px solid var(--danger); }
+.claim-col h4 { margin:0 0 12px; font-size:14px; font-family: ui-sans-serif, system-ui, sans-serif; }
+.claim-col.allowed h4 { color:var(--ok); }
+.claim-col.banned h4 { color:var(--danger); }
+.claim-col ul { margin:0; padding-left:0; list-style:none; }
+.claim-col li { font-size:14px; line-height:1.5; padding:7px 0; border-bottom:1px solid var(--line); }
+.claim-col li:last-child { border-bottom:none; }
+.claim-col .why { display:block; font-size:12px; color:var(--ink-soft); margin-top:2px; }
+@media (max-width:640px){ .pb-pillars,.pb-lang,.claims-grid { grid-template-columns:1fr; } }
