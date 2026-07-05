@@ -1,0 +1,168 @@
+{
+  "lead_company": "Rathbones",
+  "lead_first_name": "Jack",
+  "website": "https://rathbonestailor.com",
+  "brand_domain": "rathbonestailor.com",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium men's formalwear rental - suits, tuxedos, morning suits and highland wear for weddings and occasions.",
+    "core_belief": "Looking sharp shouldn't require a significant investment or the commitment of ownership - just rent it, rock it, return it.",
+    "proof_points": [
+      "Express DPD delivery with a pre-paid return label included in every order",
+      "Free size swap if an item doesn't fit, with next-day delivery when notified by 11am weekdays",
+      "Try-on service available so customers avoid ordering the wrong size",
+      "Free cancellation up to 72 hours before delivery; bookings up to a year in advance"
+    ],
+    "positioning": "Premium quality tailoring at rental prices - the polished, hassle-free alternative to buying or bargain hire."
+  },
+  "voice_pillars": [
+    {
+      "name": "Effortless & Easy",
+      "desc": "Frames every step as simple and low-friction, removing the stress from formalwear.",
+      "quote": "Rent it. Rock it. Return it. It's that simple."
+    },
+    {
+      "name": "Quality-Led",
+      "desc": "Insists renting never means compromising on tailoring or fabric.",
+      "quote": "We don't believe renting a suit should mean sacrificing on quality."
+    },
+    {
+      "name": "Sartorial & Refined",
+      "desc": "Speaks the language of elegance and expert styling to signal a premium look.",
+      "quote": "Effortless Elegance for Every Occasion"
+    },
+    {
+      "name": "Warm & Blokey",
+      "desc": "Talks to the customer like a helpful mate with friendly, gender-aware asides.",
+      "quote": "Top tip gents! Choose 5 days ahead for free replacements (if needed)."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "look and feel your absolute best",
+      "put your best foot forward",
+      "eliminating the guesswork",
+      "make a lasting impression",
+      "perfectly paired suits and waistcoats",
+      "visualise your complete outfit instantly"
+    ],
+    "words": [
+      "elegance",
+      "tailoring",
+      "hire",
+      "occasion",
+      "quality",
+      "effortless",
+      "sharp",
+      "sophisticated"
+    ],
+    "avoid": [
+      "cheap",
+      "disposable",
+      "hype",
+      "flashy"
+    ]
+  },
+  "icp": "Grooms, groomsmen and men attending weddings, black tie events and Royal Ascot who want a premium, well-fitting look without the cost or commitment of buying a suit.",
+  "personas": [
+    {
+      "name": "The Groom's Party",
+      "description": "A groom or best man coordinating group formalwear who is moved by group booking discounts, matching looks and reliable delivery for the big day."
+    },
+    {
+      "name": "Last-Minute Attendee",
+      "description": "A guest needing a sharp suit fast for an upcoming event, moved by express delivery, easy returns and the try-on safety net against sizing errors."
+    },
+    {
+      "name": "The Occasion Dresser",
+      "description": "A style-conscious man attending Ascot or black tie who wants premium tailoring and expert-paired outfits without owning a rarely-worn suit."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "The Bidwell - 3 Piece Black Morning Suit | Pale Pink Double Breasted Waistcoat",
+      "role": "Hero / best-seller",
+      "price": 144
+    },
+    {
+      "title": "The Thomas Black Slim Fit Tuxedo - 2 Piece",
+      "role": "Core",
+      "price": 99
+    },
+    {
+      "title": "The Thomas Black Slim Fit Tuxedo - 3 Piece",
+      "role": "Core",
+      "price": 129
+    },
+    {
+      "title": "The Johnson Black Tuxedo - 2 Piece",
+      "role": "Entry point",
+      "price": 79
+    }
+  ],
+  "offers": [
+    "£5 off your first order when you join The Tailor's Club newsletter",
+    "Free size swap if an item doesn't fit",
+    "Discounts for group bookings",
+    "Free cancellation up to 72 hours before delivery",
+    "Try-on service available",
+    "Optional damage insurance added at checkout",
+    "Pre-paid return label included with every order"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free size swap if an item doesn't fit",
+        "source": "homepage"
+      },
+      {
+        "claim": "Express DPD delivery with pre-paid return label included",
+        "source": "homepage / how it works"
+      },
+      {
+        "claim": "Free cancellation up to 72 hours before delivery",
+        "source": "homepage"
+      },
+      {
+        "claim": "Try-on service available before you commit",
+        "source": "homepage / about page"
+      },
+      {
+        "claim": "Book up to a year in advance",
+        "source": "FAQs"
+      },
+      {
+        "claim": "£5 off your first order when you join The Tailor's Club",
+        "source": "about page footer signup"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best suit hire company in the world / #1 suit hire",
+        "why": "FTC substantiation - unqualified superlative that cannot be proven."
+      },
+      {
+        "claim": "Guaranteed perfect fit every time",
+        "why": "FTC substantiation - guaranteed-results claim the brand cannot back; their own copy relies on a try-on and swap process."
+      },
+      {
+        "claim": "Rated 5 stars by 10,000+ customers / invented review counts",
+        "why": "FTC - no review counts or aggregate ratings appear in the input; inventing them is prohibited."
+      },
+      {
+        "claim": "Only 2 left - book in the next hour or miss out",
+        "why": "FTC - fake or invented urgency not supported by real stock data."
+      },
+      {
+        "claim": "Everyone gets their order next day, guaranteed",
+        "why": "FTC - overstates a conditional service; swaps are next-day only if notified by 11am weekdays."
+      },
+      {
+        "claim": "Customers say it's the highest quality tuxedo on the market",
+        "why": "FTC - testimonials must reflect typical results and no such quote exists in the input."
+      }
+    ]
+  },
+  "generated_at": "2026-07-05T09:11:35.988Z"
+}
