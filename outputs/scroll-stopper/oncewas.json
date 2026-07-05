@@ -1,0 +1,54 @@
+{
+  "lead_company": "OnceWas",
+  "lead_first_name": "Belinda",
+  "website": "https://oncewas.com.au",
+  "brand_domain": "oncewas.com.au",
+  "currency": "AUD",
+  "brand_voice_note": "Considered and quietly confident, leading with fabric and feel to frame each piece as a rare, wear-forever investment.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/oncewas?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "UNDER 5'4 Adine Linen Viscose Printed Maxi Dress in Obsidian Bloom",
+      "product_url": "https://oncewas.com.au/products/under-54-adine-linen-viscose-printed-maxi-dress-in-obsidan-bloom",
+      "image_url": "https://cdn.shopify.com/s/files/1/0268/3260/1181/files/OWP42120OBL_0140.jpg?v=1777427785",
+      "price": 459.95,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "If you're 5'4\" and under, you know the drill: buy the dress you love, then pay to have it hemmed. The Adine Maxi in Obsidian Bloom is cut to correct proportions from the start. Refined lengths and proportions, no tailoring needed. Flowing linen-viscose that moves with you, in a floral print made to be worn season after season.",
+      "headline": "Petite Design, Redefined",
+      "cta": "Shop Now",
+      "why_it_works": "Petite women's biggest friction is alterations, so naming that removed pain speaks directly to the UNDER 5'4 range's entire reason for existing."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Jeanne Wool Blend Textured Knit Bomber Jacket in Black",
+      "product_url": "https://oncewas.com.au/products/jeanne-wool-blend-textured-knit-bomber-jacket-in-black",
+      "image_url": "https://cdn.shopify.com/s/files/1/0268/3260/1181/files/OW51908BLK.jpg?v=1777426635",
+      "price": 349.95,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "The kind of layer you reach for without thinking, then never want to take off. The Jeanne Textured Knit Bomber is crafted from a premium wool blend with a soft finish, relaxed through the shoulders, ribbed at the cuffs and hem. An easy zip-front piece that feels like comfort and reads as considered. An investment made to be worn season after season.",
+      "headline": "Your New Go-To Layer",
+      "cta": "Shop Now",
+      "why_it_works": "A knit bomber sells on how it feels to live in, so leading with the effortless soft-luxury outcome matches both the product and the modern-woman audience."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Adine Linen Viscose Printed Maxi Dress in Obsidian Bloom",
+      "product_url": "https://oncewas.com.au/products/adine-linen-viscose-printed-maxi-dress-in-obsidan-bloom",
+      "image_url": "https://cdn.shopify.com/s/files/1/0268/3260/1181/files/OW42120OBL_8d83023f-2898-4c51-b641-f1a36a3a4d42.jpg?v=1777429908",
+      "price": 459.95,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "For the long lunch, the garden wedding, the evening that calls for something with presence. The Adine Maxi pairs soft blush and warm florals against a rich obsidian backdrop, with a cinched waist and flowing linen-viscose that catches the breeze. Produced in limited quantities, each piece as rare as it is beautiful. Free AU shipping on orders over $250.",
+      "headline": "The Dress For The Moment",
+      "cta": "Shop Now",
+      "why_it_works": "A statement floral maxi is bought for a specific occasion, so anchoring it to those warm-weather events gives the buyer a clear reason to add to cart now."
+    }
+  ],
+  "generated_at": "2026-07-05T08:55:10.533Z"
+}
