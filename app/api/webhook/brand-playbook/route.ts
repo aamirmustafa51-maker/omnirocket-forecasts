@@ -122,6 +122,7 @@ export async function POST(req: NextRequest) {
         lead_first_name: payload.lead_first_name,
         website: payload.website_url,
         brand_domain: brandDomainFromWebsite(payload.website_url),
+        standalone: true,
       },
       catalog,
       crawl,
