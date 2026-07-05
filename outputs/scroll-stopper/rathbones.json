@@ -1,0 +1,54 @@
+{
+  "lead_company": "Rathbones",
+  "lead_first_name": "Jack",
+  "website": "https://rathbonestailor.com",
+  "brand_domain": "rathbonestailor.com",
+  "currency": "GBP",
+  "brand_voice_note": "Refined and sartorial but warm and blokey, talking to you like a well-dressed mate who's removed all the stress from formalwear.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/rathbones?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "The Bidwell - 3 Piece Black Morning Suit | Pale Pink Double Breasted Waistcoat",
+      "product_url": "https://rathbonestailor.com/products/bidwell-3-piece-black-morning-suit-pale-pink-double-breasted-waistcoat",
+      "image_url": "https://cdn.shopify.com/s/files/1/0861/5375/6960/files/bidwellblackpinkfull.jpg?v=1710959527",
+      "price": 144,
+      "compare_at_price": 700,
+      "on_sale": true,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "A day at the races calls for the real thing.\n\nThe Bidwell is a classic black herringbone three-piece morning suit, paired with a pale pink double breasted waistcoat for a look that turns heads at the paddock. Timeless cut, straight leg trousers, perfectly paired suit and waistcoat.\n\nHire it now for £144 and prepare your humble thank you for all the compliments. 🐎",
+      "headline": "Race Day, Sorted",
+      "cta": "Shop Now",
+      "why_it_works": "A morning suit is bought for specific dressy moments like the races or weddings, so anchoring it to that occasion meets the customer exactly when they're searching."
+    },
+    {
+      "product_index": 2,
+      "product_title": "The Thomas Black Slim Fit Tuxedo - 2 Piece",
+      "product_url": "https://rathbonestailor.com/products/thomas-black-slim-fit-tuxedo-2-piece_",
+      "image_url": "https://cdn.shopify.com/s/files/1/0861/5375/6960/files/2023_08_24_rathbones1676.jpg?v=1710959767",
+      "price": 99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Some nights you just want to feel phenomenal.\n\nThe Thomas is our slim fit black tuxedo with a shawl lapel, the newest addition to the black tie range. Slip it on and put your best foot forward, because when you feel this good you can't help but look good.\n\nHire the 2-piece for £99. Try-on service available before you commit, and it runs true to size.",
+      "headline": "Look And Feel Your Best",
+      "cta": "Get Yours",
+      "why_it_works": "The product copy is all about the feeling of wearing it, so leading with that single desirable outcome matches the emotional reason someone hires a tux."
+    },
+    {
+      "product_index": 3,
+      "product_title": "The Thomas Black Slim Fit Tuxedo - 3 Piece",
+      "product_url": "https://rathbonestailor.com/products/thomas-black-slim-fit-tuxedo-3-piece",
+      "image_url": "https://cdn.shopify.com/s/files/1/0861/5375/6960/files/2023_08_24_rathbones1784.jpg?v=1710959787",
+      "price": 129,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried a hire won't fit right? Let's kill that worry.\n\nThe Thomas 3-piece is a slim fit black tuxedo with a shawl lapel and double breasted scoop waistcoat. Elegant, timeless, with a modern slim tweak, and it comes with a free size swap if anything's off.\n\nExpress DPD delivery, a pre-paid return label in the box, and a try-on service before you commit. All yours for £129.",
+      "headline": "Renting Never Means Compromise",
+      "cta": "Learn More",
+      "why_it_works": "Fit and quality are the biggest hesitations with suit hire, so stacking the free size swap and try-on service directly answers the reason a shopper hovers instead of booking."
+    }
+  ],
+  "generated_at": "2026-07-05T09:11:58.765Z"
+}
