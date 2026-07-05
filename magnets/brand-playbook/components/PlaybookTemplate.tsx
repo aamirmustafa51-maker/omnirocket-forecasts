@@ -50,11 +50,20 @@ export default function PlaybookTemplate({ data }: { data: PlaybookData }) {
       </header>
 
       <div className="tldr">
-        <p>
-          This is the sauce. Before we wrote a single ad, we reverse-engineered {data.lead_company} {sourceLine}{" "}
-          into a working brand playbook. This is exactly what we feed our AI so every ad stays on-brand, speaks
-          your customers&rsquo; language, and never makes a claim you can&rsquo;t back. Below is the condensed version.
-        </p>
+        {data.standalone ? (
+          <p>
+            This is the sauce. Before we write a single ad for {data.lead_company}, we do the homework: we
+            reverse-engineered your brand {sourceLine} into a working playbook. It&rsquo;s exactly what we&rsquo;d
+            feed our AI so every ad stays on-brand, speaks your customers&rsquo; language, and never makes a claim
+            you can&rsquo;t back. Below is the condensed version.
+          </p>
+        ) : (
+          <p>
+            This is the sauce. Before we wrote a single ad, we reverse-engineered {data.lead_company} {sourceLine}{" "}
+            into a working brand playbook. This is exactly what we feed our AI so every ad stays on-brand, speaks
+            your customers&rsquo; language, and never makes a claim you can&rsquo;t back. Below is the condensed version.
+          </p>
+        )}
       </div>
 
       <section className="pb-section">
