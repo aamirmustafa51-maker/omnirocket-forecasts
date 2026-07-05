@@ -1,0 +1,163 @@
+{
+  "lead_company": "Radical Yes",
+  "lead_first_name": "Test",
+  "website": "https://radicalyes.com.au",
+  "brand_domain": "radicalyes.com.au",
+  "currency": "AUD",
+  "review_count": 1,
+  "brand_dna": {
+    "category": "Independent women's footwear and leather bags - beautiful, considered flats for creative women.",
+    "core_belief": "That women deserve beautiful shoes made for real life, moving through the day with grace, comfort and a sense of humour. Their stance: 'I Only Wear Flats'.",
+    "proof_points": [
+      "Female-owned and led, established 2013 by Kerryn Moscicki; family owned and self funded",
+      "Made in small quantities to avoid overproduction and improve each iteration",
+      "Made in Guangdong, China with a small handful of factories chosen for shared values",
+      "Free shipping and free returns, plus a 30 day returns window"
+    ],
+    "positioning": "Premium, considered and playful - design-led flats with function, priced $229-$469, not fast fashion."
+  },
+  "voice_pillars": [
+    {
+      "name": "Joyful and Irreverent",
+      "desc": "Writes with warmth and humour, celebrating creativity over convention.",
+      "quote": "the aesthetic is positive and joyful, combining a sense of humour and irreverence with function"
+    },
+    {
+      "name": "Considered and Intentional",
+      "desc": "Frames products as deliberate, small-batch and made with care, not disposable.",
+      "quote": "make products in small quantities to avoid overproduction and test and improve each iteration"
+    },
+    {
+      "name": "Real-Life Honest",
+      "desc": "Speaks plainly to the true needs of customers and admits the tricky parts of buying shoes online.",
+      "quote": "We know how tricky online shoe shopping is, so don't despair"
+    },
+    {
+      "name": "Poetic Product Storytelling",
+      "desc": "Gives each style a narrative and a ritual, elevating it beyond a spec sheet.",
+      "quote": "reimagined for the ritual of self-expression"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "I love this bag. Comfortable to carry and fits my book too.",
+      "walking-on-clouds comfort for your cross-city commute",
+      "a soft, unstructured companion for the modern creative",
+      "an intentional invitation to disconnect",
+      "surprisingly lightweight, cleated comfort",
+      "honour the ritual of the analogue"
+    ],
+    "words": [
+      "creative",
+      "considered",
+      "comfort",
+      "ritual",
+      "intentional",
+      "flats",
+      "beautiful",
+      "grace"
+    ],
+    "avoid": [
+      "cheap",
+      "fast fashion",
+      "basic",
+      "hype-driven / disposable"
+    ]
+  },
+  "icp": "Creative, independent-minded women who value beautiful design and everyday comfort, and who buy flats they can wear through real life rather than trend-chasing heels.",
+  "personas": [
+    {
+      "name": "The Creative Regular",
+      "description": "An artistic professional who lives in flats and wants shoes that look considered and feel good all day - move her with comfort plus design credibility."
+    },
+    {
+      "name": "The Intentional Buyer",
+      "description": "Values small-batch, limited-edition, self-funded independence over mass production - move her with craftsmanship, scarcity and the brand's ethos."
+    },
+    {
+      "name": "The Analogue Romantic",
+      "description": "Wants objects with meaning and a story, drawn to the 'life without screens' idea - move her with ritual, narrative and slow-living framing."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Light Years Hiker | She Gave Me Flowers",
+      "role": "Hero / best-seller",
+      "price": 269
+    },
+    {
+      "title": "Maya Lace Up | Navy Spot",
+      "role": "Entry point",
+      "price": 229
+    },
+    {
+      "title": "Life Without Screens Leather Tote | Aubergine",
+      "role": "Core",
+      "price": 289
+    },
+    {
+      "title": "Luminous Tall Boot | Black Tumbled",
+      "role": "Premium",
+      "price": 469
+    }
+  ],
+  "offers": [
+    "FREE standard shipping on all orders $249 and over (AU)",
+    "$12 standard / $15 express / $20 same-day local delivery (within 10km) options",
+    "Free returns with a 30 day returns window",
+    "Buy Now Pay Later via AfterPay or Zip Pay (4 payments)",
+    "Click & Collect from North Melbourne and Vermont; optional Shipping Protection",
+    "Newsletter for early product access, exclusive updates and events"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Female-owned and led, independent brand established in 2013",
+        "source": "about page"
+      },
+      {
+        "claim": "Made in small quantities to avoid overproduction",
+        "source": "about page"
+      },
+      {
+        "claim": "Life Without Screens Tote is Limited Edition - only 50 made, crafted from premium Aubergine leather",
+        "source": "Life Without Screens Tote product page"
+      },
+      {
+        "claim": "Free shipping and free returns, with a 30 day returns window",
+        "source": "product pages and shipping policy"
+      },
+      {
+        "claim": "Light Years Hiker features removable insoles and a spacious upper",
+        "source": "Light Years Hiker product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "'Eco-friendly' or 'sustainable' as a headline claim",
+        "why": "FTC Green Guides / ACCC - unqualified sustainability claim; small-batch production is not the same as a verified environmental claim"
+      },
+      {
+        "claim": "Health/therapeutic claims such as 'improves posture', 'fixes foot pain' or 'orthopedic'",
+        "why": "Health-benefit claims are tightly limited and unsupported by the site; keep comfort language experiential (e.g. 'walking-on-clouds')"
+      },
+      {
+        "claim": "'Genuine leather' on styles not confirmed as leather (e.g. neoprene trainers)",
+        "why": "Material claims must match the actual product; only apply to items the site states are leather"
+      },
+      {
+        "claim": "'Ethically made' or 'fair trade certified'",
+        "why": "No certification is stated; the site only says factories share the brand's values, which is not a certification"
+      },
+      {
+        "claim": "'Lasts a lifetime' / unqualified durability guarantee",
+        "why": "No lifetime warranty is offered; overstates the stated 30 day returns and product claims"
+      },
+      {
+        "claim": "'Vegan' on any style",
+        "why": "Many products are leather; a blanket vegan claim would be false and misleading"
+      }
+    ]
+  },
+  "generated_at": "2026-07-05T09:55:24.674Z"
+}
