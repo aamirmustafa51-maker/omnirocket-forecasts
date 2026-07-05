@@ -1,0 +1,163 @@
+{
+  "lead_company": "OnceWas",
+  "lead_first_name": "Belinda",
+  "website": "https://oncewas.com.au",
+  "brand_domain": "oncewas.com.au",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Melbourne-based Australian designer womenswear selling limited-run investment pieces in prints, knitwear, tailoring and event dressing.",
+    "core_belief": "Creating pieces that make women feel confident, comfortable, and truly themselves, designed to stand the test of time.",
+    "proof_points": [
+      "Produced in limited quantities, each piece as rare as it is beautiful",
+      "Crafted from premium materials with a focus on natural fibres",
+      "Inclusive sizing from AU 6-20 plus a dedicated Under 5'4 (162cm) range",
+      "Melbourne based and female founded, with B1G1 giving that has raised $12,802 for 'Protect a woman' and more"
+    ],
+    "positioning": "Premium boutique end of the market - considered, print-led investment dressing, not fast fashion or minimalist basics."
+  },
+  "voice_pillars": [
+    {
+      "name": "Considered Craft",
+      "desc": "Speaks to design intention, fabric and longevity rather than trend or hype.",
+      "quote": "designed with intention and purpose"
+    },
+    {
+      "name": "Effortless Sophistication",
+      "desc": "Frames pieces as elevated yet easy-to-wear staples for the modern woman.",
+      "quote": "women who value effortless style, versatility, and modern sophistication"
+    },
+    {
+      "name": "Fabric-First Sensory",
+      "desc": "Leads with how a garment feels and moves, using tactile, sensory language.",
+      "quote": "Inspiration begins with texture and fabric - how it feels, how it moves"
+    },
+    {
+      "name": "Quietly Confident",
+      "desc": "Positions the label as rare, sought-after and enduring without loud claims.",
+      "quote": "one of Australia's most sought-after boutique labels"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Unique patterns, quality craftsmanship & endless versatility",
+      "each piece as rare as it is beautiful",
+      "made to last for years to come",
+      "Refined lengths & proportions. No tailoring needed!",
+      "investment pieces made to be worn season after season",
+      "confident, comfortable, and truly themselves"
+    ],
+    "words": [
+      "versatile",
+      "timeless",
+      "investment",
+      "prints",
+      "premium",
+      "effortless",
+      "transeasonal",
+      "considered"
+    ],
+    "avoid": [
+      "cheap",
+      "basic",
+      "trendy/disposable",
+      "loud hype"
+    ]
+  },
+  "icp": "Style-conscious Australian women (including petites 5'4 and under) who value quality, versatility and print-led design and are happy to invest in timeless boutique pieces they will wear season after season.",
+  "personas": [
+    {
+      "name": "The Investment Dresser",
+      "description": "Values quality and longevity over trends and is moved by 'made to last' and premium natural-fibre craftsmanship."
+    },
+    {
+      "name": "The Petite Seeker",
+      "description": "A woman 5'4 (162cm) and under tired of tailoring, drawn by the Under 5'4 range with refined lengths and proportions."
+    },
+    {
+      "name": "The Event Ready",
+      "description": "Shopping for occasion and event dressing, moved by unique prints and statement pieces that earn compliments."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "UNDER 5'4 Adine Linen Viscose Printed Maxi Dress in Obsidian Bloom",
+      "role": "Hero / best-seller",
+      "price": 459.95
+    },
+    {
+      "title": "Jeanne Wool Blend Textured Knit Bomber Jacket in Black",
+      "role": "Core",
+      "price": 349.95
+    },
+    {
+      "title": "Adine Linen Viscose Printed Maxi Dress in Obsidian Bloom",
+      "role": "Premium",
+      "price": 459.95
+    },
+    {
+      "title": "Illusion Viscose Blend Printed Blouse in Obsidian Bloom",
+      "role": "Entry point",
+      "price": 299.95
+    }
+  ],
+  "offers": [
+    "10% off your first order for email subscribers",
+    "Free AU shipping on orders over $250",
+    "Try Before You Buy home try-on (2-3 items, 3 days, $15 restocking fee if all returned)",
+    "Same day dispatch & click & collect, plus instant exchanges",
+    "Returns: 14 days from dispatch (AU), 21 days international; flat $15 return fee during sale periods",
+    "Gift cards available"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Produced in limited quantities, each piece as rare as it is beautiful.",
+        "source": "about page"
+      },
+      {
+        "claim": "Crafted from premium materials with a focus on natural fibres.",
+        "source": "about page"
+      },
+      {
+        "claim": "Inclusive sizing from AU 6-20, plus an Under 5'4 range for women 162cm and under.",
+        "source": "about page"
+      },
+      {
+        "claim": "Melbourne based and female founded, founded by Belinda Abbott.",
+        "source": "about page"
+      },
+      {
+        "claim": "Free AU shipping on orders over $250.",
+        "source": "site header banner"
+      },
+      {
+        "claim": "Through our B1G1 collaboration every order helps support women and children.",
+        "source": "about / impact page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any wording that a garment or fabric treats, cures or prevents a health condition (e.g. eczema-safe, relieves pain).",
+        "why": "Disease claim - banned for this regulated category regardless of product type."
+      },
+      {
+        "claim": "'Clinically proven' quality or performance without a cited study.",
+        "why": "Compliance rules ban 'clinically proven' claims that are not backed by a cited source."
+      },
+      {
+        "claim": "Guaranteed outcomes or specific timelines (e.g. 'guaranteed to last a lifetime').",
+        "why": "Compliance rules ban guaranteed results and specific timelines to an outcome."
+      },
+      {
+        "claim": "Unqualified sustainability or 'eco' claims (e.g. 'fully sustainable', 'ethical' without proof).",
+        "why": "FTC/ACCC-style rules - unqualified sustainability claims are not supported by anything stated on the site."
+      },
+      {
+        "claim": "Testimonials that imply a health or wellness benefit.",
+        "why": "Testimonials implying a disease benefit are treated as disease claims under the compliance rules."
+      }
+    ]
+  },
+  "generated_at": "2026-07-05T08:54:57.627Z"
+}
