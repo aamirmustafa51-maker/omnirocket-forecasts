@@ -1,0 +1,167 @@
+{
+  "lead_company": "Green Cradle",
+  "lead_first_name": "Edward",
+  "website": "https://greencradle.com",
+  "brand_domain": "greencradle.com",
+  "currency": "USD",
+  "review_count": 6,
+  "brand_dna": {
+    "category": "Non-toxic nursery furniture, solid wood bedroom furniture, and organic mattresses for health-conscious families.",
+    "core_belief": "Being green is as much a matter of family health as the downstream effects to the environment - safer materials protect children first.",
+    "proof_points": [
+      "Handcrafted in the USA from real solid wood, made without MDF, plywood, veneers, or particleboard",
+      "GREENGUARD Gold Certified hardwood furniture, cribs and beds, tested for over 10,000 chemicals and 350+ VOCs",
+      "Mattresses made in California from all organic materials, including GOLS certified organic latex sourced from Sri Lanka",
+      "Pillows made with a 100% natural latex core covered with a GOTS certified organic cotton cover"
+    ],
+    "positioning": "Premium, health-first, and craft-driven - the clean-materials alternative to mass-market engineered-wood furniture."
+  },
+  "voice_pillars": [
+    {
+      "name": "Health-First",
+      "desc": "They lead with family safety and cleaner materials over style or price.",
+      "quote": "A Cleaner Home Starts With Better Materials"
+    },
+    {
+      "name": "Craft-Proud",
+      "desc": "They emphasize handmade, solid-wood construction and lasting quality.",
+      "quote": "Handcrafted in the USA from real solid wood"
+    },
+    {
+      "name": "Transparent About Materials",
+      "desc": "They name exactly what is and is not in their products so buyers can trust the claim.",
+      "quote": "made without MDF, plywood, veneers, or particleboard"
+    },
+    {
+      "name": "Family-Rooted",
+      "desc": "They speak from personal experience as parents motivated by their own family's health.",
+      "quote": "Green Cradle was born out of necessity."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "A Cleaner Home Starts With Better Materials",
+      "made without MDF, plywood, veneers, or particleboard",
+      "comfort they can feel good about",
+      "one of our most comfortable pillows available",
+      "personalized comfort",
+      "perfectly tailor your firmness level"
+    ],
+    "words": [
+      "non-toxic",
+      "organic",
+      "solid wood",
+      "handcrafted",
+      "natural latex",
+      "certified",
+      "firm",
+      "healthier"
+    ],
+    "avoid": [
+      "cheap",
+      "disposable",
+      "trendy",
+      "synthetic"
+    ]
+  },
+  "icp": "Health-conscious parents and homeowners who want durable, non-toxic furniture and organic mattresses for their family and will pay premium prices for certified clean materials and craftsmanship.",
+  "personas": [
+    {
+      "name": "New Nursery Parent",
+      "description": "Expecting or new parents building a safe nursery who are moved by non-toxic materials and certified organic cribs and mattresses for baby."
+    },
+    {
+      "name": "Clean-Living Homeowner",
+      "description": "Adult buyer furnishing a bedroom who wants solid wood over engineered wood and responds to low-VOC, GREENGUARD Gold proof."
+    },
+    {
+      "name": "Health-Driven Convert",
+      "description": "A shopper who turned to cleaner products after a family health issue and is moved by the brand's own origin story and material transparency."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Natural Rubber Latex Molded Pillow",
+      "role": "Hero / best-seller",
+      "price": 135
+    },
+    {
+      "title": "Crib Organic Latex Mattress",
+      "role": "Core",
+      "price": 499
+    },
+    {
+      "title": "13\" King 4-Layer Organic Latex Mattress (Floor Model)",
+      "role": "Core",
+      "price": 1499
+    },
+    {
+      "title": "Live Edge Table Desk 80 inch x 45\" inch Walnut With Glass Top",
+      "role": "Premium",
+      "price": 1579
+    }
+  ],
+  "offers": [
+    "Free curbside delivery on all orders in the continental USA",
+    "Optional White Glove Delivery upgrade (in-room setup and packaging disposal) for an additional charge",
+    "Clearance Sale up to 70% off select items",
+    "Online Consultation available",
+    "Note: all merchandise is non-returnable and final sale; returns only by exception with a return authorization number"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handcrafted in the USA from real solid wood, made without MDF, plywood, veneers, or particleboard.",
+        "source": "homepage / about page footer"
+      },
+      {
+        "claim": "GREENGUARD Gold Certified furniture tested for over 10,000 chemicals and 350+ VOCs.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Organic mattresses made in California from all organic materials.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Crib mattress made with a 100% GOLS certified organic latex core sourced from Sri Lanka.",
+        "source": "crib mattress product page"
+      },
+      {
+        "claim": "Pillows made with a 100% natural latex core covered with a GOTS certified organic cotton cover.",
+        "source": "pillow product page"
+      },
+      {
+        "claim": "Free curbside delivery on all orders in the continental USA.",
+        "source": "shipping policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best or #1 non-toxic furniture in the world.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "100% chemical-free or completely toxin-free.",
+        "why": "FTC Green Guides - unqualified/absolute safety claim not supported by the site's own certification language."
+      },
+      {
+        "claim": "Guaranteed to prevent allergies or health issues in your child.",
+        "why": "FTC - guaranteed health outcome that cannot be proven."
+      },
+      {
+        "claim": "Only X left - order now before it's gone (invented scarcity).",
+        "why": "FTC - fake urgency not backed by real inventory data."
+      },
+      {
+        "claim": "Rated 5 stars by thousands of parents.",
+        "why": "FTC - invented review counts; no verified review volume provided."
+      },
+      {
+        "claim": "Free returns - risk-free trial.",
+        "why": "Contradicts stated policy: all merchandise is non-returnable and final sale."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-07T21:12:31.093Z"
+}
