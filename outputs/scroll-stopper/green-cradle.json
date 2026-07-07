@@ -1,0 +1,54 @@
+{
+  "lead_company": "Green Cradle",
+  "lead_first_name": "Edward",
+  "website": "https://greencradle.com",
+  "brand_domain": "greencradle.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, parent-to-parent and health-first, proud of clean materials and honest about exactly what goes into every piece.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/green-cradle?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Natural Rubber Latex Molded Pillow",
+      "product_url": "https://greencradle.com/products/natural-rubber-latex-molded-pillows",
+      "image_url": "https://cdn.shopify.com/s/files/1/0216/9339/9104/files/moldedpillow1.jpg?v=1733794485",
+      "price": 135,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Rest your head on something you can actually feel good about.\n\nOur molded pillow is built around a 100% natural latex core, wrapped in a GOTS certified organic cotton cover. It's one of our most comfortable pillows available.\n\nComfort they can feel good about, night after night.",
+      "headline": "Natural Latex, Organic Cotton",
+      "cta": "Shop Now",
+      "why_it_works": "A pillow is a personal comfort purchase, so leading with the desirable feeling plus the clean materials speaks straight to what a health-minded buyer wants."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Crib Organic Latex Mattress",
+      "product_url": "https://greencradle.com/products/gols-organic-crib-latex-mattress-gots-organic-wool-and-organic-cotton",
+      "image_url": "https://cdn.shopify.com/s/files/1/0216/9339/9104/files/IMG_2516.jpg?v=1760574458",
+      "price": 499,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Wondering what your baby is really breathing in all night?\n\nOur crib mattress is made with a 100% GOLS certified organic latex core sourced from Sri Lanka, so you know exactly what is and is not inside.\n\nA cleaner home starts with better materials, right where your little one sleeps.",
+      "headline": "Organic Latex Crib Mattress",
+      "cta": "Learn More",
+      "why_it_works": "New parents worry most about what surrounds their baby overnight, so naming that friction and answering it with a transparent organic claim lands hard for this product."
+    },
+    {
+      "product_index": 3,
+      "product_title": "13\" King 4-Layer Organic Latex Mattress (Floor Model)",
+      "product_url": "https://greencradle.com/products/13-king-4-layer-organic-latex-mattress-floor-model",
+      "image_url": "https://cdn.shopify.com/s/files/1/0216/9339/9104/files/mattress_king_13a.jpg?v=1778966554",
+      "price": 1499,
+      "compare_at_price": 4299,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "primary_text": "The same 4-layer organic latex mattress, now $1,499 instead of $4,299.\n\nThis is a floor model, so the price dropped, not the build. Handcrafted in California from all organic materials, with personalized comfort you can perfectly tailor to your firmness level.\n\nGREENGUARD Gold Certified and free curbside delivery in the continental USA. Same clean sleep, a real reason to say yes.",
+      "headline": "Organic King Mattress, $1,499",
+      "cta": "Shop the Sale",
+      "why_it_works": "Price is the biggest hesitation on a premium mattress, so this reframes the floor-model discount as full quality at a fraction of the cost while backing it with certifications."
+    }
+  ],
+  "generated_at": "2026-07-07T21:12:43.422Z"
+}
