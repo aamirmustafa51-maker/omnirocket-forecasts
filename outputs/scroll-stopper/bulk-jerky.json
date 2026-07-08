@@ -1,0 +1,40 @@
+{
+  "lead_company": "Bulk Jerky",
+  "lead_first_name": "Pete",
+  "website": "https://bulkjerky.com",
+  "brand_domain": "bulkjerky.com",
+  "currency": "USD",
+  "brand_voice_note": "Bold, proud, and all-American with a big-appetite swagger that turns protein and quantity into the whole personality.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/bulk-jerky?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Mega Protein Station (Double Wide)",
+      "product_url": "https://bulkjerky.com/products/mega-protein-station-double-wide",
+      "image_url": "https://cdn.shopify.com/s/files/1/1110/8120/files/IMG_2231.jpg?v=1769021763",
+      "price": 100,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Fuel that goes big or goes home.\n\nThe Mega Protein Station (Double Wide) stacks Strong American Snacks by the pile, so your protein hit is never rationed.\n\nBulk beef jerky, loaded up and ready to power the whole crew. Free shipping available on qualifying orders.",
+      "headline": "Double Wide. Double The Fuel.",
+      "cta": "Shop Now",
+      "why_it_works": "The Double Wide's entire draw is scale and protein volume, so leading with the big-fuel payoff matches exactly what a hungry buyer wants from the largest option."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Mini Protein Station (Single Wide)",
+      "product_url": "https://bulkjerky.com/products/mini-protein-station-single-wide",
+      "image_url": "https://cdn.shopify.com/s/files/1/1110/8120/files/IMG_2689.jpg?v=1769021550",
+      "price": 60,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Think you need the big one to eat big? Nope.\n\nThe Mini Protein Station (Single Wide) brings the same Strong American Snacks in a lean, grab-and-go size at $60.\n\nBulk beef jerky protein without committing to the full haul. Free shipping available on qualifying orders.",
+      "headline": "Single Wide. Full-On Protein.",
+      "cta": "Get Yours",
+      "why_it_works": "The main hesitation on a smaller pack is 'do I lose out by not going big', so this angle proves the Single Wide still delivers real protein at a lower entry price."
+    }
+  ],
+  "generated_at": "2026-07-08T17:44:44.526Z"
+}
