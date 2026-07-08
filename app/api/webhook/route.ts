@@ -12,6 +12,7 @@ import { fetchProspectLogoUrl } from "@/lib/shared/logo";
 import { appendNewLead } from "@/lib/shared/sheets";
 import { writeLeadCustomFields } from "@/lib/shared/smartlead";
 import { generateAndPublishPlaybook } from "@/lib/shared/playbook-flow";
+import { generateFollowupHooks } from "@/lib/shared/followup-hooks";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -1038,19 +1039,34 @@ export async function POST(req: NextRequest) {
         `⚠️ *Follow-up fields not written* — ${tag}: no campaign_id in the webhook payload and campaign_name "${payload.campaign_name ?? ""}" isn't in the fallback map. Forecast delivered fine; add magnet_link / brand_playbook_link manually if you want the subsequence to render links.`,
       );
     } else {
-      // 9a. magnet_link — written on its own so a playbook failure can't cost
-      //     us the report link.
+      // 9a. magnet_link + follow-up personalization hooks. magnet_link is the
+      //     report; followup_hook_1/2 are the two sharpest findings pulled from
+      //     THIS report so the subsequence can name them ("one thing that stood
+      //     out: <hook>"). Hook generation is best-effort — if it fails we just
+      //     omit the hooks and still write magnet_link (subsequences use a
+      //     Smartlead fallback value for the tag, so an empty hook degrades
+      //     gracefully). All written in one upsert.
+      const followupFields: Record<string, string> = { magnet_link: shareUrl };
       try {
-        const ok = await writeLeadCustomFields(followupCampaignId, payload.lead_email, {
-          magnet_link: shareUrl,
-        });
+        const hooks = await generateFollowupHooks(anthropic, forecastJson, payload.lead_company);
+        if (hooks?.followup_hook_1) followupFields.followup_hook_1 = hooks.followup_hook_1;
+        if (hooks?.followup_hook_2) followupFields.followup_hook_2 = hooks.followup_hook_2;
+      } catch (e) {
+        console.error("follow-up hook generation threw:", e);
+      }
+      try {
+        const ok = await writeLeadCustomFields(
+          followupCampaignId,
+          payload.lead_email,
+          followupFields,
+        );
         if (!ok) {
           await postSlack(
-            `⚠️ *magnet_link write failed* — ${tag} (campaign ${followupCampaignId}). Forecast delivered fine.`,
+            `⚠️ *magnet_link/hooks write failed* — ${tag} (campaign ${followupCampaignId}). Forecast delivered fine.`,
           );
         }
       } catch (e) {
-        console.error("magnet_link write threw:", e);
+        console.error("magnet_link/hooks write threw:", e);
       }
 
       // 9b. Brand Playbook build + brand_playbook_link — only if we have a site
