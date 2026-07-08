@@ -10,6 +10,8 @@ import { buildKbBlock } from "@/magnets/fatigue-forecast/lib/kb";
 import { fetchInstagramFollowerCount } from "@/lib/shared/instagram";
 import { fetchProspectLogoUrl } from "@/lib/shared/logo";
 import { appendNewLead } from "@/lib/shared/sheets";
+import { writeLeadCustomFields } from "@/lib/shared/smartlead";
+import { generateAndPublishPlaybook } from "@/lib/shared/playbook-flow";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -25,7 +27,17 @@ type WebhookPayload = {
   website_url?: string;
   category?: string;
   campaign_name?: string;
+  campaign_id?: string;
   hero_product_handle?: string;
+};
+
+// Fallback campaign_name -> id map for the Fatigue Forecast campaigns, used
+// ONLY if the Smartlead webhook payload doesn't carry campaign_id. Keeps the
+// post-yes custom-field write-back (magnet_link / brand_playbook_link)
+// targeting the right campaign so the follow-up subsequence can render links.
+const FORECAST_CAMPAIGN_IDS: Record<string, string> = {
+  "OR #5 | Personalized Line | Forecast Lead Magnet | With Other Contact Name": "3598513",
+  "OR #6 | Personalized Line | Forecast Lead Magnet | Without Other Contact Name": "3597865",
 };
 
 type ApifyAd = {
@@ -109,6 +121,10 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   const cf = (leadData.custom_fields ?? {}) as Record<string, unknown>;
   const str = (v: unknown): string => (typeof v === "string" ? v : "");
   const optStr = (v: unknown): string | undefined => (typeof v === "string" && v ? v : undefined);
+  // campaign_id can arrive as a number or string depending on Smartlead's
+  // webhook serialization; normalize both to a string.
+  const idStr = (v: unknown): string | undefined =>
+    typeof v === "number" ? String(v) : typeof v === "string" && v ? v : undefined;
 
   return {
     lead_email: str(r.lead_email) || str(leadData.email),
@@ -121,6 +137,7 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
     website_url: optStr(leadData.website),
     category: optStr(cf.Category),
     campaign_name: optStr(r.campaign_name) || optStr(r.sequence_name),
+    campaign_id: idStr(r.campaign_id) ?? idStr((r as Record<string, unknown>).campaignId),
   };
 }
 
@@ -1004,6 +1021,69 @@ export async function POST(req: NextRequest) {
       });
     } catch (e) {
       console.error("Sheet append failed:", e);
+    }
+
+    // 9. Post-yes follow-up wiring (ADDITIVE, best-effort). The forecast is
+    //    already generated, committed, and Slacked above, so every step here is
+    //    independently guarded and can only skip — never break the magnet flow.
+    //    Goal: stash magnet_link (the report) + build/bundle the Brand Playbook
+    //    and stash brand_playbook_link, so the follow-up subsequence renders
+    //    {{magnet_link}} (T0) and {{brand_playbook_link}} (T3, ~day 8).
+    const followupCampaignId =
+      payload.campaign_id ||
+      (payload.campaign_name ? FORECAST_CAMPAIGN_IDS[payload.campaign_name] : undefined);
+
+    if (!followupCampaignId) {
+      await postSlack(
+        `⚠️ *Follow-up fields not written* — ${tag}: no campaign_id in the webhook payload and campaign_name "${payload.campaign_name ?? ""}" isn't in the fallback map. Forecast delivered fine; add magnet_link / brand_playbook_link manually if you want the subsequence to render links.`,
+      );
+    } else {
+      // 9a. magnet_link — written on its own so a playbook failure can't cost
+      //     us the report link.
+      try {
+        const ok = await writeLeadCustomFields(followupCampaignId, payload.lead_email, {
+          magnet_link: shareUrl,
+        });
+        if (!ok) {
+          await postSlack(
+            `⚠️ *magnet_link write failed* — ${tag} (campaign ${followupCampaignId}). Forecast delivered fine.`,
+          );
+        }
+      } catch (e) {
+        console.error("magnet_link write threw:", e);
+      }
+
+      // 9b. Brand Playbook build + brand_playbook_link — only if we have a site
+      //     to scrape. Reuses the same Anthropic client + buildPlaybook engine
+      //     as the standalone Brand_Playbook route.
+      if (websiteUrl) {
+        try {
+          const playbookShare = await generateAndPublishPlaybook({
+            anthropic,
+            lead_company: payload.lead_company,
+            lead_first_name: payload.lead_first_name,
+            website_url: websiteUrl,
+          });
+          const wrote = await writeLeadCustomFields(followupCampaignId, payload.lead_email, {
+            brand_playbook_link: playbookShare,
+          });
+          await postSlack(
+            `🧠 Brand Playbook bundled for *${payload.lead_company}* (follow-up T3)\n🔗 ${playbookShare}${
+              wrote ? "" : "\n⚠️ but writing brand_playbook_link to Smartlead failed — check the custom field before the subsequence runs."
+            }`,
+          );
+        } catch (e) {
+          const msg = e instanceof Error ? e.message : String(e);
+          console.error("Playbook bundle failed:", msg);
+          await postSlack(
+            `⚠️ *Playbook bundle failed* — ${tag}\n\`\`\`${msg}\`\`\`\nForecast delivered fine; flip Brand_Playbook manually if you want the T3 drop.`,
+          );
+        }
+      } else {
+        await postSlack(
+          `ℹ️ *No website for playbook* — ${tag}: skipped the T3 Brand Playbook build. Forecast delivered fine.`,
+        );
+      }
     }
 
     return NextResponse.json({ ok: true, slug, url: forecastUrl });
