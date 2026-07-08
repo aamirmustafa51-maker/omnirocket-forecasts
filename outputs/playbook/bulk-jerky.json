@@ -1,0 +1,146 @@
+{
+  "lead_company": "Bulk Jerky",
+  "lead_first_name": "Pete",
+  "website": "https://bulkjerky.com",
+  "brand_domain": "bulkjerky.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Bulk beef jerky and high-protein snacks sold direct-to-consumer, including multi-flavor 'Protein Station' variety packs.",
+    "core_belief": "Snacking should hit hard on protein and flavor - 'Strong American Snacks' built to fuel real appetites, not dainty portions.",
+    "proof_points": [
+      "American-made snacks ('Strong American Snacks' tagline)",
+      "Sold in bulk quantities with tiered Protein Station packs (Mega Double Wide vs Mini Single Wide)",
+      "Free shipping offered above a cart threshold",
+      "Wholesale program available for larger buyers"
+    ],
+    "positioning": "Bold, value-forward bulk snacking for heavy protein eaters, not a boutique or single-bag artisanal jerky brand."
+  },
+  "voice_pillars": [
+    {
+      "name": "Bold and American",
+      "desc": "Writes with a proud, punchy, all-American tone that leans into strength and appetite.",
+      "quote": "Bulk Beef Jerky - Strong American Snacks"
+    },
+    {
+      "name": "Protein-Forward",
+      "desc": "Centers everything on protein volume and fuel, naming products as 'Protein Stations'.",
+      "quote": "Mega Protein Station (Double Wide)"
+    },
+    {
+      "name": "Go Big",
+      "desc": "Frames the product around size and quantity, using scale language like Mega, Double Wide, and Bulk.",
+      "quote": "Mini Protein Station (Single Wide)"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Strong American Snacks",
+      "Mega Protein Station",
+      "Double Wide",
+      "Single Wide",
+      "Bulk Beef Jerky",
+      "Free shipping"
+    ],
+    "words": [
+      "jerky",
+      "protein",
+      "bulk",
+      "mega",
+      "mini",
+      "American",
+      "strong",
+      "station"
+    ],
+    "avoid": [
+      "dainty",
+      "delicate",
+      "gourmet",
+      "artisanal fussiness"
+    ]
+  },
+  "icp": "Protein-hungry snackers - lifters, hunters, truckers, and busy men - who want a lot of high-protein beef jerky at a fair price and buy in bulk to keep it stocked.",
+  "personas": [
+    {
+      "name": "The Gym Fuel Guy",
+      "description": "Fitness-focused buyer who tracks protein and stocks up in bulk - moved by protein-per-serving and value angles."
+    },
+    {
+      "name": "The Bulk Stocker",
+      "description": "Household or pantry shopper who buys the Mega Double Wide to always have snacks on hand - moved by quantity and free shipping."
+    },
+    {
+      "name": "The Wholesale Buyer",
+      "description": "Retailer or reseller sourcing jerky at volume - moved by the wholesale program and case pricing."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Mega Protein Station (Double Wide)",
+      "role": "Hero / best-seller",
+      "price": 100
+    },
+    {
+      "title": "Mini Protein Station (Single Wide)",
+      "role": "Entry point",
+      "price": 60
+    }
+  ],
+  "offers": [
+    "Free shipping once cart reaches the qualifying threshold",
+    "Wholesale ordering program",
+    "Two pack tiers: Mega Protein Station Double Wide ($100) and Mini Protein Station Single Wide ($60)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Strong American Snacks",
+        "source": "homepage tagline"
+      },
+      {
+        "claim": "Beef jerky sold in bulk quantities",
+        "source": "homepage / brand name"
+      },
+      {
+        "claim": "Protein Station variety packs in Mega and Mini sizes",
+        "source": "product pages"
+      },
+      {
+        "claim": "Free shipping available on qualifying orders",
+        "source": "site-wide cart banner"
+      },
+      {
+        "claim": "Wholesale ordering available",
+        "source": "site navigation (Wholesale)"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best beef jerky in America / #1 jerky",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Guaranteed to build muscle or hit your protein goals",
+        "why": "FTC - unprovable guaranteed-results health claim."
+      },
+      {
+        "claim": "Rated 5 stars by thousands of customers",
+        "why": "FTC - invented review counts; no reviews exist in the input."
+      },
+      {
+        "claim": "Only X packs left - order in the next 10 minutes",
+        "why": "FTC - fake urgency not backed by real inventory data."
+      },
+      {
+        "claim": "100% all-natural / no preservatives",
+        "why": "FTC - objective ingredient claim not stated or substantiated on the site."
+      },
+      {
+        "claim": "Endorsed by pro athletes or trainers",
+        "why": "FTC - invented endorsement with no evidence in the input."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-08T17:44:34.210Z"
+}
