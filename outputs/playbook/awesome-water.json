@@ -6,37 +6,37 @@
   "currency": "AUD",
   "review_count": 0,
   "brand_dna": {
-    "category": "Australian water filtration brand selling home water filters, coolers, whole-house systems and sparkling/soda taps.",
-    "core_belief": "Clean, better-tasting water is a home essential, not a luxury - Awesome Water aims to make premium filtration accessible with removal of contaminants down to forever chemicals.",
+    "category": "Australian water filtration brand selling home water filters, coolers, and dispensers direct to consumers.",
+    "core_belief": "Clean, better-tasting water should be accessible in every Australian home through reliable filtration and support.",
     "proof_points": [
-      "Registered Awesome Water® trademark across full product range",
+      "Registered trademark brand (Awesome Water®) with its own product lines and spare parts range",
       "Price Beat Guarantee stated in site navigation",
-      "Forever Chemicals Removal range and fluoride filtration bundles",
-      "Physical retail and service presence in 10+ Australian cities including Sydney, Melbourne, Perth, Brisbane and Adelaide",
-      "24 Hour Help Line and Repair Manual for support"
+      "24 Hour Help Line & Repair Manual for ongoing support",
+      "Physical showroom and retail locations across Australia (Sydney, Melbourne, Perth, Brisbane, Adelaide and more)",
+      "Dedicated Forever Chemicals Removal and fluoride filtration product range"
     ],
-    "positioning": "Premium, full-range home filtration specialist that competes on price with a Price Beat Guarantee and deep local (Australian) service coverage."
+    "positioning": "Premium, service-backed home water filtration with nationwide presence and a price-match promise."
   },
   "voice_pillars": [
     {
-      "name": "Confident and Bold",
-      "desc": "Makes strong category-leader claims and is not shy about ranking itself at the top.",
+      "name": "Confidently Superlative",
+      "desc": "Leans on bold, top-of-market language to signal category leadership.",
       "quote": "No 1 Fluoride Filter On The Market"
     },
     {
-      "name": "Value-Assured",
-      "desc": "Leans on guarantees and deals to reassure buyers they are getting the best price.",
-      "quote": "Price Beat Guarantee"
-    },
-    {
-      "name": "Complete and Practical",
-      "desc": "Frames itself as an all-in-one home solution, speaking in plain functional product language.",
+      "name": "Whole-Home Practical",
+      "desc": "Frames products around complete, room-by-room coverage for the household.",
       "quote": "Awesome Water® Complete Home Filtration"
     },
     {
-      "name": "Locally Supportive",
-      "desc": "Emphasises Australian coverage and easy access to help and repairs.",
+      "name": "Support-First",
+      "desc": "Puts help, repair, and reachability front and center so buyers feel backed up.",
       "quote": "24 Hour Help Line & Repair Manual"
+    },
+    {
+      "name": "Value-Assured",
+      "desc": "Removes price risk by promising to beat competitors on cost.",
+      "quote": "Price Beat Guarantee"
     }
   ],
   "customer_language": {
@@ -51,33 +51,33 @@
     "words": [
       "filtration",
       "fluoride",
-      "coolers",
-      "purifiers",
-      "sparkling",
+      "cooler",
+      "purifier",
       "benchtop",
-      "whole house",
-      "chemicals"
+      "under-sink",
+      "sparkling",
+      "showroom"
     ],
     "avoid": [
-      "luxury fashion tone",
+      "medical cure language",
+      "unqualified green buzzwords",
       "vague wellness fluff",
-      "medical or cure language",
-      "hype slang"
+      "hype without spec"
     ]
   },
-  "icp": "Health-conscious Australian homeowners who want cleaner, better-tasting tap water and value a proven full-range brand with local service and a best-price guarantee.",
+  "icp": "Health-conscious Australian homeowners who want cleaner, better-tasting tap water and value reliable local support, in-home installation options, and a fair price.",
   "personas": [
     {
       "name": "Chemical-Wary Parent",
-      "description": "A family buyer worried about fluoride and forever chemicals in tap water, moved by contaminant-removal proof and safety framing."
+      "description": "A household decision-maker worried about fluoride and forever chemicals in tap water, moved by specific removal claims and family safety framing."
     },
     {
-      "name": "Value-Hunting Homeowner",
-      "description": "A practical shopper comparing prices who is won over by the Price Beat Guarantee and showroom/sale pricing."
+      "name": "Convenience Upgrader",
+      "description": "A buyer who wants instant hot, cold, and sparkling water at home, moved by the 3-in-1 dispenser and cooler convenience angle."
     },
     {
-      "name": "Convenience Seeker",
-      "description": "A buyer who wants instant hot, cold and sparkling water at home, moved by 3-in-1 all-in-one dispenser features."
+      "name": "Value-Checking Researcher",
+      "description": "A comparison shopper who cross-references price and specs, moved by the Price Beat Guarantee and 24-hour help line."
     }
   ],
   "products_ladder": [
@@ -104,62 +104,58 @@
   ],
   "offers": [
     "Price Beat Guarantee",
-    "Showroom / SALE pricing on selected units (e.g. Soda Tap 3 in 1)",
-    "1 Year Fluoride Filtration Bundle - Special Offer",
-    "24 Hour Help Line and Repair Manual support",
-    "Spare parts and accessories range"
+    "Showroom / sale pricing on Soda Tap 3 in 1 (from $2299)",
+    "1 Year Fluoride Filtration Bundle - Special Offer ($199)",
+    "24 Hour Help Line & Repair Manual support",
+    "Multi-function bundles (Ice Maker + Hot/Cold Dispenser with bottle, $795)"
   ],
   "claims": {
     "allowed": [
       {
-        "claim": "Price Beat Guarantee on pricing",
-        "source": "site navigation / homepage"
+        "claim": "Complete home water filtration systems for the whole house",
+        "source": "homepage navigation"
       },
       {
-        "claim": "Range designed for forever chemicals removal",
-        "source": "New Product Range - Forever Chemicals Removal"
+        "claim": "Price Beat Guarantee on products",
+        "source": "homepage navigation"
       },
       {
-        "claim": "Complete home filtration including whole-house systems",
-        "source": "homepage / product menu"
+        "claim": "24 hour help line and repair manual support",
+        "source": "homepage navigation"
       },
       {
-        "claim": "24 Hour Help Line and Repair Manual available",
-        "source": "site navigation"
+        "claim": "Dedicated fluoride filtration and forever chemicals removal range",
+        "source": "homepage / product pages"
       },
       {
-        "claim": "Local service and retail across multiple Australian cities",
-        "source": "Locations menu"
-      },
-      {
-        "claim": "3 in 1 hot/cold and ice maker dispenser functionality",
-        "source": "product page (Ice Maker + Hot/Cold Dispenser)"
+        "claim": "In-person showroom and retail locations across major Australian cities",
+        "source": "homepage locations menu"
       }
     ],
     "banned": [
       {
-        "claim": "Calling the product 'eco-friendly' or 'sustainable' without specific backing",
-        "why": "FTC Green Guides - unqualified sustainability claim"
+        "claim": "Calling the products 'eco-friendly' or 'sustainable' without proof",
+        "why": "FTC Green Guides - unqualified sustainability claim needs specific, verifiable backing."
       },
       {
-        "claim": "Saying the filters are 'zero impact' or 'carbon neutral'",
-        "why": "FTC Green Guides - requires specific, verifiable backing not present on site"
+        "claim": "'Zero impact' or 'carbon neutral' filtration",
+        "why": "FTC Green Guides - requires verifiable substantiation not present on site."
       },
       {
-        "claim": "Claiming water 'cures', 'treats' or 'relieves' any health condition",
-        "why": "Prohibited medical claim - no clinical evidence on site"
+        "claim": "Filtered water 'relieves' or 'cures' any health condition",
+        "why": "Prohibited medical claim not backed by the brand."
       },
       {
-        "claim": "Stating the filter removes '100%' of contaminants without test data",
-        "why": "Unsubstantiated absolute claim - no verifiable figures provided"
+        "claim": "'100% removes all contaminants' as an absolute guarantee",
+        "why": "Unqualified absolute claim - use specific, provable reduction figures instead."
       },
       {
-        "claim": "'No 1 Fluoride Filter On The Market' used in ads without substantiation",
-        "why": "Comparative superiority claim needs evidence to run in paid media"
+        "claim": "Stating filters 'improve health' or 'boost immunity'",
+        "why": "Unsubstantiated health/medical benefit claim outside compliance."
       }
     ]
   },
   "standalone": false,
   "prospect_logo_url": "https://www.awesomewater.com/cdn/shop/files/84865c44-c03e-45a1-9eec-2362491698a4-1.png?v=1701592441&width=140",
-  "generated_at": "2026-07-09T11:36:49.452Z"
+  "generated_at": "2026-07-09T11:39:49.174Z"
 }
