@@ -23,6 +23,10 @@ export type ShopifyProduct = {
   compare_at_price: number | null;
   on_sale: boolean;
   image_url: string | null;
+  // All product-gallery image srcs, in store order. Used to pick a DISTINCT
+  // hero image when two selected products share the same featured image
+  // (some merchants reuse one bundle graphic as the #1 photo on many products).
+  image_urls: string[];
   image_count: number;
   url: string;
 };
@@ -93,7 +97,8 @@ export function normalizeProduct(raw: RawProduct, origin: string): ShopifyProduc
   const price = toNumber(firstVariant.price);
   const compare = toNumber(firstVariant.compare_at_price ?? null);
   const images = raw.images ?? [];
-  const image_url = images[0]?.src ?? null;
+  const image_urls = images.map((i) => i?.src).filter((s): s is string => !!s);
+  const image_url = image_urls[0] ?? null;
 
   return {
     id: raw.id ?? 0,
@@ -106,6 +111,7 @@ export function normalizeProduct(raw: RawProduct, origin: string): ShopifyProduc
     compare_at_price: compare,
     on_sale: price !== null && compare !== null && compare > price,
     image_url,
+    image_urls,
     image_count: images.length,
     url: `${origin}/products/${raw.handle}`,
   };
