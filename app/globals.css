@@ -35,7 +35,7 @@ body {
   gap: 10px;
   min-height: 40px;
 }
-.prospect-logo { max-height: 56px; max-width: 220px; object-fit: contain; }
+.prospect-logo { max-height: 40px; max-width: 150px; object-fit: contain; }
 .prospect-wordmark {
   font-family: ui-serif, Georgia, serif;
   font-size: 20px;
