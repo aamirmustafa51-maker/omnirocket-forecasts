@@ -8,6 +8,7 @@ export default function ScrollStopperIntake() {
   const [firstName, setFirstName] = useState("");
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
+  const [logoUrl, setLogoUrl] = useState("");
   const [urls, setUrls] = useState(["", "", ""]);
   const [status, setStatus] = useState<"idle" | "working" | "done" | "error">("idle");
   const [message, setMessage] = useState("");
@@ -41,6 +42,7 @@ export default function ScrollStopperIntake() {
           lead_first_name: firstName,
           lead_email: email,
           lead_company: company,
+          logo_url: logoUrl.trim() || undefined,
           product_urls,
         }),
       });
@@ -91,6 +93,9 @@ export default function ScrollStopperIntake() {
 
           <label style={S.label}>Lead email</label>
           <input style={S.input} type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="pete@brand.com" />
+
+          <label style={S.label}>Logo URL (optional - paste only if the auto logo looks wrong)</label>
+          <input style={S.input} value={logoUrl} onChange={(e) => setLogoUrl(e.target.value)} placeholder="https://brand.com/.../logo.png" />
 
           <label style={S.label}>Product links (2-3, from their real store)</label>
           {urls.map((u, i) => (
