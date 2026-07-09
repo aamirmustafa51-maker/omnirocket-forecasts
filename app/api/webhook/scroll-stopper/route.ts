@@ -20,6 +20,7 @@ import { crawlSite } from "@/lib/shared/site-crawl";
 import { selectHeroProducts } from "@/magnets/scroll-stopper/lib/select";
 import { buildPlaybook } from "@/magnets/brand-playbook/lib/generate";
 import type { PlaybookData } from "@/magnets/brand-playbook/lib/types";
+import { fetchProspectLogoUrl } from "@/lib/shared/logo";
 import {
   env, slugify, cleanCopy, postSlack, githubGetSha, putJson, extractJson, brandDomainFromWebsite,
 } from "@/lib/shared/publish";
@@ -71,6 +72,7 @@ type ScrollStopperJson = {
   currency: string;
   brand_voice_note: string;
   playbook_url?: string;
+  prospect_logo_url?: string;
   concepts: Concept[];
   generated_at: string;
 };
@@ -277,6 +279,12 @@ export async function POST(req: NextRequest) {
       };
     });
 
+    // Scrape the brand's real logo (apple-touch-icon/favicon). logo.dev returns
+    // wrong or placeholder logos for SMB ecom, so the scraped mark is the
+    // primary source in the template (it falls back to logo.dev then a
+    // wordmark). Best-effort — null just means the template uses its fallbacks.
+    const prospectLogoUrl = await fetchProspectLogoUrl(payload.website_url);
+
     const out: ScrollStopperJson = {
       lead_company: payload.lead_company,
       lead_first_name: payload.lead_first_name,
@@ -285,6 +293,7 @@ export async function POST(req: NextRequest) {
       currency: catalog.currency,
       brand_voice_note,
       playbook_url: playbook ? `${playbookUrl}?ref=email&magnet=playbook` : undefined,
+      prospect_logo_url: prospectLogoUrl ?? undefined,
       concepts,
       generated_at: new Date().toISOString(),
     };
