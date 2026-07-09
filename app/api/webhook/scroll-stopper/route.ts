@@ -235,6 +235,19 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "missing lead_company" }, { status: 400 });
   }
 
+  // Category-flip path (Smartlead, no product links) NO LONGER auto-generates.
+  // Auto-selecting heroes from /products.json picks the wrong products on
+  // wholesale/thin catalogs, so reports are now built ONLY from operator-picked
+  // product links via /scroll-stopper-new. A flip still enrolls the lead in the
+  // follow-up subsequence (Smartlead-side); here we just post a reminder.
+  if (!payload.product_urls?.length) {
+    await postSlack(
+      `🟡 *${payload.lead_company}* flipped to Scroll_Stopper.\nBuild the report at ${BASE_URL}/scroll-stopper-new with 2-3 product links. (No auto-generate; the lead is still enrolled in the follow-up subsequence.)`,
+      SLACK_KEY,
+    );
+    return NextResponse.json({ ok: true, status: "manual_required" });
+  }
+
   // Resolve the storefront: the lead's stated site, or (manual) the domain the
   // product links point at.
   const websiteUrl =
