@@ -7,12 +7,12 @@
   "read_time_min": 3,
   "total_ads": 34,
   "niche": "better-for-you soda",
-  "tldr": "About a dozen of your live ads are running the same wording word-for-word, and most of them have been up for 70+ days. Meta sees these near-copies as basically one ad, so it quietly picks one and stops showing the rest.",
+  "tldr": "About a dozen of your live ads are running the same wording, and roughly half have been up for 70+ days. Meta sees these look-alike ads as basically one ad, so it quietly picks one and stops showing the rest - you paid to make ads that almost no one sees.",
   "benchmark": {
-    "your_value_days": 14,
+    "your_value_days": 21,
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "The typical brand your size swaps in fresh ads every 3 weeks. The best brands do it every 2 weeks. You have ads still running at 76, 86, and 89 days old with the same words, which is well past where they stop pulling their weight."
+    "context": "The typical brand your size ships fresh ads every 3 weeks. The best brands in your space are on a 2-week rhythm. Several of your ads are past 75 days, which is well past the point where they stop pulling their weight."
   },
   "ads": [
     {
@@ -21,13 +21,13 @@
       "headline": "No Fake Sugars. Just Real Hydration",
       "body": "Ditch the sugar crash without sacrificing flavor. Strive Soda delivers bold soda taste with 0 sugar, 0 calories, and real ingredients. Try all fan-favorite flavors in the Variety Pack - your new go-to refreshment.",
       "cta": "Shop Now",
-      "fatigue_score": 94,
+      "fatigue_score": 92,
       "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "This exact headline and body appear word-for-word across at least six of your live ads.",
-        "It has been running 89 days, more than four times your practical refresh point.",
-        "Meta treats these near-identical ads as one, so you paid to make ads almost no one is seeing."
+        "Copy-paste twin of another swipeable ad you already have running, just pointed at a different page.",
+        "89 days live, so the people most likely to buy have already scrolled past it many times.",
+        "Two of your best selling points (honey and electrolytes) never appear in this ad's body."
       ]
     },
     {
@@ -36,58 +36,58 @@
       "headline": "Zero Sugar. Full Flavor.",
       "body": "Ditch the sugar crash without sacrificing flavor. Strive Soda delivers bold soda taste with 0 sugar, 0 calories, and real ingredients. Try all fan-favorite flavors in the Variety Pack - your new go-to refreshment.",
       "cta": "Shop Now",
-      "fatigue_score": 91,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "The body copy is a straight copy of your 'No Fake Sugars' ad with only the headline swapped.",
-        "89 days old, so anyone likely to click this has already scrolled past it dozens of times.",
-        "A different headline on the same body doesn't count as a new ad to Meta, so it gets shown to fewer people."
-      ]
-    },
-    {
-      "ad_number": 3,
-      "source_index": 6,
-      "headline": "No Fake Sugars. Just Real Hydration",
-      "body": "Ditch the sugar crash without sacrificing flavor. Strive Soda delivers bold soda taste with 0 sugar, 0 calories, and real ingredients. Try all fan-favorite flavors in the Variety Pack - your new go-to refreshment.",
-      "cta": "Shop now",
       "fatigue_score": 90,
       "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Same headline and body as several other live ads, only the page it sends people to is different.",
-        "89 days running with no changes to the words or the look.",
-        "Splitting spend across copies of the same ad means none of them build up momentum."
+        "Just a new headline slapped on the same body copy you're running under three other headlines.",
+        "89 days of runtime with a first-sip claim (0 calories) that another live ad of yours contradicts (45 calories).",
+        "That contradiction across your own ads makes the whole account feel less trustworthy to a shopper."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 21,
+      "headline": "WHY EVERYONE IS REACHING FOR STRIVE RIGHT NOW",
+      "body": "Some drinks feel refreshing at first… then leave you feeling heavy. Strive was made to feel different. Sweetened with honey and infused with electrolytes for hydration, it delivers crisp carbonation and balanced flavor in a lighter soda you can actually enjoy. Refreshing, easy to drink, and designed for active days. That's why more people are reaching for Strive.",
+      "cta": "Shop now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Three separate live ads use this exact headline and body, one static and two more static images.",
+        "The all-caps headline shouts but doesn't say anything a shopper can picture or remember.",
+        "76 days in, and there's no offer, price, or reason to click today instead of next week."
       ]
     },
     {
       "ad_number": 4,
-      "source_index": 3,
-      "headline": "20% Off First Order💸🍯",
-      "body": "Swap the syrupy stuff for flavor that hits different. Strive Hydration Soda. Order today.🥤",
-      "cta": "Shop Now",
-      "fatigue_score": 88,
-      "days_until_fatigue": 7,
-      "severity": "danger",
-      "drivers": [
-        "The body is so short it doesn't say what the drink actually is or why anyone should care.",
-        "89 days old, and a duplicate of this same ad is also running.",
-        "The '20% off' offer here clashes with your other live ads promising '15% off' and 'code HONEY20', so buyers see mixed prices."
-      ]
-    },
-    {
-      "ad_number": 5,
       "source_index": 22,
       "headline": "WHY EVERYONE IS REACHING FOR STRIVE RIGHT NOW",
       "body": "Some drinks feel refreshing at first… then leave you feeling heavy. Strive was made to feel different. Sweetened with honey and infused with electrolytes for hydration, it delivers crisp carbonation and balanced flavor in a lighter soda you can actually enjoy. Refreshing, easy to drink, and designed for active days. That's why more people are reaching for Strive.",
       "cta": "Shop now",
-      "fatigue_score": 87,
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "A direct duplicate of another live ad, same words, same image style, same button.",
+        "You are paying to make two versions of one ad, and Meta shows only one of them.",
+        "76 days old with no fresh angle, so the same tired people keep seeing the same tired frame."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 25,
+      "headline": "The Soda That Gets Me Through the Day",
+      "body": "Hydration becomes simpler when the drink matches real habits. It works better when the drink feels easy to enjoy. When water feels dull and soda feels like too much, Strive bridges that gap. Light fizz, hydration support, and a variety pack with two delicious flavors: Peach Perfect and Tropical Recharge.",
+      "cta": "Shop now",
+      "fatigue_score": 86,
       "days_until_fatigue": 8,
       "severity": "danger",
       "drivers": [
-        "You have three copies of this same ad running with the exact same words at the same time.",
-        "The all-caps headline reads like a magazine cover, not a real reason to buy.",
-        "76 days in, and Meta is picking one copy to serve and hiding the other two."
+        "The opening lines read like filler and never say anything a shopper hasn't heard before.",
+        "88 days live, so anyone who was going to click has already had many chances.",
+        "You have a video with this exact same script running too, and only one of the two is actually being served."
       ]
     }
   ],
@@ -96,43 +96,43 @@
       "headline": "Get 15% OFF now",
       "body": "Win $100+ Worth of Strive Soda + Get 15% OFF Today. Here's how it works: enter your email, get 15% off instantly, then place your first order to automatically enter the quarterly drawing.",
       "fatigue_score": 76,
-      "days_until_fatigue": 13
+      "days_until_fatigue": 15
     },
     {
-      "headline": "No Fake Sugars. Just Real Hydration",
-      "body": "Ditch the sugar crash without sacrificing flavor. Strive Soda delivers bold soda taste with 0 sugar, 45 calories, and real ingredients.",
-      "fatigue_score": 68,
-      "days_until_fatigue": 18
-    },
-    {
-      "headline": "Real Flavor, Real Hydration",
-      "body": "You shouldn't have to choose between amazing taste and better ingredients. Strive is the hydration soda with crave-worthy flavor, 100% organic wildflower honey, and electrolytes for everyday movement.",
+      "headline": "Subscribe & save 30%",
+      "body": "Save 30% today when you subscribe! Kids love soda. Parents hate the sugar that comes with it. That's why we created Strive - a better-for-you soda with crisp taste, naturally sweetened with organic wildflower honey, and packed with electrolytes for hydration. Finally, a soda kids enjoy and parents actually feel good about serving.",
       "fatigue_score": 62,
-      "days_until_fatigue": 22
+      "days_until_fatigue": 20
+    },
+    {
+      "headline": "Daily Soda, Upgraded With Function",
+      "body": "Soda is part of your daily routine. Now it can do more than just taste good. Strive is a better-for-you hydration soda made with 180mg essential electrolytes, 100% organic wildflower honey, and only 45 calories per can.",
+      "fatigue_score": 32,
+      "days_until_fatigue": 38
     }
   ],
   "hero_concept": {
-    "concept_name": "The Peach Pour",
+    "concept_name": "Peach Pour, Real Moment",
     "format": "Single image",
-    "hook": "The soda you can drink after a run.",
-    "headline": "Peach, honey, electrolytes.",
-    "primary_text": "Most sodas leave you heavy. Ours doesn't.\n\nStrive Peach is sweetened only with organic wildflower honey and carries 180mg of electrolytes in every can. 45 calories. No sucralose, no aspartame, no stevia, no high-fructose corn syrup.\n\nOne sip and you'll get why over 100,000 people made the swap. Try the Peach 12-pack today.",
+    "hook": "The soda you don't have to feel guilty about.",
+    "headline": "Peach, poured over ice.",
+    "primary_text": "Most sodas leave you sticky, sluggish, and thirsty ten minutes later. Strive Peach is built the other way around.\n\n100% organic wildflower honey, 180mg of electrolytes, 45 calories a can, and a peach flavor that actually tastes like peach - not candy. One 12-pack, one flavor, no guessing.\n\nGrab your 12-pack of Peach today. 20% off your first order with code HONEY20.",
     "cta": "Shop Now",
-    "visual_direction": "A single chilled Peach can on a sunlit kitchen counter beside a small honey dipper and fresh peach slices, condensation beading on the can, bright and clean.",
-    "fills_gap": "Almost every ad you're running right now leans on the same generic 'zero sugar' line and pushes the variety pack. Nothing zooms in on a single flavor with a real, specific reason to try it, which is why the whole set is starting to blur together.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a sunlit kitchen counter scene with a small wooden honey dipper drizzling honey onto a white ceramic dish and two fresh ripe peach slices arranged beside the can, with soft natural morning window light casting gentle shadows and highlighting the condensation beading on the aluminum surface. Clean, bright, wholesome aesthetic with warm peach and honey tones balanced by a crisp white counter surface. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact peach-and-cream colorway of the Strive Soda Peach can with its exact printed branding, exact 'Strive' wordmark, exact 'Peach' flavor label, exact honey/peach graphic elements, and exact nutrition/ingredient callouts as shown on the reference can - strictly NO color shift to orange, red, or yellow, NO altering the wordmark, NO changing the flavor name, NO removing or modifying any printed text or graphics on the can. STRUCTURE - preserve the exact construction: a single standard 12oz slim aluminum soda can, one can only, upright orientation, standard pull-tab top, full-wrap printed label with all branding intact including the Strive logo, the 'Peach' flavor callout, and any electrolyte/honey/calorie callouts printed on the can. Do NOT add or remove cans, do NOT change can size or shape, do NOT alter the pull-tab, do NOT remove or replace any printed text or graphic on the label, do NOT introduce a bottle or glass container in place of the can. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "visual_direction": "A single chilled Strive Peach can sitting on wet stone next to a glass of soda over ice with fresh peach slices, condensation beading on the can, warm afternoon light coming from the side.",
+    "fills_gap": "Almost every live ad you have points to the Variety Pack with the same 'zero sugar' opening line. Nothing sells one flavor at a time, and nothing shows the drink actually being poured and enjoyed, so shoppers never get hungry for a specific can.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a summertime kitchen counter scene with a chilled Strive Peach can sitting on wet dark stone next to a clear glass filled with peach-colored soda over ice cubes and two fresh peach slices, with warm golden late-afternoon side light streaming in from the left creating soft highlights on the can and glistening condensation droplets across the aluminum. Clean editorial beverage photography aesthetic with shallow depth of field, natural warm tones, and a slightly out-of-focus warm neutral background. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact Strive Soda Peach can colorway, artwork, and finish as shown in the reference image: the specific peach/orange brand color of the can body, the Strive logo, the flavor name 'Peach', and every printed graphic, illustration, and piece of text on the can exactly as printed - strictly NO color shift toward red, yellow, or pink, NO changing the peach tone, NO altering or removing any printed brand text, logo, flavor name, nutrition callouts, or graphics on the can. STRUCTURE - preserve the exact construction: a standard 12oz slim aluminum soda can with a single pull-tab top, the Strive Peach printed wrap graphic running the full body of the can with the brand logo, flavor name 'Peach', and all secondary text and illustrations in the exact positions and colors shown in the reference. PRESERVE every printed element on the can wrap exactly - all logos, all text, all graphics, all colors, same placement. Do NOT add extra cans unless as a single glass companion, do NOT change the can shape or size, do NOT alter the pull-tab, do NOT remove or modify any printed brand text, logo, flavor name, or graphic on the can wrap, do NOT swap the peach color palette for a different flavor's palette. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "Strive Soda - Peach (12 pack)",
     "reference_url": "https://strivesoda.com/products/strive-soda-peach",
     "image_path": "/creatives/strive-soda/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "The dozen near-identical variety-pack ads are already burning out and will fully stall within the next 5-11 days.",
+    "urgency": "Your six oldest 'WHY EVERYONE IS REACHING' and 'No Fake Sugars' ads stop pulling their weight inside the next two weeks.",
     "headline": "Walk through the Strive Soda refresh plan with Kyle",
     "body": "Christopher, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
-  "method_note": "Based only on your public Facebook and Instagram ads, the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "method_note": "Based only on your public Facebook and Instagram ads - the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
   "prospect_logo_url": "https://strivesoda.com/cdn/shop/files/Strive_Icon_White.png?crop=center&height=250&v=1758659132&width=250"
 }
