@@ -1,0 +1,55 @@
+{
+  "lead_company": "Awesome Water",
+  "lead_first_name": "Tony",
+  "website": "https://www.awesomewater.com",
+  "brand_domain": "awesomewater.com",
+  "currency": "AUD",
+  "brand_voice_note": "Confident and blunt category-leader voice that names exactly what buyers want gone and reassures on price and support.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/awesome-water?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.awesomewater.com/cdn/shop/files/84865c44-c03e-45a1-9eec-2362491698a4-1.png?v=1701592441&width=140",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "No 1 Fluoride Filter On The Market - AWESOME WATER®",
+      "product_url": "https://www.awesomewater.com/products/no-1-fluoride-filter-on-the-market-awesome-water",
+      "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/H2_Bundle_Images_Ads_3.png?v=1781756351",
+      "price": 120,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Fluoride in your tap water? Filter it out.\n\nThe Awesome Water Ceramic Fluoride Dome Filter is the No 1 Fluoride Filter On The Market, built to reduce fluoride and other unwanted contaminants from your everyday drinking water.\n\nUse it on its own or as part of a complete home filtration bundle. Better water, every single day.",
+      "headline": "The No 1 Fluoride Filter",
+      "cta": "Shop Now",
+      "why_it_works": "Fluoride removal is the specific, named problem this filter solves, so leading with that friction speaks directly to what the buyer is searching for."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Ultimate Hydration System - Awesome Water",
+      "product_url": "https://www.awesomewater.com/products/ultimate-hydration-system-awesome-water",
+      "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/H2_Bundle_Images_Ads_3.png?v=1781756351",
+      "price": 120,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Water the way it should taste.\n\nThe Ultimate Hydration System takes your water through a premium process: filter, remove fluoride, remineralise, alkalise and hydrogen enrich.\n\nThis is not just another filter bundle. It is a complete hydration system for better drinking water at home. 💧",
+      "headline": "Ultimate Hydration System",
+      "cta": "Learn More",
+      "why_it_works": "This product's appeal is the elevated end result of the full multi-stage process, so leading with the desirable water experience fits a premium, all-in-one system."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Awesome Water® - Paragon CP-4 - Filtration System. (New 2024)",
+      "product_url": "https://www.awesomewater.com/products/awesome-water-paragon-cp-4-filtration-system-new-2024",
+      "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/CP-4cover-600_56844678-ea79-448a-b12f-44a0fdfb099e.jpg?v=1725546808",
+      "price": 499,
+      "compare_at_price": 898,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Advanced under-sink filtration for $499 (was $898).\n\nThe Paragon CP-4 is a tankless under-sink system designed to reduce ultra-fine particles, heavy metals, VOCs and forever chemicals from your drinking water.\n\nBacked by our Price Beat Guarantee and 24 Hour Help Line, so ordering is easy and low-risk.",
+      "headline": "Paragon CP-4 - Now $499",
+      "cta": "Shop the Sale",
+      "why_it_works": "At a higher price point the main hesitation is cost and risk, so pairing the real sale price with the Price Beat Guarantee and support line removes the barrier to buying."
+    }
+  ],
+  "generated_at": "2026-07-09T11:24:55.756Z"
+}
