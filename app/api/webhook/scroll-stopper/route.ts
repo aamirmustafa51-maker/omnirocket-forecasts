@@ -252,7 +252,13 @@ export async function POST(req: NextRequest) {
 
   // Idempotency: the report is the last thing written, so its presence means
   // this lead was fully processed. Repeat flips don't re-spend Claude budget.
-  const existingSha = await githubGetSha(`outputs/scroll-stopper/${slug}.json`);
+  // Idempotency guard for the AUTO (Smartlead) path only — repeat category
+  // flips shouldn't re-spend budget. Manual (form) submissions are deliberate
+  // regenerations (e.g. redoing a lead with the RIGHT products), so they always
+  // rebuild and overwrite the existing report/playbook.
+  const existingSha = payload.product_urls?.length
+    ? null
+    : await githubGetSha(`outputs/scroll-stopper/${slug}.json`);
   if (existingSha) {
     await postSlack(`🔁 *Scroll-Stopper duplicate skipped* — ${tag} already done.\n🧠 ${playbookUrl}\n🖼️ ${reportUrl}`, SLACK_KEY);
     return NextResponse.json({ ok: true, status: "already_exists", url: reportUrl });
