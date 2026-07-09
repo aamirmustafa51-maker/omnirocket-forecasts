@@ -1,0 +1,55 @@
+{
+  "lead_company": "Print Decor",
+  "lead_first_name": "Bernie",
+  "website": "https://www.printdecor.com.au",
+  "brand_domain": "printdecor.com.au",
+  "currency": "AUD",
+  "brand_voice_note": "Confident gallery-meets-showroom voice that pairs premium decor language with genuine deal-driven urgency and helpful, reassuring guidance for online shoppers.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/print-decor?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.printdecor.com.au/cdn/shop/files/1-email-logo_1_461x126.png?v=1771843618",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Clearance Stock Sara Illuminated Mirror",
+      "product_url": "https://www.printdecor.com.au/products/modern-mirrors-home-decor-clearance-stock-sara-illuminated-mirror",
+      "image_url": "https://cdn.shopify.com/s/files/1/0708/3311/1222/files/kara_1_0__14624.jpg?v=1762344987",
+      "price": 795,
+      "compare_at_price": 795,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "One left. This price won't come back.\n\nThe Sara Illuminated Mirror is our floor stock star: Bluetooth to stream your music, built-in demister, and adjustable light from warm white to daylight. Now $795 (90 x 60 cm).\n\nOverstocked and underpriced means someone gets a showroom-quality mirror for less. Call 03 9576 1566 to make sure it's still yours.",
+      "headline": "The Last Sara At $795",
+      "cta": "Shop the Sale",
+      "why_it_works": "Scarcity plus a clear call-to-check kills the 'is this real or already gone' hesitation on a genuine one-of-one clearance piece."
+    },
+    {
+      "product_index": 2,
+      "product_title": "CLEARANCE STOCK Rectangle Illuminated Mirror  90 x 70 cm",
+      "product_url": "https://www.printdecor.com.au/products/modern-mirrors-home-decor-bathroom-mirrors-clearance-stock-rectangle-illuminated-mirror-90-x-70-cm",
+      "image_url": "https://cdn.shopify.com/s/files/1/0708/3311/1222/files/Rectangle_Illuminated_Mirror__62369.jpg?v=1762344987",
+      "price": 395,
+      "compare_at_price": 395,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Fog-free, glowing, ready in seconds.\n\nThis ultra-modern rectangle illuminated mirror lights up from the front and wipes out steam with a built-in demister. Ideal for powder rooms and bathrooms, 90 x 70 cm.\n\nJust one at this floor stock price of $395. Free Melbourne pickup or local delivery.",
+      "headline": "A Clear Mirror, Every Morning",
+      "cta": "Get Yours",
+      "why_it_works": "Leads with the single most desirable everyday outcome, a clear glowing mirror, which is exactly what a bathroom shopper pictures wanting."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Curved Illuminated Mirror",
+      "product_url": "https://www.printdecor.com.au/products/mirrors-melbourne-home-decor-curved-illuminated-mirror",
+      "image_url": "https://cdn.shopify.com/s/files/1/0708/3311/1222/files/Otis_1__94740.jpg?v=1762345382",
+      "price": 675,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Bad bathroom lighting ruins good makeup.\n\nThe Curved Illuminated Mirror fixes it with LED that glows through the front glass and washes soft light back onto the wall, so your finishing touches actually look right. Curved corners, built-in demister, $675.\n\nSleek, sophisticated, and made for the space you get ready in every day.",
+      "headline": "Lighting That Gets It Right",
+      "cta": "Shop Now",
+      "why_it_works": "Names the real friction of poor bathroom lighting and positions the dual front-and-back illumination as the direct fix, which suits a design-conscious buyer."
+    }
+  ],
+  "generated_at": "2026-07-09T17:47:54.753Z"
+}
