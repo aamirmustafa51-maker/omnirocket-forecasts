@@ -1,0 +1,168 @@
+{
+  "lead_company": "Awesome Water",
+  "lead_first_name": "Tony",
+  "website": "https://www.awesomewater.com",
+  "brand_domain": "awesomewater.com",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Australian water filtration brand selling home water coolers, filters, and complete filtration systems.",
+    "core_belief": "Clean, better water for every Australian home - built around whole-home filtration and removing what you do not want in your water, including forever chemicals and fluoride.",
+    "proof_points": [
+      "Registered brand (Awesome Water®) with a dedicated product range across coolers, filters, and whole-house systems",
+      "Price Beat Guarantee stated in site navigation",
+      "24 Hour Help Line & Repair Manual for support",
+      "Physical retail and service presence across major Australian cities (Sydney, Melbourne, Brisbane, Perth, Adelaide and more)"
+    ],
+    "positioning": "Practical, value-conscious specialist in home water filtration - broad product depth and local support rather than a single premium hero product."
+  },
+  "voice_pillars": [
+    {
+      "name": "Confident Category Leader",
+      "desc": "Speaks in plain, bold superlatives that position products as the best available choice.",
+      "quote": "No 1 Fluoride Filter On The Market"
+    },
+    {
+      "name": "Whole-Home Practical",
+      "desc": "Frames products as complete, everyday household solutions rather than gadgets.",
+      "quote": "Awesome Water® Complete Home Filtration"
+    },
+    {
+      "name": "Problem-Solver Direct",
+      "desc": "Names the exact contaminant or need the buyer wants gone, in blunt terms.",
+      "quote": "Forever Chemicals Removal"
+    },
+    {
+      "name": "Value-Reassuring",
+      "desc": "Leads with price confidence and easy support to lower purchase risk.",
+      "quote": "Price Beat Guarantee"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "No 1 Fluoride Filter On The Market",
+      "Ultimate Hydration System",
+      "Complete Home Filtration",
+      "Forever Chemicals Removal",
+      "Whole House Filtration",
+      "Hot/Cold Dispenser"
+    ],
+    "words": [
+      "filtration",
+      "fluoride",
+      "coolers",
+      "hydration",
+      "forever chemicals",
+      "whole house",
+      "purifiers",
+      "sparkling"
+    ],
+    "avoid": [
+      "luxury",
+      "couture",
+      "trendy",
+      "hype"
+    ]
+  },
+  "icp": "Australian homeowners who care about the quality of their tap water and want a reliable, well-supported filtration or cooler system without overpaying.",
+  "personas": [
+    {
+      "name": "Health-Conscious Household",
+      "description": "Parents and families who want fluoride and forever chemicals out of their drinking water and respond to clear removal claims and whole-home coverage."
+    },
+    {
+      "name": "Value-Seeking Buyer",
+      "description": "Comparison shoppers who need reassurance on price and are moved by the Price Beat Guarantee and showroom/sale pricing."
+    },
+    {
+      "name": "Convenience Upgrader",
+      "description": "Buyers who want instant hot/cold or sparkling water at home and are drawn to multi-function coolers and dispensers."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Awesome Water® - Soda Tap 3 in 1 SHOW ROOM - SALE",
+      "role": "Hero / best-seller",
+      "price": 2299
+    },
+    {
+      "title": "Awesome Water 3 in 1 Ice Maker + Hot/Cold Dispenser - With Bottle",
+      "role": "Core",
+      "price": 795
+    },
+    {
+      "title": "Awesome Water® - Paragon CP-4 - Filtration System. (New 2024)",
+      "role": "Core",
+      "price": 499
+    },
+    {
+      "title": "AWESOME WATER® - 1 Year Fluoride Filtration Bundle - Special Offer",
+      "role": "Entry point",
+      "price": 199
+    }
+  ],
+  "offers": [
+    "Price Beat Guarantee (stated in navigation)",
+    "24 Hour Help Line & Repair Manual support",
+    "1 Year Fluoride Filtration Bundle - Special Offer ($199)",
+    "Showroom/Sale pricing on select units (e.g. Soda Tap 3 in 1 Show Room Sale $2299)",
+    "Bundle options (e.g. 3 in 1 Ice Maker + Hot/Cold Dispenser with Bottle $795)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Complete home water filtration systems for the whole house.",
+        "source": "homepage navigation"
+      },
+      {
+        "claim": "Filters designed to remove forever chemicals.",
+        "source": "homepage - Forever Chemicals Removal"
+      },
+      {
+        "claim": "Fluoride filtration bundles available.",
+        "source": "product catalog - 1 Year Fluoride Filtration Bundle"
+      },
+      {
+        "claim": "Price Beat Guarantee on pricing.",
+        "source": "homepage navigation"
+      },
+      {
+        "claim": "24 Hour Help Line and repair support available.",
+        "source": "homepage navigation"
+      },
+      {
+        "claim": "3 in 1 units combining ice maker with hot and cold dispensing.",
+        "source": "product page - 3 in 1 Ice Maker + Hot/Cold Dispenser"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the products 'eco-friendly' or 'sustainable' without qualification.",
+        "why": "FTC Green Guides - unqualified sustainability claim needs specific verifiable backing."
+      },
+      {
+        "claim": "'Zero impact' or 'carbon neutral' filtration.",
+        "why": "FTC Green Guides - environmental benefit claim with no verifiable evidence."
+      },
+      {
+        "claim": "Filtered water 'cures', 'treats' or 'relieves' any illness or health condition.",
+        "why": "Prohibited medical/health claim not supported by the site."
+      },
+      {
+        "claim": "'100% removes all contaminants' or absolute purity guarantees.",
+        "why": "Unqualified absolute claim not backed by stated testing on the site."
+      },
+      {
+        "claim": "Drinking this water 'improves posture', 'reduces pain' or similar body claims.",
+        "why": "Banned medical/orthopedic-style claim for this category."
+      },
+      {
+        "claim": "'100% recycled' materials in units without proof.",
+        "why": "FTC Green Guides - recycled-content claim requires specific verifiable backing."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.awesomewater.com/cdn/shop/files/84865c44-c03e-45a1-9eec-2362491698a4-1.png?v=1701592441&width=140",
+  "generated_at": "2026-07-09T11:24:44.017Z"
+}
