@@ -1,0 +1,169 @@
+{
+  "lead_company": "Print Decor",
+  "lead_first_name": "Bernie",
+  "website": "https://www.printdecor.com.au",
+  "brand_domain": "printdecor.com.au",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Melbourne-based mirrors, art prints and custom picture framing - a design-led home decor and wall art destination.",
+    "core_belief": "Great walls are made, not bought - the right mirror, print or custom frame transforms a room, and quality decor should be accessible through smart pricing.",
+    "proof_points": [
+      "Physical Melbourne store with published address and trading hours (03 9576 1566)",
+      "In-house custom picture framing, art restoration and conservation service",
+      "Limited edition prints from named Australian artists (John Olsen, Adam Cullen, Charles Blackman, David Bromley)",
+      "Made to Measure and Custom Made Mirrors, plus picture hanging and installation service"
+    ],
+    "positioning": "Premium, curated and design-forward on product, but value-driven and sale-heavy on price - gallery quality at bargain-friendly deals."
+  },
+  "voice_pillars": [
+    {
+      "name": "Deal-Driven",
+      "desc": "Leads with sales, discounts and clearance urgency to make premium decor feel like a smart buy.",
+      "quote": "HOT WINTER SALE EOFY SALE - Site Wide Discounts - 30% Off Framing"
+    },
+    {
+      "name": "Gallery Curator",
+      "desc": "Speaks with the authority of an art gallery, naming artists, editions and originals.",
+      "quote": "Limited Edition Prints ... Original Artworks ... Gallery at Print Decor"
+    },
+    {
+      "name": "Helpful Guide",
+      "desc": "Writes to educate and reassure buyers through the decision, especially online shoppers.",
+      "quote": "How to Choose the Right Prints ... What You Should Know About Shopping for Prints Online"
+    },
+    {
+      "name": "Made-For-You",
+      "desc": "Emphasises bespoke, custom and made-to-size service over off-the-shelf product.",
+      "quote": "Made to Measure Mirrors ... Custom Made Mirrors ... Mirror Frames Made to Size"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Made to Measure Mirrors",
+      "Custom Picture Framing",
+      "Limited Edition Prints",
+      "Bargains of Your Dreams",
+      "Overstocked and Underpriced",
+      "Get The Block Look"
+    ],
+    "words": [
+      "mirrors",
+      "framing",
+      "clearance",
+      "bargains",
+      "limited edition",
+      "illuminated",
+      "custom",
+      "original"
+    ],
+    "avoid": [
+      "cheap",
+      "disposable",
+      "mass-produced",
+      "generic"
+    ]
+  },
+  "icp": "Design-conscious Australian homeowners, renovators and interior designers who want statement mirrors, art and bespoke framing for their space, and love finding gallery-quality pieces at a genuine deal.",
+  "personas": [
+    {
+      "name": "The Renovator",
+      "description": "Mid-reno homeowner styling bathrooms and living spaces who is moved by made-to-measure and illuminated mirrors that fit exactly."
+    },
+    {
+      "name": "The Art Collector",
+      "description": "Buyer chasing named Australian artists and limited editions who responds to originality, scarcity and gallery credibility."
+    },
+    {
+      "name": "The Trade Pro",
+      "description": "Interior designer, architect or builder sourcing for fitouts who is moved by trade discounts, custom solutions and commercial framing."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Gift Certificate",
+      "role": "Hero / best-seller",
+      "price": 50
+    },
+    {
+      "title": "Slimline Mirror",
+      "role": "Core",
+      "price": 289
+    },
+    {
+      "title": "Ebb",
+      "role": "Core",
+      "price": 340
+    },
+    {
+      "title": "Hepburn Arched Mirror Large Gold",
+      "role": "Premium",
+      "price": 1269
+    }
+  ],
+  "offers": [
+    "Site-wide EOFY sale with 30% off framing",
+    "Half Price and Clearance Stock (Overstocked and Underpriced)",
+    "Gift Certificate / Gift Voucher from $50",
+    "Trade Discount for interior designers, architects, builders and commercial developers",
+    "Request a Quote and Request a Room Mock Up service",
+    "Picture Hanging and installation service in Melbourne"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Custom picture framing made to size in Melbourne",
+        "source": "custom framing pages"
+      },
+      {
+        "claim": "Made to Measure and Custom Made Mirrors",
+        "source": "mirrors navigation and category pages"
+      },
+      {
+        "claim": "Limited edition prints from named Australian artists",
+        "source": "artists and prints pages"
+      },
+      {
+        "claim": "Art restoration and conservation framing service",
+        "source": "custom framing menu"
+      },
+      {
+        "claim": "30% off framing during the EOFY sale",
+        "source": "site header banner"
+      },
+      {
+        "claim": "Picture hanging service available in Melbourne",
+        "source": "services menu"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "'Eco-friendly' or 'sustainable' frames or mirrors without specifics",
+        "why": "FTC Green Guides - unqualified sustainability claim needs verifiable backing"
+      },
+      {
+        "claim": "'Carbon neutral' framing or delivery",
+        "why": "FTC Green Guides - carbon claims require specific, provable evidence"
+      },
+      {
+        "claim": "'100% recycled' or 'recycled timber' framing without proof",
+        "why": "FTC Green Guides - recycled-content claims must state a verified percentage"
+      },
+      {
+        "claim": "Illuminated mirrors 'relieve eye strain' or improve health",
+        "why": "Unsupported medical claim - no evidence provided on site"
+      },
+      {
+        "claim": "'Zero impact' or 'green' art and decor",
+        "why": "FTC Green Guides - vague environmental benefit claim is banned without qualification"
+      },
+      {
+        "claim": "Guaranteed investment value or appreciation of limited edition prints",
+        "why": "Unsubstantiated financial claim not supported by any site data"
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.printdecor.com.au/cdn/shop/files/1-email-logo_1_461x126.png?v=1771843618",
+  "generated_at": "2026-07-09T17:47:38.368Z"
+}
