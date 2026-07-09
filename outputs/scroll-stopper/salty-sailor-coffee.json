@@ -1,0 +1,41 @@
+{
+  "lead_company": "Salty Sailor Coffee",
+  "lead_first_name": "Neil",
+  "website": "https://saltysailorcoffee.com",
+  "brand_domain": "saltysailorcoffee.com",
+  "currency": "USD",
+  "brand_voice_note": "Nautical and warm, pairing vivid roast-to-order flavor storytelling with sincere veteran-owned, give-back purpose.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/salty-sailor-coffee?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://saltysailorcoffee.com/cdn/shop/files/Logo_update_180x.png?v=1613559742",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "SS JOHN W BROWN Liberty Roast",
+      "product_url": "https://saltysailorcoffee.com/products/ss-john-w-brown-liberty-roast",
+      "image_url": "https://cdn.shopify.com/s/files/1/0443/8995/7789/files/LibertyRoastBadge.png?v=1714174674",
+      "price": 17.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "This one honors the ship that carried the crews home.\n\nLiberty Roast is our darkest pour, named for the SS John W Brown, all smoke and dark-chocolate depth for the deep watch when you want coffee with some weight behind it. Small-batch roasted to order so it lands in your hands fresh.\n\n10% of every SS John W Brown bag sails to Project Liberty Ship. Drink Coffee & Do Good, and set sail with Salty Sailor.",
+      "headline": "A Dark Roast With History",
+      "cta": "Shop Now",
+      "why_it_works": "The Liberty Ship name carries real story and a specific 10% donation, so the founder angle turns heritage and mission into a reason to choose this exact roast."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Phantom Pecan Roast",
+      "product_url": "https://saltysailorcoffee.com/products/phantom-pecan-roast",
+      "image_url": "https://cdn.shopify.com/s/files/1/0443/8995/7789/files/ghostshipmockupleft.png?v=1724776949",
+      "price": 18.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Pour yourself the dessert course. ☕\n\nPhantom Pecan leads with warm, toasted pecan, then opens into that sweet-and-savory pecan pie character that lingers like a well-earned watch ending. Nutty, smooth, and a little indulgent.\n\nRoasted to order so it lands in your hands fresh. The brew for slow mornings and the after-supper cup.",
+      "headline": "The After-Supper Cup",
+      "cta": "Get Yours",
+      "why_it_works": "A flavored dessert coffee sells on craving, so leading with the indulgent pecan-pie payoff hits the exact feeling that makes someone add it to cart."
+    }
+  ],
+  "generated_at": "2026-07-09T10:44:23.730Z"
+}
