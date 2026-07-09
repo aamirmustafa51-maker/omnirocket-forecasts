@@ -1,0 +1,168 @@
+{
+  "lead_company": "Tailgate Hats",
+  "lead_first_name": "Shawn",
+  "website": "https://tailgatehats.com",
+  "brand_domain": "tailgatehats.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Outdoor-inspired headwear brand selling premium trucker and lifestyle hats built around national parks, fishing, fraternities, states, and iconic outdoor themes.",
+    "core_belief": "Tailgate Hats is about helping people express who they are and where they feel most at home - one hat at a time, through original artwork and thoughtful design.",
+    "proof_points": [
+      "Built on industry-best suppliers including Richardson, YP Classics, and Flexfit",
+      "One-year quality and fit guarantee plus a 60-day no-hassle return policy",
+      "Hats double-wrapped in tissue and butcher paper, shipped in rigid corrugated boxes",
+      "Ships from a Portland, Oregon warehouse within 24 to 48 hours"
+    ],
+    "positioning": "Well-crafted, original-artwork headwear at attainable prices - quality-driven but accessible, not luxury and not bargain-bin."
+  },
+  "voice_pillars": [
+    {
+      "name": "At Home Outside",
+      "desc": "Speaks to people who live outdoors, tying product to identity and place rather than just features.",
+      "quote": "Designed for people who feel most at home outside"
+    },
+    {
+      "name": "Quality-Confident",
+      "desc": "States clearly it stands behind materials and fit, using guarantees as proof rather than hype.",
+      "quote": "we stand behind our one-year quality guarantee"
+    },
+    {
+      "name": "Warm And Helpful",
+      "desc": "Personal, service-first tone that invites questions and treats buyers like a crew, not a cart.",
+      "quote": "always happy to help you find the right hat for you or your whole crew"
+    },
+    {
+      "name": "Craft-Focused",
+      "desc": "Leans on original artwork, thoughtful design, and detail to signal care in every hat.",
+      "quote": "hats meant to be worn confidently every day"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "feel most at home outside",
+      "worn confidently every day",
+      "quality, comfort, and character",
+      "built for all-day comfort and everyday wear",
+      "for you or your whole crew",
+      "ready to ship or the ability to add a custom touch"
+    ],
+    "words": [
+      "outdoors",
+      "premium",
+      "original artwork",
+      "comfort",
+      "craftsmanship",
+      "trucker",
+      "national parks",
+      "everyday"
+    ],
+    "avoid": [
+      "cheap",
+      "fast-fashion",
+      "luxury/high-end",
+      "hype-heavy superlatives"
+    ]
+  },
+  "icp": "Outdoor-minded men and women who value original design, comfort, and craftsmanship, and buy hats that signal their identity and favorite places at an attainable price.",
+  "personas": [
+    {
+      "name": "Parks And Trails Regular",
+      "description": "Hikers and outdoor lovers who buy national park and fishing designs to represent the places they feel most at home - moved by original artwork and everyday comfort."
+    },
+    {
+      "name": "Greek Life Buyer",
+      "description": "Fraternity members outfitting themselves or the whole chapter, moved by chapter-specific designs, group ordering, and attainable per-hat pricing."
+    },
+    {
+      "name": "Local Pride Wearer",
+      "description": "State and regional buyers repping where they live, drawn to distinctive designs, quality guarantees, and fast shipping."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "KAPPA ALPHA ORDER 7-Panel Flat Frat Hat, Richardson 168 Grey",
+      "role": "Hero / best-seller",
+      "price": 14.95
+    },
+    {
+      "title": "DELTA TAU DELTA 5-Panel Rope Hat, Richardson 112 Black",
+      "role": "Entry point",
+      "price": 14.95
+    },
+    {
+      "title": "ALPHA TAU OMEGA 5-Panel Rope Hat, Richardson 112 Grey",
+      "role": "Entry point",
+      "price": 14.95
+    },
+    {
+      "title": "GRAND CANYON WOOD 6-Panel Low-Profile Trucker, Richardson 115",
+      "role": "Premium",
+      "price": 15.99
+    }
+  ],
+  "offers": [
+    "Take $10.00 off any 2 regular price hats",
+    "Take $20.00 off any 3 regular price hats",
+    "Free shipping on all orders over $24.00 (promo; normal flat rate around $3.00-$3.50)",
+    "60-day no-hassle return policy with free returns and exchanges",
+    "One-year quality and fit guarantee",
+    "Custom / batch ordering available for groups"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "60-day no-hassle return policy with free shipping on returns and exchanges.",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "One-year quality and fit guarantee on our hats.",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "We use suppliers including Richardson, YP Classics, and Flexfit.",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "Orders ship from our Portland, Oregon warehouse within 24 to 48 hours.",
+        "source": "FAQs / shipping policy"
+      },
+      {
+        "claim": "Free shipping on orders over $24 within the lower 48 states (while promo runs).",
+        "source": "site banner / shipping policy"
+      },
+      {
+        "claim": "Hats are double-wrapped in tissue and butcher paper and shipped in rigid corrugated boxes.",
+        "source": "FAQs page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "\"The best guarantee available\" as a factual superlative.",
+        "why": "FTC substantiation - unqualified superlative that cannot be objectively proven; keep guarantee terms factual instead."
+      },
+      {
+        "claim": "\"The best hats\" or \"#1 outdoor headwear brand.\"",
+        "why": "FTC - unqualified superlative and ranking claim with no substantiation."
+      },
+      {
+        "claim": "Invented review counts, star ratings, or endorsements.",
+        "why": "No customer reviews were found; fabricating social proof violates FTC endorsement rules."
+      },
+      {
+        "claim": "Fake urgency such as \"only 3 left\" or countdown timers not tied to real inventory.",
+        "why": "FTC prohibits invented urgency and false scarcity."
+      },
+      {
+        "claim": "\"Guaranteed to last forever\" or lifetime durability promises.",
+        "why": "FTC - guaranteed-results claim beyond the stated one-year quality guarantee."
+      },
+      {
+        "claim": "Implying official partnership with the National Park Service or Smokey Bear beyond licensed use.",
+        "why": "FTC - deceptive affiliation/endorsement claim without documented authorization."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-09T17:53:56.258Z"
+}
