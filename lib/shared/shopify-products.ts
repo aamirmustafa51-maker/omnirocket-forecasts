@@ -85,7 +85,7 @@ function normalizeTags(tags: string[] | string | undefined): string[] {
 // Gift cards, samples and warranty/donation SKUs are never good ad heroes.
 const JUNK_TITLE = /gift\s*card|sample|donation|warranty|protection plan|test product/i;
 
-function normalizeProduct(raw: RawProduct, origin: string): ShopifyProduct | null {
+export function normalizeProduct(raw: RawProduct, origin: string): ShopifyProduct | null {
   if (!raw?.handle || !raw?.title) return null;
   if (JUNK_TITLE.test(raw.title)) return null;
 
