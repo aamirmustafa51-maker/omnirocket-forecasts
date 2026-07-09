@@ -52,10 +52,21 @@ async function fetchOne(productUrl: string): Promise<ShopifyProduct | null> {
   }
 }
 
-// Fetch the operator's chosen products in order. Drops any that fail to fetch
-// or have no image (can't headline an ad without one). Order is preserved so
-// the first link becomes Ad 1.
-export async function fetchProductsByUrls(urls: string[]): Promise<ShopifyProduct[]> {
-  const results = await Promise.all(urls.map(fetchOne));
-  return results.filter((p): p is ShopifyProduct => !!p && !!p.image_url);
+// Fetch the operator's chosen products in order. Returns the ones that fetched
+// with an image (order preserved, so the first link becomes Ad 1) AND the list
+// of links that failed (bad URL, not a live Shopify product page, or no image)
+// so the caller can flag them instead of silently dropping to fewer ads.
+export async function fetchProductsByUrls(
+  urls: string[],
+): Promise<{ products: ShopifyProduct[]; failedUrls: string[] }> {
+  const settled = await Promise.all(
+    urls.map(async (u) => ({ url: u, product: await fetchOne(u) })),
+  );
+  const products: ShopifyProduct[] = [];
+  const failedUrls: string[] = [];
+  for (const s of settled) {
+    if (s.product && s.product.image_url) products.push(s.product);
+    else failedUrls.push(s.url);
+  }
+  return { products, failedUrls };
 }
