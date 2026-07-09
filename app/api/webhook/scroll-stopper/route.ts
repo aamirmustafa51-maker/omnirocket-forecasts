@@ -21,6 +21,7 @@ import { selectHeroProducts } from "@/magnets/scroll-stopper/lib/select";
 import { buildPlaybook } from "@/magnets/brand-playbook/lib/generate";
 import type { PlaybookData } from "@/magnets/brand-playbook/lib/types";
 import { fetchProspectLogoUrl } from "@/lib/shared/logo";
+import { fetchProductsByUrls, originFromProductUrls } from "@/lib/shared/product-by-url";
 import {
   env, slugify, cleanCopy, postSlack, githubGetSha, putJson, extractJson, brandDomainFromWebsite,
 } from "@/lib/shared/publish";
@@ -42,6 +43,9 @@ type WebhookPayload = {
   website_url: string | null;
   category: string;
   campaign_name?: string;
+  // Human-in-the-loop: operator-picked product links. When present, ads are
+  // built from exactly these products instead of auto-selecting from the catalog.
+  product_urls?: string[];
 };
 
 // Claude returns copy only; deterministic fields (image/price/url) are merged
@@ -77,6 +81,14 @@ type ScrollStopperJson = {
   generated_at: string;
 };
 
+// Pull operator-provided product links off a manual (form) submission.
+export function manualProductUrls(raw: unknown): string[] {
+  const r = (raw ?? {}) as Record<string, unknown>;
+  return Array.isArray(r.product_urls)
+    ? (r.product_urls as unknown[]).filter((x): x is string => typeof x === "string" && !!x.trim())
+    : [];
+}
+
 function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   const r = (raw ?? {}) as Record<string, unknown>;
   const leadData = (r.lead_data ?? {}) as Record<string, unknown>;
@@ -87,6 +99,24 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
     for (const k of keys) if (typeof cf[k] === "string" && cf[k]) return cf[k] as string;
     return "";
   };
+
+  // Manual intake (the /scroll-stopper-new form): fields live at the top level,
+  // not nested under Smartlead's lead_data. Website is optional — we derive it
+  // from the product links if omitted.
+  const productUrls = manualProductUrls(raw);
+  if (productUrls.length) {
+    return {
+      lead_email: str(r.lead_email),
+      lead_first_name: str(r.lead_first_name),
+      lead_last_name: str(r.lead_last_name),
+      lead_company: str(r.lead_company),
+      website_url: optStr(r.website_url) ?? null,
+      category: "Scroll_Stopper",
+      campaign_name: optStr(r.campaign_name) ?? "manual-intake",
+      product_urls: productUrls,
+    };
+  }
+
   return {
     lead_email: str(r.lead_email) || str(leadData.email),
     lead_first_name: str(leadData.first_name) || str(r.lead_name),
@@ -185,13 +215,32 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "invalid json" }, { status: 400 });
   }
 
+  // Manual (form) submissions carry product_urls and must present the shared
+  // secret. Smartlead-triggered runs (no product_urls) skip this check.
+  const submittedUrls = manualProductUrls(rawBody);
+  if (submittedUrls.length) {
+    const secret =
+      typeof (rawBody as Record<string, unknown>)?.secret === "string"
+        ? ((rawBody as Record<string, unknown>).secret as string)
+        : "";
+    if (!process.env.INTAKE_SECRET || secret !== process.env.INTAKE_SECRET) {
+      return NextResponse.json({ error: "unauthorized" }, { status: 401 });
+    }
+  }
+
   const payload = normalizeSmartleadPayload(rawBody);
 
   if (!payload.lead_company) {
     console.log("[scroll-stopper] missing lead_company. Raw:", JSON.stringify(rawBody));
     return NextResponse.json({ error: "missing lead_company" }, { status: 400 });
   }
-  if (!payload.website_url) {
+
+  // Resolve the storefront: the lead's stated site, or (manual) the domain the
+  // product links point at.
+  const websiteUrl =
+    payload.website_url ||
+    (payload.product_urls?.length ? originFromProductUrls(payload.product_urls) : null);
+  if (!websiteUrl) {
     console.log("[scroll-stopper] missing website. Raw:", JSON.stringify(rawBody));
     return NextResponse.json({ error: "missing website" }, { status: 400 });
   }
@@ -212,26 +261,40 @@ export async function POST(req: NextRequest) {
   await postSlack(`🟡 Scroll-Stopper + Playbook started: *${payload.lead_company}* — scraping site…`, SLACK_KEY);
 
   try {
-    const catalog = await fetchShopifyCatalog(payload.website_url);
-    const heroes = selectHeroProducts(catalog.products, catalog.homepage_html, 3);
+    const catalog = await fetchShopifyCatalog(websiteUrl);
 
-    if (heroes.length === 0) {
-      // No scrapable Shopify catalog (endpoint blocked or non-Shopify store).
-      // Without products there are no ads, so we skip both artifacts.
-      await postSlack(
-        `🟠 *Scroll-Stopper skipped* — ${tag}\nNo scrapable product catalog at ${payload.website_url} (not Shopify or /products.json disabled). Needs manual handling.`,
-        SLACK_KEY,
-      );
-      return NextResponse.json({ ok: false, status: "no_catalog" }, { status: 200 });
+    // Manual path: build heroes from exactly the operator's product links.
+    // Auto path: rank heroes from the scraped catalog.
+    let heroes: ShopifyProduct[];
+    if (payload.product_urls?.length) {
+      heroes = await fetchProductsByUrls(payload.product_urls);
+      if (heroes.length === 0) {
+        await postSlack(
+          `🟠 *Scroll-Stopper skipped* — ${tag}\nNone of the provided product links could be fetched. Check they point to live Shopify product pages.`,
+          SLACK_KEY,
+        );
+        return NextResponse.json({ ok: false, status: "no_products" }, { status: 200 });
+      }
+    } else {
+      heroes = selectHeroProducts(catalog.products, catalog.homepage_html, 3);
+      if (heroes.length === 0) {
+        // No scrapable Shopify catalog (endpoint blocked or non-Shopify store).
+        // Without products there are no ads, so we skip both artifacts.
+        await postSlack(
+          `🟠 *Scroll-Stopper skipped* — ${tag}\nNo scrapable product catalog at ${websiteUrl} (not Shopify or /products.json disabled). Needs manual handling.`,
+          SLACK_KEY,
+        );
+        return NextResponse.json({ ok: false, status: "no_catalog" }, { status: 200 });
+      }
     }
 
     const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
-    const brandDomain = brandDomainFromWebsite(payload.website_url);
+    const brandDomain = brandDomainFromWebsite(websiteUrl);
 
     // Deep crawl (shared by both artifacts), then Playbook first so the ads can
     // be written from it. A crawl/playbook failure must not kill the ads, so
     // it's caught and degrades to a report without the playbook link.
-    const crawl = await crawlSite(payload.website_url, heroes.map((h) => h.url));
+    const crawl = await crawlSite(websiteUrl, heroes.map((h) => h.url));
 
     let playbook: PlaybookData | null = null;
     try {
@@ -240,7 +303,7 @@ export async function POST(req: NextRequest) {
         {
           lead_company: payload.lead_company,
           lead_first_name: payload.lead_first_name,
-          website: payload.website_url,
+          website: websiteUrl,
           brand_domain: brandDomain,
         },
         catalog,
@@ -255,7 +318,7 @@ export async function POST(req: NextRequest) {
     const { brand_voice_note, concepts: copy } = await writeAdCopy(
       anthropic,
       payload.lead_company,
-      payload.website_url,
+      websiteUrl,
       heroes,
       playbook,
     );
@@ -283,12 +346,12 @@ export async function POST(req: NextRequest) {
     // wrong or placeholder logos for SMB ecom, so the scraped mark is the
     // primary source in the template (it falls back to logo.dev then a
     // wordmark). Best-effort — null just means the template uses its fallbacks.
-    const prospectLogoUrl = await fetchProspectLogoUrl(payload.website_url);
+    const prospectLogoUrl = await fetchProspectLogoUrl(websiteUrl);
 
     const out: ScrollStopperJson = {
       lead_company: payload.lead_company,
       lead_first_name: payload.lead_first_name,
-      website: payload.website_url,
+      website: websiteUrl,
       brand_domain: brandDomain,
       currency: catalog.currency,
       brand_voice_note,
@@ -312,7 +375,7 @@ export async function POST(req: NextRequest) {
         last_name: payload.lead_last_name,
         email: payload.lead_email,
         company: payload.lead_company,
-        website: payload.website_url,
+        website: websiteUrl,
         playbook_url: playbook ? playbookShare : "",
         report_url: reportShare,
         slug,
