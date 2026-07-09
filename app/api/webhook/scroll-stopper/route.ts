@@ -355,6 +355,21 @@ export async function POST(req: NextRequest) {
       playbook,
     );
 
+    // Pick a DISTINCT hero image per product. Some stores reuse one bundle
+    // graphic as the #1 photo on several products (e.g. Awesome Water's
+    // "Ultimate Hydration Bundle" image sits on multiple SKUs), which would
+    // render two different ads with the identical picture. When a hero's
+    // featured image is already claimed by an earlier hero, fall back to the
+    // next unused image from that same product's own gallery. Only reuses a
+    // duplicate if the product has no other image to offer.
+    const usedImages = new Set<string>();
+    const heroImages = heroes.map((p) => {
+      const distinct = p.image_urls.find((src) => !usedImages.has(src));
+      const chosen = distinct ?? p.image_url ?? p.image_urls[0] ?? "";
+      if (chosen) usedImages.add(chosen);
+      return chosen;
+    });
+
     // Merge Claude's copy back onto deterministic product data by index.
     const concepts: Concept[] = heroes.map((p, i) => {
       const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
@@ -362,7 +377,7 @@ export async function POST(req: NextRequest) {
         product_index: i + 1,
         product_title: p.title,
         product_url: p.url,
-        image_url: p.image_url as string,
+        image_url: heroImages[i],
         price: p.price,
         compare_at_price: p.compare_at_price,
         on_sale: p.on_sale,
