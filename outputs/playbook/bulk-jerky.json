@@ -1,146 +1,164 @@
 {
   "lead_company": "Bulk Jerky",
   "lead_first_name": "Pete",
-  "website": "https://bulkjerky.com",
-  "brand_domain": "bulkjerky.com",
+  "website": "https://www.bulkbeefjerky.com",
+  "brand_domain": "bulkbeefjerky.com",
   "currency": "USD",
   "review_count": 0,
   "brand_dna": {
-    "category": "Bulk beef jerky and high-protein snacks sold direct-to-consumer, including multi-flavor 'Protein Station' variety packs.",
-    "core_belief": "Snacking should hit hard on protein and flavor - 'Strong American Snacks' built to fuel real appetites, not dainty portions.",
+    "category": "Performance-positioned beef jerky and meat snacks (jerky, slabs, sticks, toasted corn) sold direct-to-consumer in bulk sizes.",
+    "core_belief": "Built for high-energy moments and people with grit - 'We didn't just want to make it. We wanted to dominate.'",
     "proof_points": [
-      "American-made snacks ('Strong American Snacks' tagline)",
-      "Sold in bulk quantities with tiered Protein Station packs (Mega Double Wide vs Mini Single Wide)",
-      "Free shipping offered above a cart threshold",
-      "Wholesale program available for larger buyers"
+      "100% American made and sourced supply chain, from start to finish",
+      "USDA-owned factory; sources raw material and co-packs own recipes across America",
+      "All-natural brisket jerky - no added MSG, nitrites, nitrates, or artificial ingredients",
+      "All snack products are gluten-free"
     ],
-    "positioning": "Bold, value-forward bulk snacking for heavy protein eaters, not a boutique or single-bag artisanal jerky brand."
+    "positioning": "Premium, high-energy performance snack for athletes and grinders - not gas-station jerky, sold in bulk with build-your-own-box savings."
   },
   "voice_pillars": [
     {
-      "name": "Bold and American",
-      "desc": "Writes with a proud, punchy, all-American tone that leans into strength and appetite.",
-      "quote": "Bulk Beef Jerky - Strong American Snacks"
+      "name": "Gritty & Defiant",
+      "desc": "Underdog, no-excuses tone that frames the brand as pushing through where others quit.",
+      "quote": "We didn't follow the playbook; we burned it and wrote our own."
     },
     {
-      "name": "Protein-Forward",
-      "desc": "Centers everything on protein volume and fuel, naming products as 'Protein Stations'.",
-      "quote": "Mega Protein Station (Double Wide)"
+      "name": "Performance-Driven",
+      "desc": "Frames jerky as fuel for training, competing, and high-intensity moments.",
+      "quote": "Premium beef jerky crafted for athletes, grinders, and fans."
     },
     {
-      "name": "Go Big",
-      "desc": "Frames the product around size and quantity, using scale language like Mega, Double Wide, and Bulk.",
-      "quote": "Mini Protein Station (Single Wide)"
+      "name": "Playfully Bold",
+      "desc": "Loud, cheeky copy that talks trash and cracks jokes about the product.",
+      "quote": "Why are you wasting time reading the comments? Order it already!"
+    },
+    {
+      "name": "Craft-Proud",
+      "desc": "Talks up texture and cut like a steakhouse, emphasizing tenderness and quality.",
+      "quote": "as soft as a pillow, enhanced with a subtle lemon pepper note."
     }
   ],
   "customer_language": {
     "phrases": [
-      "Strong American Snacks",
-      "Mega Protein Station",
-      "Double Wide",
-      "Single Wide",
-      "Bulk Beef Jerky",
-      "Free shipping"
+      "like a real steak that was chopped up and dried",
+      "Soft to chew, long lasting taste",
+      "not artificial and rubber tasting like gas station jerky",
+      "I love the tenderness and sweetness",
+      "the filet mignon of jerky",
+      "practically dissolves on your palate"
     ],
     "words": [
-      "jerky",
-      "protein",
-      "bulk",
-      "mega",
-      "mini",
-      "American",
-      "strong",
-      "station"
+      "tender",
+      "brisket",
+      "flavorful",
+      "soft",
+      "meaty",
+      "grinders",
+      "performance",
+      "bulk"
     ],
     "avoid": [
       "dainty",
-      "delicate",
-      "gourmet",
-      "artisanal fussiness"
+      "delicate/luxury-only framing",
+      "cheap",
+      "medicinal/health-cure tone"
     ]
   },
-  "icp": "Protein-hungry snackers - lifters, hunters, truckers, and busy men - who want a lot of high-protein beef jerky at a fair price and buy in bulk to keep it stocked.",
+  "icp": "Active, competitive men and gym-goers who want a high-protein, real-beef snack they can buy in bulk and trust more than gas-station jerky.",
   "personas": [
     {
-      "name": "The Gym Fuel Guy",
-      "description": "Fitness-focused buyer who tracks protein and stocks up in bulk - moved by protein-per-serving and value angles."
+      "name": "The Grinder Athlete",
+      "description": "Trains hard and wants performance fuel - move them with 'built for athletes, grinders, and fans' and protein-source angles."
     },
     {
       "name": "The Bulk Stocker",
-      "description": "Household or pantry shopper who buys the Mega Double Wide to always have snacks on hand - moved by quantity and free shipping."
+      "description": "Buys big to save and keep snacks on hand - move them with build-your-own-box, up to 20% off, and free shipping over $100."
     },
     {
-      "name": "The Wholesale Buyer",
-      "description": "Retailer or reseller sourcing jerky at volume - moved by the wholesale program and case pricing."
+      "name": "The Flavor Snob",
+      "description": "Hates rubbery gas-station jerky and wants real steak texture - move them with tenderness, brisket cut, and 'filet mignon of jerky.'"
     }
   ],
   "products_ladder": [
     {
-      "title": "Mega Protein Station (Double Wide)",
+      "title": "Original Meat Sticks",
       "role": "Hero / best-seller",
-      "price": 100
+      "price": 34
     },
     {
-      "title": "Mini Protein Station (Single Wide)",
+      "title": "Texas Style Sugar Free Slabs Garlic Beef Jerky",
+      "role": "Premium",
+      "price": 40
+    },
+    {
+      "title": "Texas Style Sugar Free Slabs Original Beef Jerky",
+      "role": "Premium",
+      "price": 40
+    },
+    {
+      "title": "BULK Sweet & Spicy Brisket Beef Jerky",
       "role": "Entry point",
-      "price": 60
+      "price": 7.99
     }
   ],
   "offers": [
-    "Free shipping once cart reaches the qualifying threshold",
-    "Wholesale ordering program",
-    "Two pack tiers: Mega Protein Station Double Wide ($100) and Mini Protein Station Single Wide ($60)"
+    "Free shipping on orders $100+",
+    "Subscribe & Save 10%",
+    "Build Your Own Box - mix and match for up to 20% off (tiered 5/10/15/20%)",
+    "Bulk sizing from 2.25 oz up to 10 lb bags and 12-packs",
+    "Gainz Box Starter Kit - 4 all-natural samplers, $39.99",
+    "Wholesale program"
   ],
   "claims": {
     "allowed": [
       {
-        "claim": "Strong American Snacks",
-        "source": "homepage tagline"
+        "claim": "100% American made and sourced supply chain, start to finish",
+        "source": "about page / homepage 'Why Bulk Works'"
       },
       {
-        "claim": "Beef jerky sold in bulk quantities",
-        "source": "homepage / brand name"
+        "claim": "All-natural brisket jerky with no added MSG, nitrites, nitrates, or artificial ingredients",
+        "source": "Original Pepper product page features"
       },
       {
-        "claim": "Protein Station variety packs in Mega and Mini sizes",
-        "source": "product pages"
+        "claim": "All snack products are gluten-free",
+        "source": "homepage / about"
       },
       {
-        "claim": "Free shipping available on qualifying orders",
-        "source": "site-wide cart banner"
+        "claim": "Sugar free (zero sugar) Texas-Style Slabs",
+        "source": "homepage 'sugar free' section + product name"
       },
       {
-        "claim": "Wholesale ordering available",
-        "source": "site navigation (Wholesale)"
+        "claim": "Made from prime brisket cuts with higher marbling for a tender texture",
+        "source": "Original Pepper / Teriyaki product pages"
+      },
+      {
+        "claim": "BBQ Toasted Corn contains 1g sugar",
+        "source": "BBQ Toasted Corn features"
       }
     ],
     "banned": [
       {
-        "claim": "The best beef jerky in America / #1 jerky",
-        "why": "FTC - unqualified superlative that cannot be substantiated."
+        "claim": "Eating our jerky boosts your immunity",
+        "why": "Banned immunity claim - not permitted for a food product without substantiation."
       },
       {
-        "claim": "Guaranteed to build muscle or hit your protein goals",
-        "why": "FTC - unprovable guaranteed-results health claim."
+        "claim": "High-protein snack that burns fat",
+        "why": "Banned fat-burning claim; also unsubstantiated weight-loss health claim."
       },
       {
-        "claim": "Rated 5 stars by thousands of customers",
-        "why": "FTC - invented review counts; no reviews exist in the input."
+        "claim": "Our jerky helps treat or prevent any disease or condition",
+        "why": "Banned disease-treatment claim for a food product."
       },
       {
-        "claim": "Only X packs left - order in the next 10 minutes",
-        "why": "FTC - fake urgency not backed by real inventory data."
+        "claim": "A clean, detoxifying protein source",
+        "why": "Unqualified 'detox' and vague 'clean' are risky as headline claims in this category."
       },
       {
-        "claim": "100% all-natural / no preservatives",
-        "why": "FTC - objective ingredient claim not stated or substantiated on the site."
-      },
-      {
-        "claim": "Endorsed by pro athletes or trainers",
-        "why": "FTC - invented endorsement with no evidence in the input."
+        "claim": "Low sugar / high protein (as a general headline)",
+        "why": "Nutrient-content claims must match the actual label per SKU; only state per-product figures like the sugar-free slabs or 1g sugar corn."
       }
     ]
   },
   "standalone": false,
-  "generated_at": "2026-07-08T17:44:34.210Z"
+  "generated_at": "2026-07-09T10:01:02.577Z"
 }
