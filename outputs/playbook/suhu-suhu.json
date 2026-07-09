@@ -1,0 +1,163 @@
+{
+  "lead_company": "Suhu Suhu",
+  "lead_first_name": "Lulu",
+  "website": "https://suhusuhu.com",
+  "brand_domain": "suhusuhu.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "A Los Angeles general store curating cozy, functional homeware, kitchen, and gift objects rooted in Taiwanese design.",
+    "core_belief": "惜物 - to cherish what you own. Care for and cherish material things out of respect for the craft, the maker, and the resources behind every object. Buy less, choose well, use it for a long time.",
+    "proof_points": [
+      "Rooted in Taiwanese design; many pieces Made in Taiwan (e.g. Taiwanese Beer Cup)",
+      "Made by hand by makers who care about craft and material",
+      "Handwoven in the Philippines using traditional weaving techniques (Shopping Bag)",
+      "Every order ships with tracking, 5-7 days domestic"
+    ],
+    "positioning": "Slow-living, curated and intentional - the opposite of mindless consumption, priced accessibly rather than luxury."
+  },
+  "voice_pillars": [
+    {
+      "name": "Calm and Cozy",
+      "desc": "Warm, unguarded language that centers ease and comfort in everyday living.",
+      "quote": "that easy, unguarded feeling of being fully at ease"
+    },
+    {
+      "name": "Craft-Reverent",
+      "desc": "Speaks with respect for makers, materials, and the intention behind each object.",
+      "quote": "made by makers who care about craft and material"
+    },
+    {
+      "name": "Intentional Minimalism",
+      "desc": "Frames buying as a deliberate choice against waste and excess.",
+      "quote": "BUY LESS. CHOOSE WELL. USE IT FOR A LONG TIME."
+    },
+    {
+      "name": "Playful Culture",
+      "desc": "Leans into Taiwanese ritual and celebration with lively, communal warmth.",
+      "quote": "Small size encourages casual sipping and frequent toasts"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "cozy, functional objects for everyday living",
+      "objects that feel good to hold, easy to live with, and worth keeping",
+      "the joy of gathering rather than the pressure of heavy drinking",
+      "shared laughter and spontaneous \"Gan Bei!\" cheers",
+      "expands to hold more than you'd expect",
+      "using the same cup every morning until it feels like yours"
+    ],
+    "words": [
+      "cozy",
+      "cherish",
+      "craft",
+      "handmade",
+      "everyday",
+      "gathering",
+      "intentional",
+      "suhu"
+    ],
+    "avoid": [
+      "disposable",
+      "trendy",
+      "hype",
+      "mass-produced"
+    ]
+  },
+  "icp": "Design-conscious home lovers who value slow living, craft, and cultural story, and buy objects meant to be kept and used for years rather than replaced.",
+  "personas": [
+    {
+      "name": "The Slow-Living Curator",
+      "description": "A design-minded homemaker who wants fewer, better objects that age beautifully; moved by craft, material, and the 惜物 philosophy."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "A shopper hunting a meaningful, well-made present under $50 or $100; moved by story, handmade origin, and gift-ready charm."
+    },
+    {
+      "name": "The Taiwan-Rooted Nostalgic",
+      "description": "Someone drawn to Taiwanese food culture and design; moved by authentic rituals like the 143ml beer cup and 'Gan Bei' toasts."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Stemless White Wine Glass 12oz  | TG x Naoto Fukasawa",
+      "role": "Hero / best-seller",
+      "price": 26
+    },
+    {
+      "title": "SUHU SUHU Meditation Shirt",
+      "role": "Premium",
+      "price": 45
+    },
+    {
+      "title": "Esaila Slim Bookend",
+      "role": "Premium",
+      "price": 45
+    },
+    {
+      "title": "Handwoven Shopping Bag",
+      "role": "Core",
+      "price": 35
+    }
+  ],
+  "offers": [
+    "Free standard shipping on orders $150+",
+    "Every order ships with tracking, 5-7 days domestic",
+    "Gift collections: Gift under $50 and Gift under $100, plus Bundles",
+    "Returns for Store Credit only (unless defective), within 12 days of delivery, item unused with packaging intact"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made in Taiwan (Taiwanese Beer Cup)",
+        "source": "Taiwanese Beer Cup product page"
+      },
+      {
+        "claim": "Handwoven in the Philippines using traditional weaving techniques",
+        "source": "Handwoven Shopping Bag product page"
+      },
+      {
+        "claim": "143ml / 4.8oz beer cup, a staple of Taiwanese food culture",
+        "source": "Taiwanese Beer Cup product page"
+      },
+      {
+        "claim": "Free shipping on orders $150+",
+        "source": "site header and shipping policy"
+      },
+      {
+        "claim": "Every order ships with tracking, 5-7 days domestic",
+        "source": "site header and product pages"
+      },
+      {
+        "claim": "Made by hand by makers who care about craft and material",
+        "source": "homepage and about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any 'detox', 'boosts immunity', or wellness cure claim tied to the Meditation Shirt or tea ware",
+        "why": "Unqualified health/immunity claims are banned for this category; product is apparel/homeware, not a health product."
+      },
+      {
+        "claim": "Nutrient-content claims like 'low sugar' or 'high protein' on any consumable sold via tea tastings or food items",
+        "why": "Nutrient-content claims must match an actual label; none is provided here."
+      },
+      {
+        "claim": "'Natural' or 'clean' as a headline claim for products or materials",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims per category compliance."
+      },
+      {
+        "claim": "Disease-treatment or 'stress-relieving' therapeutic claims for the Meditation Shirt",
+        "why": "Disease-treatment claims are banned; the shirt is a design piece inspired by a personal story, not a medical device."
+      },
+      {
+        "claim": "'Eco-friendly' or 'sustainable' as an unqualified blanket claim",
+        "why": "FTC Green Guides - unqualified sustainability claims require substantiation not present on the site."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://suhusuhu.com/cdn/shop/files/Frame_326_39e99f24-fb6e-4e87-b7aa-7ef31568c12c.png?height=40&v=1781651521",
+  "generated_at": "2026-07-09T22:04:43.113Z"
+}
