@@ -1,41 +1,55 @@
 {
   "lead_company": "Bulk Jerky",
   "lead_first_name": "Pete",
-  "website": "https://bulkjerky.com",
-  "brand_domain": "bulkjerky.com",
+  "website": "https://www.bulkbeefjerky.com",
+  "brand_domain": "bulkbeefjerky.com",
   "currency": "USD",
-  "brand_voice_note": "Bold, proud, and all-American with a big-appetite swagger that turns protein and quantity into the whole personality.",
+  "brand_voice_note": "Gritty, cheeky, and craft-proud - talks trash while flexing steakhouse-level tenderness and all-natural quality.",
   "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/bulk-jerky?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.bulkbeefjerky.com/cdn/shop/files/favicon.png?crop=center&height=32&v=1725438323&width=32",
   "concepts": [
     {
       "product_index": 1,
-      "product_title": "Mega Protein Station (Double Wide)",
-      "product_url": "https://bulkjerky.com/products/mega-protein-station-double-wide",
-      "image_url": "https://cdn.shopify.com/s/files/1/1110/8120/files/IMG_2231.jpg?v=1769021763",
-      "price": 100,
+      "product_title": "BULK Sweet & Spicy Brisket Beef Jerky",
+      "product_url": "https://www.bulkbeefjerky.com/products/bulk-all-natural-sweet-spicy-brisket-beef-jerky",
+      "image_url": "https://cdn.shopify.com/s/files/1/0429/9385/files/bulk-sweet-and-spicy-brisket-beef-jerky-bulk-jerky-7_6db9f792-253f-4492-b422-21d261d0265e.jpg?v=1771331358",
+      "price": 7.99,
       "compare_at_price": null,
       "on_sale": false,
-      "angle_label": "Benefit-Forward",
-      "primary_text": "Fuel that goes big or goes home.\n\nThe Mega Protein Station (Double Wide) stacks Strong American Snacks by the pile, so your protein hit is never rationed.\n\nBulk beef jerky, loaded up and ready to power the whole crew. Free shipping available on qualifying orders.",
-      "headline": "Double Wide. Double The Fuel.",
+      "angle_label": "Social Proof",
+      "primary_text": "This is the flavor people keep coming back for. 🔥\n\nSweet & Spicy is our award-winning top seller for a reason: a captivating blend of soothing sweetness and heat that stops just shy of \"Hot.\" No MSG, no nitrates, no artificial junk.\n\nSoft to chew, long lasting taste, and nothing like that rubbery gas station stuff. Grab the fan favorite.",
+      "headline": "The Crowd's Favorite Bite",
       "cta": "Shop Now",
-      "why_it_works": "The Double Wide's entire draw is scale and protein volume, so leading with the big-fuel payoff matches exactly what a hungry buyer wants from the largest option."
+      "why_it_works": "It is their award-winning top seller, so leaning on popularity and its proven fan status is the most honest and persuasive lever for this product."
     },
     {
       "product_index": 2,
-      "product_title": "Mini Protein Station (Single Wide)",
-      "product_url": "https://bulkjerky.com/products/mini-protein-station-single-wide",
-      "image_url": "https://cdn.shopify.com/s/files/1/1110/8120/files/IMG_2689.jpg?v=1769021550",
-      "price": 60,
+      "product_title": "BULK Teriyaki Brisket Beef Jerky",
+      "product_url": "https://www.bulkbeefjerky.com/products/bulk-teriyaki-brisket-beef-jerky",
+      "image_url": "https://cdn.shopify.com/s/files/1/0429/9385/files/bulk-teriyaki-brisket-beef-jerky-bulk-jerky-7_38bed319-5929-41f1-8db0-961e346293be.jpg?v=1755185742",
+      "price": 7.99,
       "compare_at_price": null,
       "on_sale": false,
-      "angle_label": "Objection Crusher",
-      "primary_text": "Think you need the big one to eat big? Nope.\n\nThe Mini Protein Station (Single Wide) brings the same Strong American Snacks in a lean, grab-and-go size at $60.\n\nBulk beef jerky protein without committing to the full haul. Free shipping available on qualifying orders.",
-      "headline": "Single Wide. Full-On Protein.",
+      "angle_label": "Benefit-Forward",
+      "primary_text": "The filet mignon of jerky. We said what we said.\n\nCut from prime brisket with higher marbling, our Teriyaki practically dissolves on your palate. Tender, all-natural, and unapologetically premium.\n\nLike a real steak that got chopped up and dried. Once you taste it, there is no going back.",
+      "headline": "Tender Like A Real Steak",
       "cta": "Get Yours",
-      "why_it_works": "The main hesitation on a smaller pack is 'do I lose out by not going big', so this angle proves the Single Wide still delivers real protein at a lower entry price."
+      "why_it_works": "Teriyaki's marbled brisket is all about the tender, melt-in-your-mouth experience, so leading with that single desirable feeling hooks steak lovers instantly."
+    },
+    {
+      "product_index": 3,
+      "product_title": "BBQ Toasted Corn",
+      "product_url": "https://www.bulkbeefjerky.com/products/bbq-toasted-corn",
+      "image_url": "https://cdn.shopify.com/s/files/1/0429/9385/files/Screenshot2024-07-10at17.40.45.png?v=1725437489",
+      "price": 4.99,
+      "compare_at_price": 4.99,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Think snacking clean means eating cardboard? Not on our watch.\n\nBBQ Toasted Corn is smoky, tangy, and light on the crunch, with just a hint of sweetness and only 1g of sugar. Gluten-free with real barbecue flavor in every bite.\n\nAll the taste of classic BBQ, none of the artificial nonsense. And it is just 4.99.",
+      "headline": "Smoky BBQ, Just 1g Sugar",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation on a light, better-for-you snack is that it will taste bland, so killing that fear while flexing the 1g sugar and gluten-free claims wins the buyer over."
     }
   ],
-  "generated_at": "2026-07-08T17:44:44.526Z",
-  "prospect_logo_url": "https://bulkjerky.com/cdn/shop/files/favicon.png?crop=center&height=32&v=1676575684&width=32"
+  "generated_at": "2026-07-09T10:01:18.385Z"
 }
