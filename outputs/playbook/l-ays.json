@@ -1,0 +1,164 @@
+{
+  "lead_company": "Léays",
+  "lead_first_name": "Todd",
+  "website": "https://www.leays.com",
+  "brand_domain": "leays.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Lingerie, sleepwear and beauty with collagen and hydration-infused bodywear (BODYFUSION) at its center.",
+    "core_belief": "Léays believes what we wear next to our skin can spark confidence and release the power within - comfort made beautiful, crafted by women, for women.",
+    "proof_points": [
+      "All underwear made with a bamboo blend liner (high percentage bamboo)",
+      "BODYFUSION range infused with collagen and body hydration",
+      "Refund or exchange offered for change of mind on items in original condition",
+      "Designed by women, for women"
+    ],
+    "positioning": "Elevated everyday intimates - premium, sensory and self-care led rather than basic or purely functional."
+  },
+  "voice_pillars": [
+    {
+      "name": "Sensory Self-Care",
+      "desc": "Writes about how fabric feels against skin and the private confidence it unlocks.",
+      "quote": "designed to make women feel incredible in their own skin"
+    },
+    {
+      "name": "Elevated Comfort",
+      "desc": "Frames comfort as something beautiful and refined, not plain or utilitarian.",
+      "quote": "this is comfort made beautiful"
+    },
+    {
+      "name": "By Women, For Women",
+      "desc": "Speaks as an intimate, knowing insider voice shared between women.",
+      "quote": "Crafted by women, for women."
+    },
+    {
+      "name": "Quietly Confident",
+      "desc": "Leans into the private, empowering feeling of what is worn underneath.",
+      "quote": "our intimate knowledge gives us an invisible smile"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "feel incredible in their own skin",
+      "comfort made beautiful",
+      "cloud-comfortable sleepwear",
+      "lace lingerie that fits like it should",
+      "spark confidence",
+      "release the power within"
+    ],
+    "words": [
+      "collagen",
+      "hydration-infused",
+      "seamfree",
+      "bamboo blend",
+      "satin",
+      "smooth",
+      "effortless",
+      "elevated"
+    ],
+    "avoid": [
+      "clinical",
+      "medical",
+      "cheap",
+      "crude"
+    ]
+  },
+  "icp": "Women who want everyday intimates and sleepwear that feel luxurious against the skin and quietly boost their confidence, and who are drawn to the added self-care of collagen and hydration-infused wear.",
+  "personas": [
+    {
+      "name": "The Everyday Indulger",
+      "description": "Buys elevated basics and BODYFUSION pieces for daily wear; moved by the promise of comfort that feels like self-care she wears all day."
+    },
+    {
+      "name": "The Fit-Frustrated Shopper",
+      "description": "Wants lingerie that actually fits and stays put; moved by size education, seamfree smoothness and lace that fits like it should."
+    },
+    {
+      "name": "The Gifting Romantic",
+      "description": "Shopping satin sleepwear or lingerie as a treat or gift; moved by gift wrapping, gift messages and the daring, delicate feel."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Long Satin Robe",
+      "role": "Hero / best-seller",
+      "price": 50
+    },
+    {
+      "title": "Long Satin Robe",
+      "role": "Premium",
+      "price": 50
+    },
+    {
+      "title": "Collagen Seamfree Tank",
+      "role": "Premium",
+      "price": 50
+    },
+    {
+      "title": "Collagen Seamfree Shortie In Black",
+      "role": "Entry point",
+      "price": 29
+    }
+  ],
+  "offers": [
+    "Free Express Delivery on orders $250+",
+    "Buy 2, Get 1 Free on selected briefs and panties (3 for 2 underwear offer, core styles only)",
+    "Gift box add-on ($12.99) with free gift message",
+    "Refund or exchange for change of mind or incorrect fit, items in original unworn condition with proof of purchase",
+    "Sale pricing across BODYFUSION, Collagen Seamfree and sleepwear ranges"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Collagen and hydration-infused bodywear (BODYFUSION)",
+        "source": "homepage / BODYFUSION navigation"
+      },
+      {
+        "claim": "Made with a bamboo blend liner",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "Seamfree and smooth construction",
+        "source": "product catalog (Collagen Seamfree range)"
+      },
+      {
+        "claim": "Crafted by women, for women",
+        "source": "about page"
+      },
+      {
+        "claim": "Comfort made beautiful with elevated design",
+        "source": "about page"
+      },
+      {
+        "claim": "Refund or exchange for change of mind or incorrect fit",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Collagen wear treats, prevents or reverses wrinkles or aging",
+        "why": "Disease/condition treatment claim not supported and outside structure/function limits"
+      },
+      {
+        "claim": "Reduces or cures cellulite",
+        "why": "Unsupported disease/condition claim with no cited study"
+      },
+      {
+        "claim": "Clinically proven to firm or hydrate skin",
+        "why": "'Clinically proven' banned without a cited study on the site"
+      },
+      {
+        "claim": "Visible results in a set number of days or wears",
+        "why": "Guaranteed results and specific timelines to a health outcome are banned"
+      },
+      {
+        "claim": "Improves circulation or relieves pain",
+        "why": "Disease/condition claim outside allowed structure/function language"
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.leays.com/cdn/shop/files/leays-logo.svg?v=1751240924&width=80",
+  "generated_at": "2026-07-09T11:09:54.185Z"
+}
