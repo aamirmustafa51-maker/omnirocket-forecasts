@@ -1,0 +1,132 @@
+{
+  "brand": "Tailgate Hats",
+  "brand_slug": "tailgate-hats",
+  "first_name": "Shawn",
+  "website": "https://tailgatehats.com",
+  "generated_date": "July 9, 2026",
+  "read_time_min": 3,
+  "total_ads": 7,
+  "niche": "hats",
+  "tldr": "Six of your seven live ads are running the exact same two blocks of copy word-for-word. Meta treats near-identical ads as one, so most of them are barely being shown and your spend is going to waste.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical hat brand ships a fresh ad every three weeks; the best brands do it every two. You only have two real ad ideas across seven live ads, so Meta bundles the near-copies together and quietly shows fewer of them to save the cost."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 1,
+      "headline": "Official Smokey Bear® Trucker Hat",
+      "body": "Smokey Bear® done right. Crafted for the outdoors. Premium fit. Ships free and fast.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad is 40 days old, past the point where Meta stops giving new ads to fresh viewers.",
+        "Word-for-word the same headline and body as two other live ads, so Meta shows just one and pockets the rest.",
+        "The opening line names the product but never says why anyone should care about it."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 0,
+      "headline": "Built to withstand the wild",
+      "body": "Built for the outdoors, delivered to you quickly. Premium fit. Clean design. Ships fast.",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "At 62 days old this ad has been running twice as long as the ceiling for a brand your size.",
+        "The exact same wording runs on three other live ads, so most people who could buy have already stopped scrolling past it.",
+        "\"Built to withstand the wild\" is a vibe, not a reason to click. There's no price, no product, no proof."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 2,
+      "headline": "Official Smokey Bear® Trucker Hat",
+      "body": "Smokey Bear® done right. Crafted for the outdoors. Premium fit. Ships free and fast.",
+      "cta": "Shop now",
+      "fatigue_score": 84,
+      "days_until_fatigue": 10,
+      "severity": "warn",
+      "drivers": [
+        "One of three ads with the identical headline and body. Meta sees them as one ad and shows only the best guess.",
+        "34 days in with no change in wording or image angle, so return viewers see the same picture twice.",
+        "\"Premium fit\" and \"ships fast\" are the kind of lines every hat brand uses. Nothing here says why yours."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 3,
+      "headline": "Official Smokey Bear® Trucker Hat",
+      "body": "Smokey Bear® done right. Crafted for the outdoors. Premium fit. Ships free and fast.",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "This is the third live copy of the same headline and body, so Meta almost never picks this one to show.",
+        "18 days old and already stuck behind two older twins that got the audience first.",
+        "The image is a plain product shot with no person, no place, and no reason to stop scrolling."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 4,
+      "headline": "Built to withstand the wild",
+      "body": "Built for the outdoors, delivered to you quickly. Premium fit. Clean design. Ships fast.",
+      "cta": "Shop Now",
+      "fatigue_score": 72,
+      "days_until_fatigue": 18,
+      "severity": "warn",
+      "drivers": [
+        "Fresh launch, but it's a fourth copy of a headline that's already been in market for 62 days.",
+        "You're paying to launch an ad Meta already considers a duplicate of one it's been showing since May.",
+        "The swipeable images all lead to the same collection page, so the extra slides don't add a new sell."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Official Smokey Bear® Trucker Hat",
+      "body": "Smokey Bear® done right. Crafted for the outdoors. Premium fit. Ships free and fast.",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "Built to withstand the wild",
+      "body": "Built for the outdoors, delivered to you quickly. Premium fit. Clean design. Ships fast.",
+      "fatigue_score": 70,
+      "days_until_fatigue": 19
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Truck Bed Origin Story",
+    "format": "Single image",
+    "hook": "The last hat you'll buy this year.",
+    "headline": "Smokey Bear. Officially licensed.",
+    "primary_text": "Most trucker hats fall apart after one summer. The mesh sags, the snap breaks, the graphic peels off in the wash.\n\nOurs is built on a Richardson 112, the same blank the ranchers and river guides wear. Officially licensed Smokey Bear patch, stitched not printed. Charcoal front, black mesh back, adjustable snap.\n\nFree shipping, ships in 24 hours. One hat, worn hard, for years.",
+    "cta": "Shop Now",
+    "visual_direction": "The charcoal Smokey Bear trucker sitting on the tailgate of a dusty pickup at golden hour, pine trees blurred in the background, no model.",
+    "fills_gap": "Right now every ad you're running sounds the same and looks the same. This one tells a real story about how the hat is made and where it belongs, so it doesn't get lumped in with your other six ads as a copy.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a scene where the charcoal Smokey Bear trucker hat rests on the open tailgate of a dusty American pickup truck, weathered wood truck bed visible behind, pine forest softly blurred in the deep background, with warm golden-hour side lighting casting long soft shadows across the tailgate and picking up the texture of the hat's mesh and front panel. Editorial outdoor lifestyle aesthetic, rugged and quiet, cinematic depth of field. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact charcoal grey front panel color, black mesh back, and the officially licensed Smokey Bear patch artwork exactly as shown in the reference image, including Smokey's face, hat, shirt, and any text on the patch - strictly NO color shift on the charcoal front, NO recoloring of Smokey's ranger hat or shirt, NO warm brown or blue tint on the grey panel, NO smoothing of the black mesh to a solid fabric. STRUCTURE - preserve the exact construction of a Richardson 112 trucker: structured six-panel crown with the charcoal front two panels and four black mesh back/side panels, flat brim in charcoal matching the front, black plastic snapback closure at the back with the standard snap grid, pre-curved or slightly curved visor as shown, and the embroidered Smokey Bear patch centered on the front panel. PRESERVE the Smokey Bear patch artwork completely - every color, every line of Smokey's face, ranger hat, and shirt, and any text on the patch must appear exactly as in the reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Smokey Bear® Charcoal Trucker, Richardson 112",
+    "reference_url": "https://tailgatehats.com/products/smokey-bear®-charcoal-6-panel-trucker-richardson-112",
+    "image_path": "/creatives/tailgate-hats/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your two oldest ads stop working inside the next week. The rest follow within three weeks.",
+    "headline": "Walk through the Tailgate Hats refresh plan with Kyle",
+    "body": "Shawn, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the images, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://tailgatehats.com/cdn/shop/files/New_TG_Logo_R_deaacbd0-1095-44f2-9388-2257c79f8e80.png?crop=center&height=32&v=1734232598&width=32"
+}
