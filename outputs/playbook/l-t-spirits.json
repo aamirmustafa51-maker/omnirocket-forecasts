@@ -1,0 +1,162 @@
+{
+  "lead_company": "L&T Spirits",
+  "lead_first_name": "Larry",
+  "website": "https://ltspirits.com",
+  "brand_domain": "ltspirits.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium craft spirits - Kentucky bourbon, tequila, mezcal, and Irish whiskey cream sold direct and through retail/wholesale partners.",
+    "core_belief": "Great bourbon deserves great storytelling - every bottle tells a story of authenticity, quality, and innovation.",
+    "proof_points": [
+      "Awarded 'Best Cask-Finished Straight Bourbon Whiskey' of 2025 by the Beverage Tasting Institute",
+      "Over 60 years of combined experience in the spirits industry",
+      "No artificial flavors in the flagship Kentucky 10 bourbon",
+      "Retailer and wholesaler placements with Kroger, Total Wine and More, Specs, Binny's, Johnson Brothers and more"
+    ],
+    "positioning": "Premium, heritage-driven craft spirits with limited-edition collector releases - authenticity and story over mass-market volume."
+  },
+  "voice_pillars": [
+    {
+      "name": "Heritage Storyteller",
+      "desc": "Frames every bottle as a piece of history and tradition worth celebrating, not just a product.",
+      "quote": "great bourbon deserves great storytelling"
+    },
+    {
+      "name": "Craft-Proud",
+      "desc": "Leads with earned quality markers - awards, aging, and no shortcuts.",
+      "quote": "Crafted with precision, aged to perfection."
+    },
+    {
+      "name": "Bold and Unapologetic",
+      "desc": "Uses confident, edgy language for its more daring releases.",
+      "quote": "This is not your grandmother's drink."
+    },
+    {
+      "name": "Occasion-Driven",
+      "desc": "Ties pours to milestones and shared moments that matter.",
+      "quote": "Some bottles mark a moment."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Discover the legacy. Taste the difference.",
+      "we don't just sell bourbon-we craft experiences",
+      "the art of fine spirits",
+      "Championships are remembered. Legends are celebrated.",
+      "This is not your grandmother's drink.",
+      "sharing a pour with family and friends"
+    ],
+    "words": [
+      "authenticity",
+      "legacy",
+      "craft",
+      "premium",
+      "limited-edition",
+      "heritage",
+      "collector's",
+      "small batch"
+    ],
+    "avoid": [
+      "cheap",
+      "artificial",
+      "generic",
+      "budget"
+    ]
+  },
+  "icp": "US bourbon and spirits enthusiasts aged 21+ who value heritage, craftsmanship, and story, and who collect or gift limited-edition premium bottles for milestone moments.",
+  "personas": [
+    {
+      "name": "Bourbon Collector",
+      "description": "Enthusiast who chases one-time-only and small-batch releases; moved by scarcity, awards, and collector's-edition framing."
+    },
+    {
+      "name": "Milestone Gifter",
+      "description": "Buyer marking a moment - a championship, an anniversary, America's 250th; moved by story, packaging, and occasion."
+    },
+    {
+      "name": "Adventurous Palate",
+      "description": "Drinker exploring bold spirits like mezcal and high-proof Irish cream; moved by flavor detail and edgy, unexpected positioning."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Mezcal Artesanal Espadín Joven",
+      "role": "Hero / best-seller",
+      "price": 64.99
+    },
+    {
+      "title": "Play Like A Champion Today Limited Collector's Edition",
+      "role": "Premium",
+      "price": 149.99
+    },
+    {
+      "title": "Kentucky 10 Straight Bourbon: Wheated Small Batch",
+      "role": "Entry point",
+      "price": 42.99
+    },
+    {
+      "title": "Kentucky 10 Straight Bourbon: Barrel Strength Hand Selected",
+      "role": "Core",
+      "price": 63.99
+    }
+  ],
+  "offers": [
+    "Limited-edition and one-time-only releases (Play Like a Champion Today 2nd Edition - 2,500 left; Liberty 1776)",
+    "Shipping calculated at checkout; allow 3 days fulfillment and 1-5 business days delivery",
+    "Refund or replacement for damaged or defective items if requested within 3 days with photo/video proof",
+    "Adult (21+) signature required on all alcohol deliveries"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Awarded 'Best Cask-Finished Straight Bourbon Whiskey' of 2025 by the Beverage Tasting Institute.",
+        "source": "homepage"
+      },
+      {
+        "claim": "No artificial flavors.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Over 60 years of combined experience in the spirits industry.",
+        "source": "about / FAQ"
+      },
+      {
+        "claim": "Hard Chaw contains 50% more alcohol by volume than traditional Irish Cream (25% ALC / 50 Proof).",
+        "source": "Hard Chaw product page"
+      },
+      {
+        "claim": "Made exclusively in Ireland from Irish Whiskey, Irish Cream and Irish Potcheen.",
+        "source": "Hard Chaw product page"
+      },
+      {
+        "claim": "Limited-edition, one-time release that will not be produced again (Liberty 1776).",
+        "source": "Liberty 1776 product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "'Sustainable' or 'eco-friendly' bourbon or packaging.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing."
+      },
+      {
+        "claim": "'100% recycled' or 'carbon neutral' bottles or packaging.",
+        "why": "FTC Green Guides - unqualified recycled/carbon claim without specific, verifiable proof."
+      },
+      {
+        "claim": "Health or wellness benefits from drinking (e.g. 'good for you', 'aids digestion').",
+        "why": "Medical claim not supported by the site and not permitted for alcohol."
+      },
+      {
+        "claim": "'Best bourbon in the world' or unqualified superiority claims.",
+        "why": "Unsubstantiated superlative - only the specific 2025 Beverage Tasting Institute award is verifiable."
+      },
+      {
+        "claim": "'Zero impact' or 'green' production.",
+        "why": "FTC Green Guides - unqualified environmental claim with no backing in the source material."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-09T10:29:47.759Z"
+}
