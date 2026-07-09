@@ -336,6 +336,7 @@ export async function POST(req: NextRequest) {
           lead_first_name: payload.lead_first_name,
           website: websiteUrl,
           brand_domain: brandDomain,
+          prospect_logo_url: payload.logo_url,
         },
         catalog,
         crawl,
