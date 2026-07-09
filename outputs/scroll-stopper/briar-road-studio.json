@@ -1,0 +1,55 @@
+{
+  "lead_company": "Briar Road Studio",
+  "lead_first_name": "Jenny",
+  "website": "https://briarroadstudio.com",
+  "brand_domain": "briarroadstudio.com",
+  "currency": "USD",
+  "brand_voice_note": "Literary and nostalgic with a lived-in, dark-academic ease - heritage staples framed like chapters in a well-told story.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/briar-road-studio?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://briarroadstudio.com/cdn/shop/files/BriarRoad-01.png?v=1747607248&width=430",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Vintage Stag Oversized Tee",
+      "product_url": "https://briarroadstudio.com/products/vintage-stag-oversized-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0938/8097/5672/files/Essentials-Crewneck-Archetype-Briar-Road.jpg?v=1766148385",
+      "price": 68,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Some pieces just feel like home from the first wear.\n\nThe Vintage Stag Tee in Dune is heavyweight 275gsm 100% cotton, cut loose with a dropped shoulder. Easy, familiar and effortless.\n\nMade for those who love quiet mornings by the lake with a book.",
+      "headline": "Your new everyday classic",
+      "cta": "Get Yours",
+      "why_it_works": "The tee's soft heavyweight cotton and relaxed cut sell best on the feeling of effortless comfort, so leading with that outcome fits the product and the slow-living audience."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Archetype Logo Crewneck",
+      "product_url": "https://briarroadstudio.com/products/archetype-logo-crewneck",
+      "image_url": "https://cdn.shopify.com/s/files/1/0938/8097/5672/files/Crewneck-Sweater-Crewneck-TShirt.jpg?v=1766150865",
+      "price": 89,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "Conceptualized by twin sisters in 2023, named in New England in 2024.\n\nThe Archetype Crewneck in Varsity Blue is our chapter written in 400gsm french terry - our stag and heritage logo, rib-knit finishes, and a relaxed, oversized fit for a lived-in feel.\n\nA small part of a life well-told, and a piece of your story carried forward.",
+      "headline": "A crewneck with a backstory",
+      "cta": "Learn More",
+      "why_it_works": "The crewneck is the flagship heritage piece, so the founder-and-origin angle gives its logo and weight a reason to matter beyond fabric specs."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Tri-Logo Varsity Tee",
+      "product_url": "https://briarroadstudio.com/products/tri-logo-varsity-tee",
+      "image_url": "https://cdn.shopify.com/s/files/1/0938/8097/5672/files/White-Crewneck-Oversized.jpg?v=1766149791",
+      "price": 68,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "For slow autumn afternoons and library-quiet mornings.\n\nThe Tri-Logo Varsity Tee in Vintage White is heavyweight 330gsm cotton with a classic varsity-inspired graphic and a relaxed, oversized fit. Made for your every day.\n\nLimited-run, made to reduce environmental impact.",
+      "headline": "Made for your every day",
+      "cta": "Shop Now",
+      "why_it_works": "The varsity graphic and vintage white color lean into the academic-season moment, giving buyers a clear time and place they'd reach for it."
+    }
+  ],
+  "generated_at": "2026-07-09T17:53:16.314Z"
+}
