@@ -4,7 +4,7 @@
   "website": "https://www.awesomewater.com",
   "brand_domain": "awesomewater.com",
   "currency": "AUD",
-  "brand_voice_note": "Confident and practical Aussie water-filtration specialist that talks in plain, functional benefits while leaning on guarantees and complete home solutions.",
+  "brand_voice_note": "Confident and category-leading, framing whole-home water filtration around premium performance, hands-on support, and price certainty.",
   "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/awesome-water?ref=email&magnet=playbook",
   "prospect_logo_url": "https://www.awesomewater.com/cdn/shop/files/84865c44-c03e-45a1-9eec-2362491698a4-1.png?v=1701592441&width=140",
   "concepts": [
@@ -16,40 +16,40 @@
       "price": 120,
       "compare_at_price": null,
       "on_sale": false,
-      "angle_label": "Problem / Solution",
-      "primary_text": "Worried about what's actually in your tap water?\n\nOur Ceramic Fluoride Dome Filter is built for fluoride reduction and cleaner everyday drinking water. Run it on its own or slot it into your complete home filtration setup.\n\nBetter water from the very next glass. Just $120.",
-      "headline": "Fluoride Reduction, Made Simple",
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Better everyday drinking water, straight from your tap.\n\nOur Ceramic Fluoride Dome Filter is the No 1 Fluoride Filter On The Market, built to reduce fluoride and other unwanted contaminants sip after sip.\n\nUse it on its own or drop it into a complete Awesome Water bundle. Backed by our Price Beat Guarantee.",
+      "headline": "Premium Fluoride Filtration",
       "cta": "Shop Now",
-      "why_it_works": "It names the everyday worry about tap water quality and positions the dome filter as the direct, affordable fix, which suits a low-cost single-product buy."
+      "why_it_works": "Fluoride reduction is the single most desirable outcome for this buyer, so leading with cleaner daily drinking water speaks straight to their intent."
     },
     {
       "product_index": 2,
-      "product_title": "Awesome Water® - Soda Tap 3 in 1 SHOW ROOM - SALE",
-      "product_url": "https://www.awesomewater.com/products/awesome-water-soda-tap-3-in-1-show-room-sale",
-      "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/3_in_1_1b1b94aa-dbe4-409c-9cdb-a958b2c015ee.png?v=1781239681",
-      "price": 2299,
-      "compare_at_price": 5900,
-      "on_sale": true,
-      "angle_label": "Occasion / Seasonal",
-      "primary_text": "Sparkling, chilled and filtered water, straight from your tap.\n\nThe Soda Tap 3 in 1 System is now on display at our Kirrawee showroom. Come see the finishes in person, ask questions and chat to the team who install and service it.\n\nShowroom pricing now $2,299 (was $5,900). Backed by our Price Beat Guarantee.",
-      "headline": "See the Soda Tap 3 in 1 Live",
-      "cta": "Learn More",
-      "why_it_works": "The showroom launch is a genuine local moment to act on, and the huge display price makes the visit worth booking while it lasts."
-    },
-    {
-      "product_index": 3,
       "product_title": "Awesome Water® - Paragon CP-4 - Filtration System. (New 2024)",
       "product_url": "https://www.awesomewater.com/products/awesome-water-paragon-cp-4-filtration-system-new-2024",
       "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/CP-4cover-600_56844678-ea79-448a-b12f-44a0fdfb099e.jpg?v=1725546808",
       "price": 499,
       "compare_at_price": 898,
       "on_sale": true,
-      "angle_label": "Benefit-Forward",
-      "primary_text": "Cleaner, safer drinking water at the turn of a tap.\n\nThe new 2024 Paragon CP-4 is an advanced tankless under-sink system built to reduce ultra-fine particles, heavy metals, VOCs and perfluorinated forever chemicals from your water.\n\nNow $499 (was $898), with our Price Beat Guarantee and local Aussie service behind it.",
-      "headline": "Forever Chemicals Removal at Home",
+      "angle_label": "Problem / Solution",
+      "primary_text": "Not sure what is really in your tap water?\n\nThe Paragon CP-4 under-sink system tackles ultra-fine particles, heavy metals, VOCs, pharmaceuticals and forever chemicals, all from a tankless setup that fits neatly under your bench.\n\nNow $499, was $898. Every install is backed by our 24 hour help line and repair manual support.",
+      "headline": "Under-Sink Filtration, Sorted",
       "cta": "Shop the Sale",
-      "why_it_works": "Leading with the single desirable outcome of clean, safe water on tap matches a premium under-sink buyer, and the forever chemicals angle plus real discount seals it."
+      "why_it_works": "The CP-4 solves the hidden worry of unseen contaminants, so naming that friction and listing what it removes turns concern into an easy decision."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Awesome Water® - Soda Tap 3 in 1 SHOW ROOM - SALE",
+      "product_url": "https://www.awesomewater.com/products/awesome-water-soda-tap-3-in-1-show-room-sale",
+      "image_url": "https://cdn.shopify.com/s/files/1/2014/4685/files/3_in_1_1b1b94aa-dbe4-409c-9cdb-a958b2c015ee.png?v=1781239681",
+      "price": 2299,
+      "compare_at_price": 5900,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Spending big on a tap system you have never seen in person? Come look first.\n\nAs an official Soda Tap retailer, supplier and installer, we have a dedicated showroom at our Kirrawee office where you can see the 3 in 1 system, compare finishes and ask questions before you commit.\n\nShowroom offer now $2,299, was $5,900. Price Beat Guarantee included.",
+      "headline": "See The Soda Tap In Person",
+      "cta": "Learn More",
+      "why_it_works": "At this price point the biggest hesitation is buying unseen, so offering an in-person showroom and expert install directly removes that risk."
     }
   ],
-  "generated_at": "2026-07-09T11:37:02.270Z"
+  "generated_at": "2026-07-09T11:40:01.497Z"
 }
