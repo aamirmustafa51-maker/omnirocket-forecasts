@@ -626,6 +626,14 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   overflow: hidden;
 }
 .fb-ad-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Scroll-stopper shows the brand's REAL product photos, which vary in aspect
+   (tall bottles, apparel, wide boxes). Cropping to a square slices tall products
+   (a tequila bottle loses its neck and base). Scope an override to scroll-stopper
+   only: natural height so the whole product always shows - no crop, no letterbox,
+   the card grows to fit each image. Auto-adapts per brand. White fill matches the
+   typical white-background product shot. (Forecast keeps its square mockups.) */
+.ss-concept .fb-ad-image { aspect-ratio: auto; background: #ffffff; }
+.ss-concept .fb-ad-image img { height: auto; object-fit: contain; }
 .fb-ad-image-fallback {
   position: absolute;
   inset: 0;
