@@ -1,0 +1,163 @@
+{
+  "lead_company": "Strive Soda",
+  "lead_first_name": "Christopher",
+  "website": "https://strivesoda.com",
+  "brand_domain": "strivesoda.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Better-for-you hydration soda: a sparkling drink with electrolytes and organic honey, sold in 12-packs DTC.",
+    "core_belief": "You don't have to choose between great flavor and feeling great - soda can taste amazing and hydrate you.",
+    "proof_points": [
+      "180mg essential electrolytes per can (sodium, potassium, magnesium, calcium)",
+      "Sweetened entirely with 100% organic wildflower honey, no artificial sweeteners",
+      "Only 45 calories per can; no sucralose, aspartame, stevia, or HFCS",
+      "Caffeine-free and gluten-free; free from artificial flavors, colors, and preservatives"
+    ],
+    "positioning": "Premium, playful better-for-you soda that puts bold flavor first and hydration second - not a performance drink, not a sugar bomb."
+  },
+  "voice_pillars": [
+    {
+      "name": "Flavor-First Fun",
+      "desc": "Leads with taste and enjoyment, treating soda as something fun before it is functional.",
+      "quote": "Soda That Tastes Amazing. Hydration Built In."
+    },
+    {
+      "name": "No-Compromise Confidence",
+      "desc": "Positions the drink as proof you can have both flavor and feeling good, without tradeoffs.",
+      "quote": "Strive proves you don't have to choose between great flavor and feeling great."
+    },
+    {
+      "name": "Active and Aspirational",
+      "desc": "Speaks to movers and doers chasing what's next, tying the drink to an active lifestyle.",
+      "quote": "made for the movers, the shakers, and the tastemakers"
+    },
+    {
+      "name": "Playful Escape",
+      "desc": "Uses vivid, vacation-style imagery that makes each flavor feel like a small getaway.",
+      "quote": "Tropical Recharge is vacation in a can."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Soda That Tastes Amazing. Hydration Built In.",
+      "a little slice of paradise",
+      "vacation in a can",
+      "enjoy soda without compromise",
+      "refreshing hydration",
+      "natural fuel without the jitters or crash"
+    ],
+    "words": [
+      "hydration",
+      "electrolytes",
+      "refreshing",
+      "bold flavor",
+      "organic honey",
+      "clean ingredients",
+      "better-for-you",
+      "refresh"
+    ],
+    "avoid": [
+      "medical or disease language",
+      "gym-bro performance jargon",
+      "diet or guilt-driven framing",
+      "sugar-bomb / junk-food tone"
+    ]
+  },
+  "icp": "Active, on-the-go adults who love the taste of soda but want cleaner ingredients and everyday hydration, and will pay a premium to enjoy both without compromise.",
+  "personas": [
+    {
+      "name": "The Everyday Striver",
+      "description": "Busy doer moving from beach to boardroom who wants a fun, flavorful drink that keeps them hydrated through long days - moved by 'flavor first, hydration built in'."
+    },
+    {
+      "name": "The Clean-Label Swapper",
+      "description": "Health-aware buyer ditching sugary sodas and artificial sweeteners who is convinced by organic honey, 45 calories, and no HFCS or aspartame."
+    },
+    {
+      "name": "The Casual Refresher",
+      "description": "Not a gym rat but active and thirsty, drawn to the playful 'vacation in a can' flavors for hikes, errands, and hanging out."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Strive Soda - Peach (12 pack)",
+      "role": "Hero / best-seller",
+      "price": 32.99
+    },
+    {
+      "title": "Strive Soda - Tropical (12 Pack)",
+      "role": "Entry point",
+      "price": 32.99
+    },
+    {
+      "title": "Variety Pack (12 Pack)",
+      "role": "Entry point",
+      "price": 32.99
+    }
+  ],
+  "offers": [
+    "Free shipping on orders over $35 within the United States",
+    "Subscribe & Save: 15% off every order, free shipping, early access to new flavors, cancel or edit anytime",
+    "First month Subscribe & Save price $16.50 (about $1.38 per can)",
+    "30-day return policy; contact within 30 days and 'we'll make it right'",
+    "Quality guarantee on defective products: full refund or replacement, prepaid return label",
+    "Variety Pack option (6 Tropical + 6 Peach) to try both flavors"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "180mg essential electrolytes per can (sodium, potassium, magnesium, calcium)",
+        "source": "product pages and FAQ"
+      },
+      {
+        "claim": "Sweetened entirely with 100% organic wildflower honey, no artificial sweeteners",
+        "source": "product pages and homepage"
+      },
+      {
+        "claim": "Only 45 calories per can",
+        "source": "product pages and FAQ"
+      },
+      {
+        "claim": "No sucralose, aspartame, stevia, or HFCS",
+        "source": "product pages"
+      },
+      {
+        "claim": "Caffeine-free and gluten-free",
+        "source": "FAQ"
+      },
+      {
+        "claim": "Free from artificial flavors, colors, and preservatives",
+        "source": "homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts your immunity",
+        "why": "Banned immunity claim for this category; not supported by the label."
+      },
+      {
+        "claim": "Detoxes your body",
+        "why": "Unqualified 'detox' claim is banned in this category."
+      },
+      {
+        "claim": "Burns fat or aids weight loss",
+        "why": "Banned fat-burning / weight-loss claim not supported by the product."
+      },
+      {
+        "claim": "Treats, prevents, or cures dehydration or any condition",
+        "why": "Disease-treatment claims are banned; hydration soda cannot claim to treat a medical condition."
+      },
+      {
+        "claim": "The healthiest / cleanest soda you can drink",
+        "why": "'Clean' and 'natural' are vague, risky headline claims in this category."
+      },
+      {
+        "claim": "Low sugar soda (as a headline nutrient claim)",
+        "why": "Nutrient-content claims must match the actual label; use verified per-can figures instead of an unqualified low-sugar claim."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-09T12:31:20.436Z"
+}
