@@ -127,16 +127,30 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   const idStr = (v: unknown): string | undefined =>
     typeof v === "number" ? String(v) : typeof v === "string" && v ? v : undefined;
 
+  // Custom-field keys drift by how each Smartlead list was set up (Page_ID vs
+  // Page_Id, FB_Page_URL vs Facebook_Url, ...). Look up case-insensitively
+  // across known aliases so a naming difference doesn't silently drop the
+  // Facebook target and force the lead into manual handling.
+  const cfLower: Record<string, unknown> = {};
+  for (const k of Object.keys(cf)) cfLower[k.toLowerCase()] = cf[k];
+  const cfGet = (...keys: string[]): string | undefined => {
+    for (const k of keys) {
+      const v = cfLower[k.toLowerCase()];
+      if (typeof v === "string" && v) return v;
+    }
+    return undefined;
+  };
+
   return {
     lead_email: str(r.lead_email) || str(leadData.email),
     lead_first_name: str(leadData.first_name) || str(r.lead_name),
     lead_last_name: optStr(leadData.last_name),
     lead_company: str(leadData.company_name),
-    company_overview_summary: str(cf["Company_Overview_(Response)"]),
-    facebook_page_id: optStr(cf.Page_Id),
-    facebook_url: optStr(cf.Facebook_Url),
+    company_overview_summary: cfGet("Company_Overview_(Response)", "Company_Overview") ?? "",
+    facebook_page_id: cfGet("Page_ID", "Page_Id", "page_id", "Facebook_Page_Id", "FB_Page_ID"),
+    facebook_url: cfGet("FB_Page_URL", "Facebook_Url", "facebook_url", "FB_URL", "Facebook_URL"),
     website_url: optStr(leadData.website),
-    category: optStr(cf.Category),
+    category: cfGet("Category"),
     campaign_name: optStr(r.campaign_name) || optStr(r.sequence_name),
     campaign_id: idStr(r.campaign_id) ?? idStr((r as Record<string, unknown>).campaignId),
   };
