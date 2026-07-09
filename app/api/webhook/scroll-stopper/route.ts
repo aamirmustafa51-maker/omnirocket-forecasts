@@ -20,7 +20,6 @@ import { crawlSite } from "@/lib/shared/site-crawl";
 import { selectHeroProducts } from "@/magnets/scroll-stopper/lib/select";
 import { buildPlaybook } from "@/magnets/brand-playbook/lib/generate";
 import type { PlaybookData } from "@/magnets/brand-playbook/lib/types";
-import { fetchProspectLogoUrl } from "@/lib/shared/logo";
 import { fetchProductsByUrls, originFromProductUrls } from "@/lib/shared/product-by-url";
 import {
   env, slugify, cleanCopy, postSlack, githubGetSha, putJson, extractJson, brandDomainFromWebsite,
@@ -46,6 +45,9 @@ type WebhookPayload = {
   // Human-in-the-loop: operator-picked product links. When present, ads are
   // built from exactly these products instead of auto-selecting from the catalog.
   product_urls?: string[];
+  // Optional manual logo override (a direct image URL). Used when logo.dev
+  // returns a generic monogram for a brand it doesn't know.
+  logo_url?: string;
 };
 
 // Claude returns copy only; deterministic fields (image/price/url) are merged
@@ -114,6 +116,7 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
       category: "Scroll_Stopper",
       campaign_name: optStr(r.campaign_name) ?? "manual-intake",
       product_urls: productUrls,
+      logo_url: optStr(r.logo_url),
     };
   }
 
@@ -286,13 +289,22 @@ export async function POST(req: NextRequest) {
     // Auto path: rank heroes from the scraped catalog.
     let heroes: ShopifyProduct[];
     if (payload.product_urls?.length) {
-      heroes = await fetchProductsByUrls(payload.product_urls);
+      const fetched = await fetchProductsByUrls(payload.product_urls);
+      heroes = fetched.products;
       if (heroes.length === 0) {
         await postSlack(
           `🟠 *Scroll-Stopper skipped* — ${tag}\nNone of the provided product links could be fetched. Check they point to live Shopify product pages.`,
           SLACK_KEY,
         );
         return NextResponse.json({ ok: false, status: "no_products" }, { status: 200 });
+      }
+      // Partial failure: some links didn't resolve, so the report has fewer ads
+      // than intended. Flag exactly which ones so it's never a silent drop.
+      if (fetched.failedUrls.length) {
+        await postSlack(
+          `⚠️ *${payload.lead_company}* — ${heroes.length} of ${payload.product_urls.length} product links worked. These didn't (report built without them, re-run with fixes if you want them):\n${fetched.failedUrls.map((u) => `• ${u}`).join("\n")}`,
+          SLACK_KEY,
+        );
       }
     } else {
       heroes = selectHeroProducts(catalog.products, catalog.homepage_html, 3);
@@ -361,11 +373,11 @@ export async function POST(req: NextRequest) {
       };
     });
 
-    // Scrape the brand's real logo (apple-touch-icon/favicon). logo.dev returns
-    // wrong or placeholder logos for SMB ecom, so the scraped mark is the
-    // primary source in the template (it falls back to logo.dev then a
-    // wordmark). Best-effort — null just means the template uses its fallbacks.
-    const prospectLogoUrl = await fetchProspectLogoUrl(websiteUrl);
+    // Logo: use the operator's manual override if given, else leave null so the
+    // template falls back to logo.dev (good for brands it knows) then a wordmark.
+    // We no longer auto-scrape the favicon — it produced tiny/blurry logos; Kyle
+    // pastes a real logo URL on the form when logo.dev's guess is wrong.
+    const prospectLogoUrl = payload.logo_url || null;
 
     const out: ScrollStopperJson = {
       lead_company: payload.lead_company,
