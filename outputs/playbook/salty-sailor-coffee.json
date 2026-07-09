@@ -1,0 +1,168 @@
+{
+  "lead_company": "Salty Sailor Coffee",
+  "lead_first_name": "Neil",
+  "website": "https://saltysailorcoffee.com",
+  "brand_domain": "saltysailorcoffee.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Veteran-owned, small-batch coffee roaster selling single origins, blends, flavored coffee, and nautical-themed gear online.",
+    "core_belief": "Drink Coffee & Do Good - deliver premium fresh roasted coffee while making a positive impact, supporting the military community and ethical sourcing.",
+    "proof_points": [
+      "Veteran-owned, founded by former U.S. Navy Supply Corps officer Neil Kittleson",
+      "5% of every order donated to the Navy-Marine Corps Relief Society; SS John W Brown line donates 10% to Project Liberty Ship",
+      "Small-batch roasted to order and shipped fresh within 3 to 5 business days",
+      "Quarterly micro-loans to coffee farmers through Kiva.org via the Loans That Lift program"
+    ],
+    "positioning": "Premium, mission-driven roaster with a bold nautical/military identity - warmer and more purpose-led than commodity coffee."
+  },
+  "voice_pillars": [
+    {
+      "name": "Nautical Storyteller",
+      "desc": "Writes in sailor and sea language, turning every cup into a voyage and every customer into crew.",
+      "quote": "set sail with salty sailor and set your sights on a new brew"
+    },
+    {
+      "name": "Mission-Driven",
+      "desc": "Ties the product to service, charity, and giving back in plain, sincere terms.",
+      "quote": "Drink Coffee & Do Good."
+    },
+    {
+      "name": "Craft and Honest",
+      "desc": "Leans on freshness and roast-to-order craft without fuss or overclaiming.",
+      "quote": "Sustainably and ethically sourced, honest flavor, no fuss."
+    },
+    {
+      "name": "Warm and Sensory",
+      "desc": "Describes flavor with vivid, appetite-driving imagery rooted in real tasting notes.",
+      "quote": "the galley smells like dessert is already underway"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "set sail with salty sailor",
+      "Drink Coffee & Do Good",
+      "roasted to order so it lands in your hands fresh",
+      "join the Crew and never run dry",
+      "sailing the world in search of the perfect coffee",
+      "pour yourself the dessert course"
+    ],
+    "words": [
+      "crew",
+      "shipmates",
+      "galley",
+      "roasted to order",
+      "fresh",
+      "veteran-owned",
+      "small-batch",
+      "watch"
+    ],
+    "avoid": [
+      "clinical",
+      "corporate jargon",
+      "hype/superlative overload",
+      "trendy wellness-speak"
+    ]
+  },
+  "icp": "Coffee lovers with a military or patriotic connection - veterans, active service, first responders, and their families - who want fresh premium coffee and feel good buying from a brand that gives back.",
+  "personas": [
+    {
+      "name": "Grateful Veteran",
+      "description": "Former or active service member who buys to support a veteran-owned brand and NMCRS; moved by the mission and the military discount."
+    },
+    {
+      "name": "Fresh-Roast Enthusiast",
+      "description": "Serious coffee drinker who cares about roast-to-order freshness, single origins, and tasting notes; moved by craft and quality angles."
+    },
+    {
+      "name": "Cause-Driven Gifter",
+      "description": "Shopper looking for a meaningful gift for the sailor or coffee lover in their life; moved by story, charity, and themed collections."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "The Midwatch: Unisex Skeleton Heavyweight T-Shirt",
+      "role": "Hero / best-seller",
+      "price": 25
+    },
+    {
+      "title": "Davy Jones' Locker: Cold Brew Blend",
+      "role": "Entry point",
+      "price": 18.5
+    },
+    {
+      "title": "My Cinnamon Girl:  Cinnamon Bun Flavored Coffee",
+      "role": "Entry point",
+      "price": 18.5
+    },
+    {
+      "title": "Kraken's Cocoa Kiss: Mocha Flavored Coffee",
+      "role": "Entry point",
+      "price": 18.5
+    }
+  ],
+  "offers": [
+    "10% veteran/active military/first responder discount (site states 15% via GovX on FAQ)",
+    "Crew Membership subscription: half-price shipping, save on every shipment, cancel anytime",
+    "Subscribe and Save tiers up to 20% off",
+    "Flat shipping $5.00 first item, $1.50 each additional, capped at 6 items",
+    "5% of every order to NMCRS; 10% on SS John W Brown line to Project Liberty Ship",
+    "Interactive quiz to find your perfect roast"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Veteran-owned coffee brand founded by a former U.S. Navy Supply Corps officer.",
+        "source": "about page"
+      },
+      {
+        "claim": "Small-batch roasted to order and shipped fresh within 3 to 5 business days.",
+        "source": "FAQ and product pages"
+      },
+      {
+        "claim": "5% of every order donated to the Navy-Marine Corps Relief Society; 10% on SS John W Brown coffees to Project Liberty Ship.",
+        "source": "FAQ and product pages"
+      },
+      {
+        "claim": "Sustainably and ethically sourced beans.",
+        "source": "about and product pages"
+      },
+      {
+        "claim": "Quarterly micro-loans to coffee farmers through Kiva.org via the Loans That Lift program.",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Crew Members get half-price shipping and subscription savings, cancel anytime.",
+        "source": "FAQ page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Coffee that boosts immunity or strengthens your immune system.",
+        "why": "Banned immunity claim - not supported and disallowed for food/beverage health claims."
+      },
+      {
+        "claim": "Detoxes or cleanses your body.",
+        "why": "Unqualified 'detox' is banned for this category."
+      },
+      {
+        "claim": "Burns fat or aids weight loss.",
+        "why": "Banned fat-burning/weight-loss claim with no label support."
+      },
+      {
+        "claim": "Prevents, treats, or cures any disease or condition.",
+        "why": "Disease-treatment claims are prohibited for food and beverage."
+      },
+      {
+        "claim": "Low sugar or high antioxidant as a headline claim.",
+        "why": "Nutrient-content claims must match the actual label; not verified in the input."
+      },
+      {
+        "claim": "Using 'all natural' or 'clean' as a headline promise.",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-09T10:44:11.005Z"
+}
