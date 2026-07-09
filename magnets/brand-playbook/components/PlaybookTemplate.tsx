@@ -35,7 +35,7 @@ export default function PlaybookTemplate({ data }: { data: PlaybookData }) {
     <div className="wrap">
       <div className="brand-bar">
         <div className="left">
-          <ProspectLogo website={data.website} brand={data.lead_company} token={LOGODEV_TOKEN} />
+          <ProspectLogo website={data.website} brand={data.lead_company} token={LOGODEV_TOKEN} scrapedUrl={data.prospect_logo_url} />
         </div>
         <div className="right">
           <span className="by-line">Prepared by</span>
