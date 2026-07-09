@@ -1,0 +1,162 @@
+{
+  "lead_company": "Briar Road Studio",
+  "lead_first_name": "Jenny",
+  "website": "https://briarroadstudio.com",
+  "brand_domain": "briarroadstudio.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Heritage-inspired apparel brand selling literary, dark-academic staples - crewnecks, oversized tees, and knits - in limited drops.",
+    "core_belief": "Clothing should be lived in and carry your story forward: 'Every sweater, tee, and jacket is designed not just to be worn, but to be lived in - carrying your story forward.'",
+    "proof_points": [
+      "Heavyweight 100% cotton fabrics with stated weights (275gsm tees, 330gsm varsity tee, 400gsm french terry crewneck)",
+      "Limited-run, made-to-order drops to reduce environmental impact",
+      "Beyond The First Day giving program: donations that provide books, school supplies, and student care items",
+      "Founded by twin sisters Jenny and Jill Kleinknecht, conceptualized 2023, named in New England 2024"
+    ],
+    "positioning": "Premium, small-batch and intentional - 'slow, intentional fashion' at an elevated price point, not fast, mass-market basics."
+  },
+  "voice_pillars": [
+    {
+      "name": "Literary and Nostalgic",
+      "desc": "Writes like a story chapter, leaning on books, heritage, and quiet romanticism.",
+      "quote": "Briar Road was born from a love of literature, design, and the quiet art of intentional living."
+    },
+    {
+      "name": "Lived-In Ease",
+      "desc": "Frames pieces as familiar, effortless staples meant for everyday wear.",
+      "quote": "Easy, familiar and effortless."
+    },
+    {
+      "name": "Academic Elegance",
+      "desc": "Blends prep and dark-academic references with a refined, considered tone.",
+      "quote": "academic elegance meets small-town charm."
+    },
+    {
+      "name": "Intentional and Slow",
+      "desc": "Owns its no-returns, limited-drop model as a deliberate, values-led choice.",
+      "quote": "Thanks for understanding and supporting slow, intentional fashion."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "carrying your story forward",
+      "Easy, familiar and effortless",
+      "It's your new everyday classic",
+      "relaxed, oversized fit for a lived-in feel",
+      "made for those who love quiet mornings by the lake with a book",
+      "a chapter; a small part of a life well-told"
+    ],
+    "words": [
+      "heritage",
+      "lived-in",
+      "oversized",
+      "heavyweight",
+      "varsity",
+      "intentional",
+      "vintage",
+      "cozy"
+    ],
+    "avoid": [
+      "hype",
+      "loud",
+      "trendy",
+      "disposable"
+    ]
+  },
+  "icp": "Design-minded readers and creatives, largely women, who value heritage, storytelling, and quiet intentional living, and who buy elevated everyday staples they can wear for years.",
+  "personas": [
+    {
+      "name": "The Dark-Academic Reader",
+      "description": "A book-loving aesthete drawn to library evenings and literary references - moved by story-rich, nostalgic copy over discounts."
+    },
+    {
+      "name": "The Slow-Fashion Believer",
+      "description": "A values-driven buyer who prefers limited, made-to-order pieces and is reassured by the low-impact, intentional-production angle."
+    },
+    {
+      "name": "The Cozy Staple Collector",
+      "description": "Wants heavyweight, oversized everyday basics that feel lived-in - persuaded by fabric weight, fit, and comfort details."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Archetype Logo Crewneck",
+      "role": "Hero / best-seller",
+      "price": 89
+    },
+    {
+      "title": "Tri-Logo Varsity Tee",
+      "role": "Entry point",
+      "price": 68
+    },
+    {
+      "title": "Vintage Stag Oversized Tee",
+      "role": "Entry point",
+      "price": 68
+    }
+  ],
+  "offers": [
+    "Free shipping on domestic orders over $200",
+    "Beyond The First Day donation add-on at checkout ($1.50 to $100 tiers)",
+    "Restock notifications via 'Notify Me When It's Available' on sold-out sizes",
+    "No returns or exchanges; all sale items final sale (limited-run model)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made from heavyweight 100% cotton fabric (e.g. 275gsm, 330gsm, 400gsm french terry).",
+        "source": "product pages"
+      },
+      {
+        "claim": "Free shipping on domestic orders over $200.",
+        "source": "homepage / site banner"
+      },
+      {
+        "claim": "Limited-run, made to reduce environmental impact.",
+        "source": "FAQ / returns policy"
+      },
+      {
+        "claim": "Founded by twin sisters, conceptualized in 2023 and named in New England in 2024.",
+        "source": "about page"
+      },
+      {
+        "claim": "Relaxed, oversized unisex fit; runs true to size, size up for more oversized.",
+        "source": "product pages / FAQ"
+      },
+      {
+        "claim": "Donations through Beyond The First Day support students with books and supplies.",
+        "source": "cart / homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best quality heritage apparel in the world / #1 dark-academic brand.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Eco-friendly or sustainable clothing (broad, unqualified).",
+        "why": "FTC Green Guides - unqualified environmental claim; only the specific 'limited-run to reduce impact' language is supported."
+      },
+      {
+        "claim": "Selling out fast - only a few left, order now (invented urgency).",
+        "why": "Fake urgency banned; stock scarcity must be real, not manufactured."
+      },
+      {
+        "claim": "Loved by thousands / rated 5 stars by hundreds of customers.",
+        "why": "Invented review counts banned; no customer reviews exist in the inputs."
+      },
+      {
+        "claim": "Guaranteed to last a lifetime / never fades or shrinks.",
+        "why": "Guaranteed-results claim without substantiation is prohibited."
+      },
+      {
+        "claim": "Made in the USA.",
+        "why": "Origin claim contradicts site copy ('Proudly made in China'); would be deceptive."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://briarroadstudio.com/cdn/shop/files/BriarRoad-01.png?v=1747607248&width=430",
+  "generated_at": "2026-07-09T17:53:04.420Z"
+}
