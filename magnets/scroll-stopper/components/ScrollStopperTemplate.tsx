@@ -58,7 +58,7 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
     <div className="wrap">
       <div className="brand-bar">
         <div className="left">
-          <ProspectLogo website={data.website} brand={data.lead_company} token={LOGODEV_TOKEN} />
+          <ProspectLogo website={data.website} brand={data.lead_company} token={LOGODEV_TOKEN} scrapedUrl={data.prospect_logo_url} />
         </div>
         <div className="right">
           <span className="by-line">Prepared by</span>
@@ -104,6 +104,7 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
                   website={data.website}
                   brand={data.lead_company}
                   token={LOGODEV_TOKEN}
+                  scrapedUrl={data.prospect_logo_url}
                   className="fb-ad-avatar"
                 />
                 <div className="fb-ad-meta">
