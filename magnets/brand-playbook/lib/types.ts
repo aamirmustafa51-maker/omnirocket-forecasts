@@ -44,6 +44,9 @@ export type PlaybookData = {
   // so the intro copy reads as a fresh magnet rather than "before we wrote a
   // single ad" (which only makes sense in the scroll-stopper flow).
   standalone?: boolean;
+  // Optional manual logo override (direct image URL) passed through from the
+  // caller; the template uses it before falling back to logo.dev.
+  prospect_logo_url?: string;
   generated_at: string;
 };
 
@@ -53,4 +56,5 @@ export type PlaybookCopy = Omit<
   PlaybookData,
   | "lead_company" | "lead_first_name" | "website" | "brand_domain"
   | "currency" | "review_count" | "products_ladder" | "standalone" | "generated_at"
+  | "prospect_logo_url"
 >;
