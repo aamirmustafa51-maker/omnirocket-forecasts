@@ -1,0 +1,163 @@
+{
+  "lead_company": "Strive Soda",
+  "lead_first_name": "Christopher",
+  "website": "https://strivesoda.com",
+  "brand_domain": "strivesoda.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Better-for-you hydration soda: sparkling flavored cans with electrolytes and organic honey, positioned as a new beverage category.",
+    "core_belief": "You don't have to choose between great flavor and feeling great - soda can taste amazing and hydrate at the same time.",
+    "proof_points": [
+      "180mg essential electrolytes per can (sodium, potassium, magnesium, calcium)",
+      "Sweetened entirely with 100% organic wildflower honey, no artificial sweeteners",
+      "Only 45 calories per can, caffeine-free and gluten-free",
+      "Free from artificial flavors, colors, and preservatives (no sucralose, aspartame, stevia, or HFCS)"
+    ],
+    "positioning": "Premium, playful challenger to both sugary soda and clinical sports drinks - flavor-first, better-for-you, born in San Diego."
+  },
+  "voice_pillars": [
+    {
+      "name": "Flavor-First Fun",
+      "desc": "Leads with taste and enjoyment, treating hydration as the bonus rather than the pitch.",
+      "quote": "Soda That Tastes Amazing. Hydration Built In."
+    },
+    {
+      "name": "No-Compromise Honest",
+      "desc": "Frames the product as the answer to a real tradeoff, staying plain-spoken about ingredients and benefits.",
+      "quote": "You don't have to choose between great flavor and feeling great."
+    },
+    {
+      "name": "Active Striver Energy",
+      "desc": "Speaks to movers and doers chasing what's next, with an upbeat, motion-driven tone.",
+      "quote": "made for the movers, the shakers, and the tastemakers"
+    },
+    {
+      "name": "Playful Escapism",
+      "desc": "Uses vivid, vacation-style imagery to make each flavor feel like an experience.",
+      "quote": "Tropical Recharge is vacation in a can."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Soda That Tastes Amazing. Hydration Built In.",
+      "enjoy soda without compromise",
+      "vacation in a can",
+      "A little slice of paradise",
+      "Naturally sweet. No artificial stuff.",
+      "Refreshment you can feel good about"
+    ],
+    "words": [
+      "hydration",
+      "electrolytes",
+      "organic honey",
+      "refreshing",
+      "clean",
+      "better-for-you",
+      "flavor",
+      "recharge"
+    ],
+    "avoid": [
+      "clinical/medical jargon",
+      "diet/weight-loss framing",
+      "boring or corporate tone",
+      "sugar-bomb or junk vibes"
+    ]
+  },
+  "icp": "Active, health-aware adults who grew up loving soda but want cleaner ingredients and easy hydration, and will pay a premium for a flavor-first drink that fits their on-the-go lifestyle.",
+  "personas": [
+    {
+      "name": "The Everyday Striver",
+      "description": "Busy movers going from beaches to boardroom who want a fun soda that hydrates without the sugar crash - moved by the no-compromise, feel-good angle."
+    },
+    {
+      "name": "Clean-Label Seeker",
+      "description": "Ingredient-conscious buyers who scan for no artificial sweeteners and low calories - moved by organic honey, 45 calories, and 'no sucralose, aspartame, or HFCS'."
+    },
+    {
+      "name": "Active Refresher",
+      "description": "Yoga, run, and hike regulars looking for a tasty alternative to sports drinks - moved by 180mg electrolytes and before/during/after use cases."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Strive Soda - Peach (12 pack)",
+      "role": "Hero / best-seller",
+      "price": 32.99
+    },
+    {
+      "title": "Strive Soda - Tropical (12 Pack)",
+      "role": "Entry point",
+      "price": 32.99
+    },
+    {
+      "title": "Variety Pack (12 Pack)",
+      "role": "Entry point",
+      "price": 32.99
+    }
+  ],
+  "offers": [
+    "Free shipping on orders over $35 within the US",
+    "Subscribe & Save: 15% off every order, free shipping, early access to new flavors, flexible scheduling",
+    "First month Subscribe & Save price of $16.50 ($1.38 per can)",
+    "Variety Pack with 6 cans of each flavor",
+    "30-day return policy with quality guarantee",
+    "Ships in 3-4 days"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "180mg essential electrolytes per can (sodium, potassium, magnesium, calcium)",
+        "source": "FAQ and product pages"
+      },
+      {
+        "claim": "Sweetened entirely with 100% organic wildflower honey, no artificial sweeteners",
+        "source": "product pages and FAQ"
+      },
+      {
+        "claim": "Only 45 calories per can",
+        "source": "product pages and FAQ"
+      },
+      {
+        "claim": "Caffeine-free and gluten-free",
+        "source": "FAQ"
+      },
+      {
+        "claim": "No sucralose, aspartame, stevia, or HFCS",
+        "source": "product pages"
+      },
+      {
+        "claim": "Free from artificial flavors, colors, and preservatives",
+        "source": "homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts your immunity or immune system",
+        "why": "Banned immunity claim - not supported and prohibited for this category."
+      },
+      {
+        "claim": "Detoxes your body",
+        "why": "Unqualified 'detox' claim is banned for beverages."
+      },
+      {
+        "claim": "Burns fat or aids weight loss",
+        "why": "Banned fat-burning/weight-loss claim with no substantiation."
+      },
+      {
+        "claim": "Treats, cures, or prevents dehydration-related illness",
+        "why": "Disease-treatment claim is prohibited."
+      },
+      {
+        "claim": "Headline use of 'all natural' or 'clean' as a standalone promise",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims; keep tied to specific facts."
+      },
+      {
+        "claim": "'Low sugar' as a labeled nutrient-content claim",
+        "why": "Nutrient-content claims must match the actual label; only state verified per-can values like 45 calories."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-09T12:21:15.609Z"
+}
