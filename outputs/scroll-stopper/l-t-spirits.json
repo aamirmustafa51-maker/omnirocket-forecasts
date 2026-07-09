@@ -1,0 +1,55 @@
+{
+  "lead_company": "L&T Spirits",
+  "lead_first_name": "Larry",
+  "website": "https://ltspirits.com",
+  "brand_domain": "ltspirits.com",
+  "currency": "USD",
+  "brand_voice_note": "Heritage-driven and craft-proud, framing every bottle as a piece of history and a shared occasion worth celebrating.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/l-t-spirits?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://ltspirits.com/cdn/shop/files/LTspirits-icon.png?crop=center&height=32&v=1737475852&width=32",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Kentucky 10 Liberty 1776",
+      "product_url": "https://ltspirits.com/products/kentucky-10-liberty-1776",
+      "image_url": "https://cdn.shopify.com/s/files/1/0727/3241/0069/files/Kentucky101776.jpg?v=1782502788",
+      "price": 89.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "250 years of independence deserves a pour worth remembering.\n\nKentucky 10 Liberty 1776 is a limited-edition Kentucky Straight Bourbon crafted to honor America's Semiquincentennial. Made for backyard cookouts, fireworks, and the evenings that turn into stories.\n\nThis is a one-time release that will not be produced again. Discover the legacy. Taste the difference.",
+      "headline": "One Nation. One Release. 1776.",
+      "cta": "Shop Now",
+      "why_it_works": "A milestone national anniversary is a once-in-a-lifetime occasion, and pairing it with the genuine limited-run scarcity gives collectors and celebrators a real reason to buy now."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Tequila Reposado",
+      "product_url": "https://ltspirits.com/products/tequila-reposado",
+      "image_url": "https://cdn.shopify.com/s/files/1/0727/3241/0069/files/IMG_8261-Photoroom.png?v=1768244919",
+      "price": 52.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A pour that opens up slow, warm, and worth savoring.\n\nOur Tequila Reposado pours a bright golden color with a nose of cooked agave, cinnamon, and a subtle touch of pepper. Careful aging gives it warmth and quiet complexity.\n\nThe art of fine spirits, in a glass you will want to linger over.",
+      "headline": "Golden. Aged. Unhurried.",
+      "cta": "Shop Now",
+      "why_it_works": "Reposado's appeal is the sensory experience of a well-aged sipping tequila, so leading with the taste and aroma payoff speaks directly to what the buyer actually wants."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Hard Chaw: Irish Whiskey Cream",
+      "product_url": "https://ltspirits.com/products/hard-chaw-irish-whiskey-cream",
+      "image_url": "https://cdn.shopify.com/s/files/1/0727/3241/0069/files/Hard_Chaw_Strong_Irish.jpg?v=1756401823",
+      "price": 31.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Bold and Unapologetic",
+      "primary_text": "This is not your grandmother's drink.\n\nHard Chaw is a more potent Irish Whiskey cream with 50% more alcohol by volume than traditional Irish Cream, at 25% ALC and 50 proof. Made exclusively in Ireland from Irish Whiskey, Irish Cream, and Irish Potcheen.\n\nThe firewater that was banned for centuries. Now it is yours to pour.",
+      "headline": "50% More. Zero Apologies.",
+      "cta": "Get Yours",
+      "why_it_works": "Hard Chaw's edge is its potency and outlaw backstory, so a confident, daring tone matches both the product and the drinker looking for something bolder than the usual cream liqueur."
+    }
+  ],
+  "generated_at": "2026-07-09T10:30:01.134Z"
+}
