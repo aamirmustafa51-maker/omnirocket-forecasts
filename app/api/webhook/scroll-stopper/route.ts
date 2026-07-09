@@ -82,7 +82,7 @@ type ScrollStopperJson = {
 };
 
 // Pull operator-provided product links off a manual (form) submission.
-export function manualProductUrls(raw: unknown): string[] {
+function manualProductUrls(raw: unknown): string[] {
   const r = (raw ?? {}) as Record<string, unknown>;
   return Array.isArray(r.product_urls)
     ? (r.product_urls as unknown[]).filter((x): x is string => typeof x === "string" && !!x.trim())
