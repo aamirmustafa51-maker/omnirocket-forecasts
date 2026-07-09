@@ -1,0 +1,55 @@
+{
+  "lead_company": "Léays",
+  "lead_first_name": "Todd",
+  "website": "https://www.leays.com",
+  "brand_domain": "leays.com",
+  "currency": "USD",
+  "brand_voice_note": "Intimate and quietly luxurious, treating everyday comfort as a sensory ritual of self-care made beautiful for women.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/l-ays?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.leays.com/cdn/shop/files/leays-logo.svg?v=1751240924&width=80",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "BODYFUSION Pink Infused Cami",
+      "product_url": "https://www.leays.com/products/bodyfusion-pink-infused-cami",
+      "image_url": "https://cdn.shopify.com/s/files/1/0743/1847/9606/files/Cami1.jpg?v=1783035908",
+      "price": 50,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Your softest layer just got a little smarter.\n\nBreathable bamboo meets a lace-trimmed neckline, with infused microcapsules that release Aloe Vera and Almond Oil for up to 30 washes. Comfort made beautiful, right against your skin.\n\nThe kind of cami that makes you feel incredible in your own skin, whether you're layering it or lounging in it.",
+      "headline": "Comfort made beautiful",
+      "cta": "Shop Now",
+      "why_it_works": "The cami's standout feature is its infused, skin-loving bamboo, so leading with the sensory feeling and BODYFUSION benefit gives her the single most desirable reason to want it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Ditsy Pink Floral Fuzzy Shortie PJ Set",
+      "product_url": "https://www.leays.com/products/ditsy-pink-floral-fuzzy-shortie-pj-set",
+      "image_url": "https://cdn.shopify.com/s/files/1/0743/1847/9606/files/Ditsy1.jpg?v=1783036214",
+      "price": 57,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "The shortie set everyone fell in love with is back, now in pink.\n\nUltra-soft fuzzy fabric with a satin waist drawstring, revere collar and that cloud-like feel women keep coming back for.\n\nCosy nights, elevated. This is the set your friends will ask you about. 💕",
+      "headline": "Back in pink, by demand",
+      "cta": "Get Yours",
+      "why_it_works": "The product description itself frames it as the set 'everyone fell in love with,' so leaning on its proven popularity taps genuine demand without inventing fake stats."
+    },
+    {
+      "product_index": 3,
+      "product_title": "BODYFUSION Infused Underwire Bra",
+      "product_url": "https://www.leays.com/products/nuboheme-infused-lace-trim-underwire-bra-chocolate",
+      "image_url": "https://cdn.shopify.com/s/files/1/0743/1847/9606/files/S13-26170-Leays-0546_1.jpg?v=1778031676",
+      "price": 79.99,
+      "compare_at_price": 79.99,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried an underwire means giving up comfort? Not here.\n\nCrafted from super-soft bamboo that's gentle on sensitive skin, she smooths and lifts while infused Aloe Vera and Almond Oil keep you feeling nourished all day.\n\nAnd if the fit isn't quite right, exchange it or send it back. Lace lingerie that fits like it should, with none of the risk.",
+      "headline": "Support that never sacrifices comfort",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation with an underwire bra is that support usually means discomfort, so pairing the bamboo softness with an easy exchange policy removes both the comfort and fit objections at the higher price point."
+    }
+  ],
+  "generated_at": "2026-07-09T11:10:07.651Z"
+}
