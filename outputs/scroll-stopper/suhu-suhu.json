@@ -1,0 +1,55 @@
+{
+  "lead_company": "Suhu Suhu",
+  "lead_first_name": "Lulu",
+  "website": "https://suhusuhu.com",
+  "brand_domain": "suhusuhu.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, unhurried, and craft-reverent, with a Taiwanese cultural pulse that treats everyday objects as things worth keeping.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/suhu-suhu?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://suhusuhu.com/cdn/shop/files/Frame_326_39e99f24-fb6e-4e87-b7aa-7ef31568c12c.png?height=40&v=1781651521",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "SUHU SUHU Meditation Shirt",
+      "product_url": "https://suhusuhu.com/products/suhu-suhu-meditation-shirt",
+      "image_url": "https://cdn.shopify.com/s/files/1/0633/1829/4609/files/SHIRT-FRONT.png?v=1780097820",
+      "price": 45,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "This shirt started in the Zhuolan Mountains.\n\nIt's inspired by my mother-in-law's return to center, trading the compressed rhythm of Hong Kong for space to breathe, to build, to listen. The motifs trace that place.\n\nMade by hand by makers who care about craft and material. Something that feels easy to live with and worth keeping.",
+      "headline": "A Shirt Shaped for Slow Living",
+      "cta": "Learn More",
+      "why_it_works": "The Meditation Shirt carries a personal origin story, so the founder angle turns a simple tee into a meaningful object without touching any therapeutic claims."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Handwoven Shopping Bag",
+      "product_url": "https://suhusuhu.com/products/weave-shopping-bag",
+      "image_url": "https://cdn.shopify.com/s/files/1/0633/1829/4609/files/DARK_PURPLE_89ad0f03-d8f1-4f26-b481-7cd482b49aa6.png?v=1775680882",
+      "price": 35,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "It expands to hold more than you'd expect.\n\nThe open-weave design keeps things breathable while the braided handles sit comfortably on your shoulder. Farmers market runs, beach days, casual errands, it carries them all.\n\nHandwoven in the Philippines using traditional weaving techniques, so every bag has its own subtle character.",
+      "headline": "Holds More Than You'd Think",
+      "cta": "Get Yours",
+      "why_it_works": "The bag's standout feature is its surprising capacity and everyday ease, so leading with that single desirable outcome speaks straight to how people will actually use it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "SUHU SUHU TAIWANESE BEER CUP",
+      "product_url": "https://suhusuhu.com/products/taiwanese-beer-cup",
+      "image_url": "https://cdn.shopify.com/s/files/1/0633/1829/4609/files/SUHUSUHUBEERCUP.png?v=1782768239",
+      "price": 12,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Gan Bei! 🍻\n\nThe 143ml beer cup is a staple of Taiwanese food culture. Its small size invites casual sipping and frequent toasts, the joy of gathering rather than the pressure of heavy drinking.\n\nMade in Taiwan for lively meals, shared laughter, and spontaneous cheers. Just $12 to bring the table together.",
+      "headline": "Made for the Next Gathering",
+      "cta": "Shop Now",
+      "why_it_works": "The beer cup is built around communal toasting rituals, so tying it to the moment of gathering makes it an easy, low-cost yes for anyone hosting a meal."
+    }
+  ],
+  "generated_at": "2026-07-09T22:04:56.260Z"
+}
