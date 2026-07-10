@@ -1,0 +1,163 @@
+{
+  "lead_company": "Olif",
+  "lead_first_name": "Bostjan",
+  "website": "https://olif.co.uk",
+  "brand_domain": "olif.co.uk",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium kitchen sinks and taps in exclusive, non-chrome finishes for the UK market.",
+    "core_belief": "Bringing something new and exciting to the market that gives clients a reliable, problem-free experience.",
+    "proof_points": [
+      "First to introduce PVD sinks and taps to the UK market",
+      "Family business based in Lingfield, Surrey, trading since 2012",
+      "Sourced from vetted UK, Italy, Slovenia, Poland and US manufacturers with consistent quality",
+      "Free specialist technical advice and some of the best product guarantees available"
+    ],
+    "positioning": "High-end, design-led specialist for distinct finishes - opposite of the generic chrome mass market."
+  },
+  "voice_pillars": [
+    {
+      "name": "Design-Led Exclusivity",
+      "desc": "Speaks to interior-design taste and rare finishes, framing product as a statement rather than a commodity.",
+      "quote": "distinct and exclusive kitchen sinks and taps such as copper, gold, bronze, gunmetal"
+    },
+    {
+      "name": "Craft And Provenance",
+      "desc": "Leans on materials, hand-work and country of origin to signal quality and authenticity.",
+      "quote": "Experience the Art of Cooking Hand-crafted in Italy"
+    },
+    {
+      "name": "Service-First Assurance",
+      "desc": "Reassures buyers with personal contact, expert advice and strong guarantees on a high-consideration purchase.",
+      "quote": "excellent customer service, including free specialist technical advice"
+    },
+    {
+      "name": "Quietly Confident Innovator",
+      "desc": "Positions the brand as a first-mover that seeks out fresh, market-leading products.",
+      "quote": "We were the first to introduce PVD sinks and taps to the UK market."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "distinct and exclusive kitchen sinks and taps",
+      "Experience the Art of Cooking",
+      "For those with passion for cooking",
+      "reliable and problem free user experience",
+      "Ultimate opulence",
+      "The power of Pure Black"
+    ],
+    "words": [
+      "exclusive",
+      "patinated brass",
+      "PVD",
+      "workstation",
+      "hand-crafted",
+      "undermount",
+      "solid brass",
+      "opulence"
+    ],
+    "avoid": [
+      "cheap",
+      "basic",
+      "chrome-standard",
+      "mass-market"
+    ]
+  },
+  "icp": "Design-conscious UK homeowners and interior designers renovating a kitchen who want a rare, high-end finish and expert guidance, and will pay a premium for it.",
+  "personas": [
+    {
+      "name": "The Specifying Designer",
+      "description": "Interior designer sourcing distinct non-chrome finishes for a client project, moved by exclusivity, provenance and technical support."
+    },
+    {
+      "name": "The Statement Renovator",
+      "description": "Homeowner mid-renovation wanting a standout sink or tap, moved by finish colours, hand-crafted detail and the wow factor."
+    },
+    {
+      "name": "The Passionate Home Cook",
+      "description": "Serious cook investing in a workstation sink, moved by function, durability and the art-of-cooking angle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Quadron Logan 110 Black Diamond, topmount or undermount sink",
+      "role": "Hero / best-seller",
+      "price": 345
+    },
+    {
+      "title": "Artinox Planum XT 141 undermount multi-level sink",
+      "role": "Premium",
+      "price": 1944
+    },
+    {
+      "title": "Crudo Naomi kitchen mixer tap, Patinated Brass",
+      "role": "Core",
+      "price": 575
+    },
+    {
+      "title": "Quadron Logan 120 White, topmount or undermount sink",
+      "role": "Core",
+      "price": 420
+    }
+  ],
+  "offers": [
+    "14 calendar day cooling-off returns period for non-trade customers",
+    "Full refund or exchange on faulty or transit-damaged goods (report within 3 days)",
+    "Free specialist technical advice",
+    "Timed delivery at request",
+    "Product guarantees / warranty and trade account registration"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "First to introduce PVD sinks and taps to the UK market",
+        "source": "about page"
+      },
+      {
+        "claim": "Family business based in Lingfield, Surrey, since 2012",
+        "source": "about page"
+      },
+      {
+        "claim": "Hand-crafted in Italy (Artinox workstation sinks)",
+        "source": "homepage"
+      },
+      {
+        "claim": "Marine grade stainless steel, made in Italy (Artinox outdoor sink)",
+        "source": "homepage / navigation"
+      },
+      {
+        "claim": "Free specialist technical advice and product guarantees",
+        "source": "about page"
+      },
+      {
+        "claim": "Crudo Patinated Brass sinks made of raw brass",
+        "source": "homepage / navigation"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any disease-treatment or health-benefit claim about water from the taps (e.g. filtered taps that 'boost immunity')",
+        "why": "Food and beverage compliance - banned disease-treatment and immunity claims"
+      },
+      {
+        "claim": "Unqualified 'detox' or 'purifying' language for filtered water taps",
+        "why": "Food and beverage compliance - unqualified detox claims are banned"
+      },
+      {
+        "claim": "'Natural' or 'clean' as a standalone headline claim for finishes or water",
+        "why": "Food and beverage compliance - 'natural'/'clean' are vague and risky as headline claims"
+      },
+      {
+        "claim": "Nutrient-content style claims about tap water (e.g. 'high mineral', 'low contaminant') without matching test data",
+        "why": "Food and beverage compliance - nutrient-content claims must match verifiable label/data"
+      },
+      {
+        "claim": "'Best guarantees in the marketplace' stated as absolute without qualification",
+        "why": "Superlative comparative claim not substantiated - risk under advertising truth/comparison rules"
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-10T11:21:44.624Z"
+}
