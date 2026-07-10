@@ -1,0 +1,164 @@
+{
+  "lead_company": "Jack + Mulligan",
+  "lead_first_name": "Lynda",
+  "website": "https://jackandmulligan.com",
+  "brand_domain": "jackandmulligan.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Handmade-in-USA bags and accessories built for daily commute and weekend travel.",
+    "core_belief": "Well-made goods should improve with age - 'Built on the idea that well-made goods should improve with age.'",
+    "proof_points": [
+      "Every piece cut, printed, and sewn in the USA since 2014",
+      "Leather, fabrics, and hardware sourced domestically",
+      "Vegetable-tanned Vachetta leather and waterproof/ballistic nylon construction",
+      "Warranty covering defects in materials and workmanship, plus repairs offered"
+    ],
+    "positioning": "Premium, understated American craftsmanship - durable and timeless rather than trend-driven or loud."
+  },
+  "voice_pillars": [
+    {
+      "name": "Built to Last",
+      "desc": "Speaks to durability and longevity, framing every product as an investment that ages well.",
+      "quote": "built for the long haul and just gets better with age"
+    },
+    {
+      "name": "Made in America",
+      "desc": "Leads with domestic craft and local manufacturing as a point of pride and proof.",
+      "quote": "Every piece cut, printed, and sewn in the USA."
+    },
+    {
+      "name": "Motion Between Worlds",
+      "desc": "Positions bags as bridging office routine and weekend escape.",
+      "quote": "designed to carry you between daily routine and weekend adventure"
+    },
+    {
+      "name": "Considered Craft",
+      "desc": "Uses restrained, quality-focused language centered on materials and thoughtful design.",
+      "quote": "Dedicated to the Craft of Well-Made Things"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "gets better with age",
+      "built for the long haul",
+      "take-anywhere tote with curb appeal",
+      "everyday commuting to the office, the gym, or carry-on travel",
+      "ultra-durable nylon that's lightweight, waterproof, and easy to wipe clean",
+      "elevated details"
+    ],
+    "words": [
+      "durable",
+      "handmade",
+      "Vachetta",
+      "waterproof",
+      "commute",
+      "patina",
+      "craftsmanship",
+      "timeless"
+    ],
+    "avoid": [
+      "trendy",
+      "disposable",
+      "cheap",
+      "hype"
+    ]
+  },
+  "icp": "Design-conscious working professionals who commute and travel often, value American craftsmanship, and pay more for a durable bag that ages well instead of replacing cheap ones.",
+  "personas": [
+    {
+      "name": "The Daily Commuter",
+      "description": "Office-to-gym-to-travel professional who wants one dependable bag for every leg of the day - moved by durability, laptop fit, and easy care."
+    },
+    {
+      "name": "The Craft Loyalist",
+      "description": "Values American-made quality and materials that improve with age - moved by handmade-in-USA origin, Vachetta leather, and the warranty."
+    },
+    {
+      "name": "The Corporate Gifter",
+      "description": "Team lead or brand manager sourcing branded gifts - moved by custom fabric, color, hardware, and branding made to spec."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Billie Belt Bag - Black",
+      "role": "Hero / best-seller",
+      "price": 128
+    },
+    {
+      "title": "Billie Belt Bag - Gray",
+      "role": "Premium",
+      "price": 128
+    },
+    {
+      "title": "Shopper Tote - Tie Dye",
+      "role": "Entry point",
+      "price": 28
+    },
+    {
+      "title": "Ballcap Bottle Opener - Bronx Navy",
+      "role": "Core",
+      "price": 48
+    }
+  ],
+  "offers": [
+    "Free returns and exchanges on unused items within 30 days (full purchase amount refunded)",
+    "Return shipping fee waived for domestic exchanges or store credit",
+    "Orders typically ship within one business day; 2nd day and overnight shipping available",
+    "Warranty covering defects in materials and workmanship",
+    "Custom corporate gifting made to your specifications"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made in the USA - every piece cut, printed, and sewn in the United States.",
+        "source": "homepage and about page"
+      },
+      {
+        "claim": "Handmade in New York since 2014.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Made from ultra-durable waterproof nylon with vegetable-tanned Vachetta leather.",
+        "source": "Pablo Tote product page"
+      },
+      {
+        "claim": "Free returns and exchanges on unused items within 30 days.",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Leather, fabrics, and hardware sourced domestically.",
+        "source": "about page"
+      },
+      {
+        "claim": "Warranty covering defects in materials and workmanship.",
+        "source": "FAQ page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the bags 'sustainable' or 'eco-friendly' without qualification.",
+        "why": "FTC Green Guides - unqualified sustainability claim; site only offers recycled/vegan materials on custom request."
+      },
+      {
+        "claim": "'Zero waste' or 'zero impact' production.",
+        "why": "FTC Green Guides - unverifiable absolute environmental claim not backed on site."
+      },
+      {
+        "claim": "'100% recycled' or 'carbon neutral' materials.",
+        "why": "FTC Green Guides - specific claim requires verifiable backing the brand has not published."
+      },
+      {
+        "claim": "Any claim that a bag 'relieves back or shoulder pain' or 'corrects posture'.",
+        "why": "Banned medical/orthopedic claim for this category."
+      },
+      {
+        "claim": "'Vegan' as a blanket brand descriptor.",
+        "why": "Vegan materials are only available for custom orders on request, so a broad claim would be misleading."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://jackandmulligan.com/cdn/shop/files/Mulligan_LTD_logo.png?v=1776455499&width=352",
+  "generated_at": "2026-07-10T17:22:06.167Z"
+}
