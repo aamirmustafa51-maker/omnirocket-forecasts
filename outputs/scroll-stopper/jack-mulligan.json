@@ -1,0 +1,55 @@
+{
+  "lead_company": "Jack + Mulligan",
+  "lead_first_name": "Lynda",
+  "website": "https://jackandmulligan.com",
+  "brand_domain": "jackandmulligan.com",
+  "currency": "USD",
+  "brand_voice_note": "Understated and craft-forward, speaking to durable, American-made bags that move easily between work and weekend and only get better with age.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/jack-mulligan?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://jackandmulligan.com/cdn/shop/files/Mulligan_LTD_logo.png?v=1776455499&width=352",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Pablo Tote - Bark Brown",
+      "product_url": "https://jackandmulligan.com/products/pablo-tote-bark-brown-large",
+      "image_url": "https://cdn.shopify.com/s/files/1/0237/5197/products/pablo-tote-bark-brown-large-jack-mulligan-665246.jpg?v=1580759735",
+      "price": 195,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "One tote. Office, gym, and carry-on all handled.\n\nThe Pablo Tote is a take-anywhere tote with curb appeal, made from ultra-durable nylon that's lightweight, waterproof, and easy to wipe clean.\n\nThe vegetable-tanned Vachetta leather straps darken with age into a rich honey patina, so it looks better the more you carry it.",
+      "headline": "The Take-Anywhere Tote",
+      "cta": "Shop Now",
+      "why_it_works": "The Pablo Tote's single strongest selling point is its everyday versatility, so leading with the one-bag-does-it-all outcome speaks directly to a commuter who wants to simplify."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Pablo Backpack - Gray",
+      "product_url": "https://jackandmulligan.com/products/pablo-backpack-gray",
+      "image_url": "https://cdn.shopify.com/s/files/1/0237/5197/products/pablo-backpack-gray-jack-mulligan-160772.jpg?v=1709914139",
+      "price": 175,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Tired of a bulky backpack that swallows everything and looks like gym gear?\n\nThe Pablo Backpack keeps a slim profile while holding what your day actually needs, built from ultra-durable ballistic nylon that's waterproof and lightweight.\n\nPremium vegetable-tanned leather accents that only get better with age, so it works for the office and the workout alike.",
+      "headline": "Slim Profile, Serious Space",
+      "cta": "Get Yours",
+      "why_it_works": "The everyday friction with backpacks is choosing between capacity and a clean look, and the Pablo's slim-but-spacious build resolves exactly that."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Kennedy Duffel - Midnight",
+      "product_url": "https://jackandmulligan.com/products/kennedy-duffel-navy",
+      "image_url": "https://cdn.shopify.com/s/files/1/0237/5197/products/kennedy-duffel-midnight-bags-jack-mulligan-210825.jpg?v=1609801453",
+      "price": 158,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "At $158, will it actually last? Yes.\n\nThe Kennedy Duffel is handmade in New York from heavyweight water-repellent canvas, vegetable-tanned Vachetta leather straps, and a waterproof nylon lining. Built for the long haul.\n\nMade in the USA and backed by a warranty covering defects in materials and workmanship, plus free returns within 30 days on unused items.",
+      "headline": "Built For The Long Haul",
+      "cta": "Learn More",
+      "why_it_works": "A durable duffel at an accessible price invites doubt about quality, so naming the materials, warranty, and returns policy removes the main hesitation before purchase."
+    }
+  ],
+  "generated_at": "2026-07-10T17:22:19.393Z"
+}
