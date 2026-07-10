@@ -1,0 +1,104 @@
+{
+  "brand": "Olif",
+  "brand_slug": "olif",
+  "first_name": "Bostjan",
+  "website": "https://www.olif.co.uk",
+  "generated_date": "July 10, 2026",
+  "read_time_min": 3,
+  "total_ads": 4,
+  "niche": "kitchen sinks",
+  "tldr": "You're running just 4 ads, and they all lean on the same two ideas: workstation sinks and patinated brass. Meta needs more genuinely different ads to keep showing your work to fresh buyers.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Most brands in your space put out a new ad every three weeks. The best ones do it every two. You also don't have enough genuinely different ads running, so Meta sees them as basically one ad and quietly shows fewer of them."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Multi-layer Workstation Sinks - Hand-crafted in Italy",
+      "body": "Transform your kitchen sink into workstation with multiple sliding accessories - supersize to standard sizes stocked in the UK https://bit.ly/3CaWGbF",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been running unchanged for 131 days, more than four times longer than a sink ad should last.",
+        "The body reads like a product page instead of an ad, so people scroll past before the offer lands.",
+        "A raw bit.ly link sits inside the body copy, which looks cheap and pulls trust away from a premium product."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 2,
+      "headline": "Patinated Brass kitchen sink",
+      "body": "Patinated Brass cladded sink matching Quooker tap",
+      "cta": "See Details",
+      "fatigue_score": 78,
+      "days_until_fatigue": 14,
+      "severity": "warn",
+      "drivers": [
+        "The headline and body say almost the same thing twice, so you're wasting your two best pieces of real estate.",
+        "This ad and your brass belfast sink ad both sell patinated brass, so Meta treats them as one ad and shows fewer of both.",
+        "There's no reason to click here today. No price, no stock note, no story about who buys this sink."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 3,
+      "headline": "Patinated Brass belfast sinks",
+      "body": "Belfast butlers sinks made of real patinated brass",
+      "cta": "See details",
+      "fatigue_score": 74,
+      "days_until_fatigue": 17,
+      "severity": "warn",
+      "drivers": [
+        "Same opening pattern as your other brass ad: material name, then product name, then nothing that makes someone stop scrolling.",
+        "The body is only nine words and adds nothing the headline didn't already say.",
+        "You're already past your usual 28-day refresh window with copy this thin, so its best days are behind it."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 1,
+      "headline": "Quooker matching sinks",
+      "body": "Over thirty models in one place",
+      "cta": "See Details",
+      "fatigue_score": 68,
+      "days_until_fatigue": 20,
+      "severity": "warn",
+      "drivers": [
+        "The body only makes sense if the shopper already knows what Quooker is, so cold buyers bounce.",
+        "'Over thirty models in one place' sounds like a category label, not a reason to buy today.",
+        "Three of your four ads use the same soft 'See Details' button, so nothing feels urgent to click."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "The Sink That Outlives The Kitchen",
+    "format": "Single image",
+    "hook": "Most kitchen sinks last 8 years. This one lasts 40.",
+    "headline": "Built once. Kept forever.",
+    "primary_text": "Cheap sinks stain, dent, and get swapped out every kitchen renovation. That's not what we sell.\n\nThe Artinox Radius 70 is a proper undermount stainless steel sink, hand-finished in Italy, built to sit under your worktop for the next four decades without complaint.\n\nIn stock in the UK. Free delivery on orders over £500.",
+    "cta": "Shop Now",
+    "visual_direction": "Overhead shot of the Radius 70 undermount sink installed in a warm oak worktop, morning light from a side window, a single ceramic mug and a lemon on the counter for scale and lived-in feel.",
+    "fills_gap": "Every ad you're running right now names the product but never says why anyone should care. This one gives buyers a reason: longevity. It also breaks your pattern of short, catalogue-style captions with a real story a homeowner can picture.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a warm modern kitchen scene with the undermount sink installed beneath a solid oak worktop, a single cream ceramic mug and a fresh lemon resting on the counter beside it, with soft morning daylight from a side window casting a gentle diagonal across the stainless steel basin. Clean, high-end interiors magazine aesthetic with neutral warm tones in the surrounding wood and pale plaster wall, keeping the sink itself as the clear focal point. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact brushed stainless steel finish and cool silver tone of the Artinox Radius 70 sink exactly as shown in the reference; strictly NO gold, brass, copper, black, gunmetal, or warm metallic tones, NO color shift on the steel, NO polished mirror finish if the reference is brushed, NO matte black conversion. STRUCTURE - preserve the exact construction of the Artinox Radius 70 undermount sink: single rectangular basin with the same 70cm width proportions as shown, tight radius inner corners exactly as in reference, flat rim designed for undermount installation beneath a worktop, single centered drain outlet at the base of the basin, smooth flat basin floor with no ridges or ledges unless present in reference. Do NOT add a second bowl, do NOT convert to a topmount or farmhouse apron style, do NOT add drainboard grooves, do NOT add a workstation ledge or accessory rails unless present in reference, do NOT change the corner radius, do NOT add faucet holes to the sink body, do NOT change basin depth. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Artinox Radius 70, undermount kitchen sink",
+    "reference_url": "https://olif.co.uk/products/artinox-radius-70-undermount-kitchen-sink",
+    "image_path": "/creatives/olif/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your workstation sink ad is basically done, and the two brass ads follow within two to three weeks.",
+    "headline": "Walk through the Olif refresh plan with Kyle",
+    "body": "Bostjan, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://www.olif.co.uk/cdn/shop/files/browser_32x32.png?v=1699306582"
+}
