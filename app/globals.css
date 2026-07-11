@@ -626,14 +626,17 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   overflow: hidden;
 }
 .fb-ad-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
-/* Scroll-stopper shows the brand's REAL product photos, which vary in aspect
-   (tall bottles, apparel, wide boxes). Cropping to a square slices tall products
-   (a tequila bottle loses its neck and base). Scope an override to scroll-stopper
-   only: natural height so the whole product always shows - no crop, no letterbox,
-   the card grows to fit each image. Auto-adapts per brand. White fill matches the
-   typical white-background product shot. (Forecast keeps its square mockups.) */
-.ss-concept .fb-ad-image { aspect-ratio: auto; background: #ffffff; }
-.ss-concept .fb-ad-image img { height: auto; object-fit: contain; }
+/* Scroll-stopper ad visuals are AI concept renders generated at Meta's native
+   1:1 feed ratio, so they use the default square card above - same as Forecast.
+   The `ss-native` modifier is the FALLBACK path only: when image generation
+   fails we render the brand's raw catalog photo, which varies in aspect (tall
+   bottles, apparel, wide boxes). Cropping those to a square slices tall products
+   (a bottle loses its neck and base), so a native photo keeps its natural height
+   on a white pad - no crop, no letterbox, the card grows to fit the image. */
+.ss-concept .fb-ad-image.ss-native { aspect-ratio: auto; background: #ffffff; }
+.ss-concept .fb-ad-image.ss-native img { height: auto; object-fit: contain; }
+/* Plain-English description of the shot, under "Why this angle". */
+.ss-visual-note { margin-top: 8px; }
 .fb-ad-image-fallback {
   position: absolute;
   inset: 0;
