@@ -1,0 +1,167 @@
+{
+  "lead_company": "Smiling Wolf",
+  "lead_first_name": "Hamilton",
+  "website": "https://smilingwolf.com",
+  "brand_domain": "smilingwolf.com",
+  "currency": "GBP",
+  "review_count": 67,
+  "brand_dna": {
+    "category": "Non-alcoholic functional spirits and ready-to-drink cocktails - a feel-good alcohol alternative for adults.",
+    "core_belief": "You should be able to live the moment without compromising tomorrow - the buzz without the hangover.",
+    "proof_points": [
+      "Smiling Wolf Proprietary Blend of natural nootropics + B vitamins (878mg per 250ml in the Mojito)",
+      "All ingredients GRAS (Generally Recognised as Safe) approved and certified",
+      "Distilled from original/authentic spirit ingredients; Aperitivo made from 18 mediterranean herbs and bitters",
+      "Low Sugar, Vegan Friendly, low Kcal (9 Kcal/25ml Spiced, 23-29 Kcal/25ml Aperitivo)"
+    ],
+    "positioning": "Premium, playful adult alternative that mimics real spirits and cocktails, differentiated by a mood-enhancing functional blend rather than plain zero-proof."
+  },
+  "voice_pillars": [
+    {
+      "name": "Upbeat and Playful",
+      "desc": "Warm, cheeky, feel-good tone that leans into fun and personality over clinical wellness talk.",
+      "quote": "ALCOHOL ALTERNATIVE THAT MAKES YOU SMILE FROM THE FIRST SIP"
+    },
+    {
+      "name": "No-Compromise Promise",
+      "desc": "Frames every product around getting the good part of a drink and skipping the downside.",
+      "quote": "No booze. No crash. No hangover"
+    },
+    {
+      "name": "Sensory and Evocative",
+      "desc": "Sells the taste and mood with vivid, place-and-flavour language that makes the drink feel real.",
+      "quote": "Our alcohol free mojito is Cuba in a glass."
+    },
+    {
+      "name": "Reassuringly Functional",
+      "desc": "Explains the science and safety plainly so buyers trust what is in the bottle.",
+      "quote": "designed to give you the buzz without the hangover"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "the buzz without the hangover",
+      "No booze. No crash. No hangover",
+      "live the moment without compromising tomorrow",
+      "a social buzz",
+      "Cuba in a glass",
+      "sip away from lunch time until night time without consequences"
+    ],
+    "words": [
+      "feel good",
+      "mood enhancing",
+      "nootropics",
+      "buzz",
+      "hangover-free",
+      "non alcoholic",
+      "vegan friendly",
+      "spritz"
+    ],
+    "avoid": [
+      "clinical",
+      "preachy sobriety talk",
+      "boozy",
+      "medicinal"
+    ]
+  },
+  "icp": "Sociable adults who want the ritual and taste of a proper drink but are cutting back on alcohol and refuse to sacrifice flavour, mood, or a clear head the next day.",
+  "personas": [
+    {
+      "name": "The Mindful Host",
+      "description": "Entertains at home and wants premium ready-to-drink cocktails and hosting packs so everyone feels included - moved by taste, presentation, and 'without consequences' messaging."
+    },
+    {
+      "name": "The Sober-Curious Professional",
+      "description": "Cutting back but still wants a social buzz after work - moved by the nootropic mood-lift and 'no crash, no hangover' promise."
+    },
+    {
+      "name": "The Flavour Seeker",
+      "description": "Loves classic cocktails like Aperitivo, Mojito and Dark & Stormy and buys for taste authenticity - moved by 'made from 18 mediterranean herbs' and 'Cuba in a glass' sensory copy."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Agave",
+      "role": "Hero / best-seller",
+      "price": 29.5
+    },
+    {
+      "title": "Wolf Starter Pack",
+      "role": "Core",
+      "price": 69
+    },
+    {
+      "title": "Crystal Starter Pack",
+      "role": "Core",
+      "price": 49
+    },
+    {
+      "title": "Summer Hosting Pack",
+      "role": "Premium",
+      "price": 73
+    }
+  ],
+  "offers": [
+    "Free Next Day Shipping option on Aperitivo (2 Bottles tier)",
+    "Reliable Delivery guarantee: delivery within 3-5 business days or shipping is on us for in-control delays",
+    "Bundles and cocktail packs: Wolf Starter Pack, Crystal Starter Pack, Summer Hosting Pack, Mixed Cocktail Pack, plus themed spritz and G&T packs",
+    "14 calendar day returns on unused items in original packaging"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Non-alcoholic / 0.5% alcohol free spirits and cocktails.",
+        "source": "product pages (Aperitivo, Mojito)"
+      },
+      {
+        "claim": "Contains a proprietary blend of natural nootropics and B vitamins for a social buzz.",
+        "source": "product pages and homepage"
+      },
+      {
+        "claim": "No booze, no crash, no hangover.",
+        "source": "product pages"
+      },
+      {
+        "claim": "Low Sugar, Low Kcal, Vegan Friendly.",
+        "source": "product pages"
+      },
+      {
+        "claim": "All ingredients are GRAS (Generally Recognised as Safe) approved and certified.",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "Aperitivo made from 18 different mediterranean herbs and bitters.",
+        "source": "Aperitivo product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any medical or therapeutic claim that the nootropics treat, cure or improve a health condition.",
+        "why": "Medical claims are banned for this category; keep to permitted lifestyle wording like 'mood enhancing'."
+      },
+      {
+        "claim": "Unqualified 'sustainable', 'eco-friendly' or 'carbon neutral' packaging or product claims.",
+        "why": "FTC Green Guides - unqualified sustainability claims without specific verifiable backing."
+      },
+      {
+        "claim": "'Zero impact' or '100% recycled' bottle/packaging claims without proof.",
+        "why": "FTC Green Guides - requires specific, verifiable substantiation not present on the site."
+      },
+      {
+        "claim": "Stating or implying the drink is completely alcohol-free / 0.0%.",
+        "why": "Products are labelled 0.5%, so absolute '0.0%' or 'contains no alcohol' claims are unsubstantiated."
+      },
+      {
+        "claim": "Claiming it is safe during pregnancy, breastfeeding or on medication.",
+        "why": "Site itself advises consulting a medical professional; a safety claim would contradict their own guidance and imply a medical assurance."
+      },
+      {
+        "claim": "Implying it delivers or replaces an actual alcohol intoxication 'buzz'.",
+        "why": "Overstates effect beyond the mood-enhancing functional-blend positioning the brand actually backs."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://smilingwolf.com/cdn/shop/files/SWNB_-_Primary_logo_blend.png?v=1763741015&width=200",
+  "generated_at": "2026-07-11T10:13:16.172Z"
+}
