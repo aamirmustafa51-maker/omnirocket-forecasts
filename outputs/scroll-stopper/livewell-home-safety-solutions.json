@@ -1,0 +1,61 @@
+{
+  "lead_company": "LiveWell Home Safety Solutions",
+  "lead_first_name": "Scott",
+  "website": "https://livewellhs.com",
+  "brand_domain": "livewellhs.com",
+  "currency": "USD",
+  "brand_voice_note": "Calm, dignified, and design-forward - safety framed as confident independence and elegant home decor, never as medical decline.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/livewell-home-safety-solutions?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://livewellhs.com/cdn/shop/files/DUAL_w_LW_240x_2x_62b20c4a-1c23-4b16-a73b-b2f3f5adc4d7_145x@2x.png?v=1706548180",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "LiveWell Grabcessories™ Decorative 2-in-1 Safety Grab Bar with Toilet Paper Holder",
+      "product_url": "https://livewellhs.com/products/grabcessories-2-in-1-grab-bars-toilet-paper-holder",
+      "image_url": "/creatives/scroll-stopper/livewell-home-safety-solutions/ad-1.jpg",
+      "ai_image": true,
+      "price": 108,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "The toilet is where most bathroom falls happen - usually mid-reach for the paper.\n\nOur 2-in-1 grab bar puts secure support and your toilet paper holder in one discreet fixture, so you get steady support exactly when you're reaching. It looks like a bath accessory first, a grab bar second.\n\nADA compliant, 1-1/4 inch grip, and rated to support up to 500lbs in walls that support the load. Hollow wall anchors and stud flanges included free.",
+      "headline": "Steady support, right where you reach",
+      "cta": "Shop Now",
+      "why_it_works": "It names the exact everyday friction - reaching for paper at the highest fall-risk moment - and shows one fixture that quietly solves it without looking clinical.",
+      "visual_direction": "The 2-in-1 grab bar with toilet paper holder mounted on a clean white tiled bathroom wall beside the toilet, with a roll of paper and a small green sprig for a calm home feel."
+    },
+    {
+      "product_index": 2,
+      "product_title": "LiveWell Grabcessories™ Decorative 24 inch Straight Grab Bar with Capped Ends, Multiple Nubby Rubber Grips",
+      "product_url": "https://livewellhs.com/products/24-inch-straight-decorative-grab-bars",
+      "image_url": "/creatives/scroll-stopper/livewell-home-safety-solutions/ad-2.jpg",
+      "ai_image": true,
+      "price": 95.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "\"Won't a grab bar make my bathroom look institutional?\"\n\nNot this one. This 24 inch bar reads as a sleek towel-rail-worthy accessory, with a mirror-bright chrome finish and nubby rubber grips for a sure hold. No longer institutional looking.\n\nStill fully ADA compliant with a 1-1/4 inch diameter, rated to support up to 500lbs in walls that support the load. Anchors and stud flanges included in every box.",
+      "headline": "Safe support that looks designed",
+      "cta": "Learn More",
+      "why_it_works": "The biggest hesitation with grab bars is that they look medical, so this ad meets that fear head on and proves style and ADA safety can coexist.",
+      "visual_direction": "A close, detail-rich shot of the 24 inch chrome grab bar with its rubber grips against a warm-grey wall, styled beside folded towels on an oak shelf to show it looks like decor."
+    },
+    {
+      "product_index": 3,
+      "product_title": "LiveWell Grabcessories™ Decorative 2-in-1 Grab Bar Towel Bar w/Grips",
+      "product_url": "https://livewellhs.com/products/grabcessories-2-in-1-grab-bars-towel-bar",
+      "image_url": "/creatives/scroll-stopper/livewell-home-safety-solutions/ad-3.jpg",
+      "ai_image": true,
+      "price": 108,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Age in place with confidence and style.\n\nThis 2-in-1 grab bar doubles as a towel bar, giving you secure support exactly when you're reaching for towels - the moment your bathroom is most slippery. The perfect blend of functionality and elegance.\n\nDesigned from research with hundreds of real users, ADA compliant, and rated to support up to 500lbs in walls that support the load. Free shipping on orders over $100.",
+      "headline": "Confidence, styled into your bathroom",
+      "cta": "Get Yours",
+      "why_it_works": "This bar's towel-bar duality makes the aspirational outcome - reaching for a towel with total confidence - the natural hero, so leading with that feeling fits best.",
+      "visual_direction": "The 2-in-1 grab bar and towel bar in a warm, sunlit spa bathroom beside a glass shower, with a plush white towel draped over it to show the towel-bar function in a calm, aspirational setting."
+    }
+  ],
+  "generated_at": "2026-07-11T10:05:40.992Z"
+}
