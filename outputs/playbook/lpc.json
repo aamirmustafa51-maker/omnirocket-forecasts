@@ -1,0 +1,137 @@
+{
+  "lead_company": "LPC",
+  "lead_first_name": "Leilani",
+  "website": "https://lpcgolf.com",
+  "brand_domain": "lpcgolf.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium handcrafted, customizable leather golf headcovers made in San Francisco.",
+    "core_belief": "That a headcover should be built to last and made for you - real craftsmanship a golfer can be proud of on the course.",
+    "proof_points": [
+      "100% top grain genuine cowhide from tanneries in Italy, Argentina, and Austria",
+      "Every piece hand cut and hand-stitched by an artisan in downtown San Francisco, CA",
+      "100% made in the USA (San Francisco)",
+      "Custom embroidery with initials, logos, or designs"
+    ],
+    "positioning": "Premium, heritage-craft end of the golf accessory market - artisan and personalized, not mass-produced."
+  },
+  "voice_pillars": [
+    {
+      "name": "Artisan Craft",
+      "desc": "Leads with the human maker and the handwork behind every piece.",
+      "quote": "hand-stitched by a skilled artisan who takes pride in their work"
+    },
+    {
+      "name": "Heritage Elegance",
+      "desc": "Speaks to timeless, refined taste and understated luxury.",
+      "quote": "heritage style with understated elegance and premium craftsmanship"
+    },
+    {
+      "name": "Built to Last",
+      "desc": "Frames quality as long-term protection and durability, not just looks.",
+      "quote": "it'll protect your clubs for years to come"
+    },
+    {
+      "name": "Made for You",
+      "desc": "Centers personalization and individual expression on the course.",
+      "quote": "a look that's unmistakably their own"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "These headcovers are absolutely amazing!",
+      "The craftsmanship is top-notch",
+      "I get compliments on them every time I'm on the course",
+      "Built to Last, Made for You",
+      "make a confident statement",
+      "as unique as you"
+    ],
+    "words": [
+      "handcrafted",
+      "artisan",
+      "premium",
+      "hand-stitched",
+      "leather",
+      "craftsmanship",
+      "customizable",
+      "timeless"
+    ],
+    "avoid": [
+      "cheap",
+      "mass-produced",
+      "disposable",
+      "gimmicky"
+    ]
+  },
+  "icp": "Discerning golfers who value craftsmanship and personal style, and will pay a premium for a handmade leather headcover that stands out and lasts.",
+  "personas": [
+    {
+      "name": "The Statement Golfer",
+      "description": "Wants gear that turns heads and draws compliments on the course - moved by bold materials, exotic textures, and 'unmistakably their own' designs."
+    },
+    {
+      "name": "The Heritage Traditionalist",
+      "description": "Appreciates classic, understated elegance and old-world craft - moved by hand-stitched French seams, premium leather, and timeless combinations."
+    },
+    {
+      "name": "The Custom Gifter",
+      "description": "Buying for themselves or a golfer they love - moved by embroidery with initials or logos and the build-a-set save-10% incentive."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Build a set, save 10% - automatic discount with 4+ headcovers",
+    "Custom embroidery (initials, logos, or designs)",
+    "30-day returns for a full refund or exchange (new, unused condition; custom items excluded)",
+    "Customer pays return shipping"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "100% top grain genuine cowhide from tanneries in Italy, Argentina, and Austria",
+        "source": "product page - Artisan Craftsmanship"
+      },
+      {
+        "claim": "Hand cut and hand-stitched by an artisan in San Francisco, CA",
+        "source": "product and homepage"
+      },
+      {
+        "claim": "100% made in the USA (San Francisco)",
+        "source": "homepage"
+      },
+      {
+        "claim": "Build a set and save 10% with 4+ headcovers",
+        "source": "product page"
+      },
+      {
+        "claim": "30-day returns in new, unused condition (custom items excluded)",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best golf headcovers in the world / #1 headcovers",
+        "why": "FTC - unqualified superlative that cannot be substantiated"
+      },
+      {
+        "claim": "Guaranteed to last a lifetime",
+        "why": "FTC - guaranteed-results/durability claim not backed by a stated warranty"
+      },
+      {
+        "claim": "Rated 5.0 by hundreds of golfers",
+        "why": "FTC - invented review counts; only one testimonial is shown on site"
+      },
+      {
+        "claim": "Only a few left - order in the next hour",
+        "why": "FTC - fake urgency not supported by real inventory data"
+      },
+      {
+        "claim": "Endorsed by touring pros",
+        "why": "FTC - invented endorsement not present anywhere on the site"
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-11T19:45:10.364Z"
+}
