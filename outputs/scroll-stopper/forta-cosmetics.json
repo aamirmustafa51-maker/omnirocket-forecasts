@@ -1,0 +1,44 @@
+{
+  "lead_company": "FORTA Cosmetics",
+  "lead_first_name": "Sarah",
+  "website": "https://fortacosmetics.com",
+  "brand_domain": "fortacosmetics.com",
+  "currency": "USD",
+  "brand_voice_note": "Bold, athletic, and playfully confident beauty that treats makeup as performance gear built to move with you from morning to night.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/forta-cosmetics?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Lock & Go Setting Spray",
+      "product_url": "https://fortacosmetics.com/products/lock-and-go-setting-spray",
+      "image_url": "/creatives/scroll-stopper/forta-cosmetics/ad-1.jpg",
+      "ai_image": true,
+      "price": 26,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Your makeup shouldn't tap out before you do.\n\nLock & Go locks makeup in place with an ultra-light, flexible finish that never feels tight, sticky, or heavy. Sweat-tested by professional athletes for 16-hour wear.\n\nDampen. Bounce. Lock. Confidence should carry you from morning to night.",
+      "headline": "Sweat It Out. Keep the Look.",
+      "cta": "Shop Now",
+      "why_it_works": "It names the exact friction active women face - makeup sliding off mid-motion - then answers it with the sweat-tested, 16-hour performance claim.",
+      "visual_direction": "The setting spray bottle standing on a gym bench next to a folded towel, water bottle, and resistance band."
+    },
+    {
+      "product_index": 2,
+      "product_title": "The Sponge",
+      "product_url": "https://fortacosmetics.com/products/the-sponge",
+      "image_url": "/creatives/scroll-stopper/forta-cosmetics/ad-2.jpg",
+      "ai_image": true,
+      "price": 14,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "The secret to a finish that never looks cakey.\n\nThe angled edge blends into contour areas while the rounded body buffs product into skin for a seamless, natural finish. Foundation, concealer, powder, setting spray - it does it all.\n\nOne sponge. Zero streaks.",
+      "headline": "A Flawless, Natural Finish",
+      "cta": "Get Yours",
+      "why_it_works": "For a $14 essential the buyer just wants the result, so leading with the smooth, never-cakey finish is the fastest path to yes.",
+      "visual_direction": "The makeup sponge on a marble vanity next to an open compact and a soft linen cloth."
+    }
+  ],
+  "generated_at": "2026-07-11T09:46:56.603Z"
+}
