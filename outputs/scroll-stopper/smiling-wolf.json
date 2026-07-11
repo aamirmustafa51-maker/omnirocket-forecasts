@@ -1,0 +1,61 @@
+{
+  "lead_company": "Smiling Wolf",
+  "lead_first_name": "Hamilton",
+  "website": "https://smilingwolf.com",
+  "brand_domain": "smilingwolf.com",
+  "currency": "GBP",
+  "brand_voice_note": "Upbeat, cheeky and sensory-led, selling the mood and flavour of a proper drink while cheerfully promising no booze, no crash, no hangover.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/smiling-wolf?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://smilingwolf.com/cdn/shop/files/SWNB_-_Primary_logo_blend.png?v=1763741015&width=200",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Dark & Stormy Pack",
+      "product_url": "https://smilingwolf.com/products/dark-stormy-pack",
+      "image_url": "/creatives/scroll-stopper/smiling-wolf/ad-1.jpg",
+      "ai_image": true,
+      "price": 34,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Want the drink without writing off tomorrow?\n\nOur Dark & Stormy Pack pairs smooth rum-style Spiced with zesty ginger beer for that stormy depth you love. No booze. No crash. No hangover.\n\nJust natural nootropics and B vitamins for a proper social buzz, so you live the moment without compromising tomorrow.",
+      "headline": "The buzz, minus the hangover",
+      "cta": "Shop Now",
+      "why_it_works": "The Dark & Stormy is the classic 'I want a real drink but not the fallout' order, so naming that exact friction and removing it lands instantly.",
+      "visual_direction": "The Spiced bottle and its ginger beers on a dark slate home bar cart, with a poured tumbler over ice, fresh lime and sliced ginger, in moody evening light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Mojito Pack",
+      "product_url": "https://smilingwolf.com/products/alcohol-free-mojito",
+      "image_url": "https://cdn.shopify.com/s/files/1/0891/3000/8914/files/Mojito_Serve.png?v=1780392461",
+      "ai_image": false,
+      "price": 24.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Cuba in a glass, ready when you are. 🌿\n\nFresh mint, vibrant citrus and warm oaked vanilla in a ready-to-pour mojito. Chill it, crack it, sip it.\n\nMood-enhancing natural nootropics for a social buzz, and zero hangover waiting for you in the morning.",
+      "headline": "Cuba in a glass, ready to pour",
+      "cta": "Get Yours",
+      "why_it_works": "A ready-to-drink mojito sells on the instant mood and flavour payoff, so leading with the vivid 'Cuba in a glass' feeling is the strongest hook.",
+      "visual_direction": "The ready-to-drink mojito on a sunny terrace table with fresh mint, lime and a chilled glass beside it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Aperitivo",
+      "product_url": "https://smilingwolf.com/products/alcohol-free-aperol",
+      "image_url": "/creatives/scroll-stopper/smiling-wolf/ad-3.jpg",
+      "ai_image": true,
+      "price": 29.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Spritz o'clock has no closing time.\n\nA wolf in Italian clothing: our alcohol free Aperitivo is built from 18 different mediterranean herbs and bitters, made for spritz and negroni.\n\nSip away from lunch time until night time without consequences. No booze. No crash. No hangover.",
+      "headline": "Your all-day Italian spritz",
+      "cta": "Shop Now",
+      "why_it_works": "An aperitivo lives in the long lazy afternoon-into-evening moment, so anchoring it to that all-day spritz occasion makes the purchase feel obvious.",
+      "visual_direction": "The Aperitivo bottle on a sunlit Mediterranean cafe table with an orange spritz over ice, orange slice, olives and herbs, in golden afternoon light."
+    }
+  ],
+  "generated_at": "2026-07-11T10:14:58.227Z"
+}
