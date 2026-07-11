@@ -1,0 +1,155 @@
+{
+  "lead_company": "FORTA Cosmetics",
+  "lead_first_name": "Sarah",
+  "website": "https://fortacosmetics.com",
+  "brand_domain": "fortacosmetics.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Performance beauty and cosmetics - makeup engineered to last through sweat and motion for active women.",
+    "core_belief": "Confidence should carry you from morning to night - you never have to sit still to look pretty.",
+    "proof_points": [
+      "Founded by WNBA star Lexie Hull and former Stanford roommate Sarah Guller",
+      "Setting spray is sweat-tested by professional athletes",
+      "Non-comedogenic, hydrating formula with 16-hour wear",
+      "Latex-free foam sponge, cleansable and reusable"
+    ],
+    "positioning": "A focused, athlete-built beauty line that plays performance-first against traditional sit-still makeup brands."
+  },
+  "voice_pillars": [
+    {
+      "name": "Built for Motion",
+      "desc": "Every line ties beauty to an active, non-stop life instead of stillness or vanity.",
+      "quote": "Built for Motion. Refined for Beauty."
+    },
+    {
+      "name": "Empowering and Bold",
+      "desc": "Speaks to confidence and strength, positioning the customer as unstoppable.",
+      "quote": "feel empowered, fresh, and unstoppable no matter what your schedule holds"
+    },
+    {
+      "name": "Playfully Confident",
+      "desc": "Short, punchy, attitude-forward copy that reframes what makeup is for.",
+      "quote": "You don't have to sit still to look pretty."
+    },
+    {
+      "name": "Performance-Proof",
+      "desc": "Backs claims with concrete, tested performance language rather than fluff.",
+      "quote": "16-hour wear Sweat-tested by professional athletes"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "locks makeup in place",
+      "never feels tight, sticky, or heavy",
+      "designed to last through sweat, movement",
+      "a seamless, natural finish that never looks cakey",
+      "confidence should carry you from morning to night",
+      "Dampen. Bounce. Lock."
+    ],
+    "words": [
+      "unstoppable",
+      "motion",
+      "sweat-tested",
+      "long-lasting",
+      "lock",
+      "flexible finish",
+      "hydrating",
+      "empowered"
+    ],
+    "avoid": [
+      "fragile",
+      "delicate",
+      "high-maintenance",
+      "sit still"
+    ]
+  },
+  "icp": "Active women who train, work long days, and stay on the move, and who want makeup that keeps up without constant reapplication.",
+  "personas": [
+    {
+      "name": "The Athlete-on-the-Go",
+      "description": "Trains hard and lives in motion - moved by proof that makeup survives sweat and workouts."
+    },
+    {
+      "name": "The Busy Professional",
+      "description": "Runs from long workdays into nights out - moved by all-day 16-hour wear that never needs a touch-up."
+    },
+    {
+      "name": "The Founder-Loyal Fan",
+      "description": "Follows Lexie Hull and women-led sports brands - moved by the athlete origin story and community angle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Lock & Go Setting Spray",
+      "role": "Hero / best-seller",
+      "price": 26
+    },
+    {
+      "title": "The Sponge",
+      "role": "Entry point",
+      "price": 14
+    }
+  ],
+  "offers": [
+    "Free shipping on orders $40 and above",
+    "Damaged or defective item replacement within 30 days of receipt",
+    "Email waitlist signup for new launches"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "16-hour wear",
+        "source": "Lock & Go Setting Spray product page"
+      },
+      {
+        "claim": "Sweat-tested by professional athletes",
+        "source": "Lock & Go Setting Spray product page"
+      },
+      {
+        "claim": "Non-comedogenic",
+        "source": "Lock & Go Setting Spray product page"
+      },
+      {
+        "claim": "Locks makeup in place with an ultra-light, flexible finish that never feels tight, sticky, or heavy",
+        "source": "Lock & Go Setting Spray product page"
+      },
+      {
+        "claim": "Latex-free foam sponge for a seamless, natural finish that never looks cakey",
+        "source": "The Sponge product page"
+      },
+      {
+        "claim": "Founded by WNBA star Lexie Hull and Stanford roommate Sarah Guller",
+        "source": "About page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Repairs or heals your skin",
+        "why": "Cosmetics may not claim to repair or heal - that implies drug-level structure/function effect."
+      },
+      {
+        "claim": "Treats or prevents acne",
+        "why": "Non-comedogenic is fine, but treating acne is a drug claim not permitted for a cosmetic."
+      },
+      {
+        "claim": "Boosts collagen production",
+        "why": "Structure/function claim that turns a cosmetic into an unapproved drug."
+      },
+      {
+        "claim": "Anti-aging that reverses signs of aging",
+        "why": "Reversing aging is a structure/function claim; use appearance language like 'looks smoother'."
+      },
+      {
+        "claim": "Clinically proven to last 16 hours",
+        "why": "No study provided - 'clinically proven' cannot be used without a real supporting study."
+      },
+      {
+        "claim": "Hydrating formula that permanently restores skin moisture barrier",
+        "why": "Barrier restoration is a structure/function drug claim; keep to surface hydration/appearance."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-11T09:46:10.316Z"
+}
