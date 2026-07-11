@@ -6,77 +6,77 @@
   "currency": "USD",
   "review_count": 0,
   "brand_dna": {
-    "category": "Decorative home safety hardware - grab bars and bath accessories that disguise fall-prevention as elegant fixtures.",
+    "category": "Decorative bathroom safety hardware - grab bars disguised as bath accessories for aging-in-place and fall prevention.",
     "core_belief": "That bathing should be a safe, beautiful, and tranquil experience, and that safety, beauty, easy installation and affordability do not have to be mutually exclusive.",
     "proof_points": [
-      "LiveSafe Mounting System included FREE in every box - two hollow wall anchors and two stud mount flanges",
-      "System supports up to 500lbs in hollow wall substrates and studs",
-      "ADA compliant models with 1-1/4 inch diameter and nubby rubber grips",
-      "Product designs based on research with hundreds of end users in residential and senior living environments"
+      "LiveSafe Mounting System supports up to 500lbs in hollow wall substrates as well as in studs",
+      "Hollow wall anchors and stud mount flanges included FREE in every box (competitors charge $11-$50 extra)",
+      "ADA compliant grab bars, 1-1/4 inch diameter",
+      "Products designed from research with hundreds of end users in residential and senior living environments"
     ],
-    "positioning": "Premium yet affordable design-forward alternative to institutional-looking grab bars - safety that looks like decor, not a hospital."
+    "positioning": "Premium and design-led vs. institutional grab bars - luxurious yet affordable, where the safety device hides in plain sight as decor."
   },
   "voice_pillars": [
     {
-      "name": "Safety Without Sacrifice",
-      "desc": "Frames every product as proof you never have to trade protection for good looks.",
-      "quote": "Why choose between safety and style when you can have both?"
-    },
-    {
-      "name": "Dignity-Driven",
-      "desc": "Speaks to preserving independence and pride, not to frailty or decline.",
+      "name": "Dignity-First",
+      "desc": "Frames safety around independence and self-respect, not frailty or medical decline.",
       "quote": "prevent falls, preserve dignity, enhance home accessibility and promote independent living"
     },
     {
-      "name": "Research-Backed Confidence",
-      "desc": "Leans on real end-user research and specifics to earn trust in a high-stakes purchase.",
+      "name": "Safety Meets Style",
+      "desc": "Refuses the tradeoff between looking good and being safe; both are always promised together.",
+      "quote": "Why choose between safety and style when you can have both?"
+    },
+    {
+      "name": "Research-Backed",
+      "desc": "Grounds design choices in real study of where and why people fall in the bathroom.",
       "quote": "We know the high risk fall zones in the bathroom, what causes people to fall"
     },
     {
-      "name": "Discreetly Beautiful",
-      "desc": "Positions grab bars as hidden-in-plain-sight decor that upgrades a room.",
+      "name": "Discreet by Design",
+      "desc": "Positions the product as hidden help - a bath accessory first, a grab bar second.",
       "quote": "disguises grab bars as bath accessories, discretely providing the safety of grab bars"
     }
   ],
   "customer_language": {
     "phrases": [
-      "Safety and Convenience",
-      "transforms your bathroom's most vulnerable moment into a confident, secure experience",
       "age in place with confidence and style",
       "the perfect blend of functionality and elegance",
+      "safety and style when you can have both",
       "secure support exactly when you're reaching for towels",
-      "Perfect Balance of Safety and Style"
+      "transforms your bathroom's most vulnerable moment",
+      "no longer institutional looking"
     ],
     "words": [
       "safety",
       "style",
+      "dignity",
+      "independence",
       "decorative",
       "confidence",
-      "dignity",
-      "independent living",
-      "age in place",
+      "fall prevention",
       "ADA compliant"
     ],
     "avoid": [
+      "elderly/frail framing",
+      "medical or clinical tone",
       "institutional",
-      "medical/hospital tone",
-      "frail or elderly-as-helpless framing",
       "cheap"
     ]
   },
-  "icp": "Adults 50+ aging in place and the caregivers or families buying for them, who want a safer bathroom without it looking like a hospital and will pay more for hardware that is both secure and beautiful.",
+  "icp": "Adult children, caregivers, and aging homeowners who want to make a bathroom fall-safe without it looking like a hospital, and will pay more for grab bars that look like beautiful bath fixtures.",
   "personas": [
     {
-      "name": "The Design-Conscious Aging-in-Placer",
-      "description": "A homeowner 55+ who refuses an institutional bathroom and is moved by 'safety and style' framing plus finishes that match their decor."
+      "name": "The Caring Daughter",
+      "description": "An adult child outfitting a parent's home for safety who is moved by dignity, discretion, and decor that does not scream medical."
     },
     {
-      "name": "The Protective Caregiver",
-      "description": "An adult child or spouse buying for a loved one, moved by fall-zone research, 500lb support, and dignity-preserving language."
+      "name": "Age-in-Place Homeowner",
+      "description": "A senior who wants to stay independent in their own home and responds to confidence, style, and easy installation."
     },
     {
-      "name": "The Reseller / Specifier",
-      "description": "A contractor, senior-living buyer, or dealer moved by free mounting hardware, same-day response, and next-day shipping."
+      "name": "The Reseller/Installer",
+      "description": "A dealer or contractor who buys in quantity and is won by free included anchors, same-day response, and next-day shipping."
     }
   ],
   "products_ladder": [
@@ -103,58 +103,59 @@
   ],
   "offers": [
     "Free shipping on retail orders over $100",
-    "30-day return policy on eligible items in original packaging with proof of purchase",
-    "LiveSafe Mounting System and Mount Daddy anchors included FREE in every box",
-    "Subscribe & Save option and newsletter for sales and new releases",
-    "Large quantity / reseller pricing and affiliate program"
+    "30-day return policy on eligible unused items in original packaging",
+    "LiveSafe Mounting System and anchors included free in every box",
+    "Subscribe & Save option",
+    "Reseller and affiliate programs with large-quantity pricing",
+    "Same-day customer service response; orders ship the following day"
   ],
   "claims": {
     "allowed": [
       {
-        "claim": "Supports up to 500lbs in hollow wall substrates that support the weight load as well as in studs.",
-        "source": "about page"
-      },
-      {
-        "claim": "ADA compliant grab bars with 1-1/4 inch diameter.",
+        "claim": "ADA compliant grab bars with 1-1/4 inch diameter",
         "source": "product pages / homepage"
       },
       {
-        "claim": "LiveSafe Mounting System with anchors and flanges included free in every box.",
+        "claim": "Mounting system supports up to 500lbs in hollow walls that support the load and in studs",
         "source": "about page"
       },
       {
-        "claim": "Free shipping on retail orders over $100.",
+        "claim": "Hollow wall anchors and stud mount flanges included free in every box",
+        "source": "about page"
+      },
+      {
+        "claim": "Free shipping on retail orders over $100",
         "source": "site header / homepage"
       },
       {
-        "claim": "Designs based on research with hundreds of end users in residential and senior living environments.",
+        "claim": "Designed from research with hundreds of end users in residential and senior living environments",
         "source": "about page"
       }
     ],
     "banned": [
       {
-        "claim": "Prevents all falls or guarantees you will never fall.",
-        "why": "Unqualified disease/injury-prevention claim the product cannot back; overstates a support aid as a medical guarantee."
+        "claim": "Prevents all falls or guarantees you will never fall",
+        "why": "Disease/injury-prevention absolute is unsubstantiated; safety products cannot promise elimination of risk."
       },
       {
-        "claim": "Treats, cures, or prevents any medical condition (e.g. arthritis, balance disorders).",
-        "why": "Disease-treatment claims are banned for this category and unsupported by the product."
+        "claim": "Treats, cures, or reduces the effects of osteoporosis, arthritis, or any medical condition",
+        "why": "Disease-treatment claim is banned for this category; product is hardware, not a medical treatment."
       },
       {
-        "claim": "Guaranteed to hold 500lbs on any wall.",
-        "why": "Overstates the site's qualified spec, which specifies substrates that support the weight load - must stay qualified."
+        "claim": "Medically certified or hospital-grade safe for every wall type",
+        "why": "Unsupported certification claim; the 500lb rating is conditional on wall substrate, not universal."
       },
       {
-        "claim": "Medical-grade or clinically proven safety device.",
-        "why": "No certification or clinical testing shown in the input; would be an unsupported claim."
+        "claim": "Natural or non-toxic finish as a headline claim",
+        "why": "Vague 'natural/clean' terms are risky and unsubstantiated as headline claims per compliance rules."
       },
       {
-        "claim": "The 60% of bathroom falls stat used without a cited source.",
-        "why": "Nutrient/statistical-style claims must match verifiable data; run only with a credible citation to avoid a substantiation issue."
+        "claim": "Boosts mobility or restores independence for everyone",
+        "why": "Unqualified health/outcome claim that overstates results and cannot be backed for all users."
       }
     ]
   },
   "standalone": false,
   "prospect_logo_url": "https://livewellhs.com/cdn/shop/files/DUAL_w_LW_240x_2x_62b20c4a-1c23-4b16-a73b-b2f3f5adc4d7_145x@2x.png?v=1706548180",
-  "generated_at": "2026-07-11T09:58:44.492Z"
+  "generated_at": "2026-07-11T10:04:04.601Z"
 }
