@@ -22,8 +22,9 @@ import { buildPlaybook } from "@/magnets/brand-playbook/lib/generate";
 import type { PlaybookData } from "@/magnets/brand-playbook/lib/types";
 import { fetchProductsByUrls, originFromProductUrls } from "@/lib/shared/product-by-url";
 import {
-  env, slugify, cleanCopy, postSlack, githubGetSha, putJson, extractJson, brandDomainFromWebsite,
+  env, slugify, cleanCopy, postSlack, githubGetSha, githubPut, putJson, extractJson, brandDomainFromWebsite,
 } from "@/lib/shared/publish";
+import { kieGenerateMockup, downloadImageBase64 } from "@/lib/shared/kie";
 import { appendScrollStopperLead } from "@/lib/shared/sheets";
 
 export const maxDuration = 300;
@@ -59,12 +60,23 @@ type ConceptCopy = {
   headline: string;
   cta: string;
   why_it_works: string;
+  // Art direction for the generated ad visual. image_prompt goes to
+  // nano-banana-2; visual_direction is the plain-English version shown to the
+  // brand owner (and the fallback caption if generation fails).
+  image_prompt?: string;
+  visual_direction?: string;
 };
 
-type Concept = ConceptCopy & {
+type Concept = Omit<ConceptCopy, "image_prompt"> & {
   product_title: string;
   product_url: string;
+  // What the mockup card renders: the AI-generated ad concept when generation
+  // succeeded (a repo path), else the brand's own product photo (a CDN URL).
   image_url: string;
+  // Drives the card's aspect handling: AI images are a true 1:1 Meta square and
+  // are safe to render square; raw catalog photos vary in aspect and must keep
+  // their natural height or tall products get sliced.
+  ai_image: boolean;
   price: number | null;
   compare_at_price: number | null;
   on_sale: boolean;
@@ -370,6 +382,49 @@ export async function POST(req: NextRequest) {
       return chosen;
     });
 
+    // Generate the ad visual for each concept: nano-banana-2 re-photographs the
+    // brand's REAL product (its catalog shot is the reference image) into the
+    // scene Claude art-directed, at Meta's 1:1 feed ratio. This is the whole
+    // point of the sheet - a lifted catalog photo looks like we did nothing,
+    // an editorial render looks like we shot an ad for them.
+    //
+    // Run all 3 concurrently: each generation polls up to 120s, and the route's
+    // maxDuration is 300s, so doing them in series would time out.
+    // Any failure degrades to the brand's own product photo rather than losing
+    // the ad - a real photo beats a broken card.
+    const generated = await Promise.all(
+      heroes.map(async (p, i): Promise<{ image_url: string; ai_image: boolean }> => {
+        const fallback = { image_url: heroImages[i], ai_image: false };
+        const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
+        const prompt = c?.image_prompt;
+        if (!prompt || !heroImages[i]) return fallback;
+
+        try {
+          const mockupUrl = await kieGenerateMockup(prompt, heroImages[i], p.title);
+          if (!mockupUrl) return fallback;
+          const b64 = await downloadImageBase64(mockupUrl);
+          const repoPath = `public/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`;
+          await githubPut(repoPath, b64, `chore: add scroll-stopper ad-${i + 1} for ${slug}`);
+          return { image_url: `/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`, ai_image: true };
+        } catch (e) {
+          console.error(`[scroll-stopper] ad image ${i + 1} failed for ${slug}:`, e);
+          return fallback;
+        }
+      }),
+    );
+
+    // Never silently ship catalog photos as if they were concepts - if any
+    // generation fell back, say which, so the report can be re-run before send.
+    const fellBack = generated
+      .map((g, i) => (g.ai_image ? null : heroes[i].title))
+      .filter((t): t is string => t !== null);
+    if (fellBack.length) {
+      await postSlack(
+        `⚠️ *${payload.lead_company}* - ${generated.length - fellBack.length}/${generated.length} ad images generated. These fell back to the brand's own product photo:\n${fellBack.map((t) => `• ${t}`).join("\n")}`,
+        SLACK_KEY,
+      );
+    }
+
     // Merge Claude's copy back onto deterministic product data by index.
     const concepts: Concept[] = heroes.map((p, i) => {
       const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
@@ -377,7 +432,8 @@ export async function POST(req: NextRequest) {
         product_index: i + 1,
         product_title: p.title,
         product_url: p.url,
-        image_url: heroImages[i],
+        image_url: generated[i].image_url,
+        ai_image: generated[i].ai_image,
         price: p.price,
         compare_at_price: p.compare_at_price,
         on_sale: p.on_sale,
@@ -386,6 +442,7 @@ export async function POST(req: NextRequest) {
         headline: cleanCopy(c?.headline ?? p.title),
         cta: cleanCopy(c?.cta ?? "Shop Now"),
         why_it_works: cleanCopy(c?.why_it_works ?? ""),
+        visual_direction: cleanCopy(c?.visual_direction ?? ""),
       };
     });
 
