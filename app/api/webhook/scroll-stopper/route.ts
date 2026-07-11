@@ -399,30 +399,62 @@ export async function POST(req: NextRequest) {
     // point of the sheet - a lifted catalog photo looks like we did nothing,
     // an editorial render looks like we shot an ad for them.
     //
-    // Run all 3 concurrently: each generation polls up to 120s, and the route's
-    // maxDuration is 300s, so doing them in series would time out.
+    // TWO PHASES, and the split matters:
+    //   1. GENERATE + DOWNLOAD, concurrently. Each generation polls up to 120s
+    //      and maxDuration is 300s, so serial would time out.
+    //   2. COMMIT, strictly SEQUENTIALLY. Every githubPut is a git write to the
+    //      same branch, so firing three at once races: GitHub accepts the first
+    //      and rejects the others as non-fast-forward, and the ad silently fell
+    //      back to the catalog photo even though its image had generated fine
+    //      (this is exactly what happened to Smiling Wolf's ad 2).
     // Any failure degrades to the brand's own product photo rather than losing
     // the ad - a real photo beats a broken card.
-    const generated = await Promise.all(
-      heroes.map(async (p, i): Promise<{ image_url: string; ai_image: boolean }> => {
-        const fallback = { image_url: heroImages[i], ai_image: false };
+    const rendered = await Promise.all(
+      heroes.map(async (p, i): Promise<{ b64: string } | null> => {
         const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
         const prompt = c?.image_prompt;
-        if (!prompt || !heroImages[i]) return fallback;
-
+        if (!prompt || !heroImages[i]) return null;
         try {
           const mockupUrl = await kieGenerateMockup(prompt, heroImages[i], p.title);
-          if (!mockupUrl) return fallback;
-          const b64 = await downloadImageBase64(mockupUrl);
-          const repoPath = `public/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`;
-          await githubPut(repoPath, b64, `chore: add scroll-stopper ad-${i + 1} for ${slug}`);
-          return { image_url: `/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`, ai_image: true };
+          if (!mockupUrl) return null;
+          return { b64: await downloadImageBase64(mockupUrl) };
         } catch (e) {
-          console.error(`[scroll-stopper] ad image ${i + 1} failed for ${slug}:`, e);
-          return fallback;
+          console.error(`[scroll-stopper] ad image ${i + 1} generate failed for ${slug}:`, e);
+          return null;
         }
       }),
     );
+
+    const generated: { image_url: string; ai_image: boolean }[] = [];
+    for (let i = 0; i < heroes.length; i++) {
+      const fallback = { image_url: heroImages[i], ai_image: false };
+      const r = rendered[i];
+      if (!r) {
+        generated.push(fallback);
+        continue;
+      }
+      const repoPath = `public/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`;
+      // One retry: a commit can still lose a race against an unrelated write to
+      // the branch (e.g. the playbook commit, or a concurrent run).
+      let committed = false;
+      for (let attempt = 0; attempt < 2 && !committed; attempt++) {
+        try {
+          await githubPut(repoPath, r.b64, `chore: add scroll-stopper ad-${i + 1} for ${slug}`);
+          committed = true;
+        } catch (e) {
+          console.error(
+            `[scroll-stopper] ad image ${i + 1} commit attempt ${attempt + 1} failed for ${slug}:`,
+            e,
+          );
+          if (attempt === 0) await new Promise((r) => setTimeout(r, 1500));
+        }
+      }
+      generated.push(
+        committed
+          ? { image_url: `/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`, ai_image: true }
+          : fallback,
+      );
+    }
 
     // Never silently ship catalog photos as if they were concepts - if any
     // generation fell back, say which, so the report can be re-run before send.
