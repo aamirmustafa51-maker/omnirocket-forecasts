@@ -6,77 +6,77 @@
   "currency": "USD",
   "review_count": 0,
   "brand_dna": {
-    "category": "Decorative bath safety hardware - grab bars, shower seats, and ramps disguised as elegant bath accessories.",
-    "core_belief": "Safety and beauty do not have to be mutually exclusive: bathing should be a safe, beautiful, and tranquil experience that preserves dignity and independence.",
+    "category": "Decorative home safety hardware - grab bars and bath accessories that disguise fall-prevention as elegant fixtures.",
+    "core_belief": "That bathing should be a safe, beautiful, and tranquil experience, and that safety, beauty, easy installation and affordability do not have to be mutually exclusive.",
     "proof_points": [
-      "ADA compliant grab bars with 1-1/4 inch diameter",
-      "LiveSafe Mounting System supports up to 500lbs in hollow wall or studs",
-      "Mount Daddy hollow wall fasteners and stud mount flanges included FREE in every box",
-      "Product design based on research with hundreds of end users in residential and senior living environments"
+      "LiveSafe Mounting System included FREE in every box - two hollow wall anchors and two stud mount flanges",
+      "System supports up to 500lbs in hollow wall substrates and studs",
+      "ADA compliant models with 1-1/4 inch diameter and nubby rubber grips",
+      "Product designs based on research with hundreds of end users in residential and senior living environments"
     ],
-    "positioning": "Premium and design-forward vs. institutional-looking medical grab bars - 'luxurious, yet affordable' safety that hides in plain sight."
+    "positioning": "Premium yet affordable design-forward alternative to institutional-looking grab bars - safety that looks like decor, not a hospital."
   },
   "voice_pillars": [
     {
-      "name": "Dignity-First",
-      "desc": "Frames safety around preserving independence and dignity rather than framing customers as frail or sick.",
-      "quote": "prevent falls, preserve dignity, enhance home accessibility and promote independent living"
-    },
-    {
-      "name": "Beauty Meets Safety",
-      "desc": "Always pairs the safety benefit with style, insisting customers should not have to choose between the two.",
+      "name": "Safety Without Sacrifice",
+      "desc": "Frames every product as proof you never have to trade protection for good looks.",
       "quote": "Why choose between safety and style when you can have both?"
     },
     {
+      "name": "Dignity-Driven",
+      "desc": "Speaks to preserving independence and pride, not to frailty or decline.",
+      "quote": "prevent falls, preserve dignity, enhance home accessibility and promote independent living"
+    },
+    {
       "name": "Research-Backed Confidence",
-      "desc": "Speaks with authority grounded in real end-user research and specific fall-risk knowledge.",
+      "desc": "Leans on real end-user research and specifics to earn trust in a high-stakes purchase.",
       "quote": "We know the high risk fall zones in the bathroom, what causes people to fall"
     },
     {
-      "name": "Discreet Reassurance",
-      "desc": "Reassures buyers that safety can be hidden inside everyday accessories, removing the stigma of medical gear.",
+      "name": "Discreetly Beautiful",
+      "desc": "Positions grab bars as hidden-in-plain-sight decor that upgrades a room.",
       "quote": "disguises grab bars as bath accessories, discretely providing the safety of grab bars"
     }
   ],
   "customer_language": {
     "phrases": [
-      "Why choose between safety and style when you can have both?",
-      "age in place with confidence and style",
+      "Safety and Convenience",
       "transforms your bathroom's most vulnerable moment into a confident, secure experience",
+      "age in place with confidence and style",
       "the perfect blend of functionality and elegance",
-      "safe, beautiful, and tranquil experience",
-      "crucial support exactly when and where you need"
+      "secure support exactly when you're reaching for towels",
+      "Perfect Balance of Safety and Style"
     ],
     "words": [
       "safety",
       "style",
-      "dignity",
-      "independence",
-      "age in place",
       "decorative",
-      "confident",
-      "fall prevention"
+      "confidence",
+      "dignity",
+      "independent living",
+      "age in place",
+      "ADA compliant"
     ],
     "avoid": [
       "institutional",
-      "medical/hospital-looking",
-      "elderly/frail",
+      "medical/hospital tone",
+      "frail or elderly-as-helpless framing",
       "cheap"
     ]
   },
-  "icp": "Adult children and caregivers of aging parents, plus seniors aging in place, who want fall protection in the bathroom without the clinical look and are willing to pay more for design and easy, secure installation.",
+  "icp": "Adults 50+ aging in place and the caregivers or families buying for them, who want a safer bathroom without it looking like a hospital and will pay more for hardware that is both secure and beautiful.",
   "personas": [
     {
-      "name": "The Caring Adult Child",
-      "description": "A 45-65 year old arranging home safety for an aging parent, moved by dignity and 'preserve independence' messaging over medical-device framing."
+      "name": "The Design-Conscious Aging-in-Placer",
+      "description": "A homeowner 55+ who refuses an institutional bathroom and is moved by 'safety and style' framing plus finishes that match their decor."
     },
     {
-      "name": "The Style-Conscious Ager",
-      "description": "A senior planning to age in place who refuses an institutional bathroom, moved by 'safety and style when you can have both.'"
+      "name": "The Protective Caregiver",
+      "description": "An adult child or spouse buying for a loved one, moved by fall-zone research, 500lb support, and dignity-preserving language."
     },
     {
-      "name": "The Reseller / Contractor",
-      "description": "A dealer or installer sourcing accessible-bath product, moved by free mounting hardware, 500lb load rating, and same-day-response service."
+      "name": "The Reseller / Specifier",
+      "description": "A contractor, senior-living buyer, or dealer moved by free mounting hardware, same-day response, and next-day shipping."
     }
   ],
   "products_ladder": [
@@ -103,63 +103,58 @@
   ],
   "offers": [
     "Free shipping on retail orders over $100",
-    "30-day return policy (unused, original packaging, proof of purchase)",
-    "Return shipping label provided on accepted returns",
-    "Subscribe & Save option",
-    "LiveSafe Mounting System and Mount Daddy fasteners included free in every box",
-    "Reseller and affiliate programs with large-quantity pricing"
+    "30-day return policy on eligible items in original packaging with proof of purchase",
+    "LiveSafe Mounting System and Mount Daddy anchors included FREE in every box",
+    "Subscribe & Save option and newsletter for sales and new releases",
+    "Large quantity / reseller pricing and affiliate program"
   ],
   "claims": {
     "allowed": [
       {
-        "claim": "ADA compliant grab bars with 1-1/4 inch diameter",
+        "claim": "Supports up to 500lbs in hollow wall substrates that support the weight load as well as in studs.",
+        "source": "about page"
+      },
+      {
+        "claim": "ADA compliant grab bars with 1-1/4 inch diameter.",
         "source": "product pages / homepage"
       },
       {
-        "claim": "Supports up to 500lbs in hollow wall substrates that support the weight load as well as in studs",
+        "claim": "LiveSafe Mounting System with anchors and flanges included free in every box.",
         "source": "about page"
       },
       {
-        "claim": "LiveSafe Mounting System and Mount Daddy fasteners included free in every box",
-        "source": "about page"
+        "claim": "Free shipping on retail orders over $100.",
+        "source": "site header / homepage"
       },
       {
-        "claim": "Free shipping on retail orders over $100",
-        "source": "site header / announcement bar"
-      },
-      {
-        "claim": "30-day return policy on eligible items",
-        "source": "refund policy page"
-      },
-      {
-        "claim": "Designed from research with hundreds of end users in residential and senior living environments",
+        "claim": "Designs based on research with hundreds of end users in residential and senior living environments.",
         "source": "about page"
       }
     ],
     "banned": [
       {
-        "claim": "Prevents all falls or eliminates fall risk",
-        "why": "Unqualified absolute safety/health-outcome claim the product cannot guarantee - overstates a health/injury benefit."
+        "claim": "Prevents all falls or guarantees you will never fall.",
+        "why": "Unqualified disease/injury-prevention claim the product cannot back; overstates a support aid as a medical guarantee."
       },
       {
-        "claim": "Cures, treats, or heals mobility conditions or injuries",
-        "why": "Disease-treatment claim is prohibited; product is a safety aid, not a medical treatment."
+        "claim": "Treats, cures, or prevents any medical condition (e.g. arthritis, balance disorders).",
+        "why": "Disease-treatment claims are banned for this category and unsupported by the product."
       },
       {
-        "claim": "Cite '60% of bathroom falls occur at the toilet' as a hard fact without a source",
-        "why": "Unsupported statistic - only use if a verifiable source is attached, otherwise it is a made-up number."
+        "claim": "Guaranteed to hold 500lbs on any wall.",
+        "why": "Overstates the site's qualified spec, which specifies substrates that support the weight load - must stay qualified."
       },
       {
-        "claim": "Medically certified or doctor-recommended safety",
-        "why": "No certification or endorsement is stated on the site; would be an unsubstantiated authority claim."
+        "claim": "Medical-grade or clinically proven safety device.",
+        "why": "No certification or clinical testing shown in the input; would be an unsupported claim."
       },
       {
-        "claim": "Guarantees independence or that the user will never need help again",
-        "why": "Overstated outcome claim that cannot be substantiated for any individual."
+        "claim": "The 60% of bathroom falls stat used without a cited source.",
+        "why": "Nutrient/statistical-style claims must match verifiable data; run only with a credible citation to avoid a substantiation issue."
       }
     ]
   },
   "standalone": false,
   "prospect_logo_url": "https://livewellhs.com/cdn/shop/files/DUAL_w_LW_240x_2x_62b20c4a-1c23-4b16-a73b-b2f3f5adc4d7_145x@2x.png?v=1706548180",
-  "generated_at": "2026-07-11T09:55:10.712Z"
+  "generated_at": "2026-07-11T09:58:44.492Z"
 }
