@@ -1,0 +1,60 @@
+{
+  "lead_company": "LPC",
+  "lead_first_name": "Leilani",
+  "website": "https://lpcgolf.com",
+  "brand_domain": "lpcgolf.com",
+  "currency": "USD",
+  "brand_voice_note": "Refined and craft-obsessed, speaking to golfers who value hand-stitched heritage and understated luxury on the course.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/lpc?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "British Tan with Matte Navy Leather",
+      "product_url": "https://lpcgolf.com/products/british-tan-with-matte-navy-leather-golf-headcovers",
+      "image_url": "/creatives/scroll-stopper/lpc/ad-1.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Make a confident statement before you even tee off.\n\nDeep navy leather paired with warm British tan stripes, hand-cut and hand-stitched with traditional French seams by an artisan in San Francisco.\n\nTimeless contrast that turns heads on the course. As unique as you.",
+      "headline": "Timeless Navy Meets Warm Tan",
+      "cta": "Shop Now",
+      "why_it_works": "The refined contrast is this set's single most desirable outcome, so leading with the feeling of confident, elegant presence fits a heritage-minded golfer.",
+      "visual_direction": "The navy and tan headcover on a walnut side table by a clubhouse window with a fairway blurred behind it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Black Ostrich with Pebbled Crimson Leather",
+      "product_url": "https://lpcgolf.com/products/black-ostrich-with-crimson-leather",
+      "image_url": "/creatives/scroll-stopper/lpc/ad-2.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "\"I get compliments on them every time I'm on the course.\"\n\nBlack ostrich texture with bold crimson leather stripes, hand-cut and hand-stitched to turn heads.\n\nGolfers keep telling us the same thing: the craftsmanship is top-notch.",
+      "headline": "The Set People Ask About",
+      "cta": "Get Yours",
+      "why_it_works": "This is the boldest, most eye-catching set in the lineup, so leaning on real course compliments makes the striking design feel proven and desirable.",
+      "visual_direction": "The black ostrich and crimson headcover tucked in a golf bag on a practice green with golf balls scattered nearby."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Matte Charcoal Croc with Quilted Smooth White Leather",
+      "product_url": "https://lpcgolf.com/products/matte-charcoal-croc-with-quilted-smooth-white-leather",
+      "image_url": "/creatives/scroll-stopper/lpc/ad-3.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "Every diamond panel is stitched by hand, one at a time.\n\nWe embossed deep charcoal leather with a refined croc texture, then framed each quilted diamond in pristine white leather - all hand-sewn in our San Francisco workshop.\n\nBuilt to Last, Made for You. That is the whole point.",
+      "headline": "Hand-Sewn, Diamond by Diamond",
+      "cta": "Learn More",
+      "why_it_works": "The quilted diamond construction is the product's most labor-intensive feature, so the maker's-hand story lets the craftsmanship justify itself.",
+      "visual_direction": "The charcoal croc and white quilted headcover on a workbench beside leather tools mid-craft."
+    }
+  ],
+  "generated_at": "2026-07-11T19:46:59.459Z"
+}
