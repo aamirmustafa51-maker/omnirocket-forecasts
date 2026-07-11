@@ -5,6 +5,10 @@ export type ScrollStopperConcept = {
   product_title: string
   product_url: string
   image_url: string
+  // True when the visual is an AI-generated ad concept shot from the brand's
+  // real product photo (square, Meta-feed ratio). False when generation failed
+  // and we fell back to the raw catalog photo, which keeps its natural aspect.
+  ai_image?: boolean
   price: number | null
   compare_at_price: number | null
   on_sale: boolean
@@ -13,6 +17,7 @@ export type ScrollStopperConcept = {
   headline: string
   cta: string
   why_it_works: string
+  visual_direction?: string
 }
 
 export type ScrollStopperData = {
@@ -113,8 +118,10 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
                 </div>
               </div>
               <div className="fb-ad-primary">{c.primary_text}</div>
-              <div className="fb-ad-image">
-                {/* Real product photo, hotlinked from the brand's Shopify CDN. */}
+              {/* AI concept renders are a true 1:1 Meta square and render square.
+                  A fallback catalog photo keeps its natural height (ss-native) so
+                  tall products aren't sliced by the crop. */}
+              <div className={`fb-ad-image${c.ai_image ? "" : " ss-native"}`}>
                 <img src={c.image_url} alt={c.product_title} />
                 {c.on_sale && c.compare_at_price !== null && (
                   <div className="ss-sale-flag">
@@ -133,7 +140,7 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
             </div>
 
             <div className="hero-mockup-disclaimer">
-              Built from your{" "}
+              {c.ai_image ? "Concept shot we created from your " : "Built from your "}
               <a href={c.product_url} target="_blank" rel="noopener">{c.product_title}</a>
               {c.price !== null ? ` (${money(c.price, data.currency)})` : ""}
             </div>
@@ -141,6 +148,11 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
             <div className="hero-mockup-rationale">
               <div className="hero-mockup-tag">Why this angle</div>
               <p>{c.why_it_works}</p>
+              {c.ai_image && c.visual_direction && (
+                <p className="ss-visual-note">
+                  <strong>The shot:</strong> {c.visual_direction}
+                </p>
+              )}
             </div>
           </div>
         </section>
@@ -164,8 +176,9 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
 
       <footer>
         <div className="pb">{PREPARED_BY}</div>
-        Ad concepts generated from {data.lead_company}&rsquo;s public product catalog. Product images belong to
-        {" "}{data.lead_company}. Copy is illustrative sample creative, not a finished production asset.
+        Ad concepts built from {data.lead_company}&rsquo;s public product catalog. The ad visuals are concept
+        renders created from {data.lead_company}&rsquo;s own product photos, which remain the property of
+        {" "}{data.lead_company}. Copy and visuals are illustrative sample creative, not finished production assets.
       </footer>
     </div>
   )
