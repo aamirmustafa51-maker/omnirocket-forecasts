@@ -209,11 +209,22 @@ async function writeAdCopy(
 
   const res = await anthropic.messages.create({
     model: "claude-opus-4-8",
-    max_tokens: 3072,
+    // Each concept now carries a full image_prompt (~1.5k chars / ~450 tokens of
+    // locked template) on top of its copy, so 3 concepts need real headroom. The
+    // old 3072 truncated the JSON mid-array and blew up in extractJson with
+    // "Expected ',' or ']' after array element". Do NOT trim this back.
+    max_tokens: 16000,
     messages: [{ role: "user", content: prompt }],
   });
   const block = res.content.find((b) => b.type === "text");
   if (!block || block.type !== "text") throw new Error("Claude returned no text");
+  // A truncated response is the likeliest failure here; say so plainly instead
+  // of surfacing a raw JSON position offset to the operator.
+  if (res.stop_reason === "max_tokens") {
+    throw new Error(
+      `Claude hit the ${16000}-token cap and returned truncated JSON (${products.length} products). Raise max_tokens in writeAdCopy.`,
+    );
+  }
 
   const parsed = extractJson(block.text) as { brand_voice_note?: string; concepts?: ConceptCopy[] };
   return {
