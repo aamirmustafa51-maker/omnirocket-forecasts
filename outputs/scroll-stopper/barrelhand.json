@@ -1,0 +1,59 @@
+{
+  "lead_company": "Barrelhand",
+  "lead_first_name": "Karel",
+  "website": "https://www.barrelhand.com",
+  "brand_domain": "barrelhand.com",
+  "currency": "USD",
+  "brand_voice_note": "Engineering-first and mission-serious, treating the watch as an over-built tool for the long haul rather than a fashion piece.",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Monolith - Barrelhand Orange Strap",
+      "product_url": "https://www.barrelhand.com/monolith",
+      "image_url": "/creatives/scroll-stopper/barrelhand/ad-1.jpg",
+      "ai_image": true,
+      "price": 9750,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "Six years to build one watch.\n\nWe set out to make a toolwatch that could be understood, serviced, and trusted long after we are gone. Every gasket and screw was chosen to meet ISO aerospace standards and NASA material guidance, then tested against the EVA/IVA protocols established during the Apollo era.\n\nThis is the real thing, built to last. Made in San Francisco. Next batch begins Q4 2026.",
+      "headline": "Six years. One toolwatch.",
+      "cta": "Learn More",
+      "why_it_works": "The 6-year development timeline and San Francisco origin make the founder/story angle the honest way to justify a $9,750 mechanical tool to a considered buyer.",
+      "visual_direction": "The orange-strap watch resting on a raw metal machinist's bench with a caliper and loupe, in soft window light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Monolith - Black Strap",
+      "product_url": "https://www.barrelhand.com/monolith",
+      "image_url": "/creatives/scroll-stopper/barrelhand/ad-2.jpg",
+      "ai_image": true,
+      "price": 9750,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Ten thousand dollars for a watch you cannot yet hold?\n\nMonolith is fully refundable at any point before it ships, so your commitment carries no risk while it is built. It is a mechanical movement inside an over-engineered case, tested against EVA/IVA protocols and built to be serviced for generations.\n\nNext batch deliveries start Q4 2026.",
+      "headline": "Fully refundable until it ships",
+      "cta": "Learn More",
+      "why_it_works": "At $9,750 with delivery over a year out, the top hesitation is committing capital to something not yet in hand, and the refundable-before-shipment policy answers it directly.",
+      "visual_direction": "The black-strap watch alone on dark slate under clean studio light, all attention on build quality."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Monolith - Black & Orange Strap",
+      "product_url": "https://www.barrelhand.com/monolith",
+      "image_url": "/creatives/scroll-stopper/barrelhand/ad-3.jpg",
+      "ai_image": true,
+      "price": 9750,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A watch you will hand down, not replace.\n\nMonolith is a mechanical toolwatch engineered to remain understandable and serviceable for generations, not seasons. The black and orange strap keeps it legible on the wrist while the over-engineered case does the quiet work.\n\nBuilt to last. Next batch deliveries start Q4 2026.",
+      "headline": "Built to outlast you",
+      "cta": "Learn More",
+      "why_it_works": "The single most desirable outcome for a buyer at this price is permanence, so leading with the heirloom, built-to-last benefit fits the flagship two-tone strap.",
+      "visual_direction": "The black-and-orange-stripe watch on a granite ledge at altitude in warm golden-hour light with hazy mountains behind."
+    }
+  ],
+  "generated_at": "2026-07-12T09:37:32Z"
+}
