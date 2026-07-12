@@ -1,0 +1,162 @@
+{
+  "lead_company": "Barrelhand",
+  "lead_first_name": "Karel",
+  "website": "https://www.barrelhand.com",
+  "brand_domain": "barrelhand.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Ultra-premium mechanical toolwatches engineered for spaceflight - a watchmaking brand playing in the aerospace-grade, collector frontier lane.",
+    "core_belief": "We use emerging technologies and ideas to build products for the next chapter of space exploration - built on curiosity, optimism, and our capacity as humans to shape a positive future.",
+    "proof_points": [
+      "Monolith developed over 6 years, tested against Apollo-era EVA/IVA protocols and re-developed through modern engineering.",
+      "Materials and manufacturing processes meet ISO aerospace standards and NASA material guidance.",
+      "Aircore chassis 3D printed in Scalmalloy - strength of titanium at nearly half the weight, 6.5g chassis.",
+      "Founder Karel Bachand did research at NASA Ames; Project One featured by Forbes and semi-finalist for the Louis Vuitton Watch Prize."
+    ],
+    "positioning": "Top-tier, technical and mission-driven - not a heritage luxury house but an engineering-first independent building tools for life beyond Earth."
+  },
+  "voice_pillars": [
+    {
+      "name": "Frontier-Minded",
+      "desc": "Writes with optimistic, mission-scale ambition that frames the product as part of a larger human story.",
+      "quote": "Tools for the next chapter of space exploration"
+    },
+    {
+      "name": "Engineering-First",
+      "desc": "Leads with hard specs, materials, and processes rather than emotion or lifestyle fluff.",
+      "quote": "Strength of titanium at nearly half the weight."
+    },
+    {
+      "name": "Built to Endure",
+      "desc": "Emphasizes permanence and survival in extreme conditions, positioning the object as generational.",
+      "quote": "engineered to last for not just generations, but millennia"
+    },
+    {
+      "name": "Poetic-Technical",
+      "desc": "Blends precise engineering with a spiritual, almost reverent sense of purpose.",
+      "quote": "A mechanical timepiece... bridging technical and spiritual realms."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "your companion for life beyond Earth",
+      "engineered for modern spaceflight",
+      "built to withstand the harsh environments of space",
+      "understandable, serviceable, and adaptable over time",
+      "a window to the future",
+      "Spaceship for your wrist"
+    ],
+    "words": [
+      "toolwatch",
+      "EVA/IVA",
+      "aerospace",
+      "Scalmalloy",
+      "microgravity",
+      "3D printing",
+      "durability",
+      "legibility"
+    ],
+    "avoid": [
+      "cheap / bargain",
+      "trendy / fashion",
+      "hype",
+      "disposable"
+    ]
+  },
+  "icp": "Serious watch collectors and space-and-technology enthusiasts with high disposable income who value engineering innovation, provable performance, and being early to a frontier story.",
+  "personas": [
+    {
+      "name": "Frontier Collector",
+      "description": "A high-net-worth independent-watch collector who buys firsts and grails - moved by the 'world's first' engineering feats and limited, mission-proven provenance."
+    },
+    {
+      "name": "Aerospace Technophile",
+      "description": "An engineer, pilot, or space-industry insider who scrutinizes materials and specs - moved by Scalmalloy, ISO aerospace standards, and Apollo-era EVA/IVA testing."
+    },
+    {
+      "name": "Optimist Futurist",
+      "description": "A patron of the space renaissance who wants to own a piece of humanity's next chapter - moved by mission, legacy, and the Memory Disc story."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Monolith - Barrelhand Orange Strap",
+      "role": "Hero",
+      "price": 9750
+    },
+    {
+      "title": "Monolith - Black Strap",
+      "role": "Hero",
+      "price": 9750
+    },
+    {
+      "title": "Monolith - Black & Orange Strap",
+      "role": "Hero",
+      "price": 9750
+    }
+  ],
+  "offers": [
+    "Monolith priced at $9,750 in three strap colorways (Barrelhand Orange, Black, Black & Orange).",
+    "Next batch deliveries start Q4 2026.",
+    "Fully refundable prior to shipment.",
+    "Newsletter subscription for exclusive updates and early access to new products.",
+    "Downloadable non-commercial Monolith Source Files under the Barrelhand R&D License (BRDL v1.1)."
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Materials and manufacturing processes meet ISO aerospace standards and NASA material guidance.",
+        "source": "Monolith product page"
+      },
+      {
+        "claim": "Each component is tested against EVA/IVA protocols established during the Apollo era and further developed through modern engineering.",
+        "source": "Monolith product page"
+      },
+      {
+        "claim": "Aircore chassis built from Scalmalloy via 3D printing - an ultralight 6.5g chassis.",
+        "source": "Monolith product page"
+      },
+      {
+        "claim": "Developed over 6 years from the ground up.",
+        "source": "Monolith product page / Mission page"
+      },
+      {
+        "claim": "Monolith is fully refundable prior to shipment.",
+        "source": "Monolith product page"
+      },
+      {
+        "claim": "Project One was limited to 10 pieces, designed and manufactured in the USA, and is sold out.",
+        "source": "Project One page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "NASA-approved, NASA-certified, or NASA-endorsed.",
+        "why": "Meeting NASA material guidance is not an endorsement or certification; implying agency approval is banned per compliance rules."
+      },
+      {
+        "claim": "The watch you can buy has flown in / been proven in space.",
+        "why": "Only test units relate to flight; claiming the retail Monolith has flown implies unsupported flight-proven status - banned."
+      },
+      {
+        "claim": "The best space watch in the world / the #1 toolwatch.",
+        "why": "FTC bans unqualified superlatives that cannot be objectively substantiated."
+      },
+      {
+        "claim": "Guaranteed to last 1,000 years / millennia.",
+        "why": "Aspirational durability language cannot be presented as a guaranteed, provable result under FTC substantiation."
+      },
+      {
+        "claim": "Limited units left - order in the next X hours.",
+        "why": "Fake or invented urgency is banned; only state real, verifiable batch and delivery timing."
+      },
+      {
+        "claim": "Trusted by astronauts / endorsed by NASA engineers.",
+        "why": "No such endorsements are stated on the site; invented endorsements are banned under FTC rules."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-12T09:57:25Z"
+}
