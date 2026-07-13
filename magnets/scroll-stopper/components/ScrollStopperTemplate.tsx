@@ -135,7 +135,7 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
                   <div className="fb-ad-domain">{data.brand_domain}</div>
                   <div className="fb-ad-headline">{c.headline}</div>
                 </div>
-                <button className="fb-ad-cta" type="button">{c.cta}</button>
+                <button className="fb-ad-cta" type="button">Shop Now</button>
               </div>
             </div>
 
