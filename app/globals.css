@@ -1246,3 +1246,59 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
   .cp-link { border-left-color: #999; }
   .cp .eyebrow { color: #000; }
 }
+
+/* ── Call Prep: readability pass ───────────────────────────────────────────
+   The deep dive and the discovery list were reading as one grey wall. Kyle
+   skims this minutes before a call, so each idea now gets a titled block with
+   a rule above it, and the thing you actually SAY (the question) is the thing
+   that stands out - not the commentary under it. */
+.cp { --cp-accent: #5b3fd4; }
+
+.cp-block { padding-top: 20px; margin-top: 20px; border-top: 1px solid var(--line); }
+.cp-block:first-of-type { border-top: none; padding-top: 0; }
+.cp-block > p { margin: 0; font-size: 16px; line-height: 1.6; }
+
+/* Bigger, bolder, coloured. Deliberately NOT the small grey uppercase label
+   (.cp-h3) used elsewhere - these are the section names Kyle navigates by. */
+.cp-block-h {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--cp-accent);
+  letter-spacing: -0.01em;
+  margin: 0 0 10px;
+  text-transform: none;
+}
+
+/* The question is the line Kyle reads out loud, so it leads. */
+.cp-q { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.cp-q:last-child { border-bottom: none; }
+.cp-q-text {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.cp-q-listen { font-size: 14px; line-height: 1.5; color: var(--ink-soft); margin-top: 6px; }
+.cp-listen-tag, .cp-subject-tag {
+  display: inline-block;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: var(--cp-accent);
+  background: #efecfb;
+  border-radius: 2px;
+  padding: 1px 5px;
+  margin-right: 7px;
+  vertical-align: 1px;
+}
+.cp-subject { font-weight: 600; margin: 8px 0 6px; }
+
+@media print {
+  .cp-block { break-inside: avoid; page-break-inside: avoid; }
+  .cp-block-h, .cp-listen-tag, .cp-subject-tag { color: #000; }
+  .cp-listen-tag, .cp-subject-tag { background: #eee; }
+}

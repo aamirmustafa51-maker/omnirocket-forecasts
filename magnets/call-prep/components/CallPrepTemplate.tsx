@@ -131,7 +131,12 @@ export default function CallPrepTemplate({ data }: { data: CallPrepData }) {
                   <span className="cp-who">{m.direction === "reply" ? fullName || "Them" : "Kyle"}</span>
                   <span className="cp-when">{formatDateTime(m.sent_at)}</span>
                 </div>
-                {m.subject && <div className="cp-subject">{m.subject}</div>}
+                {m.subject && (
+                  <div className="cp-subject">
+                    <span className="cp-subject-tag">Subject line</span>
+                    {m.subject}
+                  </div>
+                )}
                 <div className="cp-body">{m.body_text}</div>
               </div>
             ))}
@@ -179,41 +184,54 @@ export default function CallPrepTemplate({ data }: { data: CallPrepData }) {
           ask for that on the call.
         </p>
 
-        <h3 className="cp-h3">What they are</h3>
-        <p>{copy.deep_dive.what_they_are}</p>
+        {/* Each of these is its own titled block with a rule above it. Run
+            together as plain paragraphs they read as one grey wall, and Kyle is
+            skimming this minutes before a call. */}
+        <div className="cp-block">
+          <h3 className="cp-block-h">What they are</h3>
+          <p>{copy.deep_dive.what_they_are}</p>
+        </div>
 
-        <h3 className="cp-h3">What they sell</h3>
-        <p>{copy.deep_dive.what_they_sell}</p>
+        <div className="cp-block">
+          <h3 className="cp-block-h">What they sell</h3>
+          <p>{copy.deep_dive.what_they_sell}</p>
+        </div>
 
-        <h3 className="cp-h3">How they position themselves</h3>
-        <p>{copy.deep_dive.positioning}</p>
+        <div className="cp-block">
+          <h3 className="cp-block-h">How they position themselves</h3>
+          <p>{copy.deep_dive.positioning}</p>
+        </div>
 
-        <h3 className="cp-h3">Who buys from them</h3>
-        <p>{copy.deep_dive.who_buys}</p>
+        <div className="cp-block">
+          <h3 className="cp-block-h">Who buys from them</h3>
+          <p>{copy.deep_dive.who_buys}</p>
+        </div>
 
         {copy.deep_dive.customer_voice.length > 0 && (
-          <>
-            <h3 className="cp-h3">In their customers&rsquo; words</h3>
+          <div className="cp-block">
+            <h3 className="cp-block-h">In their customers&rsquo; words</h3>
             <div className="cp-quotes">
               {copy.deep_dive.customer_voice.map((q, i) => (
                 <blockquote key={i} className="cp-quote">{q}</blockquote>
               ))}
             </div>
-          </>
+          </div>
         )}
 
-        <div className="cp-two-col">
-          <div>
-            <h3 className="cp-h3">What is working</h3>
-            <ul className="cp-list">
-              {copy.deep_dive.strengths.map((s, i) => <li key={i}>{s}</li>)}
-            </ul>
-          </div>
-          <div>
-            <h3 className="cp-h3">Where the gaps are</h3>
-            <ul className="cp-list">
-              {copy.deep_dive.gaps.map((g, i) => <li key={i}>{g}</li>)}
-            </ul>
+        <div className="cp-block">
+          <div className="cp-two-col">
+            <div>
+              <h3 className="cp-block-h">What is working</h3>
+              <ul className="cp-list">
+                {copy.deep_dive.strengths.map((s, i) => <li key={i}>{s}</li>)}
+              </ul>
+            </div>
+            <div>
+              <h3 className="cp-block-h">Where the gaps are</h3>
+              <ul className="cp-list">
+                {copy.deep_dive.gaps.map((g, i) => <li key={i}>{g}</li>)}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -281,24 +299,27 @@ export default function CallPrepTemplate({ data }: { data: CallPrepData }) {
       <section className="cp-section">
         <div className="pb-kicker">05 · What to ask them</div>
         {copy.discovery.map((sec, i) => (
-          <div key={i} className="cp-discovery">
-            <h3 className="cp-h3">{sec.name}</h3>
+          <div key={i} className="cp-block">
+            <h3 className="cp-block-h">{sec.name}</h3>
             {sec.questions.map((q, j) => (
               <div key={j} className="cp-q">
                 <div className="cp-q-text">{q.question}</div>
-                <div className="cp-q-listen">Listen for: {q.listening_for}</div>
+                <div className="cp-q-listen">
+                  <span className="cp-listen-tag">Listen for</span>
+                  {q.listening_for}
+                </div>
               </div>
             ))}
           </div>
         ))}
 
         {copy.other_channel_openings.length > 0 && (
-          <>
-            <h3 className="cp-h3">Openings beyond Meta</h3>
+          <div className="cp-block">
+            <h3 className="cp-block-h">Openings beyond Meta</h3>
             <ul className="cp-list">
               {copy.other_channel_openings.map((o, i) => <li key={i}>{o}</li>)}
             </ul>
-          </>
+          </div>
         )}
       </section>
 

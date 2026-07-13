@@ -89,6 +89,18 @@ export function htmlToText(html: string): string {
   const text = html
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<script[\s\S]*?<\/script>/gi, " ")
+    // Drop the quoted history AT THE HTML LEVEL, before any tag stripping.
+    // This is the reliable cut. Every mail client wraps the message you replied
+    // to in one of these containers, and killing the container takes the whole
+    // quoted tail with it - headers, body, nested quotes and all.
+    //
+    // Doing it later, on the flattened text, does NOT work: Gmail wraps the
+    // "On <date> <someone> wrote:" header across several lines, so a line-based
+    // regex silently misses it and the entire previous email leaks through. That
+    // is exactly what shipped in the first version of this.
+    .replace(/<blockquote[\s\S]*?<\/blockquote>/gi, "\n")
+    .replace(/<div[^>]*class="[^"]*(gmail_quote|gmail_attr|yahoo_quoted|moz-cite-prefix)[^"]*"[\s\S]*$/gi, "\n")
+    .replace(/<div[^>]*id="(divRplyFwdMsg|appendonsend|mail-editor-reference-message-container)"[\s\S]*$/gi, "\n")
     .replace(/<br\s*\/?>/gi, "\n")
     .replace(/<\/(p|div|tr|li|h[1-6])>/gi, "\n")
     .replace(/<[^>]+>/g, " ")
@@ -102,20 +114,28 @@ export function htmlToText(html: string): string {
     .replace(/\n{3,}/g, "\n\n")
     .trim();
 
-  // Cut the quoted history. Gmail/Outlook prefix it with one of these; anything
-  // after the first hit is a copy of an earlier message already in the thread.
+  // Belt and braces: catch any quote header that survived the HTML pass (plain
+  // text parts, Outlook's "-----Original Message-----", forwarded chains).
+  // [\s\S] not . - these headers wrap across lines, which is what broke before.
   const quoteMarkers = [
-    /\nOn .{0,120}wrote:/i,
-    /\n-{2,}\s*Original Message\s*-{2,}/i,
-    /\n_{5,}/,
-    /\nFrom:\s.+\nSent:\s/i,
+    /^[ \t>]*On\b[\s\S]{0,200}?\bwrote:\s*$/im,
+    /^[ \t>]*-{2,}\s*Original Message\s*-{2,}/im,
+    /^[ \t>]*_{5,}\s*$/m,
+    /^[ \t>]*From:[ \t]*[\s\S]{0,200}?^[ \t>]*(Sent|Date):/im,
+    /^[ \t>]*-{2,}\s*Forwarded message\s*-{2,}/im,
   ];
   let cut = text.length;
   for (const re of quoteMarkers) {
     const m = text.match(re);
     if (m?.index !== undefined && m.index < cut) cut = m.index;
   }
-  return text.slice(0, cut).trim();
+
+  return text
+    .slice(0, cut)
+    // A cut leaves the ">" gutter of any partially quoted line behind.
+    .replace(/\n[ \t]*>[^\n]*/g, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
 }
 
 // Resolve a lead's Smartlead id within a campaign, by email.
