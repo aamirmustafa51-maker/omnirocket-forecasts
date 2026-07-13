@@ -77,88 +77,87 @@
     "running_ads": 0
   },
   "copy": {
-    "tldr": "LPC is a premium handmade leather golf headcover brand out of San Francisco that has never run Meta ads, so this call is about starting clean from their three mockups, not fixing a broken account.",
+    "tldr": "LPC makes premium handmade leather golf headcovers in San Francisco, they run no ads today and have almost no visible social proof, so this is a build-from-zero play that starts with the one Scroll-Stopper ad that shows the craft up close.",
     "deep_dive": {
-      "what_they_are": "A small artisan brand making handcrafted leather golf headcovers. Legal name is Little Prince Customs. Hand-stitched by one maker named Karl. Founded around 2022. Site is a custom Hydrogen build, not a normal Shopify template, and Leilani the contact is a software engineer who can make site changes herself.",
-      "what_they_sell": "Premium custom leather golf headcovers, hand-stitched, made in San Francisco. Three collections are named on the site: Quilted (20 designs, hand-sewn diamond patterns), Exotic Classic (2 designs, embossed cowhide), and Artisan (8 designs, signature classics plus rare-material pieces). They also offer custom embroidery like initials, logos, and designs. No prices are public, so do not quote any.",
-      "positioning": "Top, heritage-craft end of the golf accessory market. Handmade and personal, not mass-produced. The whole pitch is craftsmanship you can be proud of on the course, built to last and made for you.",
-      "who_buys": "Golfers who care about style and quality and will pay more for something handmade that stands out. Gift buyers are likely too, since embroidery and initials suit gifting, but that is a guess to confirm on the call.",
+      "what_they_are": "A small craft brand called LPC Golf (legal name Little Prince Customs). Handcrafted golf headcovers, hand-stitched by one artisan named Karl, made in San Francisco. Founder reportedly had never worked with leather or a sewing machine before starting. Site is a custom Hydrogen build, and Leilani the contact is a software engineer who can make site changes herself.",
+      "what_they_sell": "Premium customizable leather golf headcovers. Three collections named on the site: Quilted (20 designs, hand-sewn diamond patterns), Exotic Classic (2 designs, embossed cowhide), and Artisan (8 designs, signature and rare-material pieces). They offer custom embroidery like initials, logos, or designs. Do not quote any prices, none are public.",
+      "positioning": "The heritage-craft, premium end of the golf accessory market. Artisan and personalized, not mass-produced. Built to last, made for you.",
+      "who_buys": "Discerning golfers who care about craftsmanship and personal style, and will pay more for a handmade leather cover that stands out on the course and lasts. Likely gift buyers too, given the custom embroidery angle.",
       "customer_voice": [
         "These headcovers are absolutely amazing! The craftsmanship is top-notch and I get compliments on them every time I'm on the course."
       ],
       "strengths": [
-        "Clear, strong story: one artisan named Karl, hand-stitched, made in the USA. That is easy to build scroll-stopping ads around.",
-        "Real product variety across three named collections, plus custom embroidery, which gives us plenty of angles and a natural way to sell sets."
+        "A real, ownable story: one artisan, made in the USA, hand-stitched. That is rare in a category full of factory product and it makes strong ad creative.",
+        "Customization (embroidery, build-a-set) gives a natural reason to buy more than one and a built-in gifting angle."
       ],
       "gaps": [
-        "Almost no social proof on the site. Only one visible customer quote. Ads need trust, and right now there is very little to point to.",
-        "No prices, no catalog, and no ads history we can see. We are starting from zero and cannot judge margin or order value until Leilani tells us."
+        "Almost no visible social proof. Only one testimonial on the whole site and no review count. Cold traffic needs proof before it buys a premium item.",
+        "No ads running now and no scrapable catalog or prices, so we are starting from zero and cannot yet model revenue with any confidence."
       ]
     },
     "game_plan": {
-      "headline": "Start from the three Scroll-Stopper ads, prove the Quilted collection can sell cold on Meta, then widen and add custom embroidery as the second play.",
+      "headline": "Lead with the craft story to a warm-ish golf audience, prove one product can sell cold, then widen and add a gifting angle.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Prove that one ad can bring in a sale from cold traffic at a price that makes sense. This month is about learning, not scale.",
+          "goal": "Prove that a cold golfer will buy one of these covers from an ad at all. Learn which angle pulls.",
           "campaigns": [
-            "One simple sales campaign aimed at cold golfers who like premium gear.",
-            "A small retargeting campaign for people who visit the site but do not buy."
+            "One sales campaign, one main audience (broad golf interest plus lookalike of any existing customer or email list if they have one).",
+            "Test the 3 Scroll-Stopper ads against each other so we learn the winning angle fast."
           ],
           "lead_products": [
-            "Lead with the Quilted collection. Reason: it has 20 designs, far more than the other two collections, which usually means it is the range they make and sell most. More designs also means we can test which look grabs attention without changing the product story."
+            "Lead with the Quilted collection. It has 20 designs, by far the most of any collection, which almost always means it is the range they sell most and are most confident making. Wide choice also means we can match an ad to more buyers. Feature their single strongest-selling Quilted cover once Leilani confirms which one that is."
           ],
-          "creative": "Go live first with the strongest of the three Scroll-Stopper ads that leans on the Karl and hand-stitched story, since that is the clearest reason to pay a premium. Do not launch the mockup with the small golf bag (image 2) until we rebuild it with real product files, per Leilani's own note. Rework the other two into clean versions once we have her product photos.",
-          "budget": "Start small and steady so we can read results without burning cash.",
-          "what_success_looks_like": "At least one ad shows cheap clicks and steady add-to-carts, and we get one or more sales we can trace to the ads. If nothing sells, we learn whether the block is the offer, the price, or the lack of reviews."
+          "creative": "Run the 3 ads from the Scroll-Stopper sheet. Go live first with the ad that shows the hand-stitching and leather up close, because craft is their one clear edge and it is what the review praises. Hold the ad with the small golf bag (image 2) until we rebuild it with their real product files, since Leilani already flagged the scale looks off. That fix comes fast because she can send us the assets.",
+          "budget": "Start small and steady so we can read results, not scale yet.",
+          "what_success_looks_like": "One ad angle clearly beats the others and brings in first orders at a cost the margin can carry. We do not chase volume this month."
         },
         {
           "window": "Days 31-60",
-          "goal": "Put more money behind the ad and audience that worked in month one, and widen who sees it.",
+          "goal": "Put more money behind the winning angle and widen who sees it.",
           "campaigns": [
-            "Scale the winning cold campaign with more budget.",
-            "Test new audiences: lookalikes from month one buyers and site visitors, plus interest groups around golf and gifting.",
-            "Keep retargeting running and add customer reviews collected in month one."
+            "Scale spend on the winning ad and audience from month one.",
+            "Add a retargeting campaign for site visitors and add-to-carts, leaning on the custom embroidery and build-a-set-save-10% offers to close them."
           ],
           "lead_products": [
-            "Keep Quilted as the workhorse. Introduce the Artisan collection (8 designs) as a higher-end pull for people who want something rarer."
+            "Keep Quilted as the hero. Introduce the Artisan collection (8 designs) as the step-up, higher-craft option for buyers who want something rarer."
           ],
-          "creative": "Refresh the winning ad so it does not go stale. Add any new customer quotes or photos we gather. Push the 'build a set, save 10% with 4 or more' offer here, since it lifts order size once people trust the brand.",
-          "budget": "Step budget up gradually, only on what earned it in month one.",
-          "what_success_looks_like": "The winning ad keeps bringing sales at a similar or better return as we spend more, and at least one new audience works."
+          "creative": "Add 1 to 2 new ads built around the winning angle. Start collecting and using real customer photos and quotes in ads to fix the social proof gap.",
+          "budget": "Raise spend gradually, only on what already worked in month one.",
+          "what_success_looks_like": "The winner holds its return at higher spend, and retargeting starts closing people who did not buy the first time."
         },
         {
           "window": "Days 61-90",
-          "goal": "Scale the proven setup and add a second product angle for repeat and higher-value orders.",
+          "goal": "Scale the proven setup and add a second product line.",
           "campaigns": [
-            "Scale the proven cold campaign further.",
-            "Launch a dedicated custom embroidery campaign (initials, logos, designs) as the second play.",
-            "Add a gifting angle if the holiday timing or discovery answers support it."
+            "Scale the winning campaign further with fresh creative to fight ad fatigue.",
+            "Launch a gifting push for the custom-embroidery angle (initials, logos), aimed at people buying for a golfer."
           ],
           "lead_products": [
-            "Custom embroidery as the second product. Reason: it is the most personal thing they offer, hard to copy, and matches their 'made for you' promise. It also suits gift buyers and can justify a higher price."
+            "Add the Exotic Classic collection (embossed cowhide) as a premium statement piece to sell to the buyers we now know convert. Second product only comes in once the first is proven."
           ],
-          "creative": "Build fresh ads around personalization and the 'as unique as you' message. Show initials and logos being stitched. Keep the Karl craft story as the trust anchor.",
-          "budget": "Scale further only where the return holds. Hold back from the mockup we never fixed unless rebuilt.",
-          "what_success_looks_like": "Two products are now selling from ads, order size is up from the set discount and embroidery, and we have a repeatable setup we can keep feeding."
+          "creative": "Refresh the best ads and add a gift-focused set. Use any reviews gathered in months 1 and 2 as proof.",
+          "budget": "Scale in line with what the return supports, not faster.",
+          "what_success_looks_like": "A repeatable winning ad plus a gifting angle both returning above breakeven, so spend can keep climbing safely."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
-          "value": "About $100 to $150 a day to start",
-          "basis": "Enough to get roughly 25 to 40 clicks a day at typical costs for a premium physical product, which is the floor for learning which ad and audience work without guessing."
+          "value": "Around $50 to $75 a day to start",
+          "basis": "enough to gather a few hundred clicks across the first weeks so we can tell which of the 3 ads works, without spending big before anything is proven. Premium single-item price means we need patience, not volume, early on."
         },
         {
           "label": "Revenue we would aim to add",
-          "value": "Cannot give an honest figure until we know their price and order size",
-          "basis": "No prices or catalog are public, so any revenue number would be made up. Once Leilani shares average order value and margin, we can set a real target off the starting budget and a sensible return goal."
+          "value": "We cannot give an honest number yet",
+          "basis": "no prices, order value, or past ad results are public, and they have never run ads. Guessing here would be the one thing that loses the deal on the call. Once Leilani shares average order value and margin, we can model a real target."
         }
       ],
       "assumptions": [
-        "Quilted is their bestseller because it has by far the most designs. If Leilani says another collection sells most, we lead with that instead.",
-        "Their price and margin are high enough to carry paid ads. If the order value is low, the whole plan and budget change.",
-        "They can fulfill more orders. Karl hand-stitches everything, so if he is one person, scaling ads could outrun what he can make. We need to know their capacity."
+        "Quilted is their bestseller because it has the most designs. If Leilani says a different collection sells most, we lead with that instead.",
+        "The price and margin are high enough on a handmade leather cover to carry paid ads. If the order value is low, the whole spend plan changes.",
+        "They have some existing customers or an email list we can build a lookalike from. If not, month one leans fully on cold interest targeting and moves slower.",
+        "The image 2 bag-scale issue is fixable quickly once they send real product files."
       ],
       "horizon_days": 90
     },
@@ -167,20 +166,20 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "Have you ever run Meta or Instagram ads before, even a boosted post?",
-            "listening_for": "We think the answer is no ads are running now. Confirm it. If they tried before and stopped, ask what happened, since that tells us what already did not work."
+            "question": "Have you ever run Meta ads before, even a boosted post? And is anyone running any paid ads for you right now?",
+            "listening_for": "We found none live. Confirm they are truly starting from zero, or find out something stopped. If they tried and it flopped, ask what happened before promising anything."
           },
           {
-            "question": "Who handles marketing today, and how much time do you have for this?",
-            "listening_for": "Is Leilani the decision maker or is Karl. Since she is a software engineer, she may want to be hands-on. Good for site changes, but confirm they will not slow approvals."
+            "question": "Roughly what does one of your headcovers sell for, and what does it cost you to make one?",
+            "listening_for": "This is the number that decides if ads can work at all. A high price with healthy margin carries paid ads. If the margin is thin, be honest that the plan changes."
           },
           {
-            "question": "What does a headcover sell for, and roughly what does it cost you to make one?",
-            "listening_for": "The single most important answer. Price and margin decide if ads can work at all and set the real budget. Do not guess this. Get the number."
+            "question": "What is a comfortable amount for you to put toward testing ads each month while we learn?",
+            "listening_for": "Whether $50 to $75 a day is realistic for them. If budget is very tight, set expectations that learning takes longer."
           },
           {
-            "question": "How many headcovers can Karl make in a week?",
-            "listening_for": "If it is one person hand-stitching, there is a ceiling. We must not sell more than he can build. This shapes how hard we scale in months two and three."
+            "question": "Who would be my day-to-day contact, and can you send product photos and files quickly when I ask?",
+            "listening_for": "Leilani is a software engineer and can make site changes, which is a big plus. Confirm she can turn around assets fast, since the plan depends on it."
           }
         ]
       },
@@ -188,20 +187,24 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "When someone lands on your site, what percentage roughly ends up buying, and where do people drop off?",
-            "listening_for": "If lots of people visit but few buy, the block may be price, trust, or the site, not the ads. Since it is a custom Hydrogen build, checkout quirks are possible."
+            "question": "Which collection or single cover sells the most today, and which do you make the most money on?",
+            "listening_for": "Confirms or breaks my Quilted-is-the-bestseller assumption. Their answer decides which product we lead with."
           },
           {
-            "question": "Which collection or design sells the most right now, Quilted, Artisan, or Exotic Classic?",
-            "listening_for": "We assumed Quilted because it has the most designs. If they say otherwise, we change the lead product for month one."
+            "question": "How many past customers or email subscribers do you have that we could build an audience from?",
+            "listening_for": "A list means we can start with a warmer audience and move faster. No list means pure cold targeting and slower learning."
           },
           {
-            "question": "Do you have customer reviews or photos anywhere, even in DMs or email, that are not on the site?",
-            "listening_for": "The site shows almost no reviews. Ads need trust. If they have happy customers off-site, we can use that fast. If they truly have none, that changes month one."
+            "question": "I only saw one testimonial on the site. Do you have more reviews, customer photos, or messages we could use?",
+            "listening_for": "This is the biggest gap for ads. If they have proof sitting in DMs or email, we can use it. If they truly have almost none, gathering it becomes part of the job."
           },
           {
-            "question": "How much of your business is people buying for themselves versus buying as gifts?",
-            "listening_for": "This decides how heavy we go on the embroidery and gifting angle in month three, and whether we time anything to holidays."
+            "question": "When someone lands on your site, how many actually buy? And does the custom order process ever slow people down?",
+            "listening_for": "Whether the problem is traffic or the site itself. If good traffic already does not convert, sending more paid clicks wastes money until we fix the site or offer."
+          },
+          {
+            "question": "How long does a custom headcover take to make and ship?",
+            "listening_for": "One artisan hand-making everything may mean long lead times. If it takes weeks, that must be clear in ads or buyers get frustrated and refund."
           }
         ]
       },
@@ -209,56 +212,56 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "Do you ever get customers who found you by searching things like 'custom golf headcovers' or 'leather headcovers'?",
-            "listening_for": "People do search for golf headcovers, so there is a real opening for Google Search ads and SEO later. If they say buyers already find them by searching, that is a strong signal to raise Google in a future phase."
+            "question": "Do you get many people finding you by searching things like 'custom golf headcovers' or 'leather headcovers'?",
+            "listening_for": "People clearly search for golf headcovers, so there is a real Google Search opening here. Listen for whether they already show up or are invisible on search. This is an honest add-on, not a stretch."
           },
           {
-            "question": "Are you showing up when people search your own brand name or 'LPC Golf'?",
-            "listening_for": "If competitors bid on their name or they rank poorly, a small branded Google campaign is cheap protection. Only worth raising once Meta is proving out."
+            "question": "How much of your business comes from gifts, and do you see spikes around the holidays or Father's Day?",
+            "listening_for": "Custom embroidery makes this a natural gift. Strong gift demand supports both the month-3 gifting push and seasonal Google campaigns."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "We have never run ads and are not sure they work for something this premium and handmade.",
-        "answer": "That is exactly why we start small and prove one ad first before spending real money. Premium handmade is actually easier to advertise, because the Karl story and the craft give us something most golf brands do not have. Month one is a low-cost test, not a big bet."
+        "objection": "We have never run ads. How do I know these will even work?",
+        "answer": "You do not yet, and that is exactly why month one is small and about learning, not scaling. We run your 3 ads against each other on a modest budget and let real buyers tell us which angle works before you spend more. You are buying proof, not promises."
       },
       {
-        "objection": "Karl makes everything by hand, so we cannot handle a flood of orders.",
-        "answer": "Good, that means we control the tap. We set spend to match what Karl can build, and we can lean on the higher-priced custom pieces so each order is worth more without needing huge volume. We scale only as fast as you can make."
+        "objection": "Each cover is handmade and takes time. I can't handle a flood of orders.",
+        "answer": "Good, because the plan does not create a flood. We start slow on purpose and only raise spend as you prove you can keep up. Your lead time actually goes in the ads as part of the craft story, so buyers expect it and value it."
       },
       {
-        "objection": "One of your mockups had the golf bag sized wrong, so can I trust the creative?",
-        "answer": "Fair, and you caught it yourself. Those were built from public site images only, so treat them as angle concepts. With your real product files they get sharper, and we will not run that image until it is rebuilt right. The other two you already said look great."
+        "objection": "My product is premium and personal. Ads will make it look cheap.",
+        "answer": "Agreed, so we lead with the craft, the leather, and the hand-stitching, not discounts. The playbook already sets what we will and will not say. The whole point is to show people how good this brand really is, which is what you told me yourself."
       },
       {
-        "objection": "Our site is a custom Hydrogen build, not standard Shopify, will your tracking and setup even work?",
-        "answer": "No problem at all, and having you as a software engineer on the brand side actually speeds it up. We tell you exactly what to place and where, and you can implement it cleanly yourself instead of fighting a template."
+        "objection": "I only have one review on my site. Isn't that a problem for ads?",
+        "answer": "It is honestly the biggest thing to fix, and I would rather say that than pretend otherwise. Cold buyers need proof before paying a premium. So part of month one and two is gathering your existing customer photos and messages and putting them to work. If you have more than what is on the site, we are in good shape."
       }
     ],
     "red_flags": [
       {
-        "flag": "Almost no social proof. Only one customer quote is visible and no reviews on the site.",
-        "why_it_matters": "Cold ads live or die on trust. A premium price with no visible proof makes strangers hesitate. We need reviews or photos before or during month one, or the ads will struggle."
+        "flag": "Almost no visible social proof. Only one testimonial and no review count anywhere on the site.",
+        "why_it_matters": "People do not spend premium money on an unknown brand cold without proof. We may need to gather reviews before ads can perform, which slows early results."
       },
       {
-        "flag": "No prices or catalog are public.",
-        "why_it_matters": "We cannot judge if the order value and margin can carry paid ads. Until Leilani gives real numbers, any budget or revenue target is a guess, and we must not state one."
+        "flag": "No prices, no catalog, and no past ad data are public.",
+        "why_it_matters": "We cannot honestly model revenue or return yet. Kyle must not throw out any dollar figure on the call. Get order value and margin first."
       },
       {
-        "flag": "Everything is hand-stitched by one person, Karl.",
-        "why_it_matters": "There is a hard limit on how many orders can be filled. If ads work too well, they could sell more than he can make and end up with angry customers and refunds."
+        "flag": "Everything is hand-made by one artisan, Karl.",
+        "why_it_matters": "Production may not scale fast. If ads work too well, long lead times could cause refund requests and bad word of mouth. Scaling must stay tied to what he can produce."
       },
       {
         "flag": "Custom items cannot be returned, and the customer pays return shipping.",
-        "why_it_matters": "This can lower conversion and raise complaints if not made clear in the ad and on the product page. We should message it plainly so buyers know before they order."
+        "why_it_matters": "Since most orders are custom, buyers take on more risk. That makes strong proof and clear ad messaging even more important so expectations are set upfront."
       }
     ],
     "other_channel_openings": [
-      "Google Search ads later. People do search for terms like 'custom golf headcovers' and 'leather golf headcovers', so there is real demand to capture once Meta is proving out. Confirm with the discovery question before promising it.",
-      "A small branded Google campaign to protect the LPC Golf name in search, if they are not already showing up first for it."
+      "Google Search ads. Golfers actively search for terms like 'custom golf headcovers' and 'leather golf headcovers', so there is real existing demand to capture, not a category we would have to invent.",
+      "SEO. A brand with a genuine made-in-USA, hand-stitched story and named collections can rank over time for those same search terms, which lowers reliance on paid clicks. Worth raising only after confirming they show up poorly today."
     ]
   },
-  "generated_at": "2026-07-13T17:44:20.933Z"
+  "generated_at": "2026-07-13T17:55:29.047Z"
 }
