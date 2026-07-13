@@ -148,11 +148,6 @@ export default function ScrollStopperTemplate({ data }: { data: ScrollStopperDat
             <div className="hero-mockup-rationale">
               <div className="hero-mockup-tag">Why this angle</div>
               <p>{c.why_it_works}</p>
-              {c.ai_image && c.visual_direction && (
-                <p className="ss-visual-note">
-                  <strong>The shot:</strong> {c.visual_direction}
-                </p>
-              )}
             </div>
           </div>
         </section>
