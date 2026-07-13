@@ -238,3 +238,117 @@ export async function bumpBrandPlaybookOpen(slug: string, ts: string): Promise<v
   });
   if (!upRes.ok) throw new Error(`bumpBrandPlaybookOpen write ${upRes.status}: ${await upRes.text()}`);
 }
+
+// ── Lookup by email (Call Prep Pack) ────────────────────────────────────────
+//
+// When a lead books a call we know their email and nothing else. The tracker is
+// what tells us which magnet they got, its slug, and how hard they engaged with
+// it - so we search every tab for the email and report back what we find.
+//
+// Unlike the writers above, this resolves columns BY HEADER NAME, never by fixed
+// letter. Amir reorders columns in this sheet, and a lookup that silently reads
+// the wrong column would put the wrong brand in front of Kyle on a live call.
+
+export type MagnetKind = "forecast" | "scroll-stopper" | "brand-playbook";
+
+export type TrackerLead = {
+  magnet: MagnetKind;
+  slug: string;
+  first_name: string;
+  last_name: string;
+  email: string;
+  company: string;
+  website: string;
+  smartlead_campaign: string;
+  date_sent: string;
+  // Untracked (internal) links - safe for Kyle to click without inflating opens.
+  report_url: string;
+  playbook_url: string;
+  // Engagement, as an intent signal on the call ("they opened it 6 times").
+  report_opens: number;
+  playbook_opens: number;
+  last_opened_at: string;
+};
+
+// Strip the tracking params so Kyle can open a link without firing a beacon.
+// The sheet stores the tracked (?ref=email) form for Scroll-Stopper rows and the
+// untracked form for Forecast rows, so normalize both to untracked.
+function untracked(url: string): string {
+  const clean = (url || "").trim();
+  if (!clean) return "";
+  const q = clean.indexOf("?");
+  return q === -1 ? clean : clean.slice(0, q);
+}
+
+function toInt(v: string | undefined): number {
+  return parseInt((v || "0").trim(), 10) || 0;
+}
+
+// Read a whole tab and hand back rows as header-keyed lookups.
+async function readTab(tab: string): Promise<Array<(header: string) => string>> {
+  const res = await authedFetch(valuesUrl(tab, "A:Z"));
+  if (!res.ok) throw new Error(`readTab ${tab} ${res.status}`);
+  const { values } = (await res.json()) as { values?: string[][] };
+  if (!values || values.length < 2) return [];
+
+  const headers = (values[0] || []).map((h) => (h || "").trim().toLowerCase());
+  return values.slice(1).map((row) => (header: string): string => {
+    const idx = headers.indexOf(header.trim().toLowerCase());
+    return idx === -1 ? "" : (row[idx] || "").trim();
+  });
+}
+
+// Find a lead across all three magnet tabs by email.
+//
+// Returns EVERY match, newest tab-order last, because a lead can legitimately
+// appear twice (got the Forecast in March, the Scroll-Stopper in July). The
+// caller decides which one the call is about.
+export async function findLeadByEmail(email: string): Promise<TrackerLead[]> {
+  const target = email.trim().toLowerCase();
+  if (!target) return [];
+
+  const tabs: Array<{ tab: string; magnet: MagnetKind }> = [
+    { tab: FORECAST_TAB, magnet: "forecast" },
+    { tab: SCROLL_TAB, magnet: "scroll-stopper" },
+    { tab: BRAND_TAB, magnet: "brand-playbook" },
+  ];
+
+  const found: TrackerLead[] = [];
+
+  for (const { tab, magnet } of tabs) {
+    let rows: Array<(header: string) => string>;
+    try {
+      rows = await readTab(tab);
+    } catch (e) {
+      // A missing/renamed tab must not sink the lookup on the other tabs.
+      console.error(`[sheets] could not read tab "${tab}":`, e);
+      continue;
+    }
+
+    for (const get of rows) {
+      if (get("Email").toLowerCase() !== target) continue;
+
+      found.push({
+        magnet,
+        slug: get("Slug"),
+        first_name: get("First Name"),
+        last_name: get("Last Name"),
+        email: get("Email"),
+        company: get("Company"),
+        website: get("Website"),
+        smartlead_campaign: get("Smartlead Campaign"),
+        date_sent: get("Date Sent"),
+        report_url: untracked(get("Report URL")),
+        playbook_url: untracked(get("Playbook URL")),
+        // The Forecast tab has one open-count column ("Open Count"); the
+        // Scroll-Stopper tab splits it into "Report Opens" / "Playbook Opens".
+        report_opens: toInt(get("Report Opens") || get("Open Count")),
+        playbook_opens: toInt(get("Playbook Opens")),
+        last_opened_at:
+          get("Last Opened At") || get("Report Last Opened") || get("Playbook Last Opened"),
+      });
+    }
+  }
+
+  return found;
+}

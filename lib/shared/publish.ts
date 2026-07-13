@@ -85,6 +85,32 @@ export function putJson(filePath: string, data: unknown, message: string): Promi
   return githubPut(filePath, base64, message);
 }
 
+// Read a JSON artifact we committed earlier (a forecast, a playbook, a
+// scroll-stopper sheet) back out of the repo.
+//
+// Reads from GitHub rather than the local filesystem on purpose: the running
+// Vercel instance only has the files that existed at ITS build, so an artifact
+// committed after that deploy is invisible to fs. GitHub is always current.
+// Returns null when the file isn't there, which is a normal case (the lead may
+// simply never have received that magnet).
+export async function githubGetJson<T>(filePath: string): Promise<T | null> {
+  const res = await fetch(
+    `https://api.github.com/repos/${env("GITHUB_OWNER")}/${env("GITHUB_REPO")}/contents/${filePath}?ref=main`,
+    {
+      headers: {
+        Authorization: `Bearer ${env("GITHUB_TOKEN")}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      },
+    },
+  );
+  if (res.status === 404) return null;
+  if (!res.ok) throw new Error(`GitHub GET ${filePath} failed: ${res.status}`);
+  const json = (await res.json()) as { content?: string };
+  if (!json.content) return null;
+  return JSON.parse(Buffer.from(json.content, "base64").toString("utf8")) as T;
+}
+
 // Pull the first JSON object out of a Claude text response, tolerating code
 // fences and surrounding prose.
 export function extractJson(text: string): unknown {

@@ -1087,3 +1087,162 @@ footer .pb { color: var(--ink); font-weight: 600; margin-bottom: 6px; }
 .claim-col li:last-child { border-bottom:none; }
 .claim-col .why { display:block; font-size:12px; color:var(--ink-soft); margin-top:2px; }
 @media (max-width:640px){ .pb-pillars,.pb-lang,.claims-grid { grid-template-columns:1fr; } }
+
+/* ── Call Prep Pack (internal brief) ───────────────────────────────────────
+   Namespaced .cp-* so it can never collide with the outbound magnet templates.
+   Denser and more utilitarian than the client-facing magnets: this is read once,
+   fast, right before a call, and often printed to PDF. */
+.cp { max-width: 820px; }
+.cp .eyebrow { color: var(--danger); }
+
+.cp-section { margin: 44px 0; padding-top: 28px; border-top: 1px solid var(--line); }
+.cp-lede { color: var(--ink-soft); font-size: 15px; margin: 0 0 20px; }
+.cp-note {
+  font-size: 13px; line-height: 1.5; color: var(--ink-soft);
+  background: #f4f1ec; border-left: 2px solid var(--line);
+  padding: 10px 14px; margin: 16px 0 0;
+}
+.cp-h2 { font-size: 22px; margin: 8px 0 20px; line-height: 1.3; }
+.cp-h3 {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px; text-transform: uppercase; letter-spacing: .06em;
+  color: var(--ink-soft); margin: 26px 0 10px;
+}
+.cp-list { margin: 0; padding-left: 18px; }
+.cp-list li { font-size: 15px; line-height: 1.5; margin-bottom: 7px; }
+.cp-two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 8px; }
+
+/* Links to the magnets they received. Untracked, so safe to click. */
+.cp-links { display: grid; gap: 10px; }
+.cp-link {
+  display: block; background: var(--card); border: 1px solid var(--line);
+  border-left: 3px solid var(--ok); border-radius: 2px;
+  padding: 12px 16px; text-decoration: none; color: inherit;
+}
+.cp-link:hover { background: #fbfaf8; }
+.cp-link-label {
+  display: block; font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px; font-weight: 600;
+}
+.cp-link-url {
+  display: block; font-size: 12px; color: var(--ink-soft);
+  word-break: break-all; margin-top: 2px;
+}
+.cp-link-opens {
+  display: block; font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 12px; color: var(--ok); margin-top: 4px;
+}
+
+/* The email transcript. */
+.cp-thread { display: grid; gap: 14px; }
+.cp-msg { border: 1px solid var(--line); border-radius: 2px; padding: 12px 16px; background: var(--card); }
+.cp-msg.them { border-left: 3px solid var(--ok); background: #f6faf7; }
+.cp-msg.us { border-left: 3px solid var(--line); }
+.cp-msg-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px;
+}
+.cp-who { font-weight: 600; }
+.cp-when { color: var(--ink-soft); }
+.cp-subject {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+  font-weight: 600; margin: 6px 0 4px;
+}
+.cp-body { font-size: 14px; line-height: 1.55; white-space: pre-wrap; }
+
+/* Scraped facts strip. */
+.cp-facts {
+  display: grid; grid-template-columns: repeat(6, 1fr); gap: 1px;
+  background: var(--line); border: 1px solid var(--line); border-radius: 2px;
+  overflow: hidden;
+}
+.cp-fact { background: var(--card); padding: 12px 8px; text-align: center; }
+.cp-fact-n {
+  display: block; font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 15px; font-weight: 600; line-height: 1.3;
+}
+.cp-fact-l {
+  display: block; font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 11px; color: var(--ink-soft); text-transform: uppercase;
+  letter-spacing: .04em; margin-top: 3px;
+}
+
+.cp-quotes { display: grid; gap: 8px; }
+.cp-quote {
+  margin: 0; padding: 8px 14px; border-left: 2px solid var(--ok);
+  background: #f6faf7; font-size: 14px; font-style: italic; line-height: 1.5;
+}
+
+/* Game plan phases. */
+.cp-phase {
+  border: 1px solid var(--line); border-radius: 2px; background: var(--card);
+  margin-bottom: 14px; overflow: hidden;
+}
+.cp-phase-head {
+  display: flex; gap: 12px; align-items: baseline;
+  padding: 10px 16px; background: #f4f1ec; border-bottom: 1px solid var(--line);
+}
+.cp-window {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px;
+  font-weight: 700; white-space: nowrap;
+}
+.cp-goal { font-size: 14px; color: var(--ink-soft); }
+.cp-phase-body { margin: 0; padding: 14px 16px; display: grid; grid-template-columns: 130px 1fr; gap: 8px 14px; }
+.cp-phase-body dt {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 12px;
+  text-transform: uppercase; letter-spacing: .04em; color: var(--ink-soft); padding-top: 2px;
+}
+.cp-phase-body dd { margin: 0; font-size: 15px; line-height: 1.5; }
+.cp-phase-body dd .cp-list { padding-left: 16px; }
+
+/* Estimates always render their basis. The number is never shown alone. */
+.cp-estimates { display: grid; gap: 8px; }
+.cp-estimate { border: 1px solid var(--line); border-left: 3px solid var(--warn); background: var(--card); padding: 10px 14px; }
+.cp-est-top { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.cp-est-label { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 13px; font-weight: 600; }
+.cp-est-value { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 15px; font-weight: 700; }
+.cp-est-basis { font-size: 13px; color: var(--ink-soft); line-height: 1.5; margin-top: 3px; }
+
+/* Discovery questions. */
+.cp-discovery { margin-bottom: 8px; }
+.cp-q { padding: 9px 0; border-bottom: 1px solid var(--line); }
+.cp-q:last-child { border-bottom: none; }
+.cp-q-text { font-size: 15px; line-height: 1.5; }
+.cp-q-listen { font-size: 13px; color: var(--ink-soft); margin-top: 3px; }
+
+.cp-obj { margin-bottom: 14px; }
+.cp-obj-q { font-size: 15px; font-style: italic; }
+.cp-obj-a { font-size: 15px; line-height: 1.55; color: var(--ink-soft); margin-top: 4px; padding-left: 14px; border-left: 2px solid var(--line); }
+
+.cp-flag { border-left: 3px solid var(--danger); background: #fdf6f5; padding: 9px 14px; margin-bottom: 8px; }
+.cp-flag-t { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; font-weight: 600; color: var(--danger); }
+.cp-flag-w { font-size: 14px; line-height: 1.5; margin-top: 2px; }
+
+/* Capability track. */
+.cp-caps { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.cp-cap { border: 1px solid var(--line); border-radius: 2px; background: var(--card); padding: 12px 14px; }
+.cp-cap-head { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.cp-cap-name { font-family: ui-sans-serif, system-ui, sans-serif; font-size: 14px; font-weight: 600; }
+.cp-cap-status {
+  font-family: ui-sans-serif, system-ui, sans-serif; font-size: 10px;
+  text-transform: uppercase; letter-spacing: .05em; padding: 2px 6px; border-radius: 2px; white-space: nowrap;
+}
+.cp-cap-status.live { background: #e8f3ec; color: var(--ok); }
+.cp-cap-status.soon { background: #fdf1e3; color: var(--warn); }
+.cp-cap-what { font-size: 14px; line-height: 1.5; margin-top: 6px; }
+.cp-cap-why { font-size: 13px; line-height: 1.5; color: var(--ink-soft); margin-top: 5px; }
+
+@media (max-width: 720px) {
+  .cp-facts { grid-template-columns: repeat(3, 1fr); }
+  .cp-two-col, .cp-caps { grid-template-columns: 1fr; }
+  .cp-phase-body { grid-template-columns: 1fr; gap: 2px 0; }
+  .cp-phase-body dt { margin-top: 8px; }
+}
+
+/* Kyle prints these to PDF and reads them on a phone before the call. */
+@media print {
+  .cp-section { break-inside: auto; page-break-inside: auto; }
+  .cp-phase, .cp-estimate, .cp-cap, .cp-msg { break-inside: avoid; page-break-inside: avoid; }
+  .cp-link { border-left-color: #999; }
+  .cp .eyebrow { color: #000; }
+}
