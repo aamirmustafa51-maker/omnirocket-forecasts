@@ -1,0 +1,167 @@
+{
+  "lead_company": "Escape Coffee",
+  "lead_first_name": "David",
+  "website": "https://escape.cafe",
+  "brand_domain": "escape.cafe",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Montreal-based specialty coffee company selling single-origin and blend roasts online and by subscription.",
+    "core_belief": "Coffee is a moment to escape - a chance to free yourself from the routine of everyday life to achieve something greater.",
+    "proof_points": [
+      "Single-origin sourcing with named farms, producers, regions and altitudes (e.g. La Palmera, Mercedes Carranza Montenegro, Peru, 1500m)",
+      "Coffees chosen for quality, taste, social impact, transport, origin and treatment of employees",
+      "Packed only with compostable or reusable packaging and delivered by the most ecological transport possible",
+      "Roasts organized into intentional profiles - Limited, Bright, Warm and Dark Series - with brew ratios published per coffee"
+    ],
+    "positioning": "Premium, personality-forward specialty roaster - playful and adventurous where most craft coffee is precious and technical."
+  },
+  "voice_pillars": [
+    {
+      "name": "Adventurous Escapist",
+      "desc": "Writes coffee as a mini-getaway, inviting the reader to feel and imagine rather than just drink.",
+      "quote": "Surrender to the moment with each sip and every cup of our wide and varied specialty coffee selection."
+    },
+    {
+      "name": "Playfully Obsessive",
+      "desc": "Owns its one-track coffee fixation with cheeky, self-aware humor.",
+      "quote": "We've been accused of having a one-track mind. And to those accusations we say - thank you."
+    },
+    {
+      "name": "Warm And Inviting",
+      "desc": "Uses cozy, human language that makes even a rare coffee feel comforting and accessible.",
+      "quote": "A comfortable cup that will inevitably feel like a warm hug."
+    },
+    {
+      "name": "Values-Led",
+      "desc": "States its ethics plainly, putting planet and people ahead of profit without preachiness.",
+      "quote": "We build Escape by putting the planet, people and quality before profit."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Go Against the Grain",
+      "an escape is possible. Just grab a bag, and jump right in",
+      "it will change the way you see life",
+      "feel like a warm hug",
+      "transports you to the places you've only dreamed of visiting",
+      "every coffee has to be epic"
+    ],
+    "words": [
+      "escape",
+      "epic",
+      "vibrant",
+      "bold",
+      "sweet",
+      "comforting",
+      "single origin",
+      "washed"
+    ],
+    "avoid": [
+      "corporate",
+      "clinical",
+      "burnt",
+      "generic"
+    ]
+  },
+  "icp": "Curious coffee lovers who want distinctive single-origin cups with a story and ethics behind them, and who treat their daily brew as a small ritual to escape the routine.",
+  "personas": [
+    {
+      "name": "The Flavour Explorer",
+      "description": "Adventurous home brewer chasing rare varieties and vivid tasting notes - moved by origin stories, unique processes and 'it will change the way you see life' novelty."
+    },
+    {
+      "name": "The Conscious Sipper",
+      "description": "Values-driven buyer who cares about ecological transport, compostable packaging and fair treatment of producers - moved by 'planet, people and quality before profit'."
+    },
+    {
+      "name": "The Ritual Seeker",
+      "description": "Everyday coffee drinker who wants their cup to be a comforting daily escape - moved by warmth, ease and 'just grab a bag and jump right in' simplicity."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Estela",
+      "role": "Hero / best-seller",
+      "price": 30
+    },
+    {
+      "title": "André the Giant #5",
+      "role": "Core",
+      "price": 28
+    },
+    {
+      "title": "Cozy Secret Sauce",
+      "role": "Entry point",
+      "price": 25
+    },
+    {
+      "title": "Tropical",
+      "role": "Premium",
+      "price": 30
+    }
+  ],
+  "offers": [
+    "Free shipping: Quebec & Montreal orders 35$+, Canada orders 55$+ (USA temporarily suspended)",
+    "Subscribe to monthly deliveries and save up to 15% on every order",
+    "Gift cards and gift boxes available",
+    "15-day return policy on eligible items (perishables such as coffee are exempt; contact hello@escape.cafe for coffee dissatisfaction)",
+    "Local bike delivery with published cut-off times"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Single-origin coffee from named farms and regions (e.g. Peru, Amazonas, La Palmera).",
+        "source": "product page (Tropical)"
+      },
+      {
+        "claim": "Packed only with compostable or reusable packaging.",
+        "source": "about page"
+      },
+      {
+        "claim": "Delivered by the most ecological means of transport possible.",
+        "source": "about page"
+      },
+      {
+        "claim": "Save up to 15% on every order with a monthly subscription.",
+        "source": "homepage subscribe section"
+      },
+      {
+        "claim": "Free shipping on Quebec & Montreal orders 35$+ and Canada orders 55$+.",
+        "source": "site-wide banner"
+      },
+      {
+        "claim": "Coffees selected considering quality, taste, social impact, transport and origin.",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Coffee that boosts immunity or supports your immune system.",
+        "why": "Banned immunity claim - unqualified health benefit not supported on label."
+      },
+      {
+        "claim": "Detoxes or cleanses your body.",
+        "why": "Unqualified 'detox' claim is banned for this category."
+      },
+      {
+        "claim": "Burns fat or aids weight loss.",
+        "why": "Banned fat-burning/disease-adjacent health claim."
+      },
+      {
+        "claim": "Treats, prevents or cures any condition (e.g. fatigue, migraines).",
+        "why": "Disease-treatment claims are prohibited."
+      },
+      {
+        "claim": "Headlining coffee as 'all natural' or 'clean'.",
+        "why": "'Natural' and 'clean' are vague, risky headline claims - use specific process terms like 'washed' or 'natural process' instead."
+      },
+      {
+        "claim": "Nutrient content claims like 'low sugar' or 'antioxidant-rich'.",
+        "why": "Nutrient-content claims must match the actual label; none is stated on-site."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-13T15:59:09.447Z"
+}
