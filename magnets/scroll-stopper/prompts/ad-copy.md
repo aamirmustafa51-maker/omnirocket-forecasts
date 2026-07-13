@@ -35,7 +35,7 @@ Return a JSON object with this EXACT shape:
       "angle_label": "One of the angle names above",
       "primary_text": "The Meta ad primary text (the caption above the image). Format it like a real Meta ad, NOT one dense paragraph: open with a short punchy hook line, then a blank line, then 1-3 short sentences of body. Separate distinct thoughts with a blank line. Use actual line breaks in the string as \\n\\n between blocks (and \\n within a block if a line should wrap). Aim for 2-3 short blocks total. Conversational, native to the feed, benefit-led.",
       "headline": "The bold headline under the image (max ~40 chars). Punchy.",
-      "cta": "A standard Meta CTA button label: 'Shop Now', 'Shop the Sale', 'Get Yours', or 'Learn More'.",
+      "cta": "Always the exact string 'Shop Now'. Do not use 'Get Yours', 'Learn More', 'Shop the Sale' or any other label.",
       "why_it_works": "ONE sentence, plain English, explaining why this angle fits THIS product and audience. This shows the brand owner we thought about it.",
       "image_prompt": "The fully-filled image generation prompt for this ad's visual, built from the IMAGE PROMPT TEMPLATE below with ALL FIVE slots filled: {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, {STRUCTURE_LOCK}. Both lock clauses are MANDATORY.",
       "visual_direction": "ONE short plain-English sentence describing what the shot shows (e.g. 'The bottle on a sunlit kitchen counter with fresh citrus alongside'). This is shown to the brand owner, so no prompt jargon."
