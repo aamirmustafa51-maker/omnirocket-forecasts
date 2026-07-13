@@ -6,7 +6,7 @@
   "website": "https://strivesoda.com",
   "brand_domain": "strivesoda.com",
   "currency": "USD",
-  "smartlead_campaign": "OR #5 | Personalized Line | Forecast Lead Magnet",
+  "smartlead_campaign": "OR #5",
   "magnet": {
     "kind": "forecast",
     "report_url": "https://omnirocket-forecasts.vercel.app/forecast/strive-soda",
@@ -29,7 +29,7 @@
       "from": "chris@strivesoda.com",
       "to": "kyle.hamar@omniroket.com",
       "subject": "",
-      "body_text": "Kyle - I get 10 of these emails a day so please send me whatever you think is valuable for Strive and I’ll take a look.\n \n\n - CC\n CHRIS CLARK, MBA\n Head Of Marketing \n +1-925-683-9911 \n chris@strivesoda.com \n Website   |   Instagram  |  LinkedIn \n\n \n On Wed, Jul 8, 2026 at 11:11 AM Kyle Hamar < kyle.hamar@omniroket.com > wrote:\n\n Christopher, saw strive's angle pairs a quarterly giveaway with 15% off to hook first orders, curious how that's been converting.\n\r\n\n\r\nseparate note: I made Strive Soda a 4-min ad fatigue report from your live meta ads. the one about to die, the duplicate eating budget, which to scale, and a fresh angle to test.\n\r\n\n\r\nmost brands in your niche usually run the same handful of ads too long. this spots it before ROAS drops.\n\r\n\n\r\nwant it?\n\r\n\n\r\nKyle H.\n\r\nCo-founder | OmniRocket\n\r\n\n\r\nP.S. if Jack's the better person, point me there :)",
+      "body_text": "Kyle - I get 10 of these emails a day so please send me whatever you think is valuable for Strive and I’ll take a look.\n \n\n - CC\n CHRIS CLARK, MBA\n Head Of Marketing \n +1-925-683-9911 \n chris@strivesoda.com \n Website   |   Instagram  |  LinkedIn",
       "sent_at": "2026-07-09T03:13:27.000Z"
     },
     {
@@ -45,7 +45,7 @@
       "from": "chris@strivesoda.com",
       "to": "kyle.hamar@omniroket.com",
       "subject": "Re: made Strive Soda something",
-      "body_text": "Kyle - thanks for sending this over. I'll booked a time for Monday.\n\nWarmly,\nChris\n\n On Thu, Jul 9, 2026 at 8:54 AM Kyle Hamar < kyle.hamar@omniroket.com > wrote:\n\n here's the report Christopher - Strive Soda's 4-min fatigue report. \n\n it flags the ad about to stop working, the near-duplicate splitting your budget, the one to put more behind, and an angle you're not running yet.\n\n the fixes are quick but easier to just walk you through - 30 min? → Calendar \n\n - Kyle\n\n \r\n \r\n On Thu, Jul 9, 2026 at 03:13 AM UTC Christopher Clark < chris@strivesoda.com > wrote:\n\r\n \n\r\n Kyle - I get 10 of these emails a day so please send me whatever you think is valuable for Strive and I’ll take a look.\n \n\n - CC\n CHRIS CLARK, MBA\n Head Of Marketing \n +1-925-683-9911 \n chris@strivesoda.com \n Website   |   Instagram  |  LinkedIn \n\n \n On Wed, Jul 8, 2026 at 11:11 AM Kyle Hamar < kyle.hamar@omniroket.com > wrote:\n\n Christopher, saw strive's angle pairs a quarterly giveaway with 15% off to hook first orders, curious how that's been converting.\n\r\n\n\r\nseparate note: I made Strive Soda a 4-min ad fatigue report from your live meta ads. the one about to die, the duplicate eating budget, which to scale, and a fresh angle to test.\n\r\n\n\r\nmost brands in your niche usually run the same handful of ads too long. this spots it before ROAS drops.\n\r\n\n\r\nwant it?\n\r\n\n\r\nKyle H.\n\r\nCo-founder | OmniRocket\n\r\n\n\r\nP.S. if Jack's the better person, point me there :)\n\r\n \n\n\r\n \r\n \n\r\n \n \n \n\n -- \n CHRIS CLARK, MBA\n Head Of Marketing \n +1-925-683-9911 \n chris@strivesoda.com \n Website   |   Instagram  |  LinkedIn",
+      "body_text": "Kyle - thanks for sending this over. I'll booked a time for Monday.\n\nWarmly,\nChris",
       "sent_at": "2026-07-11T00:06:26+00:00"
     },
     {
@@ -67,62 +67,63 @@
     "running_ads": 5
   },
   "copy": {
-    "tldr": "Strive is a San Diego hydration soda brand ($32.99 per 12-pack, honey-sweetened, electrolytes) whose Meta ads have near-duplicates splitting budget and a message that fights their own site - our 30 day play is to test three buyer angles cleanly and find the winner before spend gets wasted.",
+    "tldr": "Strive Soda is a San Diego better-for-you hydration soda whose Meta ads are running near-duplicate copy and making a claim their own site contradicts, and this call is your chance to show Chris the fix and a clean 30 day test.",
     "deep_dive": {
-      "what_they_are": "A better-for-you soda brand out of San Diego. They call it 'hydration soda' - a sparkling drink with electrolytes and organic honey. Founded by Jack Espy. Your contact is Chris Clark, Head of Marketing. They sell direct to shoppers online in 12-packs.",
-      "what_they_sell": "Three products, all $32.99 for a 12-pack. Peach Perfect (peach + citrus), Tropical Recharge (passionfruit + coconut), and a Variety Pack with 6 of each. Every can has 180mg electrolytes, is sweetened with organic wildflower honey, and is 45 calories. They also push a Subscribe & Save first month at $16.50.",
-      "positioning": "Premium and playful. Flavor first, hydration second. They are clear they are NOT a gym drink and NOT a sugar bomb. The tagline is 'Soda That Tastes Amazing. Hydration Built In.'",
-      "who_buys": "Active, on-the-go adults who love soda taste but want cleaner ingredients. People who will pay a premium to enjoy soda without guilt.",
+      "what_they_are": "A San Diego direct-to-consumer drink brand. They call themselves the first hydration soda: a sparkling drink with electrolytes and organic honey, sold in 12-packs. Founder is Jack Espy. Your contact is Chris Clark, Head of Marketing.",
+      "what_they_sell": "Three products, all $32.99 for a 12-pack: Peach Perfect, Tropical Recharge, and a Variety Pack with 6 of each. Every can has 180mg electrolytes, is sweetened with organic wildflower honey, and is 45 calories. They also push a Subscribe & Save first month at $16.50.",
+      "positioning": "Premium and playful better-for-you soda. Bold flavor first, hydration second. Not a gym or performance drink, not a sugar bomb. Made for active, on-the-go adults who want cleaner soda without giving up taste.",
+      "who_buys": "Active adults who love soda but want cleaner ingredients and everyday hydration, and will pay a premium to get both. Think beach-to-boardroom California lifestyle.",
       "customer_voice": [],
       "strengths": [
-        "Clear, differentiated hook - 'hydration soda' is a fresh idea and the honey angle is a real point of difference from Olipop, Poppi, and zero-sugar seltzers.",
-        "The Variety Pack has 14 reviews, the most of any product, which suggests it is their easiest first purchase because people want to try both flavors before committing."
+        "Clear, differentiated hook: soda first, hydration built in, sweetened with honey not sugar. That is easy to say in an ad.",
+        "Real offer ladder already in place: Variety Pack to try both flavors, plus a strong Subscribe & Save first-month price of $16.50."
       ],
       "gaps": [
-        "Their live Meta ads say '0 sugar, 0 calories' but the site clearly says 45 calories and honey-sweetened. That is a contradiction that will confuse buyers and could get flagged. The ads are fighting the brand.",
-        "Almost no social proof. Two reviews on Peach, zero on Tropical, 14 on the Variety Pack. The site claims '10,000+ Happy Customers' but there is nothing visible to back it up, which makes cold traffic harder to convert."
+        "Their live ads say '0 sugar, 0 calories' but their own site says the soda is sweetened with honey and is 45 calories per can. That is a contradiction that will hurt trust and could get flagged.",
+        "No reviews are visible on the site except small counts (2 on Peach, 0 on Tropical, 14 on Variety). Little visible social proof makes paid ads harder to convert."
       ]
     },
     "game_plan": {
-      "headline": "Clean up the duplicate ads, fix the message that fights their site, then test three buyer angles against the Variety Pack to find one winner in 30 days.",
+      "headline": "A 30 day test to find the one angle and one audience that sells Strive, starting by fixing the ads that are fighting each other.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Find out which buyer angle and which audience actually works. Not scaling. We want one clear winning angle and one clear winning audience by day 30, plus a message that matches their real product.",
+          "goal": "Find which message and which audience actually make people buy. This is a learning phase, not a scaling phase.",
           "campaigns": [
-            "One testing campaign with three ad sets, one per avatar angle below. Same budget each, so we compare fairly.",
-            "A small retargeting campaign for people who visited the site or added to cart but did not buy, since cold traffic on a $32.99 first order rarely buys on the first click."
+            "One clean testing campaign built around three customer avatars (below), each with its own angle. We stop running near-duplicate ads against each other so the budget stops splitting.",
+            "A simple retargeting campaign for people who visited the site or added to cart, leaning on the Variety Pack and the Subscribe & Save first-month price."
           ],
           "lead_products": [
-            "Variety Pack (12 Pack) - lead with this. It has 14 reviews versus 2 and 0 on the single flavors, which tells me it is the easiest first purchase. New buyers do not want to commit to one flavor of a brand they have never tried. Let them try both, then win the repeat order on subscription."
+            "Variety Pack (12 Pack) as the main lead. It has the most reviews (14 vs 2 and 0), which tells me it is the one people pick most, and it lets a first-time buyer try both flavors so there is less risk in the first order.",
+            "Peach Perfect (12 pack) as the flavor-led backup. It has a couple of reviews and the strongest single-flavor story ('a little slice of paradise')."
           ],
-          "creative": "First, kill the near-duplicate ads splitting budget (the two 'Zero Sugar' ads and the two 'Why everyone is reaching for Strive' ads are basically the same). Second, fix the '0 sugar 0 calories' claim - it does not match the 45-calorie honey-sweetened product and it undercuts the honey story that makes them different. Then run three fresh angles, one per avatar: (1) the taste-without-guilt angle, (2) the all-day hydration habit angle, (3) the clean-swap-from-normal-soda angle. Each angle gets a simple video or image plus 2-3 variations. Follow the brand voice: playful, 'vacation in a can', 'slice of paradise'. Stay off the banned claims - no immunity, no detox, no 'cures dehydration', no 'low sugar' as a headline.",
-          "budget": "Start at $150 a day for the cold testing campaign, split evenly across the three angles ($50 each). Add roughly $30 a day for retargeting. That is about $180 a day, or roughly $5,400 across 30 days. This is a learning budget, not a scaling budget.",
-          "what_success_looks_like": "By day 30 we know which of the three angles gets the cheapest, most consistent sales and which audience responds. We have a message that matches the real product. We have a first read on whether a $32.99 pack can be sold profitably on cold traffic, and whether the subscription offer helps close the gap."
+          "creative": "Three angles, one per avatar. Angle 1 (the soda swap): 'soda you can drink every day' for the soda lover who wants cleaner. Angle 2 (the afternoon slump): 'light fizz plus hydration when water feels dull and soda feels like too much' for the busy on-the-go adult, built off their own 'gets me through the day' ad. Angle 3 (the clean-label taste): honey-sweetened, 45 calories, no artificial sweeteners, for the ingredient reader. Every ad must match the site: honey-sweetened and 45 calories, NOT '0 sugar 0 calories'. Mix static cans-on-beach visuals with simple founder or talking-to-camera style video.",
+          "budget": "Start around $150 a day across the testing campaign, with a small slice held for retargeting. Hold this steady for the full 30 days so each angle gets a fair read before we judge it.",
+          "what_success_looks_like": "By day 30 we can name the one angle and one audience that bought best, we have killed the losers, and retargeting is quietly picking up the visitors the cold ads warmed up. Clarity on what to scale, not scale itself."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
-          "value": "$150 a day cold, plus about $30 a day retargeting",
-          "basis": "$150 a day is enough to get roughly 30 to 40 clicks a day at typical costs in this category, which is the floor for learning which of three angles works before the data is too thin to trust."
+          "value": "$150 a day to start",
+          "basis": "Enough to get roughly 30 to 40 clicks a day at typical costs in this drinks category, which is the floor for learning which angle works without waiting months."
         },
         {
-          "label": "Order value we planned around",
-          "value": "$32.99 per order",
-          "basis": "All three products are priced at $32.99, so we used that as the stand-in for average order value. Real average order value could be higher if people buy more than one pack or take the subscription."
+          "label": "Average order value we planned around",
+          "value": "About $33 an order",
+          "basis": "Every product on the site is priced at $32.99, so we used that single price as the stand-in for average order value. If most orders are subscriptions at $16.50 or bundles of several packs, this changes and we need to hear the real number from Chris."
         },
         {
-          "label": "What 30 days buys",
-          "value": "A proven winning angle and audience, not a revenue number",
-          "basis": "We have no access to their ad account, Shopify, or analytics, so we cannot honestly promise a revenue figure. Thirty days at this budget is enough to learn what works, which is what the report promised. Scaling and revenue targets come after we see real numbers."
+          "label": "Revenue we would aim to add",
+          "value": "We are not putting a dollar figure on 30 days",
+          "basis": "30 days is a learning window and we cannot see their current sales, spend, or return on ad spend. A revenue promise here would be a guess. Once we know their real average order value and repeat rate, we can size this honestly."
         }
       ],
       "assumptions": [
-        "The Variety Pack is their bestseller. I am inferring this from review count (14 vs 2 vs 0), not from sales data. If Chris says a single flavor sells better, we lead with that instead.",
-        "They are already spending something on Meta, since we can see 5 live ads. If those ads are barely funded or just launched, the cleanup advice still holds but the numbers shift.",
-        "Their margin on a $32.99 pack can support paid ads. At about $2.75 per can this is a premium price, which is good, but we need their landed cost to know the real room.",
-        "The '0 sugar 0 calories' ad claim is a mistake or leftover, not a different product. We should confirm before touching it."
+        "Average order value is near the $32.99 single-pack price. If it is really the $16.50 subscription price, the math for paid ads gets tighter and we should talk about it.",
+        "They are already spending something on Meta, since we can see five live ads. If spend is tiny or paused, the plan and budget talk changes.",
+        "They can supply or approve honest creative that matches their site (honey, 45 calories) rather than the current '0 sugar 0 calories' claim.",
+        "The 14 reviews on the Variety Pack reflect it being the most-bought product. If Chris says otherwise, we swap the lead product."
       ],
       "horizon_days": 30
     },
@@ -131,20 +132,24 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "What are you spending on Meta right now, and roughly what does a sale cost you today?",
-            "listening_for": "A real daily number. If they are spending well under $100 a day, testing three angles fairly will be slow. If they do not know their cost per sale, that is a gap we can help with."
+            "question": "What are you spending on Meta right now, and roughly what does a month look like for you there?",
+            "listening_for": "A real daily or monthly number. This tells you if $150 a day is a step up, a step down, or about right. If they say almost nothing, this is a launch, not a fix."
           },
           {
-            "question": "Who is running the ads today - you, someone in-house, or another agency?",
-            "listening_for": "If it is Chris himself, he is stretched thin and wants to hand it off. If it is another agency, find out what is missing. If in-house, who owns it and can they move fast on creative."
+            "question": "Who is running the ads today, you, Jack, or an agency?",
+            "listening_for": "Whether there is an incumbent agency to replace, an in-house person, or nobody. Also who really signs off. Chris is Head of Marketing but Jack is the founder."
           },
           {
-            "question": "What is your cost to make and ship one 12-pack? Roughly what is left after that on a $32.99 order?",
-            "listening_for": "This decides everything. A $32.99 pack needs healthy margin to carry paid ads. If most of the $32.99 is cost, cold traffic will be very hard and subscription becomes the whole game."
+            "question": "When you look at an order, what is a typical basket, one pack, a subscription, or a few packs at once?",
+            "listening_for": "Their real average order value. Everything on the site is $32.99, but the $16.50 subscription price could pull the real number down. This decides if the margin can carry paid ads."
           },
           {
-            "question": "Last time you scaled ad spend, what happened?",
-            "listening_for": "Did sales grow with spend or did cost per sale blow up? Tells us if the problem is creative, offer, or the product being a hard sell cold."
+            "question": "On a 12-pack at $32.99, roughly how much is left after the cost of the drink and shipping?",
+            "listening_for": "Whether there is enough room to pay for ads. Drinks are heavy and shipping eats margin. If margin is thin, we lean hard on subscriptions and repeat orders, not one-off sales."
+          },
+          {
+            "question": "Last time you pushed ads harder, what happened?",
+            "listening_for": "Whether they have hit a wall before, and where. Past pain points tell you what they will be nervous about and what they will judge you on."
           }
         ]
       },
@@ -152,24 +157,28 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "Your live ads say '0 sugar, 0 calories' but the site says 45 calories and honey-sweetened. Which is right, and why are the ads saying that?",
-            "listening_for": "This is the biggest thing I spotted. If it is a leftover or an error, we fix it fast. If it is intentional, we need to understand why they are hiding the honey story that makes them different."
+            "question": "I noticed two of your live ads say '0 sugar, 0 calories,' but the site says honey-sweetened and 45 calories. Which is right, and was that on purpose?",
+            "listening_for": "This is your opener that proves you actually looked. Listen for whether they know, whether it was a test, or whether it is a mistake. Either way it is a fast, honest win you can fix in week one."
           },
           {
-            "question": "When someone lands on your site cold, what share of them actually buy? And how many of those come back for a second order?",
-            "listening_for": "Low first-order conversion points to the price or missing reviews. Low repeat points to the product or flavor. Both change where we spend."
+            "question": "How many of your live ads are close copies of each other, and are they in the same campaign?",
+            "listening_for": "Confirmation of the duplicate problem. Two of their ads use word-for-word the same copy. If they sit in the same audience they are bidding against themselves and wasting budget."
           },
           {
-            "question": "How is the Subscribe & Save at $16.50 first month converting? Is it pulling people in or scaring them off with the commitment?",
-            "listening_for": "The subscription may be their real profit engine. If it converts well, we lean the ads on it. If people bounce at the recurring-charge language, that is a funnel fix."
+            "question": "When someone lands from an ad, where do you send them, the product page or the homepage?",
+            "listening_for": "Whether the funnel leaks. If cold traffic hits a busy homepage instead of a clear product or Variety Pack page, that is a fix before we spend more."
           },
           {
-            "question": "You claim 10,000 happy customers but I see almost no reviews on the site. Where are your reviews living, if anywhere?",
-            "listening_for": "If they have reviews off-site (Amazon, email, retail), we can pull them onto the site and into ads. If there really are none, we have a social proof problem to solve before scaling."
+            "question": "Which product actually sells the most, and which makes you the most money?",
+            "listening_for": "Confirm or correct the assumption that the Variety Pack is the hero. The review counts point that way, but only they know for sure."
           },
           {
-            "question": "Which flavor actually sells best - Peach, Tropical, or the Variety Pack?",
-            "listening_for": "Confirms or breaks my assumption that the Variety Pack leads. If a single flavor wins, we change the lead product in the plan."
+            "question": "You have very few reviews showing on the site. Are you collecting them, and can we get customer photos or short clips?",
+            "listening_for": "Whether there is social proof to put in ads. Low review count hurts conversion. If they have reviews sitting unused, we can surface them fast."
+          },
+          {
+            "question": "How is the Subscribe & Save doing, and how many people stick past the first month?",
+            "listening_for": "Whether repeat orders are strong. If people stay subscribed, we can afford to spend more to get the first order. If they churn after the $16.50 month, the model is shakier."
           }
         ]
       },
@@ -177,56 +186,61 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "Are people already searching for you by name, or searching things like 'hydration soda' and 'healthy soda' and finding you?",
-            "listening_for": "There is a real Google opening here. 'Healthy soda', 'best hydration drink', and rival brand names (Olipop, Poppi) get real search volume. If people search these, Google Search ads can catch buyers who are ready now, unlike Meta which interrupts. If nobody knows the 'hydration soda' term yet, we say so and hold off."
+            "question": "Are you seeing people search for you by name or for 'hydration soda' after they see your ads?",
+            "listening_for": "Whether search demand exists. 'Hydration soda' is a term they are trying to own and similar drinks (like the big electrolyte and better-for-you brands) do get searched. If people search it, a small Google Search campaign to catch your own brand name and category is a real opening. If nobody searches it yet, say so and hold off."
           },
           {
-            "question": "Do you have a store locator and any retail stores carrying you? I noticed a store locator page.",
-            "listening_for": "If they are in stores, local search and 'where to buy' terms matter, and SEO can capture that. It also means brand searches are climbing, which strengthens the Google case."
+            "question": "You have a Store Locator, so are you in retail too, and do you want online ads to help drive people in-store?",
+            "listening_for": "Whether there is a retail side. If they are in stores, local and search ads near those stores can help. This is a genuine opening, not a forced one."
+          },
+          {
+            "question": "Is your blog or 'Science' content getting any traffic from Google today?",
+            "listening_for": "Whether SEO is worth raising. They have education pages ('What is a hydration soda'). If those already pull traffic, SEO is a real add. If not, do not push it during a 30 day paid test."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "We already run Meta ads ourselves, so what do you actually add?",
-        "answer": "You do, and that is a good start. But right now you have two near-duplicate ads splitting your budget against each other, and your ads claim zero sugar and zero calories while your site says honey and 45 calories. That gap costs you sales and could get flagged. We clean that up and test three real buyer angles properly so you know which one to put money behind, instead of guessing."
+        "objection": "We are already running ads and they seem fine.",
+        "answer": "That is exactly why the fatigue report mattered. Two of your live ads use the same copy, so they are likely splitting budget against each other, and two of them make a '0 sugar 0 calories' claim your own site contradicts with honey and 45 calories. Fixing those two things costs nothing and should help before we even talk about spending more."
       },
       {
-        "objection": "Our packs are $32.99. Can you really make paid ads pay off at that price?",
-        "answer": "Honest answer: that depends on your cost to make and ship a pack, which is why I asked. But $32.99 is a premium price, which helps. And your real weapon is the subscription at $16.50 first month - a first sale that turns into a repeat customer changes the math completely. We would test to prove it before you commit big spend."
+        "objection": "A $33 pack does not leave much room to pay for ads.",
+        "answer": "Fair, and that is why the first order is only step one. Your real money is the Subscribe & Save at $16.50 the first month and repeat orders after. If a good share of buyers stick, we can afford to spend to win that first sale. That is why I asked about your subscription numbers, so we size the budget to what the repeat orders can carry."
       },
       {
-        "objection": "We do not have many reviews, will that hurt the ads?",
-        "answer": "It makes cold traffic harder, yes, because people trust other buyers more than the brand. That is exactly why we would lead with your Variety Pack, which has the most reviews, and why we would pull any reviews you have off Amazon or email onto the site. Fixing your social proof is part of the plan, not a reason to wait."
+        "objection": "We have barely any reviews, will ads even work?",
+        "answer": "Low reviews do make cold ads harder, so we plan around it. We lead with the Variety Pack, which has your most reviews, and we build in a step to surface any customer photos or clips you already have. Getting more proof up is part of the first 30 days, not an afterthought."
       },
       {
-        "objection": "I get ten of these pitches a day. Why you?",
-        "answer": "Because I already looked at your actual live ads and found real, specific problems - the duplicates and the sugar claim that fights your own site. Most people who email you have not opened your ad library. Give me 30 days on a small test budget and I will show you which angle works with your own numbers, not a template."
+        "objection": "Thirty days feels short to prove anything.",
+        "answer": "Agreed, and I am not promising a revenue jump in 30 days. The goal is narrower and honest: find the one angle and one audience that buys, and kill the ones that do not. That clarity is what lets us scale with confidence after, instead of guessing."
       }
     ],
     "red_flags": [
       {
-        "flag": "Ad claims contradict the product. Live ads say '0 sugar, 0 calories' but the product is honey-sweetened at 45 calories per can.",
-        "why_it_matters": "This confuses buyers, undercuts the honey story that makes them different, and false nutrition claims can get ads rejected or the account penalized. Must be raised gently and fixed early."
+        "flag": "Live ads claim '0 sugar, 0 calories' while the site says the soda is honey-sweetened and 45 calories per can.",
+        "why_it_matters": "This is a direct contradiction. It confuses buyers, breaks trust, and false nutrient claims can get ads rejected or flagged. Raise it gently as something you can fix, not as an accusation."
       },
       {
-        "flag": "Almost no visible social proof. 2 reviews on Peach, 0 on Tropical, 14 on the Variety Pack, despite a '10,000+ Happy Customers' claim.",
-        "why_it_matters": "Cold shoppers trust other buyers. With little proof on the page, a $32.99 first order is a hard ask and conversion will suffer until we fix it."
+        "flag": "Almost no visible reviews (2 on Peach, 0 on Tropical, 14 on Variety) despite the site claiming '10,000+ Happy Customers.'",
+        "why_it_matters": "Thin social proof lowers conversion on cold traffic, and the gap between '10,000+ customers' and near-zero reviews is something a sharp buyer will notice. We need real proof in the ads."
       },
       {
-        "flag": "High first-order price ($32.99) with no cheaper entry point except the subscription.",
-        "why_it_matters": "There is no low-cost trial pack. New buyers must commit $32.99 or sign up for a recurring charge. Both are friction. We need their margin to know if this can work profitably."
+        "flag": "All products are priced at $32.99 and the subscription first month is $16.50.",
+        "why_it_matters": "If most orders come in at the $16.50 subscription price, the money available to pay for a first sale is tight. Do not assume $33 orders. Confirm the real average order value before promising anything."
       },
       {
-        "flag": "Very small catalog - three products, all the same price, only two flavors.",
-        "why_it_matters": "Limited room to test different products or price points, and repeat buyers may run out of flavors to try. Growth leans heavily on winning new customers and holding them on subscription."
+        "flag": "There are claims we must never make: burns fat, detox, boosts immunity, cures dehydration, 'healthiest soda,' or 'low sugar soda' as a headline.",
+        "why_it_matters": "These are off-limits for compliance and for the brand. Keep the creative to flavor-first, honey-sweetened, 45 calories, and everyday hydration. Do not let excitement on the call drift into a banned claim."
       }
     ],
     "other_channel_openings": [
-      "Google Search ads. Terms like 'healthy soda', 'hydration drink', and rival brand names (Olipop, Poppi) get real search traffic. These catch people who are already looking, which pairs well with Meta catching people who are not. Confirm on the call that people search the category before committing.",
-      "SEO around 'what is hydration soda' and 'best healthy soda'. They already have a Science page and a strong category story, so they can rank for education searches over time. This is a slower, longer play, not a 30 day fix, so frame it as a later phase."
+      "Google Search for their own brand name and the 'hydration soda' category, but only if Chris confirms people are actually searching it. Worth a small test to catch buyers who saw a Meta ad and later searched.",
+      "Local and search support tied to their Store Locator if they are in retail, to push people toward stores that carry Strive.",
+      "SEO on their existing 'Science' and 'What is a hydration soda' education pages, but only if those pages already pull Google traffic. Do not push this during the 30 day paid test if the demand is not there yet."
     ]
   },
-  "generated_at": "2026-07-13T09:44:03.121Z"
+  "generated_at": "2026-07-13T10:12:40.643Z"
 }
