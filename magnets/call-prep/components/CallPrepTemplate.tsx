@@ -7,7 +7,6 @@
 //      briefing. Facts are labelled as facts, guesses are labelled as guesses.
 import ProspectLogo from "@/components/ProspectLogo"
 import type { CallPrepData } from "@/magnets/call-prep/lib/types"
-import { CAPABILITIES, DASHBOARD_NOTE } from "@/magnets/call-prep/lib/omnirocket"
 
 export type { CallPrepData }
 
@@ -346,26 +345,11 @@ export default function CallPrepTemplate({ data }: { data: CallPrepData }) {
         )}
       </section>
 
-      {/* ── What we'd do for them (static) ────────────────────────────────── */}
-      <section className="cp-section">
-        <div className="pb-kicker">07 · What we would actually do for them</div>
-        <p className="cp-lede">
-          The same story every time. Say what they get, not how it is made.
-        </p>
-        <div className="cp-caps">
-          {CAPABILITIES.map((c, i) => (
-            <div key={i} className="cp-cap">
-              <div className="cp-cap-head">
-                <span className="cp-cap-name">{c.name}</span>
-                <span className={`cp-cap-status ${c.status === "Live" ? "live" : "soon"}`}>{c.status}</span>
-              </div>
-              <div className="cp-cap-what">{c.what_they_get}</div>
-              <div className="cp-cap-why">{c.why_it_matters}</div>
-            </div>
-          ))}
-        </div>
-        <p className="cp-note">{DASHBOARD_NOTE}</p>
-      </section>
+      {/* What OmniRocket sells (capabilities, USPs, pricing, case studies,
+          onboarding) deliberately does NOT live here. This page is a briefing:
+          it tells Kyle who the brand is and what to ask them. The pitch belongs
+          in a separate sales deck, which is a different artifact for a different
+          audience - the brand owner, not Kyle. */}
     </div>
   )
 }
