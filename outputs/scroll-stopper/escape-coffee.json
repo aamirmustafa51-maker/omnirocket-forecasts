@@ -1,0 +1,60 @@
+{
+  "lead_company": "Escape Coffee",
+  "lead_first_name": "David",
+  "website": "https://escape.cafe",
+  "brand_domain": "escape.cafe",
+  "currency": "USD",
+  "brand_voice_note": "Adventurous and playfully obsessive, writing each coffee as a mini-escape wrapped in cozy, values-led warmth.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/escape-coffee?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "André the Giant #5",
+      "product_url": "https://escape.cafe/products/andre-the-giant",
+      "image_url": "/creatives/scroll-stopper/escape-coffee/ad-1.jpg",
+      "ai_image": true,
+      "price": 28,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "The legend is back for another year. 🇰🇪\n\nOur André the Giant is the lot we obsess over every single harvest, and this year's Kenyan pick from Thiriku FCS is a bold, vibrant knockout of SL28, SL34, Batian, and Ruiru 11.\n\nEvery coffee has to be epic. This one earned its name. Grab a bag and jump right in.",
+      "headline": "The Kenyan legend returns",
+      "cta": "Shop Now",
+      "why_it_works": "A returning named favorite carries built-in reputation, so leaning on the 'back by demand' popularity of André the Giant is the strongest pull for a bold single-origin.",
+      "visual_direction": "The coffee bag standing on a rustic wooden roastery counter surrounded by scattered coffee beans and a brass scoop in warm light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Les Chèvres de Montagne",
+      "product_url": "https://escape.cafe/products/les-chevres-de-montagne",
+      "image_url": "/creatives/scroll-stopper/escape-coffee/ad-2.jpg",
+      "ai_image": true,
+      "price": 24,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "One bag, two coffee obsessions, zero compromises.\n\nÉmilie loves fruity cups, Pascal leans toward something deeper. So we built Les Chèvres de Montagne to hold both: Honey Red Catuai from Costa Rica and washed Caturra from Colombia, roasted medium-dark for a sugary, silky, comforting brew.\n\nIt's the co-founders' taste in a bag. It feels like a warm hug.",
+      "headline": "The founders' signature blend",
+      "cta": "Learn More",
+      "why_it_works": "A blend literally built from the two co-founders' opposing palates is a genuine origin story, so the founder angle makes the medium-dark cup feel personal and earned.",
+      "visual_direction": "The coffee bag on a cozy cabin kitchen table beside a ceramic mug and wool blanket with mountain peaks through the window."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Tropical",
+      "product_url": "https://escape.cafe/products/tropical-2",
+      "image_url": "/creatives/scroll-stopper/escape-coffee/ad-3.jpg",
+      "ai_image": true,
+      "price": 30,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Close your eyes. Hear the waves? 🌴\n\nOne sip of Tropical and you're somewhere warm and salty, with coconut sunscreen in the air. This year's light, bright rendition transports you to the places you've only dreamed of visiting.\n\nAn escape is possible. Just grab a bag and jump right in.",
+      "headline": "A holiday in every cup",
+      "cta": "Get Yours",
+      "why_it_works": "Tropical's whole promise is a sensory getaway, so leading with the single most desirable feeling of escape matches the product and the brand's escapist voice perfectly.",
+      "visual_direction": "The coffee bag on a sunny beach deck with sand, palm leaves and a halved coconut, turquoise water blurred behind."
+    }
+  ],
+  "generated_at": "2026-07-13T16:01:35.121Z"
+}
