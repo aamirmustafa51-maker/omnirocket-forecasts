@@ -1,0 +1,165 @@
+{
+  "lead_company": "kWIT Jewelry",
+  "lead_first_name": "Karla",
+  "website": "https://www.kwitjewelry.com",
+  "brand_domain": "kwitjewelry.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Fine jewelry - handmade 14k gold rings, necklaces, and charms with gemstones and colorful enamel, sold as customizable, meaning-driven statement pieces.",
+    "core_belief": "Jewelry is a canvas for self-expression: 'kWIT is a canvas on which you can paint your spirit, share your heart and adorn your voice.'",
+    "proof_points": [
+      "Handmade in New York City and customized per order (refund policy)",
+      "14k yellow and rose gold with natural precious and semiprecious gemstones (product pages)",
+      "Reclaims and upcycles existing jewelry, metals, diamonds and gemstones into new pieces (about page)",
+      "Design Your Own service plus the ability to customize the 4 C's of a diamond center stone (site nav, Disco Ring page)"
+    ],
+    "positioning": "Premium, playful, and personal - artistic fine jewelry with real gold and gemstones that carries meaning, not mass-market minimalism."
+  },
+  "voice_pillars": [
+    {
+      "name": "Witty and Personal",
+      "desc": "Writes with a spirited, expressive tone that treats each piece as an extension of the wearer's identity.",
+      "quote": "jewelry as witty and unique as you are"
+    },
+    {
+      "name": "Meaning-Infused",
+      "desc": "Ties every piece to intention, energy, and symbolism rather than just looks.",
+      "quote": "Each ring is infused with intention, designed to move with your energy, your rhythm, your mood."
+    },
+    {
+      "name": "Bold Yet Wearable",
+      "desc": "Frames pieces as statement-making but easy to live in every day.",
+      "quote": "Bold yet effortless. Statement-making yet endlessly wearable."
+    },
+    {
+      "name": "Playfully Glamorous",
+      "desc": "Leans into fun, sparkle, and a sense of occasion in product descriptions.",
+      "quote": "Do you feel like dancing? The Disco Ring is a mirrorball of diamonds"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "a power neutral",
+      "part jewelry, part modern talisman",
+      "designed to move with your energy, your rhythm, your mood",
+      "paint your spirit, share your heart and adorn your voice",
+      "a mirrorball of diamonds sure to get your groove on",
+      "a timeless symbol of protection and elegance"
+    ],
+    "words": [
+      "intention",
+      "talisman",
+      "energy",
+      "alignment",
+      "self-expression",
+      "glamor",
+      "timeless",
+      "custom"
+    ],
+    "avoid": [
+      "cheap",
+      "basic",
+      "mass-produced",
+      "disposable"
+    ]
+  },
+  "icp": "Design-conscious women who see jewelry as personal expression and are willing to invest in handmade, meaningful 14k gold pieces they can customize and keep for life.",
+  "personas": [
+    {
+      "name": "The Intentional Collector",
+      "description": "Buys jewelry for symbolism and energy, moved by talisman, birthstone, and 'infused with intention' storytelling."
+    },
+    {
+      "name": "The Statement Maker",
+      "description": "Wants pieces that steal the show, drawn to bold, sparkling, celebrity-spotted designs framed as 'power neutrals'."
+    },
+    {
+      "name": "The Legacy Upcycler",
+      "description": "Has treasured heirloom jewels and responds to the Design Your Own and reclaim-and-reinvent angle that preserves legacy with new meaning."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Ripple Effect Ring - Set of five bands",
+      "role": "Hero / best-seller",
+      "price": 9895
+    },
+    {
+      "title": "The Mood Orb Ring",
+      "role": "Core",
+      "price": 7995
+    },
+    {
+      "title": "Kosmo Slider Bracelet",
+      "role": "Entry point",
+      "price": 485
+    },
+    {
+      "title": "Kosmo Necklace",
+      "role": "Entry point",
+      "price": 485
+    }
+  ],
+  "offers": [
+    "Design Your Own custom jewelry service",
+    "Upcycle your own jewels into a new piece",
+    "Gift cards available",
+    "FedEx 2-day insured shipping with tracking on all orders",
+    "In stock items ship within 1 week; made to order within 3 weeks (up to 4-6 weeks for some pieces)",
+    "All sales final - handmade and customized to order"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handmade in New York City",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Made with 14k yellow and rose gold and natural gemstones",
+        "source": "product pages"
+      },
+      {
+        "claim": "Reclaims and upcycles existing jewelry, metals, diamonds and gemstones into new designs",
+        "source": "about page"
+      },
+      {
+        "claim": "Customizable, including the 4 C's of the diamond center stone",
+        "source": "Disco Ring product page"
+      },
+      {
+        "claim": "Ships FedEx 2-day insured with tracking",
+        "source": "shipping policy page"
+      },
+      {
+        "claim": "Year Necklace uses 0.35 - 0.40 ctw natural marquee bezel-set gemstones",
+        "source": "Year Necklace product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the pieces 'sustainable' or 'eco-friendly' because they use reclaimed materials",
+        "why": "FTC Green Guides - unqualified sustainability claim without specific, verifiable backing"
+      },
+      {
+        "claim": "'100% recycled gold' or 'zero impact' jewelry",
+        "why": "FTC Green Guides - unqualified/absolute recycled and impact claims not substantiated on site"
+      },
+      {
+        "claim": "'Carbon neutral' shipping or production",
+        "why": "FTC Green Guides - carbon neutral claim without verifiable proof"
+      },
+      {
+        "claim": "Gemstones 'heal', 'cure anxiety', or 'relieve pain'",
+        "why": "Medical/health claim - crystal energy language must stay non-medical"
+      },
+      {
+        "claim": "Aquamarine 'clears emotional weight' as a stated medical or psychological benefit",
+        "why": "Health claim - keep as poetic brand voice, not a provable treatment claim in ads"
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.kwitjewelry.com/cdn/shop/files/kWitLogo_360x.jpg?v=1613162536",
+  "generated_at": "2026-07-14T18:02:52.594Z"
+}
