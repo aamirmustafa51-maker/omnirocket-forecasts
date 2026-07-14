@@ -37,7 +37,7 @@ Return a JSON object with this EXACT shape:
       "headline": "The bold headline under the image (max ~40 chars). Punchy.",
       "cta": "Always the exact string 'Shop Now'. Do not use 'Get Yours', 'Learn More', 'Shop the Sale' or any other label.",
       "why_it_works": "ONE sentence, plain English, explaining why this angle fits THIS product and audience. This shows the brand owner we thought about it.",
-      "image_prompt": "The fully-filled image generation prompt for this ad's visual, built from the IMAGE PROMPT TEMPLATE below with ALL FIVE slots filled: {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, {STRUCTURE_LOCK}. Both lock clauses are MANDATORY.",
+      "image_prompt": "The fully-filled image generation prompt for this ad's visual, built from the IMAGE PROMPT TEMPLATE below with ALL SIX slots filled: {SCENE}, {LIGHTING}, {AESTHETIC}, {MATERIAL_LOCK}, {STRUCTURE_LOCK}, {GROUNDING_LOCK}. All three lock clauses are MANDATORY.",
       "visual_direction": "ONE short plain-English sentence describing what the shot shows (e.g. 'The bottle on a sunlit kitchen counter with fresh citrus alongside'). This is shown to the brand owner, so no prompt jargon."
     }
   ]
@@ -52,12 +52,23 @@ re-photographs that exact product into the scene you describe. So you are art
 directing a shoot of a product that already exists - you are not inventing a
 product. The model is prone to quietly recoloring metals, adding buttons or
 pockets, and wiping printed graphics off the product, which instantly reads as
-fake to the brand owner. The two lock clauses exist to stop that.
+fake to the brand owner. The three lock clauses exist to stop that.
+
+THE REFERENCE PHOTO IS USUALLY NOT A GROUNDED SCENE. Most catalog shots are
+cut-out product renders on a plain white background: no floor, no table, no
+shadows, and for a multipack, several units fanned or stacked flat like playing
+cards. If you only describe a new background, the model transplants that flat
+cut-out arrangement into the scene unchanged and the product ends up hovering in
+mid-air with no contact shadow. That is the single most common failure and it
+reads as instantly fake. The GROUNDING_LOCK exists to force a genuine re-stage:
+the product must be physically placed in the new scene, resting on a real
+surface, obeying gravity, not pasted on top of it.
 
 IMAGE PROMPT TEMPLATE (fill the {SCENE}, {LIGHTING}, {AESTHETIC},
-{MATERIAL_LOCK}, and {STRUCTURE_LOCK} slots; keep every other word verbatim):
+{MATERIAL_LOCK}, {STRUCTURE_LOCK}, and {GROUNDING_LOCK} slots; keep every other
+word verbatim):
 
-"A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — {MATERIAL_LOCK}. STRUCTURE — {STRUCTURE_LOCK}. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications."
+"A photorealistic editorial product photograph featuring the product from the reference image, styled in {SCENE}, with {LIGHTING}. {AESTHETIC}. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL — {MATERIAL_LOCK}. STRUCTURE — {STRUCTURE_LOCK}. PHYSICAL STAGING — {GROUNDING_LOCK}. The reference image is a flat catalog cut-out, NOT a scene: re-stage the product from scratch as a real physical object photographed in the setting described above. Do NOT copy the reference photo's layout, fan, stack, or floating arrangement. Every unit must rest on and make visible contact with a real surface in the scene, supported the way that object is actually supported in real life, and must cast its own contact shadow and ambient occlusion exactly where it touches that surface. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself — text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications, no floating product, no hovering product, no levitating product, no product suspended in mid-air, no missing contact shadow, no flat-lay cut-out pasted into a 3D scene, no fanned or splayed playing-card arrangement, no unsupported upright soft packaging, no impossible balancing, no wrong scale relative to surrounding props, no invented packaging, no extra boxes, no added brochures, leaflets, recipe cards, inserts, or printed collateral that are not the product itself."
 
 {SCENE} INSTRUCTIONS:
 Describe a concrete, real-world setting that MATCHES THE AD'S ANGLE and the
@@ -96,6 +107,47 @@ If the product has printed graphics, text, a label, or a logo on it, you MUST
 name them in the STRUCTURE_LOCK and say they must be preserved - otherwise the
 "no text" negative makes the model wipe the product's own label.
 
+{GROUNDING_LOCK} INSTRUCTIONS:
+One or two sentences that physically place the product in the scene. You must
+answer three questions explicitly: WHAT SURFACE it rests on, HOW it is supported
+(the honest answer for that object's rigidity), and WHAT SCALE it is next to the
+props. Read the product title for a unit count and stage EVERY unit.
+
+Rigidity is the thing that decides the pose, so name it:
+- RIGID and self-standing (jar, bottle, can, tin, box, tub) → it stands upright
+  on its own base. Say so, and say it sits flat on the surface with a soft
+  contact shadow at its base.
+- SOFT / FLEXIBLE packaging (pouch, sachet, packet, foil bag, refill, paper
+  sleeve) → it CANNOT stand unsupported and must never be drawn standing
+  bolt-upright in open space. Choose one honest pose and name it: lying flat on
+  the surface, overlapping in a loose casual stack, propped leaning against a
+  bowl or board or wall, or fanned FLAT ON the surface with each packet touching
+  it. Never floating, never a vertical fan in the air.
+- SOFT GOODS (garment, towel, blanket) → folded, draped, or laid on the surface.
+
+Examples:
+- 3 rigid rub jars → "all three jars stand upright directly on the wooden board, bases flat and fully in contact with it, each casting its own soft contact shadow and ambient occlusion where it meets the wood, at true 5 oz jar scale beside the steak. NOT floating, NOT hovering, NOT tilted in mid-air"
+- 4 flexible foil dip packets → "these are limp foil sachets that cannot stand up by themselves: lay all four flat on the countertop in a loose overlapping stack, each packet in full contact with the counter, with soft contact shadows and ambient occlusion underneath every packet and where they overlap. Render them at true 1 oz sachet scale, small next to the bowl. Do NOT stand them upright, do NOT fan them in the air, do NOT float them behind the bowl"
+- A wool blanket → "draped over the arm of the chair with its weight visible, fabric folding under gravity, in full contact with the chair and casting a soft shadow into the seat"
+
+If the product title says "4 pack" or "5 pack", the ad must show exactly that
+many units, all of them grounded. Do not add extra units and do not drop any.
+
+CAMERA ANGLE - this is what actually makes the grounding stick. The catalog
+reference for a multipack is almost always a flat fan or grid of units. If you
+ask for an EYE-LEVEL shot of that, the only way the model can reproduce the fan
+is by standing the units up in the air, and it will - the words "lay them flat"
+lose to the reference image every time. So match the camera to the pose:
+- Soft packaging laid flat / fanned / stacked → you MUST name a top-down or
+  high-angle camera: "shot from directly overhead, 90 degree top-down flat-lay
+  camera" or "shot from a high 45 degree angle looking down at the surface".
+  From above, the reference's fan geometry maps straight onto the tabletop and
+  the product is grounded by construction.
+- Rigid self-standing items (jars, bottles, cans) → eye-level or low three-
+  quarter is fine, they stand up honestly.
+State the camera explicitly inside {GROUNDING_LOCK} or {SCENE}. A soft-pouch
+multipack with an eye-level camera is invalid.
+
 # RULES
 
 1. Return exactly {{product_count}} concepts, one per product, in input order. `product_index` is 1-based and must match the input product number.
@@ -105,7 +157,9 @@ name them in the STRUCTURE_LOCK and say they must be preserved - otherwise the
 5. NO em dashes or en dashes anywhere. Use normal hyphens "-" or rewrite the sentence. This is a hard rule.
 6. Keep it clean and brand-safe. No ALL CAPS shouting, no more than one emoji per primary_text (zero is fine).
 7. `primary_text` MUST use line breaks (`\n\n` between blocks). Never return it as a single unbroken paragraph.
-8. Every concept MUST include an `image_prompt` that follows the IMAGE PROMPT TEMPLATE exactly, with BOTH the {MATERIAL_LOCK} and the {STRUCTURE_LOCK} clauses filled in and the NEGATIVE section preserved verbatim. An `image_prompt` missing either lock is invalid.
+8. Every concept MUST include an `image_prompt` that follows the IMAGE PROMPT TEMPLATE exactly, with ALL THREE of the {MATERIAL_LOCK}, {STRUCTURE_LOCK}, and {GROUNDING_LOCK} clauses filled in and the NEGATIVE section preserved verbatim. An `image_prompt` missing any of the three locks is invalid.
+8b. The {GROUNDING_LOCK} must name the surface, the support/pose, and the scale, and must match the product's real rigidity. Soft packaging (pouches, sachets, packets) standing upright unsupported is the #1 fake-looking failure - if the product is a pouch or a multipack of pouches, it lies flat, stacks, or leans against something. Never floating.
+8c. Every prop in the {SCENE} must be a real-world object that plausibly exists in that setting (food, utensils, surfaces, ingredients, furniture). NEVER invent branded collateral for the brand - no recipe cards, brochures, leaflets, inserts, gift boxes, or printed packaging that you have not been shown. Props are the setting, the product is the only branded thing in frame.
 9. The {SCENE} of each concept must be VISIBLY DIFFERENT from the other concepts' - different setting, different props, different time of day. Three near-identical studio shots defeats the purpose. Vary the scene with the angle.
 10. Never put text, price, logo, or badge overlays INSIDE the image_prompt scene. The headline, price and CTA are rendered as real Meta ad chrome around the image, so the photo itself must stay clean.
 11. Do NOT use the words graffiti, tagged, weapon, gun, drug, alcohol, blood, or tattoo anywhere in an `image_prompt` - the image model's content filter rejects them. For a drinks brand, describe the bottle/can and its ingredients, never the category word that trips the filter.
