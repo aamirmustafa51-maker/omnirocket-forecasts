@@ -1,0 +1,61 @@
+{
+  "lead_company": "Twisted Pepper",
+  "lead_first_name": "Ellie",
+  "website": "https://twistedpepper.com",
+  "brand_domain": "twistedpepper.com",
+  "currency": "USD",
+  "brand_voice_note": "Playfully bold and spice-forward, with small-batch maker pride that invites home cooks to riff and get creative.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/twisted-pepper?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://twistedpepper.com/cdn/shop/files/header_bg_1_200x@2x.png?v=1659801623",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "4 pack Dipping Madness Dip Mixes",
+      "product_url": "https://twistedpepper.com/products/dip-mix-4-pack-dipping-madness-gift-set-twisted-pepperdip-mix",
+      "image_url": "/creatives/scroll-stopper/twisted-pepper/ad-1.jpg",
+      "ai_image": true,
+      "price": 22.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Jalapeno lovers, this one is for you. 🌶\n\nFour handcrafted dip mixes built for people craving intense big flavors: Jalapeno Cheddar, Jalapeno Ranch, Jalapeno Veggie, and Tex-Mex Veggie.\n\nNot just for dipping. Stir them into mashed potatoes, party roll-ups, or homemade poppers and make it your own recipe.",
+      "headline": "Big Jalapeno Flavor, Four Ways",
+      "cta": "Shop Now",
+      "why_it_works": "This pack's whole appeal is the bold jalapeno payoff, so leading with the flavor outcome speaks straight to the spice-craving buyer.",
+      "visual_direction": "The four dip mix packets on a sunlit kitchen counter beside a fresh bowl of dip, sliced jalapenos, and tortilla chips."
+    },
+    {
+      "product_index": 2,
+      "product_title": "High Steaks 3 pack  BBQ Rubs 5 oz. Jars",
+      "product_url": "https://twistedpepper.com/products/high-steaks-gift-bag-3-5-oz-jars",
+      "image_url": "/creatives/scroll-stopper/twisted-pepper/ad-2.jpg",
+      "ai_image": true,
+      "price": 29,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Think low sodium means less flavor? Think again.\n\nOur High Steaks trio (Coffee Rub, Texas Steak Rub, and Tuscan Garlic) is low sodium for a fuller flavor, No MSG, and Gluten Free.\n\nHandcrafted in small batches with the freshest ingredients to make your steak a winner.",
+      "headline": "Full Flavor. Low Sodium. No Compromise.",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation for a low-sodium rub is 'will it still taste good,' so this angle answers that doubt head-on while staying inside allowed claims.",
+      "visual_direction": "The three BBQ rub jars on a wooden butcher block with a raw steak, peppercorns, and rosemary."
+    },
+    {
+      "product_index": 3,
+      "product_title": "5 Pack Zesty Dip Mixes - Blazin' Onion, Green Chile, Jalapeno Cheddar, Tex-Mex Veggie, Texas Enchilada",
+      "product_url": "https://twistedpepper.com/products/dip-mix-5-pack-spicy",
+      "image_url": "/creatives/scroll-stopper/twisted-pepper/ad-3.jpg",
+      "ai_image": true,
+      "price": 27.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Bored of the same flat weeknight cooking?\n\nFive zesty dip mixes handcrafted by the Dip Master for anyone craving intense big flavors: Blazin' Onion, Green Chile, Jalapeno Cheddar, Tex-Mex Veggie, and Texas Enchilada.\n\nEach packet is not just for dipping. Spice up a soup, stuff jalapenos, or build a quick appetizer. Comes with our Twisted Ideas brochure so you can get creative and make it your own recipe.",
+      "headline": "Five Ways to Beat Boring Dinners",
+      "cta": "Shop Now",
+      "why_it_works": "A five-pack of versatile mixes solves the everyday 'my food is boring' friction, and the included recipe brochure makes the fix feel effortless.",
+      "visual_direction": "The five dip mix packets on an evening dinner-party table with bowls of dip, veggies, and the recipe brochure."
+    }
+  ],
+  "generated_at": "2026-07-14T21:06:16.761Z"
+}
