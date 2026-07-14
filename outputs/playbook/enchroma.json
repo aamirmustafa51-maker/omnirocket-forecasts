@@ -1,0 +1,168 @@
+{
+  "lead_company": "EnChroma",
+  "lead_first_name": "Chris",
+  "website": "https://enchroma.com",
+  "brand_domain": "enchroma.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Patented color-blind correction eyewear - sunglasses and glasses that expand color vision for people with color vision deficiency.",
+    "core_belief": "Color Is Here - bringing color vision eyewear solutions to all and making a meaningful contribution to the human experience through boundary-breaking color vision science.",
+    "proof_points": [
+      "Independent, Berkeley, California-based company with patented lens technology",
+      "Invented by a Ph.D. glass scientist and UC Berkeley-trained mathematician",
+      "Received an SBIR grant from the NIH and the 2016 Tibbets Award from the U.S. Small Business Administration",
+      "Backed by 8 peer-reviewed studies; trusted by over 2,000,000 people with CVD"
+    ],
+    "positioning": "Premium, science-first specialty eyewear - a category creator competing on proven lens technology and craftsmanship, not price."
+  },
+  "voice_pillars": [
+    {
+      "name": "Science-Backed",
+      "desc": "Leads with neuroscience, research, and credible proof rather than hype.",
+      "quote": "Based on the latest color perception neuroscience, EnChroma lenses filter light"
+    },
+    {
+      "name": "Emotionally Honest",
+      "desc": "Sets real expectations and honors that each person's experience is different.",
+      "quote": "Everyone's perceptual processing is different. There is no one reaction"
+    },
+    {
+      "name": "Quietly Premium",
+      "desc": "Speaks to craftsmanship and understated design without shouting.",
+      "quote": "Wrap sport, quietly done. Square-front, wide-open vision."
+    },
+    {
+      "name": "Wonder-Driven",
+      "desc": "Frames the product as a doorway to seeing the world in a new way.",
+      "quote": "See The World In A Way You Never Imagined Possible"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "changed, literally, the way I view the world",
+      "color like you've never seen before",
+      "See more symbols in this set?",
+      "deeper, richer and more vibrant colors",
+      "Give a new world of color a shot",
+      "the best glasses for you"
+    ],
+    "words": [
+      "vibrant",
+      "color",
+      "clarity",
+      "outdoor",
+      "deutan",
+      "immersive",
+      "risk free",
+      "spectrum"
+    ],
+    "avoid": [
+      "cure",
+      "clinical jargon",
+      "hard-sell hype",
+      "guaranteed results"
+    ]
+  },
+  "icp": "Adults (and parents of kids 5+) with red-green color vision deficiency who value science-proven solutions and are willing to invest in premium eyewear for the chance to experience a fuller range of color.",
+  "personas": [
+    {
+      "name": "First-Sight Seeker",
+      "description": "Someone with lifelong color blindness chasing the emotional 'EnChroma moment' - moved by the promise of seeing color and reassured by the 60-day risk-free guarantee."
+    },
+    {
+      "name": "Outdoor Enthusiast",
+      "description": "Active, sun-and-surf lover who wants performance sport frames and sharper color outdoors - moved by durability, UV protection, and the O'Neill collaboration."
+    },
+    {
+      "name": "The Gift Giver",
+      "description": "A partner or parent buying for a loved one with CVD - moved by the gift guide, guarantee, and the transformative story behind the lenses."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "9040 Outdoor Deutan Color Blind Sunglasses",
+      "role": "Hero / best-seller",
+      "price": 249
+    },
+    {
+      "title": "Tilden Black Outdoor Deutan Plano",
+      "role": "Entry point",
+      "price": 229
+    },
+    {
+      "title": "Colorado Gunmetal Outdoor Deutan Plano",
+      "role": "Premium",
+      "price": 389
+    },
+    {
+      "title": "Ellis Smooth Black Outdoor Deutan Plano",
+      "role": "Core",
+      "price": 299
+    }
+  ],
+  "offers": [
+    "60-day money-back guarantee",
+    "Free shipping (free 2-day delivery over $50)",
+    "2 year warranty",
+    "Pay in 4 interest-free installments with Klarna",
+    "Try Before You Buy program",
+    "Gift cards and Gift Guide"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Approximately 80% of people with red-green color blindness will see an expanded range of visible colors.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Patented lens technology can improve color vision for those with red-green color blindness (UIW study).",
+        "source": "homepage - Science & Lens Technology"
+      },
+      {
+        "claim": "100% UV protection.",
+        "source": "product pages"
+      },
+      {
+        "claim": "Backed by 8 peer-reviewed studies; trusted by over 2,000,000 people with CVD.",
+        "source": "9040 product page"
+      },
+      {
+        "claim": "Engineered in California, Made in Italy.",
+        "source": "9040 product page"
+      },
+      {
+        "claim": "Received an SBIR grant from the NIH and the 2016 Tibbets Award.",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Cures or fixes color blindness / restores normal color vision.",
+        "why": "Medical overreach - the brand states results vary and only ~80% see an expanded range, not a cure."
+      },
+      {
+        "claim": "Helps you pass the Ishihara or official color blind tests.",
+        "why": "Not supported - their own FAQ addresses this and cannot promise it; making it a claim would be misleading."
+      },
+      {
+        "claim": "Eco-friendly or sustainable eyewear.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on site."
+      },
+      {
+        "claim": "100% recycled or carbon-neutral frames.",
+        "why": "FTC Green Guides - specific recycled/carbon claim with no evidence provided in the input."
+      },
+      {
+        "claim": "Relieves eye strain, headaches, or corrects vision conditions.",
+        "why": "Medical/therapeutic claim not stated or substantiated on the site."
+      },
+      {
+        "claim": "Works for everyone who is color blind.",
+        "why": "Contradicts the brand's own stated ~80% figure and 'results may vary' language."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-14T19:04:43.170Z"
+}
