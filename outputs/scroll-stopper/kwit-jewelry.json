@@ -1,0 +1,61 @@
+{
+  "lead_company": "kWIT Jewelry",
+  "lead_first_name": "Karla",
+  "website": "https://www.kwitjewelry.com",
+  "brand_domain": "kwitjewelry.com",
+  "currency": "USD",
+  "brand_voice_note": "Witty, meaning-infused, and playfully glamorous, treating each piece as a modern talisman that moves with the wearer's energy.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/kwit-jewelry?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.kwitjewelry.com/cdn/shop/files/kWitLogo_360x.jpg?v=1613162536",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "The Year Necklace",
+      "product_url": "https://www.kwitjewelry.com/products/emerald-year",
+      "image_url": "/creatives/scroll-stopper/kwit-jewelry/ad-1.jpg",
+      "ai_image": true,
+      "price": 1195,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Part jewelry, part modern talisman.\n\nThe Year Necklace is a timeless symbol of protection and elegance, built around a marquee bezel-set 'eye' gemstone in 0.35 to 0.40 ctw natural stone.\n\nChoose from seven precious and semiprecious gems, each with its own energy. Emerald for peace and harmony, sapphire for something deeper. Designed to move with your energy, your rhythm, your mood.",
+      "headline": "Wear your intention every day",
+      "cta": "Shop Now",
+      "why_it_works": "The necklace is sold on symbolism and gemstone meaning, so leading with the protective, energy-aligned feeling speaks directly to the talisman buyer.",
+      "visual_direction": "The necklace laid on a warm marble vanity with a linen cloth and a sprig of eucalyptus in soft morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Disco Ring",
+      "product_url": "https://www.kwitjewelry.com/products/spark-polka-dot-ring",
+      "image_url": "/creatives/scroll-stopper/kwit-jewelry/ad-2.jpg",
+      "ai_image": true,
+      "price": 9800,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Do you feel like dancing?\n\nThe Disco Ring is a mirrorball of diamonds sure to get your groove on, with 14k gold and brilliant cut diamonds that catch every light in the room.\n\nWear it as an alternative engagement ring fit for a disco queen, or slide it on as a pinky ring for the night out. It steals the show either way.",
+      "headline": "A ring built to catch the light",
+      "cta": "Shop Now",
+      "why_it_works": "A dazzling, dance-floor piece practically sells itself around a night out or a bold engagement moment, so tying it to the occasion gives the buyer permission to splurge.",
+      "visual_direction": "The diamond ring on dark velvet with scattered points of light around it, evoking a glamorous evening out."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Emerald Cut Enamel Frame Necklace",
+      "product_url": "https://www.kwitjewelry.com/products/emerald-cut-enamel-frame-necklace",
+      "image_url": "/creatives/scroll-stopper/kwit-jewelry/ad-3.jpg",
+      "ai_image": true,
+      "price": 8300,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "We give existing diamonds a second life.\n\nThe Emerald Cut Enamel Frame Necklace is handmade in New York City in 14k yellow gold, with an invisible-set white diamond framed inside crisp enamel. 0.35 cttw, 17 inches.\n\nEvery piece we make reclaims and upcycles existing metals, diamonds, and gemstones into new designs. A power neutral you can wear with anything.",
+      "headline": "Handmade in NYC from reclaimed gold",
+      "cta": "Shop Now",
+      "why_it_works": "The enamel frame necklace is an everyday hero piece, so the maker story and reclaimed-materials craft give the buyer a reason to choose kWIT over a generic gold necklace.",
+      "visual_direction": "The necklace resting on a jeweler's wooden workbench with hand tools and a loupe, in warm workshop light."
+    }
+  ],
+  "generated_at": "2026-07-14T18:04:32.616Z"
+}
