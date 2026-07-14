@@ -1,0 +1,170 @@
+{
+  "lead_company": "Twisted Pepper",
+  "lead_first_name": "Ellie",
+  "website": "https://twistedpepper.com",
+  "brand_domain": "twistedpepper.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Handcrafted gourmet dip, soup, BBQ rub and seasoning mixes sold direct-to-consumer and wholesale.",
+    "core_belief": "Founder Ellie Hughes believes gourmet taste belongs at home: 'I am the person that eats at a fine restaurant and creates the same taste in my kitchen.'",
+    "proof_points": [
+      "Handcrafted in small batches using the freshest ingredients",
+      "Gluten Free, Low Sodium, No MSG, No Preservatives",
+      "Made in the USA",
+      "Founder-led since 2005 with 20 dip mixes, 22 soup mixes, 13 BBQ rubs and more"
+    ],
+    "positioning": "Approachable gourmet - fine-restaurant flavor made fast and easy for busy home cooks, not mass-market bland."
+  },
+  "voice_pillars": [
+    {
+      "name": "Playfully Bold",
+      "desc": "Fun, punchy, spice-forward language that invites people to have a little fun with flavor.",
+      "quote": "It's BBQ Time so let's get a little twisted"
+    },
+    {
+      "name": "Encourages Creativity",
+      "desc": "Frames every product as a starting point the cook can riff on and make their own.",
+      "quote": "Get Creative and make it your own recipe"
+    },
+    {
+      "name": "Fast and Easy",
+      "desc": "Speaks to busy people who want quick, delicious results without fuss.",
+      "quote": "helping busy people learn how to create quick and easy delicious meals"
+    },
+    {
+      "name": "Handcrafted Pride",
+      "desc": "Leans on small-batch, maker credibility and fresh ingredients.",
+      "quote": "Handcrafted in small batches and using the freshest ingredients"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Not just for dipping",
+      "craving Intense Big Flavors",
+      "Get Creative and make it your own recipe",
+      "make your steak a winner",
+      "Soup's On in 30 minutes or less!",
+      "Gourmet at Home Everyday"
+    ],
+    "words": [
+      "Handcrafted",
+      "Gluten Free",
+      "Low Sodium",
+      "No MSG",
+      "Gourmet",
+      "Savory",
+      "Spicy",
+      "Zesty"
+    ],
+    "avoid": [
+      "clinical",
+      "medicinal",
+      "diet/weight-loss framing",
+      "bland or generic"
+    ]
+  },
+  "icp": "Busy home cooks and gift-givers who love bold, gourmet flavor but want fast, easy, gluten-free and low-sodium ways to make everyday meals and appetizers feel special.",
+  "personas": [
+    {
+      "name": "The Flavor Chaser",
+      "description": "Craves intense, spicy, jalapeno-forward taste and responds to bold flavor promises and creative recipe ideas."
+    },
+    {
+      "name": "The Busy Host",
+      "description": "Needs quick appetizers and 30-minute meals for get-togethers and is moved by easy prep plus crowd-pleasing results."
+    },
+    {
+      "name": "The Gift Shopper",
+      "description": "Buys gift boxes and bags for the soup or BBQ lover in their life and responds to giftable bundles and 'huge hit' social proof."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Hawaiian Chicken Salad Seasoning Mix",
+      "role": "Hero / best-seller",
+      "price": 9
+    },
+    {
+      "title": "4 Pack Veggies & Chiles Gourmet Dip Mixes",
+      "role": "Premium",
+      "price": 22.99
+    },
+    {
+      "title": "4 Pack I Love Onions Dip Mixes",
+      "role": "Premium",
+      "price": 22.99
+    },
+    {
+      "title": "4 Pack Mild Dip Mixes, Cheddar Onion, Crazy About Dill, Prairie Ranch, Spinach Artichoke",
+      "role": "Premium",
+      "price": 22.99
+    }
+  ],
+  "offers": [
+    "Free Shipping when you spend $40, no code needed, plus a free gift",
+    "Fast Shipping",
+    "Gift Boxes and Gift Bags",
+    "Multi-packs (4-pack and 5-pack dip mixes, 3-pack BBQ rubs)",
+    "30-day returns for exchange or refund on new, unopened items",
+    "Email signup for special offers and recipes",
+    "Wholesale and fundraiser programs"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Gluten Free, Low Sodium, No MSG, No Preservatives",
+        "source": "5 pack dip mixes product page"
+      },
+      {
+        "claim": "Handcrafted in small batches using the freshest ingredients",
+        "source": "High Steaks BBQ rubs product page"
+      },
+      {
+        "claim": "Made in the USA using the finest ingredients",
+        "source": "5 pack dip mixes product page"
+      },
+      {
+        "claim": "Free shipping when you spend $40, no code needed, plus free gift",
+        "source": "homepage"
+      },
+      {
+        "claim": "Soup's On in 30 minutes or less",
+        "source": "homepage"
+      },
+      {
+        "claim": "Founder-led since 2005 by Ellie Hughes",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Low sodium helps lower blood pressure or improves heart health",
+        "why": "Health/structure-function claim - would make the food a drug; not supported by any study on site."
+      },
+      {
+        "claim": "Gluten Free treats or relieves celiac disease or digestive conditions",
+        "why": "Disease treatment claim not permitted; gluten free is an ingredient fact, not a cure."
+      },
+      {
+        "claim": "No MSG makes it healthier or prevents headaches",
+        "why": "Unsubstantiated health claim; state 'No MSG' as a fact only, not a benefit."
+      },
+      {
+        "claim": "Clinically proven to be the healthiest seasoning",
+        "why": "'Clinically proven' requires a real study; none provided in the input."
+      },
+      {
+        "claim": "Detoxes or boosts metabolism / aids weight loss",
+        "why": "Structure-function health claim with no evidence; off-brand and non-compliant."
+      },
+      {
+        "claim": "All-natural or preservative-free across the entire catalog",
+        "why": "Only specific products state 'No Preservatives'; unqualified blanket claim is unsupported."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://twistedpepper.com/cdn/shop/files/header_bg_1_200x@2x.png?v=1659801623",
+  "generated_at": "2026-07-14T21:04:37.379Z"
+}
