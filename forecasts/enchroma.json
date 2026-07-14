@@ -1,0 +1,124 @@
+{
+  "brand": "EnChroma",
+  "brand_slug": "enchroma",
+  "first_name": "Chris",
+  "website": "https://enchroma.com",
+  "generated_date": "July 14, 2026",
+  "read_time_min": 3,
+  "total_ads": 87,
+  "niche": "color blind glasses",
+  "tldr": "Chris, about 30 of your 87 live ads are burning out. The main problem is that you're saying almost the exact same thing across dozens of ads, and Meta reads them as one ad instead of many.",
+  "benchmark": {
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical brand ships new ads every three weeks. The best brands do it every two. At your ad volume you should be closer to every 10 days, and a big chunk of your set has been running well past that."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 12,
+      "headline": "Find the Right Lens For You",
+      "body": "See the world in color! Transform your vision with EnChroma colorblind-corrective glasses. 🌈👓",
+      "cta": "Shop Now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This exact wording is running word-for-word on at least six other live ads right now.",
+        "It's been up for almost 600 days, which is about 40 times longer than your best ads should run.",
+        "Meta sees these near-copies as basically one ad and quietly shows just one, so you paid to make ads almost no one sees."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 45,
+      "headline": "See Colors Like Never Before",
+      "body": "Start seeing more color with EnChroma! A new world of vibrant vision awaits you with our color-correction glasses.",
+      "cta": "Shop Now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "The same headline and body show up on five other live ads, so this one is competing against its own clones.",
+        "It's been live almost 600 days with no change to the picture or the words.",
+        "The line 'A new world of vibrant vision awaits you' is generic ad-speak, not something a real customer would say."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 39,
+      "headline": "Up To 35% Better Color Performance",
+      "body": "Ready to experience more color? Take our glasses for a spin and see for yourself that EnChroma brightens up your view!",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "The '35% better' claim is your strongest number and it's stuck inside three ads all using the exact same body copy.",
+        "Running nearly 600 days means the people most likely to buy have already seen it, ignored it, or bought.",
+        "'Take our glasses for a spin' is a soft ask, so buyers with real intent don't feel a reason to click today."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 21,
+      "headline": "Find the Right Lens For You",
+      "body": "{{product.brand}}",
+      "cta": "Shop Now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "The body shows the raw code '{{product.brand}}' instead of real words, so shoppers see a broken ad.",
+        "A broken ad still spends money every time it shows, and Meta learns to trust your account less.",
+        "It's been live for over a year in this broken state, which tells Meta this is what a normal EnChroma ad looks like."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 22,
+      "headline": "Try a pair of EnChroma Colorblind glasses risk-free",
+      "body": "\"With the glasses I can see all the pink and red on the trees.\" 🍂🕶️",
+      "cta": "Shop Now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "The 'pink and red on the trees' quote is repeated word-for-word across six live ads in three countries.",
+        "It's been running 637 days, which is longer than most brands stay in business at your ad pace.",
+        "You have one great customer quote doing the work of what should be six different customer quotes."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "$279",
+      "body": "Receptor Fitover Black Lx3 Chestnut",
+      "fatigue_score": 72,
+      "days_until_fatigue": 15
+    },
+    {
+      "headline": "{{product.short_description}}",
+      "body": "Monterey Cx3 Sun",
+      "fatigue_score": 78,
+      "days_until_fatigue": 12
+    },
+    {
+      "headline": "Colour is on Clearance!",
+      "body": "{{product.brand}}",
+      "fatigue_score": 76,
+      "days_until_fatigue": 13
+    }
+  ],
+  "next_step": {
+    "urgency": "About 10 of your ads are within a week of stopping working. Another 20 are within two.",
+    "headline": "Walk through the EnChroma refresh plan with Kyle",
+    "body": "Chris, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://enchroma.com/cdn/shop/files/favicon_updated_final.png?v=1683100385&width=180"
+}
