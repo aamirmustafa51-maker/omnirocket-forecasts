@@ -1,0 +1,169 @@
+{
+  "lead_company": "Jenson Natural Jewelry",
+  "lead_first_name": "Kristine",
+  "website": "https://www.jensonnaturaljewelry.com",
+  "brand_domain": "jensonnaturaljewelry.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Handmade natural gemstone jewelry - bracelets, necklaces, meditation malas, earrings and keychains sold direct to consumer.",
+    "core_belief": "Jewelry should feel personal, meaningful, and easy to wear every day.",
+    "proof_points": [
+      "Handmade gemstone jewelry, including meditation malas and stretch bracelets",
+      "Free shipping in the USA for orders over $50",
+      "Carbon-neutral shipping on all orders via verified carbon removal credits",
+      "4.95 star customer rating across 64 reviews shown on site"
+    ],
+    "positioning": "Accessible, meaning-driven natural gemstone jewelry at approachable price points ($26-$38), leaning warm and personal rather than luxury or trend-loud."
+  },
+  "voice_pillars": [
+    {
+      "name": "Personal & Meaningful",
+      "desc": "Frames every piece as something intimate and significant to the wearer, not just an accessory.",
+      "quote": "jewelry should feel personal, meaningful, and easy to wear every day"
+    },
+    {
+      "name": "Warm & Approachable",
+      "desc": "Speaks like a friendly maker who is genuinely reachable and eager to help.",
+      "quote": "We are always happy to help."
+    },
+    {
+      "name": "Community-Minded",
+      "desc": "Invites customers into a named family and shared mission rather than a transaction.",
+      "quote": "Join the JNJ family!"
+    },
+    {
+      "name": "Quietly Responsible",
+      "desc": "Owns its environmental impact plainly and without preaching.",
+      "quote": "We clean up after ourselves."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "personal, meaningful, and easy to wear every day",
+      "handmade gemstone jewelry",
+      "meditation malas",
+      "Point Necklace",
+      "Natural Gemstone Earrings",
+      "Power Stone Earrings"
+    ],
+    "words": [
+      "natural",
+      "gemstone",
+      "handmade",
+      "meaningful",
+      "malas",
+      "energy",
+      "point",
+      "everyday"
+    ],
+    "avoid": [
+      "medical or healing cure claims",
+      "loud/hype-heavy hard sell",
+      "mass-produced",
+      "cold/luxury-exclusive tone"
+    ]
+  },
+  "icp": "Spiritually-curious women who love natural gemstones and want handmade, affordable everyday jewelry that carries personal meaning and reflects their values, including sustainability.",
+  "personas": [
+    {
+      "name": "Mindful Wellness Seeker",
+      "description": "Practices meditation and journaling and buys malas and point necklaces framed as intention-setting companions for daily calm and focus."
+    },
+    {
+      "name": "Gemstone Collector",
+      "description": "Loves the look and lore of natural stones and is moved by the origin, uniqueness, and handmade craftsmanship of each piece."
+    },
+    {
+      "name": "Values-Driven Gifter",
+      "description": "Buys meaningful, budget-friendly gifts and is reassured by carbon-neutral shipping and the maker-run, community feel of the brand."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Black Gold Amazonite Point Necklace - Earth Points Collection",
+      "role": "Hero / best-seller",
+      "price": 38
+    },
+    {
+      "title": "Petrified Wood Agate Point Necklace - Earth Points Collection",
+      "role": "Premium",
+      "price": 38
+    },
+    {
+      "title": "Rose Quartz Point Necklace - Earth Points Collection",
+      "role": "Premium",
+      "price": 38
+    },
+    {
+      "title": "Lapis Lazuli Earrings - Natural Gemstone Earrings",
+      "role": "Entry point",
+      "price": 26
+    }
+  ],
+  "offers": [
+    "Free shipping in the USA for orders over $50",
+    "JNJ Rewards program - earn money toward future orders",
+    "Carbon-neutral shipping on all orders",
+    "Email list signup (Join the JNJ family)",
+    "Custom designed jewelry and DIY Bracelet Kit available",
+    "Repairs service offered"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handmade natural gemstone jewelry, malas and bracelets",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "Free shipping in the USA for orders over $50",
+        "source": "site header / announcement bar"
+      },
+      {
+        "claim": "Carbon-neutral shipping on all orders via verified carbon removal credits",
+        "source": "homepage sustainability section"
+      },
+      {
+        "claim": "Rated 4.95 stars across 64 reviews",
+        "source": "homepage reviews widget"
+      },
+      {
+        "claim": "Easy to wear every day",
+        "source": "FAQs page"
+      },
+      {
+        "claim": "Custom jewelry, repairs and DIY bracelet kits available",
+        "source": "site navigation / Shop menu"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Gemstones heal, cure, or treat any physical or mental condition",
+        "why": "Alters structure/function claim - would make jewelry an unapproved drug/medical device under cosmetic/health rules."
+      },
+      {
+        "claim": "Rose Quartz or any stone reduces anxiety, balances hormones, or relieves pain",
+        "why": "Structure/function health claim; not supported and prohibited without approval."
+      },
+      {
+        "claim": "Clinically proven energy healing benefits",
+        "why": "'Clinically proven' requires an actual study; no study exists in the input."
+      },
+      {
+        "claim": "Stones repair or restore your body's energy or immune system",
+        "why": "Repair/restore body function claim - crosses from adornment into unapproved therapeutic claim."
+      },
+      {
+        "claim": "Amazonite or Citrine boosts your health or metabolism",
+        "why": "Unqualified structure/function health claim with no substantiation."
+      },
+      {
+        "claim": "100% eco-friendly or fully sustainable brand",
+        "why": "FTC Green Guides - unqualified blanket sustainability claim; only carbon-neutral shipping is substantiated."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.jensonnaturaljewelry.com/cdn/shop/files/JNJ_LOGO_99160ae6-77fa-4c82-8e64-4335e68ff405.png?v=1719849147&width=500",
+  "generated_at": "2026-07-14T19:20:57.250Z"
+}
