@@ -1,0 +1,61 @@
+{
+  "lead_company": "Jenson Natural Jewelry",
+  "lead_first_name": "Kristine",
+  "website": "https://www.jensonnaturaljewelry.com",
+  "brand_domain": "jensonnaturaljewelry.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, personal, and nature-rooted, treating each handmade gemstone piece as a meaningful everyday companion rather than a mere accessory.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/jenson-natural-jewelry?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.jensonnaturaljewelry.com/cdn/shop/files/JNJ_LOGO_99160ae6-77fa-4c82-8e64-4335e68ff405.png?v=1719849147&width=500",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Rose Quartz Earrings - Natural Gemstone Earrings",
+      "product_url": "https://www.jensonnaturaljewelry.com/products/rose-quartz-earrings",
+      "image_url": "/creatives/scroll-stopper/jenson-natural-jewelry/ad-1.jpg",
+      "ai_image": true,
+      "price": 28,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "The prettiest kind of everyday.\n\nOur Rose Quartz Earrings pair one faceted natural gemstone with an elongated ear wire, so the soft pink stone gets gentle movement and all the attention.\n\nHandmade gemstone jewelry that is personal, meaningful, and easy to wear every day. Choose stainless steel or gold-plated ear wires.",
+      "headline": "Soft Pink, Worn Every Day",
+      "cta": "Shop Now",
+      "why_it_works": "Rose Quartz's beloved soft pink and lightweight everyday wearability is the clearest desire to lead with for a simple, versatile earring.",
+      "visual_direction": "The pair of Rose Quartz earrings resting on a soft linen tray with dried rose petals and a pale pink ribbon in gentle morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Quiet Cove Bracelet",
+      "product_url": "https://www.jensonnaturaljewelry.com/products/quiet-cove-bracelet",
+      "image_url": "/creatives/scroll-stopper/jenson-natural-jewelry/ad-2.jpg",
+      "ai_image": true,
+      "price": 28,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "This one started at the water's edge.\n\nThe Quiet Cove Bracelet is inspired by a still inlet along the Flambeau River, where deep blues blend into sunlit shoreline greens and the day slows right down.\n\nHandmade with genuine 4mm gemstones and a silver-plated bead, it is a small piece of a peaceful place you can carry with you.",
+      "headline": "A River Inlet On Your Wrist",
+      "cta": "Shop Now",
+      "why_it_works": "The bracelet is literally named after a real place the maker loves, so the story behind the colors is the most authentic and distinctive way in.",
+      "visual_direction": "The blue-and-green beaded bracelet on a weathered dock plank with river stones and shoreline grass in warm late-day light."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Black Gold Amazonite Point Necklace - Earth Points Collection",
+      "product_url": "https://www.jensonnaturaljewelry.com/products/black-gold-amazonite-point-necklace",
+      "image_url": "/creatives/scroll-stopper/jenson-natural-jewelry/ad-3.jpg",
+      "ai_image": true,
+      "price": 38,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried it won't look like the photo? It will look even more like you.\n\nNo two Black Gold Amazonite stones are alike. Swirls of aqua, earthy brown, warm gold, charcoal, and cream form a tiny landscape in every single Point Necklace.\n\nHandmade natural gemstone jewelry, rated 4.95 stars across 64 reviews, with carbon-neutral shipping on every order.",
+      "headline": "One Of A Kind, Truly",
+      "cta": "Shop Now",
+      "why_it_works": "The natural variation that could make a buyer hesitate is reframed as the selling point, backed by real reviews and shipping proof to remove doubt.",
+      "visual_direction": "A close macro of the Amazonite point necklace on a pale stone slab with a dried leaf and neutral cloth, lit to show every natural swirl in the stone."
+    }
+  ],
+  "generated_at": "2026-07-14T19:22:32.443Z"
+}
