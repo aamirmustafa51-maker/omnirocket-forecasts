@@ -1,0 +1,45 @@
+{
+  "lead_company": "H2Ocean",
+  "lead_first_name": "Edward",
+  "website": "https://oralcare.h2ocean.com",
+  "brand_domain": "oralcare.h2ocean.com",
+  "currency": "USD",
+  "brand_voice_note": "Calm, reassuring, and clinically grounded - it speaks to relief and healing through natural sea minerals rather than harsh chemistry.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/h2ocean?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://oralcare.h2ocean.com/cdn/shop/files/h2oceanLight_c5929dec-7153-4527-a829-ea43931fa479.png?v=1727821115&width=270",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Healing Rinse Mouthwash – Fresh Lemon Ice",
+      "product_url": "https://oralcare.h2ocean.com/products/healing-rinse-mouthwash-fresh-lemon-ice",
+      "image_url": "/creatives/scroll-stopper/h2ocean/ad-1.jpg",
+      "ai_image": true,
+      "price": 11,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "That sting after a dental procedure? There's a gentler way through it.\n\nHealing Rinse in Fresh Lemon Ice is the world's first and only patented sea salt based mouthwash - alcohol-free, fluoride-free, and made with over 82 trace minerals from hand-harvested Red Sea salt. No harsh chemicals, no funny aftertaste.\n\nOne customer said it was \"the only thing that helped my tongue piercing heal.\" Safe for daily use, safe for all ages, and even safe to swallow. 🍋",
+      "headline": "Soothe First. Then Feel Fresh.",
+      "cta": "Shop Now",
+      "why_it_works": "Recovery from procedures and piercings is the exact friction this rinse removes, so naming that pain point and pairing it with the safe, natural formula speaks directly to a cautious, discomfort-driven buyer.",
+      "visual_direction": "The lemon-flavored bottle standing on a bright marble bathroom counter with fresh lemon slices, mint, and a glass of water alongside."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Healing Rinse Mouthwash – Arctic Ocean Mint",
+      "product_url": "https://oralcare.h2ocean.com/products/healing-rinse-mouthwash-arctic-ocean-mint",
+      "image_url": "/creatives/scroll-stopper/h2ocean/ad-2.jpg",
+      "ai_image": true,
+      "price": 11,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Cool, minty relief the moment it hits your mouth.\n\nHealing Rinse in Arctic Ocean Mint blends Red Sea salt, anti-bacterial enzymes, and xylitol into the original patented sea salt rinse - clinically studied, professionally recommended, and made with only natural ingredients.\n\n\"Got the relief immediately\" and \"no discomfort whatsoever\" is exactly what you want at the sink. Great product to have on hand.",
+      "headline": "A Fresh Mint Rinse That Heals",
+      "cta": "Shop Now",
+      "why_it_works": "Mint is the flavor people reach for when they want that immediate clean, refreshed feeling, so leading with the sensory payoff plus the credibility markers hits the single most desirable outcome for this variant.",
+      "visual_direction": "The mint-flavored bottle standing on a spa-like grey stone shelf with fresh mint leaves, a pebble, and a small dish of sea salt beside it."
+    }
+  ],
+  "generated_at": "2026-07-15T14:18:22.770Z"
+}
