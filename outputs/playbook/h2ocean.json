@@ -1,0 +1,152 @@
+{
+  "lead_company": "H2Ocean",
+  "lead_first_name": "Edward",
+  "website": "https://oralcare.h2ocean.com",
+  "brand_domain": "oralcare.h2ocean.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Natural sea salt-based healing mouthwash for daily oral care and post-procedure recovery.",
+    "core_belief": "That nature can heal and protect - bringing the ocean's healing power to homes everywhere through hand-harvested Red Sea salt.",
+    "proof_points": [
+      "World's first and only patented sea salt based mouthwash",
+      "Made with unrefined, hand-harvested Red Sea salt with over 82 trace minerals",
+      "Alcohol-free, fluoride-free, sugar-free, no dyes or artificial additives; safe to swallow",
+      "Over 20 years in natural oral care, clinically studied and professionally recommended"
+    ],
+    "positioning": "A premium, natural alternative to harsh alcohol-based mouthwashes - the original patented sea salt rinse for healing and daily use."
+  },
+  "voice_pillars": [
+    {
+      "name": "Healing-Focused",
+      "desc": "Leads with recovery and relief - framing the product as a soothing solution, not just fresh breath.",
+      "quote": "More than just a mouthwash - it's a natural solution for everyday oral care."
+    },
+    {
+      "name": "Nature-Powered",
+      "desc": "Grounds every benefit in natural ingredients and the ocean's minerals rather than chemicals.",
+      "quote": "We believe in the power of nature to heal and protect."
+    },
+    {
+      "name": "Clinically Credible",
+      "desc": "Backs claims with patents, studies, and professional trust to reassure cautious buyers.",
+      "quote": "Clinically studied and professionally recommended, it's highly effective and safe for all ages."
+    },
+    {
+      "name": "Gentle & Inclusive",
+      "desc": "Reassures that the formula is safe and non-irritating for everyone, including children.",
+      "quote": "Gentle & Safe: Alcohol-free, non-irritating, and perfect for dry mouth or sensitive gums."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "the only thing that helped my tongue piercing heal",
+      "got the relief immediately",
+      "no discomfort whatsoever",
+      "didn't have any funny aftertaste",
+      "left my mouth feeling mildly stimulated",
+      "Great product to have on hand"
+    ],
+    "words": [
+      "healing",
+      "soothes",
+      "relief",
+      "natural",
+      "alcohol-free",
+      "gentle",
+      "fresh",
+      "Red Sea salt"
+    ],
+    "avoid": [
+      "harsh",
+      "chemical/clinical-cold",
+      "burning",
+      "cheap"
+    ]
+  },
+  "icp": "Health-conscious adults recovering from dental work, piercings, or oral irritation who want a gentle, natural, non-burning rinse they can trust for the whole family.",
+  "personas": [
+    {
+      "name": "Post-Procedure Healer",
+      "description": "Recovering from dental surgery, canker sores, or a piercing and moved by fast, gentle relief without the sting of alcohol."
+    },
+    {
+      "name": "Natural-First Parent",
+      "description": "Avoids alcohol, fluoride, and dyes for the family and buys on the promise that it's safe for all ages and safe to swallow."
+    },
+    {
+      "name": "Sensitive-Mouth Sufferer",
+      "description": "Deals with dry mouth, sore throats, or chemo-related irritation and responds to the soothing, non-irritating positioning."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Healing Rinse Mouthwash – Arctic Ocean Mint",
+      "role": "Hero / best-seller",
+      "price": 11
+    },
+    {
+      "title": "Healing Rinse Mouthwash – Fresh Lemon Ice",
+      "role": "Entry point",
+      "price": 11
+    }
+  ],
+  "offers": [
+    "Available in 8oz, 16oz, and 64oz bottle sizes",
+    "Email subscribe to be first to hear about sales and new offerings",
+    "Refund & Return Policy available on site"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "The world's first and only patented sea salt based mouthwash",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Alcohol-free, fluoride-free, sugar-free, and made with only natural ingredients",
+        "source": "product pages"
+      },
+      {
+        "claim": "Made with over 82 trace minerals from hand-harvested Red Sea salt",
+        "source": "homepage and about page"
+      },
+      {
+        "claim": "Safe for daily use and for all ages, and safe to swallow",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Clinically studied and professionally recommended",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Xylitol's low glycemic index makes it diabetic safe",
+        "source": "FAQ page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Unqualified 'eco-friendly' or 'sustainably sourced' as used on the homepage and about page",
+        "why": "FTC Green Guides - unqualified sustainability claims need specific, verifiable backing"
+      },
+      {
+        "claim": "'Made using natural, eco-friendly processes' without evidence",
+        "why": "FTC Green Guides - vague green process claim not substantiated"
+      },
+      {
+        "claim": "'Zero impact', 'carbon neutral', or '100% sustainable' packaging or sourcing",
+        "why": "FTC Green Guides - banned without specific, verifiable proof"
+      },
+      {
+        "claim": "'Cures', 'fixes', or 'corrects' canker sores, gum disease, or infections",
+        "why": "Medical/treatment claim - go no further than the site's supported soothe/relieve/promotes-healing language"
+      },
+      {
+        "claim": "'Prevents cancer' or treats chemo side effects as a medical outcome",
+        "why": "Unsupported medical claim - keep to 'therapeutic rinse' language already on site, not a cure"
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://oralcare.h2ocean.com/cdn/shop/files/h2oceanLight_c5929dec-7153-4527-a829-ea43931fa479.png?v=1727821115&width=270",
+  "generated_at": "2026-07-15T14:16:41.093Z"
+}
