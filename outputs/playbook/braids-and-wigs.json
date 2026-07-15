@@ -1,0 +1,170 @@
+{
+  "lead_company": "Braids and Wigs",
+  "lead_first_name": "Maria",
+  "website": "https://braidsandwigs.ca",
+  "brand_domain": "braidsandwigs.ca",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Canadian online beauty retailer for wigs, braiding hair, extensions, and hair and skin care across many top brands (Outre, Sensationnel, Freetress, Ampro).",
+    "core_belief": "Offering amazing products without the huge price tag - hand-picked so every item is as exciting as the next.",
+    "proof_points": [
+      "100% Satisfaction Money Back Guarantee",
+      "Dedicated sourcing team that works directly with manufacturers and tests everything before shipping",
+      "Free Shipping Canada-Wide on orders $69.99 (before tax)+",
+      "Local delivery in London Ontario within a few hours",
+      "Buy Now Pay Later available"
+    ],
+    "positioning": "High-variety value play - big catalog of name brands at the lowest pricing, not a boutique premium house."
+  },
+  "voice_pillars": [
+    {
+      "name": "Deal-Driven Value",
+      "desc": "Leads with price and savings - everything is framed as a great product without the markup.",
+      "quote": "offering AMAZING gifts and products without the huge price tag!"
+    },
+    {
+      "name": "Warm And Personal",
+      "desc": "Talks to customers like family, signs off friendly, and invites them to say hi.",
+      "quote": "send us an email to say hi to the team family! Happy Shopping!"
+    },
+    {
+      "name": "Reassuring And Trusty",
+      "desc": "Backs the sale with guarantees, support, and clear reasons to buy with confidence.",
+      "quote": "100% Satisfaction Money Back Guarantee."
+    },
+    {
+      "name": "Fresh And Curated",
+      "desc": "Emphasizes constant new arrivals and hand-selected picks to keep the store exciting.",
+      "quote": "incredible new sales uploaded every single day!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Bring beauty to life",
+      "without the huge price tag",
+      "Melted Hairline",
+      "Perfect Hairline",
+      "Extra Hold",
+      "Pre-Stretched"
+    ],
+    "words": [
+      "glueless",
+      "lace front",
+      "crochet",
+      "pre-stretched",
+      "boutique",
+      "hold",
+      "shine",
+      "luxury"
+    ],
+    "avoid": [
+      "clinical",
+      "cheap",
+      "medicated",
+      "prescription",
+      "anti-aging"
+    ]
+  },
+  "icp": "Value-conscious Canadian women who wear and style protective hair (wigs, braids, weaves, crochet) and want name-brand looks fast, affordably, and with easy pay-later options.",
+  "personas": [
+    {
+      "name": "Budget Braid Boss",
+      "description": "Buys pre-stretched braiding hair and crochet in bulk and is moved by lowest pricing, color variety, and free shipping thresholds."
+    },
+    {
+      "name": "Glueless Wig Switcher",
+      "description": "Wants quick, natural-looking lace front and glueless wigs and responds to 'melted/perfect hairline' realism plus fast local delivery."
+    },
+    {
+      "name": "Pay-Later Protector",
+      "description": "Loves a full look but watches cash flow, so Buy Now Pay Later and the money-back guarantee close the sale."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Outre Synthetic Lace Front Wig - Melted Hairline - TruCurve 5",
+      "role": "Hero / best-seller",
+      "price": 50.75
+    },
+    {
+      "title": "Headband",
+      "role": "Entry point",
+      "price": 2.89
+    },
+    {
+      "title": "Outre Purple Pack Brazilian Boutique Feather - Hawaiian 18\"",
+      "role": "Core",
+      "price": 29
+    },
+    {
+      "title": "Ampro Shine 'N Jam Conditioning Gel [Extra Hold] - Pack of 12",
+      "role": "Core",
+      "price": 45.6
+    }
+  ],
+  "offers": [
+    "Free Shipping Canada-Wide on orders $69.99 (before tax)+",
+    "Free press-on nails set (worth $14.99) at $99.99 cart threshold",
+    "Buy Now Pay Later available",
+    "Local delivery in London Ontario within a few hours",
+    "100% Satisfaction Money Back Guarantee",
+    "Ongoing sale pricing across wigs, braiding hair, crochet, and hair products"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free Shipping Canada-Wide on orders $69.99 (before tax)+",
+        "source": "site header / homepage banner"
+      },
+      {
+        "claim": "100% Satisfaction Money Back Guarantee",
+        "source": "about page"
+      },
+      {
+        "claim": "We test everything before we send it to you",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Buy Now Pay Later now available",
+        "source": "homepage banner"
+      },
+      {
+        "claim": "Local delivery within a few hours (London Ontario only)",
+        "source": "homepage banner"
+      },
+      {
+        "claim": "Extra Hold conditioning gel for styling",
+        "source": "Ampro Shine 'N Jam product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Repairs or heals damaged hair and scalp",
+        "why": "Cosmetics cannot claim to repair or heal - that implies altering body structure/function (unapproved drug claim)."
+      },
+      {
+        "claim": "Batana oil regrows hair or reverses hair loss",
+        "why": "Structure/function claim - cosmetics may only address appearance, not regrow hair or treat loss."
+      },
+      {
+        "claim": "Skin care treats acne, eczema, or rosacea",
+        "why": "Treating a skin condition is a drug claim and is banned for cosmetics."
+      },
+      {
+        "claim": "Anti-aging that reverses aging or boosts collagen production",
+        "why": "Reversing aging or boosting collagen alters body function - banned; use 'looks firmer / appears brighter' instead."
+      },
+      {
+        "claim": "Clinically proven results",
+        "why": "'Clinically proven' requires a real supporting study, which is not present on the site."
+      },
+      {
+        "claim": "Oils and conditioners strengthen or restore hair from within",
+        "why": "Implies structural change to the hair; keep to appearance language like 'looks shinier' or 'feels smoother'."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-15T14:23:02.453Z"
+}
