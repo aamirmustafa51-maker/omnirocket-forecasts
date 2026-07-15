@@ -1,0 +1,164 @@
+{
+  "lead_company": "Raging Bull Leisure",
+  "lead_first_name": "Simon",
+  "website": "https://ragingbull.co.uk",
+  "brand_domain": "ragingbull.co.uk",
+  "currency": "USD",
+  "review_count": 12,
+  "brand_dna": {
+    "category": "British sporting-heritage menswear and lifestyle apparel, sizes S to 6XL, sold direct online.",
+    "core_belief": "We build for those who do the heavy lifting - where the integrity of the stitch meets the grit of the graft. No shortcuts. No disposable style.",
+    "proof_points": [
+      "Founded in 2007 by Rugby World Cup winner Phil Vickery",
+      "Designed in the Cotswolds, UK-based customer support team",
+      "100% organic cotton, double stitched for extra strength (core tees and polos)",
+      "90 days hassle-free returns, free UK returns"
+    ],
+    "positioning": "Rugged, value-driven premium: built-to-last quality with honest pricing, not fast fashion and not luxury."
+  },
+  "voice_pillars": [
+    {
+      "name": "Grit And Graft",
+      "desc": "Plain-spoken, hard-working tone that speaks to men who get things done and want kit that keeps up.",
+      "quote": "We build for those who do the heavy lifting."
+    },
+    {
+      "name": "Built To Last",
+      "desc": "Every line leans on durability and craftsmanship over trend-chasing or throwaway style.",
+      "quote": "No shortcuts. No disposable style. Just kit built to last."
+    },
+    {
+      "name": "Blunt And Confident",
+      "desc": "Short, punchy statements that assume the quality speaks for itself without over-explaining.",
+      "quote": "Quality you don't question."
+    },
+    {
+      "name": "For Real Bodies",
+      "desc": "Down-to-earth honesty about fit that puts the wearer, not the runway, first.",
+      "quote": "Made for men. Not mannequins."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Built to last. Timeless style.",
+      "No shortcuts on the stitch, just more for your money.",
+      "Quality you don't question.",
+      "Made for men. Not mannequins.",
+      "Double stitched for extra strength.",
+      "made to get better with every wear"
+    ],
+    "words": [
+      "quality",
+      "value",
+      "wearability",
+      "organic cotton",
+      "double stitched",
+      "timeless",
+      "premium",
+      "generous fit"
+    ],
+    "avoid": [
+      "trendy",
+      "delicate",
+      "fast fashion",
+      "hype"
+    ]
+  },
+  "icp": "Practical UK men, often 35+ and across a wider size range (S to 6XL), who value durable, no-nonsense clothing and will pay a fair price for kit that lasts rather than chasing trends.",
+  "personas": [
+    {
+      "name": "The Grafter",
+      "description": "Hard-working bloke who wants clothes that hold up to real use - move him with durability, double stitching and built-to-last messaging."
+    },
+    {
+      "name": "The Rugby Loyalist",
+      "description": "Fan of the brand's sporting heritage and Phil Vickery pedigree - move him with the founder story, rugby roots and British-made-in-the-Cotswolds credibility."
+    },
+    {
+      "name": "The Fuller-Fit Shopper",
+      "description": "Man who struggles to find good clothing in larger sizes - move him with the S to 6XL range, generous fit and 'made for men, not mannequins' honesty."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Army Rugby Union Long Sleeve Rugby - Red",
+      "role": "Hero / best-seller",
+      "price": 32
+    },
+    {
+      "title": "Classic Organic T-Shirt - Red",
+      "role": "Entry point",
+      "price": 25
+    },
+    {
+      "title": "Classic Organic Polo - Red",
+      "role": "Premium",
+      "price": 45
+    },
+    {
+      "title": "Super Lightweight Jacket - Olive",
+      "role": "Core",
+      "price": 31.5
+    }
+  ],
+  "offers": [
+    "Free UK delivery on orders over £100 (standard £3.95 otherwise)",
+    "90 days hassle-free returns, free within the UK",
+    "Multi-buy deals: 3 for 2 Polo Shirts, 3 for 2 Organic T-Shirts, 2 Summer Shorts for £100",
+    "Club 73 loyalty program with rewards",
+    "Win a £500 Raging Bull gift card promotion",
+    "Summer Sale - up to 70% off"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Founded in 2007 by Rugby World Cup winner Phil Vickery.",
+        "source": "product pages / homepage"
+      },
+      {
+        "claim": "100% organic cotton, double stitched for extra strength (core tees and polos).",
+        "source": "product pages"
+      },
+      {
+        "claim": "Designed in the Cotswolds with a UK-based customer support team.",
+        "source": "product page / homepage"
+      },
+      {
+        "claim": "90 days hassle-free returns, free within the UK.",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Available in sizes S to 6XL.",
+        "source": "homepage title / size guides"
+      },
+      {
+        "claim": "Free UK delivery on orders over £100.",
+        "source": "shipping policy / site banner"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the range 'sustainable' or 'eco-friendly' on the basis of organic cotton alone.",
+        "why": "FTC Green Guides - unqualified sustainability claim not backed by specific, verifiable proof."
+      },
+      {
+        "claim": "'100% recycled' or 'made from recycled fabric' for any garment.",
+        "why": "FTC Green Guides - no recycled-content data is stated on the site; unverifiable claim."
+      },
+      {
+        "claim": "'Carbon neutral' or 'zero impact' clothing.",
+        "why": "FTC Green Guides - carbon/impact claim with no verifiable backing."
+      },
+      {
+        "claim": "Framing the fit or fabric as relieving back pain, correcting posture or easing joint strain.",
+        "why": "Prohibited medical/orthopedic claim for apparel."
+      },
+      {
+        "claim": "'Organic' used to imply broad environmental benefit beyond the cotton material itself.",
+        "why": "FTC Green Guides - overstates a specific material fact into an unqualified green claim."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-15T07:51:25.925Z"
+}
