@@ -1,0 +1,44 @@
+{
+  "brand": "Braids and Wigs",
+  "brand_slug": "braids-and-wigs",
+  "first_name": "Maria",
+  "website": "https://braidsandwigs.ca",
+  "generated_date": "July 15, 2026",
+  "read_time_min": 3,
+  "total_ads": 1,
+  "niche": "hair and wigs",
+  "tldr": "You're running one single ad, and it's been live for almost six months. That means every person who's seen your brand on Meta has seen the exact same video over and over, and Meta has mostly stopped showing it.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical hair and wig brand puts up a fresh ad every three weeks, and the best brands do it every two. You only have one ad running, so Meta has nothing to rotate to and shows it to fewer and fewer people each week."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "",
+      "body": "💖✨ Order online. Same day shipping available. We ship all across Canada. 📦🇨🇦✨ 🚗💨 Local delivery available in as little as 1 hour • Braiding hair, wigs, bundles, lace, closures & extensions • Hair care products, tools & everyday accessories • Popular styles and trusted brands always in stock • Shop online anytime or visit us in store 📍 1478 Dundas St, London 🛍️ braidsandwigs.ca Fast. Reliable. Ready when you are. ✨",
+      "cta": "Send message",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been live for 179 days straight, so most people in London have already scrolled past it more times than they can count.",
+        "There's no headline on the ad, so the big bold line under the video is blank and the body copy has to do all the selling by itself.",
+        "The button says 'Send message' and the link points to Instagram, so people never land on your shop where they'd actually buy."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "next_step": {
+    "urgency": "Your one ad has been running unchanged since January and is being shown to fewer people every week. It's basically running on fumes right now.",
+    "headline": "Walk through the Braids and Wigs refresh plan with Kyle",
+    "body": "Maria, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads, the video, the words, and how long it's been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g"
+}
