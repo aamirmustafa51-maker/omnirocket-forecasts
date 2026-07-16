@@ -1,0 +1,167 @@
+{
+  "lead_company": "Guidelines for Quilting",
+  "lead_first_name": "John",
+  "website": "https://guidelines4quilting.com",
+  "brand_domain": "guidelines4quilting.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Precision quilting tools - rulers, guides, grip strips and safety accessories that help quilters cut and sew quilt pieces accurately.",
+    "core_belief": "Saving costly fabric matters more than ever for quilters in today's economy - tools should eliminate the guesswork so anyone can piece perfectly with no fabric waste.",
+    "proof_points": [
+      "Proudly made in the USA",
+      "Trusted by thousands of quilters worldwide",
+      "Founded by John and Ritzko",
+      "30-day return policy on new, unused items in original packaging"
+    ],
+    "positioning": "Problem-solving specialist tools for accuracy-obsessed quilters, sitting above generic acrylic rulers as the fabric-saving, no-slip upgrade."
+  },
+  "voice_pillars": [
+    {
+      "name": "Accuracy-Obsessed",
+      "desc": "Every line promises precise, repeatable results and frames the product around exactness.",
+      "quote": "Square up and cut fabric with unmatched precision, sew perfect 1/4-inch seams"
+    },
+    {
+      "name": "Frustration-Killer",
+      "desc": "They name the quilter's pain points directly and position the tools as the fix.",
+      "quote": "No more cutting errors, seam ripping, or slipping rulers."
+    },
+    {
+      "name": "Effortlessly Simple",
+      "desc": "Copy leans on ease and low-friction language so any skill level feels capable.",
+      "quote": "Make quilt blocks any size using just one measurement"
+    },
+    {
+      "name": "Reassuringly Safe",
+      "desc": "They highlight finger protection and safety while working with sharp rotary blades.",
+      "quote": "Protect Your Fingers Against Sharp Rotary Cutters!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "No Slipping - No Fabric Waste",
+      "Let the Guide Catch the Fabric's Edge for Instant Accuracy",
+      "Make Blocks of Any Size!",
+      "No math. No templates. No dies.",
+      "sew perfect 1/4-inch seams",
+      "For Quilters of Any Skill Level"
+    ],
+    "words": [
+      "accurate",
+      "precision",
+      "fabric-saving",
+      "non-slip",
+      "self-aligning",
+      "unbreakable",
+      "square up",
+      "guesswork"
+    ],
+    "avoid": [
+      "cheap",
+      "trendy",
+      "disposable",
+      "luxury"
+    ]
+  },
+  "icp": "Home quilters of any skill level who value precision and hate wasting expensive fabric, and who buy tools that remove math, slipping, and cutting errors from block-making.",
+  "personas": [
+    {
+      "name": "Precision Piecer",
+      "description": "Detail-driven quilter chasing perfect 1/4-inch seams and squared-up blocks - moved by accuracy and 'no more seam ripping' messaging."
+    },
+    {
+      "name": "Fabric-Saving Pragmatist",
+      "description": "Budget-conscious quilter watching costs in today's economy - moved by zero fabric waste and getting cuts right the first time."
+    },
+    {
+      "name": "Math-Averse Maker",
+      "description": "Quilter intimidated by resizing and seam-allowance math - moved by 'make any block any size, no math' simplicity."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Cut Fast & Accurate Combo",
+      "role": "Hero / best-seller",
+      "price": 41.9
+    },
+    {
+      "title": "Super Easy FSQ Quilting Set for 24\" & 12\" Quilt Rulers by Guidelines4Quilting",
+      "role": "Premium",
+      "price": 162.65
+    },
+    {
+      "title": "Finger Guard for Guidelines Ruler",
+      "role": "Entry point",
+      "price": 7.95
+    },
+    {
+      "title": "Guidelines4Quilting Finger Guards for Quilting Rulers - Protect Your Fingers While Rotary Cutting - Made in USA",
+      "role": "Core",
+      "price": 19.95
+    }
+  ],
+  "offers": [
+    "Free US shipping on orders over $100",
+    "Flexible installment payments at checkout",
+    "30-day return policy",
+    "Bundle sets (Cut Fast & Accurate Combo, Perfect4Pattern Sets, Super Easy FSQ Sets)",
+    "Every Guidelines Ruler comes with a Finger Guard included"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Proudly made in the USA",
+        "source": "about page and Finger Guards product title"
+      },
+      {
+        "claim": "Non-slip, self-aligning, connectable and left-hand friendly Guidelines Rulers",
+        "source": "homepage"
+      },
+      {
+        "claim": "Sew perfect 1/4-inch seams and cut with no fabric waste",
+        "source": "about page"
+      },
+      {
+        "claim": "Finger Guards protect your fingers while rotary cutting",
+        "source": "Finger Guard product pages"
+      },
+      {
+        "claim": "Free US shipping on orders over $100",
+        "source": "site header"
+      },
+      {
+        "claim": "30-day return policy for new, unused items in original packaging",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best non-slip solution in the world / #1 quilting ruler",
+        "why": "FTC - unqualified superlative that cannot be objectively substantiated."
+      },
+      {
+        "claim": "Guaranteed perfect blocks every time with zero errors",
+        "why": "FTC - guaranteed-results claim; outcomes depend on user technique."
+      },
+      {
+        "claim": "Rated 5 stars by 10,000+ quilters",
+        "why": "FTC - invented review count; no reviews were provided to substantiate."
+      },
+      {
+        "claim": "Only X left - order in the next 10 minutes",
+        "why": "Fake urgency not supported by any real inventory or time limit on site."
+      },
+      {
+        "claim": "Recommended by professional quilters and top designers",
+        "why": "FTC - invented endorsement with no documented source."
+      },
+      {
+        "claim": "'Unbreakable' meaning it can never break under any use",
+        "why": "FTC - objective durability claim must be qualified and provable, not absolute."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-16T15:21:08.792Z"
+}
