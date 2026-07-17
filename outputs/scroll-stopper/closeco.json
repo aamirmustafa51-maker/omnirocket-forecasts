@@ -1,0 +1,61 @@
+{
+  "lead_company": "CloseCo",
+  "lead_first_name": "Max",
+  "website": "https://closecompanyliving.com",
+  "brand_domain": "closecompanyliving.com",
+  "currency": "GBP",
+  "brand_voice_note": "Calm, lived-in and quietly confident - furniture written for slow moments and enduring craft rather than urgency.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/closeco?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://cdn.shopify.com/oxygen-v2/30582/18190/37555/3985660/build/_assets/closeco-YP4GNYDG.svg",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Darwell Sofa — Handcrafted Corner Sofa",
+      "product_url": "https://closecompanyliving.com/products/darwell-sofa",
+      "image_url": "/creatives/scroll-stopper/closeco/ad-1.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A sofa to sink into, and a shape that finally brings order to the room.\n\nThe Darwell corner sofa holds its clean architectural lines while offering arms to linger on and cloud-like cushioning for life's slow moments.\n\nHandcrafted and made to order in 6 to 8 weeks, with free returns on furniture orders.",
+      "headline": "Structure you can sink into",
+      "cta": "Shop Now",
+      "why_it_works": "The corner sofa's defining promise is the tension between crisp form and deep comfort, so leading with that single desirable feeling fits the product better than any other lever.",
+      "visual_direction": "The corner sofa staged in a bright, calm living room on a wool rug beside a low oak coffee table in soft morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Inny Armchair — Compact Fabric Armchair",
+      "product_url": "https://closecompanyliving.com/products/inny-armchair",
+      "image_url": "/creatives/scroll-stopper/closeco/ad-2.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Nowhere in the house that's truly just yours?\n\nThe Inny armchair is a compact private retreat - a quiet corner for reading, resting, and slowing the pace of the room.\n\nOrder complimentary fabric swatches first, then we handcraft yours to order in 6 to 8 weeks.",
+      "headline": "A corner that's finally yours",
+      "cta": "Shop Now",
+      "why_it_works": "The everyday friction of having no personal quiet spot is exactly the problem this compact retreat chair solves, making problem-solution the most honest fit.",
+      "visual_direction": "The compact armchair set in a quiet window reading nook with a side table, open book and cup of tea in soft daylight."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Fergus Armchair — Statement Fabric Armchair",
+      "product_url": "https://closecompanyliving.com/products/fergus-armchair",
+      "image_url": "/creatives/scroll-stopper/closeco/ad-3.jpg",
+      "ai_image": true,
+      "price": null,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried a statement chair won't feel right in your space?\n\nOrder complimentary fabric swatches, choose your finish, or use your own fabric - then we handcraft the Fergus locally, made to order in 6 to 8 weeks.\n\nAnd if it isn't right when it arrives, furniture returns are free. Unmistakably modern, intimately cosy.",
+      "headline": "Get it right before it ships",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation on a bold statement chair is committing to a fabric and shape sight-unseen, so swatches, own-fabric option and free returns directly dissolve that fear.",
+      "visual_direction": "The statement armchair in a warm evening corner with a wool throw over one arm and fabric swatch cards on a nearby stool under soft lamplight."
+    }
+  ],
+  "generated_at": "2026-07-17T10:35:53.962Z"
+}
