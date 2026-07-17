@@ -1,0 +1,148 @@
+{
+  "lead_company": "Spring Mountain Vineyard",
+  "lead_first_name": "the Spring Mountain team",
+  "website": "https://www.springmountainvineyard.com",
+  "brand_domain": "springmountainvineyard.com",
+  "currency": "USD",
+  "prospect_logo_url": "https://raw.githubusercontent.com/aamirmustafa51-maker/omnirocket-forecasts/main/public/creatives/scroll-stopper/spring-mountain-vineyard/ref/logo.png",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Historic Spring Mountain District estate winery and luxury visitor destination - selling estate-grown Napa wines alongside tours, tastings, and membership rather than a shelf of SKUs.",
+    "core_belief": "The epic beauty of this land should show up in every glass. A restored Napa icon, earned by those who dare to dream, where nature and nurture meet grit and grandeur.",
+    "proof_points": [
+      "Founded on three 19th-century estates - La Perla, Chevalier, and Miravalle - established between 1872 and 1884 on the slopes of Spring Mountain.",
+      "Spring Mountain Chardonnay competed in the 1976 Judgment of Paris, finishing ahead of famous French houses and helping put Napa on the world map.",
+      "225-plus acres of terraced vineyard climbing from roughly 400 to 1,700 feet across an estate of over 800 acres.",
+      "The Victorian mansion (Miravalle) served as the exterior of the CBS drama Falcon Crest for much of the 1980s.",
+      "Deep library of estate reds spanning multiple decades, poured in the Founders Tasting."
+    ],
+    "positioning": "Top of the market. A heritage-rich, terroir-first mountain estate positioned as a rare destination and collector's wine, not a valley-floor tasting room."
+  },
+  "voice_pillars": [
+    {
+      "name": "Reverent About the Land",
+      "desc": "Frames the wine as an expression of a specific, dramatic mountain terroir rather than a product.",
+      "quote": "The epic beauty of this land shows up in every glass."
+    },
+    {
+      "name": "Heritage-Anchored",
+      "desc": "Leans on real, datable history - founding estates, Judgment of Paris, decades of library vintages - to earn authority.",
+      "quote": "Founded 1872 to 1884 on the slopes of Spring Mountain."
+    },
+    {
+      "name": "Understated Luxury",
+      "desc": "Speaks quietly and precisely, pairing evocative ideas rather than shouting offers or discounts.",
+      "quote": "Grit and grandeur. Precision and perfection. Sensory and soul."
+    },
+    {
+      "name": "Invitation, Not Hard Sell",
+      "desc": "Positions every touchpoint as an invitation to discover the estate, letting the place do the selling.",
+      "quote": "Destination and discovery."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "a piece of Napa history",
+      "the estate where it happened",
+      "library vintages you cannot buy on a shelf",
+      "up the mountain, above the fog",
+      "grit and grandeur",
+      "the historic Spring Mountain District"
+    ],
+    "words": [
+      "estate",
+      "terroir",
+      "library vintage",
+      "Spring Mountain District",
+      "Judgment of Paris",
+      "heritage",
+      "mountain-grown",
+      "allocation"
+    ],
+    "avoid": [
+      "cheap / discount / deal",
+      "mass-market",
+      "trendy",
+      "quick / grab-and-go"
+    ]
+  },
+  "icp": "Affluent wine lovers, collectors, and luxury travelers - many 45-plus - who value heritage, provenance, and rare access, and who will pay a premium for an estate experience and allocation rather than a supermarket bottle.",
+  "personas": [
+    {
+      "name": "The Collector",
+      "description": "A serious cellar-builder moved by library depth, decades of estate vintages, and the Spring Mountain District pedigree - buys allocation and books the Founders Tasting."
+    },
+    {
+      "name": "The Napa Pilgrim",
+      "description": "An affluent traveler planning a Napa trip who wants a rare, above-the-valley-floor experience - moved by the ridge-top Explorers tour and the estate's beauty and privacy."
+    },
+    {
+      "name": "The Story Seeker",
+      "description": "A culturally curious visitor drawn to the history - Judgment of Paris, the founding estates, and the Falcon Crest era - who wants to taste where a piece of wine history was made."
+    }
+  ],
+  "products_ladder": [
+    { "title": "Vista Tasting", "role": "Entry experience", "price": 95 },
+    { "title": "The Judgment of Paris Tasting", "role": "Entry experience", "price": 95 },
+    { "title": "The Founders Tasting", "role": "Signature experience", "price": 200 },
+    { "title": "Spring Mountain Explorers", "role": "Premium experience", "price": 395 },
+    { "title": "Estate Cabernet Sauvignon 2021", "role": "Hero wine", "price": null },
+    { "title": "Estate La Perla Cabernet Sauvignon 2021", "role": "Hero wine", "price": null },
+    { "title": "Estate Proprietary Red SMV Resurrection 2021", "role": "Hero wine", "price": null }
+  ],
+  "offers": [
+    "Daily estate tours and tastings ranging from $95 to $395 per guest.",
+    "The Founders Tasting: a guided tour plus a flight spanning three distinct decades from the library ($200 per guest).",
+    "Spring Mountain Explorers: a roughly three-hour off-road estate tour to the high blocks with library and new-release wines ($395 per guest, two departures daily).",
+    "Connoisseurs and Collectors membership for allocation and estate access.",
+    "Private tastings and estate events by reservation."
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Spring Mountain Chardonnay competed in the 1976 Judgment of Paris and finished ahead of several established French houses.",
+        "source": "Estate history / Judgment of Paris record"
+      },
+      {
+        "claim": "The estate was founded on three 19th-century properties - La Perla, Chevalier, and Miravalle - established between 1872 and 1884.",
+        "source": "Our Story page"
+      },
+      {
+        "claim": "The Founders Tasting pours estate wine spanning three distinct decades from the library.",
+        "source": "Experience page"
+      },
+      {
+        "claim": "The estate spans 225-plus acres of vineyard from roughly 400 to 1,700 feet of elevation.",
+        "source": "Experience page (Explorers tour)"
+      },
+      {
+        "claim": "The Miravalle mansion served as the exterior filming location for the CBS series Falcon Crest during the 1980s.",
+        "source": "Public record / Napa Valley Register"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best wine in Napa / the number one winery on Spring Mountain.",
+        "why": "Unqualified superlatives that cannot be objectively substantiated are banned under FTC guidance."
+      },
+      {
+        "claim": "Officially partnered with, endorsed by, or affiliated with the Falcon Crest show or CBS.",
+        "why": "The mansion was only a filming location; implying an official endorsement or partnership is unsupported and misleading."
+      },
+      {
+        "claim": "Our wine beat every French wine at the Judgment of Paris.",
+        "why": "Spring Mountain's Chardonnay placed in the white flight ahead of several French houses, not first overall; overstating the result is inaccurate."
+      },
+      {
+        "claim": "Health or wellness benefits from drinking the wine.",
+        "why": "Health claims on an alcoholic beverage are prohibited under TTB and FDA rules."
+      },
+      {
+        "claim": "Limited bottles left - buy in the next X hours.",
+        "why": "Invented scarcity or urgency is banned; only real, verifiable allocation and availability may be stated."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-17T18:14:03Z"
+}
