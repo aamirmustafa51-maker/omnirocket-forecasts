@@ -1,0 +1,61 @@
+{
+  "lead_company": "Spring Mountain Vineyard",
+  "lead_first_name": "the Spring Mountain team",
+  "website": "https://www.springmountainvineyard.com",
+  "brand_domain": "springmountainvineyard.com",
+  "currency": "USD",
+  "prospect_logo_url": "https://raw.githubusercontent.com/aamirmustafa51-maker/omnirocket-forecasts/main/public/creatives/scroll-stopper/spring-mountain-vineyard/ref/logo.png",
+  "brand_voice_note": "Elegant, heritage-driven Napa luxury. Reverent about the land and the estate's history, understated rather than salesy, pairing ideas like grit and grandeur, precision and perfection, sensory and soul.",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "The Founders Tasting",
+      "product_url": "https://www.springmountainvineyard.com/experience",
+      "image_url": "/creatives/scroll-stopper/spring-mountain-vineyard/ad-1.jpg",
+      "ai_image": true,
+      "price": 200,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Heritage / The Comeback",
+      "headline": "Taste three decades on the mountain.",
+      "primary_text": "Most Napa tastings pour whatever released this year.\n\nThe Founders Tasting pours across three distinct decades of estate wine, drawn from a library that reaches back to Spring Mountain's earliest great vintages. You walk the historic grounds first, then sit with wines made before most wineries on this road existed.\n\n90 minutes. Spring Mountain District. $200 per guest.",
+      "cta": "Book Now",
+      "why_it_works": "A vertical flight across three decades is something almost no Napa estate can offer, so it separates Spring Mountain from every current-release tasting on the valley floor and makes the $200 ticket feel like access to a private library rather than a flight of samples.",
+      "visual_direction": "The estate Proprietary Red bottle and a poured glass on an antique stone ledge inside the candle-lit barrel cave."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Spring Mountain Explorers",
+      "product_url": "https://www.springmountainvineyard.com/experience",
+      "image_url": "/creatives/scroll-stopper/spring-mountain-vineyard/ad-2.jpg",
+      "ai_image": true,
+      "price": 395,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Experience / The Estate",
+      "headline": "You have seen this estate. You have never driven it.",
+      "primary_text": "For a decade, this was the estate behind Falcon Crest.\n\nBut the cameras never reached what sits above the mansion: 225 acres climbing from 400 to 1,700 feet, terraced vineyard blocks, forest, and morning fog most visitors never see. The Explorers tour takes you up the mountain by open vehicle, through the high blocks, and ends with library and new-release wines.\n\nThree hours. Two departures daily. $395 per guest.",
+      "cta": "Book Now",
+      "why_it_works": "The Falcon Crest recognition line stops the scroll for the affluent 45+ traveler, and a private ridge-top drive to 1,700 feet is a genuinely rare experience that reframes a tasting as an adventure worth $395.",
+      "visual_direction": "Aerial golden-hour view over the fog-filled Spring Mountain ridgelines with a terraced vineyard block on the near slope."
+    },
+    {
+      "product_index": 3,
+      "product_title": "The Judgment of Paris Tasting",
+      "product_url": "https://www.springmountainvineyard.com/experience",
+      "image_url": "/creatives/scroll-stopper/spring-mountain-vineyard/ad-3.jpg",
+      "ai_image": true,
+      "price": 95,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Legacy / Judgment of Paris",
+      "headline": "In 1976, a Napa white finished ahead of France. It grew here.",
+      "primary_text": "The Judgment of Paris was the blind tasting that put California on the map.\n\nSpring Mountain Chardonnay was in the room, finishing ahead of famous French houses and helping change how the world saw Napa. This tasting walks you through that history on the estate where the fruit was grown, glass in hand.\n\n90 minutes. Spring Mountain District. $95 per guest.",
+      "cta": "Book Now",
+      "why_it_works": "A bold, defensible historical claim earns the thumb-stop, and because it is fully substantiated it makes the $95 tasting feel like buying a piece of wine history rather than a standard flight, an easy first yes that leads to the higher-ticket experiences.",
+      "visual_direction": "A single glass of pale golden Chardonnay backlit by golden-hour sun on a rustic rail, terraced vineyard rows behind."
+    }
+  ],
+  "generated_at": "2026-07-17T18:14:03Z",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/spring-mountain-vineyard?ref=email&magnet=playbook"
+}
