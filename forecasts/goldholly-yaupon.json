@@ -1,0 +1,137 @@
+{
+  "brand": "Goldholly Yaupon",
+  "brand_slug": "goldholly-yaupon",
+  "first_name": "Jeffrey",
+  "website": "https://goldholly.com",
+  "generated_date": "July 17, 2026",
+  "read_time_min": 3,
+  "total_ads": 14,
+  "niche": "tea",
+  "tldr": "About seven of your live ads are wearing out. The bigger issue is that most of them use the exact same body copy word-for-word, so Meta sees them as basically one ad and quietly shows just one.",
+  "benchmark": {
+    "your_value_days": 18,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical tea brand ships a fresh ad every three weeks. The best ones do it every two. You have new ideas going out, but the wording inside them is copied over and over, which cancels out most of that effort."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 6,
+      "headline": "Rated 4.9/5 by Verified Customers",
+      "body": "Here's a secret... Goldholly is powered by America's only native caffeinated plant: Yaupon Holly. Crafted from organic, rain-fed leaves to deliver mythically smooth energy-without the jitters, spikes, crashes, or restless nights. Plus, it contains no tannins for better digestion, no teeth stains, & zero bitterness. 🌱  Powered USDA Organic Yaupon Holly ⚡ Jitter-Free Energy (Light Caffeine + Theacrine) 💡 Regeneratively Grown in the USA 🛡️ Packed with Antioxidants 😍 Support local farmers & ecosystems Drink Local, American-Grown Caffeine. Click the link for 10% off.",
+      "cta": "Sign Up",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been live for 58 days, almost three times longer than your best ads should run.",
+        "The button says 'Sign Up' but the ad is selling tea, so people who click expect a checkout, not a form.",
+        "The body wording here is copy-pasted into at least six other live ads, so Meta groups them and shows almost none of them."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 3,
+      "headline": "The Best Kept Caffeine Secret",
+      "body": "There's a better way to caffeinate. Goldholly is powered by Yaupon Holly, America's only native caffeinated plant. It's deliciously smooth and crafted from organic, rain-fed leaves that deliver sustained clean energy. You can say goodbye to jitters, spikes, crashes, and restless nights. Plus, it contains no tannins for better digestion, no teeth stains, & zero bitterness. ⚡ Jitter-Free Energy (Caffeine + Theacrine) 🌱 100% USDA Organic 💡 Regeneratively Grown in the USA 🛡️ Packed with Antioxidants 😍 Support local farmers & ecosystems Drink Local, American-Grown Caffeine. Click the link for 10% off.",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Running for 58 days without a change, so the people most likely to buy have already seen it and scrolled past.",
+        "The five-bullet emoji list at the bottom is identical to what's in most of your other ads.",
+        "The opening 'There's a better way to caffeinate' is soft and vague, so people don't stop scrolling to read the rest."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 7,
+      "headline": "Upgrade Your Daily Boost",
+      "body": "Free Shipping + 10% Off",
+      "cta": "Learn More",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "The body is just five words, so anyone who doesn't already know what Yaupon is has zero reason to click.",
+        "'Learn More' as the button on a 58-day-old offer ad sends people to a product page they aren't warmed up for.",
+        "There's no picture of a happy customer, no taste description, no proof, just the discount by itself."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 9,
+      "headline": "Fake Image. Unreal Tea.",
+      "body": "Rated 4.9/5 by Verified Buyers",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "'Fake Image. Unreal Tea.' is a clever line but it doesn't tell someone what they're buying or why they'd care.",
+        "The body is one line long, so the ad has no room to explain what Yaupon actually tastes like or does.",
+        "This has been running 51 days with the same picture, and the people it works on have already bought or ignored it."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 0,
+      "headline": "Click Shop Now For 10% Off",
+      "body": "BIG NEWS: American caffeine is back. It's a new day for American caffeine. For too long, we've relied on overseas coffee and tea for our daily boosts, deprived of the tastier, healthier, and more powerful option growing in our own backyard. Goldholly is powered by America's only native caffeinated plant: Yaupon Holly. Crafted from organic, rain-fed leaves to deliver mythically smooth energy-without the jitters, spikes, crashes, or restless nights. Plus, it contains no tannins for better digestion, no teeth stains, & zero bitterness. 🌱  Powered USDA Organic Yaupon Holly ⚡ Jitter-Free Energy (Light Caffeine + Theacrine) 💡 Regeneratively Grown in the USA 🛡️ Packed with Antioxidants 😍 Support local farmers & ecosystems Drink Local, American-Grown Caffeine ⬇️ www.goldholly.com/pages/try-goldholly-today",
+      "fatigue_score": 84,
+      "days_until_fatigue": 8,
+      "severity": "warn",
+      "drivers": [
+        "The headline is literally instructions to click the button, which makes the ad feel like a banner and not a story.",
+        "52 days live is more than double what a tea ad at your size should stay up before people get sick of seeing it.",
+        "The body has three ways to say the same thing before it gets to the point, so most readers drop off in the first line."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Rated 4.9/5 by Verified Customers",
+      "body": "Clean caffeine for any time of day. Goldholly is powered by America's only native caffeinated plant: Yaupon Holly...",
+      "fatigue_score": 55,
+      "days_until_fatigue": 26
+    },
+    {
+      "headline": "Refreshingly Energizing",
+      "body": "Looking for a natural, refreshing way to energize in the summer heat? Goldholly is powered by America's only native caffeinated plant...",
+      "fatigue_score": 52,
+      "days_until_fatigue": 28
+    },
+    {
+      "headline": "Caffeine From Native Soil",
+      "body": "Did you know the US has its own native caffeinated plant? Goldholly is powered by America's only native caffeinated plant...",
+      "fatigue_score": 38,
+      "days_until_fatigue": 38
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Ritual Object",
+    "format": "Single image",
+    "hook": "The tool tea drinkers didn't know they needed.",
+    "headline": "Built for the loose leaf ritual",
+    "primary_text": "Most caffeine is a habit. Yaupon is a ritual, and the tongs are the small tool that turns steeping into something you actually look forward to.\n\nGrip the bag, lift it clean, no drips, no burned fingers. Stainless steel, made to sit next to your kettle for years.\n\nFree with any 3-Roast Bundle this week. Drink local. Sip slower.",
+    "cta": "Shop Now",
+    "visual_direction": "Overhead shot of the stainless steel teabag tongs resting on a warm-toned wooden board next to a steaming cup of amber Yaupon tea and a loose Yaupon leaf, morning window light.",
+    "fills_gap": "Every one of your live ads is selling the same idea in the same words: American plant, no jitters, 10% off. None of them show a moment of actually using the tea. This ad idea puts a real object in someone's hand and gives them a picture of the ritual, which is what your other ads keep telling but never showing.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in an overhead flat-lay on a warm-toned oak wood serving board with a small ceramic cup of steaming amber-gold Yaupon tea beside it and a few dried Yaupon holly leaves scattered nearby, with soft directional morning window light casting gentle shadows from the left. Warm, natural, earthy editorial aesthetic that feels like a slow Sunday morning tea ritual, Kinfolk-style, muted natural tones. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact polished stainless steel finish of the teabag tongs as shown in the reference, silver-tone metal only, strictly NO gold, brass, copper, rose gold, black, or warm metallic color shift, keep the cool neutral silver tone of the steel exactly as photographed. STRUCTURE - preserve the exact construction of the tongs: two symmetrical arms hinged or spring-joined at one end, flat gripping paddles at the working end sized to hold a teabag, same length and proportion as reference, same edge profile, same hinge or spring mechanism. Do NOT add extra joints, do NOT change the paddle shape, do NOT add serrations or teeth not present in reference, do NOT alter the length ratio between the handles and the paddles, do NOT add engraved text or logos not present in reference. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Yaupon Teabag Tongs",
+    "reference_url": "https://goldholly.com/products/teabag-squeezer-tongs",
+    "image_path": "/creatives/goldholly-yaupon/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Four of your ads are within a week of burning out. Two more follow inside two weeks.",
+    "headline": "Walk through the Goldholly Yaupon refresh plan with Kyle",
+    "body": "Jeffrey, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads, the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://goldholly.com/cdn/shop/files/goldholly-yaupon-tea-logo.svg?crop=center&height=32&v=1776796613&width=32"
+}
