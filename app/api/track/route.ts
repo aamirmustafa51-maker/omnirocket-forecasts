@@ -46,6 +46,12 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ ok: true });
     }
 
+    // 90-Day Game Plan magnet → scroll-stopper channel (no sheet bump).
+    if (magnet === "game-plan") {
+      await postSlack(`📈 Game plan opened — *${slug}* (${source})\n${BASE}/plan/${slug}${uaLine}`, SCROLL_SLACK);
+      return NextResponse.json({ ok: true });
+    }
+
     // Default: Fatigue Forecast → default channel + Lead Forecast tab.
     await postSlack(`📖 Forecast opened — *${slug}* (${source})\n${BASE}/forecast/${slug}${uaLine}`);
     if (ref === "email") {

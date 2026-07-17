@@ -1,0 +1,151 @@
+{
+  "lead_company": "Briar Road Studio",
+  "lead_first_name": "Jenny",
+  "website": "https://briarroadstudio.com",
+  "currency": "USD",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/briar-road-studio",
+  "scroll_stopper_url": "https://omnirocket-forecasts.vercel.app/scroll-stopper/briar-road-studio",
+  "intro": "You asked to see the strategic side, in writing, before deciding anything. Fair. So here it is - the actual 90-day plan we'd run for Briar Road, not a call to get it. It's built on the playbook and the 3 ads we already sent you: same voice, same products, same customers. Below is how we'd structure the account, the order we'd test in, the products we'd lead with, and the decisions behind a near-identical brand we took from zero to a 5.4x ROAS. Read it on your own time. If it makes obvious sense to run together, we can talk. If not, you keep the whole thing.",
+  "architecture": [
+    {
+      "name": "1 - The Test campaign",
+      "job": "Find the winning message",
+      "detail": "Broad and lookalike audiences on a small daily budget. Its only job is to learn which story your customer responds to. We read cost-per-click and thumb-stop rate here, not sales. This is the campaign that protects your budget, because it kills losing angles cheap before we ever spend real money on them."
+    },
+    {
+      "name": "2 - The Scale campaign",
+      "job": "Pour spend into the proven winner",
+      "detail": "Once the Test campaign surfaces an angle that holds attention and clicks cheaply, it graduates here. Budget goes up in controlled steps behind that message and the products it sells best. Most brands skip step 1 and scale on a hunch, which is why their ROAS swings month to month."
+    },
+    {
+      "name": "3 - The Retarget layer",
+      "job": "Convert people who already know you",
+      "detail": "Anyone who touched the site, viewed a product, or abandoned a cart. For a limited-drop, no-returns brand this is where a lot of the profit lives - warm buyers who need one more nudge and the reassurance of your slow-fashion, made-to-order story."
+    }
+  ],
+  "phases": [
+    {
+      "window": "Days 1 - 30",
+      "name": "Signal",
+      "goal": "Find which angle Briar Road's cold audience actually responds to - before spending real money scaling anything.",
+      "spend": "Start $40 - 60/day",
+      "running": [
+        "Launch the 3 angles from your Scroll-Stopper sheet against each other: Benefit-Forward (Vintage Stag Tee), Founder/Story (Archetype Crewneck), Occasion/Seasonal (Tri-Logo Varsity Tee)",
+        "Broad + one lookalike audience so the algorithm can hunt, not just confirm",
+        "Retarget layer live from day one on site visitors and add-to-carts"
+      ],
+      "reading": [
+        "Cost-per-click and thumb-stop (hold) rate - which story earns attention cheapest",
+        "Not sales yet. 30 days on a $68 - 89 AOV is signal, not a verdict"
+      ],
+      "gate": "Kill the two weakest angles. Whichever earns attention cheapest graduates to the Scale campaign."
+    },
+    {
+      "window": "Days 31 - 60",
+      "name": "Scale",
+      "goal": "Pour budget behind the winning angle and find its second winner, while the retarget layer starts turning warm traffic into orders.",
+      "spend": "Step to $80 - 150/day",
+      "running": [
+        "Winning angle scaled in controlled steps behind the Archetype Crewneck (your hero) and the winning tee as the entry point",
+        "Test the next variable down: same winning angle, new hooks and formats (video vs static, founder voice vs product-forward)",
+        "Retarget warm visitors with the founder/heritage story and your Beyond The First Day giving angle"
+      ],
+      "reading": [
+        "ROAS and cost-per-purchase on the Scale campaign",
+        "Which hook and format inside the winning angle compounds"
+      ],
+      "gate": "Lock the winning angle + hook + format combo. Cut spend on anything not clearing your break-even ROAS."
+    },
+    {
+      "window": "Days 61 - 90",
+      "name": "Compound",
+      "goal": "Scale the proven combo into your strongest sales window and build the retention loop, the way a brand goes from a good month to a repeatable one.",
+      "spend": "Scale winners; hold total efficiency",
+      "running": [
+        "Aggressively scale the proven angle into a real drop or seasonal moment (your limited-run model is built for this)",
+        "Build a returning-buyer and email/SMS retargeting loop so a first order isn't the end",
+        "Refresh creative before fatigue - fast-moving fashion burns ads quickly, so we rotate new heroes on the winning angle"
+      ],
+      "reading": [
+        "Blended ROAS across prospecting + retargeting",
+        "Repeat-purchase signal and cost to acquire a new customer"
+      ],
+      "gate": "A clear, repeatable acquisition engine: a known winning message, a working budget level, and a retarget loop that pays for itself."
+    }
+  ],
+  "testing": [
+    {
+      "layer": "1 - Angle (first)",
+      "question": "Which story does your customer respond to? We settle this before touching anything else.",
+      "slate": [
+        "Benefit-Forward - effortless, lived-in comfort (the heavyweight cotton feel)",
+        "Founder/Story - twin sisters, 2023, a chapter written in 400gsm french terry",
+        "Occasion/Seasonal - slow autumn afternoons, library-quiet mornings"
+      ]
+    },
+    {
+      "layer": "2 - Hook (second)",
+      "question": "Inside the winning angle, which opening line stops the scroll? Only test this once the angle is proven.",
+      "slate": [
+        "Customer-language openers pulled from your site: 'carrying your story forward', 'easy, familiar and effortless'",
+        "Fabric-weight proof hooks: 275gsm, 330gsm, 400gsm french terry",
+        "Identity hooks: 'made for those who love quiet mornings by the lake with a book'"
+      ]
+    },
+    {
+      "layer": "3 - Format (last)",
+      "question": "Which format delivers the winning hook best - so we scale the right creative, not just the right words.",
+      "slate": [
+        "Static product-forward vs founder-voice UGC-style",
+        "Short video showing fabric drape and fit vs single hero image",
+        "Carousel walking through the drop vs single-frame"
+      ]
+    }
+  ],
+  "products_ladder": [
+    { "title": "Archetype Logo Crewneck", "role": "Hero / scale behind this", "price": 89, "note": "Flagship heritage piece - carries the founder + fabric-weight story that justifies the premium." },
+    { "title": "Tri-Logo Varsity Tee", "role": "Entry point", "price": 68, "note": "Seasonal, graphic-led - the lowest-friction first purchase into the brand." },
+    { "title": "Vintage Stag Oversized Tee", "role": "Entry point", "price": 68, "note": "Sells on the effortless-comfort angle - strong cold-audience opener." }
+  ],
+  "case_study": {
+    "name": "AfterRetail",
+    "vertical": "Fashion e-commerce - dresses, jumpsuits, jackets, accessories. Basically your world.",
+    "situation": "When AfterRetail came to us in Feb 2024 they had done zero sales through Meta. The goal was $100k/month at a 3x ROAS, built from scratch.",
+    "decisions": [
+      {
+        "decision": "We didn't target broad first. We built the audience off their highest-value customers.",
+        "rationale": "Segmented buyers spending $150+ and buying 3+ items, then built lookalikes off that group - so the algorithm hunted for their best buyers, not just any buyer. This single decision is what moved the ROAS."
+      },
+      {
+        "decision": "We tested formats against each other and cut losers weekly.",
+        "rationale": "Dynamic product ads vs video vs promo creative, with budget pulled out of underperformers every week instead of letting them bleed - the discipline that keeps a fast-moving fashion account from fatiguing."
+      },
+      {
+        "decision": "We scaled proven segments into new arrivals and seasonal moments.",
+        "rationale": "Rather than spreading spend thin across everything, we poured it into what was already winning, timed to drops and promotions."
+      }
+    ],
+    "result": "By July 2024 - five months in - they hit their highest-ever month at $102k in sales, at a 5.4x average ROAS, with some campaigns running 7x+. The number came from the audience decision, not from prettier ads.",
+    "metrics": [
+      { "label": "Avg ROAS", "value": "5.4x" },
+      { "label": "Best month", "value": "$102k" },
+      { "label": "CTR", "value": "6.12%" },
+      { "label": "Time to peak", "value": "5 months" }
+    ],
+    "ramp": [
+      { "month": "Feb 2024", "value": "$54,442  (start)" },
+      { "month": "Mar 2024", "value": "$75,852  (+39%)" },
+      { "month": "Apr 2024", "value": "$93,986  (+23%)" },
+      { "month": "Jul 2024", "value": "$102,814  (best month)" }
+    ]
+  },
+  "targets": {
+    "basis": "These are aims, not promises. They're modeled on the AfterRetail pattern above, scaled down for Briar Road's smaller, limited-drop catalog and $68 - 89 price points. Real numbers depend on your margins, drop cadence, and starting budget - which is exactly what we'd pin down together.",
+    "rows": [
+      { "window": "Days 1 - 30", "focus": "Signal", "aim": "A clear winning angle at an efficient cost-per-click. First profitable retargeting sales." },
+      { "window": "Days 31 - 60", "focus": "Scale", "aim": "Prospecting clearing your break-even ROAS; the winning combo locked." },
+      { "window": "Days 61 - 90", "focus": "Compound", "aim": "A repeatable engine - a blended ROAS you'd happily keep feeding, tied to your next drop." }
+    ]
+  },
+  "generated_at": "2026-07-17T00:00:00.000Z"
+}
