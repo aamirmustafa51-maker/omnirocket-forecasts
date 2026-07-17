@@ -1,0 +1,144 @@
+{
+  "lead_company": "CloseCo",
+  "lead_first_name": "Max",
+  "website": "https://closecompanyliving.com",
+  "brand_domain": "closecompanyliving.com",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Modern handcrafted furniture and homeware for calm, lived-in UK interiors.",
+    "core_belief": "Good design should compliment the moments of an unhurried life - not a compromise, not a splurge.",
+    "proof_points": [
+      "Made to order in 6 to 8 weeks",
+      "Everything made locally by designers who 'have been at this a good long while'",
+      "Free returns on furniture orders",
+      "Complimentary fabric swatch box delivered direct to you"
+    ],
+    "positioning": "Premium, understated designer furniture - form and calm over statement and excess."
+  },
+  "voice_pillars": [
+    {
+      "name": "Calm and Unhurried",
+      "desc": "Writes for slowness and rest, framing furniture around quiet moments rather than urgency.",
+      "quote": "We make furniture and homeware for an unhurried way of life."
+    },
+    {
+      "name": "Warm and Lived-In",
+      "desc": "Speaks to real, cosy homes and the feeling of belonging somewhere that's genuinely yours.",
+      "quote": "For us, home is the lived-in version."
+    },
+    {
+      "name": "Quietly Confident Design",
+      "desc": "Favours intentional form and restraint, letting the design speak without shouting.",
+      "quote": "Simplicity, done exceptionally well."
+    },
+    {
+      "name": "Considered and Enduring",
+      "desc": "Emphasises craft, longevity and pieces built to last and grow with a home.",
+      "quote": "Tested to last and last."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Sofas to sink into",
+      "Crafted for life's slow moments",
+      "Cloud-like cushioning",
+      "Arms to linger on",
+      "Unmistakably modern, intimately cosy",
+      "A place for unplanned get togethers"
+    ],
+    "words": [
+      "cosy",
+      "slow",
+      "calm",
+      "unhurried",
+      "lived-in",
+      "handcrafted",
+      "intimate",
+      "timeless"
+    ],
+    "avoid": [
+      "hype and shouting",
+      "fake urgency",
+      "flashy or loud",
+      "disposable or cheap"
+    ]
+  },
+  "icp": "Design-conscious UK homeowners who value calm, quality and craft, and will invest in furniture that fits the home they already have and lasts for years.",
+  "personas": [
+    {
+      "name": "Slow Living Nester",
+      "description": "Someone building a cosy, lived-in home who is moved by comfort, calm and 'life's slow moments'."
+    },
+    {
+      "name": "Considered Design Buyer",
+      "description": "An interiors-led shopper who values intentional form and restraint and responds to 'simplicity, done exceptionally well'."
+    },
+    {
+      "name": "Trade and Interior Pro",
+      "description": "Designers and specifiers (via the Trade Application) who need locally made, made-to-order pieces with reliable dimensions and quality."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Complimentary fabric swatch box delivered direct to you",
+    "Free returns on furniture",
+    "Made to order in 6 to 8 weeks",
+    "Use Your Own Fabric option on furniture",
+    "Trade Application Form for professionals",
+    "Newsletter sign-up for products, events and interior design tips"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handcrafted furniture made to order in 6 to 8 weeks.",
+        "source": "product pages (Darwell, Inny, Fergus)"
+      },
+      {
+        "claim": "Free returns on furniture orders.",
+        "source": "product pages"
+      },
+      {
+        "claim": "Everything made locally by our designers.",
+        "source": "about page"
+      },
+      {
+        "claim": "Order complimentary fabric swatches delivered to you.",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Option to use your own fabric.",
+        "source": "product pages"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best furniture in the UK / #1 designer sofas.",
+        "why": "FTC substantiation - unqualified superlative that cannot be proven."
+      },
+      {
+        "claim": "Guaranteed to last a lifetime.",
+        "why": "Guaranteed-results claim not supported by any stated warranty on the site."
+      },
+      {
+        "claim": "Only a few left - order in the next hour.",
+        "why": "Fake urgency; made-to-order model with no stated stock limits."
+      },
+      {
+        "claim": "Rated 5 stars by thousands of happy customers.",
+        "why": "Invented review counts and endorsements - no reviews found on site."
+      },
+      {
+        "claim": "100% sustainable furniture.",
+        "why": "FTC Green Guides - unqualified sustainability claim; site only says 'sustainably soft'."
+      },
+      {
+        "claim": "Cloud-like cushioning that eliminates back pain.",
+        "why": "Unsubstantiated health claim beyond comfort language on site."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://cdn.shopify.com/oxygen-v2/30582/18190/37555/3985660/build/_assets/closeco-YP4GNYDG.svg",
+  "generated_at": "2026-07-17T10:34:35.776Z"
+}
