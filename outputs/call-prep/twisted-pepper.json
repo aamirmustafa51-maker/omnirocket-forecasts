@@ -61,96 +61,99 @@
     "running_ads": 0
   },
   "copy": {
-    "tldr": "Twisted Pepper is a founder-run gourmet dip and soup mix brand with a low order value and no ads running, so lead with a bundle-first test to prove Meta can work before we talk scale.",
+    "tldr": "Twisted Pepper is a founder-led gourmet dip, soup and seasoning brand with 103 products but no ads running and no visible reviews, so this call is about starting clean with a bundle-first plan that lifts a low order value, not fixing a broken account.",
     "deep_dive": {
-      "what_they_are": "A handcrafted gourmet food brand started by Ellie Hughes in 2005. She sells dip mixes, soup mixes, BBQ rubs and seasonings direct to shoppers and to wholesale. It runs on Shopify.",
-      "what_they_sell": "103 products from $5.50 to $48.99. Most single items sit around $6 to $13. They also sell 3-packs and 4-packs that run $22.99 to $36, plus gift boxes. Everything is gluten free, low sodium, no MSG.",
-      "positioning": "Approachable gourmet. Fine-restaurant flavor made fast and easy for busy home cooks. Not mass-market bland, not fussy either.",
-      "who_buys": "Busy home cooks who want bold flavor with little effort, and gift-givers buying for the food lover in their life. Free shipping over $40 and gift boxes point to both.",
+      "what_they_are": "A handcrafted gourmet food brand started by Ellie Hughes in 2005. They sell dip mixes, soup mixes, BBQ rubs and seasonings direct to consumers online and to wholesale accounts. Built on Shopify.",
+      "what_they_sell": "Dry mixes you turn into gourmet food at home. Dip mixes, soup mixes, BBQ rubs, seasonings, and gift boxes. Single items run cheap ($5.50 to about $13) and they also sell 3-packs and 4-packs at $22.99 to $36.",
+      "positioning": "Approachable gourmet. Fine-restaurant flavor made fast and easy for busy home cooks. Gluten free, no MSG, low sodium. Not mass-market bland.",
+      "who_buys": "Busy home cooks who want bold flavor without the work, and gift-givers buying for people who love to cook or love spice.",
       "customer_voice": [
-        "I am absolutely addicted to your soups and dips/cheese ball mixes. To be honest - all those I bought from you never went for gifts! They went in our stomachs, and to share with extended family and friends over the holidays. They were a huge hit with everyone, so I will be restocking my hidden stash and sharing with friends.",
-        "My husband Loves the Pig Sweat Rub. He sprinkles on his bacon while cooking, and anything pork! I order 4 jars at time. FYI - He also loves the Outlaws Season All."
+        "I am absolutely addicted to your soups and dips/cheese ball mixes. To be honest - all those I bought from you never went for gifts! They went in our stomachs, and to share with extended family and friends over the holidays.",
+        "Jalapeno Lime Rub is absolutely amazing. I use in avacado toast, deviled eggs, steak and chicken.",
+        "My husband Loves the Pig Sweat Rub. He sprinkles on his bacon while cooking, and anything pork! I order 4 jars at time.",
+        "The Enchilada Sauce Seasoning is so authentic, I don't have to make my Grandmother's Recipe."
       ],
       "strengths": [
-        "Real founder story going back to 2005, with a clear voice and strong repeat-buyer love in the testimonials.",
-        "Ready-made bundles and gift boxes that push order value up past the single-item price, which is what paid ads need."
+        "Strong founder story and a clear voice. Ellie is a real person with a real reason for the brand, which makes for good ad hooks.",
+        "They already sell multi-packs and gift boxes, and offer free shipping over $40. That gives us a ready-made way to raise the order size, which paid ads need."
       ],
       "gaps": [
-        "Almost no reviews live on product pages. The homepage even still has placeholder review text. Very little public social proof to lean on in ads.",
-        "No Meta ads found running, so we start from zero. No pixel history or past winners to build on, and the shipping policy page just says Coming Soon."
+        "Single products are cheap. Median item is about $9.99, so a one-item sale can barely cover the ad cost. Everything has to push toward the $40 free-shipping threshold.",
+        "Almost no reviews show on the site, and the review section still has placeholder text. There is little social proof to lean on in the ads, which makes cold traffic harder to convert."
       ]
     },
     "game_plan": {
-      "headline": "Start with the bundles, not the $6 mixes, and prove one ad can sell before we spend real money.",
+      "headline": "Start from zero with the 3 Scroll-Stopper ads, prove one product can sell profitably at the $40 basket, then widen and add a second hero product.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Prove that a Twisted Pepper ad can turn a cold shopper into a buyer at all. Learn which of the 3 Scroll-Stopper ads people respond to.",
+          "goal": "Prove that cold traffic can buy at a profit at all. Find the one ad and one product that works. Do not chase scale.",
           "campaigns": [
-            "One sales campaign, small budget, testing the 3 Scroll-Stopper ads against cold shoppers.",
-            "A simple retargeting ad for people who visit the site but do not buy."
+            "One simple sales campaign, testing the 3 Scroll-Stopper ads against each other",
+            "A basic retargeting campaign for people who visit but do not buy"
           ],
           "lead_products": [
-            "Lead with the 4 Pack Dip Mixes at $22.99 (Veggies & Chiles, I Love Onions, Mild, I Like it Spicy, or Dipping Madness). At $22.99 they clear the $40 free shipping threshold faster than a $6 single mix, so the order is worth enough to carry ad cost. Dips are also their most repeat-loved product based on the testimonials.",
-            "Run the first Scroll-Stopper ad that features a dip or 4-pack. We go live with that one first because dips have the strongest customer love in their own reviews and the bundle price makes the math work."
+            "Lead with the Jalapeno Lime Rub / BBQ Rub angle from the Scroll-Stopper first. We have a real, specific customer quote raving about the Jalapeno Lime Rub ('I use in avacado toast, deviled eggs, steak and chicken'), and the homepage is already leaning into 'It's BBQ Time.' Rubs are seasonal-hot right now and the review gives us proof to show. We think rubs/seasonings are the strongest starting point because they are the only products with named fans in the reviews.",
+            "Second, push the 4-Pack Dip Mixes ($22.99) as the add-to-cart that gets people to the $40 free-shipping line. This protects the order size."
           ],
-          "creative": "Use the 3 ads from the Scroll-Stopper Sheet. Lean on the founder voice and the words their own buyers use, like 'addicted to your dips' and 'Get Creative, make it your own'. Show the party roll-up and cheeseball uses, not just a bag on a table.",
-          "budget": "Start around $50 a day. Enough to learn which ad works without betting big before we know anything.",
-          "what_success_looks_like": "One of the 3 ads clearly beats the others, and we get enough sales to see a pattern. Not profit yet. Proof."
+          "creative": "Run the 3 ads from the Scroll-Stopper Sheet as-is. Start the winner as whichever one leads with the founder story or a single hero product plus the free-shipping offer. Keep the message simple: bold flavor, fast and easy, free shipping over $40.",
+          "budget": "Start small and hold it steady while we learn.",
+          "what_success_looks_like": "We can see which ad people click and buy from, and orders are landing near or above the $40 basket. We are not judging profit yet, we are finding the winner."
         },
         {
           "window": "Days 31-60",
-          "goal": "Put more money behind the winning ad and widen who sees it.",
+          "goal": "Put more money behind the winning ad and product. Widen the audience beyond the first small pockets.",
           "campaigns": [
-            "Scale the winning ad from month one with a higher budget.",
-            "Test 2 or 3 new versions of the winner to keep it fresh.",
-            "Widen the cold audience beyond the first test group."
+            "Scale the winning ad from month one with a bigger, broader audience",
+            "Add 2 to 3 fresh ad versions built off the winner's angle",
+            "Keep retargeting running and add an offer for repeat buyers"
           ],
           "lead_products": [
-            "Keep the winning bundle as the hero. Add a gift-angle test using the Gift Boxes and 3-pack Soup Collections ($30), since gifting showed up strongly in their reviews."
+            "Keep pushing whatever won in month one. If it was the rub, keep the rub as the front door and bundle it with a matching seasoning or a 4-pack to hit $40."
           ],
-          "creative": "Build fresh ads off whatever angle won. If the 'easy party dip' angle won, make more of that. Start collecting and using real customer quotes in the ads.",
-          "budget": "Step up toward $100 to $150 a day, only if month one showed a working ad. If it did not, we fix the offer first, not the budget.",
-          "what_success_looks_like": "The winning ad holds up at higher spend and starts paying for itself, not just breaking even."
+          "creative": "Take the angle that won and make more of it. Lean harder on the founder voice and the real customer quotes as we collect more reviews. Add gift-box messaging as the fall gifting season starts to warm up.",
+          "budget": "Step budget up only on the proven winner. Do not spread it thin across new tests.",
+          "what_success_looks_like": "The winner keeps returning a profit as we spend more, and the average order is holding at or above $40."
         },
         {
           "window": "Days 61-90",
-          "goal": "Scale what works and add a second product line so we are not resting on one bundle.",
+          "goal": "Scale the proven play and add a second hero product so we are not resting on one.",
           "campaigns": [
-            "Scale the proven ad and audience.",
-            "Launch a second product line: BBQ Rubs and Seasonings.",
-            "Push retargeting harder around the free shipping over $40 offer to lift order size."
+            "Scaled sales campaign on the proven product",
+            "New test campaign for a second hero product",
+            "Gift-box campaign timed for holiday gifting"
           ],
           "lead_products": [
-            "Bring in the BBQ Rubs (Uptown BBQ Rub $10.49, Pig Sweat, Outlaws Season All). Their reviews show a devoted rub buyer who reorders 4 jars at a time, so there is real repeat demand to tap. Pair rubs into a set to hit the $40 threshold."
+            "Add a second front-door product. Best candidate is a Soup Mix (all $9.99) or a Soup Collection 3-pack ($30). The homepage sells 'Soup's On in 30 minutes' and the top review calls the soups something she is 'addicted to.' As the weather cools, soup becomes an easy seasonal pull, and the 3-pack clears the $40 line on its own.",
+            "Push Gift Boxes and Gift Bags for the holidays, since they already sell these and gifting is a stated buyer type."
           ],
-          "creative": "Fresh ads for the rub line using the same proven format. Keep the dip winner running underneath.",
-          "budget": "Scale in steps only as long as the return holds. Never jump the budget faster than the results allow.",
-          "what_success_looks_like": "Two product lines both selling from ads, a repeatable process, and a clear picture of what each new dollar returns."
+          "creative": "Two lanes now. Lane one is the proven month-one product. Lane two is soup and gift boxes for the cold-weather and holiday season. Use the growing pile of reviews as proof.",
+          "budget": "Highest of the three months, but weighted toward the proven winner with a smaller slice on the new soup test.",
+          "what_success_looks_like": "Two products are selling from ads at a profit, and gift-box orders are pulling the average order size up during the holidays."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
           "value": "$50 a day to start",
-          "basis": "enough to get roughly 25 to 40 clicks a day at typical food-ecom click costs, which is the floor for learning which ad works without wasting money"
+          "basis": "enough to get roughly 20 to 40 clicks a day at typical costs for a food brand, which is the floor for learning which of the 3 ads works before we spend more"
         },
         {
-          "label": "Order value we are planning around",
-          "value": "About $10 per order as a starting guess, which is why we push bundles",
-          "basis": "their catalog median price is $9.99 and we used that as a stand-in for average order value since we cannot see their real Shopify data. This is exactly why we lead with the $22.99 4-packs, to lift it toward the $40 free shipping line."
+          "label": "Average order value we are planning around",
+          "value": "about $9.99",
+          "basis": "we used the median price of their 103 products as a stand-in, because we cannot see their real Shopify order value. Their free-shipping-over-$40 offer suggests real baskets may be higher, but we will not assume that until Ellie confirms it"
         },
         {
           "label": "Revenue we would aim to add",
-          "value": "We are not putting a dollar figure on this yet",
-          "basis": "we cannot see their current sales, spend, or return on ads. Guessing a number could be embarrassingly wrong on the call. Once we know their real order value and margin, we set a target. Until then the honest answer is: month one proves it works, months two and three grow it."
+          "value": "we are not putting a dollar figure on this yet",
+          "basis": "with no ad account access, no real order value, and no current sales data, any revenue number would be a guess. Once Ellie tells us her true average order and margin, we can size a real target. That question is in discovery"
         }
       ],
       "assumptions": [
-        "Their real average order value is low and close to the catalog median, so bundles must do the heavy lifting.",
-        "They have healthy enough margin on a $22.99 bundle to afford paid ads. We must confirm this on the call.",
-        "The Shopify checkout and shipping actually work, even though the shipping policy page says Coming Soon.",
-        "Ellie can supply real product photos and is open to gathering customer reviews we can use in ads."
+        "Real average order value is at or above the $40 free-shipping line, or can be pushed there with bundles. If most orders are single $6 to $10 items, the plan has to lean much harder on packs from day one.",
+        "Margins on the mixes are healthy enough to pay for ads on top of a low item price. Dry mixes usually have good margin, but we need Ellie to confirm.",
+        "They have never run Meta ads, so we are starting cold with no past data to build on. If they have run ads before, that history changes month one.",
+        "The rub/seasoning angle is the strongest start because it is the only product with named fans in the reviews. If Ellie says a different product is her real bestseller, we lead with that instead."
       ],
       "horizon_days": 90
     },
@@ -159,20 +162,24 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "Are you spending anything on ads right now, on Meta or anywhere else?",
-            "listening_for": "We found no ads running. If she says zero, we are truly starting from scratch and should set expectations for a learning month. If she stopped ads before, ask why."
+            "question": "Are you running any paid ads right now, on Meta or anywhere else? Have you ever?",
+            "listening_for": "We could not find any live Meta ads. Confirm they are truly starting from zero. If they ran ads before and stopped, ask why they stopped and what happened."
           },
           {
-            "question": "Who handles your marketing today, you or someone else?",
-            "listening_for": "If it is all Ellie, she is stretched thin and wants it off her plate. That is our opening. If she has someone, find out what they have tried."
+            "question": "Who handles your marketing today, is it just you or do you have help?",
+            "listening_for": "Is Ellie doing everything herself? A solo founder means we need to keep this simple and low-effort for her. Also tells us who we would actually work with."
           },
           {
-            "question": "Have you run Meta ads before, and what happened?",
-            "listening_for": "Past attempts tell us if the problem was creative, offer, or the low order value. Listen for 'it didn't make money' and dig into why."
+            "question": "When someone buys from you online, what does a typical order come to in dollars?",
+            "listening_for": "This is the most important number on the call. We used $9.99 as a stand-in. If real orders are near $40, the plan works well. If they are $6 to $10 single items, ads will struggle and we need to talk bundles hard."
           },
           {
-            "question": "On a $22.99 4-pack, roughly how much is left after the cost to make and ship it?",
-            "listening_for": "This is the make-or-break number. If there is little margin on a $10 to $23 order, paid ads will struggle. We need enough room to pay for the click and still profit."
+            "question": "Roughly what does it cost you to make and ship one of the mixes versus what you sell it for?",
+            "listening_for": "Whether there is enough margin to pay for ads. Dry mixes usually have room, but we need to hear it. If margin is thin, the whole plan tightens."
+          },
+          {
+            "question": "How much of your sales come from your website versus wholesale and events?",
+            "listening_for": "If most revenue is wholesale or farmers markets, the online store may be small and ads have less to build on. Tells us how big the DTC opportunity really is."
           }
         ]
       },
@@ -180,24 +187,24 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "What is your actual average order value, and what pushes it up, the bundles or the free shipping offer?",
-            "listening_for": "We are guessing $10 from the median price. Her real number changes the whole plan. If it is already near $40, ads get much easier and we can lead differently."
+            "question": "When people land on your site, do many add to cart and then not buy, or do few even get that far?",
+            "listening_for": "Where it breaks. If people add and drop, it is a checkout or offer problem. If few get far, it is a traffic or product-page problem. Changes what month one focuses on."
           },
           {
-            "question": "Which single product sells the most, and which do people reorder?",
-            "listening_for": "Reviews point to dips and BBQ rubs. If she confirms a clear bestseller, we lead the first ad with that instead of guessing."
+            "question": "I noticed your site has very few reviews showing, and some spots still have placeholder text. Do you have reviews collected somewhere else?",
+            "listening_for": "We have real glowing quotes from the homepage, but the product pages are thin on proof. If she has reviews in email or on Facebook, we can put them to work in ads fast. Social proof is a big lever here."
           },
           {
-            "question": "Do you have real customer reviews saved anywhere, even in email, that we could show in ads?",
-            "listening_for": "The site shows almost none. If she has reviews sitting unused, that fixes our biggest gap fast. If she has none at all, we need a plan to collect them."
+            "question": "Which product actually sells the most for you today, online or in person?",
+            "listening_for": "Our plan leads with the rub/seasoning based on the reviews. If her real bestseller is a soup or a dip pack, we switch the lead product. Do not argue, just take the answer."
           },
           {
-            "question": "Do you have good product photos or short videos, and can you make more?",
-            "listening_for": "Ads live or die on the picture. If she only has plain bag shots, we need lifestyle images of the dips and party spreads that her reviews describe."
+            "question": "Do you have product photos or short videos of the food made from the mixes, or mostly packaging shots?",
+            "listening_for": "Food ads live or die on how the food looks. If she only has jar and packet photos, we need finished-dish images before we scale. Affects the creative in month two."
           },
           {
-            "question": "Is your checkout and shipping fully working? Your shipping policy page online just says Coming Soon.",
-            "listening_for": "A broken or unclear checkout kills ad money. Confirm orders actually flow and shipping cost is clear at checkout."
+            "question": "Does your free-shipping-over-$40 offer actually get people to spend more, or do most stay under it?",
+            "listening_for": "If the offer already lifts baskets, great, we build on it. If people order one item and skip it, we need stronger bundle prompts. Directly affects how we protect order size."
           }
         ]
       },
@@ -205,60 +212,61 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "How much of your business comes from wholesale and fundraisers versus your website?",
-            "listening_for": "She has both. If wholesale is the real engine, paid ads to shoppers may matter less, and we tailor the plan. Do not assume DTC is the priority."
+            "question": "Do you get people finding you on Google searching for things like gluten free dip mix or BBQ rub, or is it mostly people who already know the brand?",
+            "listening_for": "These are real search terms people type. Gluten free dip mixes, dry soup mixes and BBQ rubs all get searched. If she is getting some Google traffic already, there is an honest opening for search ads or SEO later. This is a real opening, not a stretch."
           },
           {
-            "question": "When people find you online, are they searching for things like 'gluten free dip mix' or 'BBQ rub', or do they only find you by name?",
-            "listening_for": "People do search for dip mixes, soup mixes, and BBQ rubs by category. That is a real Google opening later. Do not push it in month one, but flag it if she says people search for these terms."
+            "question": "Do you sell on Amazon or only your own site?",
+            "listening_for": "Food shoppers search Amazon a lot. If she is not there, that is a separate growth path to note. If she is, ads could support it. Just gathering, not pitching hard."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "My products only cost $6 to $10. There is no way ads make money on that.",
-        "answer": "You are right that a $6 mix alone will not carry an ad. That is exactly why we do not lead with it. We lead with your $22.99 4-packs and gift boxes, and lean on your free shipping over $40 offer to nudge order size up. We prove the math on the bundle first, then add products."
+        "objection": "My products are cheap, a $6 dip mix can't pay for ads.",
+        "answer": "You are right that a single $6 item can't. That is exactly why we do not sell one item at a time. We build the ads around your 4-packs and your free-shipping-over-$40 offer, so the order lands near $40 not $6. That is the whole point of month one, to prove the basket works before we spend more."
       },
       {
-        "objection": "I have never run ads and I do not have a big budget to burn.",
-        "answer": "Good. We start at about $50 a day on purpose. Month one is not about scale, it is about proving one ad can sell before you spend real money. If it does not work, you have not bet the farm, and we fix the offer before we spend more."
+        "objection": "I've never run Facebook or Instagram ads. Isn't that risky?",
+        "answer": "It is actually cleaner to start fresh than to fix a messy account. We start small, just enough to learn which of the 3 ads I already built for you gets people to buy. We do not scale until something proves it works. You are not betting big on day one."
       },
       {
-        "objection": "I do not have many reviews or fancy photos.",
-        "answer": "That is the honest gap, and it is fixable. You already have glowing customer notes, like the person addicted to your dips and the husband who buys four jars of rub at a time. We put those words to work in the ads and set up a simple way to collect more as orders come in."
+        "objection": "I don't have many reviews or fancy photos.",
+        "answer": "You have better proof than you think. Your homepage already has real customers saying they are addicted to your soups and that the Jalapeno Lime Rub is amazing. We put those exact words in the ads. Collecting more reviews and finished-dish photos is part of what we do in the first 60 days, so this gets stronger as we go."
       },
       {
-        "objection": "I already sell fine through wholesale and events, why bother with ads?",
-        "answer": "Then we treat ads as a second channel that you own, not something that replaces what works. Wholesale depends on other people's shelves. Ads build your own list of repeat buyers who reorder, like the ones already in your reviews."
+        "objection": "I mostly do wholesale and farmers markets, I'm not sure online ads are worth it.",
+        "answer": "That is good context, and it means we size this to your real online business, not a fantasy one. If the website is small today, month one is a low-cost test. If it proves out, online sales become a channel you own that runs even when the market is closed."
       }
     ],
     "red_flags": [
       {
-        "flag": "Order value looks low. The catalog median is $9.99 and single mixes run $6.",
-        "why_it_matters": "Paid ads need enough profit per order to cover the click. A $6 order almost never can. The whole plan hinges on bundles and the $40 threshold lifting this, and on her margin being healthy. Confirm before promising anything."
+        "flag": "Low item prices against a $40 free-shipping bar.",
+        "why_it_matters": "The median product is about $9.99. If most real orders are single cheap items, the math for paid ads is tough. The plan leans on bundles to fix this, but if baskets stay small, ads may not pay off. Confirm the real order value early."
       },
       {
-        "flag": "Almost no reviews live on the site, and the homepage still shows placeholder review text.",
-        "why_it_matters": "Cold shoppers trust other shoppers. With no visible social proof, the first ads work harder. We must pull her existing customer notes into the ads and start collecting reviews early."
+        "flag": "Almost no reviews on the site and placeholder review text still showing.",
+        "why_it_matters": "Cold shoppers need proof before they buy from a brand they do not know. With little visible social proof, ads convert worse. We can use the homepage quotes, but product pages need real reviews to lift results."
       },
       {
-        "flag": "No Meta ads found running and no ad history to build on.",
-        "why_it_matters": "We start from zero with no past winners and likely a cold pixel. Month one is genuinely a learning period. Do not let Ellie expect fast profit."
+        "flag": "Shipping policy page says 'Coming Soon.'",
+        "why_it_matters": "If shipping terms are unclear at checkout, people abandon. A missing shipping policy can quietly kill sales from ads. Worth flagging to Ellie so it gets fixed before we send paid traffic."
       },
       {
-        "flag": "Shipping policy page online says Coming Soon.",
-        "why_it_matters": "If shipping cost or timing is unclear at checkout, people who click the ad may abandon. Confirm shipping and checkout actually work before spending."
+        "flag": "No ad account, Shopify, or analytics access, and no live ads to learn from.",
+        "why_it_matters": "We are starting blind on numbers. Every estimate rests on public data only. Do not state any revenue, spend, or return figure as fact on the call. Get the real order value and margin from Ellie first."
       },
       {
-        "flag": "Huge catalog of 103 products with heavy overlap.",
-        "why_it_matters": "Too many choices can confuse both shoppers and ad targeting. We must pick a few clear heroes, not try to sell everything. This is a strength if we focus and a trap if we do not."
+        "flag": "103 products with thin, uneven info and duplicate-looking listings.",
+        "why_it_matters": "A huge catalog with copy-of product URLs and missing details can spread attention thin and confuse shoppers. We should focus ads on a few hero products, not the whole range."
       }
     ],
     "other_channel_openings": [
-      "Google Search is a real opening for later. People actively search for 'gluten free dip mix', 'dry soup mix', and 'BBQ rub', which are categories she already sells. Worth raising once Meta is proven, not in month one.",
-      "SEO on their recipe pages. They already publish recipes like Spinach Artichoke Hot Dip and Lentil Soup. Recipe content that ranks can pull in free traffic that ties straight to the products. A slower play, but a genuine fit given they already do it."
+      "Google Search ads: people actively type terms like gluten free dip mix, dry soup mix, and BBQ rub. That is real demand we can catch, so search ads are an honest fit once Meta is working.",
+      "SEO on their recipe pages: they already publish recipes like Spinach Artichoke Hot Dip and Gluten Free Pea Soup. Recipe content ranks well in food search and can pull in free traffic over time.",
+      "Amazon is worth a question, not a promise: food shoppers search there heavily, so if they are not listed it may be a separate growth path later."
     ]
   },
-  "generated_at": "2026-07-17T10:59:44.851Z"
+  "generated_at": "2026-07-17T11:10:50.769Z"
 }
