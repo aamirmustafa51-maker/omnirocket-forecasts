@@ -1,0 +1,169 @@
+{
+  "lead_company": "Henri Nutrition",
+  "lead_first_name": "Vanessa",
+  "website": "https://henrinutrition.com",
+  "brand_domain": "henrinutrition.com",
+  "currency": "CAD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Better-for-you snack bars for kids and families, sold in 36-pack boxes across four flavors.",
+    "core_belief": "Minimalist, playful nutrition that lets families fuel their best selves: 'my son Henri & I created these delicious yet nutritious snacks for kids of all ages to help you fuel your dreams!'",
+    "proof_points": [
+      "5-7 minimally processed ingredients per bar",
+      "Free from top 11 allergens (peanut/nut, gluten, egg, dairy free); vegan and kosher",
+      "High in protein (7-8g) with no sugar added",
+      "Uses upcycled ingredients",
+      "Rated 4.8/5 based on 525 reviews"
+    ],
+    "positioning": "The clean, school-safe alternative to ultra-processed bars: few recognizable ingredients vs '20+ ultra-processed ingredients'."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm and Family-First",
+      "desc": "Speaks like a parent to parents, framing snacks as a shared family ritual.",
+      "quote": "Dear friends, my son Henri & I created these delicious yet nutritious snacks for kids of all ages"
+    },
+    {
+      "name": "Playful Optimism",
+      "desc": "Upbeat, encouraging tone that ties snacking to ambition and vibrant living.",
+      "quote": "Here's to your best self!"
+    },
+    {
+      "name": "Minimalist Clarity",
+      "desc": "Leads with short, transparent ingredient and allergen facts over hype.",
+      "quote": "5-7 minimally processed ingredients"
+    },
+    {
+      "name": "Easy and Reassuring",
+      "desc": "Positions the product as a low-effort, worry-free choice for busy parents.",
+      "quote": "0 mental load"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "The on-the-go snack I've been looking for!",
+      "Clean ingredients, no added sugar, not too sweet, packed with protein",
+      "So good and healthy!",
+      "Sweet enough to help with a sweet tooth craving",
+      "delicious as well as being very nutritious",
+      "Very filling"
+    ],
+    "words": [
+      "delicious",
+      "healthy",
+      "nutritious",
+      "filling",
+      "clean",
+      "favorite",
+      "not too sweet",
+      "on-the-go"
+    ],
+    "avoid": [
+      "medicinal or diet tone",
+      "harsh or clinical language",
+      "guilt-based messaging",
+      "overhyped superlatives"
+    ]
+  },
+  "icp": "Health-conscious parents who want a tasty, school-safe snack their kids will actually eat, made with few recognizable ingredients and no added sugar.",
+  "personas": [
+    {
+      "name": "Allergy-Aware Parent",
+      "description": "Packs school lunches and needs nut-free, allergen-safe snacks; moved by the 'free from top 11 allergens' and school-safe angle."
+    },
+    {
+      "name": "Clean-Label Seeker",
+      "description": "Reads every label and distrusts ultra-processed bars; moved by '5-7 minimally processed ingredients' and no sugar added."
+    },
+    {
+      "name": "Busy On-the-Go Snacker",
+      "description": "Wants a filling, protein-packed grab-and-go bite between tasks; moved by convenience and '7-8g protein'."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Discovery box 36 x 40g",
+      "role": "Hero / best-seller",
+      "price": 42.99
+    },
+    {
+      "title": "Mixed berries 36 x 40g",
+      "role": "Entry point",
+      "price": 42.99
+    },
+    {
+      "title": "Apple cinnamon 36 x 40g",
+      "role": "Entry point",
+      "price": 42.99
+    },
+    {
+      "title": "Choco Brownie 36 x 40g",
+      "role": "Entry point",
+      "price": 42.99
+    }
+  ],
+  "offers": [
+    "Free shipping over $50",
+    "Subscribe & Save subscription option",
+    "Bundle option",
+    "Discovery box to try all flavors ($42.99)",
+    "Find in store (retail availability)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "No sugar added",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "High in protein (7-8g)",
+        "source": "homepage comparison section"
+      },
+      {
+        "claim": "5-7 minimally processed ingredients",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Free from top 11 allergens (peanut/nut, gluten, egg, dairy free), vegan, kosher",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Uses upcycled ingredients",
+        "source": "homepage comparison section"
+      },
+      {
+        "claim": "Rated 4.8/5 based on 525 reviews",
+        "source": "sitewide footer"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts immunity",
+        "why": "Banned health claim - unsupported immunity claim not allowed for food."
+      },
+      {
+        "claim": "Burns fat or aids weight loss",
+        "why": "Banned - implied disease/fat-burning claim with no evidence."
+      },
+      {
+        "claim": "Detoxes the body",
+        "why": "Banned - unqualified 'detox' claim not permitted."
+      },
+      {
+        "claim": "Treats or prevents any illness or condition",
+        "why": "Banned - disease-treatment claims are prohibited for food products."
+      },
+      {
+        "claim": "Using 'clean' or 'natural' as a standalone headline claim",
+        "why": "Vague and risky; use specific label-backed facts like 'no sugar added' instead."
+      },
+      {
+        "claim": "'High protein' stated beyond the actual label value",
+        "why": "Nutrient-content claims must match the verified label (7-8g per bar)."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://henrinutrition.com/cdn/shop/files/Logo_Principal_RGB_Bleu.png?v=1741278253&width=1200",
+  "generated_at": "2026-07-17T10:56:46.140Z"
+}
