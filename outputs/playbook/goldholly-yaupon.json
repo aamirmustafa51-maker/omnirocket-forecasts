@@ -1,0 +1,167 @@
+{
+  "lead_company": "Goldholly Yaupon",
+  "lead_first_name": "Jeffrey",
+  "website": "https://goldholly.com",
+  "brand_domain": "goldholly.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Organic yaupon holly tea - America's only native caffeinated plant, positioned as a smoother, homegrown alternative to coffee, tea, and energy drinks.",
+    "core_belief": "A caffeinated drink can taste good, be good for you, and be good for the planet - 'Discovering a drink without compromise.'",
+    "proof_points": [
+      "USDA Certified Organic yaupon holly",
+      "100% American-grown, sourced from family farms across the South",
+      "Just one ingredient - no additives; naturally contains caffeine, theobromine, and theacrine",
+      "Recycled and biodegradable packaging"
+    ],
+    "positioning": "Premium, mission-driven functional beverage - cleaner and calmer than coffee/energy drinks, more sustainable and homegrown than imported tea."
+  },
+  "voice_pillars": [
+    {
+      "name": "Calm & Grounded",
+      "desc": "Sells energy as steady and settled, not hyped - always framing the calm side of caffeine.",
+      "quote": "sustained energy without spikes or crashes"
+    },
+    {
+      "name": "Rooted & Homegrown",
+      "desc": "Leans hard on American origin and native heritage as the reason to buy.",
+      "quote": "From America's Only Caffeinated Plant: YAUPON HOLLY"
+    },
+    {
+      "name": "Purpose-Led",
+      "desc": "Ties every product back to biodiversity, ecosystems, and equitable agriculture.",
+      "quote": "Light on you, light on the planet"
+    },
+    {
+      "name": "Warm & Sensory",
+      "desc": "Describes flavor with rich, tactile tasting notes that make the cup feel inviting.",
+      "quote": "a dark, smoky center and a comforting finish"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "sustained energy without spikes or crashes",
+      "smooth, never bitter",
+      "easier digestion than coffee or tea",
+      "The smoothest way to stay sharp",
+      "won't disrupt your sleep",
+      "Three flavors to suit every mood"
+    ],
+    "words": [
+      "smooth",
+      "clean",
+      "jitter-free",
+      "organic",
+      "American-grown",
+      "sustained",
+      "roast",
+      "antioxidant-rich"
+    ],
+    "avoid": [
+      "jittery",
+      "crash",
+      "bitter",
+      "chemical-filled"
+    ]
+  },
+  "icp": "Health-conscious coffee and tea drinkers who want steady energy without jitters or crashes, care about clean single-ingredient products, and like supporting American family farms and sustainable brands.",
+  "personas": [
+    {
+      "name": "Crash-Averse Coffee Drinker",
+      "description": "A heavy coffee or energy-drink user whose stomach and nerves can't take the acidity - moved by 'lighter on your stomach' and 'no spikes or crashes.'"
+    },
+    {
+      "name": "Buy-American Believer",
+      "description": "A conscious shopper who prefers homegrown over imported and values small farms - moved by '100% American-Grown' and native-plant heritage."
+    },
+    {
+      "name": "Curious Tea Explorer",
+      "description": "An adventurous tea lover always hunting new blends and flavors - moved by the three-roast tasting notes and the Variety Bundle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Goldholly Variety Bundle • Original, Bold, and Mellow • Organic Yaupon Tea",
+      "role": "Hero / best-seller",
+      "price": 35.99
+    },
+    {
+      "title": "Mellow Organic Yaupon Tea • Malted & Earthy",
+      "role": "Entry point",
+      "price": 12.99
+    },
+    {
+      "title": "Original Organic Yaupon Tea • Bright & Crisp",
+      "role": "Entry point",
+      "price": 12.99
+    },
+    {
+      "title": "Bold Organic Yaupon Tea • Rich & Toasted",
+      "role": "Entry point",
+      "price": 12.99
+    }
+  ],
+  "offers": [
+    "Free shipping on orders $35+",
+    "Variety Bundle at $35.99 (regular $38.97) - bundle savings",
+    "Subscription / recurring purchase option at checkout",
+    "Email signup for offers, recipes, and updates",
+    "Wholesale & Bulk ordering available"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "USDA Certified Organic yaupon holly",
+        "source": "product pages and homepage"
+      },
+      {
+        "claim": "America's only native caffeinated plant",
+        "source": "homepage and FAQ"
+      },
+      {
+        "claim": "Low in teeth-staining tannins for a smoother, less bitter sip",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Just one ingredient, with no additives",
+        "source": "Variety Bundle product page"
+      },
+      {
+        "claim": "100% American-grown, sourced from family farms across the South",
+        "source": "product pages"
+      },
+      {
+        "claim": "About 30mg of caffeine per teabag - roughly half of green or black tea",
+        "source": "FAQ"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts your immunity",
+        "why": "Unqualified immunity claim is banned for this category."
+      },
+      {
+        "claim": "Detoxes your body",
+        "why": "Unqualified 'detox' is banned as a vague, unsupported health claim."
+      },
+      {
+        "claim": "Burns fat or aids weight loss",
+        "why": "Fat-burning / weight-loss claims are banned without substantiation."
+      },
+      {
+        "claim": "Treats, cures, or prevents anxiety, insomnia, or any disease",
+        "why": "Disease-treatment claims are prohibited for food and beverage."
+      },
+      {
+        "claim": "Headlining 'clean' or 'natural' as a standalone health promise",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims - keep them descriptive, not as benefit claims."
+      },
+      {
+        "claim": "Any nutrient-content claim (e.g. 'sugar-free', 'high antioxidant') not matching the actual label",
+        "why": "Nutrient-content claims must match the verified product label."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-17T18:27:15.047Z"
+}
