@@ -1,0 +1,253 @@
+{
+  "lead_first_name": "Edward",
+  "lead_last_name": "",
+  "lead_email": "eddie@h2ocean.com",
+  "lead_company": "H2Ocean",
+  "website": "https://oralcare.h2ocean.com",
+  "brand_domain": "oralcare.h2ocean.com",
+  "currency": "USD",
+  "smartlead_campaign": "OR #4 | Ecom Leads | Scroll Stopper | NO Personlization",
+  "magnet": {
+    "kind": "scroll-stopper",
+    "report_url": "https://omnirocket-forecasts.vercel.app/scroll-stopper/h2ocean",
+    "report_label": "Scroll-Stopper Sheet (the 3 ads we wrote them)",
+    "report_opens": 6,
+    "playbook_opens": 2,
+    "last_opened_at": "2026-07-16T19:43:54.425Z",
+    "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/h2ocean",
+    "playbook_label": "Brand Playbook (their voice, customers, claims)"
+  },
+  "thread": [
+    {
+      "direction": "sent",
+      "from": "kyle.h@omnirocketeam.com",
+      "to": "eddie@h2ocean.com",
+      "subject": "something for H2Ocean",
+      "body_text": "hi Edward, just went through your site, not sure how H2Ocean isn't already on my client list haha.\n\nthat's not really why I'm here though. I do Meta ads for ecom brands, and rather than pitch you some BS, I just went ahead and built you a few.\n\nbuilt three ad mockups from H2Ocean's actual products, plus a word-class brand playbook I put together from your site and reviews. it's finished and ready to go on my end.\n\nwant me to send it your way?\n\n- Kyle",
+      "sent_at": "2026-07-14T16:59:47.958Z"
+    },
+    {
+      "direction": "reply",
+      "from": "h2oceaned@gmail.com",
+      "to": "kyle.h@omnirocketeam.com",
+      "subject": "",
+      "body_text": "Kyle \n\n Sure send me what you are presenting for Meta Ads, we are interested in the creative content.\n \n\n Thanks\n Eddie",
+      "sent_at": "2026-07-15T13:05:36.000Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@omnirocketeam.com",
+      "to": "h2oceaned@gmail.com",
+      "subject": "",
+      "body_text": "here you go Edward - 2 ad mockups built from H2Ocean's own products, plus your brand playbook. \n\n the mockups show the angles, the playbook is the part most brands actually keep - your voice, the words your customers use, and what you can and can't say in ad copy.\n\n if any of them click, the quickest way to see how I'd actually run them is a 30 min call. → Calendar \n\n - Kyle",
+      "sent_at": "2026-07-15T14:21:11.711+00:00"
+    },
+    {
+      "direction": "reply",
+      "from": "h2oceaned@gmail.com",
+      "to": "kyle.h@omnirocketeam.com",
+      "subject": "Re: something for H2Ocean",
+      "body_text": "Just set us up for tomorrow. \n\n Thanks\n Eddie",
+      "sent_at": "2026-07-16T19:17:46+00:00"
+    }
+  ],
+  "facts": {
+    "product_count": 2,
+    "price_low": 11,
+    "price_high": 11,
+    "typical_price": 11,
+    "review_count": 0,
+    "instagram_followers": null,
+    "running_ads": 0
+  },
+  "copy": {
+    "tldr": "H2Ocean is a 20-year-old natural sea salt mouthwash brand that isn't running any Meta ads right now, so this is a start-from-zero build around their strongest angle - post-procedure and piercing healing - not a rescue job.",
+    "deep_dive": {
+      "what_they_are": "A natural oral care brand that has been around for over 20 years. Their thing is sea salt mouthwash made with hand-harvested Red Sea salt. Based in Stuart, Florida. They say over a million satisfied customers.",
+      "what_they_sell": "Two products, both the same mouthwash in different flavors: Healing Rinse Mouthwash in Arctic Ocean Mint and Healing Rinse Mouthwash in Fresh Lemon Ice. Both list at $11. The site says it comes in 8oz, 16oz, and 64oz sizes.",
+      "positioning": "A premium, natural alternative to harsh alcohol-based mouthwashes. The pitch is gentle but powerful - no alcohol, no fluoride, no dyes, no artificial stuff. It heals and soothes instead of burning.",
+      "who_buys": "Health-conscious adults who need relief. People recovering from dental work, people with new oral piercings, people with canker sores or sore throats, and families who want a rinse safe for all ages.",
+      "customer_voice": [
+        "This is great for post-dental work and for oral piercings! It was the only thing that helped my tongue piercing heal. Two thumbs up",
+        "🙌 life saver."
+      ],
+      "strengths": [
+        "Long track record. Over 20 years in business and a patented product gives real trust that most brands we run ads for do not have.",
+        "A clear, specific pain they solve. Piercing and post-dental healing is a strong, searchable, high-intent angle that other mouthwashes do not own."
+      ],
+      "gaps": [
+        "No reviews visible on the site. There is nothing for a cold shopper to lean on, and nothing for us to pull into ads as proof.",
+        "No Meta ads running that we can find. So there is no history of what worked and we are building the whole thing from scratch."
+      ]
+    },
+    "game_plan": {
+      "headline": "Lead with the healing-and-piercing angle to a high-intent audience, prove one ad can sell, then widen and add the second flavor.",
+      "phases": [
+        {
+          "window": "Days 1-30",
+          "goal": "Prove that paid ads can sell this product at all. Find one ad and one audience that works before spending more.",
+          "campaigns": [
+            "One sales campaign, kept simple, testing the 2-3 ads from the Scroll-Stopper Sheet against each other.",
+            "Broad targeting plus one interest group around oral piercings and dental recovery, so Meta can find buyers for us."
+          ],
+          "lead_products": [
+            "Healing Rinse Mouthwash - Arctic Ocean Mint. Mint is the safe default flavor most people reach for in mouthwash, and their own copy calls it 'the original.' That makes it our best guess at the bestseller. We lead with the ad that speaks to piercing and post-dental healing, because that is the pain their real reviews mention word for word and it is the least crowded way in."
+          ],
+          "creative": "Start with the ad built around the 'only thing that helped my piercing heal' angle. That pain is specific, urgent, and matches a real customer quote. Run the other sheet ads as challengers.",
+          "budget": "Start small and steady so we can read results cleanly. See the estimate below.",
+          "what_success_looks_like": "One ad clearly beats the others and brings in sales at a cost that makes sense for an $11 product. We learn which angle and audience to back."
+        },
+        {
+          "window": "Days 31-60",
+          "goal": "Put more money behind the winner from month one and widen who sees it.",
+          "campaigns": [
+            "Scale the winning ad and audience with a higher daily budget.",
+            "Add a simple retargeting ad for people who visited but did not buy, using a review or before/after healing story."
+          ],
+          "lead_products": [
+            "Still Arctic Ocean Mint as the hero, since it carried month one. We push the larger bottle sizes here to lift the order value."
+          ],
+          "creative": "Make 2-3 new versions of the winning ad. Same core message, fresh hooks and visuals so people do not get tired of it. Add a bundle or multi-bottle offer if margin allows.",
+          "budget": "Raise spend gradually as long as sales hold. Do not double overnight.",
+          "what_success_looks_like": "Sales grow as spend grows and the return holds steady. Retargeting brings back window shoppers cheaply."
+        },
+        {
+          "window": "Days 61-90",
+          "goal": "Scale what works and bring in the second product.",
+          "campaigns": [
+            "Keep scaling the mint winner.",
+            "Launch Fresh Lemon Ice as a fresh angle - same healing benefits, a flavor for people who do not like mint.",
+            "Test a family or 'safe for all ages' angle to reach parents."
+          ],
+          "lead_products": [
+            "Healing Rinse Mouthwash - Fresh Lemon Ice. It is the second flavor and gives us a new hook without a new product. Good for people who bounced off mint and for testing a wider audience."
+          ],
+          "creative": "New ads for Fresh Lemon Ice and for the family angle. Keep feeding fresh versions of the proven mint ad so it keeps performing.",
+          "budget": "Highest of the three months, but only on lines that have earned it.",
+          "what_success_looks_like": "Two products selling through ads, a repeatable winner, and a clear picture of what to scale into month four."
+        }
+      ],
+      "estimates": [
+        {
+          "label": "Starting budget",
+          "value": "$100 to $150 a day to start",
+          "basis": "enough to get roughly 30 to 40 clicks a day at typical costs in this category, which is the floor for learning what actually sells before we spend more"
+        },
+        {
+          "label": "Revenue we would aim to add",
+          "value": "We would set the target on the call, not before it",
+          "basis": "their products list at $11, which I used as the stand-in for average order value since it is the only public price. At $11 an order the math is tight, so before I promise a revenue number I need to know their real average order value with the bigger bottle sizes and bundles, and their margin. Those two answers change everything."
+        }
+      ],
+      "assumptions": [
+        "Their real average order value is higher than $11 because of the 16oz and 64oz sizes and any bundles. If most orders are single $11 bottles, paid ads will be hard to make profitable and the plan tightens.",
+        "The Arctic Ocean Mint flavor is the bestseller. If Fresh Lemon Ice actually sells more, we swap which one leads.",
+        "They have margin room to spend on ads at an $11 price point. If margin is thin, we lead harder with bundles and bigger sizes.",
+        "The checkout works and they can ship reliably at volume."
+      ],
+      "horizon_days": 90
+    },
+    "discovery": [
+      {
+        "name": "Qualify",
+        "questions": [
+          {
+            "question": "Are you running any paid ads right now, on Meta or anywhere else?",
+            "listening_for": "I could not find any Meta ads live. If they say they stopped, ask why and what happened. If they never started, this is truly from zero and expectations should be set slow."
+          },
+          {
+            "question": "Who handles marketing for you today - in-house, an agency, or nobody?",
+            "listening_for": "Whether there is someone to work with or replace, and whether a past agency burned them. That shapes trust."
+          },
+          {
+            "question": "What is your average order value once people add the bigger bottles or more than one? And roughly what is your margin on a bottle?",
+            "listening_for": "This is the most important answer of the whole call. At $11 a bottle paid ads are tight. I need the real order value and margin to know if this even works and what to promise."
+          },
+          {
+            "question": "Have you tried ads before, and if so what went wrong?",
+            "listening_for": "Past pain points, what they blame, and what they expect. If they tried and it flopped, find out if it was creative, targeting, or the price math."
+          }
+        ]
+      },
+      {
+        "name": "Diagnose",
+        "questions": [
+          {
+            "question": "Which flavor and which bottle size actually sells the most?",
+            "listening_for": "Confirm or correct my guess that Arctic Ocean Mint is the hero. Their answer decides which ad goes live first."
+          },
+          {
+            "question": "I noticed there are no reviews on the site. Do you collect reviews anywhere - Amazon, email, a review app?",
+            "listening_for": "Where the social proof lives. If they have hundreds of reviews sitting on Amazon, we can pull real quotes into ads. If there are none anywhere, that is a real problem we fix first."
+          },
+          {
+            "question": "When someone lands on your product page, do they usually buy, or do they bounce?",
+            "listening_for": "Whether the problem is getting traffic or converting it. If the page does not convert, ads just waste money and we fix the page first."
+          },
+          {
+            "question": "Who buys most - piercing folks, dental recovery, canker sore sufferers, or families?",
+            "listening_for": "Which audience to lead with. My plan bets on piercing and dental recovery. If it is really families or canker sores, we lead the ads differently."
+          },
+          {
+            "question": "Can you ship and fulfill quickly if orders jump?",
+            "listening_for": "Whether scaling in month two and three is safe. No point growing spend if fulfillment breaks."
+          }
+        ]
+      },
+      {
+        "name": "Expand",
+        "questions": [
+          {
+            "question": "Do you see people searching for you or for things like 'sea salt mouthwash' and 'mouthwash for piercings' on Google?",
+            "listening_for": "This is a real Google opening. People clearly search for these problems by name. If they confirm search demand, Google ads could catch buyers who are already looking, not just scrolling."
+          },
+          {
+            "question": "You have a big Knowledge Center with clinical studies and articles. Is that bringing you any traffic from search?",
+            "listening_for": "They have real content already. That is an honest SEO opening. If those pages get traffic but do not turn into sales, we can help. If they get none, there is room to grow it."
+          }
+        ]
+      }
+    ],
+    "objections": [
+      {
+        "objection": "Ads are expensive and my product is only $11. How does that even work?",
+        "answer": "You are right that $11 is tight on its own. That is exactly why we lead with your bigger bottles and bundles, and why we start small to prove the math before spending more. We do not scale until the numbers work. And I need your real average order value to set an honest target, which is why I will ask for it."
+      },
+      {
+        "objection": "We have been fine for 20 years without Meta ads. Why start now?",
+        "answer": "That track record is your biggest asset. Twenty years and a patented product is trust most brands cannot buy. Right now that story reaches nobody who is not already searching for you. Meta ads put your healing angle in front of people the moment they get a new piercing or come home from the dentist - before they grab something off a pharmacy shelf."
+      },
+      {
+        "objection": "We just wanted the creative. We are not sure about a full program.",
+        "answer": "Totally fair, and the creative is yours to keep either way. The reason I suggest the call is that even great ads flop if the budget, audience, and offer behind them are wrong. I will walk you through exactly how I would run these, and you decide from there. No pressure to sign anything today."
+      },
+      {
+        "objection": "We do not have reviews on our site, is that a problem for ads?",
+        "answer": "It is something we address early, yes. Ads work far better with proof. If you have reviews on Amazon or in emails, we pull those in. If not, gathering a handful of real customer stories is one of the first things I would help you line up, because it lifts every ad after it."
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "Products list at $11 and that is the only public price.",
+        "why_it_matters": "An $11 order is low for paid ads. If most orders are single bottles, it may be hard to profit. We must confirm the real order value and margin before promising any revenue number."
+      },
+      {
+        "flag": "No reviews visible anywhere on the site.",
+        "why_it_matters": "Cold shoppers need proof to buy. With no social proof, ads convert worse and we have nothing real to quote in the creative. This needs fixing early."
+      },
+      {
+        "flag": "No Meta ads found running.",
+        "why_it_matters": "There is no past data to learn from. We build from zero, so month one is about learning, not scale. Set that expectation clearly so they do not expect big numbers fast."
+      },
+      {
+        "flag": "Health and healing claims are heavily restricted.",
+        "why_it_matters": "Meta limits health claims, and the playbook already bans words like 'cures' canker sores or treats chemo effects. We must write ads carefully or they get rejected or the account gets flagged."
+      }
+    ],
+    "other_channel_openings": [
+      "Google Search ads. People actively search for 'sea salt mouthwash' and 'mouthwash for piercings' and 'canker sore relief.' This is high-intent demand we can catch, not create.",
+      "SEO on their existing Knowledge Center. They already have clinical studies and articles built. If those pages are not ranking or not turning readers into buyers, there is real room to grow search traffic from content they already own."
+    ]
+  },
+  "generated_at": "2026-07-17T10:42:56.412Z"
+}
