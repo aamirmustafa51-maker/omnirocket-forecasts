@@ -1,0 +1,61 @@
+{
+  "lead_company": "Henri Nutrition",
+  "lead_first_name": "Vanessa",
+  "website": "https://henrinutrition.com",
+  "brand_domain": "henrinutrition.com",
+  "currency": "CAD",
+  "brand_voice_note": "Warm, parent-to-parent and reassuring, leading with short honest ingredient facts instead of hype and tying wholesome snacking to easy, vibrant family life.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/henri-nutrition?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://henrinutrition.com/cdn/shop/files/Logo_Principal_RGB_Bleu.png?v=1741278253&width=1200",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Choco Brownie 36 x 40g",
+      "product_url": "https://henrinutrition.com/products/choco-brownie-fun-pack-12-x-40g",
+      "image_url": "/creatives/scroll-stopper/henri-nutrition/ad-1.jpg",
+      "ai_image": true,
+      "price": 42.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "That chocolate craving? Handled.\n\nJust 5 ingredients, no added sugar, and 7-8g of protein in every bar. Sweet enough to help with a sweet tooth craving, without the sugar crash after.\n\nFree from the top 11 allergens, vegan and kosher. One less thing to think about. 🍫",
+      "headline": "Rich Brownie Taste, 5 Ingredients",
+      "cta": "Shop Now",
+      "why_it_works": "The single most desirable outcome for a decadent brownie snack is satisfying a chocolate craving guilt-free, so leading with that feeling beats a feature list.",
+      "visual_direction": "An unwrapped brownie bar on a small plate with cocoa nibs on a sunlit oak kitchen counter, with a second wrapped bar resting alongside."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Mixed berries 36 x 40g",
+      "product_url": "https://henrinutrition.com/products/mixed-berries-fun-pack-12-x-40g",
+      "image_url": "/creatives/scroll-stopper/henri-nutrition/ad-2.jpg",
+      "ai_image": true,
+      "price": 42.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "The 3pm snack scramble is real.\n\nStash these in the bag and you have a mixed-berry snack ready wherever the day goes. 7 simple ingredients, no added sugar, packed with protein.\n\nThe on-the-go snack you've been looking for, with zero mental load for you.",
+      "headline": "Snack Sorted, Bag Packed",
+      "cta": "Shop Now",
+      "why_it_works": "Busy parents feel real friction finding a quick, clean snack on the move, so naming that moment and removing it fits the berry bar's grab-and-go strength.",
+      "visual_direction": "Two mixed-berry bars resting on a park bench next to an open tote bag with fresh berries scattered around."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Apple cinnamon 36 x 40g",
+      "product_url": "https://henrinutrition.com/products/apple-cinnamon-fun-pack-12-x-40g",
+      "image_url": "/creatives/scroll-stopper/henri-nutrition/ad-3.jpg",
+      "ai_image": true,
+      "price": 42.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "Rated 4.8 out of 5 across 525 reviews, and this one is a favorite.\n\n\"So good and healthy!\" \"Delicious as well as being very nutritious.\" Parents say it tastes just like a rich apple pie, with 6 simple ingredients and no added sugar.\n\nSweet, filling, and family-approved.",
+      "headline": "4.8 Stars, Tastes Like Apple Pie",
+      "cta": "Shop Now",
+      "why_it_works": "With a strong 4.8/525 rating and glowing quotes, social proof reassures skeptical parents that a healthy snack can genuinely taste as good as dessert.",
+      "visual_direction": "An apple cinnamon bar leaning against a red apple on a rustic wooden table with a cinnamon stick and a mug of tea in warm afternoon light."
+    }
+  ],
+  "generated_at": "2026-07-17T10:59:17.067Z"
+}
