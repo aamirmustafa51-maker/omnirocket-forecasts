@@ -1,0 +1,60 @@
+{
+  "lead_company": "Shop Style Shark",
+  "lead_first_name": "Dionne",
+  "website": "https://shopstyleshark.com",
+  "brand_domain": "shopstyleshark.com",
+  "currency": "USD",
+  "brand_voice_note": "Polished and aspirational with an approachable, style-savvy warmth - elevated wardrobe staples described like a trusted friend with great taste.",
+  "prospect_logo_url": "https://shopstyleshark.com/cdn/shop/files/SSS-Artboard_5.jpg?v=1673902007&width=2048",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "The Kensington Blazer",
+      "product_url": "https://shopstyleshark.com/products/the-kensington-blazer",
+      "image_url": "/creatives/scroll-stopper/shop-style-shark/ad-1.jpg",
+      "ai_image": true,
+      "price": 85,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "One layer. Instantly pulled together.\n\nThe Kensington Blazer takes denim and a tank from casual to considered in seconds, thanks to a structured silhouette and clean tailored lines.\n\nThe speckled texture does the heavy lifting so you can look polished without trying too hard.",
+      "headline": "Effortlessly Polished, Every Time",
+      "cta": "Shop Now",
+      "why_it_works": "A versatile wardrobe hero sells best on the feeling of looking put-together fast, which is exactly what a busy shopper wants from a blazer.",
+      "visual_direction": "The blazer draped over an oak chair in a sunlit loft next to a coffee cup and open notebook."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Gold Plated Stone Pendant Necklace",
+      "product_url": "https://shopstyleshark.com/products/gold-plated-stone-pendant-necklace",
+      "image_url": "/creatives/scroll-stopper/shop-style-shark/ad-2.jpg",
+      "ai_image": true,
+      "price": 17,
+      "compare_at_price": 17,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Under $20, but built to last.\n\nThis stone pendant is crafted on gold plated stainless steel, so it holds its glow instead of fading after a few wears.\n\nGlamorous enough to dress up, durable enough for every day.",
+      "headline": "Everyday Glam That Lasts",
+      "cta": "Shop Now",
+      "why_it_works": "At a low price point the natural doubt is quality, so leading with the stainless steel durability turns the price from a red flag into a win.",
+      "visual_direction": "The pendant necklace laid out on a cream marble vanity tray beside a silk scarf and a small perfume bottle."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Woven Shoulder Bag",
+      "product_url": "https://shopstyleshark.com/products/crochet-woven-striped-shoulder-bag",
+      "image_url": "/creatives/scroll-stopper/shop-style-shark/ad-3.jpg",
+      "ai_image": true,
+      "price": 59,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Festival days, made easy. 🌞\n\nThe Woven Shoulder Bag brings breezy bohemian charm with its striped crochet design and a tassel-trimmed O-ring closure.\n\nLightweight enough to carry all day, cute enough to be the whole outfit.",
+      "headline": "Your Warm-Weather Sidekick",
+      "cta": "Shop Now",
+      "why_it_works": "A crochet striped festival bag is a moment-driven buy, so tying it to sunny outings and festivals matches exactly when the shopper pictures using it.",
+      "visual_direction": "The woven striped shoulder bag resting on a rustic picnic table at golden hour beside a straw hat and wildflowers."
+    }
+  ],
+  "generated_at": "2026-07-18T23:18:24.974Z"
+}
