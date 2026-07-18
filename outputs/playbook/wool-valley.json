@@ -1,0 +1,163 @@
+{
+  "lead_company": "Wool Valley",
+  "lead_first_name": "Colita",
+  "website": "https://woolvalley.com.au",
+  "brand_domain": "woolvalley.com.au",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Handmade organic wool bedding and natural wool wadding, made on-farm in regional Victoria, Australia.",
+    "core_belief": "Making a natural and luxurious product to sleep under that is also good for the planet, following the wool from farm to end use.",
+    "proof_points": [
+      "Handmade in Australia using organic, natural materials (homepage)",
+      "Doonas made on-farm in Woodend, VIC, with wool followed from farm to end use (about page)",
+      "100% natural, renewable wool product; supplies small manufacturers, quilters, saddlers and artists (about page)",
+      "Ships worldwide via Australia Post; already sent to NZ, USA, Canada, Japan, Italy, Germany, France and Singapore (shipping policy)"
+    ],
+    "positioning": "Premium, low-volume, maker-led and eco-conscious - the opposite of mass-produced synthetic bedding."
+  },
+  "voice_pillars": [
+    {
+      "name": "Farm-Direct Maker",
+      "desc": "Speaks as one person who makes the product by hand and knows exactly where the wool comes from.",
+      "quote": "seeing last year's wool made into this year's doonas"
+    },
+    {
+      "name": "Earnestly Eco",
+      "desc": "Frames every product around being natural, renewable and genuinely good for the planet.",
+      "quote": "making a natural and luxurious product to sleep under, which is also good for the planet"
+    },
+    {
+      "name": "Warm and Personal",
+      "desc": "Writes one-to-one in the first person, casual and approachable, like a note from the owner.",
+      "quote": "If you have any questions please contact me!"
+    },
+    {
+      "name": "Handmade Quality",
+      "desc": "Leans on craft and durability rather than hype - comfort that is built to last.",
+      "quote": "Comfort that's crafted to last."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "handmade in Australia using organic, natural materials",
+      "Comfort that's crafted to last",
+      "Pillows hand made from organic materials",
+      "natural and luxurious product to sleep under",
+      "100% natural, sustainable",
+      "our unique renewable resource: Wool!"
+    ],
+    "words": [
+      "organic",
+      "natural",
+      "wool",
+      "handmade",
+      "doonas",
+      "sustainable",
+      "renewable",
+      "luxurious"
+    ],
+    "avoid": [
+      "synthetic",
+      "cheap",
+      "mass-produced",
+      "medical or clinical claims"
+    ]
+  },
+  "icp": "Eco-conscious Australian home buyers who prefer natural over synthetic, value handmade craft and provenance, and will pay a premium for wool bedding that is better for their sleep and the planet.",
+  "personas": [
+    {
+      "name": "Natural Home Nester",
+      "description": "A health- and environment-minded home buyer who wants chemical-free, natural-fibre bedding and is moved by the farm-to-end-use story."
+    },
+    {
+      "name": "Maker and Crafter",
+      "description": "Quilters, doll makers, saddlers and artists who buy wool wadding and fillings and respond to quality, versatility and sample packs."
+    },
+    {
+      "name": "Conscious Gift Giver",
+      "description": "Someone seeking a luxurious, planet-friendly present who is moved by handmade, Australian-made craft that lasts."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Natural Wool Eye Mask",
+      "role": "Hero / best-seller",
+      "price": 85
+    },
+    {
+      "title": "Organic Wool Pillow",
+      "role": "Core",
+      "price": 125
+    },
+    {
+      "title": "Super Puff 100% Wool",
+      "role": "Entry point",
+      "price": 30
+    },
+    {
+      "title": "Natural Lightweight Quilt",
+      "role": "Premium",
+      "price": 250
+    }
+  ],
+  "offers": [
+    "Ships anywhere in the world via Australia Post; express post available for urgent orders",
+    "Local pick-up available from Woodend, VIC",
+    "Wadding and filling sample packs from $15.00 to try before committing",
+    "Contact directly for combined postage on multiple items",
+    "Newsletter with shop updates, new launches and exclusive offers (over 5,000 subscribers)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handmade in Australia using organic, natural materials.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Doonas and pillows are handmade on-farm in Woodend, VIC.",
+        "source": "about page"
+      },
+      {
+        "claim": "100% wool filling and 100% natural weed matting.",
+        "source": "homepage / product copy"
+      },
+      {
+        "claim": "We post anywhere in the world, using Australia Post.",
+        "source": "shipping policy"
+      },
+      {
+        "claim": "Wool is a natural, renewable resource followed from farm to end use.",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Wool bedding boosts immunity or improves your health.",
+        "why": "Unsupported health / immunity claim not permitted for this category."
+      },
+      {
+        "claim": "Helps treat, cure or relieve asthma, allergies, eczema or any condition.",
+        "why": "Disease-treatment claim is banned; brand holds no medical evidence."
+      },
+      {
+        "claim": "Detoxifies or purifies your sleep environment.",
+        "why": "Unqualified 'detox' claims are banned for this category."
+      },
+      {
+        "claim": "100% chemical-free and completely non-toxic.",
+        "why": "Absolute purity claim is unverified and risky without certification backing."
+      },
+      {
+        "claim": "Headline use of vague 'clean' or bare 'natural' as the core proof.",
+        "why": "'Natural' and 'clean' are vague, risky headline claims; qualify with specifics."
+      },
+      {
+        "claim": "Organic across the full range without qualification.",
+        "why": "Only some items are described as organic; blanket 'organic' could mislead. Match the actual product."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-18T23:38:38.444Z"
+}
