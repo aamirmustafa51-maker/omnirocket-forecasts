@@ -1,0 +1,167 @@
+{
+  "lead_company": "Sips Club",
+  "lead_first_name": "Katy",
+  "website": "https://sipsclub.com",
+  "brand_domain": "sipsclub.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Family-focused wellness drink mixes - greens, protein, and clean energy powders that taste like juice.",
+    "core_belief": "Healthy living should be easy, accessible, and actually delicious for every family.",
+    "proof_points": [
+      "Created by a mom and a clinical/research lab scientist with 13 years experience",
+      "Third Party Tested",
+      "Zero sugar and no artificial dyes",
+      "Trusted by 1,000+ Families"
+    ],
+    "positioning": "Clean, science-backed daily nutrition that trades chalky, clinical supplements for juice-like flavors the whole family (kids included) will crave."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm and Mom-to-Mom",
+      "desc": "Speaks peer-to-peer to busy moms with encouragement and real-life empathy, not clinical distance.",
+      "quote": "We're here to remind you that you are amazing."
+    },
+    {
+      "name": "Effortlessly Simple",
+      "desc": "Frames the product as one easy habit that fits into chaotic real life with no extra steps.",
+      "quote": "No complicated systems, no extra steps. Just simple habits that work."
+    },
+    {
+      "name": "Science-Backed Clean",
+      "desc": "Leans on real expertise and clean formulation to build trust without sounding like a lab report.",
+      "quote": "Clean, science-backed support for your daily routine."
+    },
+    {
+      "name": "Crave-Worthy",
+      "desc": "Sells taste first, positioning greens and protein as something you actually look forward to.",
+      "quote": "Greens that actually taste like juice."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Greens that actually taste like juice",
+      "a greens drink you'll actually crave",
+      "Loved by moms. Approved by kids.",
+      "Protein you'll actually look forward to drinking",
+      "No thick, chalky shakes",
+      "feel better without changing everything"
+    ],
+    "words": [
+      "clean",
+      "greens",
+      "protein",
+      "digestion",
+      "regularity",
+      "gut health",
+      "convenient",
+      "family"
+    ],
+    "avoid": [
+      "chalky",
+      "clinical/jargon-heavy",
+      "guilt-tripping",
+      "extreme diet-culture language"
+    ]
+  },
+  "icp": "Busy moms who run their households and want convenient, clean, great-tasting nutrition for themselves and picky kids without overhauling their whole routine.",
+  "personas": [
+    {
+      "name": "The Chaos-Managing Mom",
+      "description": "Juggling carpools, snacks, and mornings out the door - moved by portable, no-fuss habits that fit real life ('blend, pour and go')."
+    },
+    {
+      "name": "The Picky-Eater Parent",
+      "description": "Struggles to get quality nutrition into fussy kids and sensitive bellies - moved by juice-like flavors kids actually approve of."
+    },
+    {
+      "name": "The Label-Reading Wellness Seeker",
+      "description": "Wants clean, third-party-tested, science-backed formulas and no artificial dyes - moved by transparency and scientist-founder credibility."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Support Sips",
+      "role": "Hero / best-seller",
+      "price": 39.99
+    },
+    {
+      "title": "Veggie Sips",
+      "role": "Premium",
+      "price": 55
+    },
+    {
+      "title": "Support Sips",
+      "role": "Entry point",
+      "price": 39.99
+    },
+    {
+      "title": "Veggie Sips",
+      "role": "Premium",
+      "price": 55
+    }
+  ],
+  "offers": [
+    "Save 10% on all subscriptions + FREE shipping always",
+    "Skip or cancel subscription anytime",
+    "Bundles (e.g. Get Up and Go Bundle: $85.49, reg $94.99)",
+    "14-day refund/return window (unopened items only, request RA# via support@sipsclub.com)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Supports healthy digestion, regularity and gut health",
+        "source": "homepage / Veggie Sips copy"
+      },
+      {
+        "claim": "Zero sugar and no artificial dyes",
+        "source": "homepage / product pages"
+      },
+      {
+        "claim": "Third Party Tested",
+        "source": "product pages"
+      },
+      {
+        "claim": "9g whey isolate protein, 3g fiber and 20 vitamins per serving",
+        "source": "Protein Sips product page"
+      },
+      {
+        "claim": "100mg caffeine and 200mg L-theanine to help promote calm focus without the jitters or crash",
+        "source": "Get Up and Go Bundle page"
+      },
+      {
+        "claim": "Created by a mom and a clinical/research lab scientist with 13 years experience",
+        "source": "homepage / about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Cures or treats constipation (or any digestive disease/condition)",
+        "why": "Disease claim - product is not intended to diagnose, treat, cure or prevent any disease; the founder's story of a daughter's severe constipation must not be framed as a cure."
+      },
+      {
+        "claim": "Lowers or controls blood sugar / treats diabetes",
+        "why": "Disease claim - 'balances/supports healthy blood sugar' is the safe structure/function line; do not imply treatment of a blood sugar disease."
+      },
+      {
+        "claim": "Boosts or cures immune deficiency / prevents illness",
+        "why": "Disease claim - immune-supporting is allowed, curing or preventing disease is not."
+      },
+      {
+        "claim": "Clinically proven to improve digestion or energy",
+        "why": "No cited study provided - 'clinically proven' cannot be used without a referenced clinical trial."
+      },
+      {
+        "claim": "Guaranteed results or a specific timeline (e.g. 'regular in 3 days')",
+        "why": "Banned - guaranteed outcomes and specific health-outcome timelines are not permitted for supplements."
+      },
+      {
+        "claim": "Testimonials implying a disease benefit (e.g. curing severe constipation)",
+        "why": "Testimonials that imply a disease benefit are treated as disease claims under the compliance rules."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://sipsclub.com/cdn/shop/files/Sips_Logotype_Lockup.png?v=1775660346&width=832",
+  "generated_at": "2026-07-18T22:17:50.211Z"
+}
