@@ -117,17 +117,26 @@ Rigidity is the thing that decides the pose, so name it:
 - RIGID and self-standing (jar, bottle, can, tin, box, tub) → it stands upright
   on its own base. Say so, and say it sits flat on the surface with a soft
   contact shadow at its base.
-- SOFT / FLEXIBLE packaging (pouch, sachet, packet, foil bag, refill, paper
-  sleeve) → it CANNOT stand unsupported and must never be drawn standing
-  bolt-upright in open space. Choose one honest pose and name it: lying flat on
-  the surface, overlapping in a loose casual stack, propped leaning against a
-  bowl or board or wall, or fanned FLAT ON the surface with each packet touching
-  it. Never floating, never a vertical fan in the air.
+- STAND-UP / GUSSETED POUCH, a SINGLE unit (a doypack with a flat gusseted
+  bottom - e.g. a protein-powder pouch, coffee bag, granola pouch) → this DOES
+  stand upright on its own base, exactly as it does in its catalog shot. Stand it
+  upright directly on the surface, base flat and fully in contact, casting a soft
+  contact shadow and ambient occlusion where it meets the surface. Do NOT lay a
+  single stand-up pouch flat and do NOT shoot it top-down - that flattens the
+  hero and looks worse. Treat it like a rigid self-standing item.
+- LIMP / FLAT packaging (sachet, single-serve stick, packet, foil bag, refill,
+  paper sleeve), OR a MULTIPACK of two or more pouches → these CANNOT each stand
+  unsupported and must never be drawn standing bolt-upright in open space. Choose
+  one honest pose and name it: lying flat on the surface, overlapping in a loose
+  casual stack, propped leaning against a bowl or board or wall, or fanned FLAT
+  ON the surface with each unit touching it. Never floating, never a vertical fan
+  in the air.
 - SOFT GOODS (garment, towel, blanket) → folded, draped, or laid on the surface.
 
 Examples:
 - 3 rigid rub jars → "all three jars stand upright directly on the wooden board, bases flat and fully in contact with it, each casting its own soft contact shadow and ambient occlusion where it meets the wood, at true 5 oz jar scale beside the steak. NOT floating, NOT hovering, NOT tilted in mid-air"
 - 4 flexible foil dip packets → "these are limp foil sachets that cannot stand up by themselves: lay all four flat on the countertop in a loose overlapping stack, each packet in full contact with the counter, with soft contact shadows and ambient occlusion underneath every packet and where they overlap. Render them at true 1 oz sachet scale, small next to the bowl. Do NOT stand them upright, do NOT fan them in the air, do NOT float them behind the bowl"
+- 1 stand-up protein pouch → "this is a stand-up pouch with a gusseted flat bottom that stands upright on its own base exactly as in the reference: stand it upright directly on the counter, base flat and fully in contact, casting a soft natural contact shadow and ambient occlusion where it meets the surface, at true pouch scale beside the glass; shot at a natural, slightly-above eye-level three-quarter hero angle. NOT lying flat, NOT shot top-down, NOT floating"
 - A wool blanket → "draped over the arm of the chair with its weight visible, fabric folding under gravity, in full contact with the chair and casting a soft shadow into the seat"
 
 If the product title says "4 pack" or "5 pack", the ad must show exactly that
@@ -138,15 +147,18 @@ reference for a multipack is almost always a flat fan or grid of units. If you
 ask for an EYE-LEVEL shot of that, the only way the model can reproduce the fan
 is by standing the units up in the air, and it will - the words "lay them flat"
 lose to the reference image every time. So match the camera to the pose:
-- Soft packaging laid flat / fanned / stacked → you MUST name a top-down or
-  high-angle camera: "shot from directly overhead, 90 degree top-down flat-lay
-  camera" or "shot from a high 45 degree angle looking down at the surface".
-  From above, the reference's fan geometry maps straight onto the tabletop and
-  the product is grounded by construction.
-- Rigid self-standing items (jars, bottles, cans) → eye-level or low three-
-  quarter is fine, they stand up honestly.
-State the camera explicitly inside {GROUNDING_LOCK} or {SCENE}. A soft-pouch
-multipack with an eye-level camera is invalid.
+- LIMP / FLAT packaging or a MULTIPACK of pouches laid flat / fanned / stacked →
+  you MUST name a top-down or high-angle camera: "shot from directly overhead, 90
+  degree top-down flat-lay camera" or "shot from a high 45 degree angle looking
+  down at the surface". From above, the reference's fan geometry maps straight
+  onto the tabletop and the product is grounded by construction.
+- Rigid self-standing items (jars, bottles, cans) AND single stand-up / gusseted
+  pouches → eye-level or a slightly-above three-quarter hero angle is correct,
+  they stand up honestly on their own base. Do NOT shoot a single stand-up pouch
+  top-down.
+State the camera explicitly inside {GROUNDING_LOCK} or {SCENE}. A multipack of
+loose sachets or pouches with an eye-level camera is invalid; a single stand-up
+pouch shot top-down is equally wrong.
 
 # RULES
 
