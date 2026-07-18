@@ -1,0 +1,164 @@
+{
+  "lead_company": "Mathan",
+  "lead_first_name": "Matthew",
+  "website": "https://mathanuk.com",
+  "brand_domain": "mathanuk.com",
+  "currency": "USD",
+  "review_count": 3,
+  "brand_dna": {
+    "category": "Female-led performance sportswear and running apparel for everyday athletes, sold DTC from the UK.",
+    "core_belief": "More than a sportswear brand - they design sportswear to perform with you so you can achieve more than you thought possible, where meditation meets motion.",
+    "proof_points": [
+      "Hoodies made from 50% organic cotton and 50% recycled cotton, 420gsm brushed American fleece",
+      "Sustainable materials like recycled polyester and organic cotton with ethical production",
+      "Featured in British Vogue and The Times",
+      "Running socks with Q-Skin material and 4-way stretch for moisture wicking"
+    ],
+    "positioning": "Premium, minimal and intention-led - refined running apparel that sits above high-street sportswear on price and design."
+  },
+  "voice_pillars": [
+    {
+      "name": "More Than",
+      "desc": "Frames every product as bigger than sport - purpose, identity and possibility, not just performance specs.",
+      "quote": "FOR THE RUNNERS WHO DO MORE THAN RUN"
+    },
+    {
+      "name": "Intentional And Grounded",
+      "desc": "Calm, purposeful language about movement as a deliberate choice, blending stillness with effort.",
+      "quote": "still choose to move with intention"
+    },
+    {
+      "name": "Quietly Technical",
+      "desc": "Leads with engineered detail and refined feel rather than loud hype or gimmicks.",
+      "quote": "engineered with technical detailing and innovative fabrics"
+    },
+    {
+      "name": "Consciously Made",
+      "desc": "Ties performance to sustainability and ethical production without preaching.",
+      "quote": "push your body while protecting the planet"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "do more than run",
+      "achieve more than you thought possible",
+      "move like a second skin",
+      "the layer you forget you're wearing",
+      "cool, dry, and confidently seen",
+      "carve their own path"
+    ],
+    "words": [
+      "performance",
+      "intention",
+      "conscious",
+      "second-skin",
+      "breathable",
+      "premium",
+      "reflective",
+      "boxy fit"
+    ],
+    "avoid": [
+      "hype-heavy slang",
+      "cheap/discount tone",
+      "aggressive bro-gym language",
+      "loud maximalism"
+    ]
+  },
+  "icp": "Everyday runners, largely women, who balance routine and responsibility, train with intent, and want premium, consciously made kit that looks refined on and off the run.",
+  "personas": [
+    {
+      "name": "The Intentional Runner",
+      "description": "A woman who trains with purpose around a busy life and is moved by messaging about movement as choice and self-definition."
+    },
+    {
+      "name": "The Conscious Buyer",
+      "description": "A values-driven shopper who pays more for recycled and organic materials and ethical production, moved by the sustainability angle."
+    },
+    {
+      "name": "The Design-Led Athlete",
+      "description": "Style-aware buyer who wants sportswear that reads premium and minimal, moved by technical detailing and the refined aesthetic."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "MATHAN Emblem Hoodie",
+      "role": "Hero / best-seller",
+      "price": 103
+    },
+    {
+      "title": "MATHAN Hoodie",
+      "role": "Core",
+      "price": 97
+    },
+    {
+      "title": "AeroLite Short Sleeve",
+      "role": "Core",
+      "price": 50
+    },
+    {
+      "title": "Running socks",
+      "role": "Entry point",
+      "price": 21
+    }
+  ],
+  "offers": [
+    "10% off your first order for newsletter sign-up",
+    "Free UK Tracked 48 shipping on orders over £65",
+    "Free UK returns via prepaid label",
+    "Returns accepted within 30 days of delivery, unworn with tags",
+    "Free-of-charge size exchanges, subject to stock",
+    "International shipping to EU, US, Canada, Australia and New Zealand (rates at checkout)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Hoodies are made from 50% organic cotton and 50% recycled cotton, 420gsm brushed American fleece.",
+        "source": "MATHAN Hoodie and Emblem Hoodie product pages"
+      },
+      {
+        "claim": "As seen in British Vogue and The Times.",
+        "source": "Homepage and product pages"
+      },
+      {
+        "claim": "Running socks use Q-Skin material with 4-way stretch for moisture wicking.",
+        "source": "Running socks product page"
+      },
+      {
+        "claim": "Free UK 48hr delivery on orders over £65 and free UK returns.",
+        "source": "Homepage banner and FAQs"
+      },
+      {
+        "claim": "AeroLite Short Sleeve has strategically placed reflective branding to keep you visible from behind.",
+        "source": "AeroLite Short Sleeve product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best running kit in the world / #1 sportswear brand.",
+        "why": "FTC substantiation - unqualified superlative that cannot be proven."
+      },
+      {
+        "claim": "100% sustainable or eco-friendly with no qualification.",
+        "why": "FTC Green Guides - unqualified sustainability claim; materials are only part organic/recycled."
+      },
+      {
+        "claim": "Guaranteed to improve your run times or performance.",
+        "why": "FTC substantiation - guaranteed results claim with no evidence."
+      },
+      {
+        "claim": "Loved by thousands / hundreds of 5-star reviews.",
+        "why": "Invented review counts - actual product pages show only 2-3 reviews each."
+      },
+      {
+        "claim": "Only a few left - selling out in hours (when untrue).",
+        "why": "Fake urgency - prohibited unless genuinely accurate stock scarcity."
+      },
+      {
+        "claim": "Endorsed by British Vogue or The Times.",
+        "why": "Invented endorsement - 'as seen in' is editorial mention, not an endorsement."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-18T23:13:18.142Z"
+}
