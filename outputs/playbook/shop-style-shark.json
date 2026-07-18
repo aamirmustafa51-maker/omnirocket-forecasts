@@ -1,0 +1,158 @@
+{
+  "lead_company": "Shop Style Shark",
+  "lead_first_name": "Dionne",
+  "website": "https://shopstyleshark.com",
+  "brand_domain": "shopstyleshark.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Women's online fashion brand centered on a curated denim-led wardrobe of dresses, sets, tops, outerwear, and accessories.",
+    "core_belief": "Style is an edit, not a pile - a well-curated wardrobe of denim and dressing pieces that lets a woman shop the look, not just the item.",
+    "proof_points": [
+      "Denim-forward signature range: The Geneva Denim Set, The Mercer Denim Jacket, The Savannah Oversized Belted Denim Mini Dress, The Hudson Jeans",
+      "Free shipping on orders $100+",
+      "Easy 14-Day Returns",
+      "Secure Checkout with multi-currency support across global markets"
+    ],
+    "positioning": "Trend-led, curated 'edit' fashion at accessible-premium price points, organized by shoppable collections rather than endless racks."
+  },
+  "voice_pillars": [
+    {
+      "name": "Curated Edit",
+      "desc": "Speaks in named collections and edits, framing the range as hand-picked selections rather than a sprawling catalog.",
+      "quote": "The Style Shark Edit"
+    },
+    {
+      "name": "Denim-Led",
+      "desc": "Leads with denim as the signature category and hero of the assortment.",
+      "quote": "Denim Edit"
+    },
+    {
+      "name": "Named-Piece Polish",
+      "desc": "Gives each item a personal, place-name identity for a boutique, elevated feel.",
+      "quote": "The Savannah Oversized Belted Denim Mini Dress"
+    },
+    {
+      "name": "Effortless Off-Duty",
+      "desc": "Frames pieces around relaxed, everyday dressing and easy wear-anywhere styling.",
+      "quote": "Off-Duty Tees"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "The Geneva Set",
+      "Taupe Sleeveless Matching Set",
+      "Oversized Belted Denim Mini Dress",
+      "The Mercer Denim Jacket",
+      "The Hudson Jeans",
+      "Diary of a Style Shark"
+    ],
+    "words": [
+      "denim",
+      "edit",
+      "set",
+      "oversized",
+      "belted",
+      "off-duty",
+      "matching",
+      "taupe"
+    ],
+    "avoid": [
+      "cheap",
+      "basic",
+      "medical/therapeutic language",
+      "eco/green buzzwords"
+    ]
+  },
+  "icp": "Style-conscious women who want trend-forward, denim-led outfits made easy through curated edits and matching sets, and who value effortless, put-together looks at an accessible-premium price.",
+  "personas": [
+    {
+      "name": "Denim Devotee",
+      "description": "Builds her wardrobe around jeans, jackets, and denim dresses - moved by signature pieces like The Hudson Jeans and The Mercer Denim Jacket framed as wardrobe staples."
+    },
+    {
+      "name": "Effortless Edit Shopper",
+      "description": "Wants the outfit decided for her - responds to matching sets and shoppable edits like The Geneva Set that deliver a complete off-duty look in one click."
+    },
+    {
+      "name": "Trend-Chasing Restocker",
+      "description": "Follows the newest drops and 'New' arrivals - moved by fresh, named pieces and the sense of a rotating, curated collection."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "The Geneva Denim Set",
+      "role": "Hero / best-seller",
+      "price": 32800
+    },
+    {
+      "title": "The Mercer Denim Jacket",
+      "role": "Core",
+      "price": 22600
+    },
+    {
+      "title": "The Savannah Oversized Belted Denim Mini Dress",
+      "role": "Core",
+      "price": 24900
+    },
+    {
+      "title": "The Hudson Jeans",
+      "role": "Entry point",
+      "price": 13900
+    }
+  ],
+  "offers": [
+    "Free Shipping on orders $100+",
+    "Easy 14-Day Returns",
+    "Secure Checkout",
+    "Multi-currency global checkout"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free shipping on orders over $100",
+        "source": "site header / announcement bar"
+      },
+      {
+        "claim": "Easy 14-day returns",
+        "source": "site header / announcement bar"
+      },
+      {
+        "claim": "Secure checkout",
+        "source": "site header / announcement bar"
+      },
+      {
+        "claim": "Shop by curated edits including the Denim Edit and The Style Shark Edit",
+        "source": "homepage navigation"
+      },
+      {
+        "claim": "Ships internationally with multi-currency pricing",
+        "source": "site-wide country/currency selector"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the denim 'sustainable' or 'eco-friendly'",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on site"
+      },
+      {
+        "claim": "'100% recycled denim' or 'carbon neutral' labeling",
+        "why": "FTC Green Guides - specific recycled/carbon claims require verifiable proof not present in the input"
+      },
+      {
+        "claim": "Jeans or denim 'relieve back pain' or 'improve posture'",
+        "why": "Banned medical/orthopedic claim for the apparel category"
+      },
+      {
+        "claim": "'Zero impact' or 'ethically made' without proof",
+        "why": "FTC Green Guides - unqualified environmental/ethical claim with no supporting evidence provided"
+      },
+      {
+        "claim": "Guaranteed exact delivery dates or 'ships in X days'",
+        "why": "No stated fulfillment timeline in the input - would be an unsupported operational claim"
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-18T23:31:30.654Z"
+}
