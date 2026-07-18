@@ -6,13 +6,13 @@
   "generated_date": "July 18, 2026",
   "read_time_min": 3,
   "total_ads": 5,
-  "niche": "wool bedding",
-  "tldr": "Four of your five live ads are wearing out, and two have been running unchanged for nearly three months. Every ad is the same swipeable format with the same emoji-heavy opener, so Meta sees them as basically one ad and quietly shows most of them to almost nobody.",
+  "niche": "natural bedding",
+  "tldr": "Three of your five ads are past their expiry date, and two more are close behind. The bigger issue: every single ad is the same swipeable format with the same emoji-heavy sustainability pitch, so Meta treats them as one ad and quietly shows just one.",
   "benchmark": {
     "your_value_days": 28,
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "The typical brand your size posts a fresh ad every three weeks. The best ones do it every two. You have five live ads and they all look and sound alike, so Meta treats them as one and picks a favourite to show, which means you paid to make ads almost nobody sees."
+    "context": "Typical brands in natural bedding put out a fresh ad every three weeks, and the best ones do it every two. You're running just five ads and they all look and sound alike, so Meta can't tell them apart and ends up showing fewer of them to fewer people."
   },
   "ads": [
     {
@@ -21,13 +21,13 @@
       "headline": "🐑 Wool Wadding with Natural Loft & Strength 💛",
       "body": "All-purpose natural wadding for quilting, upholstery, padding & more - combining soft comfort with strong & lasting support 🌿 Crafted from wool, it naturally wicks moisture, offers fire-resistant properties, and is a sustainable choice designed to last over time 🔥🌾",
       "cta": "Shop Now",
-      "fatigue_score": 92,
+      "fatigue_score": 91,
       "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "This ad has been running unchanged for 87 days, three times longer than your ads should last.",
-        "The headline reads like a product page title, not a reason to stop scrolling in the feed.",
-        "Four emojis in the opening line signal 'ad' before anyone reads a single word."
+        "This ad has been running unchanged for 87 days, more than three times your normal refresh window.",
+        "The headline stacks three emojis around a product description with no clear benefit for the buyer.",
+        "The body tries to sell to quilters, upholsterers and DIY-ers in one paragraph, so no single shopper feels it was written for them."
       ]
     },
     {
@@ -40,9 +40,9 @@
       "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "Also 87 days old, so the same tired ad is now competing with itself for the same shoppers.",
-        "The opening line says nothing specific, just 'upgrade' with no reason why or what changes.",
-        "The body lists features in the same 'made using X, Y, Z' shape as three of your other ads."
+        "This one has also been live 87 days without a single change, well past when shoppers start scrolling past it.",
+        "The opening line 'Upgrade What You Sleep On' could describe any bedding brand on the planet, so nothing pulls the eye.",
+        "The claim list (Australian-made, microplastic-free, compostable, sustainable) is the same one you already made in three other ads, so it stops registering."
       ]
     },
     {
@@ -52,12 +52,12 @@
       "body": "Best-Selling Wool Doonas, Pillows & Wadding",
       "cta": "Shop Now",
       "fatigue_score": 78,
-      "days_until_fatigue": 14,
+      "days_until_fatigue": 13,
       "severity": "warn",
       "drivers": [
-        "The headline is a product code, not a reason to buy, so shoppers scroll past.",
-        "The body is one line and names three different products, so nobody knows what this ad is actually for.",
-        "43 days running with the weakest wording of any of your five ads, burning money slowly."
+        "The body copy is one line long and just names three product types, so the shopper has no reason to click.",
+        "The headline is a product spec, not a hook, and won't stop anyone mid-scroll.",
+        "It has been running 43 days, past your normal 28-day mark, and the thin copy makes fatigue arrive faster."
       ]
     },
     {
@@ -66,13 +66,13 @@
       "headline": "🌿 Wool Weed Matting That Works Naturally 💚",
       "body": "Take control of your soil with weed matting that reduces unwanted plant growth, improves moisture retention, and naturally enhances soil quality for long-term performance 🌿",
       "cta": "Shop Now",
-      "fatigue_score": 71,
+      "fatigue_score": 72,
       "days_until_fatigue": 16,
       "severity": "warn",
       "drivers": [
-        "Same leaf-emoji-headline-leaf-emoji pattern as two of your other live ads, so Meta groups them together.",
-        "Reads like a garden centre shelf label, no story, no customer, no before-and-after moment.",
-        "The garden buyer and the bedding buyer are different people, but this ad looks identical to your doona ads."
+        "The leaf-emoji-then-headline-then-heart-emoji pattern is copied from three of your other live ads, which is exactly what makes Meta treat them all as one.",
+        "42 days in, and it's selling to gardeners while every other ad targets sleepers, so no audience gets a consistent story from you.",
+        "The copy lists three benefits back-to-back with no proof, no customer voice and no visual of the matting in real soil."
       ]
     },
     {
@@ -85,35 +85,35 @@
       "days_until_fatigue": 18,
       "severity": "warn",
       "drivers": [
-        "The 'microplastic-free, sustainable, compostable' line is copied almost word-for-word from your pillow ad.",
-        "The body is a 65-word paragraph on a phone screen, most shoppers stop reading after ten words.",
-        "'Your Perfect Doona Awaits' could belong to any bedding brand in Australia, nothing here is only yours."
+        "The body is 65 words of feature-listing with no single moment a shopper can picture themselves in.",
+        "'Australian-made, microplastic-free, sustainable, compostable' is the exact same phrase block used in your pillow ad, which is why Meta lumps them together.",
+        "Only 29 days old but already showing the same fatigue shape as your older ads because it repeats their words and their look."
       ]
     }
   ],
   "ads_compact": [],
   "hero_concept": {
-    "concept_name": "The Sheet That Isn't Plastic",
+    "concept_name": "The Layer You Sleep On",
     "format": "Single image",
-    "hook": "What's actually inside your mattress?",
-    "headline": "Coir. Rubber. Nothing else.",
-    "primary_text": "Most mattress toppers are foam. Foam is plastic. Plastic sheds microplastic into the room you sleep in for eight hours a night.\n\nOur coir and natural rubber sheets are two things: coconut husk fibre and rubber tapped from a tree. That's the whole ingredient list. Firm support, breathable, and it will compost at the end of its life instead of sitting in landfill for 400 years.\n\nAustralian-made in the Adelaide Hills. Free shipping over $150.",
+    "hook": "The one bedding layer nobody talks about.",
+    "headline": "Sleep on wool, not plastic.",
+    "primary_text": "Most mattress toppers are polyurethane foam wrapped in polyester. You breathe that in for a third of your life.\n\nOur coir and natural rubber sheets are the layer underneath your sheet: springy coconut fibre bonded with tapped rubber, breathable, firm, and completely free of microplastics. Made in Australia, compostable at the end of a very long life.\n\nSwap the foam. Feel the difference on night one.",
     "cta": "Shop Now",
-    "visual_direction": "A cross-section close-up of the coir and natural rubber sheet on a linen-covered bed, warm morning light from a window, showing the raw coconut fibre and rubber texture clearly.",
-    "fills_gap": "Every one of your five live ads opens with an emoji and talks about product features. None of them tell a shopper why to care. This ad names the enemy (plastic in your bed) and puts your product on the other side of it, which is something none of your current ads do.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a calm bedroom scene with the sheet laid flat across a natural linen-covered bed, one corner folded back to reveal the raw coir and rubber cross-section, with soft morning window light falling across the fibres from the left. Warm, natural, Australian-farmhouse aesthetic with muted earth tones, unbleached linen, and a wooden bedside frame just visible at the edge. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact natural coir fibre colour (warm coconut brown) and natural rubber layer (pale cream-tan) exactly as shown in the reference; strictly NO dyed colours, NO grey shift, NO orange or red-brown shift, NO bleaching to white, NO synthetic foam substitution. STRUCTURE - preserve the exact construction: flat rectangular sheet with visible layered structure of coir fibre bonded to natural rubber backing, same thickness ratio and same fibre density as shown in the reference, exposed cross-section at the folded corner showing both layers clearly. Do NOT add stitching, do NOT add a fabric cover, do NOT add piping or edging, do NOT change the sheet into a mattress or pillow, do NOT alter the layer thickness or fibre pattern. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "visual_direction": "A clean overhead shot of the coir and rubber sheet laid flat on a raw timber floor, with a folded linen bedsheet placed on one corner to show scale and context.",
+    "fills_gap": "Every one of your live ads leads with a leafy headline and an emoji parade, so they blur together and shoppers scroll past. This ad opens with a real problem (foam and plastic in bedding) and shows one product doing one job, which is the kind of ad your account is missing.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean overhead flat-lay on a raw pale timber floor with a single folded natural linen bedsheet placed at one corner for scale, with soft diffused daylight from a large window casting gentle directional shadows. Calm, natural, editorial-catalogue aesthetic with a muted earthy palette and generous negative space. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact coir fibre and natural rubber material appearance: the dense woven coconut-husk fibre texture in its natural warm coconut-brown colour bonded to a matte natural latex rubber backing, strictly NO colour shift to grey, black, orange, red-brown, or synthetic-looking finish, NO glossy or plastic sheen, NO change to foam or synthetic material appearance. STRUCTURE - preserve the exact construction: rectangular flat sheet form with visible coir fibre weave texture on the top surface and matte rubber layer visible along the cut edge, same thickness profile and same edge finish as shown in the reference. Do NOT add stitching, binding tape, labels, printed graphics, or edging that is not in the reference, do NOT change the rectangular shape, do NOT alter the thickness, do NOT convert it to a foam or textile mat, do NOT add decorative patterns to the surface. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
     "reference_title": "coir and natural rubber sheets",
     "reference_url": "https://woolvalley.com.au/products/coir-and-natural-rubber-sheets",
     "image_path": "/creatives/wool-valley/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Your two 87-day-old ads are done inside a week, and the wadding ad follows two weeks after that.",
+    "urgency": "Two of your ads stop working inside a week, and two more inside about two and a half weeks.",
     "headline": "Walk through the Wool Valley refresh plan with Kyle",
     "body": "Colita, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
-  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the wording, and how long each has been running. No access to your account or private numbers.",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
   "prospect_logo_url": "https://www.woolvalley.com.au/cdn/shop/files/Wool-Valley-Green_3_jpg.jpg?crop=center&height=32&v=1772311840&width=32"
 }
