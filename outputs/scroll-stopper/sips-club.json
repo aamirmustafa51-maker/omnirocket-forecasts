@@ -1,0 +1,45 @@
+{
+  "lead_company": "Sips Club",
+  "lead_first_name": "Katy",
+  "website": "https://sipsclub.com",
+  "brand_domain": "sipsclub.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, mom-to-mom encouragement that sells crave-worthy taste first and clean, science-backed nutrition second, always framed as one easy habit for chaotic real life.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/sips-club?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://sipsclub.com/cdn/shop/files/Sips_Logotype_Lockup.png?v=1775660346&width=832",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Protein Sips",
+      "product_url": "https://sipsclub.com/products/protein-sips-vitamins-kids",
+      "image_url": "/creatives/scroll-stopper/sips-club/ad-1.jpg",
+      "ai_image": true,
+      "price": 60,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "The lunchbox nutrition battle? Officially over.\n\nProtein Sips are a fruity drink your kids actually ask for, packing 9g whey protein, 3g fiber, and 8 essential vitamins into one easy sip. No thick, chalky shakes, no chocolate-vs-vanilla negotiations.\n\nLoved by moms. Approved by kids. Zero sugar, no artificial dyes, and third party tested. 🍓",
+      "headline": "Nutrition kids ask for",
+      "cta": "Shop Now",
+      "why_it_works": "It names the daily friction every mom knows - getting real protein into a picky kid - and positions the fruity flavor as the thing that finally removes the fight.",
+      "visual_direction": "The Protein Sips pouch lying flat on a sunny kitchen counter next to an open lunchbox, fresh strawberries, and a sliced orange."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Get Up and Go Bundle",
+      "product_url": "https://sipsclub.com/products/go-go-energy-digestion-bundle",
+      "image_url": "/creatives/scroll-stopper/sips-club/ad-2.jpg",
+      "ai_image": true,
+      "price": 85.49,
+      "compare_at_price": 94.99,
+      "on_sale": true,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Clean energy in, chaos handled.\n\nThe Get Up and Go Bundle pairs Support Sips for calm, focused energy with Veggie Sips for daily digestion - two single-serve pixies you can toss in your bag and mix anywhere.\n\n100mg caffeine plus 200mg L-theanine means focus without the jitters or crash. Greens that actually taste like juice, and a routine that helps you feel better without changing everything.",
+      "headline": "Energy plus digestion, sorted",
+      "cta": "Shop Now",
+      "why_it_works": "The bundle's core promise is an all-day feeling - steady energy and easy digestion - so leading with that outcome speaks straight to the busy mom who wants results without a whole new routine.",
+      "visual_direction": "Both bundle pouches laid flat and overlapping on a marble entryway console with a tote bag, keys, and a glass of water ready to mix."
+    }
+  ],
+  "generated_at": "2026-07-18T22:20:03.793Z"
+}
