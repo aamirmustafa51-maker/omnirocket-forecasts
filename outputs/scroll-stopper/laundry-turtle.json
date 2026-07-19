@@ -1,0 +1,45 @@
+{
+  "lead_company": "Laundry Turtle",
+  "lead_first_name": "Eric",
+  "website": "https://laundryturtle.com",
+  "brand_domain": "laundryturtle.com",
+  "currency": "USD",
+  "brand_voice_note": "Practical and warmly family-led, turning a boring chore into something faster, easier, and a little more fun without overselling.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/laundry-turtle?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://laundryturtle.com/cdn/shop/files/Laundry_Turtle_Logo_206a029e-5db6-4e3d-a510-3ab5fabbb9db.png?v=1707577498&width=340",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Laundry Turtle",
+      "product_url": "https://laundryturtle.com/products/laundry-turtle",
+      "image_url": "/creatives/scroll-stopper/laundry-turtle/ad-1.jpg",
+      "ai_image": true,
+      "price": 27.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Tired of dropping socks on the way to the dryer?\n\nThe Laundry Turtle lets you grab everything at once and move your laundry from washer to dryer to drawers in one simple motion. No dropped clothes, no extra steps, no hassle.\n\nPatented, collapsible, and it folds flat to save space when you are done. Works with any front loading washer and dryer.",
+      "headline": "Grab It All In One Trip",
+      "cta": "Shop Now",
+      "why_it_works": "Every laundry-hauler knows the friction of juggling an armful and losing a sock, so naming that exact pain and removing it lands instantly.",
+      "visual_direction": "The Laundry Turtle standing upright on the laundry room floor in front of an open washer, with a towel and basket nearby in soft morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Laundry Turtle",
+      "product_url": "https://laundryturtle.com/products/laundry-turtle",
+      "image_url": "/creatives/scroll-stopper/laundry-turtle/ad-2.jpg",
+      "ai_image": true,
+      "price": 27.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "We are a family that got tired of chasing dropped socks across the floor.\n\nSo we built the Laundry Turtle right here in our family-run Canadian and Brazilian business, and it turned out well enough to earn a spot on Dragon's Den, Season 20.\n\nIt is patented, it collapses flat when you are not using it, and it genuinely makes laundry day faster, easier, and more enjoyable. Free shipping, taxes included.",
+      "headline": "Made By Our Family, For Yours",
+      "cta": "Shop Now",
+      "why_it_works": "The founding-family story plus the real Dragon's Den feature builds trust and separates the genuine article from cheap imitators.",
+      "visual_direction": "The Laundry Turtle standing on warm wooden floorboards beside a folded stack of clothes in soft golden late-afternoon light, giving a homey family feel."
+    }
+  ],
+  "generated_at": "2026-07-19T13:37:09.644Z"
+}
