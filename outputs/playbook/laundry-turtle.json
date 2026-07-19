@@ -6,35 +6,35 @@
   "currency": "USD",
   "review_count": 0,
   "brand_dna": {
-    "category": "A patented collapsible pop-up laundry hamper that helps you move a whole load from washer to dryer to drawers in one grab.",
-    "core_belief": "Make laundry day less of a chore, especially for those who find it physically challenging - born from a son wanting to make his mother's life easier.",
+    "category": "Patented collapsible pop-up laundry hamper that moves wet clothes from washer to dryer to drawers in one grab.",
+    "core_belief": "Make doing laundry less of a chore, especially for those who find it physically challenging - it's a way to care for our loved ones.",
     "proof_points": [
-      "US Patent 11,572,655 and US Patent 10,866,027, plus China Patent 2023 2 0272733.5",
-      "Featured on Dragon's Den, Season 20 (As Seen on TV)",
-      "Family-run Canadian/Brazilian business founded by Eric Mendes",
-      "Free shipping with taxes included; 15-day return policy"
+      "US Patents 11,572,655 and 10,866,027 plus China Patent 2023 2 0272733.5",
+      "Family-run Canadian/Brazilian business founded by Eric Mendes, named for his mom 'Tartaruguinha'",
+      "Featured on Dragon's Den Season 20 and 'As Seen on TV'",
+      "Free shipping and taxes included; 15-day return policy"
     ],
-    "positioning": "The original patented version in a category of copycats - practical, warm, and family-made rather than mass-market gadget."
+    "positioning": "The original, patented option in a category of generic pop-up hampers - practical, family-made, and proudly the real thing."
   },
   "voice_pillars": [
     {
-      "name": "Practical And Clear",
-      "desc": "Writes in plain, benefit-first language that shows exactly how the product saves effort.",
+      "name": "Warm and Family-First",
+      "desc": "Speaks plainly and personally, framing the product as care for people you love.",
+      "quote": "It's not just a laundry solution; it's a way to care for our loved ones."
+    },
+    {
+      "name": "Practical Problem-Solver",
+      "desc": "Leads with the everyday pain it removes and the steps it saves.",
       "quote": "Finally, a quick and easy way to move your laundry."
     },
     {
-      "name": "Warm And Family-Led",
-      "desc": "Speaks with gratitude and personal heart, leaning on the founding family story.",
-      "quote": "This is a family company and your support and trust in us are much appreciated."
-    },
-    {
       "name": "Proudly Original",
-      "desc": "Emphasizes patents, TV features, and being the genuine article versus imitators.",
-      "quote": "THE ORIGINAL - TAX INCLUDED - FREE SHIPPING"
+      "desc": "Stakes a clear claim as the patented, authentic version, not a copycat.",
+      "quote": "THE ORIGINAL - TAXES INCLUDED - FREE SHIPPING"
     },
     {
-      "name": "Playful Everyday",
-      "desc": "Adds light, friendly charm to a boring chore without overselling.",
+      "name": "Lightly Playful",
+      "desc": "Keeps a friendly, upbeat tone that makes a boring chore feel a little fun.",
       "quote": "Why Laundry Turtle Will Lighten Your Load"
     }
   ],
@@ -42,41 +42,41 @@
     "phrases": [
       "grab everything at once",
       "no dropped clothes, no extra steps, no hassle",
-      "Move your laundry from washer to dryer to drawers",
-      "without losing anything, including socks",
+      "without losing anything, including socks!",
+      "makes laundry day faster, easier, and more enjoyable",
       "Collapse the Laundry Turtle when not in use and save space",
-      "makes laundry day faster, easier, and more enjoyable"
+      "move your laundry from washer to dryer to drawers"
     ],
     "words": [
       "collapsible",
-      "load",
-      "washer",
-      "dryer",
-      "socks",
       "convenience",
-      "space",
-      "collect"
+      "mobility",
+      "ease",
+      "load",
+      "hassle-free",
+      "durable",
+      "space-saving"
     ],
     "avoid": [
       "luxury",
-      "medical",
-      "orthopedic",
-      "eco-friendly"
+      "clinical",
+      "aggressive hype",
+      "medical/therapeutic language"
     ]
   },
-  "icp": "Busy households and apartment dwellers - often doing laundry in shared or tight spaces - who want to move a full load in one trip without dropping clothes or losing socks.",
+  "icp": "Busy households and space-tight renters who do frequent laundry and want an easy, back-friendly way to move a full load without dropping clothes.",
   "personas": [
     {
-      "name": "Shared-Laundry Apartment Dweller",
-      "description": "Someone hauling loads to a communal laundry room who buys to avoid the annoyance of transferring wet clothes between washer and dryer."
+      "name": "Shared-Laundry Renter",
+      "description": "Apartment dweller hauling loads to a shared or communal machine who buys to skip the annoying washer-to-dryer transfer."
     },
     {
-      "name": "Caretaking Family Buyer",
-      "description": "A shopper who wants to spare a parent or loved one the strain of bending and lifting heavy wet laundry, moved by the ease-of-life and family story angle."
+      "name": "Caring Adult Child",
+      "description": "Someone shopping for an aging parent who struggles with bending and heavy baskets, moved by the 'make life easier for loved ones' story."
     },
     {
-      "name": "As-Seen-On-TV Practical Shopper",
-      "description": "A gadget-curious buyer drawn to the Dragon's Den feature and patented 'original' status who wants a simple product that just works."
+      "name": "Efficiency-Minded Parent",
+      "description": "Family manager doing constant loads who wants to grab everything at once and save time and steps."
     }
   ],
   "products_ladder": [
@@ -103,66 +103,62 @@
   ],
   "offers": [
     "Free shipping with taxes included (US and Canada continental only)",
-    "One-time purchase from $27.99 USD",
-    "Subscribe and save: deliver every month, 5% off (skip or cancel anytime)",
+    "Subscribe and save 5% (delivers monthly, skip or cancel anytime)",
     "15-day return policy (shipping fees not included plus a $5 restocking fee)",
-    "Bundles available: Give Sheets a Shot, Ultimate Laundry Makeover, Laundry Day Essentials"
+    "Sizes: Small - 21 in and Large - 26 in, in four colors",
+    "Bundles available (Give Sheets a Shot, Ultimate Laundry Makeover, Laundry Day Essentials)"
   ],
   "claims": {
     "allowed": [
       {
-        "claim": "Patented collapsible laundry hamper (US Patents 11,572,655 and 10,866,027).",
+        "claim": "Patented design (US Patents 11,572,655 and 10,866,027; China Patent 2023 2 0272733.5).",
         "source": "homepage / about page footer"
       },
       {
-        "claim": "As seen on Dragon's Den, Season 20.",
-        "source": "homepage"
-      },
-      {
-        "claim": "Family-run Canadian/Brazilian business.",
-        "source": "homepage / about page"
+        "claim": "Family-run Canadian/Brazilian business founded by Eric Mendes.",
+        "source": "about page"
       },
       {
         "claim": "Free shipping with taxes included.",
-        "source": "product page"
+        "source": "product page / homepage"
       },
       {
-        "claim": "Works for any front loading washer and dryer.",
-        "source": "homepage - How It Works"
+        "claim": "Works with any front-loading washer and dryer.",
+        "source": "homepage (How It Works)"
       },
       {
-        "claim": "Collapses flat to save space when not in use.",
-        "source": "homepage benefits"
+        "claim": "Collapsible to save space when not in use.",
+        "source": "homepage (Convenience section)"
+      },
+      {
+        "claim": "Featured on Dragon's Den Season 20.",
+        "source": "homepage"
       }
     ],
     "banned": [
       {
-        "claim": "'Relieves back pain' or 'prevents strain injuries' from bending over laundry.",
-        "why": "Medical claim - not permitted for this category despite the ease-of-lifting angle."
+        "claim": "'Relieves back pain' or 'ends painful bending'.",
+        "why": "Medical/orthopedic claim - not permitted for this category even though the brand story references physical strain."
       },
       {
-        "claim": "'Corrects posture' or fixes any physical condition.",
-        "why": "Medical/orthopedic claim banned for this category."
+        "claim": "'Sustainable' or 'eco-friendly' hamper.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on site."
       },
       {
-        "claim": "'Eco-friendly' or 'sustainable' laundry solution.",
-        "why": "FTC Green Guides - unqualified sustainability claim without verifiable backing."
+        "claim": "'Made from 100% recycled materials'.",
+        "why": "FTC Green Guides - no recycled-content data stated anywhere on the site."
       },
       {
-        "claim": "'Made from 100% recycled materials' or 'carbon neutral'.",
-        "why": "FTC Green Guides - unsubstantiated recycled/carbon claim; no material data provided on site."
+        "claim": "'Carbon neutral' or 'zero impact' laundry solution.",
+        "why": "FTC Green Guides - unverifiable environmental claim."
       },
       {
-        "claim": "'Zero impact' or 'plastic-free' packaging.",
-        "why": "FTC Green Guides - unqualified environmental claim with no proof on site."
-      },
-      {
-        "claim": "'Medically recommended for the elderly or disabled.'",
-        "why": "Health endorsement claim not substantiated on site."
+        "claim": "'Corrects posture' or 'prevents injury' when lifting laundry.",
+        "why": "Medical/orthopedic claim outside what the brand can back."
       }
     ]
   },
   "standalone": false,
-  "prospect_logo_url": "https://laundryturtle.com/cdn/shop/files/Laundry_Turtle_Logo_206a029e-5db6-4e3d-a510-3ab5fabbb9db.png?v=1707577498&width=340",
-  "generated_at": "2026-07-19T13:35:18.264Z"
+  "prospect_logo_url": "",
+  "generated_at": "2026-07-19T16:36:11.809Z"
 }
