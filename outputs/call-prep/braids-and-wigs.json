@@ -67,65 +67,59 @@
     "running_ads": 1
   },
   "copy": {
-    "tldr": "Braids and Wigs is a value-driven Canadian hair retailer running only one weak 'Send message' ad, so the whole opening is that they have almost no real paid ads and a low average order size we need to lift with bundles.",
+    "tldr": "Braids and Wigs is a value-priced Canadian hair retailer running just one weak 'Send message' ad, so the play is to build real avatar-based creative around their headband wigs and hit the free shipping threshold, but their low median price is the thing you must probe before promising anything.",
     "deep_dive": {
-      "what_they_are": "A Canadian online beauty store based in London, Ontario, selling wigs, braiding hair, extensions, and hair and skin care from name brands like Sensationnel, Mane Concept, Eco Style, and Cantu.",
-      "what_they_sell": "About 500 products. A wide range from tiny accessories under a dollar up to human hair wigs over $500. Their median price is about $10.52, which we are using as a stand-in for average order value since we cannot see their real numbers.",
-      "positioning": "High-variety value play. Big catalog of known brands at low prices, with pay-later options and fast local delivery in London Ontario. They are not a premium boutique. They compete on price and selection.",
-      "who_buys": "Value-conscious Canadian women who wear protective styles - wigs, braids, weaves, crochet - and want name-brand looks fast, affordably, and with easy pay-later.",
+      "what_they_are": "A Canadian online beauty store based in London, Ontario. They sell wigs, braiding hair, extensions, and hair and skin care across many known brands like Sensationnel, Mane Concept, Outre, and Freetress. They also do same day shipping and local delivery within an hour in London.",
+      "what_they_sell": "500 products. Prices run from under a dollar up to about $508. A lot of the catalog is small stuff like gels, beads, and wig caps. The bigger ticket items are human hair wigs and bundles, roughly $58 to $145.",
+      "positioning": "High-variety value play. Name-brand looks at low prices, with buy now pay later and free shipping over $69.99. Not a boutique or premium house.",
+      "who_buys": "Value-conscious Canadian women who wear protective styles - wigs, braids, weaves, crochet - and want name-brand looks fast, affordably, and with easy payment options.",
       "customer_voice": [],
       "strengths": [
-        "Strong offers already in place: free shipping over $69.99, a free gift at $99.99, buy now pay later, and same day local delivery in London.",
-        "Real name brands people already search for by name, like Sensationnel and Mane Concept, plus a deep catalog that supports repeat buying."
+        "Strong offers already in place: free shipping over $69.99, a free gift at $99.99, buy now pay later, and same day or one hour local delivery. These are real reasons to buy that ads can lead with.",
+        "Deep catalog of recognized brands, which gives lots of angles and products to test without needing new inventory."
       ],
       "gaps": [
-        "Only one live Meta ad and it is a weak 'Send message' ad, not a shop or purchase ad. They are barely advertising at all.",
-        "No reviews or social proof anywhere on the site, which makes higher-priced wigs harder to sell cold."
+        "Only one ad running, and it is a generic store post with a 'Send message' button. That does not sell a product or drive checkout. There is no clear offer, no product, no reason to click.",
+        "No reviews anywhere on the site. There is nothing to show a first-time buyer that other people trust this store, which makes cold traffic harder to convert."
       ]
     },
     "game_plan": {
-      "headline": "Turn a single weak message ad into a proper testing setup that finds which hair style and which shopper actually buys, while lifting order size past the free shipping line.",
+      "headline": "Turn one vague 'message us' ad into a set of product-led ads built around three real buyer types, aimed at the free shipping cart size.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Find out which product angle and which audience brings in buyers at a profit. We are learning, not scaling yet.",
+          "goal": "Find out which buyer type and which angle actually gets sales, not to scale. We want to learn what works before spending more.",
           "campaigns": [
-            "One sales campaign built to drive purchases on the site, not messages. Three ad sets, each aimed at one of the three avatars below.",
-            "One retargeting ad set for people who viewed products or added to cart but did not buy, leaning on the free gift at $99.99 and pay-later."
+            "One sales campaign with three ad sets, one per avatar, all pointing to product or collection pages, not the inbox.",
+            "One simple retargeting ad set for people who viewed a product or added to cart but did not buy, leaning on the free shipping and pay later offers."
           ],
           "lead_products": [
-            "Human Hair Water Wave Headband Wig ($145.10) - a glueless, easy-install wig. Headband wigs are beginner friendly and photograph well, so this is a strong hook for the quick-and-easy shopper.",
-            "Human Hair Kinky Headband Wig ($123.34) - same easy-install story, different texture, good for split testing which look pulls more.",
-            "French Curl Braiding Hair 28 inches ($5.80) - very low price, high volume item that pulls in the braider audience cheaply and gets carts started toward the $69.99 free shipping line.",
-            "Mane Concept Brown Sugar Wig ($65.29, was $101.57) - a clear on-sale deal that fits the deal-driven under-$100 shopper."
+            "Human Hair Water Wave Headband Wig ($145.10) and Human Hair Kinky Headband Wig ($123.34) - lead with these. They are glueless and 'easy install', which is the strongest single message for a busy first-time buyer, and headband wigs are one of the easiest wig types to sell cold. These are our best guess at hero products because they are the ones the brand chose to feature and describe most fully.",
+            "Sensationnel Empire Human Hair Feather Crochet Braids ($58.04) and French Curl Braiding Hair 28in ($5.80) - use these for the braids buyer, and pair the cheap braiding hair with other items to reach the $69.99 free shipping line.",
+            "Mane Concept Brown Sugar Wig (on sale $65.29, was $101.57) - use the sale price as the deal angle for the bargain hunter."
           ],
-          "creative": "Simple, real-looking video and photo of the install and the final look. Lead with the easy glueless install and the price. Show the offers plainly: free shipping over $69.99, free press-on nails at $99.99, and pay-later. Test three angles - 'ready to wear in minutes' for the headband wigs, 'name brands for less' for the on-sale wigs, and 'stock up for your next braid style' for the braiding hair. Change the ad goal from Send message to Shop or purchase.",
-          "budget": "Start around $50 to $70 CAD a day across the three ad sets, so each angle gets a fair test. Hold this steady for the full 30 days before judging.",
-          "what_success_looks_like": "Clear signal on which of the three angles and audiences brings buyers cheapest, a working purchase-focused campaign replacing the message ad, and average order value creeping toward the $69.99 free shipping line through bundles."
+          "creative": "Short video or simple before-and-after style images showing the wig on and how fast it goes on. Lead each ad with one clear message per avatar. Show the price and the free shipping and pay later offers on screen. Kill the 'Send message' button and send people to the product page to buy. Test 2 to 3 creatives per avatar.",
+          "budget": "Start around $50 to $70 CAD a day across the three avatars, then shift budget to whichever one is getting the cheapest sales after about two weeks.",
+          "what_success_looks_like": "By day 30 we know which avatar and which angle brings in the cheapest sales, we have at least one ad clearly beating the others, and the retargeting ad is bringing back cart abandoners. That is the base to scale from in month two."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
           "value": "$50 to $70 CAD a day",
-          "basis": "Enough to get roughly 30 to 40 clicks a day at typical costs in this category, spread across three angles, which is the floor for learning what works in 30 days."
-        },
-        {
-          "label": "Average order value we are planning around",
-          "value": "About $10.52 to start, aiming to lift it past $69.99",
-          "basis": "$10.52 is the median price across their 500 products, used as a stand-in since we cannot see real order data. The plan pushes bundles to clear the $69.99 free shipping line."
+          "basis": "Enough to get roughly 30 to 40 clicks a day at typical costs in this category, spread across three test audiences, which is the floor for learning which one works in 30 days."
         },
         {
           "label": "Revenue we would aim to add",
-          "value": "We would set this after the call, once we know real order size and margin",
-          "basis": "We have no access to their sales, spend, or return numbers, so any revenue figure now would be a guess. We need their true average order value and margin first."
+          "value": "We would set this after the call once we know the real average order and margin",
+          "basis": "The public median product price is about $10.52, which we are using as a stand-in for average order value. If that is the true order size, paid ads will struggle to pay for themselves. Their free shipping line at $69.99 and the $99.99 gift suggest they want bigger baskets, so the real average order is the single number we must confirm before promising any revenue figure."
         }
       ],
       "assumptions": [
-        "Their real average order value is higher than $10.52 because wigs run $65 to $145. If most orders are tiny accessories, paid ads get much harder and the plan leans harder on bundles.",
-        "The one 'Send message' ad is close to all they are running. If they have a bigger account we cannot see, the plan changes.",
-        "Their margin on wigs is healthy enough to pay for ads. We must confirm this on the call.",
-        "Checkout, shipping, and pay-later all work smoothly. We have not tested a real purchase."
+        "The real average order value is well above the $10.52 median, closer to the $69.99 free shipping line. If most orders are small single items, the whole paid plan changes.",
+        "The headband wigs are among their better sellers. If Maria says something else sells more, we lead with that instead.",
+        "They can ship reliably and handle more orders. Their same day shipping claim suggests yes.",
+        "They are willing to run ads that send people to product pages to buy, not just to message the store."
       ],
       "horizon_days": 30
     },
@@ -134,20 +128,20 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "What are you spending on Meta ads right now, and roughly what does a typical order come out to?",
-            "listening_for": "Whether they spend anything at all, and if their real order size is close to $10.52 or much higher because of wig sales. Low order size plus no budget makes this hard."
+            "question": "What are you spending on Meta right now, and who is running it?",
+            "listening_for": "Whether there is any real budget and whether they do it themselves or have an agency. One live 'message us' ad suggests very little is being spent. If budget is tiny, set expectations early."
           },
           {
-            "question": "Who runs your ads today - you, someone in-house, or another agency?",
-            "listening_for": "If Maria does it herself part time, if there is a past agency, or nobody. Tells us how much room there is and what we are replacing."
+            "question": "When someone buys from you, what is a normal order size in dollars?",
+            "listening_for": "This is the key number. If it is near $10 to $20, paid ads are very hard. If it is $70 plus because of the free shipping line, the plan works. Do not guess this for them, get the real answer."
           },
           {
-            "question": "Last time you ran ads to sell products, not just messages, what happened?",
-            "listening_for": "Whether they have ever run a real sales ad, what broke, and what they think worked. If they have never tried, expectations need setting."
+            "question": "On a wig that sells for around $120 to $145, roughly how much is left after you pay for it?",
+            "listening_for": "Their margin. Value stores selling other brands often run thin. If margin is small, we need higher order values or repeat buyers to make ads pay."
           },
           {
-            "question": "On a wig like the water wave headband at $145, roughly how much of that is profit after the product cost?",
-            "listening_for": "Whether margin can carry paid ads. If margin is thin on brand-name wigs, we need volume or higher-margin items to lead with."
+            "question": "Have you run ads that sent people to buy on the site before, and what happened?",
+            "listening_for": "Past results and past pain. If they tried and it flopped, find out if it was the ad, the offer, or the site. Their only current ad drives messages, not sales, so they may never have tested real buying traffic."
           }
         ]
       },
@@ -155,24 +149,20 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "When someone messages you from that ad, do they usually end up buying, or does it mostly go quiet?",
-            "listening_for": "Whether the Send message ad actually converts. If it does, we keep a version of it. If it leaks, we know why sales are low."
+            "question": "When people message that current ad, do those chats turn into sales?",
+            "listening_for": "Whether the 'Send message' approach works for them or just creates busywork. If chats rarely convert, that supports switching to product-page ads."
           },
           {
-            "question": "What is your best seller, and is it a wig, braiding hair, or a hair care product?",
-            "listening_for": "Confirms or corrects our guess to lead with the headband wigs. Their real best seller should be the lead product."
+            "question": "How much of your business comes from local London delivery versus shipping across Canada?",
+            "listening_for": "Whether to run a local-only fast delivery angle or a Canada-wide angle. The one hour delivery is a strong local hook but useless for a national audience."
           },
           {
-            "question": "Do most orders clear the $69.99 free shipping line, or come in under it?",
-            "listening_for": "Tells us how big the order-size problem is. If most carts are small, lifting order value is the main job."
+            "question": "Do you have any reviews, photos of real customers, or messages from happy buyers we could use?",
+            "listening_for": "There are no reviews on the site. If she has any proof sitting in DMs or texts, we can put it in ads. If there is truly none, we build trust another way and flag that ads will convert slower."
           },
           {
-            "question": "Why are there no customer reviews on the site - do you collect them anywhere, like Instagram or texts?",
-            "listening_for": "Whether social proof exists somewhere we can pull into ads. No proof at all makes the higher-priced wigs harder to sell cold."
-          },
-          {
-            "question": "How much of your business is local London delivery versus shipping across Canada?",
-            "listening_for": "Whether to split budget by geography. Strong local pull means a cheap local delivery angle we can lean on hard."
+            "question": "Which products actually sell the most for you right now?",
+            "listening_for": "Confirms or corrects our guess that headband wigs are the hero. Their real bestsellers should lead the ads. Do not assume, let her tell you."
           }
         ]
       },
@@ -180,56 +170,56 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "Do people ever find you by searching brand names like Sensationnel or Mane Concept, or 'braiding hair London Ontario'?",
-            "listening_for": "Real search demand. People search these brands and 'braiding hair near me' by name, so Google Search ads are an honest fit later."
+            "question": "Do you get many people finding you on Google searching for things like 'headband wig Canada' or 'braiding hair London Ontario'?",
+            "listening_for": "People clearly search for wigs and braiding hair by name and by city, so this is a real Google and local search opening. Listen for whether they show up now or are invisible. If they are invisible, that is a second project worth mentioning."
           },
           {
-            "question": "When someone in London wants braiding hair today, do they find you on Google, or go to a local shop?",
-            "listening_for": "Whether local search and a Google Business listing could capture same-day intent that Meta cannot."
+            "question": "Is most of your business online across Canada, or is the London store the core?",
+            "listening_for": "If local matters, local search and Google Maps are strong low-cost adds. If national, search ads on branded product terms fit better. Only push this if the answer gives a real reason."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "We are barely spending on ads now, so this feels like a big jump.",
-        "answer": "That is exactly why we start small - around $50 to $70 a day for 30 days just to learn. We are not asking you to scale spend before we know what sells. We find the winner first, then grow it."
+        "objection": "We already get sales from people messaging us, why change the ad?",
+        "answer": "That is good to hear, and we would not touch what works until the new ads prove out. But messages take your time and only reach people willing to chat. Ads that send people straight to buy can run while you sleep and reach the ones who just want to check out fast. We test it alongside what you have, we do not rip it out."
       },
       {
-        "objection": "Our prices are low, how can ads pay for themselves?",
-        "answer": "Low prices are why we build carts past your own $69.99 free shipping line and lead with your $65 to $145 wigs, not the $1 accessories. We would confirm your real order size and margin on the call before promising anything."
+        "answer": "You may not need much. Your offers are already strong, free shipping, a free gift, pay later. What is missing is showing a real product with a real reason to buy. We can start around $50 to $70 a day to learn what works, and only spend more once something is clearly paying off.",
+        "objection": "We do not have a big ad budget."
       },
       {
-        "objection": "The message ad brings us chats, why change it?",
-        "answer": "Chats are fine, but they need someone to reply and close. A purchase ad lets people buy at 2am without waiting on you. We can keep a message version running too and just add a real sales campaign beside it."
+        "objection": "How do I know ads will make money when I sell at low prices?",
+        "answer": "That is the exact thing I want to nail down with you. If most orders are small, ads are hard and I will tell you that straight. But your free shipping line at $69.99 and your bigger wigs at $120 plus suggest bigger baskets are normal. Tell me your real average order and I will tell you honestly if the numbers work."
       },
       {
-        "objection": "Do you need access to my ad account or my Shopify?",
-        "answer": "Everything so far was built from public data with no access. For the deeper work we would start with read-only access, nothing that lets us spend or change your store. You stay in full control."
+        "objection": "You do not have access to my account, so how can you really help?",
+        "answer": "For the plan we build first, I do not need it. Everything so far came from your public ad and site. Once we start, I would ask for read-only access so I can see your real numbers and stop guessing. You stay in control the whole time."
       }
     ],
     "red_flags": [
       {
-        "flag": "Median product price is only about $10.52 and much of the catalog is cheap accessories under a few dollars.",
-        "why_it_matters": "If real orders are that small, paid ads cannot pay for themselves. The whole plan depends on leading with wigs and building bigger carts, so we must confirm real order size early."
+        "flag": "The public median price is only about $10.52, and much of the catalog is cheap add-ons like gels, beads, and caps.",
+        "why_it_matters": "If real orders are that small, paid ads cannot pay for themselves. We must confirm the true average order value on the call before promising any results. Do not commit to revenue numbers until we know this."
       },
       {
-        "flag": "No reviews or social proof anywhere on the site.",
-        "why_it_matters": "Selling a $145 wig to a cold stranger is hard with zero proof. We need to find reviews on Instagram or texts, or expect weaker results until proof exists."
+        "flag": "No reviews anywhere on the site.",
+        "why_it_matters": "First-time buyers have nothing showing other people trust this store. Cold ad traffic converts slower without social proof. We need to gather reviews or customer photos early, or ads will underperform."
       },
       {
-        "flag": "The only live ad uses a Send message goal, not a purchase goal.",
-        "why_it_matters": "This suggests they may not be set up to track or drive online sales properly. Pixel, catalog, and checkout tracking all need checking before we spend."
+        "flag": "Only one live ad and it uses a 'Send message' button, not a buy action.",
+        "why_it_matters": "It tells us they have little paid experience and no proof that buying traffic converts on their site. We are starting close to zero, so set expectations that month one is about learning, not scaling."
       },
       {
-        "flag": "Prices show in USD on a Canada-focused store with a huge currency switcher.",
-        "why_it_matters": "Mixed or confusing currency at checkout can scare off Canadian buyers and hurt conversion. Worth confirming what shoppers actually see at checkout."
+        "flag": "The reply came from a braidswigs@gmail.com and a personal manager, while the lead email is maria@braidsandwigs.ca.",
+        "why_it_matters": "Small operation with one person wearing many hats. Decisions may be slower and budget tighter. Keep the ask simple and the starting spend low."
       }
     ],
     "other_channel_openings": [
-      "Google Search ads on brand names people already type, like Sensationnel and Mane Concept, plus terms like 'braiding hair Canada'. This is real search demand, not a new category.",
-      "Local search and a Google Business listing for 'braiding hair London Ontario' and 'wigs near me', which pairs with their same-day local delivery."
+      "Google Search: people actively search for wigs, headband wigs, and braiding hair by name, so branded product search ads and shopping could catch buyers already looking. Worth raising only after confirming order value works.",
+      "Local search and Google Maps for London, Ontario: their one hour local delivery is a strong hook, and 'braiding hair London Ontario' type searches are real. Low cost way to win nearby buyers if the store is a core part of the business."
     ]
   },
-  "generated_at": "2026-07-20T17:49:26.277Z"
+  "generated_at": "2026-07-20T18:00:33.390Z"
 }
