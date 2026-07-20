@@ -1,0 +1,164 @@
+{
+  "lead_company": "Shop Dreamers of Dreams",
+  "lead_first_name": "Elizabeth",
+  "website": "https://shopdreamersofdreams.com",
+  "brand_domain": "shopdreamersofdreams.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Handmade metaphysical crystal jewelry - one of a kind and small batch talismans crafted in San Francisco.",
+    "core_belief": "Jewelry is alchemy and transformation - each piece is a talisman made to bring out your inner rockstar, one gem at a time.",
+    "proof_points": [
+      "Handcrafted by Elizabeth Cline in her San Francisco studio, in business since 2019",
+      "Authentic Moldavite and ethically sourced natural crystals and gemstones from around the world",
+      "One of a kind and small batch pieces; every stone is unique in shape, color and organic imperfections",
+      "14k gold fill and gold plated components; arrives wrapped in a signature Dreamers Jewelry Box"
+    ],
+    "positioning": "Premium, artist-made wearable art at a mid-to-high price point - intentional and spiritual, not mass-produced or trend-driven."
+  },
+  "voice_pillars": [
+    {
+      "name": "Empowering Rockstar",
+      "desc": "Speaks to the wearer as already powerful, urging her to own her confidence boldly.",
+      "quote": "You were born ready; own it like the badass you are!"
+    },
+    {
+      "name": "Mystical + Sacred",
+      "desc": "Frames jewelry as ritual, alchemy and energy you can wear against your skin.",
+      "quote": "Each piece is a talisman of transformation."
+    },
+    {
+      "name": "Handmade + Intentional",
+      "desc": "Emphasizes slow, one-at-a-time craft infused with meaning and love.",
+      "quote": "Meticulously crafted, one piece at a time, in the heart of San Francisco."
+    },
+    {
+      "name": "Warm + Personal",
+      "desc": "Founder speaks in first person, treating each piece and buyer as a personal labor of love.",
+      "quote": "Each piece is a labor of love with symbolic meaning."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "own it like the badass you are",
+      "step into their power",
+      "awaken the goddess or queen within you",
+      "Chanel your Goddess Energy!",
+      "packaging as special as the piece inside",
+      "a talisman of transformation"
+    ],
+    "words": [
+      "alchemy",
+      "talisman",
+      "goddess",
+      "rockstar",
+      "intuitive",
+      "sacred",
+      "high vibe",
+      "one of a kind"
+    ],
+    "avoid": [
+      "mass-produced",
+      "trend-driven",
+      "cheap",
+      "clinical or corporate tone"
+    ]
+  },
+  "icp": "Spiritually curious women who value handmade, meaningful pieces and buy jewelry as a talisman for confidence, transformation and personal ritual - and are willing to invest in one of a kind art.",
+  "personas": [
+    {
+      "name": "The Mystic Seeker",
+      "description": "A crystal-loving woman drawn to energy, chakras and ritual who buys pieces chosen intuitively for their symbolic meaning."
+    },
+    {
+      "name": "The Inner Rockstar",
+      "description": "A bold self-expresser who wants jewelry that makes her feel like a warrior queen and gets noticed - moved by empowerment and confidence angles."
+    },
+    {
+      "name": "The Meaningful Gifter",
+      "description": "A thoughtful buyer shopping for someone ready to step into their power, drawn by the unboxing experience and signature Dreamers Box."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Petite Diamond Quartz Infinity Necklace",
+      "role": "Hero / best-seller",
+      "price": 225
+    },
+    {
+      "title": "Peach Lemurian + Turquoise Priestess Necklace",
+      "role": "Core",
+      "price": 235
+    },
+    {
+      "title": "Garnet Ammonite Portal Talisman",
+      "role": "Premium",
+      "price": 275
+    },
+    {
+      "title": "Ammonite Sacred Spiral Necklace",
+      "role": "Entry point",
+      "price": 125
+    }
+  ],
+  "offers": [
+    "30 Day Returns on unworn jewelry (exchanges for store credit on gifts)",
+    "One of a Kind, Moldavite, Herkimer Diamond and custom/made to order pieces are final sale",
+    "Worldwide shipping (USPS and DHL, cost calculated at checkout)",
+    "Free Shipping Bonus (referenced on site)",
+    "Loyalty Program and Subscription Box available",
+    "Gift Cards and 'Meaningful Gold: Under $100' entry-price collection"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handcrafted by Elizabeth Cline in San Francisco.",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Made with authentic Moldavite and ethically sourced natural crystals and gemstones.",
+        "source": "about page"
+      },
+      {
+        "claim": "One of a kind - each stone is unique in shape, color and organic imperfections.",
+        "source": "product pages"
+      },
+      {
+        "claim": "Made with 14k gold fill chain and lobster clasp (Petite Diamond Quartz Infinity Necklace).",
+        "source": "product page"
+      },
+      {
+        "claim": "Arrives wrapped in a signature Dreamers Jewelry Box.",
+        "source": "product pages"
+      },
+      {
+        "claim": "30 day returns on unworn jewelry and worldwide shipping.",
+        "source": "refund and shipping policy pages"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the jewelry 'sustainable' or 'eco-friendly' without specific backing.",
+        "why": "FTC Green Guides - unqualified sustainability claim not substantiated on site."
+      },
+      {
+        "claim": "Saying crystals are 'ethically sourced' as a blanket eco/social claim without verifiable proof.",
+        "why": "FTC Green Guides - vague sourcing claim needs specific, verifiable backing beyond the site statement."
+      },
+      {
+        "claim": "Stating the crystals 'heal', 'relieve pain' or treat any medical or physical condition.",
+        "why": "Banned medical claim - no health or orthopedic benefits may be promised."
+      },
+      {
+        "claim": "Claiming Moldavite or crystals 'download ancient wisdom' or deliver guaranteed energetic results as fact.",
+        "why": "Unprovable outcome claim - keep metaphysical language framed as tradition or intention, not a promised result."
+      },
+      {
+        "claim": "Describing packaging or materials as 'zero impact' or '100% recycled'.",
+        "why": "FTC Green Guides - unqualified environmental claim with no verifiable substantiation."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-20T14:01:32.447Z"
+}
