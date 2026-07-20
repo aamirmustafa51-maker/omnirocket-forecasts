@@ -134,5 +134,46 @@
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
   "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
-  "prospect_logo_url": "https://www.shopdreamersofdreams.com/cdn/shop/files/FAVICON_0c895392-da02-4a5f-926a-b409d7bf3e35.jpg?crop=center&height=32&v=1702494967&width=32"
+  "prospect_logo_url": "https://www.shopdreamersofdreams.com/cdn/shop/files/FAVICON_0c895392-da02-4a5f-926a-b409d7bf3e35.jpg?crop=center&height=32&v=1702494967&width=32",
+  "hero_concepts": [
+    {
+      "concept_name": "Worn, not staged",
+      "format": "Single image",
+      "hook": "Some signs you don't have to go looking for.",
+      "headline": "Intuition, worn close",
+      "primary_text": "The Owl of Intuition is for the days you already know the answer and just need something to hold while you act on it.\n\nA 1.5 inch gold owl with a labradorite drop that flashes blue when it catches the light, on an adjustable 20 inch chain so it sits exactly where you want it.\n\nMade by hand in San Francisco. Wrapped in a Dreamers gift bag.",
+      "cta": "Shop Now",
+      "visual_direction": "Close crop on the collarbone with the jawline just in frame, warm late afternoon window light, oatmeal knit top out of focus.",
+      "fills_gap": "Your ads show jewelry lying on a table, so a stranger scrolling past has no idea how big any of it actually is. Putting it on a neck answers that in half a second and gives the eye a person to stop on.",
+      "image_path": "hero-mockup.jpg",
+      "reference_title": "Owl of Intuition Necklace",
+      "reference_url": "https://www.shopdreamersofdreams.com/products/owl-of-intuition-necklace"
+    },
+    {
+      "concept_name": "What the owl means",
+      "format": "Single image",
+      "hook": "Seeing beyond the darkness.",
+      "headline": "The Owl of Intuition",
+      "primary_text": "The owl doesn't wait for the light. It sees anyway.\n\nThat is the whole idea behind this one. A gold owl with a labradorite drop, worn as a reminder that you already have the vision and you are just learning to trust it.\n\nHand made in small batches in San Francisco.",
+      "cta": "Shop Now",
+      "visual_direction": "The pendant against a deep indigo night sky, single shaft of moonlight, low mist, high contrast bright subject on dark ground.",
+      "fills_gap": "Every ad you run right now sells handcrafted crystal jewelry, which is the same thing your whole category says. This one sells what the owl means, and that is a line only you can write.",
+      "image_path": "hero-mockup-2.jpg",
+      "reference_title": "Owl of Intuition Necklace",
+      "reference_url": "https://www.shopdreamersofdreams.com/products/owl-of-intuition-necklace"
+    },
+    {
+      "concept_name": "Rock to wearable art",
+      "format": "Single image",
+      "hook": "It started as a rock in Brazil.",
+      "headline": "Wearable art, one of one",
+      "primary_text": "Every Peach Lemurian point is hand selected, then set in a bezel I sculpt and gild myself. No two come out the same, so each one is made once and never again.\n\nFaceted turquoise and gold plated hematite on a 30 inch adjustable chain, with a peach Lemurian point about 3 inches long. I am Earth, I am Water, I am Sky, I am Fire.\n\nMade by Elizabeth Cline in San Francisco.",
+      "cta": "Shop Now",
+      "visual_direction": "Overhead on a linen and weathered wood workbench, raw uncut crystal and worn pliers on the left, finished necklace on the right.",
+      "fills_gap": "Nothing in your ads right now shows that a person makes these by hand, so the price has to defend itself. Putting the raw stone next to the finished piece turns wearable art into something they can see.",
+      "image_path": "hero-mockup-3.jpg",
+      "reference_title": "Peach Lemurian Turquoise Priestess Necklace",
+      "reference_url": "https://www.shopdreamersofdreams.com/products/peach-lemurian-turquoise-priestess-necklace"
+    }
+  ]
 }
