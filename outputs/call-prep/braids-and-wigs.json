@@ -1,0 +1,230 @@
+{
+  "lead_first_name": "Maria",
+  "lead_last_name": "Mushi",
+  "lead_email": "maria@braidsandwigs.ca",
+  "lead_company": "Braids and Wigs",
+  "website": "https://braidsandwigs.ca",
+  "brand_domain": "braidsandwigs.ca",
+  "currency": "USD",
+  "smartlead_campaign": "OR #6 | Personalized Line | Forecast Lead Magnet | Without Other Contact Name",
+  "magnet": {
+    "kind": "forecast",
+    "report_url": "https://omnirocket-forecasts.vercel.app/forecast/braids-and-wigs",
+    "report_label": "Fatigue Forecast (their ads wearing out)",
+    "report_opens": 5,
+    "playbook_opens": 0,
+    "last_opened_at": "2026-07-15T17:37:57.277Z"
+  },
+  "thread": [
+    {
+      "direction": "sent",
+      "from": "kyle.h@omni-rocketpro.com",
+      "to": "maria@braidsandwigs.ca",
+      "subject": "Braids and Wigs ad report",
+      "body_text": "Maria, saw braids and wigs leans on same day shipping plus local delivery in about an hour, curious how that's been landing.\n\n separate note: I made Braids and Wigs a 4-min ad fatigue report from your live Meta ads. the one about to die, the duplicate eating budget, which to scale, and a fresh angle to test.\n\n most ecom brands in your niche usually run the same handful of ads too long. this spots it before ROAS drops.\n\n worth a look?\n\n Kyle H.\n Co-founder | OmniRocket\n\n P.S. if there's a better person for this, point me their way :)",
+      "sent_at": "2026-07-07T17:23:12.430Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@omni-rocketpro.com",
+      "to": "maria@braidsandwigs.ca",
+      "subject": "RE: Braids and Wigs ad report",
+      "body_text": "Maria - forgot to mention: the report also catches the ad Meta is quietly throttling. it's usually a near-copy of another ad that's eating budget without you noticing.\n\n Braids and Wigs's is still sitting ready on my end - want me to send it?\n\n - Kyle\n\n P.S. if it's not you, who should I reach out to?",
+      "sent_at": "2026-07-09T17:26:44.505Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@omni-rocketpro.com",
+      "to": "maria@braidsandwigs.ca",
+      "subject": "RE: Braids and Wigs ad report",
+      "body_text": "Maria - last check on this.\n\n should I shelve Braids and Wigs's fatigue report, or is there a better week to send it? no worries either way - just don't want to keep landing in your inbox.\n\n - Kyle\n\n P.S. if timing's just off, ping me in a few weeks - still happy to send.",
+      "sent_at": "2026-07-14T17:26:11.409Z"
+    },
+    {
+      "direction": "reply",
+      "from": "braidswigs@gmail.com",
+      "to": "kyle.h@omni-rocketpro.com",
+      "subject": "",
+      "body_text": "Hi Kyle,\n \n\n Thank you for following up. Before we move forward, could you clarify what you'd need from us, specifically, did you need access to our Meta ad account to put this report together and if so, what level?\n \n\n Best regards,\n \n\n \r\n Maria Mushi \n Manager – Braids and Wigs \n London, Ontario \n 226-504-1321 \n www.braidsandwigs.ca",
+      "sent_at": "2026-07-15T13:30:51.000Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@omni-rocketpro.com",
+      "to": "braidswigs@gmail.com",
+      "subject": "",
+      "body_text": "Hi Maria,\n\n great question, and the short answer is nothing needed on your end for what i already built.\n\nhere's the report btw: Braids and Wigs Ad Fatigue Report \n\n this report was built entirely from public data. i pulled your live ad from meta's ad library and analyzed them from the outside, so no account access was involved at all.\n\n access only comes into play for the deeper work: a full audit plus a 30 and 90 day plan mapped to your actual numbers.\n\n the way we work is we hop on a quick call first, i get to understand your brand and where you're trying to go, and if we're a good fit we move forward. that's the point where i'd need access, and we'd start with read-only.\n\n worth a 30 min chat to see if it's a fit?\n\n Book a time here → Calendar \n\n - Kyle",
+      "sent_at": "2026-07-15T14:35:14.653+00:00"
+    }
+  ],
+  "facts": {
+    "product_count": 500,
+    "price_low": 0.57,
+    "price_high": 507.88,
+    "typical_price": 10.52,
+    "review_count": 0,
+    "instagram_followers": null,
+    "running_ads": 1
+  },
+  "copy": {
+    "tldr": "Braids and Wigs is a value-driven Canadian hair retailer with 500 SKUs but only one live Meta ad set to 'Send message' and zero reviews on site, so the first win is picking a hero wig, running real shopping ads, and fixing the missing social proof.",
+    "deep_dive": {
+      "what_they_are": "A Canadian online beauty store based in London, Ontario. They sell wigs, braiding hair, extensions, and hair and skin care from many known brands like Outre, Sensationnel, Freetress, and Ampro.",
+      "what_they_sell": "About 500 products. Prices run from under a dollar for beads and ties up to about 508 dollars for premium human hair. Their median price is 10.52 dollars, which we are using as a stand-in for average order value since we cannot see their real numbers. The big-ticket items are human hair wigs and bundles in the 58 to 145 dollar range.",
+      "positioning": "High-variety value play. Name-brand looks at low prices, with buy now pay later, free press-on nails at a cart threshold, and fast local delivery in London. Not a boutique premium house.",
+      "who_buys": "Value-conscious Canadian women who wear protective styles - wigs, braids, weaves, crochet - and want name-brand looks fast, affordably, and with easy pay-later options.",
+      "customer_voice": [],
+      "strengths": [
+        "Strong local hook that most competitors cannot match: same day shipping and local delivery in London within about an hour.",
+        "Buy now pay later plus free shipping over 69.99 dollars and a free gift at 99.99 dollars. These are real reasons to buy and real reasons to raise cart size."
+      ],
+      "gaps": [
+        "Only one live Meta ad and it points to 'Send message', not a product page or checkout. That is a chat funnel, not a selling funnel. We cannot track sales from a message button.",
+        "No reviews anywhere on the site. With 500 products and no social proof, cold shoppers have no reason to trust a first order. This makes paid ads harder and it needs fixing early."
+      ]
+    },
+    "game_plan": {
+      "headline": "Turn one hero wig into a real shopping funnel, test three buyer angles, and find the one audience and creative that sells before we talk about scaling.",
+      "phases": [
+        {
+          "window": "Days 1-30",
+          "goal": "Find out which angle and which audience actually buys. Move them off the 'Send message' button and onto a real product and checkout funnel we can track. Not scaling yet, just learning what works.",
+          "campaigns": [
+            "Sales campaign pointing to product pages and checkout, not a chat button. This is the core test.",
+            "A small retargeting campaign for people who viewed a wig or added to cart but did not buy, leaning on free shipping, the free gift, and pay later."
+          ],
+          "lead_products": [
+            "Human Hair Kinky Headband Wig - Glueless and Easy Install (123.34 USD). Lead with this. Headband wigs are the easiest install for beginners, 'glueless' removes the biggest fear new wig buyers have, and it sits at a strong price point that clears the free shipping and free gift thresholds. Good hook for the 'easy and fast' buyer.",
+            "Sensationnel Cloud 9 Swiss Lace What Lace 13x6 Frontal Wig - Glenna (79.80 USD). A name-brand lace wig under 100 dollars. Good hook for the buyer who wants a melted, natural hairline without premium pricing. Uses the exact words their customers use: 'melted hairline', 'perfect hairline'.",
+            "Mane Concept Brown Sugar Wig (65.29 USD, was 101.57). A clear sale price. Good hook for the deal-driven buyer who buys because it feels like a steal."
+          ],
+          "creative": "Simple video or clip showing the glueless headband wig going on in seconds, plus a lace wig install showing a clean hairline. Three angles, one per avatar (see below). Use their real words: 'melted hairline', 'perfect hairline', 'extra hold', 'without the huge price tag'. Every ad ends on the offer: free shipping over 69.99, free press-on nails at 99.99, pay later available. Avoid all banned claims - no 'repairs hair', no 'regrows', no 'clinically proven'.",
+          "budget": "Start around 150 USD a day across the test. That is enough to learn which angle and audience works in 30 days without burning money before we know anything.",
+          "what_success_looks_like": "By day 30 we know which of the three angles gets the cheapest clicks and the most add-to-carts, which wig sells best, and whether the funnel converts once we send real traffic to a real product page instead of a chat button. We want at least one angle showing sales we can repeat."
+        }
+      ],
+      "estimates": [
+        {
+          "label": "Starting budget",
+          "value": "150 USD a day, about 4,500 USD over 30 days",
+          "basis": "Enough to get roughly 30 to 40 clicks a day at typical costs in this category, which is the floor for learning which angle and audience works across three tests at once."
+        },
+        {
+          "label": "Average order value we are planning around",
+          "value": "About 10.52 USD, but likely higher in practice",
+          "basis": "10.52 is the median catalog price and we are using it as a stand-in since we cannot see real order data. Real orders will run higher because the wigs we lead with sit at 65 to 145 dollars and the free shipping and free gift thresholds push carts toward 70 to 100 dollars. We need their real average order value to firm this up."
+        },
+        {
+          "label": "Revenue we would aim to add",
+          "value": "We are not putting a revenue number on this yet",
+          "basis": "The public data does not support one. We cannot see their current spend, sales, or how the funnel converts today. Month one is a learning test, not a scale. Once we know their real average order value and how the funnel converts, we can put an honest number on month two and three."
+        }
+      ],
+      "assumptions": [
+        "Their margin on the 60 to 145 dollar wigs is enough to carry paid ads. If margin is thin, the plan changes to higher-price bundles only.",
+        "They are willing to send ads to product pages and checkout instead of the 'Send message' button. If they insist on chat-only, the whole tracking plan changes.",
+        "They can add reviews or testimonials to key product pages in month one. Without social proof, cold ads will struggle.",
+        "The median 10.52 price is not their real average order value. Real orders are likely higher because the free shipping threshold is 69.99. We need the real number."
+      ],
+      "horizon_days": 30
+    },
+    "discovery": [
+      {
+        "name": "Qualify",
+        "questions": [
+          {
+            "question": "Are you running any paid ads right now, and if so, what are you spending a month?",
+            "listening_for": "We saw only one live ad set to 'Send message'. Find out if that is their whole effort or if there is more we cannot see. If they spend almost nothing, the 150 a day plan is a real step up and we frame it that way. If they already spend a lot with no results, dig into why."
+          },
+          {
+            "question": "Who runs the ads today - you, a staff member, or another agency?",
+            "listening_for": "If Maria does it herself between other jobs, that explains the single chat-button ad. If another agency ran it and left, ask what went wrong. Listen for whether there is anyone to make creative and answer product questions fast."
+          },
+          {
+            "question": "What is your average order value, and roughly your margin on the wigs in the 60 to 145 dollar range?",
+            "listening_for": "This is the number that makes or breaks the whole plan. We are using 10.52 as a placeholder but that is just the median catalog price. If real orders are 70 to 100 dollars and margin is healthy, paid ads work. If most orders are cheap accessories at a few dollars, ads will not carry."
+          },
+          {
+            "question": "Last time you tried to grow with ads, what happened?",
+            "listening_for": "Did they ever get sales from ads, or only messages? If they only ever used the chat button, they may not know what a real sales funnel can do. Listen for past disappointment so we can address it head on."
+          }
+        ]
+      },
+      {
+        "name": "Diagnose",
+        "questions": [
+          {
+            "question": "Why does your current ad send people to 'Send message' instead of the product page or checkout?",
+            "listening_for": "This is the biggest single thing to fix. If they lean on chat because customers ask a lot of questions before buying, that tells us the product pages are missing info or trust. If it is just how they set it up, easy fix. Either way we cannot track sales off a message button."
+          },
+          {
+            "question": "You have no reviews on the site. Do you have happy customers we could pull testimonials or photos from?",
+            "listening_for": "With 500 products and zero social proof, cold shoppers have nothing to trust. Listen for whether they have Instagram comments, DMs, or repeat buyers we can turn into reviews and review-style ads. If they have none at all, that is a bigger problem."
+          },
+          {
+            "question": "Which products actually sell best for you right now, online and in local delivery?",
+            "listening_for": "We are guessing the headband wig and the under-100 lace wigs are strong picks, but they know. If their real bestseller is something cheap or something we did not name, we lead with that instead. Do not lock the plan until we hear this."
+          },
+          {
+            "question": "How much of your business is local London delivery versus shipping across Canada?",
+            "listening_for": "The one-hour local delivery is a strong hook nobody else has. If a big chunk of sales is local, we can run a cheap, high-converting local campaign alongside the national test. If it is tiny, we treat it as a nice bonus, not the main play."
+          }
+        ]
+      },
+      {
+        "name": "Expand",
+        "questions": [
+          {
+            "question": "Do you get people searching for you or for specific brands like Sensationnel or Outre and finding you on Google?",
+            "listening_for": "People clearly search for these brands and for 'wigs' and 'braiding hair' by name. That is a real Google opening. Listen for whether they show up at all in search today. If they rank for nothing, there is room for search ads and SEO later. Do not push it in month one, just plant it."
+          },
+          {
+            "question": "How much of your traffic comes from people in London or Ontario looking for a local hair shop?",
+            "listening_for": "Local search for 'wig shop near me' or 'braiding hair London Ontario' is a strong, cheap opening for Google and a Google Business listing. If they get walk-in or pickup demand, this is worth raising after the Meta test proves out."
+          }
+        ]
+      }
+    ],
+    "objections": [
+      {
+        "objection": "Our ad already gets us messages and some sales, why change it?",
+        "answer": "Messages are fine but you cannot see which ad, which product, or which audience actually made a sale off a chat button, so you cannot double down on what works. Sending people to a real product page and checkout lets us track every sale and put more money behind the winners. We can keep a chat option, we just stop flying blind."
+      },
+      {
+        "objection": "We sell cheap items, does paid advertising even make sense for us?",
+        "answer": "Not for the dollar beads and ties, no. But your wigs run 60 to 145 dollars and your free shipping kicks in at 69.99, so real carts are much bigger than the catalog median. We lead ads with the wigs, not the accessories, and we let the free gift and pay later push cart size up. That is what makes the math work."
+      },
+      {
+        "objection": "We have no reviews, so will ads even convert?",
+        "answer": "That is exactly why we flag it early. No social proof is the single biggest thing holding back cold ads for you. Fixing it is cheap - we pull testimonials and photos from your happy customers and Instagram and put them on the key wig pages and inside the ads. That work happens in month one alongside the test."
+      },
+      {
+        "objection": "How do I know this will work before I spend a few thousand dollars?",
+        "answer": "You do not, and I will not pretend otherwise. Month one is a small, controlled test, not a scale. The whole point is to spend a little to find out which angle and which audience sells, so that if we scale we scale something we know works. If nothing works in 30 days, you have learned that cheaply instead of guessing for a year."
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "No reviews anywhere on the site across 500 products.",
+        "why_it_matters": "Cold shoppers have no reason to trust a first order. This drags down conversion on any paid traffic we send. It needs fixing in month one or the ads underperform no matter how good they are."
+      },
+      {
+        "flag": "The one live ad sends people to 'Send message', not a product page or checkout.",
+        "why_it_matters": "We cannot track which ad or product drove a sale through a chat button, so we cannot optimise or scale. This is the funnel problem we have to solve before spend goes up."
+      },
+      {
+        "flag": "Median catalog price is only 10.52 dollars and prices start under a dollar.",
+        "why_it_matters": "If most real orders are cheap accessories, there is not enough margin to carry paid ads. We must confirm real average order value on the call. The plan only works if orders trend toward the 60 to 145 dollar wigs and the 69.99 free shipping threshold."
+      },
+      {
+        "flag": "Storefront prices show in USD while the business is Canadian and ships Canada-wide.",
+        "why_it_matters": "A currency that does not match the buyer's location can add friction and confusion at checkout. Worth checking so we do not lose sales the ads paid for."
+      }
+    ],
+    "other_channel_openings": [
+      "Google Search ads on branded terms. People actively search for the brands they carry like Sensationnel, Outre, and Freetress, plus 'wigs' and 'braiding hair'. That is real existing demand we can capture, best raised after the Meta test proves the funnel.",
+      "Local Google and a Google Business listing for London, Ontario. Their one-hour local delivery is a strong hook and people do search 'wig shop near me'. Cheap, high-intent traffic that fits their local edge."
+    ]
+  },
+  "generated_at": "2026-07-20T17:16:38.234Z"
+}
