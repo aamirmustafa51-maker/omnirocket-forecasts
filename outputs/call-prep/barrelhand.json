@@ -53,85 +53,85 @@
     "running_ads": 0
   },
   "copy": {
-    "tldr": "Barrelhand sells a $9,750 mechanical spaceflight watch called Monolith with no reviews and no ads currently visible, so this call is about starting a considered-purchase funnel from zero, not fixing a broken account.",
+    "tldr": "Barrelhand sells a $9,750 mechanical spaceflight watch called Monolith with no visible reviews and no ads we can find running, so this call is about building paid social from zero for a high-ticket, long-consideration product, not fixing a leaky account.",
     "deep_dive": {
-      "what_they_are": "An engineering-first independent watchmaker based in San Francisco. They frame themselves as a platform for space exploration tools, not a heritage luxury brand. Very early stage and mission-driven.",
-      "what_they_sell": "One flagship product we can confirm: the Monolith, an ultra-premium mechanical toolwatch built for spaceflight, priced at $9,750 in three strap colorways (Barrelhand Orange, Black, and Black & Orange). Next batch deliveries start Q4 2026 and orders are fully refundable before shipment. They also have a Memory Disc initiative and a Project One, plus downloadable non-commercial source files. Do not describe the Disc or Project One in detail, we do not have the facts.",
-      "positioning": "Top of the market. Technical, mission-driven, frontier-minded. Not selling status, selling engineering and being early to a story about life beyond Earth.",
-      "who_buys": "Serious watch collectors and space and tech enthusiasts with high disposable income. People who value provable engineering, being early, and the frontier narrative. Small, specific, high-value buyers.",
+      "what_they_are": "An engineering-first independent watch brand out of San Francisco. They frame themselves as a platform building tools for the next chapter of space exploration. They are not a heritage luxury house. They are a frontier-tech maker.",
+      "what_they_sell": "Their flagship is the Monolith, a mechanical toolwatch built for spaceflight, priced at $9,750. It comes in three strap colorways: Barrelhand Orange, Black, and Black & Orange. Next batch deliveries start Q4 2026 and orders are fully refundable before shipment. They also have a Memory Disc initiative and mention a Project One, but the Monolith is clearly the product that carries the brand.",
+      "positioning": "Top-tier, technical, and mission-driven. They lean on real engineering language: understandable, serviceable, adaptable over time, built to endure harsh environments. This is a collector and enthusiast story, not a mass-market watch.",
+      "who_buys": "Serious watch collectors and space-and-technology enthusiasts with high disposable income. People who want to be early to a frontier story and who value provable engineering over brand heritage.",
       "customer_voice": [],
       "strengths": [
-        "Strong, distinctive brand voice and story. A $9,750 watch about space is inherently scroll-stopping, which is rare and useful for cold ads.",
-        "High price point means one sale is worth a lot. You do not need volume to make paid ads pay back, you need a handful of the right buyers."
+        "A sharp, distinctive story. 'A window to the future' and 'spaceship for your wrist' are strong, ownable hooks that stand out in a feed.",
+        "A clear flagship product with a clean lineup of three colorways, which makes early ad testing simple. No sprawling catalog to sort through."
       ],
       "gaps": [
-        "No visible reviews or social proof anywhere on the site. For a five-figure purchase from an unknown brand, that is a serious trust hole.",
-        "No Meta ads found running, so there is no existing winner to scale. We are building the funnel from scratch, and delivery does not start until Q4 2026, which lengthens the buying decision."
+        "No reviews or social proof anywhere on the site. For a $9,750 purchase, trust is the whole game, and right now there is nothing on the page to build it.",
+        "No Meta ads we can find running, so there is no history of what creative or audience works. We are starting from a blank slate."
       ]
     },
     "game_plan": {
-      "headline": "Build a warm audience around the Monolith story first, then convert the small pool of high-intent collectors into refundable pre-orders.",
+      "headline": "Build a cold-to-collector funnel from zero: lead with the Monolith's story to warm high-intent buyers, then use retargeting and trust-building to close a rare, high-ticket sale.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Prove that cold people will stop, watch, and click for this brand at all. Find one ad angle that earns cheap attention.",
+          "goal": "Prove that we can get the right people to stop, click, and raise their hand. At $9,750 we are not expecting sales in week one. We are proving demand and building an audience we can sell to.",
           "campaigns": [
-            "One prospecting campaign to cold audiences testing the 3 Scroll-Stopper ads against each other",
-            "A view and engagement capture so we can retarget everyone who watched or clicked next month"
+            "Cold prospecting to a small set of interest and lookalike audiences, sending traffic to the Monolith page and the newsletter for early access.",
+            "A basic retargeting campaign for anyone who visits the site or watches the ads, so no interest is wasted."
           ],
           "lead_products": [
-            "The Monolith. It is the only product we can confirm and price, and it is the flagship the whole brand is built around. We lead with it because it is the story, not because we know it outsells anything else."
+            "Monolith is the only product we lead with. It is the flagship, it has a clear price and three colorways, and the whole brand story is built around it. There is no second product ready to carry ads yet."
           ],
-          "creative": "Run all 3 ads from the Scroll-Stopper Sheet. Lead with the ad that carries the strongest story hook (the 'spaceship for your wrist' / window to the future angle), because a $9,750 watch is bought on story and engineering belief, not on discount. The other two test the engineering-proof angle and the frontier-early angle. Stay inside the brand rules: no NASA claims, no 'flown in space', no 'best in the world', no fake urgency.",
-          "budget": "Start small and steady. See estimate below.",
-          "what_success_looks_like": "One ad clearly beating the others on cheap clicks and video views, plus a growing pool of people we can retarget. We are NOT expecting sales yet at this price point."
+          "creative": "Start with the three ads from the Scroll-Stopper Sheet. Lead with the strongest hook first: the 'spaceship for your wrist / window to the future' angle, because it is the most scroll-stopping and it captures the whole brand in one line. The other two ads run right behind it so we can see which story pulls hardest. All copy stays inside the playbook rules: no NASA claims, no 'flown in space,' no fake scarcity.",
+          "budget": "Start small and controlled while we learn.",
+          "what_success_looks_like": "We can see which ad and which audience pull the cheapest clicks and the most newsletter signups and add-to-carts. We have a growing retargeting pool. We are not judging this month on sales."
         },
         {
           "window": "Days 31-60",
-          "goal": "Put more money behind the winning angle and start turning warm attention into leads and refundable pre-orders.",
+          "goal": "Put more money behind the winning ad and audience from month one, and widen the reach without losing quality. Start turning warm interest into first sales.",
           "campaigns": [
-            "Scale the winning cold ad and build 2 new versions off the same angle",
-            "A retargeting campaign to everyone who watched or clicked in month one, pushing newsletter signup and the fully refundable pre-order"
+            "Scale the winning cold ad and audience from Phase 1, and test two or three new lookalike audiences built off the people who engaged.",
+            "Build out proper retargeting: for people who viewed the Monolith page but did not act, show them the engineering proof, the serviceability story, and the fully-refundable-before-shipment offer to lower the risk of buying."
           ],
           "lead_products": [
-            "Monolith again, now split-tested by strap colorway to see which the market pulls toward (Barrelhand Orange vs Black vs Black & Orange)."
+            "Still Monolith. This is the month we start pushing the specific colorways, likely leading with Barrelhand Orange since it is the signature brand color and the most distinctive on screen."
           ],
-          "creative": "Widen the cold audience around the winning angle. On retargeting, lean on the refundable pre-order to lower the risk of a five-figure commitment, and use the newsletter as a softer step for people not ready to buy.",
-          "budget": "Raise budget only on what won in month one.",
-          "what_success_looks_like": "First refundable pre-orders or a steadily growing qualified email list, and a clear read on which colorway and message people respond to."
+          "creative": "Fresh versions of whatever won in month one. Add creative that answers the trust gap directly: close-up engineering detail, the 'serviceable and adaptable over time' promise, and the refundable-before-shipment safety net. This is where we work around the no-reviews problem.",
+          "budget": "Step up from the Phase 1 floor, weighted toward the winner.",
+          "what_success_looks_like": "First sales or serious sales conversations, a cost-per-click and cost-per-lead we trust, and a retargeting audience big enough to sell to steadily."
         },
         {
           "window": "Days 61-90",
-          "goal": "Scale what is working and add a second offer to widen the funnel.",
+          "goal": "Scale the proven setup and introduce a second product to the funnel so we are not resting on one item.",
           "campaigns": [
-            "Scale the winning cold and retargeting setup",
-            "Introduce a second product or offer to bring in people not ready for a $9,750 purchase (the Memory Disc, or a lower-commitment entry point) - pending what Karel tells us it actually is and its price"
+            "Scale the winning cold and retargeting campaigns with more budget, holding the cost-per-result steady.",
+            "Introduce a second product or initiative (the Memory Disc or Project One, depending on what is actually for sale) as a lower-friction entry point or a second story for the audience we have already built."
           ],
           "lead_products": [
-            "Monolith as the hero, plus a second offer to be confirmed on the call. We cannot name the second product's price or details from public data, so this phase depends on discovery."
+            "Monolith stays the anchor. We add the Memory Disc or Project One as a second offer, but only after Karel confirms it is actually purchasable and at what price. We do not guess."
           ],
-          "creative": "Best-performing Monolith ads at higher spend, plus fresh creative for the second offer once we know what it is.",
-          "budget": "Scale in line with what the earlier phases return.",
-          "what_success_looks_like": "A repeatable path from cold ad to pre-order that we can keep feeding, plus a second entry point bringing in cheaper leads we warm up over time."
+          "creative": "Best-performing Monolith ads at higher spend, plus new creative for the second product built in the same brand voice.",
+          "budget": "Highest of the three phases, only on what has proven it works.",
+          "what_success_looks_like": "A repeatable setup that produces sales at a cost Karel is happy with, plus a second product starting to pull its own weight."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
-          "value": "$100 to $150 a day to start",
-          "basis": "enough to get a few hundred clicks and thousands of video views a week, which is the floor for learning which of the 3 ads earns attention before we spend real money"
+          "value": "Around $100 to $150 a day to start",
+          "basis": "Enough to get a few dozen clicks a day at typical costs in this category, which is the floor for learning which ad and audience work. For a $9,750 product we expect a long consideration window, so early spend is about learning, not sales."
         },
         {
           "label": "Revenue we would aim to add",
-          "value": "We cannot honestly put a number on this before the call",
-          "basis": "at $9,750 an order, one or two sales swings the whole result, and with no past ad data and delivery not starting until Q4 2026 we would be guessing. We need to know their past conversion history and margin first."
+          "value": "We cannot put an honest number on this yet",
+          "basis": "At $9,750 per unit, revenue depends almost entirely on how many buyers exist and how long they take to decide, and we have no view of their current traffic, list size, or past sales. We would need the numbers in the discovery section before promising any figure. Saying anything now would be a guess."
         }
       ],
       "assumptions": [
-        "The Monolith at $9,750 is the main thing they want to sell right now.",
-        "They can accept refundable pre-orders ahead of Q4 2026 delivery and are comfortable advertising a product that ships later.",
-        "There is real buyer intent for a five-figure independent space watch, which the long buying cycle and lack of reviews may slow down.",
-        "Karel told us they are already running Meta ads, but we found none live. The account status is unknown until he confirms it."
+        "The Monolith at $9,750 is the main product and the one worth advertising first.",
+        "There is enough margin in a $9,750 watch to fund paid ads even with a long sales cycle. If margin is thin because of build cost, the plan changes.",
+        "The site can take orders and the checkout works, or the newsletter/early-access path is the real conversion step for now.",
+        "There is no hidden library of reviews or testimonials we could be using. If there is, we build the whole plan around it much faster."
       ],
       "horizon_days": 90
     },
@@ -140,20 +140,20 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "You mentioned you're already running Meta ads. Can you walk me through what's live right now and what you're spending?",
-            "listening_for": "We could not find any live ads. Listen for whether they are actually running, paused, or were never really live. This tells you if you are fixing or starting from zero."
+            "question": "You mentioned you're already running Meta ads. What are you spending a month right now, and who's running it?",
+            "listening_for": "Real current spend and whether it's in-house, a freelancer, or another agency. This tells Kyle if he's replacing someone or building fresh, and whether there's any account history to learn from."
           },
           {
-            "question": "Who's handling the ads today, you or an agency or someone in-house?",
-            "listening_for": "Whether there is an incumbent to replace, or nobody, or Karel doing it himself. Shapes how you position taking over."
+            "question": "How's it been going so far? What have those ads actually done for you?",
+            "listening_for": "Sales, leads, or nothing. Whether Karel is happy or frustrated. If they've had zero sales from ads, that reframes the whole call around starting properly, not optimizing."
           },
           {
-            "question": "On a $9,750 watch, what does your margin look like after everything? Roughly what can you afford to pay to get one sale?",
-            "listening_for": "A real number for what a customer is worth. At this price there is likely plenty of room, but you need it to set the budget honestly."
+            "question": "On a $9,750 watch, roughly how much room is there after you cover the build cost? I'm not after exact numbers, just whether there's enough to fund ads.",
+            "listening_for": "Whether margin can carry paid ads for a long consideration product. A high-ticket item usually has room, but a hand-built watch can be expensive to make. If margin is thin, spend has to be tighter."
           },
           {
-            "question": "How many Monoliths have you sold so far, and how did those buyers find you?",
-            "listening_for": "Whether they have any sales at all yet, and whether sales came from ads, word of mouth, or press. This is the single most important fact you are missing."
+            "question": "How many Monoliths have you actually sold so far, and how long does a typical buyer take from first hearing about you to ordering?",
+            "listening_for": "The real demand and the length of the sales cycle. This is the single biggest thing shaping expectations. A months-long decision means month one is never about sales."
           }
         ]
       },
@@ -161,20 +161,24 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "When someone does buy, how long does it usually take from first hearing about you to placing the order?",
-            "listening_for": "Long buying cycles are normal at five figures. If it is weeks or months, the plan leans harder on retargeting and email, not quick cold sales."
+            "question": "When someone lands on the Monolith page today, what happens? Can they buy right there, or is it more about joining the list for the next batch?",
+            "listening_for": "Whether the conversion point is a direct purchase or a newsletter signup for Q4 2026 delivery. This decides what we even optimize the ads toward."
           },
           {
-            "question": "There are no reviews or buyer stories on the site. Do you have any customers, press, or testimonials we could point to?",
-            "listening_for": "Any proof at all. If they have owners or press coverage, we can use it. If truly nothing, the ads have to carry all the trust and that changes the creative."
+            "question": "You've got no reviews or customer stories on the site. Do you have any anywhere - emails, DMs, collector forum posts, press?",
+            "listening_for": "Any trust material at all. For a $9,750 unproven purchase this is the biggest gap. Even a few real owner quotes or a press mention changes what creative we can run."
           },
           {
-            "question": "When people land on the site but don't buy, what do you think stops them? Price, the Q4 2026 wait, or just not knowing you?",
-            "listening_for": "Their own read on the drop-off. Points you at whether the problem is trust, the delivery wait, or awareness."
+            "question": "Which colorway sells best, and is there one you push hardest?",
+            "listening_for": "Whether Barrelhand Orange, Black, or Black & Orange leads. Helps decide which product image we lead with instead of guessing."
           },
           {
-            "question": "Are you set up to take fully refundable pre-orders now, and are you comfortable running ads for something that ships in Q4 2026?",
-            "listening_for": "Confirms the offer we can actually advertise. If pre-orders are off the table, the whole plan changes."
+            "question": "The site mentions the Memory Disc and Project One. Are those actually for sale, and at what price?",
+            "listening_for": "Whether there's a real second product for Phase 3 and whether it's a cheaper entry point. If it's not buyable, we drop it from the plan."
+          },
+          {
+            "question": "Who do you picture actually buying this - a watch collector, a space enthusiast, or someone else? Where do those people hang out?",
+            "listening_for": "How well Karel knows the buyer. Sharp answers help us build audiences fast. Vague answers mean month one is partly about finding the buyer."
           }
         ]
       },
@@ -182,56 +186,56 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "When people search for you by name, or search things like independent space watch or spaceflight toolwatch, are you showing up?",
-            "listening_for": "Whether there is existing search demand for the category. Collectors do research five-figure watches heavily, so branded and category search is a genuine opening for Google and SEO, unlike a category nobody looks for."
+            "question": "When people already know you exist, are they searching for 'Barrelhand' or 'Monolith watch' on Google? Do you see any search traffic?",
+            "listening_for": "Whether there's branded search demand worth catching with Google. For a high-ticket collector item, people who've heard the story often search the name later. If there's branded search, a small Google campaign catches ready-to-buy people cheaply. This is a real opening."
           },
           {
-            "question": "Do you get much press or forum chatter, and does that traffic ever turn into sales?",
-            "listening_for": "Watch collectors live in forums and read reviews. If there is demand there, SEO and content are worth raising honestly."
+            "question": "Do you get any traffic from watch collector sites, forums, or reviewers writing about you?",
+            "listening_for": "Whether an SEO or content play makes sense. In the watch world, buyers research heavily before spending five figures. If people write about them, there's an SEO opening. If it's a brand-new category nobody searches, we'd hold off and say so."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "We're already running ads, why do I need you?",
-        "answer": "That's actually why I built you the mockups first. When I looked, I couldn't find any of your ads live, so I'd want to understand what's running before I say anything. If they are running and working, great, I'll tell you that. If they've stalled, starting clean with a tested angle is faster than patching."
+        "objection": "We're already running Meta ads, why would we switch to you?",
+        "answer": "That's fair, and I'm not here to tell you what you've got is broken. I sent you three ads I built from your own product and a playbook of your voice before you'd given me anything, so you can already see how I think. What I'd want to know is what your current ads are actually returning. If they're working, great, I'll say so. If they're not, I've got a clear way to start from a proven setup instead of guessing."
       },
       {
-        "objection": "A $9,750 watch is not an impulse buy, ads won't sell it.",
-        "answer": "Agreed, and that's exactly why month one isn't about sales. At this price nobody clicks buy from one ad. We use ads to find the people who lean in, then warm them up with retargeting and your newsletter, and lean on the fully refundable pre-order to lower the risk of committing before it ships."
+        "objection": "Our watch is $9,750. Nobody buys something like that off a Facebook ad.",
+        "answer": "You're right that nobody buys a five-figure watch straight off one ad, and I'd never plan it that way. The ad's job is to get the right person to stop and raise their hand. Then we warm them up over weeks with the engineering story and your refundable-before-shipment offer, which takes the risk off them. Month one is about building that audience, not chasing an instant sale. I'd be lying if I promised sales in week one."
       },
       {
-        "objection": "We have no reviews, so how would ads even work?",
-        "answer": "That's the first thing I flagged too. It's your biggest gap right now, not just for ads but for the whole site. Early on the ads carry the engineering story and the frontier angle instead of star ratings, and one of the fastest wins is getting your first buyers and press quotes onto the site so we can point to them."
+        "objection": "We don't have reviews or customer stories to show.",
+        "answer": "That's the one thing I flagged as the biggest gap, and it's honest of you to know it. On a purchase this size, trust does the closing. So early on we lean on what you do have: the engineering detail, the serviceability promise, and the fully-refundable-before-shipment safety net. And getting a few real owner quotes is one of the first things I'd want us to work on, because it makes everything else easier."
       },
       {
-        "objection": "Deliveries don't start until Q4 2026, isn't it too early to spend on ads?",
-        "answer": "It's actually a good reason to start now. A five-figure watch takes months for someone to decide on. Building the warm audience and the pre-order list ahead of delivery means you're not starting cold when stock lands. The refundable pre-order lets people commit with zero risk in the meantime."
+        "objection": "You don't know our numbers, so how can you promise this will work?",
+        "answer": "I won't pretend to know your numbers, because I can't see them, and any agency that quotes you a return before seeing your account is guessing. What I can promise is a careful start with small spend, so we prove what works before we put real money behind it. The questions I've got for you are exactly the ones I'd need answered to put honest figures on this."
       }
     ],
     "red_flags": [
       {
         "flag": "No reviews or social proof anywhere on the site.",
-        "why_it_matters": "Asking a stranger to spend $9,750 on an unknown brand with zero visible proof is a hard sell. It weakens ad performance and needs fixing alongside the ads."
+        "why_it_matters": "A $9,750 purchase lives or dies on trust. With nothing to reassure a cold buyer, ads will struggle to convert until we build some proof. This is the single biggest risk to the plan."
       },
       {
-        "flag": "No Meta ads found live, despite Karel saying they run them.",
-        "why_it_matters": "There is no existing winner to scale and no past data. Do not walk in assuming an account to optimize. Confirm what is actually running before promising anything."
+        "flag": "Very high price point with a long consideration window.",
+        "why_it_matters": "At $9,750, buyers take weeks or months to decide. Kyle must set the expectation up front that month one is about building an audience, not sales, or the client will judge it too early and churn."
       },
       {
-        "flag": "Delivery does not start until Q4 2026.",
-        "why_it_matters": "You are selling something that ships later, which lengthens the decision and can spook buyers. The plan must rely on the refundable pre-order and a warm-up period, not fast sales."
+        "flag": "Next batch deliveries not until Q4 2026 and orders refundable before shipment.",
+        "why_it_matters": "Buyers may hesitate to pay now for a watch that ships much later. It also means the real early conversion may be a newsletter or reservation signup, not a straight sale. We need to know what we're optimizing toward."
       },
       {
-        "flag": "Very high price and a tiny, specialist audience.",
-        "why_it_matters": "Results will be lumpy. One sale is huge, but a slow month is not proof the ads failed. Set that expectation early so nobody panics in week two."
+        "flag": "No Meta ads found running despite Karel saying they run them.",
+        "why_it_matters": "Either the ads are paused, tiny, or hard to find. Kyle should not assume there's a working account to build on. Confirm what's actually live before promising to improve it."
       }
     ],
     "other_channel_openings": [
-      "Google search is a real opening. Serious collectors research five-figure watches heavily, and people who hear the brand will search it by name. Confirm on the call whether they show up for their own name and for category terms like independent space watch.",
-      "SEO and content have honest potential because the watch world runs on forums, reviews, and deep-dive articles. Worth raising only if Karel confirms there is search and forum interest, not as a forced add-on."
+      "Google branded search: for a five-figure collector watch, people who hear the story often search the name later. A small Google campaign could catch those ready-to-buy people cheaply. Confirm branded search exists first.",
+      "SEO and content: watch buyers research heavily before spending big, and collector sites and forums drive real traffic. If reviewers write about Barrelhand, there's a content opening worth exploring. Only pursue if the discovery answers show real search interest."
     ]
   },
-  "generated_at": "2026-07-21T15:07:39.081Z"
+  "generated_at": "2026-07-21T15:18:46.287Z"
 }
