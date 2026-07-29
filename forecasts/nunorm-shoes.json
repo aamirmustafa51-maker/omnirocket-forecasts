@@ -134,5 +134,46 @@
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
   "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the wording, and how long each one has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
-  "prospect_logo_url": "https://nunormshoes.com/cdn/shop/files/Group_1171274788_fd05284a-a2e5-4a81-90b6-2823bc53327c.svg?crop=center&height=32&v=1740387737&width=32"
+  "prospect_logo_url": "https://nunormshoes.com/cdn/shop/files/Group_1171274788_fd05284a-a2e5-4a81-90b6-2823bc53327c.svg?crop=center&height=32&v=1740387737&width=32",
+  "hero_concepts": [
+    {
+      "concept_name": "Show the fit",
+      "format": "Single image",
+      "hook": "Your toes were never meant to be squeezed.",
+      "headline": "Room to move, from the first step",
+      "primary_text": "Most trainers taper to a point and crush your toes. The Nunorm Classic is built on a foot-shaped last with a wide toe box, so your foot sits the way it actually is.\n\nZero-drop sole, flexible fly-knit, and just enough cushioning to keep a real barefoot feel.\n\nComfortable enough for all day, tested by athletes and busy parents alike.",
+      "cta": "Shop Now",
+      "visual_direction": "Cropped mid-shin down, the white Slate colorway worn on a bright wood floor, mid-step, soft natural light.",
+      "fills_gap": "Every ad you run leads with the discount, so nobody sees how the shoe fits or moves on a real foot. An on-foot shot answers the first question a barefoot-curious buyer has: does it fit my foot.",
+      "image_path": "hero-mockup.jpg",
+      "reference_title": "Nunorm Classic (Slate)",
+      "reference_url": "https://nunormshoes.com/products/nunorm-classic"
+    },
+    {
+      "concept_name": "Prove the flex",
+      "format": "Single image",
+      "hook": "A sole that bends the way your foot does.",
+      "headline": "Flexible enough to feel the ground",
+      "primary_text": "Stiff soles fight your stride. The Nunorm Classic flexes with your foot, a thin zero-drop sole that lets you feel the ground and move naturally.\n\nBreathable fly-knit up top, a wide toe box, and a low profile close to the ground.\n\nThe barefoot feel, without giving up grip.",
+      "cta": "Shop Now",
+      "visual_direction": "A single Nova shoe flexed and bent on a concrete pedestal, dramatic side light showing the sole curl.",
+      "fills_gap": "Your ads call the shoe flexible but never show it, so the claim just sits there. Showing the sole actually bending turns a spec into proof in one glance.",
+      "image_path": "hero-mockup-2.jpg",
+      "reference_title": "Nunorm Classic (Nova)",
+      "reference_url": "https://nunormshoes.com/products/nunorm-classic?variant=49804243468566"
+    },
+    {
+      "concept_name": "Everyday proof",
+      "format": "Single image",
+      "hook": "The pair you forget you're wearing.",
+      "headline": "Barefoot feel you can wear anywhere",
+      "primary_text": "The Eclipse goes where your day goes. Black fly-knit, a grippy gum sole, and a low barefoot profile that works from the gym to the sidewalk.\n\nA wide toe box and zero-drop sole, so your feet feel good at hour ten, not just hour one.\n\nTried and tested by athletes, weekend warriors and busy professionals.",
+      "cta": "Shop Now",
+      "visual_direction": "A single black Eclipse shoe on a concrete step, golden-hour city street softly blurred behind.",
+      "fills_gap": "Your strongest proof, that real people put these through everything, never shows up in the visuals. Putting the shoe in a real everyday setting makes that believable instead of just stated.",
+      "image_path": "hero-mockup-3.jpg",
+      "reference_title": "Nunorm Classic (Eclipse)",
+      "reference_url": "https://nunormshoes.com/products/nunorm-classic?variant=49804243501334"
+    }
+  ]
 }
