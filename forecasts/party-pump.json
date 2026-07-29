@@ -1,0 +1,138 @@
+{
+  "brand": "Party Pump",
+  "brand_slug": "party-pump",
+  "first_name": "Alicia",
+  "website": "https://partypumpco.com",
+  "generated_date": "July 29, 2026",
+  "read_time_min": 3,
+  "total_ads": 93,
+  "niche": "protein snacks",
+  "tldr": "Roughly 40 of your 93 live ads are the exact same block of six emoji quotes, just re-skinned. Meta sees these near-copies as basically one ad, so it quietly picks one and stops showing the rest. You paid to make ads almost nobody sees.",
+  "benchmark": {
+    "your_value_days": 12,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical protein snack brand ships a fresh ad every three weeks. The best ones do it every two. At your volume, you should be closer to every ten days, but most of your top ads are past that already."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 19,
+      "headline": "5g Plant Protein Per Squeezie",
+      "body": "🤩 \"This is THE snack for the gym.\" ✅ \"Finally a protein snack that doesn't taste like chalk.\" 👊 \"The Cookie Doh flavor is dangerous.\" 📸 \"Perfect for hiking or between meetings.\" 🤝 \"Fuel that actually tastes like a treat.\" 🥜 \"This is the best cashew butter I've ever had.\"",
+      "cta": "Shop now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been running unchanged for 61 days, more than four times your best refresh pace.",
+        "The exact same six emoji quotes appear word-for-word on roughly 30 other live ads of yours.",
+        "Meta treats all these near-copies as one ad and shows just one, wasting the money spent making the rest."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 0,
+      "headline": "5g Plant Protein Per Squeezie",
+      "body": "🤩 \"This is THE snack for your family.\" ✅ \"Finally a protein snack that doesn't taste like chalk.\" 👊 \"The Cookie Doh flavor is dangerous.\" 📸 \"Perfect for hiking or between meetings.\" 🤝 \"Fuel that actually tastes like a treat.\" 🥜 \"This is the best cashew butter I've ever had!\"",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "47 days old and still carrying the same headline that eight other ads use.",
+        "The only thing you changed from your other ads is swapping 'family' for 'gym' or 'goals'. Meta reads that as the same ad.",
+        "Six review quotes in a row is a wall of text most people scroll past before reading the second one."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 36,
+      "headline": "5g Plant Protein Per Squeezie",
+      "body": "🤩 \"This is THE snack for crushing your goals.\" ✅ \"Finally a protein snack that doesn't taste like chalk.\" 👊 \"The Cookie Doh flavor is dangerous.\" 📸 \"Perfect for hiking or between meetings.\" 🤝 \"Fuel that actually tastes like a treat.\" 🥜 \"This is the best cashew butter I've ever had.\"",
+      "cta": "Shop now",
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Been running 47 days on the plain homepage instead of the Cookie Doh page most of your other ads use.",
+        "Same six-quote block as dozens of your other ads, so it competes with itself for who gets shown.",
+        "'Perfect for hiking or between meetings' is aimed at two totally different people at once, so it lands with neither."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 42,
+      "headline": "5g Plant Protein Per Squeezie",
+      "body": "🤩 \"This is THE snack for the gym.\" ✅ \"Finally a protein snack that doesn't taste like chalk.\" 👊 \"The Cookie Doh flavor is dangerous.\" 📸 \"Perfect for hiking or between meetings.\" 🤝 \"Fuel that actually tastes like a treat.\" 🥜 \"This is the best cashew butter I've ever had.\"",
+      "cta": "Shop now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "48 days old, well past the point where a repeated ad starts costing more to keep alive.",
+        "The 'gym' angle is buried inside a wall of six quotes, so nobody who works out actually sees the message meant for them.",
+        "Sends people to your homepage instead of a product page, so shoppers land somewhere they have to hunt for the pouch."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 48,
+      "headline": "",
+      "body": "Tony - Founder & CEO of W.O.L.F. Gyms ( @wolf_gyms ) loves our cookie doh squeezies 🍪 We had an amazing time at the @arnoldsports expo a few weeks ago. What an event and experience - we had a blast watching everyone taste test our party pump Squeezies.  Stay tuned for more video testimonials 🤗",
+      "cta": "Shop now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "No headline on this video, so the tiny caption is doing all the work of selling the pouch.",
+        "60 days old and referencing an event that was 'a few weeks ago', which now reads as stale to anyone who scrolls back.",
+        "'Stay tuned for more video testimonials' is a promise the ad itself doesn't cash, so the click has nowhere satisfying to land."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Snacks Families Feel Good About",
+      "body": "Healthy fats 5g Protein boost 1g Sugar Real ingredients Dessert flavors",
+      "fatigue_score": 62,
+      "days_until_fatigue": 18
+    },
+    {
+      "headline": "Snacks moms feel good about",
+      "body": "Health fats 5g Protein boost 1g Sugar Real ingredients Dessert flavors",
+      "fatigue_score": 55,
+      "days_until_fatigue": 24
+    },
+    {
+      "headline": "Snacks Dads Feels Good About",
+      "body": "Healthy fats 5g Protein boost 1g Sugar Real ingredients Dessert flavors",
+      "fatigue_score": 58,
+      "days_until_fatigue": 22
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "Rip-and-Squeeze Taste Test",
+    "format": "Single image",
+    "hook": "The 9pm pantry raid, solved in one squeeze.",
+    "headline": "Dessert you can pack.",
+    "primary_text": "Cookie Doh Cashew Butter tastes like the spoon you swipe from the mixing bowl. Except this one has 5g of plant protein, 1g of sugar, and healthy fats that actually keep you full.\n\nOne pouch. No spoon. No jar to hide from your kids. Just tear the top and squeeze.\n\nBuilt for the gym bag, the school pickup line, and the 9pm couch. Try the Cookie Doh pouch today.",
+    "cta": "Shop Now",
+    "visual_direction": "A single Cookie Doh pouch photographed torn open at the top with a thick ribbon of cashew butter squeezing out onto a wooden board, shot from directly above.",
+    "fills_gap": "Right now every image ad you have is the pouch sitting still next to a wall of six review quotes. Nothing in your account actually shows what the cashew butter looks like coming out of the pouch, which is the whole reason someone would try it.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean overhead flat-lay on a warm wooden cutting board with a torn foil top and a thick glossy ribbon of cookie dough cashew butter squeezing out of the pouch onto the board, with soft directional daylight from the upper left creating gentle shadows. Warm, appetizing, editorial food-photography aesthetic with muted natural tones and no clutter. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact Cookie Doh Cashew Butter pouch as shown in the reference: preserve the exact pouch colorway, the 'Party Pump' brand mark, the 'Cookie Doh' flavor name text, the cashew illustration, the nutrition callouts, and every printed graphic, color, and text element exactly as they appear on the pouch - strictly NO color shift on the pouch, NO altering, removing, or re-typesetting any printed text or graphics on the packaging, NO swap to a different flavor's colorway. STRUCTURE - preserve the exact construction: single upright 1oz squeeze pouch shape with a torn/opened top edge, gusseted bottom that lets it stand, matte foil finish, all front-of-pouch printed elements (brand mark, flavor name, illustration, nutrition callouts) exactly as shown in the reference. Do NOT add a second pouch, do NOT change pouch shape or size, do NOT add a cap or spout not present in the reference, do NOT relocate or resize any printed graphics or text on the pouch, do NOT alter the illustration or nutrition callouts. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Cookie Doh' Cashew Butter Snacks",
+    "reference_url": "https://partypumpco.com/products/cookie-doh-cashew-butter-snacks",
+    "image_path": "/creatives/party-pump/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "The five oldest ads in your account are already past the point where Meta shows them to fewer people. Most start losing steam within the next 5 to 10 days.",
+    "headline": "Walk through the Party Pump refresh plan with Kyle",
+    "body": "Alicia, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads, the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://partypumpco.com/cdn/shop/t/18/assets/party-pump-logo.png?v=50526847305363553391784403025"
+}
