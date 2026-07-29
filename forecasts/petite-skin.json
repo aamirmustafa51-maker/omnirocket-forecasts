@@ -134,5 +134,47 @@
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
   "method_note": "Based only on your public Facebook and Instagram ads - the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
-  "prospect_logo_url": "https://www.petiteskinco.com/cdn/shop/files/Untitled_design_-_2026-05-11T201810.988_180x180_crop_center.png?v=1778494781"
+  "prospect_logo_url": "https://www.petiteskinco.com/cdn/shop/files/Untitled_design_-_2026-05-11T201810.988_180x180_crop_center.png?v=1778494781",
+  "hero_concepts": [
+    {
+      "concept_name": "The Post-Shower Two Minutes",
+      "format": "Single image",
+      "hook": "Two minutes. Before school. That's it.",
+      "headline": "The After-Shower Face Towel",
+      "primary_text": "Every mum knows the morning rush. Toast half-eaten, shoes missing, and a kid at the sink with a soaking-wet face and no idea what to do next.\n\nOur Face Towel is soft enough for a seven-year-old's skin and small enough to live on their hook, not yours. It's the tiny habit that turns 'wash your face' from a fight into a two-minute thing they actually do.\n\n$10 off your first Petite Skin Co. order when you join the Petite Club.",
+      "cta": "Shop Now",
+      "visual_direction": "A close overhead shot of the folded Face Towel resting on a soft bathroom counter with morning light through a window, a small drinking glass and toothbrush beside it, warm and lived-in like a real family bathroom.",
+      "fills_gap": "Almost every ad you have right now leads with a general message about growing skin. None of them make one small, cheap product the star of the story. A single-image ad on one everyday item at a low price gives Meta something totally different to show, and gives new mums an easy first thing to try before the $149 kit.",
+      "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft family-bathroom scene with the folded Face Towel resting on a warm-toned counter beside a small drinking glass and a child's toothbrush, with soft natural morning light streaming through a nearby window casting gentle diffused shadows. Calm, clean, aspirational everyday aesthetic in the same warm off-white and cream palette Petite Skin Co. uses across their existing ads, breathable and airy with a lived-in feel. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact fabric color, weave, and finish of the Face Towel as shown in the reference image, including any woven brand label, embroidered logo, or printed text on the towel - strictly NO color shift to pure white or grey, NO changing the weave texture, NO removing or altering any woven label or embroidered detail. STRUCTURE - preserve the exact construction of the Face Towel: same size and proportions, same folded shape as reference, same edge finish (hemmed or looped edging as shown), same corner label or tag placement, same trim if any. Do NOT add fringe, do NOT change the towel from folded to unfolded or vice versa, do NOT add stitching or piping not present in the reference, do NOT remove or reposition the brand label or woven logo, PRESERVE any printed or embroidered text on the towel exactly. Render the product's fabric, color, finish, weave, AND every visible construction detail EXACTLY as they appear in the reference image. Do NOT change the fabric type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove trim, labels, or embroidery, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the towel. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no fabric swap, no bleaching to pure white, no cool-tone bias, no recoloring of trim or label, no pattern modifications, no removing or replacing the product's woven or printed brand marks, no added stitching not present in reference, no silhouette alterations, no design modifications.",
+      "reference_title": "Face Towel",
+      "reference_url": "https://petiteskinco.com/products/face-towel-set",
+      "image_path": "hero-mockup.jpg"
+    },
+    {
+      "concept_name": "Make it fun",
+      "format": "Single image",
+      "hook": "The bottle they actually reach for.",
+      "headline": "The cleanser kids look forward to",
+      "primary_text": "Getting a kid to wash their face is half the battle. The Face Cleansing Foam turns it into something they want to do, a soft cloud of foam from a bottle they feel is theirs.\n\n100% natural, gentle enough for every day, and it rinses clean without stripping delicate skin.\n\nGood habits stick when the routine feels like fun, not a chore.",
+      "cta": "Shop Now",
+      "visual_direction": "The confetti foam bottle crowned with a dollop of foam, iridescent bubbles floating, soft butter-cream background.",
+      "fills_gap": "Your ads describe the products but never show why a child would actually use them. Leading with the fun, foamy, kid-owned feel speaks to the real reason a routine sticks.",
+      "image_path": "hero-mockup-2.jpg",
+      "reference_title": "Face Cleansing Foam",
+      "reference_url": "https://www.petiteskinco.com/products/cleanser"
+    },
+    {
+      "concept_name": "Show it's gentle",
+      "format": "Single image",
+      "hook": "Made for young skin, not shrunk-down adult skincare.",
+      "headline": "Gentle enough for a seven-year-old",
+      "primary_text": "Young skin doesn't need retinols or acids. It needs simple, gentle care. Our Face Moisturiser is 100% natural, built on aloe vera, shea butter and camellia seed oil to hydrate and calm without irritation.\n\nNo fragrance-heavy adult formulas, no harsh actives, no greasy residue.\n\nSkincare designed for their skin, so you can stop lending them yours.",
+      "cta": "Shop Now",
+      "visual_direction": "The sage moisturiser tube on pale stone with a fresh aloe leaf, camellia leaves and a swirl of cream, soft natural light.",
+      "fills_gap": "Every ad says gentle, but a worried parent wants to see why. Showing the real aloe and botanicals answers the safety question that generic kids-skincare claims never do.",
+      "image_path": "hero-mockup-3.jpg",
+      "reference_title": "Face Moisturiser",
+      "reference_url": "https://www.petiteskinco.com/products/moisturiser"
+    }
+  ]
 }
