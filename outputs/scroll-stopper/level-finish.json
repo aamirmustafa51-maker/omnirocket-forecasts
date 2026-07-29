@@ -1,0 +1,60 @@
+{
+  "lead_company": "Level Finish",
+  "lead_first_name": "Donald",
+  "website": "https://level-finish.com",
+  "brand_domain": "level-finish.com",
+  "currency": "USD",
+  "brand_voice_note": "Pro-engineered, plain-spoken trade talk that trusts the detailer to care about specs, edges, and finish over hype.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/level-finish?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Thick Edgeless Microfiber Towel, Gray",
+      "product_url": "https://level-finish.com/products/thick-edgeless-microfiber-towel-gray",
+      "image_url": "/creatives/scroll-stopper/level-finish/ad-1.jpg",
+      "ai_image": true,
+      "price": 31.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Sewn-on tags are how paint gets scratched.\n\nThese 380 GSM edgeless towels are ultrasonic cut, so there are no surged edges and no labels sewn in, which means no risk to scratch the paint on your final wipe-down.\n\n16 by 16 inches, perfect square corners, and they work like magic without scratching, linting or streaking. Made in the USA.",
+      "headline": "No Tag. No Edge. No Scratch.",
+      "cta": "Shop Now",
+      "why_it_works": "Detailers know a stray tag or a hard surged edge is the classic way to mar a finish, so naming that friction and killing it with the edgeless build lands with the pro audience.",
+      "visual_direction": "The gray plush towel softly folded on a detailing-shop workbench beside a spray bottle, with a black car panel in the background."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Wool-Foam Hybrid Cutting/Polishing Pad",
+      "product_url": "https://level-finish.com/products/wool-foam-hybrid-cutting-pad",
+      "image_url": "/creatives/scroll-stopper/level-finish/ad-2.jpg",
+      "ai_image": true,
+      "price": 10.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Cuts like natural sheepskin. Finishes like a foam pad.\n\nThe patented nanofoam process wraps the base of the lambswool fibers in microscopic polyfoam, so this hybrid aggressively removes P1500 grit scratches while leaving a lustrous finish with minimal hazing or compounding swirls.\n\nOne pad, fewer steps, cleaner workflow.",
+      "headline": "Cut And Finish In One Pass",
+      "cta": "Shop Now",
+      "why_it_works": "The product's whole reason to exist is the wool-cut plus foam-finish combo, so leading with that single outcome speaks straight to detailers chasing efficiency.",
+      "visual_direction": "The blue wool-foam pad lying flat, wool face up, on a detailer's worktop next to a polisher body."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Plush Edgeless Microfiber Towel, Orange",
+      "product_url": "https://level-finish.com/products/plush-edgeless-microfiber-towel-orange",
+      "image_url": "/creatives/scroll-stopper/level-finish/ad-3.jpg",
+      "ai_image": true,
+      "price": 41.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "\"Forty bucks for a towel?\"\n\nThis one is 500 GSM terry weave, 16 by 16 inches, ultrasonic cut with no surged edges and no sewn tag, so it absorbs seven to eight times its own weight in water and can be washed and reused hundreds of times.\n\nBacked by our 100% money back guarantee within 30 days. Made in the USA.",
+      "headline": "Buy Once. Wash It Hundreds Of Times.",
+      "cta": "Shop Now",
+      "why_it_works": "Price is the obvious hesitation on a premium plush towel, so answering it with GSM, absorbency, longevity, and the money-back guarantee turns the cost into value.",
+      "visual_direction": "The orange plush towel draped over the rim of a stainless wash bucket in a bright home garage, folding under its own weight."
+    }
+  ],
+  "generated_at": "2026-07-29T10:31:57.573Z"
+}
