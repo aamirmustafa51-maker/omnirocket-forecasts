@@ -1,0 +1,147 @@
+{
+  "lead_company": "Gemi Beauty",
+  "lead_first_name": "Hau",
+  "website": "https://gemibeauty.com",
+  "brand_domain": "gemibeauty.com",
+  "currency": "USD",
+  "review_count": 22,
+  "brand_dna": {
+    "category": "Luxury K-beauty hand care - a hybrid Hand Sanitizer + Serum in layered designer scents.",
+    "core_belief": "Founded on a simple belief: 'your hands deserve more,' reimagining hand care as a joyful, everyday beauty ritual.",
+    "proof_points": [
+      "Formulated with 65% v/v ethyl alcohol, effective against 99.9% of common germs",
+      "Enriched with K-beauty ingredients: Centella Asiatica, Panthenol, Propanediol, and Camellia Sinensis Leaf Extract",
+      "Clean, vegan, and cruelty-free; free of phthalates, sulfates, and parabens",
+      "Women, minority, and AAPI-founded; made in the USA with a patent-pending capless bottle design"
+    ],
+    "positioning": "Premium and design-led - it treats hand care as seriously as facial skincare, turning a daily essential into everyday luxury."
+  },
+  "voice_pillars": [
+    {
+      "name": "Everyday Luxury",
+      "desc": "Frames small daily rituals as elevated, indulgent moments worth savoring.",
+      "quote": "At only $12, it's a little luxury"
+    },
+    {
+      "name": "Sensory Storytelling",
+      "desc": "Describes scent and feel with rich, layered, evocative language.",
+      "quote": "Our scents are luxuriously layered - an exquisite symphony"
+    },
+    {
+      "name": "Design-Forward",
+      "desc": "Leads with thoughtful engineering and sleek form as a core selling point.",
+      "quote": "Sleekly designed. Intuitively engineered. Patent pending."
+    },
+    {
+      "name": "Warm and Personal",
+      "desc": "Speaks in an intimate, founder-to-friend tone rooted in real experience.",
+      "quote": "your hands deserve more"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "infused with skincare leaving my hands soft and hydrated",
+      "a fine mist that's never heavy or sticky",
+      "gemi looks and smells like a modern perfume",
+      "leaves your hands feeling incredibly soft and beautifully scented",
+      "twists open with one hand",
+      "Elysium rivals my favorite vanilla perfumes"
+    ],
+    "words": [
+      "luxurious",
+      "silky",
+      "hydrated",
+      "nourishing",
+      "scents",
+      "ritual",
+      "clean",
+      "weightless"
+    ],
+    "avoid": [
+      "harsh",
+      "clinical",
+      "medicinal",
+      "cheap"
+    ]
+  },
+  "icp": "Design-conscious women who value everyday self-care and want a hand sanitizer that feels like a luxury beauty ritual instead of a utilitarian product.",
+  "personas": [
+    {
+      "name": "The Busy Mom",
+      "description": "Juggling career and family, she wants a protective essential that still feels luxurious and moves with her on-the-go."
+    },
+    {
+      "name": "The Scent Collector",
+      "description": "Loves layered fragrances and perfume-quality scent, moved by the promise that gemi looks and smells like a modern perfume."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Shops for elegant, giftable small luxuries and is drawn to gift boxes, sets, and the complimentary keychain."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "10% off your first order for email signup",
+    "Free standard shipping on U.S. orders over $25",
+    "Complimentary gemi key ring holder with every $50+ purchase (add to cart to redeem)",
+    "Bundles: Signature Trio (Set of 3) and Full Collection (Set of 5), plus Book of gemi gift box",
+    "14-day return window for a refund (a $5 processing fee is deducted)",
+    "Subscription / recurring purchase option available at checkout"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Kills 99.9% of the most common germs",
+        "source": "product page"
+      },
+      {
+        "claim": "Formulated with 65% v/v ethyl alcohol",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Leaves your hands feeling incredibly soft and beautifully scented",
+        "source": "product page"
+      },
+      {
+        "claim": "Vegan and cruelty-free, free from phthalates and sulfates",
+        "source": "product page and about page"
+      },
+      {
+        "claim": "Women, minority, and AAPI-founded, made in the USA",
+        "source": "about page"
+      },
+      {
+        "claim": "Patent-pending capless one-handed twist design with 650 sprays",
+        "source": "product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Repairs or heals damaged skin",
+        "why": "Cosmetic claims cannot state the product repairs or heals - that implies altering body structure/function, making it an unapproved drug claim."
+      },
+      {
+        "claim": "Boosts collagen production for younger hands",
+        "why": "Claiming to boost collagen production is a structure/function drug claim not permitted for cosmetics."
+      },
+      {
+        "claim": "Treats or prevents eczema, dermatitis, or dryness conditions",
+        "why": "Treating a skin condition is a drug claim; gemi may only speak to appearance and feel (e.g. 'feels soft')."
+      },
+      {
+        "claim": "Anti-aging - reverses signs of aging on hands",
+        "why": "Reversing aging is a structure/function claim; use appearance language like 'hands look smoother' instead."
+      },
+      {
+        "claim": "Clinically proven to strengthen the skin barrier",
+        "why": "'Clinically proven' requires a supporting study on file; without one it is an unsubstantiated claim. Prefer 'helps support the skin barrier.'"
+      },
+      {
+        "claim": "Guarantees protection against illness or viruses",
+        "why": "Goes beyond the substantiated '99.9% of common germs' efficacy and implies a medical/disease-prevention claim."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T09:12:58.177Z"
+}
