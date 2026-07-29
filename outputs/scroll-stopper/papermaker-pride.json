@@ -1,0 +1,60 @@
+{
+  "lead_company": "Papermaker Pride",
+  "lead_first_name": "Karen",
+  "website": "https://papermakerpride.com",
+  "brand_domain": "papermakerpride.com",
+  "currency": "USD",
+  "brand_voice_note": "Hometown-proud and playfully casual with a quality-obsessed, Pacific Northwest heart - gear made for people who love where they're from.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/papermaker-pride?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Women's Camas Mock Neck",
+      "product_url": "https://papermakerpride.com/products/womens-camas-mock-neck",
+      "image_url": "/creatives/scroll-stopper/papermaker-pride/ad-1.jpg",
+      "ai_image": true,
+      "price": 52,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "That cozy-but-cute feeling? This is it.\n\nSoft heavyweight brushed fleece, a relaxed boxy fit, and a little mock neck that stands up just right. The bright red CAMAS wordmark says exactly where your heart's at.\n\nOur customers keep telling us it's the softest, coziest thing they own. We're inclined to agree. ❤️",
+      "headline": "The Coziest Way To Rep Camas",
+      "cta": "Shop Now",
+      "why_it_works": "A pullover lives or dies on how it feels, so leading with the soft, cozy, relaxed-fit payoff speaks straight to the desire that drives the purchase.",
+      "visual_direction": "The red mock-neck sweatshirt folded on a wooden window bench with a steaming coffee mug and a plaid throw nearby in soft morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "C New Era Snapback Hat",
+      "product_url": "https://papermakerpride.com/products/white-c-camas-snapback-hat",
+      "image_url": "/creatives/scroll-stopper/papermaker-pride/ad-2.jpg",
+      "ai_image": true,
+      "price": 30,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "\"Is it going to feel cheap?\" Nope.\n\nThis is a real structured New Era snapback: firm front crown that holds its shape, breathable mesh back for the warm days, and a clean embroidered red-and-white C stitched right up front.\n\n7-position snap means it actually fits your head, not almost fits.",
+      "headline": "A Snapback That Holds Its Shape",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation on a hat is quality and fit, so naming the structured build, real embroidery, and adjustable snap kills the doubt before it starts.",
+      "visual_direction": "The black C snapback sitting on a wood workbench at a three-quarter angle showing the front panel and mesh back, with a small brass ruler for scale."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Unisex Mean Machine Graphic Tee",
+      "product_url": "https://papermakerpride.com/products/unisex-mean-machine-graphic-tee",
+      "image_url": "/creatives/scroll-stopper/papermaker-pride/ad-3.jpg",
+      "ai_image": true,
+      "price": 30,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "We made this one for the Papermakers.\n\nThe cracked vintage print, the little CHS mascot, Camas Washington across the bottom. It's the kind of tee you wear because this town raised you.\n\n6.1 oz ringspun cotton, generous relaxed cut, and yeah, it's as soft as everyone keeps saying. Designed and sold right in the heart of downtown Camas.",
+      "headline": "Made In Camas, For Camas",
+      "cta": "Shop Now",
+      "why_it_works": "A heritage graphic tee full of local references is pure hometown story, so the why-we-made-this angle turns the print details into a reason to belong.",
+      "visual_direction": "The charcoal Papermakers graphic tee laid flat print-side up on a butcher-block maker's table with an ink brayer and scissors nearby in golden-hour light."
+    }
+  ],
+  "generated_at": "2026-07-29T17:16:08.240Z"
+}
