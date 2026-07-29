@@ -1,0 +1,60 @@
+{
+  "lead_company": "Guardian Athletics",
+  "lead_first_name": "Jeffrey",
+  "website": "https://katocollar.com",
+  "brand_domain": "katocollar.com",
+  "currency": "USD",
+  "brand_voice_note": "Serious, science-backed, and reassuring - it speaks to athletes and parents with honest protection talk, not hype.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/guardian-athletics?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Kato collar",
+      "product_url": "https://katocollar.com/products/kato-collar",
+      "image_url": "/creatives/scroll-stopper/guardian-athletics/ad-1.jpg",
+      "ai_image": true,
+      "price": 269,
+      "compare_at_price": 269,
+      "on_sale": false,
+      "angle_label": "Truth-Teller",
+      "primary_text": "Most head and neck injuries don't happen in the film room. They happen on the field, in the split second nobody sees coming.\n\nThe Kato Collar mounts on top of your shoulder pads and works to protect beyond the helmet, helping reduce brain impact forces by up to 30%.\n\nIndependently biomechanically tested. Built for contact, designed for confidence.",
+      "headline": "Protect Beyond The Helmet",
+      "cta": "Shop Now",
+      "why_it_works": "The all-black hero shot in a dim locker room matches the honest, no-hype education angle that separates real protection from marketing noise.",
+      "visual_direction": "The black Kato Collar sitting upright on a worn wooden locker room bench in low warm light, with a football helmet softly blurred behind it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Kato collar",
+      "product_url": "https://katocollar.com/products/kato-collar",
+      "image_url": "/creatives/scroll-stopper/guardian-athletics/ad-2.jpg",
+      "ai_image": true,
+      "price": 269,
+      "compare_at_price": 269,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Play harder. Worry less.\n\nThe Kato Collar lets you throw yourself into every hit without hesitation - lightweight, comfortable, and built to absorb impact without slowing you down.\n\nProtection that feels like freedom.",
+      "headline": "Play Harder, Worry Less",
+      "cta": "Shop Now",
+      "why_it_works": "The bright golden-hour turf shot sells the feeling of confident, all-out play, which is exactly what the benefit-forward angle promises the athlete.",
+      "visual_direction": "The black-shell, white-pad Kato Collar resting on sunlit green turf with crisp white yard lines and a stadium blurred in the background."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Kato collar",
+      "product_url": "https://katocollar.com/products/kato-collar",
+      "image_url": "/creatives/scroll-stopper/guardian-athletics/ad-3.jpg",
+      "ai_image": true,
+      "price": 269,
+      "compare_at_price": 269,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Will it slow me down? No.\n\nEvery Kato Collar is patented, made in the USA, and independently biomechanically tested. The lightweight design does not impair your vision, speed, or mobility.\n\nLightweight and comfortable fit that also helps protect against burners and stingers. Real engineering, no compromise.",
+      "headline": "Tested. Proven. Lightweight.",
+      "cta": "Shop Now",
+      "why_it_works": "The clean clinical studio shot lets the engineering quality speak for itself, directly answering the buyer's biggest doubt that protection means bulk and lost speed.",
+      "visual_direction": "The all-white Kato Collar on a clean pale studio backdrop with even light and a credit card beside it for scale, styled like a technical engineering product shot."
+    }
+  ],
+  "generated_at": "2026-07-29T18:29:05.426Z"
+}
