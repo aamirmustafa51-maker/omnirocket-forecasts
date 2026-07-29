@@ -1,0 +1,137 @@
+{
+  "lead_company": "Papermaker Pride",
+  "lead_first_name": "Karen",
+  "website": "https://papermakerpride.com",
+  "brand_domain": "papermakerpride.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Locally-rooted apparel and gift shop selling Camas hometown, school spirit, and Pacific Northwest gear.",
+    "core_belief": "Papermaker Pride was born from combining a love of sports, a drive for high quality apparel, and relentless support of their hometown - giving back to the community that supports them while instilling pride in where they call home.",
+    "proof_points": [
+      "Physical store located in the heart of downtown Camas at 339 NE 4th Ave, Camas, WA",
+      "MakerOne full-service custom design and promo apparel arm for events and schools",
+      "Tees are 100% Ringspun Cotton, 6.1 oz, generous cut relaxed fit",
+      "Snapback hats built with 100% cotton front panels, poly spacer mesh, structured mid profile, 7-position adjustable snap"
+    ],
+    "positioning": "Community-first local pride brand - quality-focused and hometown-authentic rather than mass-market or generic."
+  },
+  "voice_pillars": [
+    {
+      "name": "Hometown Proud",
+      "desc": "Every line celebrates Camas and the people who live there with genuine local warmth.",
+      "quote": "In case it wasn't super obvious, we love Camas!"
+    },
+    {
+      "name": "Quality-Obsessed",
+      "desc": "They lead with fit, softness, and craftsmanship as the reason to buy.",
+      "quote": "It's all about the fit. And the softness. And the quality."
+    },
+    {
+      "name": "Playful and Casual",
+      "desc": "Copy is light, fun, and conversational, never stiff or corporate.",
+      "quote": "Protect that noggin from sun, rain, snow, or you know, just look cool."
+    },
+    {
+      "name": "PNW Spirited",
+      "desc": "They lean into regional identity and the rugged beauty of the Pacific Northwest.",
+      "quote": "Represent the PNW! When you live in a place as beautiful as we do its worth showing off!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "They care about community",
+      "the best local gear",
+      "The T-shirts are the softest and so cozy",
+      "They fit really well, and retain their shape after washing",
+      "We love the fresh designs",
+      "our go-to store for CHS gear"
+    ],
+    "words": [
+      "community",
+      "quality",
+      "local",
+      "softness",
+      "fit",
+      "pride",
+      "custom",
+      "designs"
+    ],
+    "avoid": [
+      "corporate",
+      "luxury/high-fashion tone",
+      "impersonal",
+      "trend-chasing hype"
+    ]
+  },
+  "icp": "Camas-area residents, parents, students, and PNW locals who value community, quality apparel, and showing hometown and school pride.",
+  "personas": [
+    {
+      "name": "Camas School Parent",
+      "description": "Proud CHS parents decking out the family in school gear who buy on fresh designs and dependable quality."
+    },
+    {
+      "name": "PNW Local Repper",
+      "description": "Residents proud of where they live, moved by regional pride, Bigfoot, and PNW-inspired designs."
+    },
+    {
+      "name": "Custom Event Organizer",
+      "description": "Someone planning an event or team order who buys via MakerOne for unique, professional custom apparel and gifts."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Newsletter signup for updates on new products, sales, and events",
+    "MakerOne full-service custom apparel and promo design",
+    "In-store shopping at downtown Camas location",
+    "Returns available (Returns page linked in footer)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Located in the heart of downtown Camas",
+        "source": "about page"
+      },
+      {
+        "claim": "Tees are 6.1 oz 100% Ringspun Cotton with a generous cut, relaxed fit",
+        "source": "Mean Machine Graphic Tee product page"
+      },
+      {
+        "claim": "Snapback hats feature 100% cotton front panels and a 7-position adjustable snap",
+        "source": "C New Era Snapback Hat product page"
+      },
+      {
+        "claim": "MakerOne creates high-quality custom apparel and promos",
+        "source": "homepage MakerOne section"
+      },
+      {
+        "claim": "Locally owned business rooted in the Camas community",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "That's why they're the best!",
+        "why": "FTC substantiation - unqualified superlative that cannot be objectively proven; soften to a subjective preference framing."
+      },
+      {
+        "claim": "The best local gear / best quality apparel stated as fact",
+        "why": "FTC - unqualified superlatives; only usable as attributed customer opinion, not brand claim."
+      },
+      {
+        "claim": "Invented review counts or star ratings",
+        "why": "FTC - no reviews were found on site; fabricating counts or endorsements is prohibited."
+      },
+      {
+        "claim": "Guaranteed to retain shape forever or never shrink",
+        "why": "FTC - guaranteed results; testimonial about shape retention reflects one customer, not a promised typical outcome."
+      },
+      {
+        "claim": "Fake urgency such as 'only hours left' when stock is standing",
+        "why": "FTC - deceptive fake urgency not supported by actual inventory or timers."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T17:13:46.589Z"
+}
