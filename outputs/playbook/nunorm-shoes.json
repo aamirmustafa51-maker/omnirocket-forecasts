@@ -1,0 +1,167 @@
+{
+  "lead_company": "Nunorm Shoes",
+  "lead_first_name": "Michael",
+  "website": "https://nunormshoes.com",
+  "brand_domain": "nunormshoes.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Minimalist barefoot-style footwear and accessories for people who want natural, unrestricted movement.",
+    "core_belief": "Feet should be set free, not forced into rigid, restrictive shoes - footwear should support the foot's natural function and help people rediscover the natural power of their feet.",
+    "proof_points": [
+      "Zero drop design for a natural, balanced feel",
+      "Wide toe box that follows the natural curve of the foot for full toe splay",
+      "Canadian owned, with US and Canadian warehouses",
+      "Endorsed by a podiatrist, a strength coach, and a physical therapist on the homepage"
+    ],
+    "positioning": "Design-led minimalist footwear that pairs the barefoot philosophy with modern, everyday style - not clinical, not loud."
+  },
+  "voice_pillars": [
+    {
+      "name": "Movement-First",
+      "desc": "Frames shoes as a path to freedom and strength, centering how the body moves rather than the product itself.",
+      "quote": "Shoes that promote natural movement"
+    },
+    {
+      "name": "Quietly Rebellious",
+      "desc": "Positions the brand against conventional footwear and invites customers into a cause, not just a purchase.",
+      "quote": "We're more than just a footwear brand-we're a movement"
+    },
+    {
+      "name": "Effortless Everyday",
+      "desc": "Speaks to easy, all-day wearability that blends into real life instead of demanding attention.",
+      "quote": "Perfect for work, training, and all-day wear."
+    },
+    {
+      "name": "Warm and Human",
+      "desc": "Founder-led and approachable, grounding the brand in real people and a healthy-lifestyle vision.",
+      "quote": "founded by Meryl and Mick, two individuals passionate about creating footwear"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "promote natural movement",
+      "allows for full toe splay which is exactly what I need during my training",
+      "look great but actually take into account the form and function of the human foot",
+      "the natural power of their feet",
+      "flexible & lightweight",
+      "move with ease, strength, and freedom"
+    ],
+    "words": [
+      "natural movement",
+      "zero drop",
+      "wide toe box",
+      "toe splay",
+      "minimalist",
+      "barefoot",
+      "flexible",
+      "freedom"
+    ],
+    "avoid": [
+      "clinical",
+      "medical/cure language",
+      "loud hype",
+      "corrective"
+    ]
+  },
+  "icp": "Health-conscious, active adults - runners, trainers, and everyday walkers - who value foot health and natural movement and want minimalist shoes that look good enough for work and daily life.",
+  "personas": [
+    {
+      "name": "Barefoot Curious",
+      "description": "New to minimalist footwear and easing in - moved by the transitional insoles, comfort, and 'a step up' from ordinary shoes framing."
+    },
+    {
+      "name": "Movement Pro",
+      "description": "Coaches, trainers, and serious exercisers who care about form and function - moved by wide toe box, full toe splay, and training performance."
+    },
+    {
+      "name": "Wellness Everyday Wearer",
+      "description": "Lifestyle-driven buyer wanting a healthier, more intuitive way of moving all day - moved by effortless style, all-day comfort, and the 'redefine the norm' mission."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Nunorm T-Shirt (Limited Edition)",
+      "role": "Hero / best-seller",
+      "price": 29.95
+    },
+    {
+      "title": "Cleaning and Rescue Kit",
+      "role": "Core",
+      "price": 29.95
+    },
+    {
+      "title": "Transitional Insoles",
+      "role": "Entry point",
+      "price": 19.95
+    },
+    {
+      "title": "NUNORM Classic",
+      "role": "Premium",
+      "price": 139.95
+    }
+  ],
+  "offers": [
+    "Free shipping on orders over $75 for US and Canada (note: shipping policy page states over $90 - confirm the correct threshold)",
+    "Returns and exchanges on all US and Canada orders within 30 days of purchase (unworn, original packaging, tags intact)",
+    "International shipping available with fees, duties, and taxes calculated at checkout",
+    "Email subscription for early access to new styles and colorways plus latest offers",
+    "Wholesale and affiliate/ambassador programs"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Zero drop design for a natural, balanced feel.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Wide toe box that follows the natural curve of the foot for full toe splay.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Flexible and lightweight, perfect for work, training, and all-day wear.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Canadian owned with US and Canadian warehouses.",
+        "source": "homepage / FAQ"
+      },
+      {
+        "claim": "Free shipping on orders over $75 for US and Canada.",
+        "source": "FAQ"
+      },
+      {
+        "claim": "Returns and exchanges on US and Canada orders within 30 days.",
+        "source": "FAQ"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Relieves foot pain or heals plantar fasciitis.",
+        "why": "Banned medical/orthopedic claim for this category - cannot promise treatment of a condition."
+      },
+      {
+        "claim": "Corrects your posture or fixes foot problems.",
+        "why": "Banned medical/corrective claim - no substantiated clinical proof provided."
+      },
+      {
+        "claim": "Sustainable or eco-friendly footwear.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on the site."
+      },
+      {
+        "claim": "Made from 100% recycled materials or carbon neutral.",
+        "why": "FTC Green Guides - specific green claim not stated or substantiated anywhere on the site."
+      },
+      {
+        "claim": "Doctor recommended for medical conditions.",
+        "why": "Site shows individual professional endorsements, not a clinical/medical recommendation for treating conditions."
+      },
+      {
+        "claim": "Guaranteed to improve athletic performance or foot strength.",
+        "why": "Unsubstantiated performance/health claim - no data or testing provided to back it."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-29T11:58:08.379Z"
+}
