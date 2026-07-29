@@ -1,0 +1,148 @@
+{
+  "lead_company": "Eumundi Meats",
+  "lead_first_name": "Jono",
+  "website": "https://eumundimeats.com.au",
+  "brand_domain": "eumundimeats.com.au",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Local Sunshine Coast butcher selling ethically farmed meat via in-store, click-and-collect, and a build-your-own Meat Club delivery box.",
+    "core_belief": "Eat local, eat fresh - paddock to plate meat from ethical farmers, where 'the only thing we add is pride'.",
+    "proof_points": [
+      "Sourced directly from local farms on the Sunshine Coast and surrounds",
+      "All meat is free-range, ethically raised, hormone and antibiotic-free",
+      "Some suppliers certified organic (e.g. OBE Organics, Certified Organic sausages); each product specifies its source",
+      "Butcher-selected and cut fresh, with a 'we will make it right' freshness guarantee"
+    ],
+    "positioning": "Premium local butcher and a trusted alternative to supermarket meat, built on ethical sourcing and personal service."
+  },
+  "voice_pillars": [
+    {
+      "name": "Proud Local",
+      "desc": "Grounds every message in the Noosa and South East Queensland community and supporting local over big supermarkets.",
+      "quote": "EAT LOCAL, EAT FRESH"
+    },
+    {
+      "name": "Butcher-Honest",
+      "desc": "Plainly names quality, sourcing and the natural variation of real meat without overselling.",
+      "quote": "The only thing we add is pride."
+    },
+    {
+      "name": "Warm and Confident",
+      "desc": "Friendly, welcoming tone that stands behind the product and makes things right if they fall short.",
+      "quote": "Freshness guaranteed: If anything arrives less than perfect, we will make it right."
+    },
+    {
+      "name": "Easy and Flexible",
+      "desc": "Reassures customers the Meat Club fits their life with no lock-in.",
+      "quote": "Skip, pause, or cancel anytime."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Build Your Premium Meat Box in Minutes",
+      "butcher-selected favourites, packed fresh and delivered cold",
+      "Fresh, farm-to-table meat delivered to your door",
+      "Butcher Selected Premium Quality Cold Delivered",
+      "Free-range, Ethically raised, Hormone & antibiotic-free",
+      "farmers who share our passion for quality and animal welfare"
+    ],
+    "words": [
+      "fresh",
+      "local",
+      "premium",
+      "free-range",
+      "ethically raised",
+      "paddock to plate",
+      "butcher-selected",
+      "organic"
+    ],
+    "avoid": [
+      "cheap",
+      "mass-produced",
+      "supermarket",
+      "factory-farmed"
+    ]
+  },
+  "icp": "Sunshine Coast and Noosa Hinterland home cooks and families who have given up on declining supermarket meat and will pay more for local, ethically raised produce and a real butcher's advice.",
+  "personas": [
+    {
+      "name": "The Ethical Local Family",
+      "description": "Households wanting free-range, hormone-free meat from farmers they trust - moved by 'support a local small business instead of big supermarkets'."
+    },
+    {
+      "name": "The Convenience Subscriber",
+      "description": "Busy locals who want quality meat without the shop run - moved by a flexible Meat Club you can skip, pause, or cancel anytime with free delivery."
+    },
+    {
+      "name": "The Weekend Griller",
+      "description": "BBQ and entertaining enthusiasts after premium cuts and prep tips - moved by butcher-selected favourites and standout sausages, burgers and steak."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Free delivery on one-off orders over $200 (Sunshine Coast wide)",
+    "Free delivery on subscriber orders over $150",
+    "Meat Club subscription: weekly options (every 1, 2, 3 or 4 weeks), build your own box, choose delivery date",
+    "Skip, pause, or cancel anytime before your weekly cut-off (no penalty)",
+    "Home delivery to select Sunshine Coast and Noosa Hinterland postcodes, or Click & Collect in store",
+    "Gift cards available"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free-range, ethically raised, hormone and antibiotic-free meat.",
+        "source": "FAQ page - Product & Sourcing"
+      },
+      {
+        "claim": "Sourced directly from local farms on the Sunshine Coast and surrounds.",
+        "source": "FAQ page - Product & Sourcing"
+      },
+      {
+        "claim": "Free delivery on one-off orders over $200 and subscriber orders over $150.",
+        "source": "Product page - Shipping Information"
+      },
+      {
+        "claim": "Skip, pause, or cancel anytime before your weekly cut-off.",
+        "source": "Homepage and FAQ page"
+      },
+      {
+        "claim": "If anything arrives less than perfect, we will make it right.",
+        "source": "Homepage freshness guarantee"
+      },
+      {
+        "claim": "Some suppliers are certified organic; each product specifies its source.",
+        "source": "FAQ page - Product & Sourcing"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling all products 'certified organic' or organic across the board.",
+        "why": "FTC substantiation - only some suppliers are certified; site states others may not carry certification. An unqualified organic claim is unprovable."
+      },
+      {
+        "claim": "'The best butcher in the world' or '#1 butcher in Australia'.",
+        "why": "Banned unqualified superlative - not provable and beyond the local scope the brand supports."
+      },
+      {
+        "claim": "'Makes the best pies in Queensland - guaranteed' as a brand claim.",
+        "why": "Testimonial outlier and unqualified superlative; a single review cannot be run as a substantiated brand guarantee."
+      },
+      {
+        "claim": "'Rated 5/5 by 130+ Happy Customers' unless the exact count and rating are current and verifiable.",
+        "why": "FTC - review counts and ratings must be truthful, current and not inflated or invented."
+      },
+      {
+        "claim": "'Order now - only hours left' style countdown urgency.",
+        "why": "Fake urgency is banned; deadlines must be real (actual delivery cut-off times only)."
+      },
+      {
+        "claim": "Guaranteed exact delivery time to the minute.",
+        "why": "Guaranteed results banned; shipping policy states delivery times are indicative only and cannot be guaranteed to the minute."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.eumundimeats.com.au/cdn/shop/files/imgi_2_Eumundi-Meats-Noosa-Butcher-1_1.png?v=1752809371&width=300",
+  "generated_at": "2026-07-29T09:35:12.381Z"
+}
