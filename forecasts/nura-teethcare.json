@@ -134,5 +134,46 @@
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
   "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
-  "prospect_logo_url": "https://nurateethcare.com/cdn/shop/files/Favicon6_Nura_6723a236-e163-4c4b-acd7-d26c2c54e3b2.png?v=1747219057&width=180"
+  "prospect_logo_url": "https://nurateethcare.com/cdn/shop/files/Favicon6_Nura_6723a236-e163-4c4b-acd7-d26c2c54e3b2.png?v=1747219057&width=180",
+  "hero_concepts": [
+    {
+      "concept_name": "Lead with the proof",
+      "format": "Single image",
+      "hook": "Most toothpaste protects. This one rebuilds.",
+      "headline": "2x the enamel repair of fluoride",
+      "primary_text": "Nura's Mineralising Paste is the only dual-hydroxyapatite formula, 7% nano and 5% biomimetic, the same mineral your enamel is made from.\n\nUniversity of Milan testing showed it repairs enamel more than twice as well as fluoride.\n\nDeveloped in the UK. Vegan and fluoride-free.",
+      "cta": "Shop Now",
+      "visual_direction": "Single tube on wet dark slate under a cool clinical spotlight, fine mist and a mint sprig, high contrast on a dark ground.",
+      "fills_gap": "Right now about a dozen of your ads open with the discount, so your strongest asset, the clinical proof, sits in the fine print. This leads with the science instead, which is the one thing a competitor cannot copy.",
+      "image_path": "hero-mockup.jpg",
+      "reference_title": "Nura Mineralising Paste",
+      "reference_url": "https://nurateethcare.com/products/try-once-nura-mineralising-paste"
+    },
+    {
+      "concept_name": "Show what's inside",
+      "format": "Single image",
+      "hook": "The mineral your enamel is made of.",
+      "headline": "12% hydroxyapatite, not fluoride",
+      "primary_text": "Hydroxyapatite is what tooth enamel is actually made of. Nura packs in 12%, a dual blend of 7% nano and 5% biomimetic, so it rebuilds the surface instead of just coating it.\n\nIt whitens by restoring enamel, not by scrubbing it away, with low abrasivity plus xylitol and zinc for a clean that lasts.\n\nVegan, fluoride-free, made in the UK.",
+      "cta": "Shop Now",
+      "visual_direction": "Macro of the open tube on pale stone with a pearly paste ribbon and a few raw mineral fragments beside it.",
+      "fills_gap": "Your ads name the ingredient but never make it feel real, so it reads like a spec sheet. Putting the paste and the raw mineral on screen turns 12% hydroxyapatite into something a shopper can picture.",
+      "image_path": "hero-mockup-2.jpg",
+      "reference_title": "Nura Mineralising Paste",
+      "reference_url": "https://nurateethcare.com/products/try-once-nura-mineralising-paste"
+    },
+    {
+      "concept_name": "Sell the whole routine",
+      "format": "Single image",
+      "hook": "A full teethcare routine, not just toothpaste.",
+      "headline": "The complete Nura routine",
+      "primary_text": "Most people buy the toothpaste and stop there. The Longevity Set is the whole system, paste, prebiotic mouthwash, mixer bottle, floss picks and the hypersoft brush, built to work together.\n\nEvery part is designed around one job, rebuilding enamel and supporting a healthy oral microbiome.\n\nOne routine, developed in the UK.",
+      "cta": "Shop the Set",
+      "visual_direction": "The full set on a marble bathroom vanity in soft morning light, a green plant softly out of focus behind.",
+      "fills_gap": "Every ad you run sells a single tube, so buyers never see that Nura is a full system. Showing the routine together lifts the order value and makes the Set the obvious choice.",
+      "image_path": "hero-mockup-3.jpg",
+      "reference_title": "The Longevity Set",
+      "reference_url": "https://nurateethcare.com/products/the-longevity-set"
+    }
+  ]
 }
