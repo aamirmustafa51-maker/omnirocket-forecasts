@@ -1,0 +1,165 @@
+{
+  "lead_company": "Saazaa Coffee",
+  "lead_first_name": "David",
+  "website": "https://saazaa.coffee",
+  "brand_domain": "saazaa.coffee",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Ethically sourced specialty coffee roaster selling espresso and filter beans plus coffee-based lifestyle merch, playing in the conscience-driven premium lane.",
+    "core_belief": "The coffee industry is broken - so SAAZAA is on a mission not just to brew the best cup but to brew a better future for everyone through owned farms, fair pay and community impact.",
+    "proof_points": [
+      "Owns its own farms for complete control of the supply chain, leading to happier farmers and a better bean",
+      "Single origins and blends sourced from Kenya, Ethiopia, Guatemala, Colombia and El Salvador with named origins per product",
+      "Maji decaf uses the Swiss Water method, decaffeinated completely free from chemicals",
+      "Community commitments: fair farmer wages, building schools and hospitals, and fundraising to support the Maasai Tribe"
+    ],
+    "positioning": "Premium, purpose-led and down-to-earth - specialty quality with an ethical supply chain, not mass-market convenience coffee."
+  },
+  "voice_pillars": [
+    {
+      "name": "Bold and Mission-Driven",
+      "desc": "Speaks with conviction about fixing a broken industry and calls the customer up to think bigger.",
+      "quote": "We think big, aim high, and act bold. You should too."
+    },
+    {
+      "name": "Warm and Down to Earth",
+      "desc": "Human, inviting language that treats coffee as joy and people as family, not a transaction.",
+      "quote": "Find joy in every cup"
+    },
+    {
+      "name": "Transparent and Detail-Obsessed",
+      "desc": "Backs claims with specifics on sourcing, farmers and process, defining exactly what it means.",
+      "quote": "We're relentless about every detail, from the beans' soil to the roasting process and packaging"
+    },
+    {
+      "name": "Craft and Sensory",
+      "desc": "Describes each bean with vivid tasting notes and precise brew detail so quality feels tangible.",
+      "quote": "you can expect smooth, mellow vibes from your cup of Sukari"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "A Higher State of Bean",
+      "Find joy in every cup",
+      "coffee with a conscience",
+      "smooth, mellow vibes from your cup",
+      "Good Coffee is Down to Earth",
+      "Wake up dream big"
+    ],
+    "words": [
+      "ethical",
+      "sustainable",
+      "single origin",
+      "fairly paid",
+      "conscience",
+      "tasting notes",
+      "community",
+      "quality"
+    ],
+    "avoid": [
+      "cheap",
+      "generic",
+      "status quo",
+      "corporate"
+    ]
+  },
+  "icp": "Conscious coffee lovers who care about how their beans are grown and who gets paid, and happily pay premium for quality with a transparent, ethical story behind it.",
+  "personas": [
+    {
+      "name": "Ethical Sipper",
+      "description": "Values-driven buyer who chooses brands by supply-chain ethics and impact - move them with fair pay, owned farms and community projects."
+    },
+    {
+      "name": "Home Barista",
+      "description": "Detail-loving enthusiast who dials in shots at home - move them with origins, tasting notes and precise brew guides."
+    },
+    {
+      "name": "Gift and Ritual Seeker",
+      "description": "Shopper buying beans, candles, scrubs or tees as a treat or gift - move them with the sensory, joy-in-every-cup lifestyle angle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Rafiki – Espresso",
+      "role": "Hero / best-seller",
+      "price": 30
+    },
+    {
+      "title": "SAAZAA Coffee Scrub",
+      "role": "Entry point",
+      "price": 18.95
+    },
+    {
+      "title": "SAAZAA Coffee Candle",
+      "role": "Core",
+      "price": 45
+    },
+    {
+      "title": "SAAZAA Heavyweight Illustration T-Shirt",
+      "role": "Premium",
+      "price": 50
+    }
+  ],
+  "offers": [
+    "Newsletter sign-up",
+    "Size options: 250g and 1kg per bean",
+    "Multiple grind options including Whole Beans, Espresso, Plunger, Aeropress, Stovetop, Cold Brew and Pour Over",
+    "Subscription / recurring purchase available on beans",
+    "Wholesale program",
+    "Free community event: No Woman, No Cry on October 26th"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Maji is decaffeinated completely free from chemicals using the Swiss Water method.",
+        "source": "Maji product page"
+      },
+      {
+        "claim": "We own our own farms, giving us complete control of the supply chain.",
+        "source": "about page"
+      },
+      {
+        "claim": "Beans sourced from Kenya, Ethiopia, Guatemala, Colombia and El Salvador.",
+        "source": "about page"
+      },
+      {
+        "claim": "Nairobi is a Kenyan AA+ single origin grown in Kirinyaga county.",
+        "source": "Nairobi product page"
+      },
+      {
+        "claim": "We pay our farmers a fair wage.",
+        "source": "about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Coffee that boosts your immunity or metabolism.",
+        "why": "Banned health claim - 'boosts immunity' / 'burns fat' style claims are not permitted for food and beverage."
+      },
+      {
+        "claim": "Detoxes your body with every cup.",
+        "why": "Unqualified 'detox' claim is banned for this category."
+      },
+      {
+        "claim": "Drink this to treat or prevent any illness.",
+        "why": "Disease-treatment claims are banned."
+      },
+      {
+        "claim": "'Low sugar' or 'high antioxidant' headline claims.",
+        "why": "Nutrient-content claims must match an actual product label, which is not shown on site."
+      },
+      {
+        "claim": "'All natural' or 'clean coffee' as a headline claim.",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims."
+      },
+      {
+        "claim": "'100% sustainable' as a blanket claim.",
+        "why": "FTC Green Guides - unqualified sustainability claim; use specific, provable statements instead."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "",
+  "generated_at": "2026-07-29T10:26:25.374Z"
+}
