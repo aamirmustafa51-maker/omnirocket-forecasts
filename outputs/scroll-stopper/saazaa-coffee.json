@@ -1,0 +1,61 @@
+{
+  "lead_company": "Saazaa Coffee",
+  "lead_first_name": "David",
+  "website": "https://saazaa.coffee",
+  "brand_domain": "saazaa.coffee",
+  "currency": "USD",
+  "brand_voice_note": "Bold and mission-driven but warm at the core, treating coffee as craft and joy while backing every flavour claim with real origin detail.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/saazaa-coffee?ref=email&magnet=playbook",
+  "prospect_logo_url": "",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Sukari - Espresso",
+      "product_url": "https://saazaa.coffee/products/sukari-house-blend-espresso",
+      "image_url": "/creatives/scroll-stopper/saazaa-coffee/ad-1.jpg",
+      "ai_image": true,
+      "price": 27,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Smooth, mellow vibes from your cup. That's the whole point.\n\nSukari means sugar in Swahili, and this blend earns the name with milk chocolate, hazelnut, caramel and plum. Beans from Kenya, Colombia and Guatemala, grown on our own farms.\n\nLess intense than our single origins, easy to love before you've even finished your first cup. Find joy in every cup.",
+      "headline": "A Higher State of Bean",
+      "cta": "Shop Now",
+      "why_it_works": "Sukari is the approachable crowd-pleaser of the range, so leading with the sweet, smooth sensory payoff sells the exact feeling a mellow-blend drinker is chasing.",
+      "visual_direction": "The Sukari pouch standing on a sunlit oak kitchen counter beside a small espresso cup, coffee beans and a square of chocolate."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Nairobi — Espresso",
+      "product_url": "https://saazaa.coffee/products/2-bird-watcher-seasonal-espresso-blend",
+      "image_url": "/creatives/scroll-stopper/saazaa-coffee/ad-2.jpg",
+      "ai_image": true,
+      "price": 32,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "Our first trip back to Kenya since Rafiki and Safi.\n\nNairobi is a single origin Kenyan AA+, grown on the slopes of Mount Kenya in Kirinyaga county, the highest quality beans the country has to offer. We own the farms and pay our farmers a fair wage, so we can stand behind every bean.\n\nGrapefruit, dried apricot and sugarcane in the cup. Coffee with a conscience, and a story worth tasting.",
+      "headline": "Kenyan AA+, Straight From The Source",
+      "cta": "Shop Now",
+      "why_it_works": "Nairobi is a premium single origin with a genuine origin narrative, so the founder/story angle justifies the higher price and rewards the customer who cares where their coffee comes from.",
+      "visual_direction": "The purple Nairobi pouch standing on a rustic timber workbench beside a burlap coffee sack, green beans and a hessian scoop."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Maji - Swiss Water Decaf",
+      "product_url": "https://saazaa.coffee/products/copy-of-bird-watcher-seasonal-espresso-blend-2",
+      "image_url": "/creatives/scroll-stopper/saazaa-coffee/ad-3.jpg",
+      "ai_image": true,
+      "price": 32,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Decaf usually means giving up the flavour. Not this one.\n\nMaji is decaffeinated completely free from chemicals using the Swiss Water method, so the natural flavour of the Colombian beans stays exactly where it should be. Shortbread, burnt sugar and vanilla, all still in the cup.\n\nAll the joy, none of the buzz. Good coffee is down to earth.",
+      "headline": "Decaf Without The Compromise",
+      "cta": "Shop Now",
+      "why_it_works": "The number one hesitation with decaf is that it tastes flat and chemically stripped, so leading with the chemical-free Swiss Water method and intact flavour notes kills that objection head-on.",
+      "visual_direction": "The green Maji pouch standing on a pale stone table at night beside a mug, glass carafe, shortbread biscuits and a vanilla pod."
+    }
+  ],
+  "generated_at": "2026-07-29T10:28:06.467Z"
+}
