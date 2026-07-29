@@ -1,0 +1,60 @@
+{
+  "lead_company": "NerdyKeppie",
+  "lead_first_name": "Spider",
+  "website": "https://nerdykeppie.com",
+  "brand_domain": "nerdykeppie.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, proudly queer and maker-made, mixing playful nerdy energy with plainspoken activism and real-body practicality.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/nerdykeppie?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Proud to the Bone Glow-in-the-Dark Human Skull Progress Pride Enamel Pin",
+      "product_url": "https://nerdykeppie.com/products/proud-to-the-bone-glow-in-the-dark-human-skull-progress-pride-enamel-pin",
+      "image_url": "/creatives/scroll-stopper/nerdykeppie/ad-1.jpg",
+      "ai_image": true,
+      "price": 3400,
+      "compare_at_price": 4300,
+      "on_sale": true,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Proud in daylight. Glowing after dark. 💀\n\nOur Proud to the Bone skull pin fills with glow-in-the-dark pigment, so the progress-pride flowers light up pale green the second the lights go down.\n\nBig, beautiful, durable and bright - a NerdyKeppie exclusive from our Portland studio, made by and for our community.",
+      "headline": "Pride That Glows in the Dark",
+      "cta": "Shop Now",
+      "why_it_works": "The glow feature is this pin's single most delightful, share-worthy outcome, so leading with that sensory payoff is stronger than quality or story for a collectible.",
+      "visual_direction": "The single glow skull pin resting face-up on a folded linen napkin on a dim nightstand, a faint green glow lifting off the enamel beside a small brass lamp."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Galaxy Rainbow Gay Pride Zipper Pouch with T-Bottom",
+      "product_url": "https://nerdykeppie.com/products/rainbow-gay-pride-galaxy-accessory-or-makeup-pouch-w-t-bottom",
+      "image_url": "/creatives/scroll-stopper/nerdykeppie/ad-2.jpg",
+      "ai_image": true,
+      "price": 5700,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Where's my HRT kit? Where are my dice? Where's my makeup?\n\nMeet the Galaxy pouch. Wide T-bottom so it stands up on its own, plenty of internal space, and a rainbow nebula print you can spot in the bottom of any bag.\n\nHRT and injection kit, dice bag, travel makeup, or whatever you need to keep close - fully lined, one zip, done.",
+      "headline": "One Pouch, Everything Stashed",
+      "cta": "Shop Now",
+      "why_it_works": "The description literally lists the daily 'where did I put it' friction (HRT, dice, makeup), so naming that problem and solving it with the wide standing pouch lands directly with this audience.",
+      "visual_direction": "The galaxy pouch standing upright on a light wood dresser beside an open travel bag, loose dice and a lip balm alongside for scale."
+    },
+    {
+      "product_index": 3,
+      "product_title": "\"TACOS NOT TERFS\" - Fish Outta Water Films Original Cotton Tee Shirt",
+      "product_url": "https://nerdykeppie.com/products/tacos-not-terfs-by-guest-artists-fish-outta-water-films-short-sleeve-unisex-tshirt",
+      "image_url": "/creatives/scroll-stopper/nerdykeppie/ad-3.jpg",
+      "ai_image": true,
+      "price": 8500,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "TACOS NOT TERFS. We mean it.\n\nThis tee is by Fish Outta Water Films, a UK-based queer and disabled videography duo, made in response to the rising anti-trans climate they live in. Funds from every shirt go directly toward the crew's transition costs.\n\nPrinted in-house at our 100% queer-run, family-owned Portland studio. Soft, comfy, and the perfect shirt to march in a Pride parade in.",
+      "headline": "Wear It. Fund Real Transitions.",
+      "cta": "Shop Now",
+      "why_it_works": "This shirt's whole reason to exist is the guest artists and where the money goes, so the founder/why-we-made-this story is the honest, activist lever that fits it best.",
+      "visual_direction": "The maroon TACOS NOT TERFS tee laid flat and squared on a worn wooden print-studio worktable, ink jars and a folded canvas apron nearby."
+    }
+  ],
+  "generated_at": "2026-07-29T10:37:22.607Z"
+}
