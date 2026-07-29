@@ -1,0 +1,144 @@
+{
+  "lead_company": "Springs Fireplace",
+  "lead_first_name": "Lauren",
+  "website": "https://www.springsfireplace.com",
+  "brand_domain": "springsfireplace.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Seed-to-bottle hot sauces and salsa built around rare, culturally significant pepper varieties.",
+    "core_belief": "That preserving rare peppers and honest flavor matters - crafting condiments that 'elevate flavor, not overpower it,' grown from field to kitchen with care.",
+    "proof_points": [
+      "Over 16 rare and culturally significant pepper varieties grown in their fields",
+      "Grown in East Hampton, NY - the only East Coast farm cultivating the Tesuque chile",
+      "Bottled in glass with aluminum caps, no microplastics",
+      "Scovie Award Winner 2025 and selected as one of Oprah's Favorite Things 2025"
+    ],
+    "positioning": "Premium, provenance-first artisan condiments for people who want flavor and heritage over generic store-bought heat."
+  },
+  "voice_pillars": [
+    {
+      "name": "Heritage-Obsessed",
+      "desc": "They lead with the origin story and cultural roots of each pepper, treating flavor as legacy worth preserving.",
+      "quote": "a rare heritage chile first cultivated over 300 years ago by the Tesuque Pueblo"
+    },
+    {
+      "name": "Flavor-First",
+      "desc": "Heat serves flavor, never dominates it - they describe taste in vivid, layered sensory detail.",
+      "quote": "Slow-building spice that enhances, never overwhelms"
+    },
+    {
+      "name": "Clean and Uncompromising",
+      "desc": "They emphasize pure ingredients, honest process, and no shortcuts in how they make things.",
+      "quote": "We never cut corners."
+    },
+    {
+      "name": "Warm and Everyday",
+      "desc": "They ground premium craft in real, relatable moments so the product feels like an everyday staple.",
+      "quote": "your new everyday condiment"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Bright, tangy, and endlessly versatile",
+      "medium heat that builds slowly with every bite",
+      "the taste of a true cantina salsa home",
+      "a warm, citrus heat",
+      "no added sugar or preservatives, and naturally low in sodium",
+      "flavor that's hard to find outside a Texas kitchen"
+    ],
+    "words": [
+      "bright",
+      "balanced",
+      "roasted",
+      "heritage",
+      "rare",
+      "smoky",
+      "versatile",
+      "fire-kissed"
+    ],
+    "avoid": [
+      "extreme / macho heat bragging",
+      "cheap or bargain framing",
+      "clinical health-cure language",
+      "generic mass-market tone"
+    ]
+  },
+  "icp": "Flavor-curious home cooks and food lovers who value provenance, craft, and clean ingredients, and will pay a premium for a hot sauce with a real story behind it.",
+  "personas": [
+    {
+      "name": "The Flavor Explorer",
+      "description": "Adventurous cook who chases rare and global flavors - moved by pepper origin stories and layered tasting notes."
+    },
+    {
+      "name": "The Clean-Label Buyer",
+      "description": "Ingredient-conscious shopper who reads labels - moved by no added sugar, no preservatives, and glass-not-plastic bottling."
+    },
+    {
+      "name": "The Everyday Gourmet",
+      "description": "Home entertainer who wants elevated staples for eggs, tacos, and gatherings - moved by versatility and award-winning credibility."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "15% off your first order with code FIRST15 at checkout",
+    "Subscription / recurring purchase available on select products",
+    "No refunds on food items; damaged or wrong items made right on contact"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made with no added sugar or preservatives",
+        "source": "product pages (Tesuque, Aji Peach, Salsa Roja)"
+      },
+      {
+        "claim": "Naturally low in sodium",
+        "source": "product pages"
+      },
+      {
+        "claim": "Scovie Award Winner 2025",
+        "source": "Tesuque and Salsa Roja product pages"
+      },
+      {
+        "claim": "Selected as one of Oprah's Favorite Things 2025",
+        "source": "site header / homepage"
+      },
+      {
+        "claim": "Grown and crafted in East Hampton, NY, the only East Coast farm cultivating the Tesuque pepper",
+        "source": "Tesuque product page"
+      },
+      {
+        "claim": "Bottled in glass with aluminum caps",
+        "source": "homepage - Glass not Plastic"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts immunity or supports your immune system",
+        "why": "Banned immunity claim - not supported and not permitted for food/beverage."
+      },
+      {
+        "claim": "Helps burn fat or aids weight loss",
+        "why": "Banned fat-burning claim - unsupported health effect."
+      },
+      {
+        "claim": "Detoxes or cleanses your body",
+        "why": "Unqualified 'detox' claim is banned for this category."
+      },
+      {
+        "claim": "Treats, prevents, or cures inflammation or any condition",
+        "why": "Disease-treatment claims are prohibited for food products."
+      },
+      {
+        "claim": "Headline it as '100% clean' or 'all-natural' as the primary claim",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims - keep as supporting descriptors only."
+      },
+      {
+        "claim": "'Low sodium' without matching the actual label value",
+        "why": "Nutrient-content claims must match the certified label; use 'naturally low in sodium' only if the label supports it."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T17:44:00.547Z"
+}
