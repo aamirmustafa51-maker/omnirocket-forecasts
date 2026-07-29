@@ -1,0 +1,146 @@
+{
+  "lead_company": "The Clearly Collective",
+  "lead_first_name": "Amelia",
+  "website": "https://theclearlycollective.com",
+  "brand_domain": "theclearlycollective.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "White label narrative design studio creating hand-illustrated 100% silk scarves and bespoke commissions.",
+    "core_belief": "To create designs that hold memory, express identity, and carry story - transforming place, memory, and cultural heritage into illustrated textiles.",
+    "proof_points": [
+      "100% silk twill, each scarf hand-rolled and hand-sewn",
+      "Founded by Olivia Cleary, UVA School of Architecture grad and 2026 Forbes 30 Under 30 honoree",
+      "Recognized by the Tory Burch Foundation Fellowship (2025) and Kathryne Carr Award for Entrepreneurial Excellence (2025)",
+      "Fully women founded and led core team; each piece illustrated by hand"
+    ],
+    "positioning": "Premium, heirloom-grade and story-driven - architectural rigor meets artistic craft, not mass-market fashion."
+  },
+  "voice_pillars": [
+    {
+      "name": "Story-Rooted",
+      "desc": "Every piece is framed as memory and place made wearable, grounded in research and narrative.",
+      "quote": "transforming place, memory, and cultural heritage into illustrated textiles and objects"
+    },
+    {
+      "name": "Craft-Precise",
+      "desc": "Language emphasizes handwork, materials, and heirloom quality over hype.",
+      "quote": "Made from 100% silk twill, each scarf is hand-rolled and hand-sewn"
+    },
+    {
+      "name": "Evocative Coastal",
+      "desc": "Copy paints a place and mood, inviting the reader into a scene.",
+      "quote": "a lightweight shawl for breezy coastal evenings"
+    },
+    {
+      "name": "Quietly Elevated",
+      "desc": "Refined, timeless tone that positions each piece as a keepsake and gift.",
+      "quote": "A timeless gift - or an instant staple in your own collection."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "relaxed coastal style and timeless beauty",
+      "A Love Letter to the Amalfi Coast",
+      "made to go wherever summer takes you",
+      "the perfect keepsake or gift",
+      "effortless flair as a hair accessory, bag accent, or lightweight shawl",
+      "elevate every summer moment"
+    ],
+    "words": [
+      "timeless",
+      "heirloom",
+      "keepsake",
+      "hand-drawn",
+      "silk",
+      "effortless",
+      "coastal",
+      "elevated"
+    ],
+    "avoid": [
+      "cheap",
+      "trendy fast-fashion",
+      "loud/salesy hype",
+      "generic"
+    ]
+  },
+  "icp": "Design-conscious women who value craftsmanship, travel, and story, and buy heirloom silk pieces as personal keepsakes or meaningful gifts.",
+  "personas": [
+    {
+      "name": "The Coastal Collector",
+      "description": "A woman drawn to New England and European summer places who buys scarves tied to a beloved destination and its memories."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "A buyer seeking an elevated, keepsake-worthy present, moved by the signature gift box and heirloom-grade craft."
+    },
+    {
+      "name": "The Heritage Client",
+      "description": "A hospitality group, private club, or cultural institution commissioning bespoke narrative-driven design at scale."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Corporate Gifting & Events program",
+    "Custom commissions: Full Custom and Semi Custom",
+    "Pre-order availability with stated ship dates (e.g. Nantucket Scarf shipping 8.20)",
+    "Each piece arrives in a signature gift box with tissue paper",
+    "Limited Edition & Drops collection"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made from 100% silk twill, hand-rolled and hand-sewn.",
+        "source": "product page (Watch Hill / Amalfi Scarf)"
+      },
+      {
+        "claim": "Founded by Olivia Cleary, a 2026 Forbes 30 Under 30 honoree in Art and Style.",
+        "source": "about page"
+      },
+      {
+        "claim": "Recipient of the Tory Burch Foundation Fellowship (2025).",
+        "source": "about page"
+      },
+      {
+        "claim": "Fully women founded and led core team.",
+        "source": "about page"
+      },
+      {
+        "claim": "Each piece is illustrated by hand through architectural research and precision craft.",
+        "source": "about page"
+      },
+      {
+        "claim": "Each order arrives in a signature gift box with tissue paper.",
+        "source": "product page (Packaging)"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best silk scarves in the world / #1 scarf brand.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Guaranteed to last forever / heirloom that will never wear out.",
+        "why": "FTC - guaranteed-results claim that is not provable."
+      },
+      {
+        "claim": "Loved by thousands of customers / 5-star rated.",
+        "why": "FTC - invented review counts or endorsements; no reviews exist in the input."
+      },
+      {
+        "claim": "Only 2 left - order in the next 10 minutes.",
+        "why": "FTC - fake or manufactured urgency not backed by real inventory data."
+      },
+      {
+        "claim": "Ethically made and 100% sustainable.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no substantiation on site."
+      },
+      {
+        "claim": "As featured and endorsed by Forbes / Tory Burch.",
+        "why": "FTC - misrepresents recognition as a paid endorsement; state only the factual honors held."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T12:39:28.248Z"
+}
