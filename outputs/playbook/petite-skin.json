@@ -1,0 +1,166 @@
+{
+  "lead_company": "Petite Skin",
+  "lead_first_name": "Jacqui",
+  "website": "https://petiteskinco.com",
+  "brand_domain": "petiteskinco.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Natural skincare formulated specifically for kids and tweens aged 7 to 14, an in-between age group most brands skip.",
+    "core_belief": "Skin changes way before 18 does. Kids are taught to brush their teeth and wash their bodies, but no one teaches them to care for the skin on their face - so they built skincare for that gap.",
+    "proof_points": [
+      "Australian made and packaged on the Sunshine Coast",
+      "Free from parabens, sulphates, artificial fragrances and pesticides",
+      "Trusted by 40,000+ families and stocked in 130+ retailers across Australia, New Zealand and Noumea",
+      "Formulated with Australia's leading natural skincare chemists"
+    ],
+    "positioning": "Purpose-built, transparent, gentle premium care for a 7 to 14 age gap - not diluted adult formulas or watered-down kids products."
+  },
+  "voice_pillars": [
+    {
+      "name": "Straight-Talking Parent",
+      "desc": "Speaks plainly to parents about what young skin actually needs and calls out the gap other brands ignore.",
+      "quote": "Skin changes way before 18 does."
+    },
+    {
+      "name": "Radically Transparent",
+      "desc": "Leads with clean ingredients and full disclosure a parent can verify at a glance.",
+      "quote": "The kind of ingredient list a parent can actually read."
+    },
+    {
+      "name": "Simple, No-Guesswork",
+      "desc": "Keeps routines short and easy so kids actually use them and habits stick.",
+      "quote": "The right three products. That's it."
+    },
+    {
+      "name": "Vivid and Kid-Real",
+      "desc": "Writes from a child's real day - the moments and smells that make them want to use it.",
+      "quote": "The Confetti Collection smells like ice cream. Naturally."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "the moment skin starts to change",
+      "A shiny forehead by lunchtime",
+      "your child will actually want to pick it up",
+      "leaves zero greasy residue",
+      "without disrupting the skin barrier",
+      "an ingredient list a parent can actually read"
+    ],
+    "words": [
+      "gentle",
+      "hydration",
+      "skin barrier",
+      "balanced",
+      "calm",
+      "tween",
+      "consistency",
+      "reset"
+    ],
+    "avoid": [
+      "clinical",
+      "anti-aging",
+      "harsh actives",
+      "adult formulas"
+    ]
+  },
+  "icp": "Parents of children aged 7 to 14 (often mums) who want a gentle, transparent, Australian-made routine their kid will actually use as skin starts changing early.",
+  "personas": [
+    {
+      "name": "The Proactive Mum",
+      "description": "A mum who noticed early skin changes around age 8 or 9 and wants a trustworthy, non-guesswork routine - moved by the 'made for the in-between' and 40,000+ families angle."
+    },
+    {
+      "name": "The Sensitive-Skin Parent",
+      "description": "A parent whose tween has redness, reactivity, or occasional blemishes and needs gentle formulas free from harsh actives - moved by the calm, balance, and skin-barrier support angle."
+    },
+    {
+      "name": "The Habit Builder",
+      "description": "A parent who wants their child to build good, consistent care habits early and only sticks with products the kid enjoys - moved by simple 3-step routines and kid-friendly scents."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Night Reset Routine",
+      "role": "Hero / best-seller",
+      "price": 63
+    },
+    {
+      "title": "Skin Harmony Routine",
+      "role": "Core",
+      "price": 88
+    },
+    {
+      "title": "Calm and Clear Routine",
+      "role": "Premium",
+      "price": 110
+    },
+    {
+      "title": "Hydra Balance Face Mist",
+      "role": "Entry point",
+      "price": 27
+    }
+  ],
+  "offers": [
+    "Free Shipping + Free Face Mist above a spend threshold",
+    "30-day return policy (note: personal care/beauty goods listed as non-returnable - confirm before advertising)",
+    "Kit bundles priced below buying items separately (e.g. Night Reset Routine $63 vs $80)",
+    "Gift With Purchase (T&Cs referenced in footer)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Formulated specifically for skin aged 7 to 14",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Australian made, free from parabens, sulphates, artificial fragrances and pesticides",
+        "source": "about page and product pages"
+      },
+      {
+        "claim": "Trusted by 40,000+ families and stocked in 130+ retailers",
+        "source": "about page and homepage"
+      },
+      {
+        "claim": "Absorbs fast and leaves zero greasy residue",
+        "source": "Face Moisturiser product copy"
+      },
+      {
+        "claim": "Lifts away oil, sweat, SPF, and environmental residue without disrupting the skin barrier",
+        "source": "Face Cleansing Foam product copy"
+      },
+      {
+        "claim": "Weightless spritz of hydration that helps skin feel refreshed and reset",
+        "source": "Hydra Balance Face Mist product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Treats or clears acne, eczema, or rosacea",
+        "why": "Implies a drug effect on a disease - cosmetics may only address appearance, not treat conditions."
+      },
+      {
+        "claim": "Repairs or heals the skin barrier",
+        "why": "'Repairs/heals' claims structure/function changes and makes it an unapproved drug; use 'supports' or 'helps skin feel balanced'."
+      },
+      {
+        "claim": "Boosts collagen production",
+        "why": "Structure/function claim banned for cosmetics under the compliance rules."
+      },
+      {
+        "claim": "Anti-aging or reverses aging on young skin",
+        "why": "Banned aging-reversal framing and off-brand for a 7-14 audience."
+      },
+      {
+        "claim": "Clinically proven to reduce redness or breakouts",
+        "why": "No study is provided; 'clinically proven' cannot be used without one."
+      },
+      {
+        "claim": "Cures sensitivity or eliminates breakouts permanently",
+        "why": "Curative/permanent claims imply a drug effect not permitted for cosmetics."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-29T13:00:44.816Z"
+}
