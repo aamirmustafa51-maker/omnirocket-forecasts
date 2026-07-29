@@ -1,0 +1,60 @@
+{
+  "lead_company": "ELVD Wellness",
+  "lead_first_name": "Michelle",
+  "website": "https://elvd.co",
+  "brand_domain": "elvd.co",
+  "currency": "USD",
+  "brand_voice_note": "Real and reassuring premium-wellness voice that pairs modern adaptogen science with a fast, no-BS promise of calm focus for busy women.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/elvd-wellness?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Calm & Clarity",
+      "product_url": "https://elvd.co/products/calm-clarity",
+      "image_url": "/creatives/scroll-stopper/elvd-wellness/ad-1.jpg",
+      "ai_image": true,
+      "price": 45,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Calmer energy, minus the crash.\n\nWhen your mind races and your heart won't settle, Calm & Clarity helps you reset without caffeine, jitters, or crash. No jitters. No drowsiness. Just clearer thinking and calmer energy that fits into a demanding day.\n\nSlip a stick in your bag and stay calm, stay sharp, stay in flow. 🌿",
+      "headline": "Clearer Thinking, Calmer Energy",
+      "cta": "Shop Now",
+      "why_it_works": "The single most desirable outcome for this customer is calm focus without the crash, so leading with that feeling speaks directly to the racing-mind moment the product is made for.",
+      "visual_direction": "The teal Calm & Clarity box standing on a warm sand-toned surface in soft morning light, with a single stick-sachet leaning against it and lots of calm negative space."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Calm & Clarity",
+      "product_url": "https://elvd.co/products/calm-clarity",
+      "image_url": "/creatives/scroll-stopper/elvd-wellness/ad-2.jpg",
+      "ai_image": true,
+      "price": 45,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Mind racing right before takeoff?\n\nOne slim stick, torn open, squeezed under your tongue. That's it. Calm & Clarity is a fast-absorbing liquid that helps you reset without caffeine, jitters, or crash, so you feel mentally clear, emotionally grounded, physically ready.\n\nNo pills to swallow. No water needed. Just calm you can feel wherever life takes you.",
+      "headline": "Calm In One Slim Stick",
+      "cta": "Shop Now",
+      "why_it_works": "The everyday friction here is not having a clean, fast way to settle a racing mind on the go, and the under-the-tongue liquid format is the exact removal of that friction.",
+      "visual_direction": "A tight studio close-up of a single teal foil stick-sachet torn open with a raspberry-red droplet at the tip, propped upright against a small block on a teal-to-white gradient."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Calm & Clarity",
+      "product_url": "https://elvd.co/products/calm-clarity",
+      "image_url": "/creatives/scroll-stopper/elvd-wellness/ad-3.jpg",
+      "ai_image": true,
+      "price": 45,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "\"Does this stuff actually have anything real in it?\"\n\nFair question. Calm & Clarity is made with natural adaptogens like ashwagandha, L-theanine, and passionflower, so it's science meeting wisdom, not fluff.\n\nManufactured in GMP-certified facilities, third-party tested for heavy metals, microbes, and contaminants, and free from gluten, dairy, soy, and nuts. Backed by a 30-day satisfaction guarantee.",
+      "headline": "Real Adaptogens, Tested Clean",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation for a wellness liquid is whether the formula is legit, so leading with the named adaptogens plus GMP, third-party testing, and the guarantee kills the doubt head-on.",
+      "visual_direction": "The teal box standing on pale stone with a stick-sachet lying flat in front, styled with a botanical leaf sprig and fresh raspberries in soft directional light."
+    }
+  ],
+  "generated_at": "2026-07-29T09:43:31.119Z"
+}
