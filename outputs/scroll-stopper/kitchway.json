@@ -1,0 +1,60 @@
+{
+  "lead_company": "Kitchway",
+  "lead_first_name": "Abraham",
+  "website": "https://kitchway.co.uk",
+  "brand_domain": "kitchway.co.uk",
+  "currency": "USD",
+  "brand_voice_note": "Plain-talking and practical trade voice - honest kit for busy commercial kitchens at fair prices, with speed and service front and centre.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/kitchway?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Aluminium Full Size 457mm x 660mm (18\" x 26\") Sheet Pans",
+      "product_url": "https://kitchway.co.uk/products/aluminium-full-size-457mm-x-660mm-18-x-26-sheet-pans",
+      "image_url": "/creatives/scroll-stopper/kitchway/ad-1.jpg",
+      "ai_image": true,
+      "price": 6700,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Even bakes, batch after batch.\n\nThis full-size aluminium sheet pan (457mm x 660mm) spreads heat evenly across the whole base, so trays come out consistent from front to back. Rolled edges for a proper grip when your hands are full.\n\nGood, honest kit for busy kitchens. Free next day delivery on UK mainland orders over £54 inc VAT.",
+      "headline": "Even heat, edge to edge",
+      "cta": "Shop Now",
+      "why_it_works": "For a workhorse bakeware item the strongest pull is the reliable outcome - even bakes every time - which speaks straight to a busy kitchen's daily pain.",
+      "visual_direction": "The aluminium sheet pan laid flat on a floured stainless bakery bench with unbaked bread rolls and a linen cloth beside it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "KitchenAid Cordless Hand Mixer 5KHMB732BBM",
+      "product_url": "https://kitchway.co.uk/products/kitchenaid-cordless-hand-mixer-5khmb732bbm",
+      "image_url": "/creatives/scroll-stopper/kitchway/ad-2.jpg",
+      "ai_image": true,
+      "price": 72900,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "No cord, no trailing lead across the bench.\n\nThe KitchenAid cordless hand mixer lets you whip, stir and cream anywhere in the kitchen - no fighting for a socket mid-prep. Two stainless beaters click straight in.\n\nA simple, straightforward solution to your kitchenware needs. Klarna and Trade Accounts available.",
+      "headline": "Mix anywhere, no cord",
+      "cta": "Shop Now",
+      "why_it_works": "The single biggest daily friction with a hand mixer is the cord and a scarce socket, so leading with the cordless fix names the exact problem this model removes.",
+      "visual_direction": "The matte black cordless hand mixer resting on a wooden worktop beside a glass bowl of whipped cream and a few eggs."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Cambro 1380 x 600mm Camshelving Premium Mobile Unit",
+      "product_url": "https://kitchway.co.uk/products/cambro-1380-x-600mm-camshelving-premium-mobile-unit",
+      "image_url": "/creatives/scroll-stopper/kitchway/ad-3.jpg",
+      "ai_image": true,
+      "price": 492800,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried metal racks rust and trap grime? This one won't.\n\nThe Cambro Camshelving Premium mobile unit is wipe-clean polypropylene - liquids and dirt can't get into crevices, and every part is dishwasher safe. Adjustable shelf heights in 100mm steps.\n\nHonest catering storage that lasts. 30 day returns and Trade Accounts with a 30 day credit facility available.",
+      "headline": "Wipe clean, won't rust",
+      "cta": "Shop Now",
+      "why_it_works": "The main hesitation on a big-ticket shelving spend is durability and hygiene versus cheap metal wire, so killing the rust-and-grime worry head-on justifies the price.",
+      "visual_direction": "The grey plastic Cambro shelving unit standing on its casters in a clean tiled dry-store, holding stacked catering containers and stock tins."
+    }
+  ],
+  "generated_at": "2026-07-29T09:23:02.802Z"
+}
