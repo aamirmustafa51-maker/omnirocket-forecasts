@@ -1,0 +1,167 @@
+{
+  "lead_company": "Party Pump",
+  "lead_first_name": "Alicia",
+  "website": "https://partypumpco.com",
+  "brand_domain": "partypumpco.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Real-food cashew butter squeezies - a plant-protein snack in a 1oz pouch, sold DTC in the fitness-snack lane.",
+    "core_belief": "Real protein snacks should taste like dessert and travel anywhere - no chalky powders, no 16g sugar bombs.",
+    "proof_points": [
+      "5g+ plant protein from real cashews + pea isolate (Dark Chocolate Brownie at 6g+)",
+      "100% plant-based, gluten-free, soy-free, dairy-free; no artificial sweeteners, no palm oil",
+      "Real, pronounceable ingredients only - cashews, pea protein, coconut sugar, stevia, real vanilla",
+      "30-day satisfaction guarantee and free shipping over $85, ships within 1 business day from Salt Lake City"
+    ],
+    "positioning": "Premium clean-fuel snack that undercuts protein bars on sugar and ingredient count while beating them on taste and portability."
+  },
+  "voice_pillars": [
+    {
+      "name": "Playful and Fun",
+      "desc": "Energetic, upbeat, snack-should-be-fun tone that leans into puns and the squeeze motif.",
+      "quote": "Joy in every squeeze"
+    },
+    {
+      "name": "Blunt and Honest",
+      "desc": "Says what it means in plain words, calling out the category's flaws directly.",
+      "quote": "No chalky powders. No 16g sugar bombs."
+    },
+    {
+      "name": "Athlete-Ready",
+      "desc": "Speaks to people who train and move, framing the snack as fuel for real effort.",
+      "quote": "TRAIN HARD SNACK HARDER SQUEEZE THE DAY"
+    },
+    {
+      "name": "Real and Unpretentious",
+      "desc": "Rejects corporate wellness-speak in favor of a founder-in-her-kitchen, human voice.",
+      "quote": "We say what we mean. No corporate fitness voice."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Joy in every squeeze",
+      "taste like dessert",
+      "Yes, it tastes exactly like that.",
+      "No bombs, no crashes",
+      "Real ingredients you can pronounce",
+      "Snack on the go"
+    ],
+    "words": [
+      "Squeezies",
+      "squeeze",
+      "dessert",
+      "clean fuel",
+      "real food",
+      "plant protein",
+      "the squad",
+      "no chalk"
+    ],
+    "avoid": [
+      "corporate fitness voice",
+      "medical or drug claims",
+      "chalky",
+      "clinical jargon"
+    ]
+  },
+  "icp": "Active, on-the-go people who train, hustle, or parent and want a real-food protein snack that tastes like dessert and fits in any bag without the sugar crash.",
+  "personas": [
+    {
+      "name": "On-the-Go Mom",
+      "description": "Juggles snack bag, gym bag, and diaper bag and needs clean fuel that fits anywhere - moved by convenience and real ingredients."
+    },
+    {
+      "name": "Everyday Athlete",
+      "description": "Lifts before work and runs before sunset, wants real food not chemistry - moved by clean protein and post-lift fuel angles."
+    },
+    {
+      "name": "Aspiring Athlete",
+      "description": "Just started taking fitness seriously and wants clean fuel without supplement-aisle anxiety - moved by simple, honest, non-intimidating messaging."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Variety Pack Cashew Butter Squeezies",
+      "role": "Hero / best-seller",
+      "price": 29.99
+    },
+    {
+      "title": "Dark Chocolate Brownie Cashew Butter Squeezies",
+      "role": "Entry point",
+      "price": 29.99
+    },
+    {
+      "title": "Coconut Cream Pie Cashew Butter Squeezies",
+      "role": "Entry point",
+      "price": 29.99
+    },
+    {
+      "title": "Cinnamon Buns Cashew Butter Squeezies",
+      "role": "Entry point",
+      "price": 29.99
+    }
+  ],
+  "offers": [
+    "Free shipping on US orders over $85",
+    "30-day satisfaction guarantee - refund if it doesn't taste like dessert",
+    "Subscribe and save 10%",
+    "The Party Pack - 12 squeezies, three of every flavor, $29.99",
+    "Volume pricing: 12-Pack $2.49/pouch, 24-Pack $2.24/pouch (save 20%), 48-Pack $1.99/pouch"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "5g+ plant protein per pouch (Dark Chocolate Brownie at 6g+)",
+        "source": "homepage and product page"
+      },
+      {
+        "claim": "100% plant-based, gluten-free, soy-free, dairy-free",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Low added sugar, sweetened with coconut sugar and stevia",
+        "source": "homepage and product page"
+      },
+      {
+        "claim": "Real ingredients only - no artificial sweeteners, no palm oil",
+        "source": "FAQ and product page"
+      },
+      {
+        "claim": "1oz resealable, BPA-free pouch; unopened keeps 9 months in the pantry",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "30-day satisfaction guarantee and free shipping over $85",
+        "source": "FAQ and refund policy"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Boosts your metabolism or burns fat",
+        "why": "Structure/function drug claim - a food snack cannot claim to alter body function."
+      },
+      {
+        "claim": "Builds or repairs muscle",
+        "why": "Structure/function claim implying a physiological effect, not permitted for a food product without substantiation."
+      },
+      {
+        "claim": "Clinically proven to improve performance",
+        "why": "No study exists in the input - 'clinically proven' requires a real cited study."
+      },
+      {
+        "claim": "Prevents sugar crashes or blood-sugar spikes",
+        "why": "Health/disease-adjacent claim; stick to appearance/taste framing like 'no bombs, no crashes' as brand voice, not a medical promise."
+      },
+      {
+        "claim": "Detoxes or cleanses your body",
+        "why": "Unsubstantiated health claim with no supporting evidence on the site."
+      },
+      {
+        "claim": "Lowers cholesterol or supports heart health",
+        "why": "Disease/health claim that would reclassify the snack and requires FDA-qualified substantiation."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T12:29:18.152Z"
+}
