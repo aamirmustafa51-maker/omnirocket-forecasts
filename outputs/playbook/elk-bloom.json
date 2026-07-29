@@ -1,0 +1,164 @@
+{
+  "lead_company": "Elk & Bloom",
+  "lead_first_name": "Dominique",
+  "website": "https://elkandbloom.com",
+  "brand_domain": "elkandbloom.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Affordable 14K gold jewellery plus everyday apparel and accessories, sold DTC with a gifting-first storefront.",
+    "core_belief": "Everyday jewellery should be worn without worry - waterproof, tarnish-free pieces backed for life so you never take them off.",
+    "proof_points": [
+      "100% Lifetime Guarantee stated in the site header",
+      "Waterproof, Hypoallergenic and Tarnish Free positioning on the homepage",
+      "14K Gold pieces across earrings, necklaces and bracelets",
+      "100% Organic Cotton used in accessories like the chunky hair scrunchie"
+    ],
+    "positioning": "Accessible everyday gold and gifting - lower price point than fine jewellers, sold on durability and worry-free wear rather than luxury exclusivity."
+  },
+  "voice_pillars": [
+    {
+      "name": "Worry-Free Wear",
+      "desc": "Leads with durability so customers feel safe wearing pieces every day, in water, without fear of damage.",
+      "quote": "Waterproof | Hypoallergenic | Tarnish Free"
+    },
+    {
+      "name": "Guarantee-Backed Confidence",
+      "desc": "Reassures buyers with lifetime backing and low-friction returns front and center.",
+      "quote": "100% Lifetime Guarantee"
+    },
+    {
+      "name": "Gift-Ready Warm",
+      "desc": "Frames products around gifting occasions with easy, thoughtful ways to give.",
+      "quote": "Gift Boxes Custom Gift Notes Upgraded Warranties Package Protection"
+    },
+    {
+      "name": "Descriptive & Tactile",
+      "desc": "Names products with rich, sensory detail so shoppers picture the texture and feel.",
+      "quote": "Oversized Handmade Soft Scrunchie, Thick Large Knot Hair Band Tie"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Waterproof & Tarnish-Free",
+      "100% Lifetime Guarantee",
+      "Everyday Essential",
+      "Comfortable Stretch Fit",
+      "Oversized Handmade Soft Scrunchie",
+      "Dainty 14k Gold"
+    ],
+    "words": [
+      "Chunky",
+      "Dainty",
+      "14K Gold",
+      "Waterproof",
+      "Tarnish-Free",
+      "Hypoallergenic",
+      "Everyday",
+      "Gifting"
+    ],
+    "avoid": [
+      "cheap",
+      "disposable",
+      "luxury exclusivity",
+      "clinical"
+    ]
+  },
+  "icp": "Style-conscious women who want affordable 14K gold they can wear every day without tarnish or worry, and who shop for easy, thoughtful gifts for themselves and others.",
+  "personas": [
+    {
+      "name": "Everyday Gold Wearer",
+      "description": "Wants jewellery she never has to take off - the waterproof, tarnish-free angle plus the lifetime guarantee closes her."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Shopping for a birthday or holiday and moved by gift boxes, custom notes, and clear gift-by-price collections."
+    },
+    {
+      "name": "Trend-Led Accessorizer",
+      "description": "Loves chunky-to-dainty variety across earrings, necklaces and accessories and buys into the Buy 2 Get 1 Free offer."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Chunky 14K Gold Molten Wave Stud Earrings",
+      "role": "Hero / best-seller",
+      "price": 13400
+    },
+    {
+      "title": "14K Gold Winged Heart Pendant Necklace",
+      "role": "Entry point",
+      "price": 12600
+    },
+    {
+      "title": "Dainty 14K Gold Love Birds Stud Earrings",
+      "role": "Premium",
+      "price": 13400
+    },
+    {
+      "title": "14K Gold Solitaire Pendant Choker Necklace",
+      "role": "Entry point",
+      "price": 12600
+    }
+  ],
+  "offers": [
+    "Buy 2 Items, Get 1 Free (limited offer)",
+    "Sitewide sale pricing (e.g. from Rs.12,600 vs Rs.15,700 regular)",
+    "100% Lifetime Guarantee",
+    "Easy Returns",
+    "Gift upgrades: Gift Boxes, Custom Gift Notes, Upgraded Warranties, Package Protection",
+    "Gift Cards and curated gifts by price band"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Waterproof and tarnish-free jewellery",
+        "source": "homepage header / site banner"
+      },
+      {
+        "claim": "Hypoallergenic",
+        "source": "homepage header"
+      },
+      {
+        "claim": "100% Lifetime Guarantee",
+        "source": "homepage header"
+      },
+      {
+        "claim": "Made in 14K Gold",
+        "source": "product titles across earrings, necklaces, bracelets"
+      },
+      {
+        "claim": "Made with 100% Organic Cotton (scrunchie)",
+        "source": "scrunchie product page title"
+      },
+      {
+        "claim": "Easy Returns",
+        "source": "site banner"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the organic cotton or jewellery 'sustainable' or 'eco-friendly' without proof",
+        "why": "FTC Green Guides - unqualified sustainability claim not backed on site"
+      },
+      {
+        "claim": "'Zero impact' or 'carbon neutral' packaging or products",
+        "why": "FTC Green Guides - unverifiable environmental benefit claim"
+      },
+      {
+        "claim": "'100% recycled gold' or recycled-material claims",
+        "why": "FTC Green Guides - no recycled-content sourcing stated or verified"
+      },
+      {
+        "claim": "'Hypoallergenic - prevents all skin reactions' or medical skin claims",
+        "why": "Medical claim; hypoallergenic can be stated but not as a guaranteed no-reaction cure"
+      },
+      {
+        "claim": "'Waterproof forever, indestructible' beyond stated durability",
+        "why": "Overstates the waterproof/tarnish-free claim beyond what the site substantiates"
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T11:34:32.161Z"
+}
