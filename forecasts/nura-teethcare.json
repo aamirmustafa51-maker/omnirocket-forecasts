@@ -1,0 +1,138 @@
+{
+  "brand": "Nura Teethcare",
+  "brand_slug": "nura-teethcare",
+  "first_name": "Joe",
+  "website": "https://nurateethcare.com",
+  "generated_date": "July 29, 2026",
+  "read_time_min": 3,
+  "total_ads": 35,
+  "niche": "oral care",
+  "tldr": "About a dozen of your live ads are running the exact same 'Save Over £80 On Longevity' copy word-for-word, and roughly ten more repeat the '2x better than fluoride' opener. Meta sees these as basically one ad, so it quietly shows just one and stops running the rest.",
+  "benchmark": {
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical oral care brand ships a fresh ad every three weeks. The best brands do it every two. At your scale and with this much repeat wording, you should be shipping fresh ideas even faster than that."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 20,
+      "headline": "Save Over £80 On Longevity",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back. Disclaimer: \"More than 2x better repair than fluoride\" is based on in-vitro testing by the University of Milan. Nura is a cosmetic product.",
+      "cta": "Learn More",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This exact wording and headline is running word-for-word on nine other live ads right now.",
+        "It has been up for 40 days, which is almost double how long your ads should run at your size.",
+        "You paid to make ten near-identical ads, but Meta is only showing one of them to people."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 24,
+      "headline": "Save Over £80 On Longevity",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back. Disclaimer: \"More than 2x better repair than fluoride\" is based on in-vitro testing by the University of Milan. Nura is a cosmetic product.",
+      "cta": "Learn More",
+      "fatigue_score": 93,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This is a direct copy of another ad already running, so it competes with itself for the same viewers.",
+        "The headline leads with a discount instead of what makes your toothpaste different.",
+        "40 days in with no visible change means the people who might buy have likely seen it already."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 32,
+      "headline": "Save Over £80 On Longevity",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back. Disclaimer: \"More than 2x better repair than fluoride\" is based on in-vitro testing by the University of Milan. Nura is a cosmetic product.",
+      "cta": "Learn More",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Another word-for-word copy of the discount ad, adding no new opening line or angle.",
+        "The '£80 off' hook has been the loudest message on your account for six weeks straight.",
+        "When every ad says the same thing, the strongest message you have gets diluted."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 26,
+      "headline": "Save Over £80 On Longevity",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back. Disclaimer: \"More than 2x better repair than fluoride\" is based on in-vitro testing by the University of Milan. Nura is a cosmetic product.",
+      "cta": "Learn More",
+      "fatigue_score": 91,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Same headline, same body, same button as several other live ads on your account.",
+        "You're teaching Meta that your account only has one thing to say, which limits who it can find for you.",
+        "Six weeks in means anyone who was going to click on this angle already has."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 18,
+      "headline": "Save Over £80 On Longevity",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back. Disclaimer: \"More than 2x better repair than fluoride\" is based on in-vitro testing by the University of Milan. Nura is a cosmetic product.",
+      "cta": "Learn More",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "This is one of nearly a dozen copies of the same discount ad running at the same time.",
+        "The body reads more like a science summary than a reason to buy today.",
+        "The 'Learn More' button is the same on almost every ad, so people never see anything new."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Whitening That Heals",
+      "body": "\"This toothpaste feels different\"  2x the power of fluoride. No fluff. Just results.  Enamel-renewing toothpaste with 12% Hydroxyapatite-proven to whiten, strengthen, and protect.  Yellow, sensitive, weak teeth? These are all signs of aging enamel. Rebuild and fight back with Nura.  ✨The best time to invest in your smile is today. Don't leave it too late to switch. Try Nura.",
+      "fatigue_score": 72,
+      "days_until_fatigue": 14
+    },
+    {
+      "headline": "The Longevity Toothpaste",
+      "body": "University of Milan testing shows Nura repairs enamel more than 2x better than fluoride. Nura's Mineralising Paste uses 12% Hydroxyapatite (7% nano + 5% micro) to put mineral back.",
+      "fatigue_score": 68,
+      "days_until_fatigue": 17
+    },
+    {
+      "headline": "Rebuild Your Enamel",
+      "body": "Save over £80 on the ultimate longevity bundle for your teeth... Three reasons to switch to Nura: ✅ 12% Hydroxyapatite. 💎 Rebuilds damaged enamel 2x better than fluoride.",
+      "fatigue_score": 65,
+      "days_until_fatigue": 19
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Milan Test",
+    "format": "Single image",
+    "hook": "We tested Nura against the world's biggest toothpaste. Here's what happened.",
+    "headline": "Enamel, Rebuilt in Milan",
+    "primary_text": "For a year, scientists at the University of Milan put Nura's Starter Set against a leading fluoride toothpaste on real human enamel.\n\nThe result: over 2x better repair, using 12% Hydroxyapatite in two forms your teeth actually recognise. Not a claim from marketing. A number from a lab.\n\nStart with the Starter Set and see the difference in your first tube.",
+    "cta": "Shop Now",
+    "visual_direction": "A clean, editorial shot of the Nura Starter Set on a soft cream marble surface, with a small handwritten lab-style caption card next to it reading '2.04x' in a calm serif font.",
+    "fills_gap": "Almost every ad you have leads with the discount or repeats the same three bullet points. Nothing plants the Milan test as its own moment, so your strongest selling point gets lost inside promo copy.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft cream marble surface with a small folded lab-style caption card resting beside the product, with soft diffused natural window light from the upper left casting gentle shadows. Calm, science-editorial aesthetic evoking a premium apothecary or dermatology lab. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact Nura Starter Set packaging as shown in the reference: the exact off-white and pale mint colorway of the boxes and tubes, the exact typography, logo, and every printed graphic, ingredient callout, and text element exactly as they appear on the packaging - strictly NO color shift, NO altering of the Nura wordmark, NO removing or modifying any printed text, numbers, or graphics on the tube or box, NO changing pale mint to green or blue, NO warm-tone bias. STRUCTURE - preserve the exact construction of the Starter Set: the same number of items in the set (toothpaste tube, brush, and any accompanying items exactly as shown in the reference), the same tube shape with flip-cap closure, the same box proportions, the same brush handle design, all printed labels, ingredient percentages, and brand marks preserved exactly in placement and content. Do NOT add or remove items from the set, do NOT change tube or box dimensions, do NOT alter or remove any printed graphics or text on the packaging, do NOT modify the brush shape or bristle style. Render the product's material, color, finish, surface treatment, AND every visible construction detail EXACTLY as they appear in the reference image. Do NOT change the packaging color, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove any element of the set. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no swap of pale mint to any other color, no warm-tone bias on cool tones, no recoloring of packaging, no removing or replacing the product's printed graphics or brand marks, no added items not present in reference, no silhouette alterations, no design modifications.",
+    "reference_title": "The Starter Set",
+    "reference_url": "https://nurateethcare.com/products/the-starter-set-v1",
+    "image_path": "/creatives/nura-teethcare/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "The ten '£80 off' twins and the two 100-day-plus ads will stop working within the next week.",
+    "headline": "Walk through the Nura Teethcare refresh plan with Kyle",
+    "body": "Joe, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://nurateethcare.com/cdn/shop/files/Favicon6_Nura_6723a236-e163-4c4b-acd7-d26c2c54e3b2.png?v=1747219057&width=180"
+}
