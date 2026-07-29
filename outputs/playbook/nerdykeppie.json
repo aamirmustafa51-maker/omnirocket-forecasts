@@ -1,0 +1,146 @@
+{
+  "lead_company": "NerdyKeppie",
+  "lead_first_name": "Spider",
+  "website": "https://nerdykeppie.com",
+  "brand_domain": "nerdykeppie.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Queer and nerdy apparel, pins, patches, resin art and Judaica - identity-forward merch made by and for the LGBTQ+ community.",
+    "core_belief": "If you can't buy it, start making it yourself - they built the Pride and nerdy clothing their own family couldn't find anywhere else.",
+    "proof_points": [
+      "100% queer run and family-owned business operating in Portland, Oregon",
+      "Crewneck tees now made in-house; other designs are NerdyKeppie original and exclusive",
+      "Made-to-order and print-on-demand so there is no waste",
+      "Real founder team named on the About page (Spider, Emet, Erykah) building the brand since 2016/2017"
+    ],
+    "positioning": "Community-first, values-driven independent maker - not a mass merch shop; every purchase supports a small queer family business and often a cause."
+  },
+  "voice_pillars": [
+    {
+      "name": "By Us, For Us",
+      "desc": "Speaks as an insider to the LGBTQ+ and nerdy community, never as an outside observer marketing to them.",
+      "quote": "By us for us since 2017."
+    },
+    {
+      "name": "Maker Roots",
+      "desc": "Grounded in the hands-on origin story of a family that made what they couldn't find.",
+      "quote": "If you can't buy it, start making it yourself!"
+    },
+    {
+      "name": "Inclusive and Practical",
+      "desc": "Prioritizes comfort, real body types, and useful details over hype.",
+      "quote": "comfortable, stylish options which fit a variety of expressions and body types"
+    },
+    {
+      "name": "Openly Activist",
+      "desc": "Names causes plainly and ties products to real-world support without softening the message.",
+      "quote": "Funds from this tee will be going directly into the Fish Outta Water Crew's upcoming transition costs."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "They look and feel fantastic",
+      "Big, beautiful, durable and bright!",
+      "The perfect shirt to march in a Pride parade in! Soft and comfy",
+      "So comfy and fits just right!",
+      "creative and fun merch, esoecually for gifts",
+      "Bought 10, should have bought more"
+    ],
+    "words": [
+      "queer",
+      "comfy",
+      "soft",
+      "fit",
+      "gifts",
+      "durable",
+      "community",
+      "Pride"
+    ],
+    "avoid": [
+      "corporate rainbow-washing",
+      "sterile / clinical tone",
+      "fake urgency",
+      "mass-market hype"
+    ]
+  },
+  "icp": "LGBTQ+ and allied nerds who want comfortable, expressive Pride and geeky merch and prefer to spend with a small queer-owned business whose values match their own.",
+  "personas": [
+    {
+      "name": "Stealth Activist",
+      "description": "Wants wearable identity and quiet resistance for daily life; moved by designs that let them signal values at work or in public."
+    },
+    {
+      "name": "Gift-Giving Regular",
+      "description": "A repeat buyer stocking up for their queer friend group; moved by fun, giftable, batch-buyable items and community loyalty."
+    },
+    {
+      "name": "Values-Match Shopper",
+      "description": "Buys specifically because the brand is queer and family-owned and gives back; moved by transparent origin and cause-tied products."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "15% off your next order for joining the mailing list",
+    "Get up to 5 pins or keychains free (site-wide banner promo)",
+    "Gift cards available",
+    "Wholesale/retailer program",
+    "Replacement for incorrectly made or wrong items; orders cancellable up to 2 hours after placing"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "100% queer run and family-owned business operating in Portland, Oregon.",
+        "source": "about page / footer"
+      },
+      {
+        "claim": "Crewneck tees now made in-house.",
+        "source": "homepage"
+      },
+      {
+        "claim": "All prints are NerdyKeppie original and exclusive.",
+        "source": "Galaxy pouch product page"
+      },
+      {
+        "claim": "Made-to-order and ships direct to your door, so there is no waste.",
+        "source": "about page / product pages"
+      },
+      {
+        "claim": "Pouch is heavyweight polyester canvas, fully lined, with a zippered closure.",
+        "source": "Galaxy pouch product page"
+      },
+      {
+        "claim": "Funds from the TACOS NOT TERFS tee go to the guest artists' transition costs.",
+        "source": "TACOS NOT TERFS product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best Pride merch in the world / #1 queer shop.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Only X left - order in the next hour!",
+        "why": "FTC - fake or invented urgency not supported by real inventory data."
+      },
+      {
+        "claim": "Loved by thousands of happy customers (with an invented count).",
+        "why": "FTC - fabricated review or endorsement counts; only cite the real 241 reviews shown."
+      },
+      {
+        "claim": "Guaranteed to last a lifetime / will never fade.",
+        "why": "FTC - guaranteed-results and durability claim with no substantiation on site."
+      },
+      {
+        "claim": "100% eco-friendly and zero-waste sustainable.",
+        "why": "FTC Green Guides - unqualified environmental claim beyond the stated made-to-order 'no waste' point."
+      },
+      {
+        "claim": "Featured on / endorsed by major media outlets.",
+        "why": "FTC - invented endorsement not present in site content."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T10:35:16.746Z"
+}
