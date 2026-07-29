@@ -1,0 +1,138 @@
+{
+  "brand": "Nunorm Shoes",
+  "brand_slug": "nunorm-shoes",
+  "first_name": "Michael",
+  "website": "https://nunormshoes.com",
+  "generated_date": "July 29, 2026",
+  "read_time_min": 3,
+  "total_ads": 10,
+  "niche": "barefoot shoes",
+  "tldr": "Half your live ads use the exact same headline and body, word-for-word. Meta treats near-copies as one ad and quietly shows just one of them, so you're paying to make ads almost nobody sees.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical shoe brand puts out fresh ads every three weeks. The best ones do it every two. You're at about four weeks, and you only have four genuinely different ad ideas across ten live ads, so Meta shows fewer of them."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Limited Offer 15% Off! Your new training shoe: Comfortable, Flexible, Room for your toes to move.",
+      "body": "Tried and tested by Athletes, stay at home Mom's, Weekend Warriors and Busy Professionals. Grab 15% Off with code NUNORM15",
+      "cta": "Get offer",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been running for 196 days straight, roughly seven times longer than your typical shoe ad should live.",
+        "The same headline and body word-for-word appears on three other live ads, so Meta groups them and only shows one.",
+        "A discount code that's been public for six months tells shoppers the price is never really full price."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 4,
+      "headline": "Limited Offer 15% Off! Your new training shoe: Comfortable, Flexible, Room for your toes to move.",
+      "body": "Tried and tested by Athletes, stay at home Mom's, Weekend Warriors and Busy Professionals. Grab 15% Off with code NUNORM15",
+      "cta": "Get offer",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "Identical wording to three other running ads, so shoppers who saw one see the message as an old ad they already ignored.",
+        "The audience list, 'Athletes, stay at home Mom's, Weekend Warriors and Busy Professionals,' tries to speak to everyone and connects with nobody.",
+        "There's a stray apostrophe in 'Mom's' that a shopper sees before they see the shoe."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 2,
+      "headline": "NUNORM Classic",
+      "body": "",
+      "cta": "Shop Now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "This swipeable ad has no body text at all, so the images have to sell the shoe by themselves with zero context.",
+        "It has been running 155 days on a single product page, well past the point where most shoppers who'd buy already saw it.",
+        "The headline is just the product name, which tells a stranger nothing about why to click."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 5,
+      "headline": "",
+      "body": "A stable foundation, wherever life takes you. Costa Rica this time, still grounded in NUNORM 🌎 🎥: @rydercortezprod",
+      "cta": "Shop now",
+      "fatigue_score": 78,
+      "days_until_fatigue": 12,
+      "severity": "warn",
+      "drivers": [
+        "No headline on this ad, so the small text below the video has to do all the work of naming what's being sold.",
+        "The Costa Rica travel angle is pretty but never mentions the shoe's benefits like flat, flexible, or toe room.",
+        "At 69 days running, this is more than double the age where shoe ads usually stop pulling new buyers."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 3,
+      "headline": "NUNORM Classic",
+      "body": "Flat. Flexible. Foot shaped Colors to match your morning outfit to your last set. Which color combo should we drop next?",
+      "cta": "Shop now",
+      "fatigue_score": 72,
+      "days_until_fatigue": 16,
+      "severity": "warn",
+      "drivers": [
+        "The 'which color should we drop next' question is written for existing fans, not for a stranger deciding whether to buy.",
+        "This is your only single-image ad in ten live ads, so the whole still-photo angle rests on one aging piece.",
+        "Hashtags like #minimalistshoes and #barefootshoes do nothing inside a paid ad and just eat reading space."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "NUNORM Classic",
+      "body": "Flat. Flexible. Foot shaped Colors to match your morning outfit to your last set.",
+      "fatigue_score": 72,
+      "days_until_fatigue": 16
+    },
+    {
+      "headline": "Limited Offer 15% Off!",
+      "body": "Tried and tested by Athletes, stay at home Mom's, Weekend Warriors and Busy Professionals.",
+      "fatigue_score": 88,
+      "days_until_fatigue": 6
+    },
+    {
+      "headline": "",
+      "body": "A stable foundation, wherever life takes you. Costa Rica this time, still grounded in NUNORM.",
+      "fatigue_score": 78,
+      "days_until_fatigue": 12
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Toe-Splay Test",
+    "format": "Video",
+    "hook": "Your toes were never meant to be squeezed.",
+    "headline": "Room your feet remember",
+    "primary_text": "Slip off your regular sneakers and look down. Your toes are pressed together like they're standing in a line at the DMV.\n\nThe Nunorm Classic in Apex Black is cut foot-shaped, not shoe-shaped. Flat sole, flexible upper, and a toe box wide enough that your foot actually spreads out the way it did when you were a kid.\n\nTry them for 30 days. If your feet don't feel different, send them back.",
+    "cta": "Shop Now",
+    "visual_direction": "A close-up video of bare feet spreading naturally on wood floor, then sliding into the Apex Black Nunorm Classic with the same natural spread visible through the shoe.",
+    "fills_gap": "Right now, none of your ads explain WHY a barefoot shoe matters to someone who's never worn one. The 15% off ads shout a discount, and the travel and coach videos talk about the brand, but nothing shows a stranger what problem the shoe actually solves for their own feet.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a clean overhead shot on a light warm-toned oak wood floor with a pair of bare feet just stepping into frame beside the shoes, with soft natural morning light coming from a window at a low angle casting gentle long shadows. Minimalist, calm, grounded aesthetic in the earthy neutral palette Nunorm already uses in their organic lifestyle content. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact deep matte black colorway of the Nunorm Classic Apex Black upper and sole exactly as shown in the reference - strictly NO grey, charcoal, off-black, brown-black, or glossy shift, and preserve any visible Nunorm branding, tag, or logo stitched or printed on the shoe exactly as it appears. STRUCTURE - preserve the exact construction: flat zero-drop sole, wide foot-shaped toe box, low-profile flexible upper, standard lace-up closure with the exact same number of eyelets and lace pattern shown in the reference, tongue and heel tab as shown, and any printed or embroidered Nunorm wordmark or logo on the tongue, side, or heel preserved exactly. Do NOT add or remove eyelets, do NOT add extra straps or velcro, do NOT change to a slip-on or high-top silhouette, do NOT add a raised heel or thick sole, do NOT remove the Nunorm branding, do NOT alter the toe box shape to narrow. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Nunorm Classic - APEX BLACK",
+    "reference_url": "https://nunormshoes.com/products/nunorm-classic-apex-black",
+    "image_path": "/creatives/nunorm-shoes/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Four of your live ads share the same wording and one has been running 196 days; expect those to slow down inside the next week.",
+    "headline": "Walk through the Nunorm Shoes refresh plan with Kyle",
+    "body": "Michael, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the wording, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://nunormshoes.com/cdn/shop/files/Group_1171274788_fd05284a-a2e5-4a81-90b6-2823bc53327c.svg?crop=center&height=32&v=1740387737&width=32"
+}
