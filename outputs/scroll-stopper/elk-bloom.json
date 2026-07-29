@@ -1,0 +1,60 @@
+{
+  "lead_company": "Elk & Bloom",
+  "lead_first_name": "Dominique",
+  "website": "https://elkandbloom.com",
+  "brand_domain": "elkandbloom.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, reassuring everyday-essentials voice that leads with durability and lifetime backing while painting tactile, gift-ready pictures of each piece.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/elk-bloom?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Large Chunky Everyday Neutral White Tote Bag",
+      "product_url": "https://www.elkandbloom.com/products/large-chunky-everyday-neutral-white-tote-bag",
+      "image_url": "/creatives/scroll-stopper/elk-bloom/ad-1.jpg",
+      "ai_image": true,
+      "price": 6300,
+      "compare_at_price": 7900,
+      "on_sale": true,
+      "angle_label": "Problem / Solution",
+      "primary_text": "One bag for the gym, the weekend away, and the mid-week food shop.\n\nNo more juggling three different bags. Our chunky strap spreads the weight so it never digs in, and the secure zip keeps everything safe inside.\n\nMade from high-strength 100% cotton canvas and backed by our 100% Lifetime Guarantee. Now on sale.",
+      "headline": "The Everyday Essential Tote",
+      "cta": "Shop Now",
+      "why_it_works": "The tote's whole pitch is versatility across daily errands, so naming the everyday friction of switching bags and solving it with the chunky strap and zip lands directly on the buyer's need.",
+      "visual_direction": "The cream canvas tote standing on a sunlit entryway console beside keys, a coffee cup, a yoga mat and a bag of produce, ready for the day."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Soft 100% Cotton Brown Chunky Hair Scrunchie",
+      "product_url": "https://www.elkandbloom.com/products/soft-100-cotton-brown-chunky-hair-scrunchie",
+      "image_url": "/creatives/scroll-stopper/elk-bloom/ad-2.jpg",
+      "ai_image": true,
+      "price": 2600,
+      "compare_at_price": 3200,
+      "on_sale": true,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Big hold, zero snags, all-day comfort.\n\nThis oversized handmade soft scrunchie is 100% brown soft cotton with a plush waffle texture that cradles your hair and keeps your style in place from morning coffee to evening plans.\n\nGentle on your locks, firm on the hold. On sale now.",
+      "headline": "Your Everyday Hair Essential",
+      "cta": "Shop Now",
+      "why_it_works": "A small daily-use accessory sells best on the single feeling it delivers - a soft, secure hold that protects your hair - so leading with that outcome beats listing features.",
+      "visual_direction": "The plush brown scrunchie resting on a marble vanity shelf beside a small dish and a hairbrush in soft morning light."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Dainty 14K Gold Virgin Mary Miraculous Medal Choker Necklace",
+      "product_url": "https://www.elkandbloom.com/products/dainty-14k-gold-virgin-mary-choker-necklace",
+      "image_url": "/creatives/scroll-stopper/elk-bloom/ad-3.jpg",
+      "ai_image": true,
+      "price": 16400,
+      "compare_at_price": 20500,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Dainty gold you never have to take off.\n\nThis 14k gold Virgin Mary Miraculous Medal choker is waterproof and tarnish-free, so you can wear it in the shower, at the beach, and every day in between without a second thought.\n\nHypoallergenic and backed by our 100% Lifetime Guarantee, with easy returns if it isn't quite right. Now on sale.",
+      "headline": "Waterproof & Tarnish-Free Gold",
+      "cta": "Shop Now",
+      "why_it_works": "The top hesitation with dainty plated jewelry is whether it will tarnish or irritate, so leading with waterproof, tarnish-free, hypoallergenic and the lifetime guarantee removes the exact fear that stops the purchase.",
+      "visual_direction": "The dainty gold Virgin Mary necklace laid in a soft curve on pale linen beside a small ring dish and a lavender sprig, lit to show its fine detail."
+    }
+  ],
+  "generated_at": "2026-07-29T11:35:52.863Z"
+}
