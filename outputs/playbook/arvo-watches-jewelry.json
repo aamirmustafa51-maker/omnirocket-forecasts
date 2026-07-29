@@ -1,0 +1,147 @@
+{
+  "lead_company": "Arvo Watches & Jewelry",
+  "lead_first_name": "Darryl",
+  "website": "https://arvowear.com",
+  "brand_domain": "arvowear.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Affordable stylish wristwatches and jewelry for men, women, and kids, sold direct-to-consumer with a give-back mission.",
+    "core_belief": "BE GOOD, DO GOOD - Arvo donates a portion of sales to good causes in its effort to be socially responsible and better the lives of those it can.",
+    "proof_points": [
+      "Limited 1-year warranty on defects in materials and craftsmanship",
+      "6-month band replacement for manufacturer defects",
+      "Custom engraving available and does NOT void the warranty",
+      "Donates a portion of sales to good causes via Arvo Gives"
+    ],
+    "positioning": "Accessible, value-priced watches ($79.95-$99.95) with a feel-good, socially responsible angle - not luxury, not throwaway fashion."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm and Friendly",
+      "desc": "Talks to customers like neighbors, casual and grateful rather than corporate.",
+      "quote": "Thanks for shopping with us!"
+    },
+    {
+      "name": "Purpose-Driven",
+      "desc": "Leads with the give-back mission and frames buying as doing good.",
+      "quote": "BE GOOD, DO GOOD is our motto!"
+    },
+    {
+      "name": "Value-Forward",
+      "desc": "Openly emphasizes affordability and savings without apology.",
+      "quote": "stylish wristwatches for men and women at affordable prices"
+    },
+    {
+      "name": "Approachable and Helpful",
+      "desc": "Guides shoppers plainly and makes support feel easy to reach.",
+      "quote": "We always love to hear from our customers!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "stylish wristwatches for men and women at affordable prices",
+      "a great gift for the littles",
+      "BE GOOD, DO GOOD",
+      "SAVE SOME GREEN!",
+      "Not sure which color is right for you?",
+      "to better the lives of those it can"
+    ],
+    "words": [
+      "stylish",
+      "affordable",
+      "field watch",
+      "engraving",
+      "leather band",
+      "mesh band",
+      "gift",
+      "give"
+    ],
+    "avoid": [
+      "luxury",
+      "designer",
+      "high-end",
+      "exclusive"
+    ]
+  },
+  "icp": "Everyday value-minded shoppers, often buying gifts, who want a good-looking watch at an accessible price and feel good knowing part of their purchase supports a cause.",
+  "personas": [
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Buys a watch or a kids watch as a meaningful gift; moved by custom engraving and the give-back story."
+    },
+    {
+      "name": "The Value Style-Seeker",
+      "description": "Wants a stylish everyday watch without a luxury price tag; moved by the $79-$99 price point and green discount savings."
+    },
+    {
+      "name": "The Feel-Good Buyer",
+      "description": "Cares that their money does good; moved by the BE GOOD, DO GOOD mission and Arvo Gives donations."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "FREE USA shipping on orders over $49",
+    "Green Discount Button on product pages for savings",
+    "Bundle Deals",
+    "Clearance Outlet pricing",
+    "Add Custom Engraving option (note: engraved watches cannot be returned or exchanged)",
+    "Limited 1-year warranty; 6-month band replacement for manufacturer defects"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free USA shipping on orders over $49",
+        "source": "site header and shipping policy"
+      },
+      {
+        "claim": "Limited 1-year warranty on defects in materials and craftsmanship",
+        "source": "refund/warranty page"
+      },
+      {
+        "claim": "Custom engraving available and does not void your warranty",
+        "source": "refund/warranty page"
+      },
+      {
+        "claim": "Arvo donates a portion of sales to good causes",
+        "source": "homepage / Arvo Gives"
+      },
+      {
+        "claim": "Stylish watches for men, women, and kids at affordable prices",
+        "source": "homepage"
+      },
+      {
+        "claim": "Orders generally ship within 1-2 business days",
+        "source": "shipping policy"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling Arvo 'sustainable' or 'eco-friendly'",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on site"
+      },
+      {
+        "claim": "'Socially responsible' framed as a broad green/impact claim without specifics",
+        "why": "FTC Green Guides - vague benefit claim; only 'donates a portion of sales' is supported, so keep to that specific wording"
+      },
+      {
+        "claim": "'100% recycled' or 'carbon neutral' materials",
+        "why": "FTC Green Guides - no material composition or offset data exists on the site"
+      },
+      {
+        "claim": "'Waterproof' or safe for swimming and diving",
+        "why": "Warranty explicitly excludes water damage from swimming or diving - unsupported durability claim"
+      },
+      {
+        "claim": "Any health claim such as 'relieves wrist pain' or 'improves posture'",
+        "why": "Banned medical/orthopedic claim for this category"
+      },
+      {
+        "claim": "'Genuine leather never fades or discolors'",
+        "why": "Warranty states leather naturally fades and discolors - contradicts brand's own stated facts"
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T09:36:23.307Z"
+}
