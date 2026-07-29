@@ -1,0 +1,60 @@
+{
+  "lead_company": "FlipFresh",
+  "lead_first_name": "Chad",
+  "website": "https://flipfreshspices.com",
+  "brand_domain": "flipfreshspices.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, freshness-obsessed and quietly design-proud, talking like a real cook who cares about peak flavor instead of hype.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/flipfresh?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Cinnamon - Refill",
+      "product_url": "https://flipfreshspices.com/products/cinnamon-refill-1",
+      "image_url": "/creatives/scroll-stopper/flipfresh/ad-1.jpg",
+      "ai_image": true,
+      "price": 7,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "The cinnamon is the best ever, rich and full of flavor.\n\nRoyal Cinnamon is an heirloom variety, sustainably harvested and sun dried in the Quang Nam Mountains of Vietnam. One whiff and you'll get why people say it.\n\nIt's the intense sweet-and-spicy kind that turns even a bowl of oatmeal into a small everyday pleasure. Refill your jar for just $7.",
+      "headline": "Cinnamon Worth Smelling First",
+      "cta": "Shop Now",
+      "why_it_works": "Cinnamon's single most desirable outcome is its aroma and rich flavor, so leading with the sensory payoff sells the freshness story instantly.",
+      "visual_direction": "A scattered pile of rough cinnamon bark quills with a small mound of ground cinnamon beside it on a warm walnut board in golden light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Coffee - Kona Dark Roast Whole Bean",
+      "product_url": "https://flipfreshspices.com/products/coffee-kona-dark-roast-whole-bean",
+      "image_url": "/creatives/scroll-stopper/flipfresh/ad-2.jpg",
+      "ai_image": true,
+      "price": 25,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Most beans are already stale by the time they hit your grinder.\n\nOurs are 100% Kona, hand-harvested from the high-altitude Kona coffee belt and roasted in small batches so they reach you glossy and fresh.\n\nThe kraft pouch zips shut and has a little valve to keep that just-roasted flavor locked in. Bright, clean, complex - the way fresh fresh coffee should taste.",
+      "headline": "Fresh Kona, Not Shelf-Worn",
+      "cta": "Shop Now",
+      "why_it_works": "Coffee drinkers know staleness is the everyday enemy, so naming that friction and answering it with small-batch freshness fits the brand's core obsession.",
+      "visual_direction": "The kraft coffee pouch standing on a marble counter with a mug and loose whole beans in bright morning light."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Alaea Hawaiian Sea Salt",
+      "product_url": "https://flipfreshspices.com/products/alaea-hawaiian-sea-salt-premium",
+      "image_url": "/creatives/scroll-stopper/flipfresh/ad-3.jpg",
+      "ai_image": true,
+      "price": 9,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "We went looking for a salt with an actual sense of place.\n\nWe found Alaea Hawaiian Sea Salt - coarse amber crystals that get their golden color from volcanic alaea clay, sourced directly from small farms through Burlap and Barrel.\n\nIt soaks into beef, poultry, pork and seafood fast, and honestly, even mac and cheese tastes way better with a pinch. That's the kind of small pleasure we started FlipFresh for.",
+      "headline": "Salt With A Sense Of Place",
+      "cta": "Shop Now",
+      "why_it_works": "Alaea salt's unusual origin and mineral character is a natural 'why we sourced this' story that showcases the brand's freshness-and-provenance values.",
+      "visual_direction": "A loose mound of coarse amber Hawaiian salt on dark slate with a hand pinching a few crystals in warm side light."
+    }
+  ],
+  "generated_at": "2026-07-29T10:53:34.319Z"
+}
