@@ -1,0 +1,61 @@
+{
+  "lead_company": "The Canine Menu",
+  "lead_first_name": "Jessica",
+  "website": "https://thecaninemenu.co.uk",
+  "brand_domain": "thecaninemenu.co.uk",
+  "currency": "USD",
+  "brand_voice_note": "Warm, witty and trade-savvy - it talks to business owners about restocking and margins while keeping the natural, no-nonsense sourcing plain and dog-loving.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/the-canine-menu?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://thecaninemenu.co.uk/cdn/shop/files/TCM-Logo-Horizontal-Dark-Transparent.png?v=1771324667&width=380",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Rabbit Dog Chews (25 units)",
+      "product_url": "https://thecaninemenu.co.uk/products/rabbit-dog-chews-25-units",
+      "image_url": "/creatives/scroll-stopper/the-canine-menu/ad-1.jpg",
+      "ai_image": true,
+      "price": 30.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "A restless dog in the room is nobody's idea of a five-star stay.\n\nOur Rabbit chews are a softer option for small, extra small, senior dogs and puppies - grain free, gluten free and easily-digestible for sensitive tummies. Perfect to keep our dogs occupied during our stay.\n\n25 pre-packaged chews per box. Restock your dog menu and hand guests something that actually goes down a treat.",
+      "headline": "Keep guest dogs happily busy",
+      "cta": "Shop Now",
+      "why_it_works": "Softer rabbit chews solve a real friction for holiday lets and dog-friendly venues - occupying restless dogs - which speaks straight to the trade buyer.",
+      "visual_direction": "The kraft rabbit-chew box standing upright with a single dried rabbit chew leaning against it, next to a small ceramic dog bowl on a warm oak surface."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Boar Dog Chews (25 units)",
+      "product_url": "https://thecaninemenu.co.uk/products/boar-dog-chews-25-units",
+      "image_url": "/creatives/scroll-stopper/the-canine-menu/ad-2.jpg",
+      "ai_image": true,
+      "price": 30.5,
+      "compare_at_price": 29,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried about what's really in that chew? Fair.\n\nOur Boar chews are slow roasted and crunchy, air-dried using no additives or preservatives - just boar. A healthy alternative to rawhide, fully digestible and never containing rawhide.\n\nGrain free, gluten free and medium-lasting, with 25 pre-packaged chews per box to restock your dog menu.",
+      "headline": "A real alternative to rawhide",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation for a chew buyer is 'is this just processed rawhide?' - so we crush it head-on with the fully digestible, no-additives sourcing.",
+      "visual_direction": "The kraft boar-chew box standing upright with the ridged boar chew bar leaning against it, beside a folded linen napkin and a fork on a pale stone surface."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Brewery Bites Dog Biscuits (5kg)",
+      "product_url": "https://thecaninemenu.co.uk/products/brewery-bites-dog-biscuits-5kg",
+      "image_url": "/creatives/scroll-stopper/the-canine-menu/ad-3.jpg",
+      "ai_image": true,
+      "price": 25,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "From brew to biscuit - full circle. 🍺\n\nWe upcycle spent grain from the brewing process into these paw-shaped biscuits, made in the UK with all natural ingredients. Dog biscuits with a story worth telling.\n\nA 5kg jar to restock your treat jar and upgrade your free dog-friendly offering with something guests remember.",
+      "headline": "Dog biscuits with a story",
+      "cta": "Shop Now",
+      "why_it_works": "Brewery Bites' upcycled-grain origin is a genuine talking point, so the founder story angle turns provenance into a reason for cafes and venues to stock them.",
+      "visual_direction": "The glass clip-top jar full of paw-print biscuits on a rustic brewery counter with loose barley grains and a hand nearby, plus a few biscuits scattered in front."
+    }
+  ],
+  "generated_at": "2026-07-29T09:55:31.719Z"
+}
