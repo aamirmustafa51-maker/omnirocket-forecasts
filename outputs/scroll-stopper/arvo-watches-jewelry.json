@@ -1,0 +1,60 @@
+{
+  "lead_company": "Arvo Watches & Jewelry",
+  "lead_first_name": "Darryl",
+  "website": "https://arvowear.com",
+  "brand_domain": "arvowear.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, neighborly, and value-forward - a friendly outdoors-minded brand that makes affordable, good-looking watches and quietly gives back.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/arvo-watches-jewelry?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Arvo Rove Field Watch - Buckeye Brown",
+      "product_url": "https://www.arvowear.com/products/arvo-rove-field-watch-for-men-buckeye-brown",
+      "image_url": "/creatives/scroll-stopper/arvo-watches-jewelry/ad-1.jpg",
+      "ai_image": true,
+      "price": 99.95,
+      "compare_at_price": 119.95,
+      "on_sale": true,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A watch that goes with everything you already own.\n\nThe Rove in Buckeye Brown brings a warm, earthy tone to your everyday carry - genuine brown leather, a rugged brushed steel case, and a dial you can actually read on the trail.\n\nStylish watches for men and women at affordable prices, and every order helps us do a little good. Right now it's $99.95, down from $119.95. Save some green! 🌿",
+      "headline": "Earthy Style, Built To Roam",
+      "cta": "Shop Now",
+      "why_it_works": "The brown leather field watch's biggest draw is how easily it pairs with any casual or outdoor look, so leading with that everyday versatility hits the core desire.",
+      "visual_direction": "The brown leather field watch resting on a sunlit wooden cabin windowsill beside a small brass compass and a folded canvas jacket."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Arvo Rove Field Watch - Jeans Blue",
+      "product_url": "https://www.arvowear.com/products/arvo-rove-field-watch-for-men-jeans-blue",
+      "image_url": "/creatives/scroll-stopper/arvo-watches-jewelry/ad-2.jpg",
+      "ai_image": true,
+      "price": 99.95,
+      "compare_at_price": 119.95,
+      "on_sale": true,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Ever grab a watch that clashes with everything you throw on?\n\nThe Rove in Jeans Blue fixes that. The denim-blue dial and navy woven canvas strap go with weekend jeans, trail gear, whatever the day looks like - plus a signature red seconds hand for a little character.\n\nA go-to for men and women that won't break the bank at $99.95 (was $119.95). And a portion of every sale goes to good causes. Be good, do good.",
+      "headline": "One Watch, Goes With It All",
+      "cta": "Shop Now",
+      "why_it_works": "Matching a watch to an outfit is a small everyday friction, and this versatile denim-toned piece is the plain solution - a natural fit for the problem/solution lever.",
+      "visual_direction": "The denim-blue field watch resting on folded blue jeans beside a stainless travel mug and a canvas backpack strap."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Arvo Rove Field Watch - Moon White",
+      "product_url": "https://www.arvowear.com/products/arvo-field-watch-moon-white",
+      "image_url": "/creatives/scroll-stopper/arvo-watches-jewelry/ad-3.jpg",
+      "ai_image": true,
+      "price": 99.95,
+      "compare_at_price": 119.95,
+      "on_sale": true,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Still hunting for a gift he'll actually wear?\n\nThe Rove in Moon White is an easy yes - bold black numerals on a clean white dial, smooth black leather, and it reads clear at a glance. Add custom engraving for a personal touch (it won't void the warranty).\n\nFree USA shipping over $49, and it's $99.95 right now (was $119.95). A thoughtful gift that also helps us do some good.",
+      "headline": "The Gift He'll Actually Wear",
+      "cta": "Shop Now",
+      "why_it_works": "A high-contrast, engravable classic-look watch is a natural giftable item, so tying it to gifting occasions and the engraving option speaks straight to a buyer shopping for someone else.",
+      "visual_direction": "The white-dial black leather watch on a slate surface beside an open kraft gift box, eucalyptus, and a fountain pen."
+    }
+  ],
+  "generated_at": "2026-07-29T09:37:46.533Z"
+}
