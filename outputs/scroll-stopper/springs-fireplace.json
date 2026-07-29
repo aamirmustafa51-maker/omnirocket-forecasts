@@ -1,0 +1,60 @@
+{
+  "lead_company": "Springs Fireplace",
+  "lead_first_name": "Lauren",
+  "website": "https://www.springsfireplace.com",
+  "brand_domain": "springsfireplace.com",
+  "currency": "USD",
+  "brand_voice_note": "Heritage-obsessed and flavor-first, treating each pepper's origin story as legacy while keeping the tone warm, clean, and grounded in everyday cooking.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/springs-fireplace?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Tesuque",
+      "product_url": "https://www.springsfireplace.com/products/tesuque",
+      "image_url": "/creatives/scroll-stopper/springs-fireplace/ad-1.jpg",
+      "ai_image": true,
+      "price": 14,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "A chile first cultivated over 300 years ago by the Tesuque Pueblo outside Santa Fe.\n\nWe're the only East Coast farm growing it, from seed to bottle, right here in East Hampton, NY. Bright, tangy, and endlessly versatile, with a medium heat that builds slowly with every bite.\n\nMade with no added sugar or preservatives. Scovie Award Winner 2025.",
+      "headline": "300 Years Of Flavor, Bottled",
+      "cta": "Shop Now",
+      "why_it_works": "The Tesuque pepper's rare heritage and the brand's single-farm cultivation is a story no competitor can copy, making the origin the strongest hook for their best-seller.",
+      "visual_direction": "The clear Tesuque bottle standing on a rustic wooden counter beside a cut soft-boiled egg and fresh red chilies in warm morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Aji Peach",
+      "product_url": "https://www.springsfireplace.com/products/aji-peach",
+      "image_url": "/creatives/scroll-stopper/springs-fireplace/ad-2.jpg",
+      "ai_image": true,
+      "price": 14,
+      "compare_at_price": 14,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A warm, citrus heat that makes fish tacos taste like the best version of themselves.\n\nRipe peaches, Syrian Aleppo, and Peruvian Aji Limon chiles, used fresh instead of dried. Not sweet - just balanced and layered.\n\nPour it on roasted chicken, avocado toast, or straight into a marinade.",
+      "headline": "Warm Citrus Heat, Peach-Bright",
+      "cta": "Shop Now",
+      "why_it_works": "Aji Peach's distinctive fresh-fruit flavor is its most desirable outcome, so leading with the vivid taste and versatility sells the feeling before the ingredients.",
+      "visual_direction": "The golden Aji Peach bottle standing on a bright coastal table beside fresh fish tacos, avocado, and lime."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Salsa Roja - 12oz",
+      "product_url": "https://www.springsfireplace.com/products/salsa-roja-12oz",
+      "image_url": "/creatives/scroll-stopper/springs-fireplace/ad-3.jpg",
+      "ai_image": true,
+      "price": 9,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "Back in stock, and it never lasts long. 🌶️\n\nOur Texas-Style Salsa Roja brings the taste of a true cantina salsa home - slow-roasted tomatoes with jalapeno and poblano for that fire-kissed flavor that's hard to find outside a Texas kitchen.\n\n2025 Scovie Award Winner. Thick, smoky, and made in small hands-on batches.",
+      "headline": "Back In Stock By Popular Demand",
+      "cta": "Shop Now",
+      "why_it_works": "The 'BACK IN STOCK' status plus an award proves this salsa sells out, and scarcity-backed popularity is the sharpest lever for a fan-favorite jar at an easy $9 price.",
+      "visual_direction": "The Salsa Roja jar standing on a warm cantina-style wooden table beside a basket of tortilla chips in golden light."
+    }
+  ],
+  "generated_at": "2026-07-29T17:45:48.048Z"
+}
