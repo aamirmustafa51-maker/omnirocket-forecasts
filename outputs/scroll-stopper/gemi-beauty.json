@@ -1,0 +1,60 @@
+{
+  "lead_company": "Gemi Beauty",
+  "lead_first_name": "Hau",
+  "website": "https://gemibeauty.com",
+  "brand_domain": "gemibeauty.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, sensory, and quietly luxurious - it treats a hand sanitizer like a fine fragrance and a small daily ritual worth savoring.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/gemi-beauty?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Elysium",
+      "product_url": "https://gemibeauty.com/products/elysium",
+      "image_url": "/creatives/scroll-stopper/gemi-beauty/ad-1.jpg",
+      "ai_image": true,
+      "price": 12,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Your hand sanitizer should not smell like a hospital.\n\nElysium wraps your hands in creamy vanilla, blooming peony, and glowing amber woods. It looks and smells like a modern perfume, then leaves your hands feeling incredibly soft and beautifully scented.\n\nKills 99.9% of the most common germs. Infused with skincare so nothing feels tight or sticky.",
+      "headline": "Sanitizer that smells like perfume",
+      "cta": "Shop Now",
+      "why_it_works": "Elysium's rich vanilla-amber scent is its most desirable feature, so leading with the sensory payoff sells the everyday-luxury feeling instantly.",
+      "visual_direction": "The frosted Elysium bottle standing on a linen runner at a softly lit vanity, with a single dried peony stem in a small vase beside it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Caela",
+      "product_url": "https://gemibeauty.com/products/caela",
+      "image_url": "/creatives/scroll-stopper/gemi-beauty/ad-2.jpg",
+      "ai_image": true,
+      "price": 12,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Tired of sanitizer that leaves your hands dry, sticky, and smelling of harsh chemicals?\n\nCaela is a fine mist that's never heavy or sticky - bright citrus, soft white florals, and a whisper of green tea. Formulated with 65% v/v ethyl alcohol to kill 99.9% of the most common germs, then infused with skincare that leaves your hands soft and hydrated.\n\nAnd it twists open with one hand. One spray, done.",
+      "headline": "Clean hands, no sticky residue",
+      "cta": "Shop Now",
+      "why_it_works": "Every sanitizer user knows the dry, sticky, chemical-smell friction, so naming it and answering it directly makes Caela's soft, fresh formula the obvious fix.",
+      "visual_direction": "The frosted sage-green Caela bottle on a bright marble kitchen counter with a fresh lemon wedge and loose green tea leaves alongside."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Amara",
+      "product_url": "https://gemibeauty.com/products/amara",
+      "image_url": "/creatives/scroll-stopper/gemi-beauty/ad-3.jpg",
+      "ai_image": true,
+      "price": 12,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Design-Forward Objection Crusher",
+      "primary_text": "\"It's just a sanitizer.\" Not this one.\n\nAmara pairs cool lavender, rosy geranium, and soft white musk with a patent-pending capless one-handed twist design - 650 sprays that twist open with one hand, no fumbling for a lid.\n\nVegan and cruelty-free, free from phthalates and sulfates, and made in the USA. At $12, it earns its spot on your counter.",
+      "headline": "The 650-spray twist design",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation at $12 is 'why pay more than drugstore sanitizer,' so leading with the patented one-handed design and 650-spray value answers the objection head on.",
+      "visual_direction": "The frosted lilac Amara bottle standing on a matte charcoal desk beside folded reading glasses and a ceramic tray under clean studio light."
+    }
+  ],
+  "generated_at": "2026-07-29T09:15:05.494Z"
+}
