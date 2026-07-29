@@ -1,0 +1,168 @@
+{
+  "lead_company": "Nura Teethcare",
+  "lead_first_name": "Joe",
+  "website": "https://nurateethcare.com",
+  "brand_domain": "nurateethcare.com",
+  "currency": "GBP",
+  "review_count": 132,
+  "brand_dna": {
+    "category": "Premium hydroxyapatite-based oral care - a science-led teethcare system (mineralising paste, prebiotic mouthwash, floss picks) sold as bundles.",
+    "core_belief": "Teethcare should actually repair and protect teeth for life, powered by science rather than gimmicks or unnecessary additives.",
+    "proof_points": [
+      "12% Dual-Hydroxyapatite (Nano + Biomimetic Micro) formula that deposits enamel-like particles",
+      "Tested and developed with the University of Milan under Dr. Prof. Andrei Ionescu (DDS, PhD, FADM)",
+      "In-vitro testing showed 107% better enamel stiffness recovery vs a leading fluoride toothpaste",
+      "Free from SLS, titanium dioxide, co-polymers, PAP acids and artificial flavours"
+    ],
+    "positioning": "Premium, clinical, no-compromise - positioned above mass-market and gimmicky whitening toothpastes as a lifelong investment in oral health."
+  },
+  "voice_pillars": [
+    {
+      "name": "Science-Backed",
+      "desc": "Every benefit is tied to research, testing bodies, and named experts rather than vague promises.",
+      "quote": "Developed with world-leading researchers, Nura actively deposits fresh enamel-like particles"
+    },
+    {
+      "name": "No-Nonsense Purist",
+      "desc": "They define themselves by what they leave out, calling out cheap additives directly.",
+      "quote": "Free from SLS sulfates, titanium dioxide, co-polymers, PAP acids or gimmicks."
+    },
+    {
+      "name": "Premium Investment",
+      "desc": "Frames teethcare as a considered, lifelong commitment for people who want the best.",
+      "quote": "For those who demand the best. Invest in stronger, healthier teeth - for life."
+    },
+    {
+      "name": "Repair-Focused",
+      "desc": "Leads with rebuilding and remineralising teeth, not just surface-level whitening.",
+      "quote": "Not just whiter. Repairs teeth 2x better than fluoride - for a stronger smile, for life."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "a visibly brighter and stronger smile",
+      "stronger, healthier teeth - for life",
+      "a teethcare brand that actually delivers",
+      "Suitable for sensitive teeth",
+      "whitens and boosts lustre naturally",
+      "the foundations of enamel"
+    ],
+    "words": [
+      "remineralise",
+      "enamel",
+      "hydroxyapatite",
+      "stronger",
+      "repair",
+      "science",
+      "sensitive",
+      "nourish"
+    ],
+    "avoid": [
+      "gimmicks",
+      "harsh abrasives",
+      "cheap additives",
+      "charcoal whitening"
+    ]
+  },
+  "icp": "Health-conscious, higher-spend adults who research ingredients, distrust mass-market gimmicks, and want a scientifically proven daily routine that repairs enamel and protects sensitive teeth for the long term.",
+  "personas": [
+    {
+      "name": "Ingredient Skeptic",
+      "description": "Reads the label and avoids SLS, titanium dioxide and PAP acids - moved by the clear 'free from nasties' list and named clinical testing."
+    },
+    {
+      "name": "Longevity Investor",
+      "description": "Sees oral health as a lifelong asset and happily pays premium for a system - moved by the 'invest in your teeth for life' framing and bundle savings."
+    },
+    {
+      "name": "Sensitive-Teeth Seeker",
+      "description": "Struggles with sensitivity and enamel wear from harsh whitening products - moved by low abrasivity and 'suitable for sensitive teeth'."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "The Longevity Set",
+      "role": "Hero / best-seller",
+      "price": 115
+    },
+    {
+      "title": "The Starter Set",
+      "role": "Core",
+      "price": 69
+    },
+    {
+      "title": "Prebiotic Mouthwash Concentrate Refills - x5",
+      "role": "Core",
+      "price": 29.99
+    },
+    {
+      "title": "Engineered Floss Picks (2x Boxes of 45)",
+      "role": "Entry point",
+      "price": 9.99
+    }
+  ],
+  "offers": [
+    "The Longevity Set: £115 (marked from £210) with free mouthwash concentrate, floss picks, mouthwash mixer and toothbrush",
+    "The Starter Set: £69 (marked from £114) with free extras",
+    "Try Once single paste: £25",
+    "Free UK shipping on orders over £40 (£3.99 otherwise); free EU shipping over £100",
+    "30-day change-of-mind returns on unopened, undamaged items; prepaid return label for eligible UK customers",
+    "Full refund or replacement for damaged or defective products"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Formulated with 12% Dual-Hydroxyapatite (Nano + Biomimetic Micro).",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Free from SLS, titanium dioxide, co-polymers, PAP acids and artificial flavours.",
+        "source": "homepage 'Experience the Nura Difference'"
+      },
+      {
+        "claim": "In in-vitro University of Milan testing, showed 107% better enamel stiffness recovery vs a leading fluoride toothpaste.",
+        "source": "homepage footnote and product pages"
+      },
+      {
+        "claim": "Suitable for sensitive teeth and low abrasivity to reduce enamel wear.",
+        "source": "product pages"
+      },
+      {
+        "claim": "Tested and developed in conjunction with the University of Milan and Dr. Prof. Andrei Ionescu.",
+        "source": "homepage research section"
+      },
+      {
+        "claim": "Contains Xylitol and Zinc to support the oral microbiome.",
+        "source": "product page 'Try Once' details"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Beats 'the world's #1 toothpaste brand' as an unqualified named comparison.",
+        "why": "FTC substantiation - comparative superiority claims must be tied to the specific in-vitro test conditions, not stated as a blanket unqualified superlative."
+      },
+      {
+        "claim": "'Developed by NASA' as a standalone endorsement.",
+        "why": "FTC - implies an endorsement/origin not clearly substantiated; NASA does not endorse products, so this needs precise, provable framing."
+      },
+      {
+        "claim": "Guaranteed to whiten, repair, or cure sensitivity for everyone.",
+        "why": "FTC - no guaranteed-results claims; effects must be presented as typical, not universal outcomes."
+      },
+      {
+        "claim": "'The best teethcare in the world' or '#1 toothpaste'.",
+        "why": "FTC - banned unqualified superlatives that cannot be objectively proven."
+      },
+      {
+        "claim": "'Summer/New-Year exclusive - only hours left' style countdown urgency.",
+        "why": "FTC - fake or manufactured urgency is prohibited; deadlines must be real."
+      },
+      {
+        "claim": "Citing a specific review count or 4.7/5 rating without verifiable underlying reviews.",
+        "why": "FTC - invented or unsubstantiated review counts and ratings are banned; must reflect genuine, typical customer feedback."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-07-29T10:57:28.934Z"
+}
