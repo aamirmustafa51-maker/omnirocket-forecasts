@@ -1,0 +1,146 @@
+{
+  "lead_company": "ELVD Wellness",
+  "lead_first_name": "Michelle",
+  "website": "https://elvd.co",
+  "brand_domain": "elvd.co",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "A single-product wellness brand selling a fast-acting sublingual supplement for stress, focus, and cycle-related mood support in women.",
+    "core_belief": "That mental wellness should be as accessible and prioritized as physical health - real, fast, effective relief for women who are done pretending they're fine.",
+    "proof_points": [
+      "Manufactured in GMP-certified facilities, every batch third-party tested for heavy metals, microbes, and contaminants",
+      "Formulated with clinically studied Venetron Rafuma extract, ashwagandha, L-theanine, passionflower, taurine, B6, and magnesium",
+      "Free from gluten, dairy, soy, and nuts",
+      "30-day satisfaction guarantee with returns or exchange"
+    ],
+    "positioning": "Premium, no-BS calm - a sharp, clean alternative to sedating gummies and jittery stimulants, built for high-pressure days."
+  },
+  "voice_pillars": [
+    {
+      "name": "Real, No-BS",
+      "desc": "Speaks plainly and refuses fluff, validating the customer instead of dismissing her.",
+      "quote": "It's sharp, clean calm - without the crash, without the BS."
+    },
+    {
+      "name": "Empowering Rally",
+      "desc": "Frames the product as a movement that helps women rise rather than just cope.",
+      "quote": "This is the PMS revolution. Not pink. Not fluffy."
+    },
+    {
+      "name": "Fast and Functional",
+      "desc": "Leads with speed, convenience, and fitting into a demanding real life.",
+      "quote": "Your 3pm Reset for Calm, Clear Focus"
+    },
+    {
+      "name": "Science Meets Wisdom",
+      "desc": "Pairs modern research with time-tested botanicals to build credibility.",
+      "quote": "Backed by neuroscience & ancient wisdom"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "reset without caffeine, jitters, or crash",
+      "clearer thinking and calmer energy",
+      "No jitters. No drowsiness.",
+      "mentally clear, emotionally grounded, physically ready",
+      "Feel calmer within 60 minutes",
+      "Stay calm. Stay sharp. Stay in flow."
+    ],
+    "words": [
+      "calm",
+      "clarity",
+      "focus",
+      "reset",
+      "grounded",
+      "centered",
+      "no crash",
+      "fast-acting"
+    ],
+    "avoid": [
+      "pink",
+      "fluffy",
+      "sleepy",
+      "just relax"
+    ]
+  },
+  "icp": "Busy, high-achieving women who push through stress, mood swings, and afternoon brain fog and want a fast, natural reset that keeps them sharp without sedation or jitters.",
+  "personas": [
+    {
+      "name": "High-Pressure Professional",
+      "description": "A woman in demanding client- or deadline-driven work who wants to stay clear-headed before big meetings - moved by the fast-acting, no-jitters, on-the-go angle."
+    },
+    {
+      "name": "Cycle-Aware Woman",
+      "description": "Someone who feels amplified mood swings and irritability around her cycle and wants emotional balance - moved by the honest PMS-relief and 'done pretending I'm fine' angle."
+    },
+    {
+      "name": "Sensitive-System Seeker",
+      "description": "A supplement-cautious buyer burned by products that left her wired or numb - moved by clean ingredients, third-party testing, and the 30-day guarantee."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Free shipping on Calm & Clarity",
+    "Free Trial Kit / smaller starter pack for first-time customers",
+    "30-day satisfaction guarantee with returns or exchange",
+    "Subscribe monthly or bi-monthly and save, cancel or pause anytime",
+    "Refer a friend for $15 in product credit"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Helps you reset without caffeine, jitters, or crash.",
+        "source": "homepage"
+      },
+      {
+        "claim": "No jitters, no drowsiness - keeps you balanced and alert.",
+        "source": "product page"
+      },
+      {
+        "claim": "Made with natural adaptogens like ashwagandha, L-theanine, and passionflower.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Manufactured in GMP-certified facilities and third-party tested for heavy metals, microbes, and contaminants.",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Free from gluten, dairy, soy, and nuts.",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "30-day satisfaction guarantee.",
+        "source": "FAQ page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Cures, treats, or relieves anxiety.",
+        "why": "Disease claim - anxiety is a diagnosable condition; use structure/function language like 'supports calm' instead."
+      },
+      {
+        "claim": "Treats or fixes PMS / relieves PMS symptoms.",
+        "why": "Disease/condition claim - reframe as 'supports emotional balance during your cycle'; testimonials implying PMS treatment are treated as disease claims."
+      },
+      {
+        "claim": "Relieves back pain or works as a pain reliever.",
+        "why": "Disease claim implied by the Maya testimonial - cannot run testimonials that imply treatment of a medical symptom."
+      },
+      {
+        "claim": "Anxiety relief within minutes / feel calmer within 60 minutes as a guaranteed outcome.",
+        "why": "Guaranteed result plus specific timeline to a health outcome - both banned for this category."
+      },
+      {
+        "claim": "Clinically proven to reduce anxiety or improve sleep.",
+        "why": "'Clinically proven' requires a cited study; Venetron references must stay qualified ('may help') and not be stated as proof for the finished product."
+      },
+      {
+        "claim": "A safe replacement for antidepressants or anti-anxiety medication.",
+        "why": "Disease-treatment and drug-substitute claim - the site itself says consult a physician before mixing with such medications."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T09:41:32.607Z"
+}
