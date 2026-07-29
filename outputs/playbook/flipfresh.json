@@ -1,0 +1,148 @@
+{
+  "lead_company": "FlipFresh",
+  "lead_first_name": "Chad",
+  "website": "https://flipfreshspices.com",
+  "brand_domain": "flipfreshspices.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Farm-to-market artisan dried spices, sold in reusable magnetic jars with a yearly fresh-set refresh and easy refills.",
+    "core_belief": "Most spices are old and stale, and truly great, fresh spices sourced directly from small farms will elevate every dish with zero extra effort.",
+    "proof_points": [
+      "Spices sourced through Burlap and Barrel, direct from individual farms at a fair price",
+      "Reusable flint glass jars that magnetically connect at the base in perfect alignment, result of hundreds of prototypes over two years",
+      "QR code on every packet and jar that links straight to the correct refill",
+      "30-day return policy and free shipping on orders over $10.00"
+    ],
+    "positioning": "Premium, design-led spice system priced at about the same as average grocery-store spices - fresher, smarter, and space-saving."
+  },
+  "voice_pillars": [
+    {
+      "name": "Freshness Obsessed",
+      "desc": "They frame everything around peak flavor and how stale most spices really are.",
+      "quote": "Truly great spices will elevate every dish you make - sourced directly from small farms."
+    },
+    {
+      "name": "Honest and Plainspoken",
+      "desc": "They talk like a real person who cares, admitting nuance instead of overselling.",
+      "quote": "Chances are your spices are old."
+    },
+    {
+      "name": "Design-Proud",
+      "desc": "They speak with pride and specificity about the clever, beautiful jar system.",
+      "quote": "Our reusable jars are 100% unique and (in my biased opinion) beautiful."
+    },
+    {
+      "name": "Warm and Delighted",
+      "desc": "They aim for everyday joy and small pleasures, not hard-sell hype.",
+      "quote": "will put a smile on your face every single day. :-)"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "how the spice jars connect together",
+      "fresh fresh spices",
+      "the cinnamon is the best ever, rich and full of flavor",
+      "how much fresher these spices are",
+      "Saved lots of storage space with the smart design of the jars",
+      "even imac and cheese tastes way better!"
+    ],
+    "words": [
+      "fresh",
+      "connect",
+      "magnetic",
+      "flavor",
+      "smart design",
+      "space",
+      "refill",
+      "peak"
+    ],
+    "avoid": [
+      "cheap",
+      "bulk",
+      "generic",
+      "mass-produced"
+    ]
+  },
+  "icp": "Home cooks who care about quality - the kind who keep their knives sharp and pick the perfect avocado - and want fresher, better-tasting spices plus a tidy, clever storage system.",
+  "personas": [
+    {
+      "name": "The Discerning Home Cook",
+      "description": "Cares about ingredient quality and peak flavor; moved by the freshness gap between old grocery spices and farm-sourced ones."
+    },
+    {
+      "name": "The Organized Aesthete",
+      "description": "Loves clever, beautiful design and a tidy kitchen; moved by the magnetic connecting jars that free up cabinet space."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Buys sets like the Redwood Box collection as gifts; moved by handsome packaging and a giftable complete set."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "10% discount on orders over $20.00",
+    "Free shipping on orders over $10.00",
+    "Refills from $8.00, Jar and Spice from $9.00, Large (3x) Packets from $12.00",
+    "QR-code one-click refills, most refills around $6.00",
+    "Yearly fresh-set replacement described in the About page",
+    "30-day return policy",
+    "Gift sets with handmade redwood rack (Core Collection of 6 at $70.00, Twelve Jar Set at $150.00)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Sourced directly from small farms through Burlap and Barrel.",
+        "source": "about page and product pages"
+      },
+      {
+        "claim": "Reusable jars connect magnetically at the base in perfect alignment.",
+        "source": "about page"
+      },
+      {
+        "claim": "Two connected jars fit into the footprint of one, freeing up cabinet space.",
+        "source": "about page"
+      },
+      {
+        "claim": "Free shipping on orders over $10.00.",
+        "source": "homepage"
+      },
+      {
+        "claim": "30-day return policy on eligible items in original condition.",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Royal Cinnamon is sustainably harvested and sun dried in the Quang Nam Mountains, Vietnam.",
+        "source": "cinnamon refill product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best spices in the world / #1 spice brand.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Improves the taste of your food by 10, 20, 30 percent or more.",
+        "why": "FTC - specific objective performance claim with no measurement or proof; state as general flavor improvement instead."
+      },
+      {
+        "claim": "Guaranteed to make every dish taste better.",
+        "why": "FTC - guaranteed-results claim that cannot be proven."
+      },
+      {
+        "claim": "Rated best cinnamon by thousands of customers.",
+        "why": "FTC - invented review counts and endorsements; no verified review volume exists in the input."
+      },
+      {
+        "claim": "Only a few left - order in the next hour.",
+        "why": "FTC - fake urgency not supported by real inventory or timers."
+      },
+      {
+        "claim": "Fully eco-friendly and zero-waste.",
+        "why": "FTC Green Guides - unqualified sustainability claim; site only says 'reduce plastic waste' and 'helps the planet - at least a little bit'."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T10:51:31.969Z"
+}
