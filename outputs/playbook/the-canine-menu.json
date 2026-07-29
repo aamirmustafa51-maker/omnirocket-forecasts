@@ -1,0 +1,140 @@
+{
+  "lead_company": "The Canine Menu",
+  "lead_first_name": "Jessica",
+  "website": "https://thecaninemenu.co.uk",
+  "brand_domain": "thecaninemenu.co.uk",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "100% natural dog chews, treats and meals sold as a ready-made 'dog menu' for dog-friendly pubs, cafes and hotels (plus direct-to-owner).",
+    "core_belief": "Dog-friendly hospitality is better for everyone: 'Happy dogs = Happy owners = A longer pub stay.' A proper dog menu turns a token biscuit into a real welcome.",
+    "proof_points": [
+      "100% natural products, naturally air-dried with no additives or preservatives",
+      "Hypoallergenic, grain free and gluten free, fully digestible, never rawhide",
+      "Brewery Bites upcycled from spent brewer's grain and made in the UK",
+      "Listed by 36 foodservice distributors incl. Bidfood, Castell Howell, Creed"
+    ],
+    "positioning": "Trade-first, premium natural dog food positioned as a turnkey hospitality amenity, not a shelf treat - quality and service over cheap bar biscuits."
+  },
+  "voice_pillars": [
+    {
+      "name": "Trade-Practical",
+      "desc": "Speaks to business owners about restocking, margins and easy activation, not just to dog lovers.",
+      "quote": "The easy to activate dog menu for dog-friendly hospitality outlets"
+    },
+    {
+      "name": "Naturally Confident",
+      "desc": "States the natural, no-nonsense sourcing plainly so owners can trust what they serve.",
+      "quote": "these 100% natural dog chews will go down a treat with your canine customers"
+    },
+    {
+      "name": "Warm And Witty",
+      "desc": "Playful, dog-loving tone that keeps even the legal-ish FAQ light.",
+      "quote": "Unless you count wagging tails... because they're priceless."
+    },
+    {
+      "name": "Purpose-Minded",
+      "desc": "Leans on story and circularity to make the range feel considered and worth talking about.",
+      "quote": "go full circle from brew to biscuit!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "keep our dogs occupied during our stay",
+      "go down a treat with your canine customers",
+      "Easily-digestible for sensitive tummies",
+      "Healthy alternative to rawhide",
+      "Restock your dog menu",
+      "dog biscuits with a story"
+    ],
+    "words": [
+      "natural",
+      "hypoallergenic",
+      "chews",
+      "digestible",
+      "upcycled",
+      "no-fuss",
+      "dog-friendly",
+      "restock"
+    ],
+    "avoid": [
+      "medical/clinical tone",
+      "cheap or bargain framing",
+      "corporate jargon",
+      "unqualified eco buzzwords"
+    ]
+  },
+  "icp": "Owners and managers of dog-friendly pubs, cafes and hotels who want an easy, good-margin way to welcome dogs and extend customer stays, plus discerning dog owners who value natural, long-lasting chews.",
+  "personas": [
+    {
+      "name": "The Publican Host",
+      "description": "Runs a dog-friendly venue and wants a turnkey, branded menu that boosts spend - moved by easy activation, margins and point-of-sale kit."
+    },
+    {
+      "name": "The Fussy-Dog Owner",
+      "description": "Buys treats their sensitive or picky dog will actually eat - moved by hypoallergenic, natural, long-lasting chews."
+    },
+    {
+      "name": "The Conscious Cafe Buyer",
+      "description": "Cares about story and provenance for their counter offering - moved by upcycled Brewery Bites and made-in-the-UK sourcing."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "£2.99 flat-rate UK delivery (contributes to next day delivery and insured parcels)",
+    "30-day return policy on eligible items in original condition",
+    "EU 14-day cooling-off period",
+    "Starter Packs with 10 printed menus and a branded wooden crate",
+    "Trade point of sale: posters, window stickers, crates, dog bowls, dog beds",
+    "Available via 36 foodservice distributors incl. Bidfood and Castell Howell"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Naturally air-dried using no additives or preservatives.",
+        "source": "Rabbit and Boar product pages"
+      },
+      {
+        "claim": "Hypoallergenic, grain free and gluten free chews.",
+        "source": "product pages"
+      },
+      {
+        "claim": "A healthy alternative to rawhide - fully digestible, never contains rawhide.",
+        "source": "Boar product page and homepage FAQ"
+      },
+      {
+        "claim": "Brewery Bites are upcycled from spent brewer's grain and made in the UK.",
+        "source": "Brewery Bites product page"
+      },
+      {
+        "claim": "Listed by 36 foodservice distributors.",
+        "source": "homepage FAQ"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling any product 'sustainable' or 'eco-friendly' without qualification.",
+        "why": "FTC Green Guides - unqualified sustainability claim; use specific 'upcycled from spent brewer's grain' instead."
+      },
+      {
+        "claim": "'Zero impact' or 'carbon neutral' for Brewery Bites.",
+        "why": "FTC Green Guides - unverifiable environmental claim with no stated backing."
+      },
+      {
+        "claim": "'Relieves your dog's tummy pain' or 'fixes digestive issues'.",
+        "why": "Medical claim not supported; stick to 'easily-digestible for sensitive tummies'."
+      },
+      {
+        "claim": "'Improves your dog's skin and coat' as a treatment claim.",
+        "why": "Health/medical claim; site says 'good for' - keep it general, not a promised outcome."
+      },
+      {
+        "claim": "Presenting chews as a complete meal or nutritionally sufficient.",
+        "why": "Contradicts their own FAQ - chews are complementary and not sufficient as a single meal."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://thecaninemenu.co.uk/cdn/shop/files/TCM-Logo-Horizontal-Dark-Transparent.png?v=1771324667&width=380",
+  "generated_at": "2026-07-29T09:54:00.761Z"
+}
