@@ -1,0 +1,166 @@
+{
+  "lead_company": "Lunam Universe",
+  "lead_first_name": "Alejandra",
+  "website": "https://lunamlunam.com",
+  "brand_domain": "lunamlunam.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Reusable leakproof period underwear - eco-friendly, non-toxic menstrual wellness for women.",
+    "core_belief": "Menstrual care is not a luxury, it is a right - period care should feel safe, soft, and sacred rather than clinical.",
+    "proof_points": [
+      "90% eco-friendly materials, PFAS-free",
+      "OEKO-TEX standard 100 certified fabric technology",
+      "Triple-layered leakproof lining absorbing 3-5 tampons worth of flow",
+      "Up to 12 hours of protection; one pair replaces hundreds of disposables"
+    ],
+    "positioning": "Premium, values-led alternative to conventional disposables - soft and beautiful, never medical or clinical."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm and Sacred",
+      "desc": "Speaks about the body with reverence and softness, framing care as self-respect rather than a chore.",
+      "quote": "menstrual care should feel safe, soft, and sacred"
+    },
+    {
+      "name": "Clean and Reassuring",
+      "desc": "Leads with safety and what is not in the product, giving buyers peace of mind about sensitive skin.",
+      "quote": "No toxins touching your most sensitive skin"
+    },
+    {
+      "name": "Quietly Empowering",
+      "desc": "Positions switching as a small revolution and an act of aligning with your own nature.",
+      "quote": "This is not just underwear. This is a quiet revolution"
+    },
+    {
+      "name": "Planet-Minded",
+      "desc": "Ties personal comfort to environmental impact, celebrating reuse over waste.",
+      "quote": "a hug to the human body and a victory for the planet"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "No leaks - even on heavy days",
+      "No bulk or diaper-like feeling",
+      "Stay dry and comfortable all day",
+      "up to 12 hours of protection",
+      "One pair. Hundreds of disposables replaced.",
+      "feels like a hug to the human body"
+    ],
+    "words": [
+      "leakproof",
+      "non-toxic",
+      "breathable",
+      "PFAS-free",
+      "sustainable",
+      "soft",
+      "comfort",
+      "sacred"
+    ],
+    "avoid": [
+      "clinical",
+      "medical protection",
+      "diaper-like",
+      "toxins"
+    ]
+  },
+  "icp": "Eco-conscious women who want safe, non-toxic, reusable period protection and see caring for their cycle as an act of self-respect and sustainability.",
+  "personas": [
+    {
+      "name": "The Clean-Ingredient Seeker",
+      "description": "Reads labels and worries about plastics and chemicals near her body - moved by PFAS-free, OEKO-TEX, and non-toxic messaging."
+    },
+    {
+      "name": "The Waste-Conscious Switcher",
+      "description": "Tired of monthly disposables and their footprint - moved by 'one pair replaces hundreds' and reusable, planet-first framing."
+    },
+    {
+      "name": "The Cycle-Aligned Woman",
+      "description": "Sees her period as natural and sacred, not a problem to hide - moved by empowering, cyclical, self-care language."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Cheeky Brief - Maximum Protection",
+      "role": "Hero / best-seller",
+      "price": 10000
+    },
+    {
+      "title": "Hipster Brief - Maximum Protection",
+      "role": "Premium",
+      "price": 10000
+    },
+    {
+      "title": "Full Brief - Maximum Protection",
+      "role": "Premium",
+      "price": 10000
+    },
+    {
+      "title": "Cheeky Brief- Light Flow",
+      "role": "Entry point",
+      "price": 9800
+    }
+  ],
+  "offers": [
+    "Free shipping over $100",
+    "Exchanges and Returns policy available",
+    "Two absorption levels: Light/Moderate and Heavy/Super-Heavy",
+    "Subscribe to the community for new launches and exclusive offers"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "PFAS-free underwear tested for known hazardous substances",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Made with 90% eco-friendly materials",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "OEKO-TEX standard 100 certified fabric",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "Triple-layered leakproof lining absorbs 3-5 tampons worth of flow",
+        "source": "FAQ / homepage"
+      },
+      {
+        "claim": "Up to 12 hours of protection",
+        "source": "about page"
+      },
+      {
+        "claim": "One pair replaces hundreds of disposable products",
+        "source": "homepage / about page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Prevents or treats infections, rashes, or vaginal conditions",
+        "why": "Disease claim - product cannot claim to treat, cure, or prevent a condition."
+      },
+      {
+        "claim": "Cures or relieves period pain, cramps, or PMS",
+        "why": "Disease claim - implies treatment of a medical condition."
+      },
+      {
+        "claim": "Clinically proven leakproof or clinically proven non-toxic",
+        "why": "No cited study provided - 'clinically proven' is banned without a citation."
+      },
+      {
+        "claim": "Guaranteed zero leaks for everyone, every time",
+        "why": "Guaranteed-results claim - absorption is stated as up to a limit, not guaranteed."
+      },
+      {
+        "claim": "100% chemical-free",
+        "why": "Unqualified/absolute safety claim not supported; site states PFAS-free and 90% eco-friendly, not chemical-free."
+      },
+      {
+        "claim": "Balances hormones or detoxes the body",
+        "why": "Disease/structure-function overreach not supported by any evidence on the site."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T10:46:11.990Z"
+}
