@@ -1,0 +1,61 @@
+{
+  "lead_company": "Eumundi Meats",
+  "lead_first_name": "Jono",
+  "website": "https://eumundimeats.com.au",
+  "brand_domain": "eumundimeats.com.au",
+  "currency": "USD",
+  "brand_voice_note": "Proud local butcher voice: warm, honest, and confident about ethically raised meat from Sunshine Coast farms, with none of the supermarket gloss.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/eumundi-meats?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.eumundimeats.com.au/cdn/shop/files/imgi_2_Eumundi-Meats-Noosa-Butcher-1_1.png?v=1752809371&width=300",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "ANGUS BEEF BURGERS -  4 pack",
+      "product_url": "https://www.eumundimeats.com.au/products/angus-beef-burgers-4-pack",
+      "image_url": "/creatives/scroll-stopper/eumundi-meats/ad-1.jpg",
+      "ai_image": true,
+      "price": 18,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Fire up the grill this weekend. 🔥\n\nFour hand-formed Angus patties, roughly 150g each, made from beef with natural marbling that keeps every burger juicy off the grill or pan.\n\nFree-range, ethically raised, hormone and antibiotic-free. Butcher selected, packed fresh and delivered cold to your door on the Sunshine Coast.",
+      "headline": "Weekend Burgers, Sorted",
+      "cta": "Shop Now",
+      "why_it_works": "Burgers are an occasion buy tied to backyard grilling, so anchoring the ad to the weekend cook-up matches exactly when this audience reaches for a pack.",
+      "visual_direction": "A stack of four raw Angus patties on a butcher-block board with a glowing charcoal grill and drifting smoke behind."
+    },
+    {
+      "product_index": 2,
+      "product_title": "FREE RANGE LEG HAM SLICED - natural nitrite",
+      "product_url": "https://www.eumundimeats.com.au/products/free-range-leg-ham-sliced-natural-nitrite",
+      "image_url": "/creatives/scroll-stopper/eumundi-meats/ad-2.jpg",
+      "ai_image": true,
+      "price": 10.75,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Clean-label ham that actually tastes like the real thing.\n\nOur free-range leg ham is cured and smoked using naturally derived nitrites from celery, so you get traditional smoky flavour without the mystery ingredients.\n\nFree-range and ethically raised, butcher-sliced and delivered cold. Perfect for sandwiches, boards, or a quick lunch that feels a bit special.",
+      "headline": "Free-Range Ham, Clean Label",
+      "cta": "Shop Now",
+      "why_it_works": "The single most desirable outcome here is traditional ham flavour without the chemical additives, so leading with that clean-label benefit speaks straight to the wellness-minded shopper.",
+      "visual_direction": "Soft folded ham slices fanned on a dark metal tray with microgreens and a carving knife alongside."
+    },
+    {
+      "product_index": 3,
+      "product_title": "LAMB MARROW BONES (SPLIT)",
+      "product_url": "https://www.eumundimeats.com.au/products/lamb-marrow-bones-split",
+      "image_url": "/creatives/scroll-stopper/eumundi-meats/ad-3.jpg",
+      "ai_image": true,
+      "price": 5.59,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "A proper bone broth starts with proper bones.\n\nThese split lamb marrow bones are packed with creamy, nutrient-dense marrow that slow-braises down into rich, deep flavour, no stock cube required.\n\nSourced from local farms who share our passion for quality and animal welfare, packed fresh and delivered cold. Free delivery on orders over $200.",
+      "headline": "Real Marrow, Real Broth",
+      "cta": "Shop Now",
+      "why_it_works": "Home cooks chasing a rich broth struggle to find proper marrow bones at the supermarket, so naming that friction and offering the fix positions this humble cut as the missing ingredient.",
+      "visual_direction": "Two split raw lamb marrow bones lying in a black cast-iron pot on dark stone with thyme and onions nearby."
+    }
+  ],
+  "generated_at": "2026-07-29T09:36:58.692Z"
+}
