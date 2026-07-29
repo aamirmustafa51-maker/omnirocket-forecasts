@@ -1,0 +1,147 @@
+{
+  "lead_company": "Kitchway",
+  "lead_first_name": "Abraham",
+  "website": "https://kitchway.co.uk",
+  "brand_domain": "kitchway.co.uk",
+  "currency": "PKR",
+  "review_count": 1,
+  "brand_dna": {
+    "category": "UK wholesale supplier of commercial catering equipment and restaurant supplies - tableware, cookware, refrigeration, pizza and Asian specialist kit.",
+    "core_belief": "Wholesale kitchenware should be simple and honest: 'we just provide good, honest restaurant supplies at low prices, making it easier for businesses to stock their kitchens.'",
+    "proof_points": [
+      "Founded in 2017, serving restaurants and commercial kitchens across the UK and Europe",
+      "Free next working day delivery on UK mainland orders over £54 inc VAT, most orders dispatched same day if placed before 1pm",
+      "30 day returns accepted; rated 4.7/5 based on 302 reviews",
+      "Stocks recognised brands including KitchenAid, Cambro and Thunder Group, plus specialist pizza and Asianware ranges"
+    ],
+    "positioning": "Value-led wholesale with a personal touch - low bulk prices plus a tailored, human service, not a faceless supplier."
+  },
+  "voice_pillars": [
+    {
+      "name": "Plain and Honest",
+      "desc": "Straight-talking, no hype - they state what they do and back it with price and service.",
+      "quote": "You won't find us making unnecessary sales pitches"
+    },
+    {
+      "name": "Value-First",
+      "desc": "Price is front and centre, framed as helping businesses stock up without overspending.",
+      "quote": "Jaw dropping low prices"
+    },
+    {
+      "name": "Personal and Tailored",
+      "desc": "They lean on a dedicated, one-to-one service rather than a transactional wholesale experience.",
+      "quote": "a personalised service just for you"
+    },
+    {
+      "name": "Fast and Practical",
+      "desc": "Speed of supply and ease of ordering are treated as core benefits for busy kitchens.",
+      "quote": "Easy high-volume ordering and repeat ordering"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "good, honest restaurant supplies at low prices",
+      "a simple, straightforward solution to their kitchenware needs",
+      "Easy high-volume ordering and repeat ordering",
+      "Lightning fast shipping",
+      "a personalised service just for you",
+      "without breaking the bank"
+    ],
+    "words": [
+      "wholesale",
+      "low prices",
+      "simple",
+      "personalised",
+      "high-volume",
+      "fast",
+      "quality",
+      "commercial kitchens"
+    ],
+    "avoid": [
+      "luxury",
+      "hype",
+      "sales pitch language",
+      "premium markup tone"
+    ]
+  },
+  "icp": "UK and European foodservice operators - restaurants, pubs, cafes, hotels, schools and care homes - who need to stock or restock commercial kitchens in bulk at low prices with fast, reliable delivery and a helpful contact.",
+  "personas": [
+    {
+      "name": "Multi-Site Buyer",
+      "description": "Purchasing lead for a restaurant group opening or restocking sites, moved by scheduled deliveries, repeat ordering and bulk savings."
+    },
+    {
+      "name": "Specialist Operator",
+      "description": "Pizzeria or Asian restaurant owner struggling to source niche kit affordably, moved by dedicated pizza and Asianware ranges at wholesale prices."
+    },
+    {
+      "name": "Busy Independent",
+      "description": "Owner-operator of a single cafe, pub or restaurant who values a simple checkout, next-day delivery and a real person to call."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Free next working day delivery on UK mainland orders over £54 inc VAT",
+    "Next day delivery on most UK orders placed before 1pm (subject to stock)",
+    "30 day returns accepted",
+    "Business Trade Accounts with extra discounts and a 30 day credit facility",
+    "Split the cost into 3 or 12 monthly payments (Klarna, subject to approval)",
+    "Request a personalised quote for large orders"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Free next day delivery on UK mainland orders over £54 inc VAT",
+        "source": "shipping policy and homepage banner"
+      },
+      {
+        "claim": "Wholesale supplier for caterings, restaurants and commercial kitchens across the UK, founded in 2017",
+        "source": "FAQ page"
+      },
+      {
+        "claim": "30 day returns accepted",
+        "source": "shipping policy footer"
+      },
+      {
+        "claim": "Specialist pizza making equipment and Asian dinnerware at wholesale prices",
+        "source": "about page"
+      },
+      {
+        "claim": "Rated 4.7/5 based on 302 reviews",
+        "source": "site-wide review widget"
+      },
+      {
+        "claim": "Klarna instalments and Trade Accounts with a 30 day credit facility available",
+        "source": "FAQ payments section"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best / cheapest / #1 kitchenware supplier in the world",
+        "why": "FTC substantiation - unqualified superlative that cannot be proven"
+      },
+      {
+        "claim": "Guaranteed lowest prices anywhere or you will always save",
+        "why": "FTC substantiation - unprovable guaranteed-results claim"
+      },
+      {
+        "claim": "Inflated review counts or star ratings beyond the actual 4.7/5 from 302 reviews",
+        "why": "FTC - invented review counts and endorsements are prohibited"
+      },
+      {
+        "claim": "Only X units left / countdown timers implying stock is running out when it is not",
+        "why": "FTC - fake urgency is banned"
+      },
+      {
+        "claim": "Next day delivery guaranteed on every order",
+        "why": "FTC substantiation - real terms are subject to stock, cut-off times and mainland-only, so an unqualified guarantee is unprovable"
+      },
+      {
+        "claim": "Eco-friendly or sustainable kitchenware without qualification",
+        "why": "FTC Green Guides - no substantiation for sustainability claims exists on site"
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T09:21:04.415Z"
+}
