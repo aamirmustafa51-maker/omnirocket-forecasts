@@ -1,0 +1,60 @@
+{
+  "lead_company": "Lunam Universe",
+  "lead_first_name": "Alejandra",
+  "website": "https://lunamlunam.com",
+  "brand_domain": "lunamlunam.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, reverent, and quietly empowering - it speaks about the body with softness while reassuring you on safety, comfort, and reuse over waste.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/lunam-universe?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Cheeky Brief - Maximum Protection",
+      "product_url": "https://lunamlunam.com/products/the-boyshort-heavy-super-heavy",
+      "image_url": "/creatives/scroll-stopper/lunam-universe/ad-1.jpg",
+      "ai_image": true,
+      "price": 10000,
+      "compare_at_price": 10000,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Feels like a hug to the human body.\n\nThe Cheeky Brief moves with you through every hour - snug at the hips, soft against the skin, with up to 12 hours of protection you stop thinking about.\n\nNo leaks, even on heavy days. No bulk, no diaper-like feeling. Just you, feeling like yourself.",
+      "headline": "Comfort that holds you all day",
+      "cta": "Shop Now",
+      "why_it_works": "The boyshort's whole promise is all-day, body-skimming comfort, so leading with the single feeling of being held makes the desirable outcome the hero.",
+      "visual_direction": "The mocha boyshort laid softly on a grey linen bedsheet in morning light, with a hand smoothing the fabric and a small dish of lavender alongside."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Hipster Brief - Light Flow",
+      "product_url": "https://lunamlunam.com/products/hipsterbikini",
+      "image_url": "/creatives/scroll-stopper/lunam-universe/ad-2.jpg",
+      "ai_image": true,
+      "price": 9800,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Light days shouldn't mean a drawer full of disposables.\n\nThe Hipster Brief handles light flow quietly, so you stay dry and comfortable all day - no bulk, no diaper-like feeling, no waste piling up.\n\nOne pair. Hundreds of disposables replaced. That's the whole point.",
+      "headline": "Light flow, handled quietly",
+      "cta": "Shop Now",
+      "why_it_works": "The hipster is built for lighter days, so naming the everyday friction of reaching for disposables and replacing it with one reusable pair fits the product perfectly.",
+      "visual_direction": "The rose hipster brief laid flat on a folded sage towel on a stone bathroom counter, with a tea mug and eucalyptus alongside in soft daylight."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Full Brief - Light Flow",
+      "product_url": "https://lunamlunam.com/products/full-brief",
+      "image_url": "/creatives/scroll-stopper/lunam-universe/ad-3.jpg",
+      "ai_image": true,
+      "price": 9800,
+      "compare_at_price": 0,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried leakproof underwear feels bulky and thick? This isn't that.\n\nThe Full Brief gives you generous, high-waisted coverage with a seamless finish that disappears under anything - no bulk, no diaper-like feeling.\n\nA triple-layered leakproof lining absorbs 3-5 tampons worth of flow, and it's PFAS-free with OEKO-TEX certified fabric. Coverage you'll actually want to reach for.",
+      "headline": "Full coverage that disappears",
+      "cta": "Shop Now",
+      "why_it_works": "Full briefs carry the biggest 'this looks bulky under clothes' hesitation, so crushing that objection with the seamless finish and real absorbency stats is the strongest lever here.",
+      "visual_direction": "The mocha full brief laid softly folded on an oak dresser beside folded grey trousers, lit to show how thin and seamless it is."
+    }
+  ],
+  "generated_at": "2026-07-29T10:47:57.349Z"
+}
