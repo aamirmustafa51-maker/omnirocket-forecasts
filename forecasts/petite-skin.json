@@ -7,87 +7,87 @@
   "read_time_min": 3,
   "total_ads": 63,
   "niche": "kids skincare",
-  "tldr": "About a third of your live ads are wearing out because you're running the same wording word-for-word across many ads at once. Meta treats those as basically one ad, so most of them are quietly getting shown to almost no one.",
+  "tldr": "About a dozen of your live ads are wearing out fast because the exact same opening line, body copy, and swipeable format keep repeating. Meta sees these near-identical ads as basically one ad, so it quietly shows just one and stops running the rest.",
   "benchmark": {
     "your_value_days": 12,
     "category_median_days": 21,
     "top_quartile_days": 14,
-    "context": "The typical brand your size posts a fresh ad about every three weeks. The best brands do it every two. You should be closer to every ten days because you run this much volume."
+    "context": "The typical brand ships fresh ads about every 3 weeks; the best brands do it every 2 weeks. At your volume you're pushing that limit, but so many of your new ads say the same thing that they age like one old ad."
   },
   "ads": [
     {
       "ad_number": 1,
-      "source_index": 30,
-      "headline": "Spend $149+, Get a FREE Face Mist 🤍",
-      "body": "Limited Time: FREE Full Size Face Mist 🎁  ✨ Spend $149+ and receive a FREE Full Size Hydra Balance Face Mist (Worth $32). A lightweight daily mist that hydrates, refreshes and leaves skin feeling calm. While stocks last.",
+      "source_index": 31,
+      "headline": "Designed for Kids",
+      "body": "Growing skin doesn't need a complicated routine ✨ It simply needs gentle, age-appropriate care that children can use with confidence every day. A simple routine is easier to stick to, helping healthy habits become part of everyday life. Petite Skin Co. is specially formulated for growing skin, with gentle products made to support kids aged 7-14 as they learn to care for their skin 🤍",
       "cta": "Shop Now",
       "fatigue_score": 92,
       "days_until_fatigue": 5,
       "severity": "danger",
       "drivers": [
-        "You have four Face Mist gift ads live at once with almost identical wording, so Meta treats them as one and shows most of them to nobody.",
-        "This one has been running a month straight with no changes, well past when your ads normally start losing steam.",
-        "The 'Limited Time' and 'While stocks last' framing has been live for 30 days, which quietly tells shoppers the deadline isn't real."
+        "This exact body copy is running word-for-word on four other live ads right now.",
+        "Meta sees all five as the same ad and only serves one, so the other four burn budget for almost no views.",
+        "The headline 'Designed for Kids' says nothing a parent hasn't already read on the last ten scrolls."
       ]
     },
     {
       "ad_number": 2,
-      "source_index": 18,
-      "headline": "Spend $149+, Get a FREE Face Mist 🤍",
-      "body": "A Little Extra, On Us. 🤍 Spend $149+ and we'll include a FREE Full Size Hydra Balance Face Mist (Worth $32). The perfect everyday refresh for growing skin. Limited time only.",
-      "cta": "Shop Now",
-      "fatigue_score": 90,
-      "days_until_fatigue": 5,
-      "severity": "danger",
-      "drivers": [
-        "This is the second version of the Face Mist offer running side by side with the first, splitting attention between two nearly identical ads.",
-        "Same headline, same offer, same page it sends people to as three other live ads, so Meta picks one and hides the rest.",
-        "One month in with no image or wording change, which is roughly double how long these should run before shoppers tune them out."
-      ]
-    },
-    {
-      "ad_number": 3,
-      "source_index": 31,
-      "headline": "Designed for Kids",
-      "body": "Growing skin doesn't need a complicated routine ✨ It simply needs gentle, age-appropriate care that children can use with confidence every day. A simple routine is easier to stick to, helping healthy habits become part of everyday life. Petite Skin Co. is specially formulated for growing skin, with gentle products made to support kids aged 7-14 as they learn to care for their skin 🤍",
-      "cta": "Shop Now",
-      "fatigue_score": 88,
-      "days_until_fatigue": 6,
-      "severity": "danger",
-      "drivers": [
-        "You have four live ads with the exact same 'Designed for Kids' headline and the exact same body paragraph, all pointing to the same page.",
-        "Meta sees these near-identical ads as basically one, so it shows one and stops running the others. You paid to make them.",
-        "Nothing in the wording tells a mum why to buy TODAY. No new product, no reason, no urgency."
-      ]
-    },
-    {
-      "ad_number": 4,
       "source_index": 32,
       "headline": "Designed for Kids",
       "body": "Growing skin doesn't need a complicated routine ✨ It simply needs gentle, age-appropriate care that children can use with confidence every day. A simple routine is easier to stick to, helping healthy habits become part of everyday life. Petite Skin Co. is specially formulated for growing skin, with gentle products made to support kids aged 7-14 as they learn to care for their skin 🤍",
       "cta": "Shop Now",
-      "fatigue_score": 87,
+      "fatigue_score": 91,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "A direct copy of another live ad, same headline, same body, same landing page.",
+        "You're paying to build and launch ads that Meta then hides behind the first one it picked.",
+        "Nothing tells a mum why to click this instead of the twin ad right next to it."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 40,
+      "headline": "Made for Tween Skin, Not Adult Skin.",
+      "body": "Tween skin is more delicate and sensitive than adult skin, which means it can react quickly to harsh or overly active ingredients. Many everyday products are formulated for mature skin, not developing skin. That's why gentle, age-appropriate care matters. Simple routines with thoughtfully formulated products help support balance, reduce irritation, and build healthy habits from the start 🤍 Because growing skin deserves care that's made for it ✨",
+      "cta": "Shop Now",
+      "fatigue_score": 90,
       "days_until_fatigue": 6,
       "severity": "danger",
       "drivers": [
-        "This is a word-for-word copy of the 'Designed for Kids' ad above, right down to the emoji. It exists three more times in your active ads.",
-        "Making four copies of one message means three of them are barely being seen, and the ad money you put behind them is largely wasted.",
-        "There's no proof, no review, no customer voice. Every sentence is the brand talking about itself."
+        "An identical copy-paste of another live ad, same headline word-for-word.",
+        "The body is a wall of soft language with no product, no price, and no reason to click today.",
+        "Both twins point at the same page, so they compete against each other for the same click."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 18,
+      "headline": "Spend $149+, Get a FREE Face Mist 🤍",
+      "body": "A Little Extra, On Us. 🤍 Spend $149+ and we'll include a FREE Full Size Hydra Balance Face Mist (Worth $32). The perfect everyday refresh for growing skin. Limited time only.",
+      "cta": "Shop Now",
+      "fatigue_score": 89,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "You're running five near-identical gift-with-purchase ads all pointing at the same page.",
+        "The offer has been live for 30 days but the copy still says 'Limited Time' - shoppers who've seen it before stop believing.",
+        "Meta bundles these as one ad in its system, so most of them are barely being shown."
       ]
     },
     {
       "ad_number": 5,
-      "source_index": 9,
-      "headline": "Get $10 Off Your First Order 🤍",
-      "body": "Kids don't need TikTok trends for their skin. They need gentle care, simple routines, and ingredients made for growing skin ✨ Petite Skin Co. is designed specifically for ages 7 to 14, with clean, age appropriate formulas that support healthy skin without harsh actives or unnecessary steps. Because skincare at this stage should feel easy and build confidence, not confusion. Sign up and receive $10 off your first order 🤍",
+      "source_index": 30,
+      "headline": "Spend $149+, Get a FREE Face Mist 🤍",
+      "body": "Limited Time: FREE Full Size Face Mist 🎁  ✨ Spend $149+ and receive a FREE Full Size Hydra Balance Face Mist (Worth $32). A lightweight daily mist that hydrates, refreshes and leaves skin feeling calm. While stocks last.",
       "cta": "Shop Now",
-      "fatigue_score": 85,
+      "fatigue_score": 88,
       "days_until_fatigue": 7,
       "severity": "danger",
       "drivers": [
-        "You have at least six ads live right now with the '$10 off your first order' headline, all sending people to similar sign-up pages.",
-        "The 'TikTok trends' opening line runs word-for-word in a second ad here too, so shoppers seeing both feel like the brand is on repeat.",
-        "A month into running with no refresh, which is past your normal window. Mums who scrolled past it three weeks ago are scrolling past it now."
+        "A twin of the other free-mist ads, same offer, same price gate, same page.",
+        "Day 30 on a 'limited time' offer feels stale to the parents who've been shown it three times already.",
+        "No image or angle here separates the gift from the routine ads it sits next to."
       ]
     }
   ],
@@ -96,43 +96,43 @@
       "headline": "Gentle Skincare for Ages 7 to 14",
       "body": "Did you know? Most kids use skincare and body products. But not all trending skincare is tween-safe...",
       "fatigue_score": 72,
-      "days_until_fatigue": 15
+      "days_until_fatigue": 14
     },
     {
       "headline": "Award-Winning Cleanser 💫",
       "body": "Made for young skin",
       "fatigue_score": 68,
-      "days_until_fatigue": 18
+      "days_until_fatigue": 17
     },
     {
-      "headline": "Start sun safe habits early ✨",
-      "body": "Sun protection isn't optional, it's essential ✨ Tween skin is thinner and more delicate...",
+      "headline": "Be Sun Smart 🌞",
+      "body": "Sun protection isn't optional it's essential ✨ Tween skin is thinner and more delicate...",
       "fatigue_score": 62,
-      "days_until_fatigue": 21
+      "days_until_fatigue": 22
     }
   ],
   "hero_concept": {
-    "concept_name": "Face Towel - The 60-Second Post-Sport Ritual",
+    "concept_name": "The Post-Shower Two Minutes",
     "format": "Single image",
-    "hook": "The bit of her routine we didn't plan for.",
-    "headline": "Made for after netball.",
-    "primary_text": "Sports sweat, sunscreen, a hot cheek pressed against a car window on the way home. That's when her face actually needs help.\n\nThe Petite Skin Face Towel is soft enough for a 9-year-old, small enough for her school bag, and built to hold up after 100 washes. One quick wipe before the cleanser, and the routine takes 60 seconds instead of five minutes.\n\nAdd it to any kit and use code TOWEL10 for $10 off your first order.",
+    "hook": "Two minutes. Before school. That's it.",
+    "headline": "The After-Shower Face Towel",
+    "primary_text": "Every mum knows the morning rush. Toast half-eaten, shoes missing, and a kid at the sink with a soaking-wet face and no idea what to do next.\n\nOur Face Towel is soft enough for a seven-year-old's skin and small enough to live on their hook, not yours. It's the tiny habit that turns 'wash your face' from a fight into a two-minute thing they actually do.\n\n$10 off your first Petite Skin Co. order when you join the Petite Club.",
     "cta": "Shop Now",
-    "visual_direction": "One soft folded Face Towel resting on a light stone bathroom counter next to a small glass of water and a sprig of eucalyptus, morning window light, no faces.",
-    "fills_gap": "Almost every live ad talks in general terms about 'growing skin' and 'gentle care', but none of them show a real moment in a mum's day. This ad picks one specific moment (after sport) and pairs it with a single product, so it feels new next to everything else you're running.",
-    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft light-stone bathroom counter scene with a small clear glass of water and a single sprig of fresh eucalyptus arranged loosely to the side, with soft diffused morning window light casting gentle natural shadows. Calm, clean, premium Australian skincare aesthetic with warm neutrals and a fresh, unstyled feel. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact soft white/cream cotton terry face towel color and plush looped-terry texture exactly as shown in the reference - strictly NO grey, beige, pink, blue, patterned, or color-shifted fabric, NO smoothing the terry loops into flat weave, NO changing to microfiber or waffle weave. STRUCTURE - preserve the exact construction: single small square folded face towel with visible looped-terry pile on both sides, clean hemmed edges on all four sides, and any Petite Skin Co. printed label, tag, or embroidered branding shown on the towel preserved exactly as positioned in the reference. Do NOT add tassels, fringe, borders, embroidered patterns, or trim not present in the reference, do NOT change the towel to rectangular or oversized bath-towel proportions, do NOT unfold or restack the towel differently, do NOT remove or alter any brand label or tag shown on the product. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "visual_direction": "A close overhead shot of the folded Face Towel resting on a soft bathroom counter with morning light through a window, a small drinking glass and toothbrush beside it, warm and lived-in like a real family bathroom.",
+    "fills_gap": "Almost every ad you have right now leads with a general message about growing skin. None of them make one small, cheap product the star of the story. A single-image ad on one everyday item at a low price gives Meta something totally different to show, and gives new mums an easy first thing to try before the $149 kit.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft family-bathroom scene with the folded Face Towel resting on a warm-toned counter beside a small drinking glass and a child's toothbrush, with soft natural morning light streaming through a nearby window casting gentle diffused shadows. Calm, clean, aspirational everyday aesthetic in the same warm off-white and cream palette Petite Skin Co. uses across their existing ads, breathable and airy with a lived-in feel. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact fabric color, weave, and finish of the Face Towel as shown in the reference image, including any woven brand label, embroidered logo, or printed text on the towel - strictly NO color shift to pure white or grey, NO changing the weave texture, NO removing or altering any woven label or embroidered detail. STRUCTURE - preserve the exact construction of the Face Towel: same size and proportions, same folded shape as reference, same edge finish (hemmed or looped edging as shown), same corner label or tag placement, same trim if any. Do NOT add fringe, do NOT change the towel from folded to unfolded or vice versa, do NOT add stitching or piping not present in the reference, do NOT remove or reposition the brand label or woven logo, PRESERVE any printed or embroidered text on the towel exactly. Render the product's fabric, color, finish, weave, AND every visible construction detail EXACTLY as they appear in the reference image. Do NOT change the fabric type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove trim, labels, or embroidery, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the towel. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no fabric swap, no bleaching to pure white, no cool-tone bias, no recoloring of trim or label, no pattern modifications, no removing or replacing the product's woven or printed brand marks, no added stitching not present in reference, no silhouette alterations, no design modifications.",
     "reference_title": "Face Towel",
     "reference_url": "https://petiteskinco.com/products/face-towel-set",
     "image_path": "/creatives/petite-skin/hero-mockup.jpg"
   },
   "next_step": {
-    "urgency": "Your four Face Mist gift ads and four 'Designed for Kids' twins are wearing out inside the next week.",
+    "urgency": "Around a dozen of your ads look ready to stall in the next 5-10 days if nothing changes.",
     "headline": "Walk through the Petite Skin refresh plan with Kyle",
     "body": "Jacqui, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
     "calendly_url": "https://calendly.com/kyle-hamar/30min"
   },
   "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
-  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "method_note": "Based only on your public Facebook and Instagram ads - the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
   "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
   "prospect_logo_url": "https://www.petiteskinco.com/cdn/shop/files/Untitled_design_-_2026-05-11T201810.988_180x180_crop_center.png?v=1778494781"
 }
