@@ -1,0 +1,141 @@
+{
+  "lead_company": "Guardian Athletics",
+  "lead_first_name": "Jeffrey",
+  "website": "https://katocollar.com",
+  "brand_domain": "katocollar.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Football head and neck protection - a patented collar that works with shoulder pads and helmets to reduce concussion and stinger risk.",
+    "core_belief": "To tell the truth about concussions and protect players beyond what a helmet can, during the critical moments after impact when the head keeps moving.",
+    "proof_points": [
+      "Patented deceleration design reduces brain impact forces by up to 30%",
+      "Independently biomechanically tested; worn by NFL and major college programs",
+      "Founded and invented by Jeff Chambers, Certified Athletic Trainer with 40+ years experience",
+      "Made in the USA; constructed from durable high-density polyethylene (HDPE) with a neoprene flange"
+    ],
+    "positioning": "Premium, science-backed, pro-trusted safety equipment - the credible category creator for protection beyond the helmet."
+  },
+  "voice_pillars": [
+    {
+      "name": "Truth-Teller",
+      "desc": "Leads with honest education about how concussions actually happen instead of hype.",
+      "quote": "Our Mission: To Tell The Truth"
+    },
+    {
+      "name": "Fearless Confidence",
+      "desc": "Frames protection as freedom - play hard without hesitation or worry.",
+      "quote": "Play Without Fear. Protect What Matters Most."
+    },
+    {
+      "name": "Science-Backed",
+      "desc": "Anchors every claim in testing, biomechanics, and measurable results.",
+      "quote": "Independently biomechanically tested and researched."
+    },
+    {
+      "name": "Pro-Trusted",
+      "desc": "Uses elite and parental credibility to reassure buyers at every level.",
+      "quote": "Pro Tested. Parent Approved."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Play harder, Worry less",
+      "Protect Beyond The Helmet",
+      "Stay protected without slowing down",
+      "Reduces Brain Impact by Up to 30%",
+      "Lightweight & Comfortable Fit",
+      "Built for contact, designed for confidence"
+    ],
+    "words": [
+      "protection",
+      "concussion",
+      "helmet",
+      "deceleration",
+      "stingers",
+      "confidence",
+      "lightweight",
+      "patented"
+    ],
+    "avoid": [
+      "cure",
+      "guaranteed safe",
+      "eliminate injuries",
+      "cheap"
+    ]
+  },
+  "icp": "Football parents and serious athletes from youth to pro who refuse to compromise on head and neck safety and will invest in science-backed protection that does not slow the player down.",
+  "personas": [
+    {
+      "name": "Protective Parent",
+      "description": "A football mom or dad worried about long-term brain injury who buys on peace of mind and the 'pro tested, parent approved' credibility."
+    },
+    {
+      "name": "Career-Minded Athlete",
+      "description": "A high school, college, or pro player protecting their neck and future who is moved by 'play without fear' and no loss of speed or mobility."
+    },
+    {
+      "name": "The Coach or Trainer",
+      "description": "An athletic trainer or coach responsible for team safety who buys on biomechanical testing, credentials, and pro/college adoption."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Free shipping on US ground orders",
+    "Kato Collar priced at $269.00 USD",
+    "Two sizes (Medium, Large) with collar and pad color options",
+    "3 sizes of decelerator pads included with every collar; replaceable pads available"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Reduces brain impact forces by up to 30%",
+        "source": "product page and homepage"
+      },
+      {
+        "claim": "Independently biomechanically tested and researched",
+        "source": "homepage"
+      },
+      {
+        "claim": "Worn by professional athletes and major colleges/universities",
+        "source": "homepage and about page"
+      },
+      {
+        "claim": "Made in the USA",
+        "source": "about page"
+      },
+      {
+        "claim": "Patented lightweight design that does not impair vision, speed, or mobility",
+        "source": "product page and FAQ"
+      },
+      {
+        "claim": "Helps protect from brachial plexus injuries (burners and stingers)",
+        "source": "product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Prevents or eliminates all concussions",
+        "why": "Medical/injury claim the brand itself disclaims; helmets and the collar cannot prevent every concussion (FAQ). Unqualified prevention claim is unsupportable."
+      },
+      {
+        "claim": "Cures or fixes brain injury or whiplash",
+        "why": "Medical treatment claim not supported by the site and outside allowed protective-equipment positioning."
+      },
+      {
+        "claim": "100% recycled or eco-friendly HDPE construction",
+        "why": "FTC Green Guides - unqualified sustainability/recycled claim with no verifiable backing on the site."
+      },
+      {
+        "claim": "Sustainable or zero-impact manufacturing",
+        "why": "FTC Green Guides - unqualified sustainability claim with no substantiation provided."
+      },
+      {
+        "claim": "Guarantees you will never get a stinger or concussion again",
+        "why": "Absolute safety/medical guarantee the brand cannot back; site states results were reductions, not elimination guarantees."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T18:27:16.276Z"
+}
