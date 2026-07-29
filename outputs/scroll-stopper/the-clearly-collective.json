@@ -1,0 +1,60 @@
+{
+  "lead_company": "The Clearly Collective",
+  "lead_first_name": "Amelia",
+  "website": "https://theclearlycollective.com",
+  "brand_domain": "theclearlycollective.com",
+  "currency": "USD",
+  "brand_voice_note": "Refined, story-rooted and evocatively coastal - each scarf is framed as a hand-crafted keepsake that turns a beloved place into wearable memory.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/the-clearly-collective?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "THE WATCH HILL SCARF",
+      "product_url": "https://www.theclearlycollective.com/products/the-watch-hill-scarf",
+      "image_url": "/creatives/scroll-stopper/the-clearly-collective/ad-1.jpg",
+      "ai_image": true,
+      "price": 185,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "One scarf. Endless ways to wear it.\n\nMeet The Watch Hill Scarf, a hand-drawn love note to a seaside town rendered in golden toile on ivory silk twill. Wear it as a top, a skirt, a hair accessory, or a lightweight shawl for breezy coastal evenings.\n\nMade from 100% silk twill, hand-rolled and hand-sewn, and made to go wherever summer takes you.",
+      "headline": "Relaxed coastal style, made wearable",
+      "cta": "Shop Now",
+      "why_it_works": "The scarf's biggest draw is its styling versatility, so leading with the effortless-flair outcome speaks directly to how a coastal buyer imagines wearing it.",
+      "visual_direction": "The golden toile silk scarf draped in soft folds on a sunlit porch table beside a straw hat and a glass of iced tea."
+    },
+    {
+      "product_index": 2,
+      "product_title": "THE AMALFI SCARF",
+      "product_url": "https://www.theclearlycollective.com/products/the-amalfi-scarf",
+      "image_url": "/creatives/scroll-stopper/the-clearly-collective/ad-2.jpg",
+      "ai_image": true,
+      "price": 185,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "For the golden hour before dinner.\n\nThe Amalfi Scarf is a love letter to the Amalfi Coast - royal blue and warm gold framed in a marigold border, ready for sunset aperitivos. Knot it as a headscarf, tie it to a bag, or wear it as a lightweight shawl.\n\n100% silk twill, hand-rolled and hand-sewn. The perfect keepsake or gift to elevate every summer moment.",
+      "headline": "A love letter to the Amalfi Coast",
+      "cta": "Shop Now",
+      "why_it_works": "The description explicitly ties the scarf to sunset aperitivos, so anchoring it to that specific summer-evening moment makes the buyer picture the exact occasion they'd buy it for.",
+      "visual_direction": "The blue-and-gold Amalfi scarf softly knotted on a Mediterranean terrace table at dusk beside a citrus aperitivo and fresh lemon."
+    },
+    {
+      "product_index": 3,
+      "product_title": "PRE ORDER THE NANTUCKET SCARF | Shipping 8.20",
+      "product_url": "https://www.theclearlycollective.com/products/the-nantucket-scarf",
+      "image_url": "/creatives/scroll-stopper/the-clearly-collective/ad-3.jpg",
+      "ai_image": true,
+      "price": 185,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "Every landmark on this scarf was drawn by hand.\n\nThe Nantucket Scarf began with real research into the island's icons - Sankaty Lighthouse, shingled homes lined with hydrangeas, Beetle Cat boats - illustrated in dusty-blue toile by our founder Olivia Cleary. Each piece is architectural research turned into wearable memory.\n\nMade from 100% silk twill, hand-rolled and hand-sewn. Now available to pre-order.",
+      "headline": "A little piece of Nantucket",
+      "cta": "Shop Now",
+      "why_it_works": "A pre-order needs a reason to wait, and the story of hand-drawn island landmarks by a named founder gives the piece the meaning and craft that justifies buying before it ships.",
+      "visual_direction": "The dusty-blue Nantucket toile scarf softly folded on an illustrator's worktable beside fine pens and an open sketchbook."
+    }
+  ],
+  "generated_at": "2026-07-29T12:42:16.602Z"
+}
