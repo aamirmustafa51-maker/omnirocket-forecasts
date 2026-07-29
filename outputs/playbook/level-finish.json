@@ -1,0 +1,147 @@
+{
+  "lead_company": "Level Finish",
+  "lead_first_name": "Donald",
+  "website": "https://level-finish.com",
+  "brand_domain": "level-finish.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium abrasive, polishing, and surface protection systems for professional finishing trades.",
+    "core_belief": "Built to be your manufacturing partner - engineered products that improve productivity while delivering superior results.",
+    "proof_points": [
+      "Made in the USA, manufactured in St. George, Utah",
+      "More laser cutting heads than any U.S. abrasive maker",
+      "100% money back guarantee with 30-day returns, return shipping covered",
+      "Private label programs and distributor support available"
+    ],
+    "positioning": "Premium, professional-grade finishing systems positioned as a reliable manufacturing partner, not a commodity supplier."
+  },
+  "voice_pillars": [
+    {
+      "name": "Pro-Engineered",
+      "desc": "Speaks to trained professionals with precise, technical language about performance and specs.",
+      "quote": "Premium Surface Finishing Systems Engineered for Professionals"
+    },
+    {
+      "name": "Proof Over Hype",
+      "desc": "Backs claims with concrete manufacturing facts rather than vague superlatives.",
+      "quote": "More laser cutting heads than any U.S. abrasive maker"
+    },
+    {
+      "name": "Partner-Minded",
+      "desc": "Frames the brand as a dependable business partner for distributors and shops.",
+      "quote": "Dependable inventory and manufacturing support you can build a business on."
+    },
+    {
+      "name": "Plain-Spoken Trade Talk",
+      "desc": "Talks like someone on the shop floor - direct, work-first, no fluff.",
+      "quote": "Whatever you finish, start here."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "leaving a lustrous finish with minimal hazing or compounding swirls",
+      "cuts like natural sheepskin but finishes like a foam pad",
+      "no risk to scratch the paint",
+      "work like magic without scratching, linting or streaking",
+      "absorb seven to eight times their own weight in water",
+      "washed and reused hundreds of times"
+    ],
+    "words": [
+      "laser-cut",
+      "anti-clog",
+      "finish",
+      "polished",
+      "correction",
+      "workflow efficiency",
+      "consistent",
+      "professional"
+    ],
+    "avoid": [
+      "cute",
+      "trendy",
+      "girly",
+      "cheap"
+    ]
+  },
+  "icp": "Professional finishing operations - collision shops, RV and OEM manufacturers, woodworking and detailing pros - who value consistent performance, reliable supply, and specs they can trust.",
+  "personas": [
+    {
+      "name": "Body Shop Pro",
+      "description": "Collision and detailing technician who cares about clean cut, fast correction, and no swirls - moved by performance specs and workflow efficiency."
+    },
+    {
+      "name": "Distributor Partner",
+      "description": "Reseller building a business on Level Finish - moved by wholesale pricing, private label programs, and dependable inventory."
+    },
+    {
+      "name": "OEM Production Buyer",
+      "description": "RV or furniture manufacturer needing consistent, production-proven abrasives - moved by uniform quality and reliable supply at scale."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "100% money back guarantee if not fully satisfied",
+    "30-day return policy with return shipping covered by Level Finish",
+    "Wholesale pricing on distributor accounts",
+    "Private label programs available",
+    "Become a Distributor program with training, technical support, and marketing resources",
+    "International shipping to Italy and Canada"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made in the USA",
+        "source": "homepage"
+      },
+      {
+        "claim": "More laser cutting heads than any U.S. abrasive maker",
+        "source": "homepage"
+      },
+      {
+        "claim": "Laser-cut edges stay clean through the entire life of the disc",
+        "source": "product preview (Forever Disc)"
+      },
+      {
+        "claim": "500 GSM terry weave microfiber towels measure 16 by 16 inches",
+        "source": "product page (Plush Edgeless Towel)"
+      },
+      {
+        "claim": "Absorb seven to eight times their own weight in water",
+        "source": "product page (microfiber towels)"
+      },
+      {
+        "claim": "100% money back guarantee within 30 days",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the microfiber towels 'eco-friendly' or 'sustainable'",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing."
+      },
+      {
+        "claim": "'Reusable hundreds of times' framed as a zero-waste or zero-impact benefit",
+        "why": "FTC Green Guides - 'zero impact' style environmental claim without proof."
+      },
+      {
+        "claim": "Saying products are '100% recycled' or made from recycled materials",
+        "why": "FTC Green Guides - no recycled-content data stated on site to support the claim."
+      },
+      {
+        "claim": "Marketing pads or abrasives as 'carbon neutral' or 'green'",
+        "why": "FTC Green Guides - unqualified carbon claim with no verifiable backing."
+      },
+      {
+        "claim": "'Relieves hand or wrist fatigue' or any ergonomic health benefit",
+        "why": "Banned medical claim - implies a health/orthopedic outcome the brand cannot back."
+      },
+      {
+        "claim": "Guaranteeing 'scratch-free on every surface, every time'",
+        "why": "Absolute performance guarantee not supported by tested proof on site."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-29T10:30:22.806Z"
+}
