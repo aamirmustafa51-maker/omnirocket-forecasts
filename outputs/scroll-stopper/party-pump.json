@@ -1,0 +1,28 @@
+{
+  "lead_company": "Party Pump",
+  "lead_first_name": "Alicia",
+  "website": "https://partypumpco.com",
+  "brand_domain": "partypumpco.com",
+  "currency": "USD",
+  "brand_voice_note": "Playful and pun-loving with a blunt, founder-in-her-kitchen honesty that treats real-ingredient snacking as fuel for people who actually move.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/party-pump?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Cookie Doh' Cashew Butter Snacks",
+      "product_url": "https://partypumpco.com/products/cookie-doh-cashew-butter-snacks",
+      "image_url": "/creatives/scroll-stopper/party-pump/ad-1.jpg",
+      "ai_image": true,
+      "price": 29.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Cookie dough that squeezes. Yes, it tastes exactly like that.\n\nCreamy cashew butter folded with semi-sweet chocolate, real vanilla, and butter extract. 5g+ plant protein per pouch, low added sugar, and real ingredients you can pronounce.\n\nJoy in every squeeze - 12 single-serve squeezies you can snack on the go. No bombs, no crashes. 🍪",
+      "headline": "Cookie Doh' You Can Squeeze",
+      "cta": "Shop Now",
+      "why_it_works": "The flavor that started it all leads with its most craveable promise - dessert-tasting snack fuel - which is the single most desirable outcome for this audience.",
+      "visual_direction": "The sealed Cookie Doh' pouch standing upright on a bright marble kitchen counter with a few loose cashews and a chocolate square beside it in soft morning light."
+    }
+  ],
+  "generated_at": "2026-07-29T12:30:26.883Z"
+}
