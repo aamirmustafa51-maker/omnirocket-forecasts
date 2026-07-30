@@ -1,0 +1,146 @@
+{
+  "lead_company": "King River Brewing",
+  "lead_first_name": "Nathan",
+  "website": "https://kingriverbrewing.com.au",
+  "brand_domain": "kingriverbrewing.com.au",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Independent family-owned craft brewery in King Valley, Victoria, selling European-style ales and lagers plus merch, direct to Australian drinkers.",
+    "core_belief": "Beer worth slowing down for - brewing time-honoured styles that have survived for centuries, with no shortcuts and no trends for the sake of trends.",
+    "proof_points": [
+      "100% independently family owned and operated brewery in King Valley, Victoria",
+      "King Valley Kolsch won Bronze at the Australian International Beer Awards 2023, 2024, 2025 & 2026",
+      "Mango Berliner Weisse awarded Silver 2022 & Bronze 2023 for Best Fruit Beer at the Australian International Beer Awards",
+      "Uses only premium and local ingredients wherever possible, with fresh North East Victorian hops"
+    ],
+    "positioning": "Premium, traditional and craft-led - heritage European styles over hype, quality and balance over gimmicks."
+  },
+  "voice_pillars": [
+    {
+      "name": "Patient Craftsman",
+      "desc": "Writes with pride in tradition, patience and technique over speed or trend-chasing.",
+      "quote": "No shortcuts. No trends for the sake of trends. Just beers with history, made for today."
+    },
+    {
+      "name": "Rooted In Place",
+      "desc": "Anchors every beer to the King Valley region, its water and its local ingredients.",
+      "quote": "showcases the beauty of our region with crisp characters from our super fresh water"
+    },
+    {
+      "name": "Easy And Warm",
+      "desc": "Approachable, human language that invites you back for another sip rather than lecturing.",
+      "quote": "We call this beer the Elbow Bender as it's so easy to come back for another sip."
+    },
+    {
+      "name": "Style-Led Confidence",
+      "desc": "Speaks plainly about what they do best and lets balance be the flex.",
+      "quote": "well balanced beer is our thing"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Excellent pale ale",
+      "extremely well balanced and an excellent drop",
+      "so easy to come back for another sip",
+      "A perfect beer for any occasion",
+      "refreshing, punchy and full flavoured",
+      "goes down well all year round"
+    ],
+    "words": [
+      "balanced",
+      "crisp",
+      "fresh",
+      "refreshing",
+      "premium",
+      "local",
+      "delicious",
+      "easy drinking"
+    ],
+    "avoid": [
+      "hype",
+      "trendy",
+      "cheap",
+      "mass-produced"
+    ]
+  },
+  "icp": "Australian craft beer drinkers who value tradition, balance and provenance, and buy premium European-style beer from an independent local brewery they can trust.",
+  "personas": [
+    {
+      "name": "The Beer Traditionalist",
+      "description": "Style-literate drinker who appreciates Belgian Tripels, Kolsch and Doppelbocks; moved by heritage, craftsmanship and award pedigree."
+    },
+    {
+      "name": "The Local Loyalist",
+      "description": "North East Victoria and High Country supporter who backs independent family-owned makers; moved by regional origin and fresh local ingredients."
+    },
+    {
+      "name": "The Easy Sessioner",
+      "description": "Casual drinker who wants a balanced, refreshing beer for any occasion; moved by 'easy to come back for another sip' approachability."
+    }
+  ],
+  "products_ladder": [],
+  "offers": [
+    "Brew Crew membership: an incredible box of beer delivered every quarter",
+    "Beer sold as Single, 4 Pack and 16 Case options",
+    "Mixed Cases and Gift Vouchers available",
+    "Flat shipping over $100 ($10 VIC, $15 NSW & ACT); ships to VIC, ACT, NSW, QLD & SA",
+    "30-day return policy on eligible items (unworn/unused, with tags, original packaging)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "100% independently family owned and operated brewery in King Valley, Victoria",
+        "source": "about page"
+      },
+      {
+        "claim": "King Valley Kolsch won Bronze at the Australian International Beer Awards 2023, 2024, 2025 & 2026",
+        "source": "King Valley Kolsch product page"
+      },
+      {
+        "claim": "Mango Berliner Weisse won Silver 2022 & Bronze 2023 for Best Fruit Beer at the Australian International Beer Awards",
+        "source": "Mango Berliner Weisse product page"
+      },
+      {
+        "claim": "King River Pale is heavily dry hopped with fresh North East Victorian hops",
+        "source": "King River Pale product page"
+      },
+      {
+        "claim": "Uses only premium and local ingredients wherever possible",
+        "source": "about page"
+      },
+      {
+        "claim": "30-day return policy on eligible merchandise items",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the brand or its packaging 'sustainable' or 'eco-friendly'",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing on site."
+      },
+      {
+        "claim": "Claiming beer or merch is 'carbon neutral' or 'zero impact'",
+        "why": "FTC Green Guides - no specific, verifiable proof provided."
+      },
+      {
+        "claim": "Describing merch as '100% recycled' or made from recycled materials",
+        "why": "FTC Green Guides - no material breakdown or verification present."
+      },
+      {
+        "claim": "Any health or medical benefit claim (e.g. beer that 'aids digestion' or 'relieves stress')",
+        "why": "Unsubstantiated health claim; not supported anywhere on site and off-limits for alcohol."
+      },
+      {
+        "claim": "Marketing beer in a way that encourages excessive or underage drinking",
+        "why": "Conflicts with the brand's stated responsible service of alcohol commitments and liquor law."
+      },
+      {
+        "claim": "Stating a fixed award count or medal without naming the specific beer and year",
+        "why": "Awards are beer-specific; a generic 'award-winning brewery' claim overstates verifiable proof."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-30T09:55:45.272Z"
+}
