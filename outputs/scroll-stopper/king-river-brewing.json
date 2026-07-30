@@ -1,0 +1,60 @@
+{
+  "lead_company": "King River Brewing",
+  "lead_first_name": "Nathan",
+  "website": "https://kingriverbrewing.com.au",
+  "brand_domain": "kingriverbrewing.com.au",
+  "currency": "USD",
+  "brand_voice_note": "Warm, unhurried and quietly proud, anchoring every beer to the King Valley's water and local ingredients while letting balance do the bragging.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/king-river-brewing?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "King Valley Kolsch",
+      "product_url": "https://www.kingriverbrewing.com.au/products/king-valley-kolsch",
+      "image_url": "/creatives/scroll-stopper/king-river-brewing/ad-1.jpg",
+      "ai_image": true,
+      "price": 26,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "\"So easy to come back for another sip.\"\n\nOur King Valley Kolsch keeps earning that same line from drinkers, and Bronze at the Australian International Beer Awards four years running (2023, 2024, 2025 and 2026).\n\nA German Golden Ale with delicate hops, crisp King Valley water and a balance that makes it a perfect beer for any occasion. We call it the Elbow Bender.",
+      "headline": "The award-winning easy drop",
+      "cta": "Shop Now",
+      "why_it_works": "The Kolsch has the strongest, most verifiable accolade and echoes real customer phrasing, so leaning on proven popularity fits both the product and a brand new to the audience.",
+      "visual_direction": "The Kolsch can standing on a sunlit country-pub deck table beside grilled fish and a lemon wedge, green hills behind."
+    },
+    {
+      "product_index": 2,
+      "product_title": "King River Pale",
+      "product_url": "https://www.kingriverbrewing.com.au/products/king-river-pale-ale",
+      "image_url": "/creatives/scroll-stopper/king-river-brewing/ad-2.jpg",
+      "ai_image": true,
+      "price": 27,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Stone fruit, citrus and passionfruit in every sip.\n\nKing River Pale is heavily dry hopped with the freshest North East Victorian hops, giving you a golden, light-bodied ale that lands refreshing, punchy and full flavoured.\n\nBig aroma, easy balance. This is the one you reach for again.",
+      "headline": "Punchy, fruity, full flavoured",
+      "cta": "Shop Now",
+      "why_it_works": "The Pale's most desirable feature is its huge fresh-hop aroma and flavour, so leading with that single sensory payoff is the strongest hook for a flavour-driven drinker.",
+      "visual_direction": "The Pale can on a bright kitchen bench with fresh hop cones, passionfruit and a citrus slice around it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Mango Berliner Weisse",
+      "product_url": "https://www.kingriverbrewing.com.au/products/mango-berlinner-wiesse-fruited-sour",
+      "image_url": "/creatives/scroll-stopper/king-river-brewing/ad-3.jpg",
+      "ai_image": true,
+      "price": 30,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "The one you crack open with a spicy curry night.\n\nOur Mango Berliner Weisse is subtly sweet with real Kensington Pride mango puree, then slightly tart and cleansing to cut right through the heat.\n\nLight, easy and full of flavour. Honestly? It goes down well all year round.",
+      "headline": "Made for spicy food nights",
+      "cta": "Shop Now",
+      "why_it_works": "This tart, fruity brew has a clear pairing moment with spicy food that the description spells out, making the occasion angle the most natural buy trigger.",
+      "visual_direction": "The Mango Berliner Weisse can on a woven placemat beside a spicy curry bowl, whole mangoes and lime halves under warm evening light."
+    }
+  ],
+  "generated_at": "2026-07-30T09:57:38.063Z"
+}
