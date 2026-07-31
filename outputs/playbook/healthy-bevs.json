@@ -1,0 +1,152 @@
+{
+  "lead_company": "Healthy Bevs",
+  "lead_first_name": "Dean",
+  "website": "https://proteanteas.com",
+  "brand_domain": "proteanteas.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Ready-to-drink protein tea in cans - a functional beverage sitting between protein supplements and refreshing iced tea.",
+    "core_belief": "That people shouldn't have to choose between hydration and protein - 'The Protein You Trust - In Tea You'll Love!'",
+    "proof_points": [
+      "3rd Party Tested, with each batch tested for lactose and gluten",
+      "15g of ioWhey protein per serving, delivered 2x more efficiently than traditional whey",
+      "Made 100% in the U.S.A.",
+      "Winner of the 2023 International Life Science Award for 'World's Best Low Calorie Protein', backed by over 50 human clinical trials"
+    ],
+    "positioning": "A premium, science-backed innovator claiming the 'World's First Protein Tea' lane against both plain teas and heavy protein powders."
+  },
+  "voice_pillars": [
+    {
+      "name": "Science-Backed Confident",
+      "desc": "Leans on clinical trials, awards and hard numbers to earn trust rather than hype alone.",
+      "quote": "the most scientifically backed protein on the planet"
+    },
+    {
+      "name": "Refreshing and Playful",
+      "desc": "Frames a functional product as a genuine treat with light, sensory, upbeat language.",
+      "quote": "Zesty, bright and oh-so-refreshing."
+    },
+    {
+      "name": "Honest and Transparent",
+      "desc": "Refuses to overpromise and openly states what it does and does not know.",
+      "quote": "it would be irresponsible for us to claim there is"
+    },
+    {
+      "name": "Guilt-Free Simple",
+      "desc": "Sells permission and ease - all the good, none of the baggage buyers dread.",
+      "quote": "minimal calories for guilt-free enjoyment"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "The Protein You Trust - In Tea You'll Love!",
+      "guilt-free enjoyment",
+      "without the high calories or the usual bloating",
+      "perfect for those with dietary sensitivities",
+      "helped curb my hunger",
+      "what a great new find"
+    ],
+    "words": [
+      "protein",
+      "refreshing",
+      "low calorie",
+      "zero sugar",
+      "gluten-free",
+      "lactose free",
+      "guilt-free",
+      "trust"
+    ],
+    "avoid": [
+      "chalky",
+      "supplement-jargon",
+      "bloated",
+      "cheap"
+    ]
+  },
+  "icp": "Health-conscious adults who want an easy, refreshing way to hit their protein goals without the calories, sugar or bloating of powders and shakes.",
+  "personas": [
+    {
+      "name": "Macro-Minded Mover",
+      "description": "Fitness-focused buyer chasing protein goals who is moved by 15g per serving, 99.9% absorption, and zero sugar or carbs."
+    },
+    {
+      "name": "Sensitive-Stomach Sipper",
+      "description": "Shopper with dietary sensitivities who buys on the lactose-free (FODMAP certified), gluten-free and no-bloating promise."
+    },
+    {
+      "name": "Better-For-You Refresher",
+      "description": "Everyday tea drinker who wants a tasty, guilt-free canned drink and is won over by real fruit flavors and low calories."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "World's First Protein Tea",
+      "role": "Hero / best-seller",
+      "price": 39.99
+    }
+  ],
+  "offers": [
+    "One-time purchase of the World's First Protein Tea at $39.99",
+    "Subscribe and Save option, delivered monthly at $39.99",
+    "Flavor and size choices: Variety 12 Pack, Perfectly Peachy, Groovy Lemon; 6 or 12 pack of 12oz cans",
+    "Orders ship within 1-2 business days with tracking",
+    "Wholesale program - email 'I want to sell Protean' to info@healthybevs.com"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "15g of protein per serving",
+        "source": "homepage and FAQ"
+      },
+      {
+        "claim": "Zero sugar, zero added sugars and low calorie",
+        "source": "homepage / product page"
+      },
+      {
+        "claim": "100% lactose, GMO and gluten-free (FODMAP certified, batch tested)",
+        "source": "homepage and FAQ"
+      },
+      {
+        "claim": "Made 100% in the U.S.A.",
+        "source": "FAQ"
+      },
+      {
+        "claim": "No artificial colors, flavors or sweeteners; flavored with real lemons and real hibiscus flowers",
+        "source": "product page and FAQ"
+      },
+      {
+        "claim": "Winner of the 2023 International Life Science Award for 'World's Best Low Calorie Protein'",
+        "source": "homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Drinking Protean will help you lose weight or burn fat",
+        "why": "Disease/weight-loss outcome claim - 'burns fat' and 'safe for my weight loss journey' language is banned for this category."
+      },
+      {
+        "claim": "Protean boosts metabolism, boosts immunity, or restores thinning hair",
+        "why": "Unqualified structure/function and immunity claims are banned; not supported by product-specific evidence."
+      },
+      {
+        "claim": "Protean helps you reach ketosis",
+        "why": "Health-outcome claim tied to a diet/medical state - not permitted without qualification."
+      },
+      {
+        "claim": "Great choice for those with insulin sensitivity / diabetes",
+        "why": "Implied disease-treatment claim - banned for food and beverage."
+      },
+      {
+        "claim": "Headlining '100% Natural' or 'clean' as a standalone benefit",
+        "why": "'Natural' and 'clean' are vague and risky as headline claims under the category rules."
+      },
+      {
+        "claim": "Your body utilizes 99.9% of each serving vs 33% for other brands",
+        "why": "Absolute performance/comparative claim requires the actual clinical substantiation on file; do not run without it."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-07-31T08:51:41.596Z"
+}
