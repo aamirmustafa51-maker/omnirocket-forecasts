@@ -1,0 +1,60 @@
+{
+  "lead_company": "Healthy Bevs",
+  "lead_first_name": "Dean",
+  "website": "https://proteanteas.com",
+  "brand_domain": "proteanteas.com",
+  "currency": "USD",
+  "brand_voice_note": "Science-backed but playful and refreshing - a functional protein that talks like a genuine treat, honest about what it is and easy to feel good about.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/healthy-bevs?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "World's First Protein Tea",
+      "product_url": "https://proteanteas.com/products/protean-specialtea-collection",
+      "image_url": "/creatives/scroll-stopper/healthy-bevs/ad-1.jpg",
+      "ai_image": true,
+      "price": 39.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "primary_text": "Protein that doesn't leave you bloated and gassy? Finally.\n\n15g of protein, just 60 calories, and a clear iced tea that's actually delicious - not a thick chalky shake. Zero sugar, zero added sugars, 100% lactose and gluten-free.\n\nThe protein you trust, in a tea you'll love. All the good, none of the baggage.",
+      "headline": "Protein Tea, Zero Bloat",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest friction with protein drinks is the bloating and heavy shake texture, and this Groovy Lemon can solves both while echoing the customer's own 'without the usual bloating' language.",
+      "visual_direction": "The Groovy Lemon can standing on a gym bench ledge beside a tall glass of clear, ice-filled pale-yellow iced tea."
+    },
+    {
+      "product_index": 2,
+      "product_title": "World's First Protein Tea",
+      "product_url": "https://proteanteas.com/products/protean-specialtea-collection",
+      "image_url": "/creatives/scroll-stopper/healthy-bevs/ad-2.jpg",
+      "ai_image": true,
+      "price": 39.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Your calm, easy morning protein.\n\nReal green leaf tea sweetened with actual honey, 15g of protein and 90 calories. No chalk, no shaker bottle, no protein aftertaste. It just tastes like tea.\n\n100% lactose, GMO and gluten-free, and made right here in the U.S.A.",
+      "headline": "15g Protein, 90 Calories",
+      "cta": "Shop Now",
+      "why_it_works": "The green tea and honey flavor sells on a single desirable feeling, a light guilt-free morning ritual, with the honest 15g/90cal numbers off the can keeping it credible.",
+      "visual_direction": "The Green Tea & Honey can on a marble kitchen counter with loose tea leaves and a honey dipper in soft morning light."
+    },
+    {
+      "product_index": 3,
+      "product_title": "World's First Protein Tea",
+      "product_url": "https://proteanteas.com/products/protean-specialtea-collection",
+      "image_url": "/creatives/scroll-stopper/healthy-bevs/ad-3.jpg",
+      "ai_image": true,
+      "price": 39.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "3pm hits different.\n\nSwap the slump for a Perfectly Peachy protein tea - 15g of protein, just 60 calories, and no sugar crash to drag you back down.\n\nOne reviewer said it helped curb her hunger. Another just called it a great new find. Guilt-free, and honestly delicious.",
+      "headline": "Beat The 3pm Slump",
+      "cta": "Shop Now",
+      "why_it_works": "The peach flavor is staged at a work desk in the afternoon-slump moment, tying the buy to a specific daily occasion while echoing real customer phrases like 'helped curb my hunger' and 'a great new find'.",
+      "visual_direction": "The Perfectly Peachy can on a sunlit wooden work desk beside a closed notebook and pen with a blurred laptop behind."
+    }
+  ],
+  "generated_at": "2026-07-31T08:53:33.442Z"
+}
