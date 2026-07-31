@@ -1,0 +1,169 @@
+{
+  "lead_company": "Sabrina Designs",
+  "lead_first_name": "Joshua",
+  "website": "https://sabrinadesignsco.com",
+  "brand_domain": "sabrinadesignsco.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Fine jewelry maker and wholesaler - 14K gold and natural diamond/gemstone pieces sold direct and through retail partners.",
+    "core_belief": "Designing fine jewelry with passion since 1979, so every piece is everlasting quality that can be passed on from generation to generation.",
+    "proof_points": [
+      "14K gold construction with natural diamonds and gemstones, disclosed carat weight, count, and gold grams per piece",
+      "Every piece certified as authentic Fine jewelry, crafted with the utmost care and precision",
+      "In business since 1979, based at 98 Cuttermill Rd, Great Neck, NY",
+      "Diamond quality specs stated on products (e.g. Diamond Color GH, Clarity SI1)"
+    ],
+    "positioning": "Premium, heirloom-grade fine jewelry - high-price 14K gold and diamond pieces, not fashion or costume jewelry."
+  },
+  "voice_pillars": [
+    {
+      "name": "Heirloom Quality",
+      "desc": "Speaks to lasting value and pieces meant to outlive trends and be handed down.",
+      "quote": "everlasting quality that can be passed on from generation to generation"
+    },
+    {
+      "name": "Craft With Passion",
+      "desc": "Frames every item as made with intention and skill, rooted in a long design heritage.",
+      "quote": "Designing Fine Jewelry with Passion since 1979"
+    },
+    {
+      "name": "Certified Authentic",
+      "desc": "Leads with trust and verifiable authenticity to justify the fine-jewelry price point.",
+      "quote": "We certify that this is an authentic piece of Fine jewelry"
+    },
+    {
+      "name": "Glamorous Everyday",
+      "desc": "Positions pieces as both wearable daily and elevated enough to feel special.",
+      "quote": "Wraps Gracefully around your finger for that perfect Glamorous look!"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "perfect for everyday wear",
+      "makes the perfect Gift",
+      "everlasting quality that can be passed on from generation to generation",
+      "crafted with the utmost care and precision",
+      "Stunning and Charismatic",
+      "that perfect Glamorous look"
+    ],
+    "words": [
+      "Fine jewelry",
+      "authentic",
+      "everlasting",
+      "diamond",
+      "14K Gold",
+      "Fancy Shape",
+      "everyday wear",
+      "Glamorous"
+    ],
+    "avoid": [
+      "cheap",
+      "costume",
+      "trendy/disposable",
+      "bargain"
+    ]
+  },
+  "icp": "Women and gift-buyers who want genuine 14K gold and natural diamond fine jewelry they can wear daily and pass down, and who value certified authenticity over fast-fashion pricing.",
+  "personas": [
+    {
+      "name": "Heirloom Buyer",
+      "description": "A shopper investing in lasting fine jewelry to keep and hand down, moved by authenticity, gold weight, and generation-to-generation messaging."
+    },
+    {
+      "name": "The Milestone Gifter",
+      "description": "Someone buying diamonds for a special occasion, moved by 'the perfect Gift' framing and certified, everlasting quality."
+    },
+    {
+      "name": "Retail Partner",
+      "description": "A jeweler or boutique exploring the wholesale program, moved by the design heritage since 1979 and the Become a Sabrina Retailer / Partner Portal offer."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "14K Gold 3 Stone Fancy Shape Diamond Ring - 0.34 CT",
+      "role": "Hero / best-seller",
+      "price": 6165
+    },
+    {
+      "title": "14K Gold Pear Shape Diamond Flower Necklace - 0.40 CT",
+      "role": "Premium",
+      "price": 6405
+    },
+    {
+      "title": "14K Gold 3 Stone Diamond Flexible Bangle - 0.45 CT",
+      "role": "Entry point",
+      "price": 4485
+    },
+    {
+      "title": "14K Gold 3 Stone Diamond Flexible Bangle - 0.45 CT",
+      "role": "Core",
+      "price": 4800
+    }
+  ],
+  "offers": [
+    "14-day return window from date of shipment on unworn, unused items in original packaging with tags, via Return Authorization Number",
+    "Refund to original payment method after inspection and approval",
+    "Store Locator to find pieces at retail partners",
+    "Retail Partner Program / Become a Sabrina Retailer wholesale portal",
+    "Newsletter sign-up",
+    "Multiple gold color options (White, Yellow, Rose) on most pieces"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Crafted in 14K gold with natural diamonds and gemstones",
+        "source": "product pages"
+      },
+      {
+        "claim": "Certified authentic fine jewelry",
+        "source": "product page description"
+      },
+      {
+        "claim": "Designing fine jewelry with passion since 1979",
+        "source": "product page description"
+      },
+      {
+        "claim": "Stated diamond weight, diamond count, and gold weight per piece",
+        "source": "product pages (e.g. Diamond Leaf Necklace)"
+      },
+      {
+        "claim": "14-day returns on unworn items with a Return Authorization Number",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Available in White, Yellow, or Rose gold",
+        "source": "product pages"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling any piece 'sustainable' or 'eco-friendly' without specific, verifiable backing",
+        "why": "FTC Green Guides - unqualified sustainability claim"
+      },
+      {
+        "claim": "'100% recycled gold' or 'ethically sourced diamonds' without documented, verifiable proof",
+        "why": "FTC Green Guides - unqualified recycled/sourcing claim not supported on site"
+      },
+      {
+        "claim": "'Carbon neutral' or 'zero impact' jewelry",
+        "why": "FTC Green Guides - requires specific, verifiable substantiation not present on site"
+      },
+      {
+        "claim": "Diamonds or gold 'relieve pain', 'improve energy', or any health benefit",
+        "why": "Banned medical/wellness claim for this category"
+      },
+      {
+        "claim": "Guaranteed investment value or that pieces will 'increase in value'",
+        "why": "No such claim on site and prices explicitly fluctuate with gold and gemstone prices"
+      },
+      {
+        "claim": "Fixed or final pricing in ads",
+        "why": "Site states prices are not final and can be higher or lower due to gold and gemstone price fluctuations"
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.sabrinadesignsco.com/cdn/shop/files/sabrina_logo_PNG_2017_596.png?v=1614310031&width=960",
+  "generated_at": "2026-07-31T08:42:11.167Z"
+}
