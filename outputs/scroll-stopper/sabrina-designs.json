@@ -1,0 +1,61 @@
+{
+  "lead_company": "Sabrina Designs",
+  "lead_first_name": "Joshua",
+  "website": "https://sabrinadesignsco.com",
+  "brand_domain": "sabrinadesignsco.com",
+  "currency": "USD",
+  "brand_voice_note": "Refined and heirloom-minded with a warm everyday glamour - fine-jewelry authority that still feels wearable and personal.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/sabrina-designs?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.sabrinadesignsco.com/cdn/shop/files/sabrina_logo_PNG_2017_596.png?v=1614310031&width=960",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "14K Diamond Leaf Necklace - 0.17 CT",
+      "product_url": "https://www.sabrinadesignsco.com/products/14k-diamond-leaf-necklace-0-17-ct",
+      "image_url": "/creatives/scroll-stopper/sabrina-designs/ad-1.jpg",
+      "ai_image": true,
+      "price": 1980,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "A little sparkle that lives at your collarbone all day. 🌿\n\nThe 14K gold Diamond Leaf Necklace is delicate enough for everyday wear, yet elevated enough to feel special. 0.17 ct of natural diamonds set flush along a polished olive-branch bar.\n\nCertified authentic fine jewelry, crafted with the utmost care and precision. The kind of piece that quietly becomes your signature.",
+      "headline": "Everyday Sparkle, Real Gold",
+      "cta": "Shop Now",
+      "why_it_works": "A dainty, wearable everyday piece sells best on the feeling of effortless glamour, so leading with the desirable daily-wear outcome fits it perfectly.",
+      "visual_direction": "The delicate gold leaf necklace laid flat on cream linen with a silk ribbon and a dried olive sprig alongside, chain curving naturally."
+    },
+    {
+      "product_index": 2,
+      "product_title": "14k Diamond & Tsavorite Snake Ring",
+      "product_url": "https://www.sabrinadesignsco.com/products/kvr00048ts",
+      "image_url": "/creatives/scroll-stopper/sabrina-designs/ad-2.jpg",
+      "ai_image": true,
+      "price": 1800,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "For the moment she wants to feel unforgettable.\n\nStunning and charismatic, this 14K gold snake ring wraps gracefully around the finger for that perfect glamorous look. A green tsavorite-eyed head, a diamond-set tail that sweeps past the knuckle.\n\nAn anniversary, a birthday, a just-because. It makes the perfect gift, and it's built to be passed on from generation to generation.",
+      "headline": "The Gift She Won't Forget",
+      "cta": "Shop Now",
+      "why_it_works": "A bold, sculptural statement ring is a classic gifting piece, so anchoring it to a special occasion gives the buyer a clear reason to purchase now.",
+      "visual_direction": "The gold snake ring standing upright in a walnut jewelry tray on emerald velvet with dried rose petals nearby, tail sweeping up."
+    },
+    {
+      "product_index": 3,
+      "product_title": "14K Diamond Huggie Earrings - 0.72ct",
+      "product_url": "https://www.sabrinadesignsco.com/products/14k-diamond-huggie-earrings-0-56ct",
+      "image_url": "/creatives/scroll-stopper/sabrina-designs/ad-3.jpg",
+      "ai_image": true,
+      "price": 4320,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "\"Are they actually real gold?\" Yes. Every single one.\n\nThese 14K gold huggie earrings hold 0.56 ct of natural diamonds across the pair, each hoop a coiled snake with a marquise-cut centerpiece. Certified authentic fine jewelry, not plated, not costume.\n\nCrafted with the utmost care and precision, and backed by 14-day returns on unworn items. Everlasting quality you can pass down for generations.",
+      "headline": "Certified 14K, Not Costume",
+      "cta": "Shop Now",
+      "why_it_works": "At a premium price the buyer's first doubt is whether the gold and diamonds are genuine, so meeting authenticity and returns head-on removes the biggest barrier to purchase.",
+      "visual_direction": "Both matching gold snake huggie earrings resting on a pale stone slab beside a loupe magnifier and jeweler's cloth, angled toward each other."
+    }
+  ],
+  "generated_at": "2026-07-31T08:44:05.861Z"
+}
