@@ -1,0 +1,163 @@
+{
+  "lead_company": "Drink Lady A",
+  "lead_first_name": "Elle",
+  "website": "https://drinkladya.com",
+  "brand_domain": "drinkladya.com",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Premium Provence rosé and red wine brand, sold direct-to-consumer alongside art collaborations, magnums, and lifestyle gifts.",
+    "core_belief": "Wine as a social, celebratory art form - 'the social butterfly, in celebration of the simple, timeless art of winemaking.'",
+    "proof_points": [
+      "Made in Provence, 'the leading area famed for rosé wine production'",
+      "Originally created exclusively for Soho House, now listed across top global hospitality brands",
+      "IGP Mediterranee rosé, Grenache-Cinsault blend, 12.5% ABV, 75cl",
+      "Quarterly Artists Collaboration Series with exclusive one-off gift boxes"
+    ],
+    "positioning": "Premium, elegant, hospitality-grade rosé positioned as an aspirational 'A List' lifestyle brand, not a value pour."
+  },
+  "voice_pillars": [
+    {
+      "name": "Effortlessly Elegant",
+      "desc": "Refined, sensory language that leans into timeless taste and Provence imagery.",
+      "quote": "delicious, thirst quenching rose - yet delicate and elegant"
+    },
+    {
+      "name": "Playfully Aspirational",
+      "desc": "Positions the drinker inside an exclusive, social, in-crowd world.",
+      "quote": "The 'A' Listers - The iconic rosé wine brand Lady A"
+    },
+    {
+      "name": "Easy & Inviting",
+      "desc": "Approachable, warm copy that makes premium wine feel relaxed and drinkable.",
+      "quote": "crisp, light and far too easy to drink"
+    },
+    {
+      "name": "Art-Led Craft",
+      "desc": "Frames wine as a creative, collectible fusion of art and craft.",
+      "quote": "Lady A is known for its fusion of Art & Wine"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "far too easy to drink",
+      "delicate and elegant",
+      "light, crisp and zesty",
+      "long and refreshing finish",
+      "reminiscent of the light of Provence",
+      "hosting for several, or several more than expected"
+    ],
+    "words": [
+      "rosé",
+      "Provence",
+      "crisp",
+      "thirst quenching",
+      "elegant",
+      "refreshing",
+      "citrus",
+      "iconic"
+    ],
+    "avoid": [
+      "cheap",
+      "budget",
+      "boozy",
+      "medicinal"
+    ]
+  },
+  "icp": "Style-conscious UK hosts and gift-givers who love entertaining and want a hospitality-grade Provence rosé that signals taste and celebration at home.",
+  "personas": [
+    {
+      "name": "The Social Butterfly",
+      "description": "A hosting-minded entertainer who buys by the case and magnum, moved by 'the A Listers' status and easy-drinking, share-worthy rosé."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Shops for artful, one-off gift boxes and occasions, moved by the Artists Collaboration Series and elegant packaging."
+    },
+    {
+      "name": "The Provence Connoisseur",
+      "description": "A discerning drinker who values origin and craft, moved by IGP Mediterranee provenance and the Soho House pedigree."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Lady A Red, Case of Six",
+      "role": "Hero / best-seller",
+      "price": 96
+    },
+    {
+      "title": "Lady A Rosé, Case of Six",
+      "role": "Core",
+      "price": 96
+    },
+    {
+      "title": "Lady A Rosé Magnum, Case of Three",
+      "role": "Premium",
+      "price": 100
+    },
+    {
+      "title": "Sip & Soak",
+      "role": "Entry point",
+      "price": 95
+    }
+  ],
+  "offers": [
+    "Free shipping on orders over £60",
+    "Case of Six bundle at £96 (was £114)",
+    "Rosé Magnum Case of Three at £100 (was £111)",
+    "Next-day delivery on orders placed before 2pm Mon-Thu",
+    "14-day cancellation and returns window (unopened, sealed, original packaging)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Made in Provence, the leading area famed for rosé wine production",
+        "source": "homepage"
+      },
+      {
+        "claim": "Originally created exclusively for Soho House, now listed across top global hospitality brands",
+        "source": "homepage"
+      },
+      {
+        "claim": "Pale, thirst quenching rosé that is crisp, light and easy to drink",
+        "source": "product page (Lady A Rosé)"
+      },
+      {
+        "claim": "Lady Zero is an alcohol-free sparkling wine at 0.0% ABV",
+        "source": "product page (Lady Zero)"
+      },
+      {
+        "claim": "Grenache-Cinsault blend, IGP Mediterranee, 12.5% ABV, 75cl",
+        "source": "product page (Lady A Rosé)"
+      },
+      {
+        "claim": "Free shipping when your order totals more than £60",
+        "source": "product page shipping section"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any suggestion that Lady A wine has health, wellness, or 'detox' benefits",
+        "why": "Disease-treatment and unqualified detox claims are banned for this category; alcohol cannot carry health benefits"
+      },
+      {
+        "claim": "'Boosts immunity' or antioxidant health benefit angles from the wine",
+        "why": "Banned immunity/health claim - not supported and prohibited for alcoholic beverages"
+      },
+      {
+        "claim": "'Low sugar' or 'low calorie' unless it matches the actual label",
+        "why": "Nutrient-content claims must match the verified label; no such figures are stated on site"
+      },
+      {
+        "claim": "Marketing wine to under-18s or implying safe consumption in any quantity",
+        "why": "Alcohol compliance - site enforces an over-18 age gate and 'please drink responsibly'"
+      },
+      {
+        "claim": "Using 'natural' or 'clean' as an unqualified headline claim",
+        "why": "'Natural' and 'clean' are vague and risky per category rules and not stated on the label"
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-01T08:23:13.603Z"
+}
