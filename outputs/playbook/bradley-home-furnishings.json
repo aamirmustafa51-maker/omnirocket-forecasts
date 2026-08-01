@@ -1,0 +1,168 @@
+{
+  "lead_company": "Bradley Home Furnishings",
+  "lead_first_name": "Brad",
+  "website": "https://bradleyhomefurnishings.com",
+  "brand_domain": "bradleyhomefurnishings.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Online-only home furniture retailer selling living room, bedroom, dining, office and outdoor pieces at discount prices, serving the USA with free local delivery in the Inland Empire, CA.",
+    "core_belief": "They believe your home should reflect your style and comfort, and that showroom-quality furniture should be sold at the best prices available online.",
+    "proof_points": [
+      "In business since 2006 with roots liquidating furniture from Las Vegas casinos like the Bellagio and MGM Grand",
+      "Low overhead model - direct from importer, virtual showrooms only, so savings pass to the customer",
+      "Free delivery in Los Angeles, Orange, Riverside and San Diego Counties on minimum order, using their own drivers",
+      "Damage exchange or replacement if reported within 48 hours of delivery"
+    ],
+    "positioning": "Value-first, no-showroom online furniture source that undercuts local retail on the same brands while keeping service personal."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm and Homey",
+      "desc": "They frame furniture around comfort, family and spaces that feel personal, not just product specs.",
+      "quote": "rooms that pulse with warmth and character - the kind of spaces that make you feel right at home"
+    },
+    {
+      "name": "Straight-Talking Value",
+      "desc": "They are blunt about why they are cheaper and never hide the trade-offs of the online model.",
+      "quote": "We sell direct from the importer to the end user."
+    },
+    {
+      "name": "Personal and Reachable",
+      "desc": "They lean on real people and easy contact to reassure shoppers nervous about buying furniture online.",
+      "quote": "no routine answering machines or voicemail"
+    },
+    {
+      "name": "Confident Insider",
+      "desc": "They speak like seasoned pros who know the furniture business and quietly flex their track record.",
+      "quote": "We can count our dissatisfied customers on one hand"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "make you feel right at home",
+      "where mealtime magic happens",
+      "sofas that invite lounging",
+      "showroom quality furniture at the best prices",
+      "modern comfort & bold style",
+      "peaceful sanctuary"
+    ],
+    "words": [
+      "comfort",
+      "warmth",
+      "style",
+      "quality",
+      "modern",
+      "sophisticated",
+      "savings",
+      "family"
+    ],
+    "avoid": [
+      "luxury-at-any-cost",
+      "cheap",
+      "trendy hype",
+      "overly technical jargon"
+    ]
+  },
+  "icp": "Practical Southern California and USA homeowners furnishing full rooms who want brand-name, showroom-quality furniture at the lowest price and value a personal, easy buying experience over a physical showroom.",
+  "personas": [
+    {
+      "name": "Deal-Savvy Homemaker",
+      "description": "A budget-conscious homeowner outfitting a room who is moved by the promise of the same furniture as local stores for a lot less money."
+    },
+    {
+      "name": "Nervous First-Time Online Buyer",
+      "description": "A shopper hesitant to buy furniture online who is reassured by a long track record, real staff and easy phone contact."
+    },
+    {
+      "name": "Inland Empire Nester",
+      "description": "A local family in LA, Orange, Riverside or San Diego County who values free local delivery by the company's own drivers and fast turnaround."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Sutton Place Caramel Cocoa Expandable Dining Set",
+      "role": "Hero / best-seller",
+      "price": 1978
+    },
+    {
+      "title": "Avery IMAV3278 Brown Open Bookcase",
+      "role": "Entry point",
+      "price": 689
+    },
+    {
+      "title": "Avery IMAV642 Brown Credenza Hutch",
+      "role": "Core",
+      "price": 749
+    },
+    {
+      "title": "Avery IMAV649 Brown Credenza Desk",
+      "role": "Core",
+      "price": 1279
+    }
+  ],
+  "offers": [
+    "Free delivery to Los Angeles, Orange, Riverside and San Diego Counties on minimum order",
+    "Shipping anywhere in the USA",
+    "No Credit Needed Leasing option",
+    "Damaged or defective parts exchanged or replaced if reported within 48 hours of delivery",
+    "Buy individual pieces or full sets in almost all cases",
+    "New products added daily"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "In business since 2006, one of the longest established online furniture stores.",
+        "source": "homepage header and FAQ"
+      },
+      {
+        "claim": "Free delivery to LA, Orange, Riverside and San Diego Counties on minimum order.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Sell direct from the importer with low overhead to pass savings to the customer.",
+        "source": "FAQ and about page"
+      },
+      {
+        "claim": "Damaged or defective parts exchanged or replaced if reported within 48 hours of delivery.",
+        "source": "FAQ"
+      },
+      {
+        "claim": "Local Southern CA delivery as soon as next day up to 7 days when in stock, using their own drivers.",
+        "source": "FAQ"
+      },
+      {
+        "claim": "Hayward Chest is solid wood and engineered wood with English dovetail and felt-lined top drawer.",
+        "source": "product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the furniture 'sustainable' or 'eco-friendly' with no backing.",
+        "why": "FTC Green Guides - unqualified sustainability claim not supported anywhere on the site."
+      },
+      {
+        "claim": "Describing wood pieces as '100% recycled' or 'zero impact'.",
+        "why": "FTC Green Guides - unverifiable recycled/impact claim with no evidence in product copy."
+      },
+      {
+        "claim": "Marketing recliners as relieving back pain or correcting posture.",
+        "why": "Banned medical/orthopedic claim for this category; not supported by any product spec."
+      },
+      {
+        "claim": "Calling delivery times 'guaranteed'.",
+        "why": "Shipping policy explicitly states shipping times are estimated and cannot be guaranteed."
+      },
+      {
+        "claim": "Claiming 'carbon neutral' shipping or operations.",
+        "why": "FTC Green Guides - unqualified carbon neutrality claim with no verifiable proof."
+      },
+      {
+        "claim": "Stating furniture arrives fully assembled across the board.",
+        "why": "FAQ states dining sets, desks and beds in almost every case require assembly - claim would be false."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-01T16:52:59.119Z"
+}
