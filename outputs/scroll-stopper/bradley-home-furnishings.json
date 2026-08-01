@@ -1,0 +1,60 @@
+{
+  "lead_company": "Bradley Home Furnishings",
+  "lead_first_name": "Brad",
+  "website": "https://bradleyhomefurnishings.com",
+  "brand_domain": "bradleyhomefurnishings.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, plain-spoken furniture pros who talk about comfort and family life while quietly flexing showroom-quality-for-less credibility.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/bradley-home-furnishings?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Taddeo Power Motion Recliner LV06232",
+      "product_url": "https://www.bradleyhomefurnishings.com/products/taddeo-power-motion-recliner-lv06232",
+      "image_url": "/creatives/scroll-stopper/bradley-home-furnishings/ad-1.jpg",
+      "ai_image": true,
+      "price": 596,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Your after-work spot just got an upgrade.\n\nPower reclining at the push of a side button, a headrest that tilts forward on its own, and cool blue LED glow under the base for movie nights. Diamond-quilted seat, built-in cupholders, USB right on the arm.\n\nShowroom quality furniture at the best prices, because we sell direct from the importer. Modern comfort and bold style, sink-in ready.",
+      "headline": "Recline. Relax. Repeat.",
+      "cta": "Shop Now",
+      "why_it_works": "A recliner is bought for one feeling above all - effortless relaxation - so leading with that outcome plus the standout features (LED, cupholders, USB) sells the experience fast.",
+      "visual_direction": "The dark grey recliner sitting on a rug in a cozy living room corner at night, its blue base light glowing, with a coffee mug on the side table beside it."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Hayward Mid Century Walnut Chest",
+      "product_url": "https://www.bradleyhomefurnishings.com/products/hayward-mid-century-walnut-chest",
+      "image_url": "/creatives/scroll-stopper/bradley-home-furnishings/ad-2.jpg",
+      "ai_image": true,
+      "price": 398,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Worried online furniture means flimsy furniture? Not here.\n\nThe Hayward Chest is real solid wood and engineered wood, with English dovetail joinery, smooth ball-bearing side glides, and a felt-lined top drawer. Warm walnut grain, gold bar pulls, rounded edges.\n\nWe sell direct from the importer, so you get showroom quality furniture at the best prices. Report any damaged or defective part within 48 hours and we'll exchange or replace it.",
+      "headline": "Built Right. Priced Fair.",
+      "cta": "Shop Now",
+      "why_it_works": "The biggest hesitation buying a $398 dresser online is quality and construction, so naming the dovetails, felt lining, and 48-hour damage policy kills that doubt head-on.",
+      "visual_direction": "The tall walnut five-drawer chest standing in a bright bedroom on wood floors, a ceramic lamp on top and a framed print leaning beside it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Elite Home Bar by Sharelle Furnishings USA",
+      "product_url": "https://www.bradleyhomefurnishings.com/products/elite-home-bar-by-sharelle-furnishings-usa",
+      "image_url": "/creatives/scroll-stopper/bradley-home-furnishings/ad-3.jpg",
+      "ai_image": true,
+      "price": 1319,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Ready to be the house everyone comes to?\n\nThe Elite Home Bar turns a corner of your living room into the spot where the night happens. Black oak, a floating curved glass top, frosted illuminated tower panels, and glass display shelves for your best pours.\n\nModern comfort and bold style with a lounge feel, delivered direct from the importer so the price stays friendly. Free local delivery to LA, Orange, Riverside and San Diego Counties on qualifying orders.",
+      "headline": "Home Is The New Night Out",
+      "cta": "Shop Now",
+      "why_it_works": "A home bar is an aspirational entertaining purchase, so tying it to hosting nights and gatherings frames the spend as buying an experience your friends will remember.",
+      "visual_direction": "The black oak home bar with its glowing frosted panels set against a dark wall at night, glasses and a citrus bowl on the glass top with bar stools alongside."
+    }
+  ],
+  "generated_at": "2026-08-01T16:55:13.158Z"
+}
