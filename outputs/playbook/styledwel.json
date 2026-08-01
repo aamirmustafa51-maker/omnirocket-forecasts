@@ -1,0 +1,157 @@
+{
+  "lead_company": "Styledwel",
+  "lead_first_name": "Mary",
+  "website": "https://styledwel.com",
+  "brand_domain": "styledwel.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Patented urinary bag covers for catheter and leg bag users - a discretion-and-dignity lane within medical device accessories.",
+    "core_belief": "That people managing urinary devices deserve functionality and dignity: 'We are dedicated to creating products that empower individuals, where other products hold them back.'",
+    "proof_points": [
+      "US Patented products (BAG-INS and LEGG-INS)",
+      "Crafted from durable, lightweight nylon with superior workmanship",
+      "Founder-invented in 2012 after a family member's post-cancer catheter experience",
+      "Used in both institutional and home care settings"
+    ],
+    "positioning": "Purpose-built, higher-quality alternative to the flimsy supplied bag holders - designed with the end user in mind, not a generic accessory."
+  },
+  "voice_pillars": [
+    {
+      "name": "Dignity-First",
+      "desc": "Frames every feature around restoring confidence and self-respect, never around illness.",
+      "quote": "Designed by STYLEDWEL to restore dignity and ease-every day"
+    },
+    {
+      "name": "Discreet And Reassuring",
+      "desc": "Speaks softly to a private concern, promising comfort and peace of mind over hype.",
+      "quote": "Discreet, secure, and dignified"
+    },
+    {
+      "name": "Practical And Proven",
+      "desc": "Backs claims with concrete design features, materials, and patents rather than vague promises.",
+      "quote": "backed by patented innovation and high-quality materials"
+    },
+    {
+      "name": "Empowering Mission",
+      "desc": "Positions the brand as an advocate that gives control back to users and their families.",
+      "quote": "STYLEDWEL products deliver solutions"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "comfort and confidence",
+      "peace of mind",
+      "comfort, security, and peace of mind",
+      "the embarrassment of visible waste bags",
+      "restore dignity",
+      "a smart, dependable choice"
+    ],
+    "words": [
+      "discreet",
+      "dignity",
+      "comfortable",
+      "secure",
+      "confidence",
+      "durable",
+      "washable",
+      "adjustable"
+    ],
+    "avoid": [
+      "clinical/cold jargon",
+      "pitying or shameful tone",
+      "loud/flashy hype",
+      "graphic medical language"
+    ]
+  },
+  "icp": "Adults living with urinary incontinence or catheters - plus their families and caregivers - who value discretion, comfort, and independence and want a dependable, dignified alternative to the flimsy supplied bag holder.",
+  "personas": [
+    {
+      "name": "The Independent User",
+      "description": "A catheter or leg bag user who wants to go about daily life confidently; moved by discretion, comfort, and 'a walk in the park' normalcy."
+    },
+    {
+      "name": "The Caring Family Member",
+      "description": "A spouse or adult child sourcing a better solution after supplied gear failed; moved by dignity, reliability, and the founder's own family story."
+    },
+    {
+      "name": "The Care Professional",
+      "description": "A nurse, caregiver, or facility buyer serving patients in home or institutional settings; moved by durability, washability, and secure fit."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "BAG-INS® Urinary Bag Cover",
+      "role": "Hero / best-seller",
+      "price": 39.95
+    },
+    {
+      "title": "LEGG-INS® Urinary Leg Bag Cover",
+      "role": "Entry point",
+      "price": 39.95
+    }
+  ],
+  "offers": [
+    "Free shipping promotions applied automatically when applicable",
+    "Satisfaction Guarantee - contact directly if dissatisfied for any reason",
+    "No returns accepted due to product nature (stated on refund policy)",
+    "Orders processed within 1-3 business days; ships via USPS and UPS",
+    "Color options: BAG-INS in Black, Red, White, Blue; LEGG-INS in Black, Red"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "US Patented urinary bag covers designed for discretion, comfort, and security.",
+        "source": "homepage and product pages"
+      },
+      {
+        "claim": "Crafted from durable, lightweight nylon and washable, wash-after-wash.",
+        "source": "product pages"
+      },
+      {
+        "claim": "LEGG-INS fits most 19 oz (562 cc) urinary leg bags with adjustable straps for thigh or calf.",
+        "source": "LEGG-INS product page"
+      },
+      {
+        "claim": "BAG-INS includes a removable dowel rod that helps the bag maintain shape and reduces tubing kinks.",
+        "source": "BAG-INS product page"
+      },
+      {
+        "claim": "Products are used in both institutional and home care settings.",
+        "source": "about page"
+      },
+      {
+        "claim": "Satisfaction guarantee - reach out directly if dissatisfied for any reason.",
+        "source": "refund policy page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "'Relieves bladder pain' or 'treats urinary incontinence'.",
+        "why": "Medical/therapeutic claim - the product is a cover, not a treatment device."
+      },
+      {
+        "claim": "'Prevents infection' or 'improves hygiene outcomes' as a health promise.",
+        "why": "Medical claim not supported by evidence on the site; blog hygiene mentions are not proof."
+      },
+      {
+        "claim": "'Eco-friendly' or 'sustainable' nylon.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no verifiable backing."
+      },
+      {
+        "claim": "'100% recycled' or 'carbon neutral' materials.",
+        "why": "FTC Green Guides - specific green claims require verifiable proof not present on the site."
+      },
+      {
+        "claim": "'Ensures consistent urine flow' stated as a guaranteed medical outcome.",
+        "why": "Reframe as design intent, not a clinical guarantee - avoid implied medical efficacy."
+      },
+      {
+        "claim": "'Hypoallergenic' or 'eliminates allergic reactions'.",
+        "why": "Copy only says it addresses concerns like allergic reactions; an absolute claim is unproven."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-01T08:18:54.164Z"
+}
