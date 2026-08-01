@@ -1,0 +1,60 @@
+{
+  "lead_company": "Drink Lady A",
+  "lead_first_name": "Elle",
+  "website": "https://drinkladya.com",
+  "brand_domain": "drinkladya.com",
+  "currency": "GBP",
+  "brand_voice_note": "Effortlessly elegant and warmly inviting, with a Provence-soaked, art-led sensibility that makes premium wine feel relaxed, social, and quietly aspirational.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/drink-lady-a?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Lady A Rosé",
+      "product_url": "https://www.drinkladya.com/products/lady-a-rose",
+      "image_url": "/creatives/scroll-stopper/drink-lady-a/ad-1.jpg",
+      "ai_image": true,
+      "price": 19,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Pale, crisp, and far too easy to drink.\n\nLady A is a light Grenache-Cinsault rose from Provence - delicate and elegant, with a long, refreshing finish that keeps the afternoon going.\n\nChill it. Pour it. Watch it disappear when you're hosting for several, or several more than expected. 🌸",
+      "headline": "The rose that tastes like Provence",
+      "cta": "Shop Now",
+      "why_it_works": "The single most desirable outcome for a summer rose is that effortless, thirst-quenching drinkability, so leading with the sensory payoff lands harder than any feature list.",
+      "visual_direction": "The rose bottle standing on a sunlit pale stone poolside ledge with fresh apricots, lavender, and a wine glass alongside."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Stay… Until the Rain Passes",
+      "product_url": "https://www.drinkladya.com/products/scented-candle-stay-by-lady-a",
+      "image_url": "/creatives/scroll-stopper/drink-lady-a/ad-2.jpg",
+      "ai_image": true,
+      "price": 55,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "For the evening you don't want to end.\n\nStay is the first scented candle by Lady A - patchouli, cedar and vetiver wrapped in golden amber and rare agarwood, with a whisper of ripe strawberry to lift it.\n\nLight it when the rain sets in and the last of your guests decide to stay a little longer.",
+      "headline": "The candle that says stay",
+      "cta": "Shop Now",
+      "why_it_works": "A rich woody candle sells on the moment it creates, so tying it to a slow, lingering evening in makes the sensory blend feel like the reason to buy rather than just a fragrance note list.",
+      "visual_direction": "The lit olive-green candle glowing on a pale stone surface with its mustard gift boxes and a book beside it in warm lamplight."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Lady Zero",
+      "product_url": "https://www.drinkladya.com/products/lady-zero",
+      "image_url": "/creatives/scroll-stopper/drink-lady-a/ad-3.jpg",
+      "ai_image": true,
+      "price": 20,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Social Proof",
+      "primary_text": "Created for Soho House. Now poured everywhere.\n\nLady Zero is our alcohol-free sparkling wine at 0.0% - bright citrus, a delicate strawberry core, and a clean, refreshing finish.\n\nNo compromise, no missing out. Just the same delicate, elegant pour the in-crowd keeps reaching for.",
+      "headline": "The 0.0% everyone's pouring",
+      "cta": "Shop Now",
+      "why_it_works": "The Soho House heritage and global hospitality listings are genuine social proof that instantly reassures a skeptical alcohol-free buyer this bottle belongs at the good table.",
+      "visual_direction": "The Lady Zero sparkling bottle on a sunlit marble terrace table with two filled champagne flutes and an ice bucket in golden light."
+    }
+  ],
+  "generated_at": "2026-08-01T08:24:49.341Z"
+}
