@@ -1,0 +1,59 @@
+{
+  "brand": "Murphy & Daughters",
+  "brand_slug": "murphy-daughters",
+  "first_name": "Sarah",
+  "website": "https://example.com",
+  "generated_date": "August 1, 2026",
+  "read_time_min": 3,
+  "total_ads": 1,
+  "niche": "bath and body",
+  "tldr": "Sarah, you have one ad running, and it's a giveaway that's been live for almost two years. Meta has long since stopped showing it to fresh buyers, and you have nothing else selling your actual products.",
+  "benchmark": {
+    "your_value_days": 28,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "Most bath and body brands your size put out a fresh ad every three weeks or so. The best ones do it every two weeks. You have one ad, and it's been running for 683 days, so Meta has basically nothing new to show anyone."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 0,
+      "headline": "Win $150 to spend on Australian bath + body products",
+      "body": "🎉🎉 WIN!! $150 voucher to spend on our gorgeous Australian made bath + body products - it's time to treat yourself!!  🧴 Hand + body lotion 🧼 Soaps 🫧  Bubble bath 🛀 Bath salts 💋 Lip balms 🌷 Perfume oils 🕯️ Candles 💐 Room scents 🎁 Gift sets To enter, simply click the 'sign up' button!",
+      "cta": "Sign up",
+      "fatigue_score": 96,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This ad has been live for 683 days, which is roughly 24 times longer than your ideal window, so Meta shows it to almost no one now.",
+        "It's a giveaway, not a product ad, so every dollar spent brings in freebie hunters instead of paying customers.",
+        "The link sends people to fb.me, not your store, so even winners never see your soap, lotion, or candle pages."
+      ]
+    }
+  ],
+  "ads_compact": [],
+  "hero_concept": {
+    "concept_name": "The Everyday Luxe Ritual",
+    "format": "Single image",
+    "hook": "The hand wash that turns a sink into a spa.",
+    "headline": "Bergamot. Grapefruit. Rose.",
+    "primary_text": "Made in small batches on the Mornington Peninsula, our Luxe Hand Wash pairs bergamot, pink grapefruit, and rose geranium into a scent that lingers on your hands long after you dry them.\n\nThe pack comes with one pump and three matching soap bars, so the powder room stays stocked for months. It's the kind of small daily upgrade that turns a chore into a moment.\n\nFree shipping on Australian orders over $75.",
+    "cta": "Shop Now",
+    "visual_direction": "The pump bottle and three soap bars arranged on a marble vanity with soft morning light and a linen hand towel.",
+    "fills_gap": "Right now your one ad is a giveaway, so nothing you're running actually shows a product or a price. This gives Meta a real ad that sells something, sends people to your store, and gives Sarah a starting point to build a small stack of different ads around.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a soft marble bathroom vanity scene with a folded natural linen hand towel, a small ceramic dish, and a sprig of fresh rose geranium leaves beside the products, with soft diffused morning window light casting gentle shadows from the left. Calm, minimal, warm Australian coastal aesthetic with muted cream, dusty pink, and pale sage tones. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact glass or frosted bottle of the hand wash pump AND the exact color, texture, and shape of each of the three soap bars as shown in the reference image, preserve the exact printed Murphy & Daughters labels on the pump bottle and on each soap bar including every word, font, illustration, and color exactly as printed, strictly NO relabelling, NO color shift on the packaging, NO swapping bar colors or textures, NO changing the pump nozzle style or bottle shape. STRUCTURE - preserve the exact construction: one hand wash pump bottle with its metal pump dispenser top and printed front label intact, three individual soap bars each with their own printed paper wrap and label, arrangement shows one pump bottle plus three wrapped bars totaling four items, preserve every printed word, illustration, and typographic detail on all four labels exactly as shown. Do NOT add or remove any bottles or bars, do NOT change the item count from four, do NOT unwrap the soap bars, do NOT remove or alter the printed labels or brand text, do NOT swap the pump for a different closure style. Render the product's metal, color, finish, fabric, weave, stones, surface treatment, AND every visible construction detail (silhouette, closures, hardware count, pockets, sleeves, neckline, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the metal type, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove buttons, snaps, zippers, pockets, straps, or any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Luxe Hand Washing Soap Pack - 1 Hand Wash Pump In Bergamot, Pink Grapefruit and Rose Geranium and 3 Bars of Soap",
+    "reference_url": "https://murphyanddaughters.com/products/luxe-hand-washing-soap-pack-1-hand-wash-pump-and-3-bars-of-soap",
+    "image_path": "/creatives/murphy-daughters/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Your one ad is already past the point where Meta bothers showing it, so effectively you're spending on nothing today.",
+    "headline": "Walk through the Murphy & Daughters refresh plan with Kyle",
+    "body": "Sarah, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads: the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://murphyanddaughters.com/cdn/shop/files/bec9b9ae9b5262dc0d02a2674a55ea41.jpg?crop=center&height=32&v=1756115703&width=32"
+}
