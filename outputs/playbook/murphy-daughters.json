@@ -1,0 +1,149 @@
+{
+  "lead_company": "Murphy & Daughters",
+  "lead_first_name": "Sarah",
+  "website": "https://murphyanddaughters.com",
+  "brand_domain": "murphyanddaughters.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Fragrance-led bath, body and gifting brand - perfume, soap, bath, hand and body, candles.",
+    "core_belief": "Helping the world look and smell better - beauty and scent treated as everyday joy, not luxury ritual.",
+    "proof_points": [
+      "Full scent-led range across perfume, soap, bath, hand and body, and candles",
+      "Signature fragrance library: Geranium, Rose, Grapefruit, Lime, Green Tea, Cucumber, Frangipani, Violet",
+      "Named ranges with personality: Hokum, Story, Bon Bons, Message On a Soap",
+      "Free express shipping on all orders over $120"
+    ],
+    "positioning": "Playful, gift-forward and characterful - a step above generic drugstore bath and body without the cold minimalism of prestige beauty."
+  },
+  "voice_pillars": [
+    {
+      "name": "Warm And Cheerful",
+      "desc": "Upbeat and human, framing scent and beauty as a small daily pleasure rather than a clinical routine.",
+      "quote": "helping our world look AND smell better"
+    },
+    {
+      "name": "Playful And Characterful",
+      "desc": "Leans on named, personality-driven ranges and cheeky product names over technical spec-speak.",
+      "quote": "MESSAGE ON A SOAP"
+    },
+    {
+      "name": "Gift-Minded",
+      "desc": "Writes for the giver as much as the buyer, organising the range around treats and occasions.",
+      "quote": "BOX OF TREATS"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "helping our world look AND smell better",
+      "Message On a Soap",
+      "Box of Treats",
+      "Bon Bon Soap",
+      "Free express shipping on all orders over $120",
+      "15% off your first purchase with sign up"
+    ],
+    "words": [
+      "treats",
+      "gifting",
+      "soap",
+      "fragrance",
+      "bath",
+      "bubbles",
+      "message",
+      "candles"
+    ],
+    "avoid": [
+      "clinical",
+      "anti-aging",
+      "dermatological",
+      "pharmaceutical"
+    ]
+  },
+  "icp": "Gift-loving shoppers and self-treaters who buy on scent, charm and presentation - people who want a lovely-smelling, giftable product more than a technical skincare fix.",
+  "personas": [
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Buys boxed sets and treats for others; moved by pretty packaging, occasion framing and the 'message on a soap' novelty angle."
+    },
+    {
+      "name": "The Everyday Treater",
+      "description": "Buys small affordable luxuries like $14 soaps and bath bubbles for herself; moved by scent, mood and the 'look and smell better' promise."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "EDT Story Discovery set",
+      "role": "Hero / best-seller",
+      "price": 170
+    },
+    {
+      "title": "Message On a Soap -  BELLISSIMO - Green Tea",
+      "role": "Entry point",
+      "price": 14
+    },
+    {
+      "title": "Message On a Soap - BISOUS - Geranium",
+      "role": "Entry point",
+      "price": 14
+    },
+    {
+      "title": "Bath Bubbles- Green Tea",
+      "role": "Core",
+      "price": 33
+    }
+  ],
+  "offers": [
+    "15% off your first purchase with email sign up",
+    "Free express shipping on all orders over $120",
+    "Boxed fragrance, hand cream, soap, travel and 'Box of Treats' gift sets",
+    "EDT Story Discovery set for trying multiple fragrances ($170)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Helps you look and smell better",
+        "source": "homepage tagline"
+      },
+      {
+        "claim": "Free express shipping on all orders over $120",
+        "source": "site-wide promo bar"
+      },
+      {
+        "claim": "15% off your first purchase with sign up",
+        "source": "site-wide promo bar"
+      },
+      {
+        "claim": "Range of eight signature fragrances including Green Tea, Geranium and Rose",
+        "source": "OUR FRAGRANCES navigation"
+      },
+      {
+        "claim": "Giftable boxed sets and discovery sets available",
+        "source": "GIFTING navigation and EDT Story Discovery set product"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Repairs, heals or treats skin conditions like acne, eczema or rosacea",
+        "why": "Cosmetic claim crossing into drug territory - not permitted for a soap/bath brand under cosmetic rules."
+      },
+      {
+        "claim": "Anti-aging that reverses or turns back aging",
+        "why": "Structure/function drug claim - use appearance language like 'skin looks smoother' instead."
+      },
+      {
+        "claim": "Boosts collagen production",
+        "why": "Structure/function claim - implies altering the body, making it an unapproved drug claim."
+      },
+      {
+        "claim": "Clinically proven results",
+        "why": "No study is present on the site; 'clinically proven' requires substantiation."
+      },
+      {
+        "claim": "Therapeutic aromatherapy benefits such as 'reduces anxiety' or 'cures headaches'",
+        "why": "Health/structure-function claim beyond permitted cosmetic scent and appearance language."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-08-01T09:33:15.323Z"
+}
