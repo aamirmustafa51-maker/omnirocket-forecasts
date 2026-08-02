@@ -1,0 +1,60 @@
+{
+  "lead_company": "My Fun Colors",
+  "lead_first_name": "Dan",
+  "website": "https://myfuncolors.com",
+  "brand_domain": "myfuncolors.com",
+  "currency": "USD",
+  "brand_voice_note": "Joyful, personal, and stack-happy - colorful everyday jewelry that treats style as low-stakes fun and self-expression rather than a serious investment.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/my-fun-colors?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Gemstone Anklet",
+      "product_url": "https://myfuncolors.com/products/gemstone-ankle-bracelet",
+      "image_url": "/creatives/scroll-stopper/my-fun-colors/ad-1.jpg",
+      "ai_image": true,
+      "price": 12,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "primary_text": "Twelve dollars for a real gemstone anklet? Yep.\n\nEvery one is strung with real semi-precious stones on a comfy elastic band, so it slips on in seconds and stays put all day. No clasp to fumble, no fuss.\n\nAnd here's the fun part: buy one anklet, get one free with code ANKLETBOGO. Easy sparkle for every day, minus the sticker shock. 💜",
+      "headline": "Real Stone. $12. BOGO Free.",
+      "cta": "Shop Now",
+      "why_it_works": "At a $12 price point with real gemstones, the natural doubt is 'can it actually be good quality at that price,' so we meet the hesitation head-on and stack the BOGO offer on top.",
+      "visual_direction": "The purple gemstone anklet laid in a soft curl on pale linen next to a bare ankle and a hand for scale, in gentle morning light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Mini-Crystal Stretch Bracelet",
+      "product_url": "https://myfuncolors.com/products/mini-crystal-bracelet",
+      "image_url": "/creatives/scroll-stopper/my-fun-colors/ad-2.jpg",
+      "ai_image": true,
+      "price": 4,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "One bracelet is never enough. That's kind of the point.\n\nTiny faceted crystals throw high sparkle with low bulk, so you can layer three, five, or ten and it never feels heavy. Slip-on stretch fit, no clasp, goes with absolutely everything.\n\nAt $4 each, life's too short for boring jewelry. Build the stack that feels like you.",
+      "headline": "Mini Sparkle, Built To Stack",
+      "cta": "Shop Now",
+      "why_it_works": "At $4 the desire isn't one piece, it's the joyful stacked look, so we lead with the feeling of building your own personal shine layer by layer.",
+      "visual_direction": "The dainty black crystal stretch bracelet resting on a marble vanity tray with a forearm nearby, sparkling in soft raking light."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Pendant Necklaces",
+      "product_url": "https://myfuncolors.com/products/pendant-necklace",
+      "image_url": "/creatives/scroll-stopper/my-fun-colors/ad-3.jpg",
+      "ai_image": true,
+      "price": 28,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "The necklace you reach for when \"tee and jeans\" needs a little something.\n\nA warm gold paperclip chain drops into a single turquoise teardrop pendant that lands right at the collarbone. Layer it up for a night out or wear it solo on a Tuesday.\n\nMade to stack, gift, and wear with everything. One necklace, endless moods.",
+      "headline": "Your Everyday Turquoise Drop",
+      "cta": "Shop Now",
+      "why_it_works": "A $28 pendant is the piece you buy for a specific look or moment, so tying it to real occasions from casual daytime to night-out shows exactly when it earns its place.",
+      "visual_direction": "The gold turquoise Y-drop necklace hanging from a small brass stand on a sunlit dresser beside a folded tee and a ceramic ring dish."
+    }
+  ],
+  "generated_at": "2026-08-02T07:07:47.778Z"
+}
