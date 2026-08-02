@@ -1,0 +1,168 @@
+{
+  "lead_company": "My Fun Colors",
+  "lead_first_name": "Dan",
+  "website": "https://myfuncolors.com",
+  "brand_domain": "myfuncolors.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Colorful, stackable beaded bracelets, charms, anklets and necklaces - affordable, playful fashion jewelry for adults and kids.",
+    "core_belief": "Accessories are more than adornments - they're storytellers, memory keepers, and confidence boosters, made to help you embrace life in full color.",
+    "proof_points": [
+      "13 years in business, from the founder's first 7,500 bracelets in 2012 to over 1,000 styles today",
+      "Veteran-owned, woman-owned, family-style team based in Southern California",
+      "Real materials like leather, wood and steel in the Brigade men's line; gemstones, sterling silver and gold plating across collections",
+      "30-day return policy and gives back to causes like Operation Homefront and cancer awareness"
+    ],
+    "positioning": "Value-first and joyfully loud - quality and self-expression at accessible prices, not luxury minimalism."
+  },
+  "voice_pillars": [
+    {
+      "name": "Joyful & Playful",
+      "desc": "Every line leans into fun, color, and a smile-first tone that never takes itself too seriously.",
+      "quote": "Each piece is designed to make you smile and remind you to embrace life in full color."
+    },
+    {
+      "name": "Personal & Empowering",
+      "desc": "Writes to the individual, framing jewelry as self-expression and confidence you build yourself.",
+      "quote": "We're not just a brand; we're your creative partner in shaping a style that's uniquely yours."
+    },
+    {
+      "name": "Real & Human",
+      "desc": "Leans on the founder story and hands-on team to feel like people, not a factory.",
+      "quote": "We're not a faceless factory, churning out fashion."
+    },
+    {
+      "name": "Mix-and-Stack",
+      "desc": "Frames products as versatile pieces made to combine, layer, and swap for any mood.",
+      "quote": "Designed to mix, match, and stack, so your style always feels personal."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Wrist to ponytail in seconds",
+      "made to stack, gift, and wear with everything",
+      "life is too short for boring jewelry",
+      "one wrist at a time",
+      "easy sparkle for every day",
+      "so your style always feels personal"
+    ],
+    "words": [
+      "colorful",
+      "stack",
+      "sparkle",
+      "fun",
+      "joy",
+      "gift",
+      "handcrafted",
+      "confidence"
+    ],
+    "avoid": [
+      "luxury",
+      "exclusive",
+      "minimalist",
+      "boring"
+    ]
+  },
+  "icp": "Style-loving women (and gift-givers) who want affordable, colorful jewelry they can stack, mix, and swap for everyday fun, gifts, and self-expression.",
+  "personas": [
+    {
+      "name": "The Stack Collector",
+      "description": "Loves building layered wrist stacks and swapping colors by mood - moved by mix-and-match versatility and gifts-under-$10 price points."
+    },
+    {
+      "name": "The Thoughtful Gifter",
+      "description": "Buys for friends, family, and kids to mark meaningful moments - moved by friendship, personalized word pieces, and give-back causes."
+    },
+    {
+      "name": "The Team-Spirit Fan",
+      "description": "Wants to show off team colors and community pride - moved by FanFare team sets, fundraisers, and cause-based collections."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Gold & Sterling Silver Plated Petite Chain Pendants",
+      "role": "Hero / best-seller",
+      "price": 15
+    },
+    {
+      "title": "Gold & Palladium Plated Chain Bracelets",
+      "role": "Entry point",
+      "price": 12
+    },
+    {
+      "title": "Pendant Necklaces",
+      "role": "Premium",
+      "price": 28
+    },
+    {
+      "title": "Bold & Brilliant Gemstone Bracelet",
+      "role": "Core",
+      "price": 22
+    }
+  ],
+  "offers": [
+    "Sign up for 10% off",
+    "Buy one ankle bracelet, get one free with code ANKLETBOGO",
+    "Gifts Under $10 collection",
+    "Build Your Own Stack / Mix & Match",
+    "30-day return policy on eligible items",
+    "EU 14-day cooling-off period"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Veteran-owned, woman-owned, family-style team in Southern California",
+        "source": "about page"
+      },
+      {
+        "claim": "13 years in business with over 1,000 styles",
+        "source": "about page"
+      },
+      {
+        "claim": "30-day return policy on unworn items with tags and original packaging",
+        "source": "refund policy page"
+      },
+      {
+        "claim": "Gold and sterling silver plated and mixed-metal styles available",
+        "source": "homepage / product pages"
+      },
+      {
+        "claim": "Buy one anklet, get one free with code ANKLETBOGO",
+        "source": "homepage"
+      },
+      {
+        "claim": "Brigade men's bracelets made with real components like leather, wood, and steel",
+        "source": "homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Gemstone bracelets heal, detox, or balance the body",
+        "why": "Crystal/gemstone health claims are disease-treatment and unqualified 'detox' claims - banned under health-claim rules."
+      },
+      {
+        "claim": "Boosts immunity or wellness through gemstone energy",
+        "why": "'Boosts immunity' is a banned unqualified health claim; jewelry cannot make it."
+      },
+      {
+        "claim": "Sterling silver / 14k gold (unqualified)",
+        "why": "Products are plated - calling them solid sterling or 14k gold misstates material content; keep the 'plated' qualifier."
+      },
+      {
+        "claim": "Natural or clean jewelry",
+        "why": "'Natural' and 'clean' are vague, risky headline claims not supported by the site."
+      },
+      {
+        "claim": "Hypoallergenic or nickel-free",
+        "why": "No such spec appears on the site - do not claim material safety attributes that aren't stated."
+      },
+      {
+        "claim": "Burns fat or relieves anxiety when worn",
+        "why": "Disease-treatment and 'burns fat' style claims are banned and unsupported for accessories."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-02T07:06:03.055Z"
+}
