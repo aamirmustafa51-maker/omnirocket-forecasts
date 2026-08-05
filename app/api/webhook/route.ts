@@ -13,6 +13,7 @@ import { appendNewLead } from "@/lib/shared/sheets";
 import { writeLeadCustomFields } from "@/lib/shared/smartlead";
 import { generateAndPublishPlaybook } from "@/lib/shared/playbook-flow";
 import { generateFollowupHooks } from "@/lib/shared/followup-hooks";
+import { postLeadToGHL } from "@/lib/shared/ghl";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -788,6 +789,19 @@ export async function POST(req: NextRequest) {
   const existingSha = await githubGetSha(`forecasts/${slug}.json`);
   if (existingSha) {
     console.log(`[webhook] forecast already exists for ${slug}, skipping pipeline`);
+    // Still push to GHL. This guard returns before Step 8b, so without this a
+    // re-flip of an already-generated lead would never reach the CRM — which is
+    // exactly what happens to every lead generated before GHL existed. GHL
+    // upserts on email, so a repeat post is a no-op on an existing contact.
+    await postLeadToGHL({
+      email: payload.lead_email,
+      first_name: payload.lead_first_name,
+      last_name: payload.lead_last_name,
+      company_name: payload.lead_company,
+      website: payload.website_url,
+      magnet_type: payload.category || "Lead_Forecast",
+      magnet_link: `${forecastUrl}?ref=email`,
+    });
     await postSlack(
       `🔁 *Duplicate fire skipped* — ${tag} already has a forecast.\n🔗 ${forecastUrl}`,
     );
@@ -1036,6 +1050,25 @@ export async function POST(req: NextRequest) {
       });
     } catch (e) {
       console.error("Sheet append failed:", e);
+    }
+
+    // 8b. GHL CRM intake. Raw Smartlead category goes over the wire — the GHL
+    //     workflow's condition maps it to the tag, so a bad value fails loudly
+    //     into the None branch there instead of quietly here. Best-effort:
+    //     never blocks or breaks the delivered forecast.
+    const ghlOk = await postLeadToGHL({
+      email: payload.lead_email,
+      first_name: payload.lead_first_name,
+      last_name: payload.lead_last_name,
+      company_name: payload.lead_company,
+      website: payload.website_url,
+      magnet_type: payload.category || "Lead_Forecast",
+      magnet_link: shareUrl,
+    });
+    if (!ghlOk) {
+      await postSlack(
+        `⚠️ *GHL intake failed* — ${tag}. Forecast delivered fine; add the contact/opportunity by hand or re-fire the webhook.`,
+      );
     }
 
     // 9. Post-yes follow-up wiring (ADDITIVE, best-effort). The forecast is
