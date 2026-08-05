@@ -1,37 +1,29 @@
-// Webhook for the Scroll-Stopper Sheet magnet. Smartlead "Lead Category
-// Updated" fires here when Amir flips a positive-reply lead into the
-// `Scroll_Stopper` category (the non-advertiser twin of Fatigue Forecast).
+// Notifier for the Scroll-Stopper magnet. Smartlead "Lead Category Updated"
+// fires here when Amir flips a positive-reply lead into the `Scroll_Stopper`
+// category. This route does exactly one thing: tell Amir in Slack to go build
+// the report.
 //
-// ONE lead reply produces TWO linked artifacts from a single site scrape:
-//   1. Brand Playbook  (/playbook/{slug})       — voice, customer language, claims
-//   2. Scroll-Stopper  (/scroll-stopper/{slug})  — 3 Meta ad mockups, written
-//      FROM the playbook (on-voice, uses customer words, banned claims enforced)
+// It does NOT generate anything. Reports are built exclusively through the
+// `/scroll-stopper` skill (scripts/scroll-stopper-manual.ts), from Kyle's own
+// hand-picked clean product photos. Two earlier approaches were removed:
 //
-// The Playbook is generated first via the shared buildPlaybook() (the same
-// function the future standalone brand-playbook webhook will call), then fed
-// into ad generation as context. Slack pings both URLs so Amir sends them as
-// the two links in his reply email. No ad-library data used anywhere.
+//   1. Auto-generation from /products.json — picked the wrong products on
+//      wholesale and thin catalogs.
+//   2. The /scroll-stopper-new intake form — replaced by the skill, deleted
+//      2026-08-05 along with the ~300 lines of generation code that only it
+//      could reach.
+//
+// So the publishing side of this magnet (site scrape, playbook, kie.ai image
+// generation, GitHub commit, lead-sheet row, and the GHL CRM post) all lives in
+// scripts/scroll-stopper-manual.ts now. Deliberately nothing here posts to GHL:
+// the GHL intake workflow ends in an SMS to Kyle that renders
+// {{contact.magnet_link}}, and at flip time there is no report to link to. The
+// lead enters the CRM when the skill publishes, which is when that SMS is true.
 import { NextRequest, NextResponse } from "next/server";
-import fs from "fs";
-import path from "path";
-import Anthropic from "@anthropic-ai/sdk";
-import { fetchShopifyCatalog, ShopifyProduct } from "@/lib/shared/shopify-products";
-import { crawlSite } from "@/lib/shared/site-crawl";
-import { selectHeroProducts } from "@/magnets/scroll-stopper/lib/select";
-import { buildPlaybook } from "@/magnets/brand-playbook/lib/generate";
-import type { PlaybookData } from "@/magnets/brand-playbook/lib/types";
-import { fetchProductsByUrls, originFromProductUrls } from "@/lib/shared/product-by-url";
-import {
-  env, slugify, cleanCopy, postSlack, githubGetSha, githubPut, putJson, extractJson, brandDomainFromWebsite,
-} from "@/lib/shared/publish";
-import { kieGenerateMockup, downloadImageBase64 } from "@/lib/shared/kie";
-import { appendScrollStopperLead } from "@/lib/shared/sheets";
-import { postLeadToGHL } from "@/lib/shared/ghl";
+import { postSlack } from "@/lib/shared/publish";
 
-export const maxDuration = 300;
 export const runtime = "nodejs";
 
-const BASE_URL = "https://omnirocket-forecasts.vercel.app";
 // Route this magnet's Slack notifications to its own #scroll-stopper channel
 // (falls back to the default channel until that webhook env var is set).
 const SLACK_KEY = "SLACK_WEBHOOK_URL_SCROLL_STOPPER";
@@ -44,65 +36,7 @@ type WebhookPayload = {
   website_url: string | null;
   category: string;
   campaign_name?: string;
-  // Human-in-the-loop: operator-picked product links. When present, ads are
-  // built from exactly these products instead of auto-selecting from the catalog.
-  product_urls?: string[];
-  // Optional manual logo override (a direct image URL). Used when logo.dev
-  // returns a generic monogram for a brand it doesn't know.
-  logo_url?: string;
 };
-
-// Claude returns copy only; deterministic fields (image/price/url) are merged
-// back in code from the selected products, keyed by product_index.
-type ConceptCopy = {
-  product_index: number;
-  angle_label: string;
-  primary_text: string;
-  headline: string;
-  cta: string;
-  why_it_works: string;
-  // Art direction for the generated ad visual. image_prompt goes to
-  // nano-banana-2; visual_direction is the plain-English version shown to the
-  // brand owner (and the fallback caption if generation fails).
-  image_prompt?: string;
-  visual_direction?: string;
-};
-
-type Concept = Omit<ConceptCopy, "image_prompt"> & {
-  product_title: string;
-  product_url: string;
-  // What the mockup card renders: the AI-generated ad concept when generation
-  // succeeded (a repo path), else the brand's own product photo (a CDN URL).
-  image_url: string;
-  // Drives the card's aspect handling: AI images are a true 1:1 Meta square and
-  // are safe to render square; raw catalog photos vary in aspect and must keep
-  // their natural height or tall products get sliced.
-  ai_image: boolean;
-  price: number | null;
-  compare_at_price: number | null;
-  on_sale: boolean;
-};
-
-type ScrollStopperJson = {
-  lead_company: string;
-  lead_first_name: string;
-  website: string;
-  brand_domain: string;
-  currency: string;
-  brand_voice_note: string;
-  playbook_url?: string;
-  prospect_logo_url?: string;
-  concepts: Concept[];
-  generated_at: string;
-};
-
-// Pull operator-provided product links off a manual (form) submission.
-function manualProductUrls(raw: unknown): string[] {
-  const r = (raw ?? {}) as Record<string, unknown>;
-  return Array.isArray(r.product_urls)
-    ? (r.product_urls as unknown[]).filter((x): x is string => typeof x === "string" && !!x.trim())
-    : [];
-}
 
 function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   const r = (raw ?? {}) as Record<string, unknown>;
@@ -115,24 +49,6 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
     return "";
   };
 
-  // Manual intake (the /scroll-stopper-new form): fields live at the top level,
-  // not nested under Smartlead's lead_data. Website is optional — we derive it
-  // from the product links if omitted.
-  const productUrls = manualProductUrls(raw);
-  if (productUrls.length) {
-    return {
-      lead_email: str(r.lead_email),
-      lead_first_name: str(r.lead_first_name),
-      lead_last_name: str(r.lead_last_name),
-      lead_company: str(r.lead_company),
-      website_url: optStr(r.website_url) ?? null,
-      category: "Scroll_Stopper",
-      campaign_name: optStr(r.campaign_name) ?? "manual-intake",
-      product_urls: productUrls,
-      logo_url: optStr(r.logo_url),
-    };
-  }
-
   return {
     lead_email: str(r.lead_email) || str(leadData.email),
     lead_first_name: str(leadData.first_name) || str(r.lead_name),
@@ -144,115 +60,12 @@ function normalizeSmartleadPayload(raw: unknown): WebhookPayload {
   };
 }
 
-function readPrompt(file: string): string {
-  return fs.readFileSync(path.join(process.cwd(), "magnets/scroll-stopper/prompts", file), "utf8");
-}
-
-function fillTemplate(tpl: string, vars: Record<string, string>): string {
-  return tpl.replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
-}
-
-function productBlurb(html: string): string {
-  return html
-    .replace(/<[^>]+>/g, " ")
-    .replace(/&nbsp;/g, " ")
-    .replace(/&amp;/g, "&")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 400);
-}
-
-// Compact playbook context injected into the ad-copy prompt so the 3 ads inherit
-// voice + customer language and respect the banned-claims guardrail.
-function playbookContext(pb: PlaybookData | null): string {
-  if (!pb) return "(no playbook available - infer voice from the product copy)";
-  const pillars = pb.voice_pillars.map((p) => `${p.name} (${p.desc})`).join("; ") || "(n/a)";
-  const phrases = pb.customer_language.phrases.slice(0, 6).map((p) => `"${p}"`).join(", ") || "(n/a)";
-  const allowed = pb.claims.allowed.map((c) => c.claim).join("; ") || "(n/a)";
-  const banned = pb.claims.banned.map((c) => c.claim).join("; ") || "(none)";
-  return [
-    `VOICE PILLARS: ${pillars}`,
-    `CUSTOMER WORDS TO ECHO: ${phrases}`,
-    `ALLOWED CLAIMS (safe to use): ${allowed}`,
-    `BANNED CLAIMS (never write these): ${banned}`,
-  ].join("\n");
-}
-
-async function writeAdCopy(
-  anthropic: Anthropic,
-  brand: string,
-  website: string,
-  products: ShopifyProduct[],
-  playbook: PlaybookData | null,
-): Promise<{ brand_voice_note: string; concepts: ConceptCopy[] }> {
-  const tpl = readPrompt("ad-copy.md");
-  const productsBlock = products
-    .map((p, i) => {
-      const priceLine =
-        p.price !== null
-          ? `Price: ${p.price}${p.on_sale ? ` (on sale, was ${p.compare_at_price})` : ""}`
-          : "Price: (unknown)";
-      return `--- Product ${i + 1} ---\nTitle: ${p.title}\n${priceLine}\nDescription: ${productBlurb(p.body_html) || "(none)"}`;
-    })
-    .join("\n\n");
-
-  const categoryHint =
-    products.map((p) => p.product_type).filter(Boolean).slice(0, 3).join(", ") || "ecommerce / consumer products";
-
-  const prompt = fillTemplate(tpl, {
-    brand,
-    website,
-    category_hint: categoryHint,
-    product_count: String(products.length),
-    products_block: productsBlock,
-    playbook_context: playbookContext(playbook),
-  });
-
-  const res = await anthropic.messages.create({
-    model: "claude-opus-4-8",
-    // Each concept now carries a full image_prompt (~1.5k chars / ~450 tokens of
-    // locked template) on top of its copy, so 3 concepts need real headroom. The
-    // old 3072 truncated the JSON mid-array and blew up in extractJson with
-    // "Expected ',' or ']' after array element". Do NOT trim this back.
-    max_tokens: 16000,
-    messages: [{ role: "user", content: prompt }],
-  });
-  const block = res.content.find((b) => b.type === "text");
-  if (!block || block.type !== "text") throw new Error("Claude returned no text");
-  // A truncated response is the likeliest failure here; say so plainly instead
-  // of surfacing a raw JSON position offset to the operator.
-  if (res.stop_reason === "max_tokens") {
-    throw new Error(
-      `Claude hit the ${16000}-token cap and returned truncated JSON (${products.length} products). Raise max_tokens in writeAdCopy.`,
-    );
-  }
-
-  const parsed = extractJson(block.text) as { brand_voice_note?: string; concepts?: ConceptCopy[] };
-  return {
-    brand_voice_note: cleanCopy(parsed.brand_voice_note ?? ""),
-    concepts: Array.isArray(parsed.concepts) ? parsed.concepts : [],
-  };
-}
-
 export async function POST(req: NextRequest) {
   let rawBody: unknown;
   try {
     rawBody = await req.json();
   } catch {
     return NextResponse.json({ error: "invalid json" }, { status: 400 });
-  }
-
-  // Manual (form) submissions carry product_urls and must present the shared
-  // secret. Smartlead-triggered runs (no product_urls) skip this check.
-  const submittedUrls = manualProductUrls(rawBody);
-  if (submittedUrls.length) {
-    const secret =
-      typeof (rawBody as Record<string, unknown>)?.secret === "string"
-        ? ((rawBody as Record<string, unknown>).secret as string)
-        : "";
-    if (!process.env.INTAKE_SECRET || secret !== process.env.INTAKE_SECRET) {
-      return NextResponse.json({ error: "unauthorized" }, { status: 401 });
-    }
   }
 
   const payload = normalizeSmartleadPayload(rawBody);
@@ -262,327 +75,18 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "missing lead_company" }, { status: 400 });
   }
 
-  // Category-flip path (Smartlead, no product links) NO LONGER auto-generates.
-  // Auto-selecting heroes from /products.json picks the wrong products on
-  // wholesale/thin catalogs, so reports are now built ONLY from operator-picked
-  // product links via /scroll-stopper-new. A flip still enrolls the lead in the
-  // follow-up subsequence (Smartlead-side); here we just post a reminder.
-  if (!payload.product_urls?.length) {
-    // Deliberately NO GHL post here. The GHL intake workflow ends in an SMS to
-    // Kyle that renders {{contact.magnet_link}}, and at flip time this route has
-    // no report to link to (Kyle builds it by hand at /scroll-stopper-new). An
-    // early post would fire that SMS with an empty link. The lead enters GHL
-    // further down, once the report actually exists.
-    await postSlack(
-      `🟡 *${payload.lead_company}* flipped to Scroll_Stopper.\nBuild the report at ${BASE_URL}/scroll-stopper-new with 2-3 product links. (No auto-generate; the lead is still enrolled in the follow-up subsequence.)`,
-      SLACK_KEY,
-    );
-    return NextResponse.json({ ok: true, status: "manual_required" });
-  }
+  const site = payload.website_url ? `\n🌐 ${payload.website_url}` : "";
+  await postSlack(
+    `🟡 *${payload.lead_company}* flipped to Scroll_Stopper.\n📧 ${payload.lead_email}\n👤 ${payload.lead_first_name}${site}\n\nBuild it with the \`/scroll-stopper\` skill (2-3 hand-picked product photos). The lead is already enrolled in the follow-up subsequence.`,
+    SLACK_KEY,
+  );
 
-  // Resolve the storefront: the lead's stated site, or (manual) the domain the
-  // product links point at.
-  const websiteUrl =
-    payload.website_url ||
-    (payload.product_urls?.length ? originFromProductUrls(payload.product_urls) : null);
-  if (!websiteUrl) {
-    console.log("[scroll-stopper] missing website. Raw:", JSON.stringify(rawBody));
-    return NextResponse.json({ error: "missing website" }, { status: 400 });
-  }
-
-  const slug = slugify(payload.lead_company);
-  const tag = `${payload.lead_company} (${payload.lead_email})`;
-  const reportUrl = `${BASE_URL}/scroll-stopper/${slug}`;
-  const playbookUrl = `${BASE_URL}/playbook/${slug}`;
-
-  // Idempotency: the report is the last thing written, so its presence means
-  // this lead was fully processed. Repeat flips don't re-spend Claude budget.
-  // Idempotency guard for the AUTO (Smartlead) path only — repeat category
-  // flips shouldn't re-spend budget. Manual (form) submissions are deliberate
-  // regenerations (e.g. redoing a lead with the RIGHT products), so they always
-  // rebuild and overwrite the existing report/playbook.
-  const existingSha = payload.product_urls?.length
-    ? null
-    : await githubGetSha(`outputs/scroll-stopper/${slug}.json`);
-  if (existingSha) {
-    // Upsert anyway (GHL matches on email) so a re-flip of a lead built before
-    // GHL existed still lands as a contact + opportunity.
-    await postLeadToGHL({
-      email: payload.lead_email,
-      first_name: payload.lead_first_name,
-      last_name: payload.lead_last_name,
-      company_name: payload.lead_company,
-      website: websiteUrl,
-      magnet_type: payload.category || "Scroll_Stopper",
-      magnet_link: `${reportUrl}?ref=email&magnet=scroll-stopper`,
-    });
-    await postSlack(`🔁 *Scroll-Stopper duplicate skipped* — ${tag} already done.\n🧠 ${playbookUrl}\n🖼️ ${reportUrl}`, SLACK_KEY);
-    return NextResponse.json({ ok: true, status: "already_exists", url: reportUrl });
-  }
-
-  await postSlack(`🟡 Scroll-Stopper + Playbook started: *${payload.lead_company}* — scraping site…`, SLACK_KEY);
-
-  try {
-    const catalog = await fetchShopifyCatalog(websiteUrl);
-
-    // Manual path: build heroes from exactly the operator's product links.
-    // Auto path: rank heroes from the scraped catalog.
-    let heroes: ShopifyProduct[];
-    if (payload.product_urls?.length) {
-      const fetched = await fetchProductsByUrls(payload.product_urls);
-      heroes = fetched.products;
-      if (heroes.length === 0) {
-        await postSlack(
-          `🟠 *Scroll-Stopper skipped* — ${tag}\nNone of the provided product links could be fetched. Check they point to live Shopify product pages.`,
-          SLACK_KEY,
-        );
-        return NextResponse.json({ ok: false, status: "no_products" }, { status: 200 });
-      }
-      // Partial failure: some links didn't resolve, so the report has fewer ads
-      // than intended. Flag exactly which ones so it's never a silent drop.
-      if (fetched.failedUrls.length) {
-        await postSlack(
-          `⚠️ *${payload.lead_company}* — ${heroes.length} of ${payload.product_urls.length} product links worked. These didn't (report built without them, re-run with fixes if you want them):\n${fetched.failedUrls.map((u) => `• ${u}`).join("\n")}`,
-          SLACK_KEY,
-        );
-      }
-    } else {
-      heroes = selectHeroProducts(catalog.products, catalog.homepage_html, 3);
-      if (heroes.length === 0) {
-        // No scrapable Shopify catalog (endpoint blocked or non-Shopify store).
-        // Without products there are no ads, so we skip both artifacts.
-        await postSlack(
-          `🟠 *Scroll-Stopper skipped* — ${tag}\nNo scrapable product catalog at ${websiteUrl} (not Shopify or /products.json disabled). Needs manual handling.`,
-          SLACK_KEY,
-        );
-        return NextResponse.json({ ok: false, status: "no_catalog" }, { status: 200 });
-      }
-    }
-
-    const anthropic = new Anthropic({ apiKey: env("ANTHROPIC_API_KEY") });
-    const brandDomain = brandDomainFromWebsite(websiteUrl);
-
-    // Deep crawl (shared by both artifacts), then Playbook first so the ads can
-    // be written from it. A crawl/playbook failure must not kill the ads, so
-    // it's caught and degrades to a report without the playbook link.
-    const crawl = await crawlSite(websiteUrl, heroes.map((h) => h.url));
-
-    let playbook: PlaybookData | null = null;
-    try {
-      playbook = await buildPlaybook(
-        anthropic,
-        {
-          lead_company: payload.lead_company,
-          lead_first_name: payload.lead_first_name,
-          website: websiteUrl,
-          brand_domain: brandDomain,
-          prospect_logo_url: payload.logo_url,
-        },
-        catalog,
-        crawl,
-      );
-      await putJson(`outputs/playbook/${slug}.json`, playbook, `feat: playbook for ${slug}`);
-    } catch (e) {
-      console.error("[scroll-stopper] playbook generation failed:", e);
-      playbook = null; // ads still ship, just without the playbook link
-    }
-
-    const { brand_voice_note, concepts: copy } = await writeAdCopy(
-      anthropic,
-      payload.lead_company,
-      websiteUrl,
-      heroes,
-      playbook,
-    );
-
-    // Pick a DISTINCT hero image per product. Some stores reuse one bundle
-    // graphic as the #1 photo on several products (e.g. Awesome Water's
-    // "Ultimate Hydration Bundle" image sits on multiple SKUs), which would
-    // render two different ads with the identical picture. When a hero's
-    // featured image is already claimed by an earlier hero, fall back to the
-    // next unused image from that same product's own gallery. Only reuses a
-    // duplicate if the product has no other image to offer.
-    const usedImages = new Set<string>();
-    const heroImages = heroes.map((p) => {
-      const distinct = p.image_urls.find((src) => !usedImages.has(src));
-      const chosen = distinct ?? p.image_url ?? p.image_urls[0] ?? "";
-      if (chosen) usedImages.add(chosen);
-      return chosen;
-    });
-
-    // Generate the ad visual for each concept: nano-banana-2 re-photographs the
-    // brand's REAL product (its catalog shot is the reference image) into the
-    // scene Claude art-directed, at Meta's 1:1 feed ratio. This is the whole
-    // point of the sheet - a lifted catalog photo looks like we did nothing,
-    // an editorial render looks like we shot an ad for them.
-    //
-    // TWO PHASES, and the split matters:
-    //   1. GENERATE + DOWNLOAD, concurrently. Each generation polls up to 120s
-    //      and maxDuration is 300s, so serial would time out.
-    //   2. COMMIT, strictly SEQUENTIALLY. Every githubPut is a git write to the
-    //      same branch, so firing three at once races: GitHub accepts the first
-    //      and rejects the others as non-fast-forward, and the ad silently fell
-    //      back to the catalog photo even though its image had generated fine
-    //      (this is exactly what happened to Smiling Wolf's ad 2).
-    // Any failure degrades to the brand's own product photo rather than losing
-    // the ad - a real photo beats a broken card.
-    const rendered = await Promise.all(
-      heroes.map(async (p, i): Promise<{ b64: string } | null> => {
-        const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
-        const prompt = c?.image_prompt;
-        if (!prompt || !heroImages[i]) return null;
-        try {
-          const mockupUrl = await kieGenerateMockup(prompt, heroImages[i], p.title);
-          if (!mockupUrl) return null;
-          return { b64: await downloadImageBase64(mockupUrl) };
-        } catch (e) {
-          console.error(`[scroll-stopper] ad image ${i + 1} generate failed for ${slug}:`, e);
-          return null;
-        }
-      }),
-    );
-
-    const generated: { image_url: string; ai_image: boolean }[] = [];
-    for (let i = 0; i < heroes.length; i++) {
-      const fallback = { image_url: heroImages[i], ai_image: false };
-      const r = rendered[i];
-      if (!r) {
-        generated.push(fallback);
-        continue;
-      }
-      const repoPath = `public/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`;
-      // One retry: a commit can still lose a race against an unrelated write to
-      // the branch (e.g. the playbook commit, or a concurrent run).
-      let committed = false;
-      for (let attempt = 0; attempt < 2 && !committed; attempt++) {
-        try {
-          await githubPut(repoPath, r.b64, `chore: add scroll-stopper ad-${i + 1} for ${slug}`);
-          committed = true;
-        } catch (e) {
-          console.error(
-            `[scroll-stopper] ad image ${i + 1} commit attempt ${attempt + 1} failed for ${slug}:`,
-            e,
-          );
-          if (attempt === 0) await new Promise((r) => setTimeout(r, 1500));
-        }
-      }
-      generated.push(
-        committed
-          ? { image_url: `/creatives/scroll-stopper/${slug}/ad-${i + 1}.jpg`, ai_image: true }
-          : fallback,
-      );
-    }
-
-    // Never silently ship catalog photos as if they were concepts - if any
-    // generation fell back, say which, so the report can be re-run before send.
-    const fellBack = generated
-      .map((g, i) => (g.ai_image ? null : heroes[i].title))
-      .filter((t): t is string => t !== null);
-    if (fellBack.length) {
-      await postSlack(
-        `⚠️ *${payload.lead_company}* - ${generated.length - fellBack.length}/${generated.length} ad images generated. These fell back to the brand's own product photo:\n${fellBack.map((t) => `• ${t}`).join("\n")}`,
-        SLACK_KEY,
-      );
-    }
-
-    // Merge Claude's copy back onto deterministic product data by index.
-    const concepts: Concept[] = heroes.map((p, i) => {
-      const c = copy.find((x) => x.product_index === i + 1) ?? copy[i];
-      return {
-        product_index: i + 1,
-        product_title: p.title,
-        product_url: p.url,
-        image_url: generated[i].image_url,
-        ai_image: generated[i].ai_image,
-        price: p.price,
-        compare_at_price: p.compare_at_price,
-        on_sale: p.on_sale,
-        angle_label: cleanCopy(c?.angle_label ?? "Benefit-Forward"),
-        primary_text: cleanCopy(c?.primary_text ?? ""),
-        headline: cleanCopy(c?.headline ?? p.title),
-        cta: cleanCopy(c?.cta ?? "Shop Now"),
-        why_it_works: cleanCopy(c?.why_it_works ?? ""),
-        visual_direction: cleanCopy(c?.visual_direction ?? ""),
-      };
-    });
-
-    // Logo: use the operator's manual override if given, else leave null so the
-    // template falls back to logo.dev (good for brands it knows) then a wordmark.
-    // We no longer auto-scrape the favicon — it produced tiny/blurry logos; Kyle
-    // pastes a real logo URL on the form when logo.dev's guess is wrong.
-    const prospectLogoUrl = payload.logo_url || null;
-
-    const out: ScrollStopperJson = {
-      lead_company: payload.lead_company,
-      lead_first_name: payload.lead_first_name,
-      website: websiteUrl,
-      brand_domain: brandDomain,
-      currency: catalog.currency,
-      brand_voice_note,
-      playbook_url: playbook ? `${playbookUrl}?ref=email&magnet=playbook` : undefined,
-      prospect_logo_url: prospectLogoUrl ?? undefined,
-      concepts,
-      generated_at: new Date().toISOString(),
-    };
-
-    await putJson(`outputs/scroll-stopper/${slug}.json`, out, `feat: scroll-stopper for ${slug}`);
-
-    const reportShare = `${reportUrl}?ref=email&magnet=scroll-stopper`;
-    const playbookShare = `${playbookUrl}?ref=email&magnet=playbook`;
-
-    // Track in the "Scroll Stopper" tab of the lead sheet. Non-fatal: a sheet
-    // failure must not lose the generated artifacts.
-    try {
-      await appendScrollStopperLead({
-        date_sent: out.generated_at,
-        first_name: payload.lead_first_name,
-        last_name: payload.lead_last_name,
-        email: payload.lead_email,
-        company: payload.lead_company,
-        website: websiteUrl,
-        playbook_url: playbook ? playbookShare : "",
-        report_url: reportShare,
-        slug,
-        category: payload.category,
-        smartlead_campaign: payload.campaign_name ?? "",
-      });
-    } catch (e) {
-      console.error("[scroll-stopper] sheet append failed:", e);
-      await postSlack(`⚠️ Sheet row failed for *${payload.lead_company}* (artifacts are fine): ${e instanceof Error ? e.message : String(e)}`, SLACK_KEY);
-    }
-
-    // GHL: upsert the real magnet_link onto the contact the flip created
-    // (or create it outright, for a manual build with no prior flip).
-    const ghlOk = await postLeadToGHL({
-      email: payload.lead_email,
-      first_name: payload.lead_first_name,
-      last_name: payload.lead_last_name,
-      company_name: payload.lead_company,
-      website: websiteUrl,
-      magnet_type: payload.category || "Scroll_Stopper",
-      magnet_link: reportShare,
-    });
-    if (!ghlOk) {
-      await postSlack(`⚠️ *GHL magnet_link not written* — ${tag}. Artifacts are fine; set Magnet Link on the contact by hand.`, SLACK_KEY);
-    }
-
-    // Vercel deploy delay (matches Fatigue + Teardown routes)
-    await new Promise((r) => setTimeout(r, 10000));
-
-    await postSlack(
-      `🟢 Ready: *${payload.lead_company}* (${concepts.length} ads${playbook ? " + playbook" : ", playbook SKIPPED"})\n📧 ${payload.lead_email}\n👤 ${payload.lead_first_name}\n🧠 Playbook (link 1): ${playbook ? playbookShare : "—"}\n🖼️ Ads (link 2): ${reportShare}`,
-      SLACK_KEY,
-    );
-
-    return NextResponse.json({ ok: true, slug, report_url: reportUrl, playbook_url: playbook ? playbookUrl : null, concepts: concepts.length });
-  } catch (err) {
-    const msg = err instanceof Error ? err.message : String(err);
-    console.error("[scroll-stopper] webhook error:", msg);
-    await postSlack(`❌ *Scroll-Stopper failed* — ${tag}\n\`\`\`${msg}\`\`\``, SLACK_KEY);
-    return NextResponse.json({ ok: false, error: msg }, { status: 500 });
-  }
+  return NextResponse.json({ ok: true, status: "manual_required" });
 }
 
 export async function GET() {
-  return NextResponse.json({ status: "ok", message: "POST a Smartlead Lead_Category_Updated payload" });
+  return NextResponse.json({
+    status: "ok",
+    message: "POST a Smartlead Lead_Category_Updated payload. Notify-only — reports are built via the /scroll-stopper skill.",
+  });
 }
