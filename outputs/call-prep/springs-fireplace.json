@@ -1,0 +1,282 @@
+{
+  "lead_first_name": "Lauren",
+  "lead_last_name": "Jarvis",
+  "lead_email": "lauren@springsfireplace.com",
+  "lead_company": "Springs Fireplace",
+  "website": "https://www.springsfireplace.com",
+  "brand_domain": "springsfireplace.com",
+  "currency": "USD",
+  "smartlead_campaign": "OR #3 | Ecom Leads | Scroll Stopper | Personlization",
+  "magnet": {
+    "kind": "scroll-stopper",
+    "report_url": "https://omnirocket-forecasts.vercel.app/scroll-stopper/springs-fireplace",
+    "report_label": "Scroll-Stopper Sheet (the 3 ads we wrote them)",
+    "report_opens": 3,
+    "playbook_opens": 1,
+    "last_opened_at": "2026-08-02T18:08:21.159Z",
+    "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/springs-fireplace",
+    "playbook_label": "Brand Playbook (their voice, customers, claims)"
+  },
+  "thread": [
+    {
+      "direction": "sent",
+      "from": "kyle@omnirockethub.com",
+      "to": "lauren@springsfireplace.com",
+      "subject": "made you something",
+      "body_text": "hi Lauren, heard that springs fireplace grows rare peppers with global roots and bottles hot sauce seed-to-bottle in the hamptons. curious how that started.\n\nseparate thing: I put together 3 meta ad mockups from Springs Fireplace's own products, plus a world-class brand playbook from your site and reviews.\n\n no pitch, already done.\n\n want me to send it?\n\n- Kyle\n\n P.S. you gotta show people what an amazing brand you got for real!!",
+      "sent_at": "2026-07-17T19:45:52.289Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle@omnirockethub.com",
+      "to": "lauren@springsfireplace.com",
+      "subject": "RE: made you something",
+      "body_text": "Lauren - what most brands react to isn't the ads, it's actually the brand playbook. it captures your voice, the real words your customers use in reviews, and what you're able to say and not say in ad copy.\n\nit's ready to go alongside the mockups. should I send both your way?\n\n- Kyle",
+      "sent_at": "2026-07-23T17:13:06.800Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle@omnirockethub.com",
+      "to": "lauren@springsfireplace.com",
+      "subject": "RE: made you something",
+      "body_text": "hi Lauren - not long ago I made 3 meta ad mockups for Springs Fireplace from your own products, plus a badass brand playbook. they've just been sitting on my end.\n\nmost brands around your size either haven't touched paid social yet or boosted a couple posts and left it there. thought they'd be a helpful place to start either way.\n\nwant me to send them across?\n\n- Kyle",
+      "sent_at": "2026-07-29T16:28:05.320Z"
+    },
+    {
+      "direction": "reply",
+      "from": "lauren@springsfireplace.com",
+      "to": "kyle@omnirockethub.com",
+      "subject": "",
+      "body_text": "Hey Kyle, I'd love to see them.",
+      "sent_at": "2026-07-29T17:22:44.000Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle@omnirockethub.com",
+      "to": "lauren@springsfireplace.com",
+      "subject": "",
+      "body_text": "here you go Lauren - 3 ad mockups built from Springs Fireplace's own products, plus your brand playbook. \n\n the mockups show the angles, the playbook is the part most brands actually keep - your voice, the words your customers use, and what you can and can't say in ad copy.\n\n if any of them click, the quickest way to see how I'd actually run them is a 30 min call. → Calendar \n\n - Kyle",
+      "sent_at": "2026-07-29T18:04:19.536+00:00"
+    },
+    {
+      "direction": "reply",
+      "from": "lauren@springsfireplace.com",
+      "to": "kyle@omnirockethub.com",
+      "subject": "Re: RE: made you something",
+      "body_text": "Hey Kyle, this is interesting - I definitely like the way it creates a system. I will say, I'm doing a lot of Springs Fireplace writing with my own GPT and I think I could make this playbook more authentic by feeding existing content into it. In addition, I can tell these photos are AI, and I don't love that. All that being said, I would still like to learn how your product works, and I have set up some time for next week. I simply wanted to offer this feedback so you understand my thinking before our call.  \n\n Thanks, \n Lauren",
+      "sent_at": "2026-07-31T17:06:16+00:00"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle@omnirockethub.com",
+      "to": "lauren@springsfireplace.com",
+      "subject": "",
+      "body_text": "this is exactly the kind of feedback I want, thank you Lauren.\n \n\n you're right that you can tell on the photos, and that one's on the inputs. those mockups were built from whatever I could pull off your site, so the model was guessing at your bottles, your labels, your peppers. when we build creative for a brand we're actually running, we start from their real product photography and shoot library, and the output stops reading as generated. same tools, completely different starting point.\n \n\n and on the playbook, no argument. yours was written from the outside in, site and reviews only. feeding your own content into it is the right instinct.\n \n\n the part I'd focus on next week is the layer above the creative, how the account is structured, what gets tested in what order, and how you know which angle is working before you spend real money on it. that's the piece a GPT can't do for you.\n \n\n see you next week.\n\n - Kyle",
+      "sent_at": "2026-08-01T15:46:57.039+00:00"
+    }
+  ],
+  "facts": {
+    "product_count": 12,
+    "price_low": 8,
+    "price_high": 35,
+    "typical_price": 14,
+    "review_count": 0,
+    "instagram_followers": null,
+    "running_ads": 0
+  },
+  "copy": {
+    "tldr": "Springs Fireplace is a premium seed-to-bottle hot sauce brand that just landed on Oprah's Favorite Things but runs zero ads and shows zero reviews, so this call is about building a first paid engine from scratch, starting with their award-winning Tesuque, not fixing a broken one.",
+    "deep_dive": {
+      "what_they_are": "A small-batch condiment brand out of East Hampton, New York that grows rare peppers on its own farm and bottles hot sauce and salsa seed-to-bottle. They just got named one of Oprah's Favorite Things 2025, which is a big deal and a strong trust signal to lean on.",
+      "what_they_sell": "12 products from $8 to $35. Two lines: hot sauces and salsa in glass bottles (Tesuque, Aji Peach, Aji Mango, Salsa Roja) and dried crushed pepper flakes (Gochugaru, Espelette, Aleppo, Aji Limon). Plus gift sets (The Duo, The Trifecta, Aji Lovers). Median price is $14, and I used that as the stand-in for their average order value.",
+      "positioning": "Premium, provenance-first artisan condiments for people who want flavor and heritage over generic store-bought heat. Clean ingredients, no added sugar or preservatives, glass not plastic.",
+      "who_buys": "Flavor-curious home cooks and food lovers who care about where things come from, want clean ingredients, and will pay more for a hot sauce with a real story.",
+      "customer_voice": [],
+      "strengths": [
+        "Oprah's Favorite Things 2025 plus two Scovie awards and an International Flave award. That is real, credible social proof they are barely using in their own words.",
+        "A clear, premium story with real differentiation: own farm, rare peppers, glass bottles, clean label. Easy to make scroll-stopping creative from this."
+      ],
+      "gaps": [
+        "No reviews anywhere on the site, so there is no customer social proof to put in ads yet. Awards are carrying all the trust.",
+        "No Meta ads running now and prices are low ($14 median), so we are starting from zero and the numbers have to work hard to carry paid traffic."
+      ]
+    },
+    "game_plan": {
+      "headline": "Start with the award-winning bestseller and one simple offer to prove people buy from a cold ad, then push what wins and raise the order value with sets.",
+      "phases": [
+        {
+          "window": "Days 1-30",
+          "goal": "Prove a cold stranger will buy from a Springs Fireplace ad at all. We are not chasing scale, we are finding one ad and one product that works.",
+          "campaigns": [
+            "One sales campaign, broad targeting, no fancy audience splits. Let Meta find the buyers.",
+            "Run the 3 Scroll-Stopper ads we already wrote against each other so we learn which angle lands: the Oprah/awards angle, the rare-pepper-story angle, and the everyday-use angle."
+          ],
+          "lead_products": [
+            "Tesuque hot sauce ($14). Lead with this. It is their self-described best-seller, it is a 2025 Scovie Award winner, and they position it as an everyday condiment, which is the easiest thing to sell to someone who has never heard of the brand. Low-commitment first buy at $14."
+          ],
+          "creative": "Launch the Oprah/awards ad FIRST. A cold audience has never heard of this brand, so the fastest way to earn trust is to lead with 'Oprah's Favorite Things 2025' and the Scovie award on Tesuque. The other two ads (rare-pepper story and everyday-use) run right behind it as the tests. Use their real product photos, not stand-in images.",
+          "budget": "Around $50 a day.",
+          "what_success_looks_like": "We can see which of the 3 ads people actually click and buy from, and at least one is bringing in orders at a cost that looks like it could scale. If nothing sells, we change the offer or product before spending more."
+        },
+        {
+          "window": "Days 31-60",
+          "goal": "Put more money behind the winning ad and product, and widen who sees it.",
+          "campaigns": [
+            "Scale the winning ad from month one and retire the losers.",
+            "Add a simple retargeting ad for people who visited but did not buy, using FIRST15 as the nudge.",
+            "Add 2 to 3 fresh versions of the winning angle so it does not wear out."
+          ],
+          "lead_products": [
+            "Whatever won in month one, most likely Tesuque. If Salsa Roja (a 2025 Scovie winner, only $9) or Aji Peach (award winner, $14) showed signs of life, test one of those as a second entry product."
+          ],
+          "creative": "Build on the angle that won. If awards won, make more award-led creative. Start weaving in the 'no added sugar, no preservatives, low sodium' clean-label message for the flavor-curious buyer. Do not headline 'all-natural' or 'low sodium' as the main claim, and never make any health claim.",
+          "budget": "Step up toward $100 a day only if month one earned it. If it did not, we stay flat and keep testing.",
+          "what_success_looks_like": "The winning ad holds its cost as we spend more, and retargeting is quietly recovering visitors who did not buy the first time."
+        },
+        {
+          "window": "Days 61-90",
+          "goal": "Scale the winner and add a second product to raise the average order value.",
+          "campaigns": [
+            "Keep scaling the proven ad.",
+            "Add a sets/gift campaign to push The Duo ($26), The Trifecta ($33), or Aji Lovers ($26) so each order is worth more.",
+            "Keep retargeting running."
+          ],
+          "lead_products": [
+            "The Duo ($26): Tesuque plus Aji Peach, both award winners and 'the original pair that started it all.' Natural upsell for anyone who bought a single sauce. Higher order value helps the math on paid ads.",
+            "The Trifecta ($33) as a gift-season play if timing lines up."
+          ],
+          "creative": "Bundle and gift-led creative. Position the sets as the easy gift for the food lover in your life, leaning on the Oprah tie-in for gifting credibility. Add a first-purchase reminder ad using FIRST15.",
+          "budget": "Scale in steps as long as the cost per sale holds. Pull back fast if it slips.",
+          "what_success_looks_like": "More orders, and a higher average order value from sets, so paid ads have more room to be profitable."
+        }
+      ],
+      "estimates": [
+        {
+          "label": "Starting budget",
+          "value": "About $50 a day",
+          "basis": "Enough to get roughly 30 to 40 clicks a day at typical costs in this category, which is the floor for learning which of the 3 ads works before spending real money"
+        },
+        {
+          "label": "Average order value used for planning",
+          "value": "About $14 per order",
+          "basis": "We used the median price of their 12 products as a stand-in, since we have no access to their store data. Their sets ($26 to $33) could push this higher, which is exactly why we add sets in month three"
+        },
+        {
+          "label": "Revenue we would aim to add",
+          "value": "Cannot give an honest number yet",
+          "basis": "Real revenue depends on their actual order value, their margin, and how the first ads perform. We have no access to their store or ad account, so any number now would be a guess. We size this properly after month one shows a real cost per sale"
+        }
+      ],
+      "assumptions": [
+        "Tesuque really is their bestseller (they say so on the site). If their store data says a different product sells best, we lead with that instead.",
+        "Their margin on a $14 sauce can carry paid ads. At low prices with paid traffic this is the biggest risk, and it decides whether we push singles or push sets earlier.",
+        "The Oprah and award mentions are true and current, since they are all over the site. These carry the trust in month one because there are no reviews yet.",
+        "They can supply real product photography for creative."
+      ],
+      "horizon_days": 90
+    },
+    "discovery": [
+      {
+        "name": "Qualify",
+        "questions": [
+          {
+            "question": "Have you spent anything on Meta or Instagram ads before, even boosting a post?",
+            "listening_for": "We found no ads running. Confirm they are truly starting from zero versus tried-and-quit. If they quit, ask what happened, because that tells us what already did not work."
+          },
+          {
+            "question": "Who handles marketing today, and is that you?",
+            "listening_for": "Lauren is clearly hands-on (she writes with her own GPT). Find out if she wants to hand it off or stay involved. Shapes how much we do versus advise."
+          },
+          {
+            "question": "On a $14 bottle, roughly what is left after the product cost and shipping? Even a rough range helps.",
+            "listening_for": "This is the deal-maker. If margin on a single sauce is thin, paid ads only work by selling sets. If she will not share a number, ask whether a single-bottle order leaves room to pay for a customer, yes or no."
+          },
+          {
+            "question": "How much of your sales is your website versus stores and wholesale right now?",
+            "listening_for": "They have a store locator and retail presence. If most revenue is wholesale, online ads matter less and we scope smaller. If they want to grow direct-to-consumer, ads fit."
+          }
+        ]
+      },
+      {
+        "name": "Diagnose",
+        "questions": [
+          {
+            "question": "When someone lands on a product page today, does anything actually get them to buy? You have no reviews showing anywhere.",
+            "listening_for": "Big gap. No visible social proof makes cold ads harder. Listen for whether they have reviews they are just not displaying, or none at all. Either way we need to fix the page before scaling spend."
+          },
+          {
+            "question": "Which product actually sells the most, and is it Tesuque like the site suggests?",
+            "listening_for": "Confirms or breaks the plan. The whole month-one play leads with Tesuque. If a flake or the Salsa Roja outsells it, we lead with that."
+          },
+          {
+            "question": "Do many customers buy more than one thing, or a set, on their first order?",
+            "listening_for": "Tells us if the real order value is above $14. If people already buy sets, we can push sets sooner and the ad math gets easier."
+          },
+          {
+            "question": "How is fulfillment set up? Some sauces say refrigerate after opening and some products say email to get on the list.",
+            "listening_for": "Aji Lovers says 'email to get on the list,' which may mean out of stock. Never run ads to a product that cannot ship. Confirm what is actually in stock and shippable before we point money at it."
+          },
+          {
+            "question": "What does your first-time buyer offer look like beyond FIRST15?",
+            "listening_for": "15% off is fine but soft for a first-time cold buyer. Listen for room to test a stronger first-order hook or free shipping over a threshold, which also nudges people toward sets."
+          }
+        ]
+      },
+      {
+        "name": "Expand",
+        "questions": [
+          {
+            "question": "Do you get much traffic from people searching Google for things like gochugaru, aleppo pepper, or espelette pepper?",
+            "listening_for": "These are real terms people search by name. That is an honest opening for Google Search ads and SEO, unlike a made-up category. If they are getting free search traffic already, there is room to grow it."
+          },
+          {
+            "question": "Since the Oprah feature, have you seen a spike in people searching your brand name?",
+            "listening_for": "An Oprah feature drives brand-name searches. If people are Googling 'Springs Fireplace,' a small brand-name Google campaign is cheap and catches buyers who are already sold. Only worth it if the spike is real."
+          }
+        ]
+      }
+    ],
+    "objections": [
+      {
+        "objection": "I can already write our brand voice with my own GPT, so what do I need you for?",
+        "answer": "Agree with her, the writing is not the hard part. The hard part is how the account is built, what gets tested first, and how you know which ad is working before you spend real money. That is the layer above the words, and it is what turns three ads into a system that pays for itself."
+      },
+      {
+        "objection": "The mockup photos were clearly AI and I did not love that.",
+        "answer": "She is right and Kyle already owned this in email. Repeat it: those were built from what we could pull off the site, so the images were guesses. For a brand we actually run, we start from your real product photos, and the creative stops looking generated. Same approach, real inputs."
+      },
+      {
+        "objection": "We have never run ads and our sauces are only $14. Will paid ads even make money?",
+        "answer": "Be honest. At $14 a bottle the math is tight, which is exactly why month one is a small $50-a-day test, not a big spend, and why month three adds sets like The Duo and Trifecta to lift the order value. We prove one ad works cheaply first. If the margin cannot carry it, we tell you, we do not burn your money."
+      },
+      {
+        "objection": "We are doing fine through Oprah, retail, and word of mouth. Why add ads now?",
+        "answer": "The Oprah bump is the best possible moment to start, because tons of new people just heard of you and will fade if nothing follows up. Ads let you keep reaching those flavor-curious buyers on purpose instead of waiting for the next feature. We start small and only scale what proves it works."
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "No reviews shown anywhere on the site.",
+        "why_it_matters": "Cold buyers trust other buyers. With zero visible social proof, ads have to lean entirely on the Oprah and award mentions, and the product pages may not convert the clicks we send. This should be fixed early or it caps everything."
+      },
+      {
+        "flag": "Low prices, $14 median, and no ads ever run.",
+        "why_it_matters": "Paid traffic on a $14 order is hard to make profitable, especially with no proven ad history. This is the single biggest risk to the plan and why we start tiny and raise order value with sets."
+      },
+      {
+        "flag": "Aji Lovers says 'email to get on the list' and several sauces say refrigerate after opening.",
+        "why_it_matters": "The 'email to get on the list' likely means it is not freely available to buy, so we must not run ads to it. Perishable and refrigerated items also raise shipping and returns questions. Confirm what is truly in stock and shippable before spending."
+      },
+      {
+        "flag": "Refund policy says no refunds on food and lists two different contact emails (info@ and lauren@).",
+        "why_it_matters": "A no-refund policy is normal for food but can raise the bar for a first-time buyer, so the offer and page have to reassure them. The mixed contact info is a small sign of a lean operation, worth noting for how much they can execute."
+      }
+    ],
+    "other_channel_openings": [
+      "Google Search ads on named pepper terms like gochugaru, aleppo pepper, espelette, and aji amarillo. People search these by name, so there is real demand to capture, unlike a category nobody looks up.",
+      "A small brand-name Google campaign to catch people Googling 'Springs Fireplace' after the Oprah feature. Cheap and only worth it if the search spike is real, so confirm it first.",
+      "Basic SEO on the product pages and recipe pages, since they already have a Recipes section and rank-able pepper terms. This is a slower play, raise it only as a later add-on, not a month-one promise."
+    ]
+  },
+  "generated_at": "2026-08-05T15:08:10.810Z"
+}
