@@ -50,6 +50,8 @@ type WebhookPayload = {
   // Manual override: force a specific magnet when a lead legitimately received
   // more than one and the newest is not the one the call is about.
   magnet_override?: "forecast" | "scroll-stopper" | "brand-playbook";
+  // Bypass the rebuild cooldown below. For a deliberate "rebuild this pack now".
+  force?: boolean;
 };
 
 type LooseRecord = Record<string, unknown>;
@@ -75,6 +77,7 @@ function normalizePayload(raw: unknown): WebhookPayload {
 
   const override = str(r.magnet_override);
   return {
+    force: r.force === true || str(r.force).toLowerCase() === "true",
     lead_email: str(r.lead_email) || str(leadData.email),
     campaign_id: idStr(r.campaign_id) || idStr(r.campaignId),
     campaign_name: str(r.campaign_name) || str(r.sequence_name),
@@ -191,9 +194,42 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: false, status: "no_website" }, { status: 200 });
   }
 
-  // NOT idempotent by design, unlike the outbound magnets. A re-flip means Kyle
-  // wants a fresh pack (the lead replied again, the call moved), and re-running
-  // costs one Claude call against a deal that is already on the calendar.
+  // Rebuild cooldown. Deliberately NOT full idempotency: a re-flip days later
+  // means Kyle wants a fresh pack (the lead replied again, the call moved), and
+  // rebuilding is cheap next to walking into a call blind.
+  //
+  // But Smartlead fires Lead Category Updated on more than a manual flip, and
+  // one flip made from the desktop app gets re-delivered when the phone app
+  // syncs the same change. Springs Fireplace built THREE times in 22 minutes
+  // (20:06 / 20:17 / 20:28) off a single category change — three Claude calls,
+  // three deploys, three Slack pings, all producing the same pack.
+  //
+  // So: inside the window, re-Slack the pack that already exists and stop.
+  // Outside it, rebuild as before. `force: true` skips the check entirely.
+  const COOLDOWN_HOURS = 6;
+  if (!payload.force) {
+    try {
+      const existing = await githubGetJson<{ generated_at?: string }>(
+        `outputs/call-prep/${row.slug}.json`,
+      );
+      const builtAt = existing?.generated_at ? Date.parse(existing.generated_at) : NaN;
+      const ageHours = Number.isNaN(builtAt) ? Infinity : (Date.now() - builtAt) / 3_600_000;
+      if (ageHours < COOLDOWN_HOURS) {
+        const mins = Math.max(1, Math.round(ageHours * 60));
+        console.log(`[call-prep] ${row.slug} built ${mins}m ago — skipping rebuild`);
+        await postSlack(
+          `🔁 *Call Prep already built* — ${tag}, ${mins} min ago. Skipping the rebuild (duplicate category event).\n🧠 ${packUrl}`,
+          SLACK_KEY,
+        );
+        return NextResponse.json({ ok: true, status: "already_built", url: packUrl });
+      }
+    } catch (e) {
+      // A GitHub hiccup must not block a pack an hour before a call. Fall
+      // through and rebuild — a duplicate pack beats no pack.
+      console.error("[call-prep] cooldown check failed, building anyway:", e);
+    }
+  }
+
   if (rows.length > 1) {
     await postSlack(
       `ℹ️ ${tag} appears in ${rows.length} magnet tabs. Building the pack from the newest (*${row.magnet}*, sent ${row.date_sent || "date unknown"}). Re-send with magnet_override to pick a different one.`,
