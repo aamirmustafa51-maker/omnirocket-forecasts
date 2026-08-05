@@ -26,6 +26,7 @@ import {
 } from "@/lib/shared/publish";
 import { kieGenerateMockup, downloadImageBase64 } from "@/lib/shared/kie";
 import { appendScrollStopperLead } from "@/lib/shared/sheets";
+import { postLeadToGHL } from "@/lib/shared/ghl";
 
 export const maxDuration = 300;
 export const runtime = "nodejs";
@@ -267,6 +268,25 @@ export async function POST(req: NextRequest) {
   // product links via /scroll-stopper-new. A flip still enrolls the lead in the
   // follow-up subsequence (Smartlead-side); here we just post a reminder.
   if (!payload.product_urls?.length) {
+    // GHL intake at the flip. No magnet_link yet — this route never generates
+    // the report (Kyle builds it at /scroll-stopper-new), so the link is filled
+    // in by the manual run's upsert further down. Contact + opportunity should
+    // still exist from the second the lead converts.
+    const flipOk = await postLeadToGHL({
+      email: payload.lead_email,
+      first_name: payload.lead_first_name,
+      last_name: payload.lead_last_name,
+      company_name: payload.lead_company,
+      website: payload.website_url ?? "",
+      magnet_type: payload.category || "Scroll_Stopper",
+      magnet_link: "",
+    });
+    if (!flipOk) {
+      await postSlack(
+        `⚠️ *GHL intake failed* — ${payload.lead_company} (${payload.lead_email}). Add the contact/opportunity by hand.`,
+        SLACK_KEY,
+      );
+    }
     await postSlack(
       `🟡 *${payload.lead_company}* flipped to Scroll_Stopper.\nBuild the report at ${BASE_URL}/scroll-stopper-new with 2-3 product links. (No auto-generate; the lead is still enrolled in the follow-up subsequence.)`,
       SLACK_KEY,
@@ -299,6 +319,17 @@ export async function POST(req: NextRequest) {
     ? null
     : await githubGetSha(`outputs/scroll-stopper/${slug}.json`);
   if (existingSha) {
+    // Upsert anyway (GHL matches on email) so a re-flip of a lead built before
+    // GHL existed still lands as a contact + opportunity.
+    await postLeadToGHL({
+      email: payload.lead_email,
+      first_name: payload.lead_first_name,
+      last_name: payload.lead_last_name,
+      company_name: payload.lead_company,
+      website: websiteUrl,
+      magnet_type: payload.category || "Scroll_Stopper",
+      magnet_link: `${reportUrl}?ref=email&magnet=scroll-stopper`,
+    });
     await postSlack(`🔁 *Scroll-Stopper duplicate skipped* — ${tag} already done.\n🧠 ${playbookUrl}\n🖼️ ${reportUrl}`, SLACK_KEY);
     return NextResponse.json({ ok: true, status: "already_exists", url: reportUrl });
   }
@@ -532,6 +563,21 @@ export async function POST(req: NextRequest) {
     } catch (e) {
       console.error("[scroll-stopper] sheet append failed:", e);
       await postSlack(`⚠️ Sheet row failed for *${payload.lead_company}* (artifacts are fine): ${e instanceof Error ? e.message : String(e)}`, SLACK_KEY);
+    }
+
+    // GHL: upsert the real magnet_link onto the contact the flip created
+    // (or create it outright, for a manual build with no prior flip).
+    const ghlOk = await postLeadToGHL({
+      email: payload.lead_email,
+      first_name: payload.lead_first_name,
+      last_name: payload.lead_last_name,
+      company_name: payload.lead_company,
+      website: websiteUrl,
+      magnet_type: payload.category || "Scroll_Stopper",
+      magnet_link: reportShare,
+    });
+    if (!ghlOk) {
+      await postSlack(`⚠️ *GHL magnet_link not written* — ${tag}. Artifacts are fine; set Magnet Link on the contact by hand.`, SLACK_KEY);
     }
 
     // Vercel deploy delay (matches Fatigue + Teardown routes)
