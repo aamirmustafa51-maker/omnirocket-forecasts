@@ -800,7 +800,7 @@ export async function POST(req: NextRequest) {
       company_name: payload.lead_company,
       website: payload.website_url,
       magnet_type: payload.category || "Lead_Forecast",
-      magnet_link: `${forecastUrl}?ref=email`,
+      magnet_link: forecastUrl, // clean, not tracked — see Step 8b
     });
     await postSlack(
       `🔁 *Duplicate fire skipped* — ${tag} already has a forecast.\n🔗 ${forecastUrl}`,
@@ -1063,7 +1063,12 @@ export async function POST(req: NextRequest) {
       company_name: payload.lead_company,
       website: payload.website_url,
       magnet_type: payload.category || "Lead_Forecast",
-      magnet_link: shareUrl,
+      // CLEAN url, not shareUrl. This link ends up in Kyle's internal SMS and on
+      // the GHL contact record; the tracked `?ref=email` variant fires the open
+      // pixel (Slack ping + sheet Open Count bump), so an internal click would
+      // log a fake open from the prospect. Tracked links belong in the email to
+      // the lead and nowhere else.
+      magnet_link: forecastUrl,
     });
     if (!ghlOk) {
       await postSlack(
