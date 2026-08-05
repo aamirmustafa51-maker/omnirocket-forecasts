@@ -85,93 +85,95 @@
     "running_ads": 0
   },
   "copy": {
-    "tldr": "Springs Fireplace is a premium seed-to-bottle hot sauce brand with a real story and an Oprah's Favorite Things badge, but zero ads running and zero reviews on site, so this call is about starting clean from their best products, not fixing a broken account.",
+    "tldr": "Springs Fireplace is a premium seed-to-bottle hot sauce brand with an Oprah's Favorite Things 2025 badge and no ads running yet, so this call is about starting clean from their bestseller Tesuque, not fixing a broken account.",
     "deep_dive": {
-      "what_they_are": "A small-batch condiment brand that grows rare peppers on their own East Hampton farm and with regional partners in NY and NJ. They bottle hot sauces, salsas, and dried chili flakes. They got named to Oprah's Favorite Things 2025, which is a real trust badge worth using.",
-      "what_they_sell": "12 products from $8 to $35. Dried chili flakes at $8 (Gochugaru, Espelette, Aleppo, Aji Limon), hot sauces at $14 (Tesuque, Aji Peach, Aji Mango), salsa at $9 (Salsa Roja), a rare pepper at $35 (Charapita), and bundles at $26 to $33 (The Duo, Aji Lovers, The Trifecta). Median price is $14, and I am using that as a stand-in for their average order value since we cannot see their real numbers.",
-      "positioning": "Premium, provenance-first artisan condiments. The pitch is flavor and heritage over generic store-bought heat. Glass not plastic. Clean ingredients, no added sugar, made to elevate flavor not overpower it.",
-      "who_buys": "Flavor-curious home cooks and food lovers who care about where things come from and will pay more for a hot sauce with a real story. Not the extreme-heat crowd. People who want everyday flavor with a heritage angle.",
+      "what_they_are": "A small premium condiment brand that grows rare peppers on their own farm in East Hampton and nearby New York and New Jersey partners, then bottles hot sauce, salsa, and pepper flakes seed-to-bottle. They were selected as one of Oprah's Favorite Things 2025.",
+      "what_they_sell": "12 products from $8 to $35. Hot sauces (Tesuque, Aji Peach, Aji Mango), salsa (Salsa Roja), pepper flakes (Gochugaru, Aleppo, Espelette, Aji Limon), rare peppers (Charapita), and gift sets (The Duo, The Trifecta, Aji Lovers). Median price is $14, which I am using as the stand-in for their average order value since we cannot see their real numbers.",
+      "positioning": "Premium, provenance-first artisan condiments for people who want flavor and heritage over generic store-bought heat. The pitch is clean ingredients, rare peppers with a real story, and heat that lifts flavor rather than burning.",
+      "who_buys": "Flavor-curious home cooks and food lovers who care about where food comes from, want clean ingredients like no added sugar and no preservatives, and will pay more for a hot sauce with a story.",
       "customer_voice": [],
       "strengths": [
-        "Oprah's Favorite Things 2025 plus two 2025 Scovie/Flave awards. That is strong outside proof we can put right in the ads.",
-        "Clear bestseller signal: Tesuque is called out as their best-selling everyday hot sauce and is award-winning, and it anchors both bundles."
+        "Real credibility markers most food brands never get. Oprah's Favorite Things 2025, a Scovie Award for Tesuque and Salsa Roja, and an International Flave Award for Aji Peach.",
+        "A clear premium story that is easy to build ads around. Own farm, rare peppers, glass not plastic, clean ingredients."
       ],
       "gaps": [
-        "No reviews anywhere on the site. A premium brand with no visible social proof is harder to sell to a cold shopper.",
-        "No Meta ads running now, so there is no past data to learn from. We start from zero."
+        "No reviews visible anywhere on the site, so there is no social proof for a cold shopper to lean on.",
+        "No Meta ads found running, so they are starting from zero. There is no past data, no proven audience, and no warm pixel to build from."
       ]
     },
     "game_plan": {
-      "headline": "Lead with the award-winning bestseller Tesuque and the Oprah badge to prove one ad can sell cold, then widen to bundles and a second hero sauce.",
+      "headline": "Start from their award-winning bestseller Tesuque, prove one ad can sell cold, then widen and add a second product only after something works.",
       "phases": [
         {
           "window": "Days 1-30",
-          "goal": "Prove that a cold stranger will buy from one ad. Nothing more. Find the one angle that works.",
+          "goal": "Prove that paid ads can sell to people who have never heard of the brand. Find one ad and one product that work.",
           "campaigns": [
-            "One simple sales campaign, small number of audiences, broad targeting so Meta can find the buyer.",
-            "Test the 3 Scroll-Stopper ads we already wrote against each other so we learn which angle wins before spending real money."
+            "One simple sales campaign targeting cold audiences, built around Tesuque",
+            "A basic retargeting campaign so people who visit but do not buy see the brand again"
           ],
           "lead_products": [
-            "Tesuque hot sauce ($14). I would lead with this because the site calls it their best-selling everyday condiment and it won a 2025 Scovie Award. It is the safest bet for a cold audience: everyday use, award-backed, and it anchors both the Duo and Trifecta bundles, so a Tesuque buyer has a clear next purchase."
+            "Tesuque - I would lead with this. Their own site calls it their best-selling hot sauce, and it is a 2025 Scovie Award winner. At $14 it sits right at their median price, and it is described as an everyday condiment, which means repeat use and a wider audience than a niche fiery sauce."
           ],
-          "creative": "Run the 3 ads from the Scroll-Stopper Sheet first, since this lead was promised a plan built from those ads. Important: rebuild them using Lauren's real product photos, not the mockup images. She already told us she can spot the AI photos and does not like them, so real bottle and label shots are non-negotiable here. Lead the winning angle with the Oprah's Favorite Things badge and the Scovie award. Push the FIRST15 code as the first-order nudge.",
-          "budget": "Start around $50 a day.",
-          "what_success_looks_like": "We can point to at least one of the three ads that gets cheap clicks and at least a few sales, and we know which angle people respond to. We are not chasing profit yet, we are buying an answer."
+          "creative": "Start from the three ads in the Scroll-Stopper Sheet we already sent. Go live first with the ad that leads on Tesuque and the award, because it pairs their strongest product with proof a stranger will trust. Lauren flagged the mockup images read as AI, so before launch we swap in their real product photography and shoot library. Same angles, real bottles.",
+          "budget": "Around $30 to $50 a day to start.",
+          "what_success_looks_like": "We can see which ad and which audience get the cheapest clicks and the first sales. We are not chasing scale yet, just a signal that something works."
         },
         {
           "window": "Days 31-60",
-          "goal": "Put more money behind the winning ad and angle. Widen who sees it. Start bringing back people who visited but did not buy.",
+          "goal": "Put more money behind whatever won in month one and widen the audience.",
           "campaigns": [
-            "Scale the winning Tesuque ad and audience with a slow budget increase.",
-            "Add a simple retargeting campaign to people who visited the site or added to cart but did not buy, leading with the Duo bundle to lift order value."
+            "Scale the winning ad and audience with a higher daily budget",
+            "Test two or three new audiences that look like the early buyers",
+            "Introduce the gift-set angle (The Duo) to lift order value"
           ],
           "lead_products": [
-            "Tesuque ($14) stays the front door.",
-            "The Duo bundle ($26), Tesuque plus Aji Peach, used in retargeting to raise average order value above the single-bottle price."
+            "Tesuque stays the workhorse.",
+            "The Duo - Tesuque plus Aji Peach at $26. Both are award winners, and a set nearly doubles the order value versus a single bottle. Natural next step once the single sauce is proven."
           ],
-          "creative": "Make 2 or 3 fresh versions of the winning angle so it does not go stale. Add a customer or founder story angle if Lauren has any real testimonials or a farm-to-bottle video, since that plays to the heritage strength.",
-          "budget": "Step up toward $100 to $150 a day, only if month one found a winner.",
-          "what_success_looks_like": "The winning ad holds up at higher spend and retargeting brings back buyers at a lower cost than cold traffic."
+          "creative": "Refresh the winning ad with two or three new versions so it does not go stale. Lean into the award badges and the clean-ingredient story that we know matches their voice.",
+          "budget": "Step up toward $75 to $100 a day, but only on what is already working.",
+          "what_success_looks_like": "The winning ad holds up at higher spend, and the gift-set angle starts pulling a higher average order value."
         },
         {
           "window": "Days 61-90",
-          "goal": "Scale what works and add a second hero product so we are not resting on one sauce.",
+          "goal": "Scale the proven setup and add a second hero product.",
           "campaigns": [
-            "Keep scaling the winning Tesuque campaign.",
-            "Launch a second product test around Aji Mango, their newest and spiciest sauce that was 'back in stock,' aimed at the fruit-and-fire crowd.",
-            "Keep retargeting running with bundles."
+            "Push spend on the proven winners",
+            "Launch a second product line as its own hero",
+            "Broaden retargeting to include gift buyers heading into the holiday season"
           ],
           "lead_products": [
-            "Aji Mango ($14) as the second hero. It is their newest sauce and the boldest, which gives us a fresh story to run and a different buyer than Tesuque.",
-            "The Trifecta ($33) offered to repeat visitors and past buyers to push order value up."
+            "Salsa Roja - a 2025 Scovie Award winner and, per their site, it was out of stock and came back, which usually means demand. A salsa reaches a slightly different buyer than a hot sauce, which widens the top of the funnel.",
+            "Aji Peach - International Flave Award winner, sits at $14, and anchors The Duo, so it doubles as a set-seller."
           ],
-          "creative": "Separate creative for Aji Mango leaning on tropical-and-fiery and the ceviche/Peruvian chile story. Keep the Oprah badge in the mix.",
-          "budget": "Scale toward $150 to $250 a day, gated on the return holding.",
-          "what_success_looks_like": "Two products selling from ads, not one, and a repeatable way to test the next sauce after that."
+          "creative": "Fresh ads for the second product built on the same proven structure. Start layering in gift-set messaging since 90 days out lands near holiday buying.",
+          "budget": "Scale spend in step with return. No fixed ceiling. We only spend more where the money keeps coming back.",
+          "what_success_looks_like": "Two products selling from ads, a stable return we can push, and a gift angle ready for the holidays."
         }
       ],
       "estimates": [
         {
           "label": "Starting budget",
-          "value": "About $50 a day to start",
-          "basis": "enough to get roughly 25 to 40 clicks a day at typical costs for a food brand, which is the floor for learning which of the 3 ads works before spending real money"
+          "value": "$30 to $50 a day to start",
+          "basis": "enough to get roughly 30 to 40 clicks a day at typical costs in this food and condiment category, which is the floor for learning which ad and audience work before spending more"
         },
         {
           "label": "Average order value stand-in",
-          "value": "Around $14 per order",
-          "basis": "the median price across their 12 products, used as a stand-in because we have no access to their Shopify. Real number could be higher if bundles sell well"
+          "value": "about $14 an order",
+          "basis": "the median price across their 12 products, used because we have no access to their Shopify. A single bottle is $14, but sets like The Duo at $26 and The Trifecta at $33 could lift this once we push them"
         },
         {
           "label": "Revenue we would aim to add",
-          "value": "We are not putting a 90 day revenue number on this yet",
-          "basis": "with no ad history, no reviews, and a $14 order value, any dollar figure would be a guess. To give an honest target we need their true average order value and their margin, which are in the discovery questions"
+          "value": "We would not put a dollar figure on this yet",
+          "basis": "with no ad history, no reviews on site, and no view of their real order value or margin, any revenue number would be a guess. Once we know their true average order value and what their margin allows, we can set a real target"
         }
       ],
       "assumptions": [
-        "Their real average order value is close to the $14 median. If bundles push it higher, the plan gets easier and budget can move faster.",
-        "Lauren can give us real product photography to rebuild the ads. If she cannot, creative slows down.",
-        "Margin on a $14 sauce is healthy enough to survive paid ads plus the 15% first-order code. If margin is thin, we rethink the offer.",
-        "Checkout and shipping work fine. The shipping policy page reads as empty, so we should confirm shipping is actually set up."
+        "Tesuque really is their bestseller, based on their own site calling it best-selling. If it is not, we lead with whichever product actually sells most.",
+        "Their real average order value is close to the $14 median. If most orders are single $8 flake jars, the math gets tight and we push sets harder.",
+        "They have real product photography we can use, since Lauren does not want AI images.",
+        "Their margin on a $14 sauce is healthy enough to carry paid ads. We confirm this on the call.",
+        "Checkout and shipping work fine. The shipping policy page looked empty, so we should confirm shipping is actually set up."
       ],
       "horizon_days": 90
     },
@@ -180,20 +182,24 @@
         "name": "Qualify",
         "questions": [
           {
-            "question": "Are you spending anything on ads right now, on Meta or anywhere else?",
-            "listening_for": "We found no Meta ads running. Confirm if that means never tried, or tried and stopped. If they stopped, ask why. That changes everything."
+            "question": "Are you running any paid ads right now, on Meta or anywhere else, and have you ever?",
+            "listening_for": "We found no ads running. If they never have, this is a true from-zero build and we set slow expectations. If they tried and stopped, find out what happened and why."
           },
           {
-            "question": "Who handles marketing today, you or someone on your team?",
-            "listening_for": "Lauren said she does a lot of the writing with her own GPT. Find out if she is a solo founder wearing every hat or has help. Tells you how hands-on we need to be."
+            "question": "Who handles your marketing today, you or someone on the team?",
+            "listening_for": "Lauren mentioned doing a lot of the brand writing herself with a GPT. Confirm whether she is a solo owner wearing every hat or has help. This tells us how hands-on we need to be."
           },
           {
-            "question": "What does a typical order look like, one bottle or do people buy a few things at once?",
-            "listening_for": "This is the real average order value. We are guessing $14 from the median. If people usually buy bundles, the number is higher and ads work sooner."
+            "question": "When you sell a $14 bottle, roughly how much of that is left after the product and packaging cost?",
+            "listening_for": "This is the make-or-break number. At a $14 order, ads only work if the margin is strong. If margin is thin, we must push sets from day one."
           },
           {
-            "question": "Roughly what is left after the cost of the product and packing, on a $14 sauce?",
-            "listening_for": "Margin. A premium glass-bottle product may have real costs. If there is not enough room after the FIRST15 discount, paid ads will struggle. Do not push the plan hard if margin is thin."
+            "question": "What does a typical order look like, one bottle or a few?",
+            "listening_for": "Tells us if the real average order value is near $14 or higher. Higher orders give ads much more room to work."
+          },
+          {
+            "question": "What would make this a clear win for you in 90 days?",
+            "listening_for": "Whether she wants sales, brand awareness off the Oprah moment, or retail-store demand. It changes what we optimize for."
           }
         ]
       },
@@ -201,24 +207,24 @@
         "name": "Diagnose",
         "questions": [
           {
-            "question": "When people land on your site, do they tend to buy, or do most leave? Any sense of that?",
-            "listening_for": "If traffic already converts, the problem is just getting eyes on it. If it does not convert, ads will not fix a leaky site and we address that first."
+            "question": "You have big awards, Oprah, Scovie, Flave, but I do not see any customer reviews on your site. Are you collecting them anywhere?",
+            "listening_for": "No reviews on site is the biggest gap for cold ads. If she has reviews sitting in email or Shopify, we can surface them fast. If she has none at all, we lean harder on the awards as proof."
           },
           {
-            "question": "Do you have any reviews or customer messages saved anywhere, even in email or DMs?",
-            "listening_for": "There are zero reviews on the site. This is a real weakness for cold ads. If she has praise sitting in her inbox, we can put it to work fast. If there is none, we need a plan to collect it."
+            "question": "When someone new lands on your product page, what usually gets them to buy, the story, the awards, or the ingredients?",
+            "listening_for": "Tells us which angle to lead the ad with. If she does not know, that itself says we need to test it."
           },
           {
-            "question": "Can you give us your real product photos and any video from the farm or kitchen?",
-            "listening_for": "She already flagged she does not like the AI mockups. Confirm she has a real photo library. This is the single biggest thing that decides if creative moves fast."
+            "question": "Where do most of your sales come from today, your site, stores, markets, or word of mouth?",
+            "listening_for": "If they are mostly wholesale or farmers markets, the website may not be built to convert cold traffic, which we would need to fix before spending."
           },
           {
-            "question": "Which product actually sells the most for you right now?",
-            "listening_for": "We are betting on Tesuque because the site calls it the bestseller. If she says something else sells more, we lead with that instead. This one answer can change the whole plan."
+            "question": "Is your checkout and shipping fully set up and tested? Your shipping policy page looked empty when I checked.",
+            "listening_for": "If shipping is not configured, ads would send people into a broken buying flow. This has to be right before we spend a dollar."
           },
           {
-            "question": "How much of your business comes from your own site versus stores?",
-            "listening_for": "They have a store locator, so wholesale may be a big part of the business. If most sales are wholesale, online ads matter less and we size expectations down."
+            "question": "Do you have real product photos and any video of the bottles or the farm we can use?",
+            "listening_for": "Lauren does not want AI images. We need real assets. Farm and pepper footage would be gold for the provenance story."
           }
         ]
       },
@@ -226,60 +232,56 @@
         "name": "Expand",
         "questions": [
           {
-            "question": "Are people already searching for things like 'gochugaru,' 'Aleppo pepper,' or 'Espelette' and finding you?",
-            "listening_for": "These are named peppers people actively look up when cooking a recipe. That is a real search opening. If she has never looked at Google search, there is likely money on the table there."
+            "question": "After the Oprah feature, did you notice people searching your name or the specific peppers, like Gochugaru or Espelette?",
+            "listening_for": "These are named peppers people already search for by name. That is a real opening for Google search ads to catch buyers who already want the product. Worth raising honestly here."
           },
           {
-            "question": "When someone hears about you from the Oprah list or a store, where do they go to find you?",
-            "listening_for": "If people are typing 'Springs Fireplace' into Google after seeing the brand somewhere, we want to make sure Google is not sending those buyers to a competitor. That is a cheap, easy win."
+            "question": "Are you showing up when someone searches your brand name or your award-winning sauces?",
+            "listening_for": "If competitors or resellers are bidding on their name after the Oprah bump, a small branded search campaign protects easy sales. Only raise if she confirms search interest."
           }
         ]
       }
     ],
     "objections": [
       {
-        "objection": "I do a lot of my own brand writing with my own GPT already.",
-        "answer": "Good, keep doing that, the words are yours and they should be. The part we handle is above the words: how the account is built, which ad gets tested first, and how you know an angle is working before you spend real money on it. That is the piece the writing tool cannot do for you."
+        "objection": "I can tell your mockups were AI and I do not love that.",
+        "answer": "You are right, and that is on the inputs. Those were built from whatever I could pull off your site, so the images were guessing at your bottles and labels. When we run ads for you for real, we start from your own product photos and farm footage, so nothing reads as generated. Same angles, real bottles."
       },
       {
-        "objection": "I could tell those photos were AI and I do not love that.",
-        "answer": "You are right, and that was on the inputs. Those were built from whatever was on your site, so it was guessing at your bottles and labels. When we run a brand for real, we start from your own product photos and video. Same idea, real starting material, and it stops looking generated. If you send us your shoot library, that problem goes away."
+        "objection": "I already write my brand voice with my own GPT and I can make the playbook more authentic myself.",
+        "answer": "That instinct is right, and feeding your own content in makes it better. The part that a GPT cannot do is the layer above the words, how the account is built, what ad we test first, and how you know which angle is working before you spend real money. That is what next week is about."
       },
       {
-        "objection": "We have never really run ads. How do I know this will work for a small hot sauce brand?",
-        "answer": "We do not assume it works. That is why month one is small, around $50 a day, and its only job is to buy an answer. We run the three ads against each other and see which one a stranger actually buys from. We only spend more once we have proof. You will not be scaling into the dark."
+        "objection": "I have never run ads. Is my brand even ready?",
+        "answer": "That is actually a clean starting point, no bad habits to undo. You already have the hardest part, real proof most brands never get, with Oprah and two awards. We start small, prove one ad on Tesuque can sell to strangers, then only spend more once something works."
       },
       {
-        "objection": "My orders are small, mostly one $8 to $14 bottle. Can ads even pay off on that?",
-        "answer": "That is the honest risk, and it is why we lead with your $14 bestseller Tesuque and use your Duo and Trifecta bundles to lift order size right away. It is also the number I most need from you, because I am guessing $14 from your prices. Tell me your real average order and your margin and I will tell you straight whether the math works."
+        "objection": "My bottles are only $14, can ads even pay for themselves?",
+        "answer": "Fair question, and it is why we do not just push single bottles. We lead with Tesuque to get the sale, then move buyers toward sets like The Duo at $26, which lifts the order value. First we confirm your margin, then we build the plan around what the math can actually carry."
       }
     ],
     "red_flags": [
       {
-        "flag": "No reviews anywhere on the site.",
-        "why_it_matters": "Cold shoppers trust other buyers. For a premium price, no social proof makes the first sale harder. We lean on the Oprah and Scovie badges to fill the gap, but we need to start collecting reviews early."
+        "flag": "No reviews visible anywhere on the site.",
+        "why_it_matters": "Cold shoppers trust other buyers. Without reviews we have to carry the whole ad on awards alone, which is harder. We should find and surface reviews before or right as we launch."
       },
       {
-        "flag": "Low average order value, likely around $14.",
-        "why_it_matters": "Small orders leave little room to pay for a click and the FIRST15 discount. If margin is thin, paid ads may not clear. Confirm the real order value and margin before promising anything."
+        "flag": "Average order value stand-in is only about $14.",
+        "why_it_matters": "A single low-priced bottle leaves little room to pay for ads and still profit. If their real order value and margin are thin, the plan has to push sets from the start."
       },
       {
-        "flag": "The shipping policy page appears blank.",
-        "why_it_matters": "If shipping is not clearly set up or is expensive on an $8 bottle, people abandon at checkout. Sending paid traffic to a broken or unclear checkout wastes money. Confirm shipping works before we spend."
+        "flag": "Shipping policy page appears empty.",
+        "why_it_matters": "If shipping is not fully set up, ads would send buyers into a broken checkout and waste spend. Confirm it works before launching."
       },
       {
-        "flag": "Several products need refrigeration and some say 'email to get on the list' or 'back in stock.'",
-        "why_it_matters": "We should not scale ads on a product that keeps selling out or has stock limits, like Charapita or Aji Lovers. Lead only with products she can reliably keep in stock."
-      },
-      {
-        "flag": "Possible heavy wholesale/retail side.",
-        "why_it_matters": "They have a store locator and are in stores. If most revenue is wholesale, online ad results will look small and we should set expectations accordingly."
+        "flag": "Several sauces need refrigeration after opening and note being out of stock.",
+        "why_it_matters": "Perishable, small-batch products can hit stock limits fast. Scaling ads on something that sells out burns money and frustrates buyers. We need to confirm stock can keep up before we push spend."
       }
     ],
     "other_channel_openings": [
-      "Google search is a real opening. Their peppers have names people actively look up when cooking, like Gochugaru, Aleppo, Espelette, and Aji Amarillo. People searching those terms have intent to buy. Worth raising once the Meta plan is agreed.",
-      "Brand-name search protection. After the Oprah's Favorite Things feature and in-store placement, people will Google 'Springs Fireplace.' A small Google presence makes sure those warm buyers land on their site, not a reseller or competitor."
+      "Google search ads on their named peppers. Terms like Gochugaru, Espelette, and Aleppo are things people already search for by name, so there is real existing demand to catch.",
+      "Branded search protection. After the Oprah's Favorite Things feature, people are likely searching the brand name directly, and a small campaign makes sure Springs Fireplace shows up first."
     ]
   },
-  "generated_at": "2026-08-05T15:18:58.463Z"
+  "generated_at": "2026-08-05T15:29:53.157Z"
 }
