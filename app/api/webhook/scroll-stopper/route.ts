@@ -268,25 +268,11 @@ export async function POST(req: NextRequest) {
   // product links via /scroll-stopper-new. A flip still enrolls the lead in the
   // follow-up subsequence (Smartlead-side); here we just post a reminder.
   if (!payload.product_urls?.length) {
-    // GHL intake at the flip. No magnet_link yet — this route never generates
-    // the report (Kyle builds it at /scroll-stopper-new), so the link is filled
-    // in by the manual run's upsert further down. Contact + opportunity should
-    // still exist from the second the lead converts.
-    const flipOk = await postLeadToGHL({
-      email: payload.lead_email,
-      first_name: payload.lead_first_name,
-      last_name: payload.lead_last_name,
-      company_name: payload.lead_company,
-      website: payload.website_url ?? "",
-      magnet_type: payload.category || "Scroll_Stopper",
-      magnet_link: "",
-    });
-    if (!flipOk) {
-      await postSlack(
-        `⚠️ *GHL intake failed* — ${payload.lead_company} (${payload.lead_email}). Add the contact/opportunity by hand.`,
-        SLACK_KEY,
-      );
-    }
+    // Deliberately NO GHL post here. The GHL intake workflow ends in an SMS to
+    // Kyle that renders {{contact.magnet_link}}, and at flip time this route has
+    // no report to link to (Kyle builds it by hand at /scroll-stopper-new). An
+    // early post would fire that SMS with an empty link. The lead enters GHL
+    // further down, once the report actually exists.
     await postSlack(
       `🟡 *${payload.lead_company}* flipped to Scroll_Stopper.\nBuild the report at ${BASE_URL}/scroll-stopper-new with 2-3 product links. (No auto-generate; the lead is still enrolled in the follow-up subsequence.)`,
       SLACK_KEY,
