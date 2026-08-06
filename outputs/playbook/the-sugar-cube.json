@@ -1,0 +1,161 @@
+{
+  "lead_company": "The Sugar Cube",
+  "lead_first_name": "Jo",
+  "website": "https://sugarcubeyyc.com",
+  "brand_domain": "sugarcubeyyc.com",
+  "currency": "CAD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "A Calgary-based (YYC) candy and cotton candy gifting company selling curated sweet treats, CandyGrams, platters, and event experiences.",
+    "core_belief": "Candy is the sweetest way to celebrate, gift, and mark any occasion - because 'pizza parties just aren't cuttin' it'.",
+    "proof_points": [
+      "Shipping in Canada - Coast to Coast",
+      "Dedicated Allergens/Allergies info page for transparency",
+      "In-person Events + Experiences: Candy Buffet, Cotton Candy Cart, Candy Truck, Live Activations",
+      "Custom and personalized favours (stickered, labeled, numbered) made to order"
+    ],
+    "positioning": "Playful, premium-feeling occasion gifting - curated and customizable candy experiences, not bulk bin sweets."
+  },
+  "voice_pillars": [
+    {
+      "name": "Cheeky + Fun",
+      "desc": "Writes with light humor and attitude, leaning into the joy of celebrating with candy.",
+      "quote": "because pizza parties just aren't cuttin' it!"
+    },
+    {
+      "name": "Warm + Welcoming",
+      "desc": "Greets customers personally and keeps the tone friendly, like a small local team.",
+      "quote": "Hi! We're The Sugar Cube"
+    },
+    {
+      "name": "Celebration-First",
+      "desc": "Frames everything around occasions and gifting moments worth marking.",
+      "quote": "The Sweetest Birthday Party Favours!"
+    },
+    {
+      "name": "Surprise + Delight",
+      "desc": "Leans into mystery, novelty, and the thrill of the unexpected sweet.",
+      "quote": "Surprise + Delight"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "The Sweetest Birthday Party Favours",
+      "Spread The Joy",
+      "Surprise + Delight",
+      "Team Appreciation",
+      "pizza parties just aren't cuttin' it",
+      "Getting Your Sweets"
+    ],
+    "words": [
+      "sweet",
+      "treats",
+      "favours",
+      "gifting",
+      "candy",
+      "celebration",
+      "surprise",
+      "custom"
+    ],
+    "avoid": [
+      "clinical",
+      "health-focused",
+      "diet",
+      "corporate-stiff",
+      "guilt-driven"
+    ]
+  },
+  "icp": "Canadian gift-givers and event/office planners who want a fun, customizable, memorable way to celebrate birthdays, teams, and milestones without the effort of building it themselves.",
+  "personas": [
+    {
+      "name": "The Occasion Gifter",
+      "description": "Someone marking a birthday, thank you, wedding, or gender reveal who wants a ready-made, delightful gift - moved by 'The Sweetest Birthday Party Favours' and gift-by-occasion angles."
+    },
+    {
+      "name": "The Office Morale Lead",
+      "description": "An HR or team lead sourcing corporate gifts and team appreciation - moved by the line that 'pizza parties just aren't cuttin' it'."
+    },
+    {
+      "name": "The Event Planner",
+      "description": "A host or planner booking a candy buffet, cotton candy cart, or candy truck for a live event - moved by the Events + Experiences and custom favours offerings."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Spread the Pride Candy Bag Package",
+      "role": "Hero / best-seller",
+      "price": 65
+    },
+    {
+      "title": "Summer Snack Pack",
+      "role": "Entry point",
+      "price": 20
+    },
+    {
+      "title": "Numbered Cotton Candy Cake",
+      "role": "Core",
+      "price": 35
+    },
+    {
+      "title": "Candy Platter",
+      "role": "Premium",
+      "price": 175
+    }
+  ],
+  "offers": [
+    "Shipping in Canada - Coast to Coast",
+    "Candy Club subscriptions (Gigantic CandyGram, Candy Basket, Candy Platter)",
+    "2026 Advent Calendar Presale Discount Signup",
+    "Corporate Gifting program with case studies and gifting guide",
+    "Gifts organized by price tier (Under $25 up to Over $100)",
+    "Custom and personalized favours (stickered, labeled, numbered)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "We ship across Canada, coast to coast.",
+        "source": "homepage header"
+      },
+      {
+        "claim": "Fully customizable favours - stickered, labeled, and personalized.",
+        "source": "Customize Your Favours nav"
+      },
+      {
+        "claim": "We offer in-person candy experiences: buffets, cotton candy carts, and candy trucks.",
+        "source": "Events + Experiences page"
+      },
+      {
+        "claim": "Subscription Candy Clubs available for recurring sweet deliveries.",
+        "source": "Candy Club page"
+      },
+      {
+        "claim": "Allergen information is available before you buy.",
+        "source": "Allergens/Allergies page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Guilt-free or healthy candy that helps you burn fat.",
+        "why": "Banned health/fat-burning claim - false and unsupportable for a candy product."
+      },
+      {
+        "claim": "Boosts immunity or supports your health.",
+        "why": "Banned unqualified health/immunity claim for a food product."
+      },
+      {
+        "claim": "A detox treat / detoxifying sweets.",
+        "why": "Unqualified 'detox' is a banned health claim."
+      },
+      {
+        "claim": "Low sugar or sugar-free candy.",
+        "why": "Nutrient-content claim must match the actual label; no label data provided to support it."
+      },
+      {
+        "claim": "All-natural, clean candy.",
+        "why": "'Natural' and 'clean' are vague, risky headline claims not substantiated on-site."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-06T12:26:30.054Z"
+}
