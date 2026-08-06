@@ -1,0 +1,168 @@
+{
+  "lead_company": "Zirkel Optics",
+  "lead_first_name": "Justin",
+  "website": "https://zirkeloptics.com",
+  "brand_domain": "zirkeloptics.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Eco-performance sport eyewear - 3D printed sunglasses and snow/dirt goggles for serious outdoor athletes.",
+    "core_belief": "You can protect your vision on the mountain or trail without ignoring the planet - performance that feels as good as it sees.",
+    "proof_points": [
+      "Plant-based Zirtek material plus 3D Selective Laser Sintering and Zpivot systems, several US patents pending",
+      "Co-founded by U.S. Olympian Justin Reiter, Snowboard Vice World Champion and Olympic Gold Medal coach",
+      "Lifetime Warranty on Frames and 14 Day Return Policy",
+      "Over 40 years of eyewear expertise, rooted in Steamboat Springs, Colorado"
+    ],
+    "positioning": "Premium, purpose-built performance optics with a sustainability-first identity - technical and athlete-led, not fashion-first."
+  },
+  "voice_pillars": [
+    {
+      "name": "Uncompromising Performance",
+      "desc": "Writes in confident, precision-driven language built for demanding, high-speed athletic use.",
+      "quote": "Elite riding demands optics at the limit."
+    },
+    {
+      "name": "Eco-Conviction",
+      "desc": "Ties every product benefit to environmental responsibility as a core reason to buy.",
+      "quote": "performance that feels as good as it sees."
+    },
+    {
+      "name": "Athlete-Proven",
+      "desc": "Anchors durability and credibility in real proving grounds and Olympic-level expertise.",
+      "quote": "Rampage Proven, clarity for the driven"
+    },
+    {
+      "name": "Clarity Obsessed",
+      "desc": "Leads with optical precision and the confidence of seeing terrain true.",
+      "quote": "engineered to eliminate distortion and deliver maximum optical clarity."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "See what you've been missing",
+      "World's clearest vision and most sustainable sport optics",
+      "clarity for the driven",
+      "maximum clarity for fast, precise performance",
+      "keeping the lens crystal clear even during extreme exertion",
+      "picking a line through a rock garden at speed"
+    ],
+    "words": [
+      "clarity",
+      "distortion-free",
+      "sustainable",
+      "performance",
+      "3D printed",
+      "anti-fog",
+      "eco-friendly",
+      "precise"
+    ],
+    "avoid": [
+      "cheap",
+      "disposable",
+      "fast-fashion",
+      "casual/lifestyle-only framing"
+    ]
+  },
+  "icp": "Serious snow and mountain-bike athletes who chase demanding terrain, expect distortion-free optics they can trust at speed, and want gear that reflects their commitment to protecting the outdoors.",
+  "personas": [
+    {
+      "name": "Send-It Freerider",
+      "description": "Aggressive DH/enduro and big-mountain rider who buys on durability and true depth at speed - move them with Rampage-proven clarity and no-fog ventilation."
+    },
+    {
+      "name": "Glacier-Conscious Skier",
+      "description": "Environmentally minded snow athlete who sees melt firsthand - move them with bio-based materials and the Justin Reiter founder story."
+    },
+    {
+      "name": "Spec-Driven Gearhead",
+      "description": "Optics nerd who researches lens tech and interchangeability - move them with FUTR LenZ, SCREENZ 360 ventilation, and lens/light-condition options."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "SAWTOOTH EXPLR",
+      "role": "Hero / best-seller",
+      "price": 549
+    },
+    {
+      "title": "PIONEER ROUND",
+      "role": "Entry point",
+      "price": 199
+    },
+    {
+      "title": "SAWTOOTH SINGLE",
+      "role": "Core",
+      "price": 349
+    },
+    {
+      "title": "PEAK PIONEER",
+      "role": "Entry point",
+      "price": 199
+    }
+  ],
+  "offers": [
+    "Free US Shipping",
+    "14 Day Return Policy",
+    "Lifetime Warranty on Frames",
+    "Manufacturer's warranty against defects in materials and workmanship",
+    "Interchangeable and replacement lenses tuned for different light conditions; prescription insert options",
+    "EU 14 day cooling off / cancellation period"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Eco-Performance Eyewear engineered with more sustainable materials and methods.",
+        "source": "homepage FAQ"
+      },
+      {
+        "claim": "FUTR LenZ technology engineered to eliminate distortion and deliver maximum optical clarity.",
+        "source": "homepage FAQ"
+      },
+      {
+        "claim": "SCREENZ 360 ventilation actively pulls air through the frame to reduce fogging.",
+        "source": "homepage FAQ"
+      },
+      {
+        "claim": "Made with plant-based Zirtek material using 3D Selective Laser Sintering, with US patents pending.",
+        "source": "about / our story page"
+      },
+      {
+        "claim": "Lifetime Warranty on Frames and 14 Day Return Policy.",
+        "source": "site header / policy pages"
+      },
+      {
+        "claim": "Co-founded by U.S. Olympian Justin Reiter.",
+        "source": "homepage founder quote"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Unqualified 'eco-friendly' or 'sustainable' as a standalone headline claim without substantiation.",
+        "why": "FTC Green Guides - vague/unqualified environmental claims must be specific and backed; 'natural/clean/eco' are risky as bare headlines."
+      },
+      {
+        "claim": "'100% sustainable' or 'zero impact' product claims.",
+        "why": "FTC Green Guides - absolute environmental claims are almost never substantiable and are high-risk."
+      },
+      {
+        "claim": "'World's clearest vision' stated as an unqualified superiority fact in ads.",
+        "why": "Comparative superiority claim - not substantiated with test data in the input; run only as brand tagline, not a performance guarantee."
+      },
+      {
+        "claim": "'Fully biodegradable' or 'compostable' framing for Zirtek/3D-printed frames.",
+        "why": "FTC Green Guides - degradability claims require competent scientific evidence not present on the site."
+      },
+      {
+        "claim": "Any claim that the eyewear prevents eye disease or protects/cures vision health.",
+        "why": "Health/disease-treatment claims are banned for this category without qualified medical substantiation."
+      },
+      {
+        "claim": "'Patented' technology (present tense).",
+        "why": "Site states US patents pending, not granted - claiming a patent is issued would be false advertising."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-06T09:57:07.378Z"
+}
