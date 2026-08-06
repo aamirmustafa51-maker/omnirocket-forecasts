@@ -1,0 +1,61 @@
+{
+  "lead_company": "The Cider Box",
+  "lead_first_name": "Daniel",
+  "website": "https://theciderbox.com",
+  "brand_domain": "theciderbox.com",
+  "currency": "USD",
+  "brand_voice_note": "Passionate, community-minded and cheekily British - a cider obsessive championing fresh, full-juice indie makers from Bristol.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/the-cider-box?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.theciderbox.com/cdn/shop/files/cider-box-logo_2x_375800fc-8688-4cb8-aa48-08a4ffadf20f_2048x2048.png",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Ganley & Naish: Mixed 6 can pack",
+      "product_url": "https://www.theciderbox.com/products/ganley-naish-mixed-6-can-pack",
+      "image_url": "/creatives/scroll-stopper/the-cider-box/ad-1.jpg",
+      "ai_image": true,
+      "price": 18,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "primary_text": "Three award-winning ciders. One very good decision.\n\nFresh, full-juice cider from Ganley & Naish, one of the best indie producers we've had the pleasure of pouring. Hell & High Water, Caught Adrift and As The Night Fades - two of each, tasting notes included.\n\nDelivered to your door, or collected from Bristol. Proper job. 🍏",
+      "headline": "Six cans, three cracking ciders",
+      "cta": "Shop Now",
+      "why_it_works": "A mixed pack's whole appeal is variety and easy enjoyment, so leading with the desirable outcome - three great ciders, no guesswork - fits the product better than any objection or story angle.",
+      "visual_direction": "All six cans standing in a row on a warm wooden table with fresh apple slices alongside, in cosy evening light."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Summer 2026 tee: fresh drop",
+      "product_url": "https://www.theciderbox.com/products/summer-2026-tee",
+      "image_url": "/creatives/scroll-stopper/the-cider-box/ad-2.jpg",
+      "ai_image": true,
+      "price": 20,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "primary_text": "Summer's coming, and so is Kingston.\n\nOur brand new 2026 tee - Kingston, our cheeky apple-bod, skating to the Tap Room on the back and hanging off our logo up front. Designed by Bristol legend Yee Poon.\n\nShips from July 22nd with cider tokens for the bar. Wear it, drink with us, belong. 🛹",
+      "headline": "The Summer 2026 tee has landed",
+      "cta": "Shop Now",
+      "why_it_works": "A dated fresh drop that ships for summer with bar tokens is built around a moment, so tying it to the season and the Tap Room community lands harder than a generic quality pitch.",
+      "visual_direction": "The tee laid out back-print-up on a sunny wooden bench with a skateboard and trainers beside it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Ganley & Naish: Mixed 6 can pack",
+      "product_url": "https://www.theciderbox.com/products/ganley-naish-mixed-6-can-pack",
+      "image_url": "/creatives/scroll-stopper/the-cider-box/ad-3.jpg",
+      "ai_image": true,
+      "price": 18,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "primary_text": "We've been hunting down the good stuff since 2012.\n\nCaught Adrift by Ganley & Naish is exactly why - a medium cider from an independent, full-juice producer, no concentrate, no shortcuts. Just cider made the way we love it.\n\nFresh from Bristol's Cider Tap Room, delivered to your door or collected in store.",
+      "headline": "Why we champion the indies",
+      "cta": "Shop Now",
+      "why_it_works": "A single hero can lets us tell the founder-level 'why we do this' story of curating full-juice indie cider since 2012, which suits a spotlight on one standout drop.",
+      "visual_direction": "A single Caught Adrift can standing on a rustic timber workbench with whole apples and oak leaves in soft daylight."
+    }
+  ],
+  "generated_at": "2026-08-06T07:16:14.715Z"
+}
