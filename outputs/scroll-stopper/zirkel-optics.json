@@ -1,0 +1,60 @@
+{
+  "lead_company": "Zirkel Optics",
+  "lead_first_name": "Justin",
+  "website": "https://zirkeloptics.com",
+  "brand_domain": "zirkeloptics.com",
+  "currency": "USD",
+  "brand_voice_note": "Precision-driven and performance-obsessed, blending Olympic-grade clarity claims with a quiet eco-conviction and rugged, terrain-ready confidence.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/zirkel-optics?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "SAWTOOTH XL",
+      "product_url": "https://zirkeloptics.com/products/sawtooth-single-2",
+      "image_url": "/creatives/scroll-stopper/zirkel-optics/ad-1.jpg",
+      "ai_image": true,
+      "price": 199,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit Demo - See The Difference",
+      "primary_text": "See what you've been missing.\n\nThe Sawtooth XL takes you from alpine airstrips to downtown streets without missing a beat. FUTR LenZ technology is engineered to eliminate distortion and deliver maximum optical clarity, so the world reads true wherever you are.\n\nUltralight, plant-based construction. Clarity for the driven.",
+      "headline": "Clarity That Moves With You",
+      "cta": "Shop Now",
+      "why_it_works": "The oldest direct-response move in eyewear: show the glare, then show it gone. The buyer understands the ZEISS lens in under a second with no copy needed, which is what a cold feed placement demands.",
+      "visual_direction": "Single continuous high-glare alpine scene. Everything outside the lenses is blown out and hazy; everything seen through them is saturated and razor sharp. The difference lands exactly at the lens rim."
+    },
+    {
+      "product_index": 2,
+      "product_title": "PEAK",
+      "product_url": "https://zirkeloptics.com/products/peak",
+      "image_url": "/creatives/scroll-stopper/zirkel-optics/ad-2.jpg",
+      "ai_image": true,
+      "price": 299,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Feature Callout - Why It Costs $299",
+      "primary_text": "Snow, dirt, rain. One shield handles it all.\n\nThe Peak bridges the gap between sunglasses and goggles with a 5.2-base cylindrical ZEISS lens for all-conditions clarity. SCREENZ 360 ventilation actively pulls air through the frame to reduce fogging, keeping the lens crystal clear even during extreme exertion.\n\nGo-anywhere. Do-everything.",
+      "headline": "Clear In Every Condition",
+      "cta": "Shop Now",
+      "why_it_works": "At a $299 price point the buyer needs justification, not atmosphere. Stacking the ZEISS lens, plant-based frame, steel flex hinge and lifetime warranty in one frame answers the price objection inside the creative, before the click.",
+      "visual_direction": "Clean hero on a dark seamless background with deliberate empty margin on all four sides. Those empty zones are where the callout labels and leader lines get composited on top."
+    },
+    {
+      "product_index": 3,
+      "product_title": "PEAK PIONEER",
+      "product_url": "https://zirkeloptics.com/products/peak-pioneer-1",
+      "image_url": "/creatives/scroll-stopper/zirkel-optics/ad-3.jpg",
+      "ai_image": true,
+      "price": 199,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Origin Story - Zero Mold, Zero Waste",
+      "primary_text": "Heritage, reimagined for the modern adventurer.\n\nCo-founded by U.S. Olympian Justin Reiter, the Peak Pioneer carries classic glacier-glass DNA into next-gen performance. The bio-based Zirtek frame is made with plant-based material using 3D Selective Laser Sintering, paired with ZEISS optics for all-terrain clarity.\n\nAlpine ridges to city streets. Athlete-proven, built with conviction.",
+      "headline": "Glacier DNA, Rebuilt",
+      "cta": "Shop Now",
+      "why_it_works": "Nobody else in eyewear can run this ad. Showing the frame coming out of a powder bed makes the 3D-printed, zero-waste, plant-based story physical instead of a bullet point, and it reframes the price as craft rather than markup.",
+      "visual_direction": "The frame half-emerged from fine white nylon powder on a printer build plate, powder still clinging to it. Manufacturing proof as the hero, product as the reveal."
+    }
+  ],
+  "generated_at": "2026-08-06T09:59:29.047Z"
+}
