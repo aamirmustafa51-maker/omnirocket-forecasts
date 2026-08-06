@@ -1,0 +1,165 @@
+{
+  "lead_company": "The Cider Box",
+  "lead_first_name": "Daniel",
+  "website": "https://theciderbox.com",
+  "brand_domain": "theciderbox.com",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Craft cider club and Bristol Tap Room selling full-juice ciders from independent producers via subscription, online store, and events.",
+    "core_belief": "On a mission to flood the towns and cities of the UK with delicious, not-from-concentrate cider made by the finest independent producers in the land.",
+    "proof_points": [
+      "Founded in 2012",
+      "Full juice, not-from-concentrate cider from independent producers",
+      "Own site in St Phillip's, Bristol where they make small batches and run a Tap Room",
+      "Selected ciders are naturally vegan friendly and gluten-free (per product page)"
+    ],
+    "positioning": "Passionate craft-cider curator for indie drops, community-led and Bristol-rooted rather than mass-market or supermarket cider."
+  },
+  "voice_pillars": [
+    {
+      "name": "Passionate Curator",
+      "desc": "Writes like a cider obsessive hunting down the best small-batch drops and championing indie makers.",
+      "quote": "We search high & low for the finest drops of fermented juices"
+    },
+    {
+      "name": "Community First",
+      "desc": "Invites people in - to drink together, taste together, and belong rather than just buy.",
+      "quote": "Enjoy at home, with us via online tastings, or at your own leisure & pleasure."
+    },
+    {
+      "name": "Cheeky & Playful",
+      "desc": "Light, fun British tone with mascots and slang that keeps cider unpretentious.",
+      "quote": "Kingston, our cheeky apple-bod is seen here making a dash to the Tap Room"
+    },
+    {
+      "name": "Fresh & Local",
+      "desc": "Leans hard on freshness and Bristol roots as the reason to buy from them.",
+      "quote": "Full juice cider, fresh from Bristol's Cider Tap Room."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Fresh, modern cider from the best indie producers on the planet",
+      "presented with passion: We love The Cider Box",
+      "Proper job- good craft ciders",
+      "some familiar names and some new ones on me too- coming back soon",
+      "Full juice cider, fresh from Bristol's Cider Tap Room",
+      "Delivered to your door, or collected from Bristol"
+    ],
+    "words": [
+      "full juice",
+      "fresh",
+      "craft cider",
+      "indie producers",
+      "Tap Room",
+      "not-from-concentrate",
+      "small batches",
+      "community"
+    ],
+    "avoid": [
+      "mass-market",
+      "cheap/bargain",
+      "corporate/stuffy",
+      "concentrate"
+    ]
+  },
+  "icp": "UK-based cider enthusiasts, largely around Bristol, who value craft, independent producers, and freshness and buy to discover new small-batch ciders and share the experience.",
+  "personas": [
+    {
+      "name": "The Cider Explorer",
+      "description": "A curious drinker who wants to discover new indie producers and moves on the promise of familiar names plus fresh new drops."
+    },
+    {
+      "name": "Bristol Local",
+      "description": "A city-dweller who values supporting a local Bristol maker and is moved by the Tap Room, events, and collect-in-store option."
+    },
+    {
+      "name": "Experience Seeker",
+      "description": "A group organiser booking stag/hen, corporate, or tasting events who is moved by the community and hosted-tasting angle."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Bristol Cider Tour",
+      "role": "Hero / best-seller",
+      "price": 32
+    },
+    {
+      "title": "Hecks Mixed Case of cider",
+      "role": "Premium",
+      "price": 32
+    },
+    {
+      "title": "Ganley & Naish: Mixed 6 can pack",
+      "role": "Entry point",
+      "price": 18
+    },
+    {
+      "title": "Summer '24 tee: Black Edition",
+      "role": "Entry point",
+      "price": 18
+    }
+  ],
+  "offers": [
+    "Subscription cider boxes / Cider Club",
+    "UK Nationwide delivery",
+    "Collect from store in Bristol",
+    "Tap Room hire and events (Cider vs Cheese, Cider Bingo, tap takeovers, online tastings)",
+    "Summer 2026 tee ships with cider tokens for use at the bar",
+    "Newsletter with store updates and discounts"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Full juice, not-from-concentrate cider from independent producers",
+        "source": "about page and product pages"
+      },
+      {
+        "claim": "Founded in 2012",
+        "source": "about page"
+      },
+      {
+        "claim": "Selected ciders are naturally vegan friendly and gluten-free",
+        "source": "Ganley & Naish product page"
+      },
+      {
+        "claim": "UK Nationwide delivery, or collect from our store in Bristol",
+        "source": "product pages and homepage"
+      },
+      {
+        "claim": "Bristol's only Cider Tap Room",
+        "source": "homepage"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best cider in the world / #1 cider club",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Guaranteed you'll love it or drink better than any other cider",
+        "why": "FTC - guaranteed-results claim that cannot be proven."
+      },
+      {
+        "claim": "Citing invented review counts or star ratings",
+        "why": "FTC - no customer reviews were found; fabricated social proof is prohibited."
+      },
+      {
+        "claim": "Only X boxes left - order in the next 10 minutes",
+        "why": "FTC - fake urgency/scarcity not backed by real stock or timers."
+      },
+      {
+        "claim": "All our ciders are vegan and gluten-free",
+        "why": "Overbroad - only specific named ciders are stated as vegan and gluten-free, so it must be qualified per product."
+      },
+      {
+        "claim": "Healthy or good-for-you cider",
+        "why": "Unsubstantiated health claim on an alcoholic product; not supported by site copy."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.theciderbox.com/cdn/shop/files/cider-box-logo_2x_375800fc-8688-4cb8-aa48-08a4ffadf20f_2048x2048.png",
+  "generated_at": "2026-08-06T07:14:14.990Z"
+}
