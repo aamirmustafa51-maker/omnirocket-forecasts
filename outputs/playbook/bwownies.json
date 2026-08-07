@@ -1,0 +1,168 @@
+{
+  "lead_company": "Bwownies",
+  "lead_first_name": "Keelan",
+  "website": "https://bwownies.com",
+  "brand_domain": "bwownies.com",
+  "currency": "GBP",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "UK direct-to-consumer gourmet brownie brand selling handmade gift boxes of stuffed, flavour-led brownies (BWOWNIES).",
+    "core_belief": "These aren't brownies at all... they're BWOWNIES! (Brownies with a WOW) - a founder-built brand out to prove people wrong and become a household name.",
+    "proof_points": [
+      "Handmade in Suffolk, freshly baked every day",
+      "Locally sourced, premium ingredients",
+      "Arrives in premium gift-ready packaging",
+      "Last up to 10 days in the fridge and up to 2 months in the freezer"
+    ],
+    "positioning": "Premium, playful gifting treat - loud and cheeky rather than minimal, sold as an experience not just a snack."
+  },
+  "voice_pillars": [
+    {
+      "name": "Cheeky and Playful",
+      "desc": "Copy is casual, tongue-in-cheek, and never takes itself too seriously.",
+      "quote": "STOP LOOKING AT MY BOTTOM, THE BWOWNIES ARE FURTHER UP!"
+    },
+    {
+      "name": "Indulgently Over-the-Top",
+      "desc": "Leans hard into rich, decadent language to make treats feel irresistible.",
+      "quote": "The OG. Deep, rich and ridiculously fudgy."
+    },
+    {
+      "name": "Founder-Personal",
+      "desc": "Writes in first person like a real person talking to you, sharing favourites and behind-the-scenes.",
+      "quote": "I genuinely cannot stop eating them, so I am going to need your help"
+    },
+    {
+      "name": "Underdog Story-Driven",
+      "desc": "Frames the brand around beating the odds and proving doubters wrong.",
+      "quote": "Despite being told he would never make it Keelan proved them wrong."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "dangerously addictive",
+      "Pure nostalgic indulgence",
+      "ridiculously fudgy",
+      "ridiculously moreish",
+      "The most luxe bite",
+      "going back for more"
+    ],
+    "words": [
+      "fudgy",
+      "gooey",
+      "indulgence",
+      "moreish",
+      "luxe",
+      "handmade",
+      "premium",
+      "WOW"
+    ],
+    "avoid": [
+      "clinical",
+      "corporate",
+      "diet/low-calorie framing",
+      "understated"
+    ]
+  },
+  "icp": "UK sweet-toothed treat lovers and gift buyers who want a premium, indulgent handmade brownie box that feels fun and personal, and who happily pay more for quality and a bit of wow.",
+  "personas": [
+    {
+      "name": "The Gift Sender",
+      "description": "Buys a gift-ready box to surprise friends or family - moved by premium packaging, handwritten touches and the shareable moment."
+    },
+    {
+      "name": "The Sweet Indulger",
+      "description": "Treats themselves to something rich and gooey - moved by decadent flavour descriptions and dangerously addictive stuffed centres."
+    },
+    {
+      "name": "The Flavour Explorer",
+      "description": "Loves trying new and nostalgic flavours like Oreo, Biscoff and Reese's - moved by new drops and taster boxes to sample the range."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "BWOWNIES BITES",
+      "role": "Hero / best-seller",
+      "price": 17.99
+    },
+    {
+      "title": "KINDER KRUNCH",
+      "role": "Core",
+      "price": 28.99
+    },
+    {
+      "title": "They’re taking the PIStachio",
+      "role": "Core",
+      "price": 28.99
+    },
+    {
+      "title": "ULTIMATE BWOWNIES BUNDLE",
+      "role": "Premium",
+      "price": 52.99
+    }
+  ],
+  "offers": [
+    "Free shipping nationwide when you spend GBP 34.99",
+    "Box sizes: 4 (Taster), 8 (Most Popular) and 12 (Best Value)",
+    "ULTIMATE BWOWNIES BUNDLE at GBP 52.99 (mix of best flavours)",
+    "Build your own box option",
+    "Gift cards from GBP 10 to GBP 100",
+    "Gift-ready packaging with option to send as a gift"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Handmade in Suffolk",
+        "source": "product page"
+      },
+      {
+        "claim": "Freshly baked every day",
+        "source": "product page"
+      },
+      {
+        "claim": "Locally sourced, premium ingredients",
+        "source": "product page / homepage"
+      },
+      {
+        "claim": "Last up to 10 days in the fridge and up to 2 months in the freezer",
+        "source": "product page FAQ"
+      },
+      {
+        "claim": "Free shipping nationwide over GBP 34.99",
+        "source": "homepage banner"
+      },
+      {
+        "claim": "Arrives in premium gift-ready packaging",
+        "source": "product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The BEST brownie brand in the world",
+        "why": "FTC/ASA - unqualified superlative that cannot be substantiated (currently stated on about page and must not be used in ads)."
+      },
+      {
+        "claim": "Best Seller / Bestseller labels without data",
+        "why": "Must be backed by actual sales evidence or it is an unsubstantiated objective claim."
+      },
+      {
+        "claim": "Sustainable",
+        "why": "FTC Green Guides - unqualified environmental claim with no stated proof or certification."
+      },
+      {
+        "claim": "Guaranteed to be everyone's favourite / you will love them",
+        "why": "Guaranteed-results claim not provable and not typical for all customers."
+      },
+      {
+        "claim": "Cherry-picked quotes like 'best brownies I have ever tried in my 41 years' as typical",
+        "why": "Testimonials must reflect typical results, not outlier reviews."
+      },
+      {
+        "claim": "Fake urgency such as 'only hours left' or invented stock timers",
+        "why": "Fake urgency is banned; only genuine, accurate stock or time claims allowed."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-07T08:15:47.153Z"
+}
