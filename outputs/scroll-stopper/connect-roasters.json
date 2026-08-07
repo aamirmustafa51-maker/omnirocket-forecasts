@@ -1,0 +1,92 @@
+{
+  "lead_company": "Connect Roasters",
+  "lead_first_name": "Caleb",
+  "website": "https://connectroasters.com",
+  "brand_domain": "connectroasters.com",
+  "currency": "USD",
+  "brand_voice_note": "Warm, plain-spoken and partnership-led, celebrating named collaborators and real causes over hype.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/connect-roasters?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Gold Glove Blend",
+      "product_url": "https://www.connectroasters.com/products/gold-glove-blend",
+      "image_url": "/creatives/scroll-stopper/connect-roasters/ad-1.jpg",
+      "ai_image": true,
+      "price": 16,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "visual_angle": "Origin / Process",
+      "claims_used": [],
+      "copy_claims": [
+        "Gold Glove Blend made in collaboration with Ian Happ",
+        "One of the components in this blend is a coffee from Rwanda , in East Africa. It brings a bright, citrus note to the blend.",
+        "The other component comes from Guatemala and offers more traditional coffee notes.",
+        "It's a medium roast made up of beans from two completely different parts of the world"
+      ],
+      "primary_text": "One blend, two continents, one seriously smooth cup.\n\nWe built the Gold Glove Blend with Chicago Cubs outfielder Ian Happ - bright, citrusy beans from Rwanda married to traditional, full-bodied beans from Guatemala.\n\nA medium roast that's as smooth as his fielding. Whole bean or ground, your call. ⚾",
+      "headline": "Rwanda meets Guatemala",
+      "cta": "Shop Now",
+      "why_it_works": "The two-origin medium roast built with a named ballplayer is a story only this brand can tell, so the Origin angle shows the raw beans behind the collaboration.",
+      "visual_direction": "The Gold Glove pouch standing on a roastery counter between a pile of raw green beans and roasted beans, with a burlap sack and scoop alongside."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Morale Blend",
+      "product_url": "https://www.connectroasters.com/products/morale-blend",
+      "image_url": "/creatives/scroll-stopper/connect-roasters/ad-2.jpg",
+      "ai_image": true,
+      "price": 16,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "visual_angle": "Feature Callout",
+      "claims_used": [
+        "MEDIUM-DARK ROAST",
+        "BOLDER. NOT BITTER",
+        "GUATEMALAN COFFEE",
+        "WHOLE BEAN"
+      ],
+      "copy_claims": [
+        "Morale Blend made in collaboration with Morale Supply Co.",
+        "This collaboration with Morale Supply Co.™ - which has been delivering morale to Chicago since 2014 - is a medium-dark roast",
+        "each bag sold supports First Tee - Greater Chicago",
+        "One pound equals one hour of programming at First Tee",
+        "since we started working together in April 2021, Morale has provided more than 1,800 hours of programming for youth in Chicago"
+      ],
+      "primary_text": "Bold coffee that gives back with every bag.\n\nMorale Blend is a medium-dark roast made with Morale Supply Co. - a little extra time in the roaster for a bold cup that never turns bitter.\n\nEvery pound sold equals one hour of programming at First Tee - Greater Chicago. Since April 2021 that's over 1,800 hours for Chicago youth.",
+      "headline": "Bolder. Not Bitter.",
+      "cta": "Shop Now",
+      "why_it_works": "The buyer wants a strong cup that isn't harsh, so callout labels lifted straight from the bag prove the roast level and character before the click.",
+      "visual_direction": "The Morale Blend pouch standing on a clean grey studio surface beside an espresso cup, with thin labels pointing to its roast and origin claims."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Dominican Ramirez",
+      "product_url": "https://www.connectroasters.com/products/dominican-ramirez",
+      "image_url": "/creatives/scroll-stopper/connect-roasters/ad-3.jpg",
+      "ai_image": true,
+      "price": 16,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "visual_angle": "Editorial Scene",
+      "claims_used": [],
+      "copy_claims": [
+        "Dominican Ramirez single-origin coffee available",
+        "The family-owned and operated Ramirez Estate in the Jarabacoa region of the DR",
+        "which has been producing coffee since 1943",
+        "We roast it to a medium-dark level, which leads to a bolder, more complex cup",
+        "There’s an earthiness and almost smokiness to it, with notes of tobacco",
+        "This is one for fans of bold coffee"
+      ],
+      "primary_text": "For the slow morning that deserves a bolder cup.\n\nOur Dominican Ramirez is single-origin from the family-run Ramirez Estate in Jarabacoa, farming coffee since 1943. We've visited Eddy on his farm ourselves.\n\nRoasted medium-dark for an earthy, complex cup with a hint of sweet tobacco. One for fans of bold coffee. ☕",
+      "headline": "Bold, earthy, single-origin",
+      "cta": "Shop Now",
+      "why_it_works": "The rich single-origin bag suits a quiet weekend-morning ritual, so a warm styled kitchen scene sets the mood without needing on-image text.",
+      "visual_direction": "The matte-black Dominican Ramirez pouch on a warm wood table beside a French press, a mug of black coffee and scattered beans in soft morning light."
+    }
+  ],
+  "generated_at": "2026-08-07T17:09:13.974Z"
+}
