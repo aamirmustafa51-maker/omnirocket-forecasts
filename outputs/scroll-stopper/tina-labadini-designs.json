@@ -1,0 +1,84 @@
+{
+  "lead_company": "Tina Labadini Designs",
+  "lead_first_name": "Tina",
+  "website": "https://tinalabadini.com",
+  "brand_domain": "tinalabadini.com",
+  "currency": "USD",
+  "brand_voice_note": "Whimsical, art-first and warm - like a friendly artist showing you her hand-painted watercolors turned into cozy everyday things.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/tina-labadini-designs?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://tinalabadini.com/cdn/shop/files/logo_for_home_page_truck_with_flowers_50b3e1c7-ebb9-4e97-8897-e97b7a81cf61.png?v=1779155981",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "three blue birds large tote",
+      "product_url": "https://tinalabadini.com/products/three_blue_birds_large_tote_leather_handle",
+      "image_url": "/creatives/scroll-stopper/tina-labadini-designs/ad-1.jpg",
+      "ai_image": true,
+      "price": 40.22,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "visual_angle": "Scale / Proof",
+      "claims_used": [
+        "22\" x 15\" x 5.5\""
+      ],
+      "copy_claims": [
+        "Roomy 22 x 15 x 5.5 inch tote",
+        "Leather handle",
+        "Original Tina Labadini Designs art"
+      ],
+      "primary_text": "Everything fits, and it looks lovely doing it.\n\nThe three blue birds large tote is a roomy 22 x 15 x 5.5 inches, so your books, market finds and little extras all tuck right in.\n\nSoft cotton canvas, a real leather handle, and TLD original art painted right into the weave. 🕊️",
+      "headline": "Roomy, painterly, ready to go",
+      "cta": "Shop Now",
+      "why_it_works": "The stated dimensions are the product's strongest concrete selling point, so proving the size physically shows shoppers exactly how much it holds.",
+      "visual_direction": "The tote standing on a wooden entryway bench, packed with a magazine, yarn and fresh eucalyptus so you can see how much it holds."
+    },
+    {
+      "product_index": 2,
+      "product_title": "peonies in jar small tote",
+      "product_url": "https://tinalabadini.com/products/peonies_in_jar_tote_bags",
+      "image_url": "/creatives/scroll-stopper/tina-labadini-designs/ad-2.jpg",
+      "ai_image": true,
+      "price": 26.81,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "visual_angle": "Editorial Scene",
+      "claims_used": [],
+      "copy_claims": [
+        "Small canvas tote, 15 x 9 x 2 inches, perfect for gifting",
+        "Original Tina Labadini Designs art"
+      ],
+      "primary_text": "The prettiest little gift that isn't wrapped in plastic.\n\nThe peonies in jar small tote is just the right size to fill with a candle, some flowers or a sweet note - so fresh, so sweet, so heavenly for the friend who has everything.\n\nTLD original art, painted right onto soft cotton canvas.",
+      "headline": "A little tote, a big smile",
+      "cta": "Shop Now",
+      "why_it_works": "A small, giftable tote with a floral watercolor is a natural present-buying trigger, so tying it to the gifting moment matches how people actually shop it.",
+      "visual_direction": "The little floral tote standing on a whitewashed spring table beside fresh peonies, ribbon and a linen napkin, styled as a ready-to-give gift."
+    },
+    {
+      "product_index": 3,
+      "product_title": "love love square pillow",
+      "product_url": "https://tinalabadini.com/products/love_love_square_pillow",
+      "image_url": "/creatives/scroll-stopper/tina-labadini-designs/ad-3.jpg",
+      "ai_image": true,
+      "price": 51.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "visual_angle": "Origin / Process",
+      "claims_used": [],
+      "copy_claims": [
+        "16 inch square cotton canvas pillow",
+        "Synthetic down filling included",
+        "Concealed zipper on the back",
+        "Original Tina Labadini Designs art"
+      ],
+      "primary_text": "It starts as a watercolor on Tina's own paper.\n\nThat hand-painted heart becomes the love love square pillow - a 16 inch canvas cushion with soft synthetic down inside and a concealed zipper tucked on the back.\n\nTLD original art, made to live on your couch.",
+      "headline": "From her brush to your sofa",
+      "cta": "Shop Now",
+      "why_it_works": "Only this brand can show the founder's original hand-painted artwork becoming the printed product, which is the true differentiator no competitor can copy.",
+      "visual_direction": "The LOVE pillow resting on an artist's worktable beside the original hand-painted watercolor heart, brush, palette and water jar, showing the art becoming the product."
+    }
+  ],
+  "generated_at": "2026-08-07T08:25:12.278Z"
+}
