@@ -1,0 +1,169 @@
+{
+  "lead_company": "Crafted Furniture",
+  "lead_first_name": "Christopher",
+  "website": "https://crafted.furniture",
+  "brand_domain": "crafted.furniture",
+  "currency": "AUD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Luxury, bespoke Australian-designed sofas, beds and armchairs sold direct and through a trade program.",
+    "core_belief": "That furniture should carry personality and be made to the client's vision without limits: 'we believe in offering our clients a true customisation experience where we don't place limits on their vision.'",
+    "proof_points": [
+      "Designed in Australia since 2015, produced by expert local and global artisans",
+      "Solid Wood primary frame construction (stated on product pages)",
+      "Over 200 premium and luxury fabrics, from classic European linens to performance poly linen",
+      "Sydney and Melbourne showrooms with a material library; 30-day return policy on regular-priced items"
+    ],
+    "positioning": "Premium, bespoke and design-led - customisation and craftsmanship over mass-market speed or price."
+  },
+  "voice_pillars": [
+    {
+      "name": "Bespoke and Personal",
+      "desc": "Speaks to co-creation - the customer adds their own mark, nothing is off-limits.",
+      "quote": "At Crafted, you can add your own mark to our creations."
+    },
+    {
+      "name": "Craft-Proud and Local",
+      "desc": "Anchors every message in Australian craftsmanship and support for local makers.",
+      "quote": "We are proudly locally crafted here in Australia and though handpicked artisans across the globe."
+    },
+    {
+      "name": "Refined and Editorial",
+      "desc": "Describes pieces with confident, sculptural, design-magazine language.",
+      "quote": "Miller commands the room with a suave, sculptural presence."
+    },
+    {
+      "name": "Classic Reimagined",
+      "desc": "Frames designs as heritage silhouettes updated for the modern home.",
+      "quote": "A classic profile, reimagined with contemporary poise."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "reimagines the 18th-century French Salon for the modern home",
+      "a blend of high-end tailoring and soft curves",
+      "commands the room with a suave, sculptural presence",
+      "customise the height, width, depth, fill and more",
+      "create your dream sofa",
+      "we don't place limits on their vision"
+    ],
+    "words": [
+      "bespoke",
+      "customise",
+      "crafted",
+      "sculptural",
+      "refined",
+      "tailoring",
+      "artisans",
+      "luxury"
+    ],
+    "avoid": [
+      "cheap",
+      "flat-pack",
+      "mass-produced",
+      "hype-y urgency"
+    ]
+  },
+  "icp": "Design-conscious Australian homeowners, stylists and interior designers furnishing considered residential or commercial spaces who value custom craftsmanship and will invest and wait for a made-to-order piece.",
+  "personas": [
+    {
+      "name": "The Considered Homeowner",
+      "description": "Owner of a beautiful home who wants a signature sofa; moved by customisation, showroom experience and lasting craftsmanship."
+    },
+    {
+      "name": "The Interior Stylist",
+      "description": "Designer sourcing statement pieces for client projects; moved by the fabric library, custom dimensions and the trade program."
+    },
+    {
+      "name": "The Commercial Buyer",
+      "description": "Specifier furnishing hospitality or commercial spaces; moved by bespoke sizing, durability and dedicated project support."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Charlotte 3 Seat Sofa",
+      "role": "Hero / best-seller",
+      "price": 6334
+    },
+    {
+      "title": "Camille 3 Seat Sofa",
+      "role": "Entry point",
+      "price": 5308
+    },
+    {
+      "title": "Miller 3 Seat Sofa",
+      "role": "Core",
+      "price": 5322
+    },
+    {
+      "title": "Elise 3 Seat Sofa",
+      "role": "Core",
+      "price": 5591
+    }
+  ],
+  "offers": [
+    "Full customisation: dimensions, cushion fills and over 200 premium and luxury fabrics",
+    "Designed in Australia; delivery in 10-12 weeks Australia wide with express options in store",
+    "In-house design service and book-a-design-consultation",
+    "Trade Program membership and Commercial Projects support",
+    "30-day returns on regular-priced items (custom-made pieces excluded)",
+    "Sydney and Melbourne showrooms - Sydney open 7 days, 10am-4pm"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Designed in Australia, produced by expert makers locally and around the world.",
+        "source": "product page"
+      },
+      {
+        "claim": "Customise dimensions, cushion fills and over 200 premium and luxury fabrics.",
+        "source": "product page"
+      },
+      {
+        "claim": "Primary frame construction: Solid Wood.",
+        "source": "product page (Material Details)"
+      },
+      {
+        "claim": "Working with leading designers, interior stylists and retail customers since 2015.",
+        "source": "about page"
+      },
+      {
+        "claim": "Ships in 10-12 weeks Australia wide, with express options available in store.",
+        "source": "product page"
+      },
+      {
+        "claim": "30-day return policy on regular-priced, unused items in original packaging.",
+        "source": "refund policy"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Australia's best or #1 luxury sofa maker.",
+        "why": "FTC substantiation - unqualified superlative that cannot be proven."
+      },
+      {
+        "claim": "Selling fast / only a few left - order now.",
+        "why": "Fake urgency; no stock scarcity is shown on the site."
+      },
+      {
+        "claim": "Loved by thousands of Australian homes / 500+ five-star reviews.",
+        "why": "Invented review counts - zero reviews were provided."
+      },
+      {
+        "claim": "Lifetime guarantee your sofa will never sag or wear.",
+        "why": "Guaranteed-results claim with no warranty terms to back it."
+      },
+      {
+        "claim": "100% eco-friendly, sustainable furniture.",
+        "why": "FTC Green Guides - unqualified sustainability claim not substantiated on site."
+      },
+      {
+        "claim": "As seen in [publication] / endorsed by top designers.",
+        "why": "No named press or endorsements are provided; cannot invent them."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://crafted.furniture/cdn/shop/files/crafted-logo_black.svg?v=1722839253&width=600",
+  "generated_at": "2026-08-07T08:52:27.619Z"
+}
