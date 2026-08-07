@@ -1,0 +1,83 @@
+{
+  "lead_company": "Bwownies",
+  "lead_first_name": "Keelan",
+  "website": "https://bwownies.com",
+  "brand_domain": "bwownies.com",
+  "currency": "USD",
+  "brand_voice_note": "Cheeky, first-person and unapologetically indulgent, framing every fudgy bite as dangerously addictive fun.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/bwownies?ref=email&magnet=playbook",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Extra-OREO-dinary",
+      "product_url": "https://bwownies.com/products/extra-oreo-dinary",
+      "image_url": "/creatives/scroll-stopper/bwownies/ad-1.jpg",
+      "ai_image": true,
+      "price": 28.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Volume / Value",
+      "visual_angle": "Scale / Proof",
+      "claims_used": [],
+      "copy_claims": [
+        "Two fudgy layers of Oreo chunk-infused chocolate BWOWNIE sandwiched with amazing Oreo cookies and cream filling",
+        "Each box contains 8 BWOWNIES"
+      ],
+      "primary_text": "Ever wanted an Oreo the size of a brownie? Say no more.\n\nTwo ridiculously fudgy layers of Oreo chunk-infused brownie hugging a thicc cookies-and-cream stripe. Tastes like an Oreo, looks like one too.\n\nEight in a box. Dangerously addictive. You have been warned. 🍪",
+      "headline": "The Oreo, but make it fudgy",
+      "cta": "Shop Now",
+      "why_it_works": "Nobody can tell how thick these are from a flat product shot, so stacking four whole slabs makes the depth and the eight-in-a-box value obvious in one glance.",
+      "visual_direction": "Four whole slabs stacked into an offset tower so the cookies-and-cream stripe repeats up the full height, with a fifth lying flat in front."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Don’t Be So Salty",
+      "product_url": "https://bwownies.com/products/don-t-be-so-salty",
+      "image_url": "/creatives/scroll-stopper/bwownies/ad-2.jpg",
+      "ai_image": true,
+      "price": 28.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Objection Crusher",
+      "visual_angle": "Feature Callout",
+      "claims_used": [
+        "our famous fudgy BWOWNIE base",
+        "home made thicccccc salted caramel",
+        "Each box contains 8 BWOWNIES"
+      ],
+      "copy_claims": [
+        "It all starts with two layers of our famous fudgy BWOWNIE base, sandwiched between our home made thicccccc salted caramel",
+        "Each box contains 8 BWOWNIES"
+      ],
+      "primary_text": "Worried it's just another dry, sad caramel brownie? Not on my watch.\n\nTwo layers of our famous fudgy base wrapped around a thicccccc stripe of homemade salted caramel that actually stretches when you bite it.\n\nRidiculously moreish, and eight of them come in every box.",
+      "headline": "The caramel does the talking",
+      "cta": "Shop Now",
+      "why_it_works": "The number one hesitation on a caramel treat is thin or fake filling, so pointing labels straight at the thick molten stripe crushes the doubt before the click.",
+      "visual_direction": "A side-on brownie on hot pink showing the thick amber caramel stripe, with three thin labels pointing to its key features."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Lets Go Nuts",
+      "product_url": "https://bwownies.com/products/lets-go-nuts",
+      "image_url": "/creatives/scroll-stopper/bwownies/ad-3.jpg",
+      "ai_image": true,
+      "price": 28.99,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "visual_angle": "Origin / Process",
+      "claims_used": [],
+      "copy_claims": [
+        "We have filled this fudgy BWOWNIE with a BANGIN Reeses Peanut Butter filling",
+        "Each box contains 8 BWOWNIES",
+        "Handmade in UK"
+      ],
+      "primary_text": "Confession time: this one is my personal favourite I have ever created.\n\nA fudgy brownie stuffed with a bangin peanut butter filling, hand-cut in the UK. Think Reese's cup, but the chocolate is brownie.\n\nEight to a box. Don't tell the others.",
+      "headline": "The one I can't stop making",
+      "cta": "Shop Now",
+      "why_it_works": "The founder openly calls this their favourite bake, so an honest hand-cut home kitchen shot lets that personal, made-by-hand story do the selling.",
+      "visual_direction": "A finished peanut butter brownie in the front of a kitchen bench with a fresh tray being hand-cut behind it."
+    }
+  ],
+  "generated_at": "2026-08-07T08:18:20.612Z"
+}
