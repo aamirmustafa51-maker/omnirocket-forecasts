@@ -1,0 +1,284 @@
+{
+  "lead_first_name": "Jo",
+  "lead_last_name": "",
+  "lead_email": "jo@thesugarcube.ca",
+  "lead_company": "The Sugar Cube",
+  "website": "https://sugarcubeyyc.com",
+  "brand_domain": "sugarcubeyyc.com",
+  "currency": "CAD",
+  "smartlead_campaign": "OR #4 | Ecom Leads | Scroll Stopper | NO Personlization",
+  "magnet": {
+    "kind": "scroll-stopper",
+    "report_url": "https://omnirocket-forecasts.vercel.app/scroll-stopper/the-sugar-cube",
+    "report_label": "Scroll-Stopper Sheet (the 3 ads we wrote them)",
+    "report_opens": 0,
+    "playbook_opens": 0,
+    "last_opened_at": "",
+    "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/the-sugar-cube",
+    "playbook_label": "Brand Playbook (their voice, customers, claims)"
+  },
+  "thread": [
+    {
+      "direction": "sent",
+      "from": "kyle.h@myomnirocket.com",
+      "to": "jo@thesugarcube.ca",
+      "subject": "made The Sugar Cube some ads",
+      "body_text": "hi Jo, spent a couple minutes on the The Sugar Cube site and honestly can't figure out why we're not already working together haha.\n\nbut that's not why I reached out. I handle Meta ads for ecom brands, and instead of sending a BS pitch, I built you some. (gotta provide value before anything)\n\nbuilt 3 ad concepts from The Sugar Cube's own products, plus a world-class brand playbook I pulled from your site and customer reviews. it's all done and waiting on my side.\n\nshould I send it over?\n\n- Kyle",
+      "sent_at": "2026-07-23T19:09:18.888Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@myomnirocket.com",
+      "to": "jo@thesugarcube.ca",
+      "subject": "RE: made The Sugar Cube some ads",
+      "body_text": "Jo - the part most brands react to isn't even the ads, it's the brand playbook. it lays out your voice, the exact language your customers use in reviews, and what you can and can't say in ad copy.\n\nit's all set to send alongside the mockups.\n\n want me to send both over?\n\n- Kyle",
+      "sent_at": "2026-07-28T19:45:53.050Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@myomnirocket.com",
+      "to": "jo@thesugarcube.ca",
+      "subject": "RE: made The Sugar Cube some ads",
+      "body_text": "hey Jo, a little while back I built 3 Meta ad mockups for The Sugar Cube using your own products, plus a badass brand playbook. they've just been waiting on my end.\n\nmost brands your size either haven't run paid social yet or boosted a few posts and called it a test. figured they'd be a solid starting point regardless.\n\nwant me to pass them along?\n\n- Kyle",
+      "sent_at": "2026-08-01T00:53:22.889Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@myomnirocket.com",
+      "to": "jo@thesugarcube.ca",
+      "subject": "RE: made The Sugar Cube some ads",
+      "body_text": "last one from me Jo\n\nthe ad mockups and brand playbook are still ready and waiting for The Sugar Cube. if it's not the right moment, totally fine. just say the word whenever and I'll send them over.\n\nand if someone else on your team runs the ads, send me their way and I'll share it with them instead.\n\neither way, best of luck with everything.\n\n- Kyle",
+      "sent_at": "2026-08-05T19:45:58.245Z"
+    },
+    {
+      "direction": "reply",
+      "from": "jo@thesugarcube.ca",
+      "to": "kyle.h@myomnirocket.com",
+      "subject": "",
+      "body_text": "Hi Kyle,\r\nYour persistence has me intrigued. \r\nAre you a social media company? Do you do SEO marketing?\r\nI have some availability Friday morning between 10&1. If that works for you, let me know and we can set up a time to chat.\r\nBest,\r\nJoline McKnight \r\nOwner/Operator \r\nThe Sugar Cube Waterloo",
+      "sent_at": "2026-08-05T21:17:58.000Z"
+    },
+    {
+      "direction": "sent",
+      "from": "kyle.h@myomnirocket.com",
+      "to": "jo@thesugarcube.ca",
+      "subject": "",
+      "body_text": "Hi Joline, appreciate you coming back to me.\n\n Quick answer: we're a performance marketing agency for ecom brands. Meta ads are our bread and butter, but we do also run Google ads, SEO, and email marketing. So yes on the SEO.\n\n Most brands start with us on one channel and add the others once it's working. I'd figure out on the call which one actually moves the needle for The Sugar Cube first.\n\n Friday at 12pm eastern works, so I went ahead and locked it in.\n\n Here's the link to join: https://us02web.zoom.us/j/85295429883 \n\n If that time stops working, here's my calendar and you can move it to anything that suits you better: https://calendly.com/kyle-hamar/30min \n\n Thanks,\n Kyle",
+      "sent_at": "2026-08-06T15:40:48.268+00:00"
+    }
+  ],
+  "facts": {
+    "product_count": 62,
+    "price_low": 3.5,
+    "price_high": 220,
+    "typical_price": 30,
+    "review_count": 0,
+    "instagram_followers": null,
+    "running_ads": 0
+  },
+  "copy": {
+    "tldr": "The Sugar Cube is a Calgary candy gifting brand with fun products but zero ads running and no visible reviews, so this call is about starting clean from their bestseller, not fixing a broken account.",
+    "deep_dive": {
+      "what_they_are": "A Calgary (YYC) candy and cotton candy gifting company. They sell curated sweet treats, CandyGrams, platters, and live event experiences. Note: Jo signed her email 'The Sugar Cube Waterloo', so ask early if there is a Waterloo location too. The website reads Calgary. Do not assume.",
+      "what_they_sell": "62 products from CAD 3.5 to CAD 220. Median price is CAD 30. I used that median as the stand-in for their average order value since we cannot see their real numbers. The range covers small impulse items (jelly beans at 3.5, cotton candy tubs at 5) up to big-ticket custom orders (Custom Regular CandyGrams at 220, Candy Platter at 175, Advent Calendars at 85 to 135).",
+      "positioning": "Playful but premium-feeling occasion gifting. Curated and customizable candy experiences, not bulk bin sweets. Their own line: 'pizza parties just aren't cuttin' it'.",
+      "who_buys": "Canadian gift-givers and event or office planners who want a fun, memorable way to celebrate birthdays, teams, and milestones without building it themselves. Two clear buckets: individual gifters and corporate/team buyers.",
+      "customer_voice": [],
+      "strengths": [
+        "Strong occasion and gifting structure already built on the site (gifts by occasion, by recipient, by price tier). This makes ad targeting angles easy to pick.",
+        "Timely, culture-aware products that are ready-made ad hooks: 'The Life Of A Showgirl' CandyGram, 'Dirty Soda' cotton candy tubs, Harry Potter Butterbeer treats. These ride trends people already talk about."
+      ],
+      "gaps": [
+        "No reviews visible anywhere on the site. There is no social proof to put in an ad, which makes cold traffic harder to convert.",
+        "No Meta ads found running. They are starting from zero, so there is no past data to learn from and no warm audience built yet."
+      ]
+    },
+    "game_plan": {
+      "headline": "Start with the Scroll-Stopper ads behind one proven gifting product, prove it can sell to cold traffic, then widen into corporate and seasonal.",
+      "phases": [
+        {
+          "window": "Days 1-30",
+          "goal": "Prove that paid ads can turn a stranger into a buyer at all. We are not chasing scale. We want one product and one audience that works.",
+          "campaigns": [
+            "One sales campaign on Meta with a small set of audiences (broad plus interest in gifting, birthdays, party planning).",
+            "A simple retargeting campaign for people who click but do not buy, so we do not waste the first clicks."
+          ],
+          "lead_products": [
+            "The Life Of A Showgirl Gigantic CandyGram (CAD 30) goes live first. Reason: it sits right at their median price, it is a giftable single item that is easy to buy on impulse, and it rides a current pop-culture wave people already search and talk about. That trend gives the ad a reason to stop the scroll without us needing reviews we do not have.",
+            "Backup lead if Jo says Showgirl is low stock or seasonal: the Mini Cotton Candy Tub (CAD 30) or the Curiosity Crate (CAD 40), both giftable and visual."
+          ],
+          "creative": "Run the 3 ads from the Scroll-Stopper Sheet we already sent. Lead with the one built around the strongest single gift item. Candy is visual, so we want short video or a bright carousel showing the product being opened or gifted. Because there are no reviews yet, the copy leans on the fun and the occasion, not on star ratings.",
+          "budget": "Start around CAD 150 a day.",
+          "what_success_looks_like": "We find at least one ad and one audience that brings in sales at a cost we are both happy with. Even a handful of clean sales here tells us what to pour money into next."
+        },
+        {
+          "window": "Days 31-60",
+          "goal": "Put more money behind whatever won in month one and widen the audience around it.",
+          "campaigns": [
+            "Scale the winning ad and audience with a bigger daily budget.",
+            "Add lookalike audiences built from month-one buyers and site visitors.",
+            "Turn on a light email flow for abandoned carts if they have email set up (confirm on call)."
+          ],
+          "lead_products": [
+            "Keep the month-one winner running. Add a second gift item that fits the same buyer, likely the Best Friends CandyGram Set (CAD 40) or the Large Sweet Stack (CAD 30), so we test which occasion angle pulls hardest."
+          ],
+          "creative": "Refresh the winning ad with 2 to 3 new versions so it does not go stale. Start collecting real customer photos or short clips from recent orders to use as proof, since we still have no reviews.",
+          "budget": "Step up toward CAD 250 to CAD 300 a day, only if month one earned it.",
+          "what_success_looks_like": "The winning setup holds up at higher spend and the return stays steady. We now have a repeatable play, not a lucky week."
+        },
+        {
+          "window": "Days 61-90",
+          "goal": "Scale the proven play and open a second, higher-value line: corporate gifting and the 2026 Advent Calendar presale.",
+          "campaigns": [
+            "Keep scaling the core gifting campaign.",
+            "Launch a separate campaign aimed at corporate and team buyers, pointing at the Corporate Gifting program and Team Appreciation collection.",
+            "Warm up an Advent Calendar presale campaign ahead of the holiday season using the presale discount signup as the offer."
+          ],
+          "lead_products": [
+            "Corporate Gifting program and Team Appreciation collection, because those orders are far larger than the CAD 30 median and can carry ad costs more comfortably.",
+            "Advent Calendar - Individual (CAD 85) and Family (CAD 135) presale, because these are high-ticket seasonal items and presale demand can be collected early."
+          ],
+          "creative": "Corporate ads use a different tone: less cheeky, more 'the easy, memorable team gift'. Advent ads use urgency and the presale discount. Keep the core gifting ads running as the steady base.",
+          "budget": "Hold or grow the core budget, plus a small separate test budget for corporate and Advent so they do not eat the proven campaign.",
+          "what_success_looks_like": "Two engines running: steady everyday gifting sales, plus a bigger-order channel (corporate and Advent) that lifts the average order size and total revenue."
+        }
+      ],
+      "estimates": [
+        {
+          "label": "Starting budget",
+          "value": "About CAD 150 a day",
+          "basis": "At typical costs in this category this buys roughly 30 to 40 clicks a day, which is about the floor needed to learn which ad and audience actually sells before we spend more."
+        },
+        {
+          "label": "Average order value used for planning",
+          "value": "CAD 30",
+          "basis": "We cannot see their real numbers, so I used the median price across their 62 products as a stand-in. Their real average could be higher once bigger custom, corporate, and Advent orders are counted."
+        },
+        {
+          "label": "Revenue we would aim to add",
+          "value": "A range we should only commit to after the call",
+          "basis": "Honest answer: with no ad history, no reviews, and a CAD 30 stand-in order value, any 90-day revenue number now would be a guess. Once we know their real average order value and profit per order (discovery), we can set a target return and give a range. Do not throw out a dollar figure on this call."
+        }
+      ],
+      "assumptions": [
+        "Their real average order value is at or above CAD 30. If most orders are the 3.5 to 5 impulse items, paid ads get much harder and the plan shifts toward pushing bundles and higher-value gifts.",
+        "They ship reliably across Canada, which the site says they do.",
+        "They have room in their margin to spend on ads on a CAD 30 order. We must confirm this.",
+        "The Showgirl CandyGram is in stock and not a one-off. If not, we lead with the Mini Cotton Candy Tub or Curiosity Crate.",
+        "They have basic email set up so retargeting and abandoned-cart flows are possible."
+      ],
+      "horizon_days": 90
+    },
+    "discovery": [
+      {
+        "name": "Qualify",
+        "questions": [
+          {
+            "question": "Are you running any paid ads right now, on Meta or anywhere else, or would this be your first time?",
+            "listening_for": "I could not find any live Meta ads. Listen for whether they have never tried, tried and stopped, or only boosted posts. 'We boosted a few posts' means no real test has happened yet, which is fine and matches our plan."
+          },
+          {
+            "question": "Who handles marketing for you today, is that you or someone on the team?",
+            "listening_for": "If it is Jo doing everything herself, she needs a done-for-you setup. If there is a team member, find out their skill level and get them on future calls."
+          },
+          {
+            "question": "When someone buys a typical gift from you, what does that order tend to come out to, and roughly what is left after the candy and packaging cost?",
+            "listening_for": "This is the most important answer on the call. I planned around a CAD 30 order value. If their real average is higher (corporate and custom orders lift it) the plan gets stronger. If margin is thin on a CAD 30 order, we lean toward bundles and bigger gifts."
+          },
+          {
+            "question": "Is The Sugar Cube one location or are Calgary and Waterloo both yours? Do you ship nationwide from one place?",
+            "listening_for": "Her email signed off 'Waterloo' but the site reads Calgary. Clear this up so Kyle does not sound like he does not know the business. Also tells us shipping reach."
+          }
+        ]
+      },
+      {
+        "name": "Diagnose",
+        "questions": [
+          {
+            "question": "When you get a sale today, where does it usually come from: word of mouth, Instagram, walk-ins, corporate clients?",
+            "listening_for": "Tells us who already loves them and which audience to copy first with ads. If it is mostly corporate, we may move that phase earlier."
+          },
+          {
+            "question": "I noticed there are no customer reviews on the site. Do you collect them anywhere, like Google, Instagram comments, or email?",
+            "listening_for": "Reviews are our biggest missing piece for cold ads. If she has praise sitting in DMs or emails, we can put real words and photos into ads fast. If there is nothing, we build a way to gather them."
+          },
+          {
+            "question": "Which products actually sell the most for you, and which ones make you the most money?",
+            "listening_for": "I picked the Showgirl CandyGram as the lead based on price and trend, but she knows the real bestseller. If she names a different one that also sits near CAD 30 and is giftable, we may lead with that instead."
+          },
+          {
+            "question": "Of the people who land on your site, do many add to cart and then not buy, or do they mostly not get that far?",
+            "listening_for": "Tells us if the problem is getting people there or getting them to check out. If carts get abandoned, retargeting and email matter more early."
+          },
+          {
+            "question": "How is your stock and your ability to make orders? If ads worked and sales doubled next month, could you keep up?",
+            "listening_for": "Custom and cotton candy items are made to order. We must not scale ads past what they can fulfill. Cotton candy also shrinks in humid shipping per their own note, so ask about complaints there."
+          }
+        ]
+      },
+      {
+        "name": "Expand",
+        "questions": [
+          {
+            "question": "Do you get corporate or bulk gift orders now, and would you want more of those?",
+            "listening_for": "This is a real Google search opening. People search things like 'corporate gift baskets Canada' and 'team appreciation gifts'. If she wants more corporate, Google ads and SEO on the corporate gifting pages are worth raising."
+          },
+          {
+            "question": "Do people ever find you by searching for things like 'candy gram Calgary' or 'cotton candy cake'?",
+            "listening_for": "Local and product searches exist for these terms. If she says yes, there is honest room for Google ads and SEO later. Do not push this in month one, Meta comes first."
+          },
+          {
+            "question": "Are you collecting emails from buyers and the Advent presale signups, and do you send anything to them?",
+            "listening_for": "The site already has an Advent presale signup. If she has a list she does not email, that is easy extra revenue with email marketing, which we also do."
+          }
+        ]
+      }
+    ],
+    "objections": [
+      {
+        "objection": "I have never run ads. How do I know they will even work for candy?",
+        "answer": "You do not know yet, and neither do I, so we start small on purpose. Month one is a cheap test at about CAD 150 a day to find one ad and one audience that sells. We only spend more once something proves it works. You are not betting big on day one."
+      },
+      {
+        "objection": "I do not have any reviews to show. Does that hurt the ads?",
+        "answer": "It makes it a bit harder, which is exactly why we lead with fun, visual products people already talk about, like the Showgirl CandyGram and the Dirty Soda tubs. And getting your happy customers to leave a quick review or send a photo is one of the first things we will set up, because it makes every ad after that work better."
+      },
+      {
+        "objection": "My average order is only about thirty dollars. Can ads even pay off on that?",
+        "answer": "That is the number I planned around and it is the honest risk, so let's look at your real margin together on this call. If a CAD 30 order is tight, we push bundles, gift sets, and your bigger corporate and Advent orders, which is where the real money is. The everyday gift ads bring people in, the bigger orders make it pay."
+      },
+      {
+        "objection": "You said you do SEO and Google too. I feel like you are trying to sell me everything.",
+        "answer": "Fair. We start with one channel, Meta, because that is where we can show you a result fastest. Google and SEO only make sense later, and only for things people actually search for like corporate gifts and candy grams near you. I will not push those until Meta is working."
+      }
+    ],
+    "red_flags": [
+      {
+        "flag": "No customer reviews anywhere on the site.",
+        "why_it_matters": "Cold ad traffic trusts strangers less. With no reviews to show, early ads have to work harder and may cost more per sale until we gather proof. Set expectations that month one is a test."
+      },
+      {
+        "flag": "Median product price is only CAD 30 and some items are as low as CAD 3.5.",
+        "why_it_matters": "Low order values make it hard for paid ads to pay off, because ad cost per sale can eat the profit. We must confirm real order value and margin before promising results, and we may need to push bundles and bigger orders."
+      },
+      {
+        "flag": "No Meta ads have ever run that we can find.",
+        "why_it_matters": "There is no past data and no warm audience. Everything starts from zero, so results build slower at first. This is normal but Jo should not expect big numbers in week one."
+      },
+      {
+        "flag": "Many products are made to order (custom CandyGrams, cotton candy, platters) and cotton candy shrinks in humid shipping per their own note.",
+        "why_it_matters": "If ads drive a surge, they must be able to make and ship it without quality or delivery complaints. Scaling ads past their fulfillment capacity would create refunds and bad word of mouth."
+      },
+      {
+        "flag": "Confusion over location: site says Calgary (YYC), Jo signs off 'Waterloo'.",
+        "why_it_matters": "Kyle needs to clear this up early or he will sound like he does not know the business. It also affects any local Google or SEO angle."
+      }
+    ],
+    "other_channel_openings": [
+      "Google ads for high-intent searches like 'corporate gift baskets Canada', 'candy gram', and 'cotton candy cake'. These are things people actively search for, so there is honest demand to capture later.",
+      "SEO on the corporate gifting pages and product pages, since they already have a corporate gifting guide and case studies that could rank for gifting searches.",
+      "Email marketing on their existing Advent presale signups and past buyers, which is low-cost revenue if they have a list they are not using. Only raise once we confirm a list exists."
+    ]
+  },
+  "generated_at": "2026-08-07T15:55:42.942Z"
+}
