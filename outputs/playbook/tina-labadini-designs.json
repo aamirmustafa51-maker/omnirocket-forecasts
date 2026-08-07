@@ -1,0 +1,157 @@
+{
+  "lead_company": "Tina Labadini Designs",
+  "lead_first_name": "Tina",
+  "website": "https://tinalabadini.com",
+  "brand_domain": "tinalabadini.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Whimsical hand-illustrated home goods and gifts - designer tea towels, aprons, totes, pillows, baby items, needlepoint kits, and desk calendars featuring original TLD art.",
+    "core_belief": "That everyday home and kitchen goods should carry original, whimsical art that makes seasons, holidays, and hobbies feel celebrated.",
+    "proof_points": [
+      "All designs are original TLD (Tina Labadini Designs) art, as stated on the 2027 Favorites Desk Calendar",
+      "Deep seasonal and thematic range - spring, summer, fall, winter plus farmhouse, nautical, lighthouses, sports, love/home series",
+      "Full holiday collections across Mother's Day, Father's Day, 4th of July, Halloween, Thanksgiving, Hanukkah, Christmas, and Valentine's Day",
+      "FREE shipping on orders over $75"
+    ],
+    "positioning": "Charming, artist-driven gift and home decor - personality-forward and hand-illustrated rather than mass-produced or minimalist."
+  },
+  "voice_pillars": [
+    {
+      "name": "Whimsical and Playful",
+      "desc": "Copy leans into charming, lighthearted art-first language rather than technical spec talk.",
+      "quote": "Designer Towels and 2026 Desk Calendars with Whimsical Art"
+    },
+    {
+      "name": "Season and Occasion Led",
+      "desc": "Everything is organized by season, theme, and holiday so shopping feels tied to a moment.",
+      "quote": "spring summer fall winter ... Mother's Day ... 4th of July ... Christmas ... Valentine's Day"
+    },
+    {
+      "name": "Artist Original",
+      "desc": "Frames products around the founder's own hand-drawn artwork as the differentiator.",
+      "quote": "2027 Favorites Desk Calendar with stand TLD original art"
+    },
+    {
+      "name": "Warm and Homey",
+      "desc": "Names and themes evoke kitchen, farmhouse, and home life in a friendly, cozy register.",
+      "quote": "farmhouse animals birds botanical dogs fish and sea life fruits kitchen theme"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "with Whimsical Art",
+      "TLD original art",
+      "three blue birds large tote",
+      "peonies in jar small tote",
+      "love love square pillow",
+      "so fresh so sweet so heavenly"
+    ],
+    "words": [
+      "whimsical",
+      "designer",
+      "farmhouse",
+      "nautical",
+      "lighthouses",
+      "botanical",
+      "illu-stated",
+      "original art"
+    ],
+    "avoid": [
+      "clinical",
+      "edgy",
+      "minimalist",
+      "mass-produced"
+    ]
+  },
+  "icp": "Gift-minded home decorators, typically women who love seasonal and holiday decorating, farmhouse and coastal charm, and one-of-a-kind hand-illustrated pieces for their kitchen, home, or as thoughtful gifts.",
+  "personas": [
+    {
+      "name": "Seasonal Decorator",
+      "description": "Refreshes her kitchen and home for every season and holiday - moved by new drops tied to spring, fall, Christmas, and Valentine's Day."
+    },
+    {
+      "name": "Thoughtful Gifter",
+      "description": "Shops for baby bibs, tea towels, and totes as charming, art-forward gifts - moved by 'give the perfect original gift' angles."
+    },
+    {
+      "name": "Crafty Hobbyist",
+      "description": "Loves needlepoint kits, canvases, and coastal/nautical themes - moved by hands-on, made-with-love creativity angles."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "\"sail way\" sailboat needlepoint stitch kit",
+      "role": "Hero / best-seller",
+      "price": 75
+    },
+    {
+      "title": "2027 Favorites Desk Calendar with stand TLD original art",
+      "role": "Core",
+      "price": 31
+    },
+    {
+      "title": "2027 Favorites Desk Calendar WITHOUT stand",
+      "role": "Core",
+      "price": 25.5
+    },
+    {
+      "title": "surfing santa mini zip",
+      "role": "Entry point",
+      "price": 17.88
+    }
+  ],
+  "offers": [
+    "FREE shipping on orders over $75",
+    "Desk calendar available with stand ($31) or without stand ($25.50)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Featuring original TLD artwork",
+        "source": "product name - 2027 Favorites Desk Calendar TLD original art"
+      },
+      {
+        "claim": "Designer towels and calendars with whimsical art",
+        "source": "homepage headline"
+      },
+      {
+        "claim": "FREE shipping on orders over $75",
+        "source": "site-wide announcement bar"
+      },
+      {
+        "claim": "Wide seasonal and holiday range across many product types",
+        "source": "homepage navigation"
+      },
+      {
+        "claim": "Needlepoint stitch kits, canvases, and accessories available",
+        "source": "homepage / needlepoint category"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Any 'anti-aging', 'repairs skin', or skincare benefit language",
+        "why": "Cosmetic structure/function claims - not applicable and unsupported; this brand sells art home goods, not cosmetics."
+      },
+      {
+        "claim": "'Clinically proven' quality or durability",
+        "why": "No study or test data present on the site - unqualified proof claim."
+      },
+      {
+        "claim": "'Made in USA' or origin claims",
+        "why": "No origin statement found on site - FTC origin claims must be substantiated."
+      },
+      {
+        "claim": "'Eco-friendly' or 'sustainable' materials",
+        "why": "FTC Green Guides - no sustainability substantiation shown on site."
+      },
+      {
+        "claim": "'Handmade' or 'hand-stitched' for all products",
+        "why": "Only 'original art' is stated; production method is not confirmed and would be an unsupported claim."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://tinalabadini.com/cdn/shop/files/logo_for_home_page_truck_with_flowers_50b3e1c7-ebb9-4e97-8897-e97b7a81cf61.png?v=1779155981",
+  "generated_at": "2026-08-07T08:23:15.253Z"
+}
