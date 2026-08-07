@@ -9,26 +9,26 @@
   "prospect_logo_url": "https://beiam.co/cdn/shop/files/logo_3.25.19_no_background.png",
   "concepts": [
     {
-      "product_index": 1,
-      "product_title": "Stainless Steel Core Series Necklace",
-      "product_url": "https://beiam.co/products/stainless-steel-core-series-necklace",
-      "image_url": "/creatives/scroll-stopper/beiam/ad-1.jpg",
+      "product_index": 3,
+      "product_title": "Brass Core Series Necklace",
+      "product_url": "https://beiam.co/products/brass-core-series-necklace",
+      "image_url": "/creatives/scroll-stopper/beiam/ad-3.jpg",
       "ai_image": true,
       "price": 84.99,
       "compare_at_price": null,
       "on_sale": false,
-      "angle_label": "Benefit-Forward",
-      "visual_angle": "Benefit Demo",
+      "angle_label": "Founder / Story",
+      "visual_angle": "Origin / Process",
       "claims_used": [],
       "copy_claims": [
-        "swap the stone core in seconds",
-        "hypoallergenic stainless steel snake chain"
+        "Cores are cut from real minerals like amethyst",
+        "ion plated gold snake chain runs through the top to hold the core"
       ],
-      "primary_text": "One necklace. A different stone whenever your mood shifts.\n\nSlide the chain out, tip the core out, drop a new one in and go about your day. Swap stones in seconds to match your mood, intention, or style.\n\nA hypoallergenic stainless steel snake chain comes with it, so it lives against your skin all day.",
-      "headline": "Change the stone, not the necklace",
+      "primary_text": "We wanted one piece that would change with you as you change in life.\n\nSo we machined a brass frame and cut a real amethyst core to sit inside it, held in place by the ion plated gold chain that runs straight through the top.\n\nSwap the core to match your outfit, your vibe, or carry a specific stone with you. Make it your own.",
+      "headline": "Machined frame, a real cut stone",
       "cta": "Shop Now",
-      "why_it_works": "The single most desirable thing about this piece is the moment of the swap, so we show that exact action instead of describing it.",
-      "visual_direction": "An open hand at a sunlit dressing table sliding the Labradorite core out of the slim steel pendant, with a second core resting on the oak beside it."
+      "why_it_works": "Only this brand can show a machined brass barrel with a hand-cut mineral core being assembled on a maker's bench, which is the structurally unique story no competitor can copy.",
+      "visual_direction": "The brass pendant resting on a jeweller's workbench beside a raw amethyst offcut, metal shavings and steel tweezers, showing how it was made."
     },
     {
       "product_index": 2,
@@ -59,26 +59,26 @@
       "visual_direction": "The matte black pendant lying on dark slate with its chain coiled beside it, and four thin labels pointing to the finish, chain, lengths and stone."
     },
     {
-      "product_index": 3,
-      "product_title": "Brass Core Series Necklace",
-      "product_url": "https://beiam.co/products/brass-core-series-necklace",
-      "image_url": "/creatives/scroll-stopper/beiam/ad-3.jpg",
+      "product_index": 1,
+      "product_title": "Stainless Steel Core Series Necklace",
+      "product_url": "https://beiam.co/products/stainless-steel-core-series-necklace",
+      "image_url": "/creatives/scroll-stopper/beiam/ad-1.jpg",
       "ai_image": true,
       "price": 84.99,
       "compare_at_price": null,
       "on_sale": false,
-      "angle_label": "Founder / Story",
-      "visual_angle": "Origin / Process",
+      "angle_label": "Benefit-Forward",
+      "visual_angle": "Benefit Demo",
       "claims_used": [],
       "copy_claims": [
-        "Cores are cut from real minerals like amethyst",
-        "ion plated gold snake chain runs through the top to hold the core"
+        "swap the stone core in seconds",
+        "hypoallergenic stainless steel snake chain"
       ],
-      "primary_text": "We wanted one piece that would change with you as you change in life.\n\nSo we machined a brass frame and cut a real amethyst core to sit inside it, held in place by the ion plated gold chain that runs straight through the top.\n\nSwap the core to match your outfit, your vibe, or carry a specific stone with you. Make it your own.",
-      "headline": "Machined frame, a real cut stone",
+      "primary_text": "One necklace. A different stone whenever your mood shifts.\n\nSlide the chain out, tip the core out, drop a new one in and go about your day. Swap stones in seconds to match your mood, intention, or style.\n\nA hypoallergenic stainless steel snake chain comes with it, so it lives against your skin all day.",
+      "headline": "Change the stone, not the necklace",
       "cta": "Shop Now",
-      "why_it_works": "Only this brand can show a machined brass barrel with a hand-cut mineral core being assembled on a maker's bench, which is the structurally unique story no competitor can copy.",
-      "visual_direction": "The brass pendant resting on a jeweller's workbench beside a raw amethyst offcut, metal shavings and steel tweezers, showing how it was made."
+      "why_it_works": "The single most desirable thing about this piece is the moment of the swap, so we show that exact action instead of describing it.",
+      "visual_direction": "An open hand at a sunlit dressing table sliding the Labradorite core out of the slim steel pendant, with a second core resting on the oak beside it."
     }
   ],
   "generated_at": "2026-08-07T07:31:05.177Z"
