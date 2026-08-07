@@ -1,0 +1,92 @@
+{
+  "lead_company": "Crafted Furniture",
+  "lead_first_name": "Christopher",
+  "website": "https://crafted.furniture",
+  "brand_domain": "crafted.furniture",
+  "currency": "USD",
+  "brand_voice_note": "Refined, editorial and craft-proud, framing heritage French silhouettes reimagined with tailored, sculptural confidence for the modern Australian home.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/crafted-furniture?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://crafted.furniture/cdn/shop/files/crafted-logo_black.svg?v=1722839253&width=600",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "Camille 3 Seat Sofa",
+      "product_url": "https://crafted.furniture/products/camille-3-seat-sofa",
+      "image_url": "/creatives/scroll-stopper/crafted-furniture/ad-1.jpg",
+      "ai_image": true,
+      "price": 5308,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "visual_angle": "Feature Callout",
+      "claims_used": [
+        "box-pleated skirt",
+        "high-end tailoring and soft curves",
+        "18th-century French Salon",
+        "reimagined with contemporary poise"
+      ],
+      "copy_claims": [
+        "reimagines the 18th-century French Salon for the modern home",
+        "box-pleated skirt",
+        "Customise dimensions, cushion fills and over 200 premium and luxury fabrics"
+      ],
+      "primary_text": "A classic profile, reimagined with contemporary poise.\n\nThe Camille reimagines the 18th-century French Salon for the modern home - high-end tailoring softened by gentle curves and finished with a crisp box-pleated skirt.\n\nCustomise the height, width, depth, fill and more, then choose from over 200 premium and luxury fabrics to create your dream sofa.",
+      "headline": "Tailored for the modern salon",
+      "cta": "Shop Now",
+      "why_it_works": "A 5,308 dollar sofa needs its design credentials stacked visibly before the click, and the callouts let the tailoring details justify the price inside the creative.",
+      "visual_direction": "The Camille sofa centred in a bright modern living room, with fine leader lines pointing to its tailoring, box-pleated skirt, and French-salon design cues."
+    },
+    {
+      "product_index": 2,
+      "product_title": "Camille Arm Chair",
+      "product_url": "https://crafted.furniture/products/camille-arm-chair-sofa",
+      "image_url": "/creatives/scroll-stopper/crafted-furniture/ad-2.jpg",
+      "ai_image": true,
+      "price": 2620,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Founder / Story",
+      "visual_angle": "Origin / Process",
+      "claims_used": [
+        "Proudly locally crafted here in Australia and though handpicked artisans across the globe",
+        "Frame Warranty: Limited 7 Year Warranty"
+      ],
+      "copy_claims": [
+        "Designed in Australia, produced by expert makers locally and around the world",
+        "Primary frame construction: Solid Wood",
+        "Working with leading designers, interior stylists and retail customers since 2015",
+        "box-pleated skirt"
+      ],
+      "primary_text": "Proudly locally crafted here in Australia and through handpicked artisans across the globe.\n\nThe Camille Arm Chair takes an 18th-century French Salon silhouette, a crisp box-pleated skirt and a solid wood frame, and reimagines it with contemporary poise.\n\nWe have been working with leading designers and interior stylists since 2015, and we don't place limits on your vision. Backed by a limited 7 year frame warranty.",
+      "headline": "Crafted by artisans, backed 7 years",
+      "cta": "Shop Now",
+      "why_it_works": "The box-pleat skirt, solid wood frame and 7 year warranty are a genuine craft story no mass retailer can copy, so showing the workshop earns the premium price instead of arguing for it.",
+      "visual_direction": "The Camille armchair in an Australian upholstery workshop, surrounded by the timber frame, fabric offcuts and tailoring tools that go into making it."
+    },
+    {
+      "product_index": 3,
+      "product_title": "Miller 3 Seat Sofa",
+      "product_url": "https://crafted.furniture/products/miller-3-seat-sofa",
+      "image_url": "/creatives/scroll-stopper/crafted-furniture/ad-3.jpg",
+      "ai_image": true,
+      "price": 5322,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Benefit-Forward",
+      "visual_angle": "Scale / Proof",
+      "claims_used": [],
+      "copy_claims": [
+        "260 cm of seamless curve",
+        "one single continuous full-length seat cushion",
+        "Solid wood primary frame construction",
+        "over 200 premium and luxury fabrics"
+      ],
+      "primary_text": "260 cm of seamless curve, one continuous seat, zero hard edges.\n\nThe Miller commands the room with a suave, sculptural presence - a low, floor-skimming silhouette built on a solid wood frame and shaped entirely from soft, sweeping arcs.\n\nDesigned in Australia and made your way, across dimensions, cushion fills and over 200 premium fabrics.",
+      "headline": "A sofa that fills the room",
+      "cta": "Shop Now",
+      "why_it_works": "The 260 cm length and single full-width cushion are the Miller's most striking, provable specs, so we stage the sheer scale physically to make the presence undeniable before the click.",
+      "visual_direction": "The full 260 cm terracotta Miller sofa shot wide and low in an almost empty warm-neutral room, with a floor lamp and a standing person beside it to show just how long and low it really is."
+    }
+  ],
+  "generated_at": "2026-08-07T08:54:24.654Z"
+}
