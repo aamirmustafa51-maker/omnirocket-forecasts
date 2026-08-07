@@ -1,0 +1,138 @@
+{
+  "brand": "PetPax",
+  "brand_slug": "petpax",
+  "first_name": "Anthony",
+  "website": "https://petpaxco.com",
+  "generated_date": "August 7, 2026",
+  "read_time_min": 3,
+  "total_ads": 21,
+  "niche": "dog wellness",
+  "tldr": "About 13 of your 21 live ads are running the exact same DentalMelts writeup word-for-word. Meta treats near-identical ads as one, so it quietly picks one and stops showing the rest, meaning you paid to build ads almost no one sees.",
+  "benchmark": {
+    "your_value_days": 14,
+    "category_median_days": 21,
+    "top_quartile_days": 14,
+    "context": "The typical brand ships a fresh ad every 3 weeks. The best brands your size ship one every 10 to 14 days, and yours needs to be closer to that because of how much copying is happening inside your active set."
+  },
+  "ads": [
+    {
+      "ad_number": 1,
+      "source_index": 2,
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different. A patent-pending dissolving strip that absorbs through your dog's mouth in under 90 seconds no stomach acid, no guessing, no mess. ✅ Only 5 active ingredients ✅ Vet-formulated & 3rd-party lab tested ✅ Fights bacteria, doesn't just mask it Dog parents are ditching bulky chews for this.",
+      "cta": "Shop now",
+      "fatigue_score": 94,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "This exact wording is copied word-for-word across roughly a dozen of your live DentalMelts ads right now.",
+        "Meta sees all those copies as basically one ad, so it picks one and quietly stops showing the others.",
+        "You are paying to make and run ads that almost no one is actually seeing."
+      ]
+    },
+    {
+      "ad_number": 2,
+      "source_index": 7,
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different. A patent-pending dissolving strip that absorbs through your dog's mouth in under 90 seconds no stomach acid, no guessing, no mess. ✅ Only 5 active ingredients ✅ Vet-formulated & 3rd-party lab tested ✅ Fights bacteria, doesn't just mask it Dog parents are ditching bulky chews for this.",
+      "cta": "Shop now",
+      "fatigue_score": 92,
+      "days_until_fatigue": 5,
+      "severity": "danger",
+      "drivers": [
+        "Same headline and same body as many of your other DentalMelts ads, competing against your own account.",
+        "The opening line 'Most dog dental products are 90% filler' is now the loudest thing in your account, drowning out every other product.",
+        "A dog owner scrolling could see three of these in a week and feel like PetPax only sells one thing."
+      ]
+    },
+    {
+      "ad_number": 3,
+      "source_index": 4,
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different. A patent-pending dissolving strip that absorbs through your dog's mouth in under 90 seconds no stomach acid, no guessing, no mess. ✅ Only 5 active ingredients ✅ Vet-formulated & 3rd-party lab tested ✅ Fights bacteria, doesn't just mask it Dog parents are ditching bulky chews for this.",
+      "cta": "Shop now",
+      "fatigue_score": 90,
+      "days_until_fatigue": 6,
+      "severity": "danger",
+      "drivers": [
+        "This one shares its wording with a stack of near-twins, so most of your DentalMelts budget is fighting itself.",
+        "The body copy has no line break for over 60 words, so on a phone it looks like a wall a shopper skips.",
+        "There is no offer, no price, and no proof number, so nothing pushes someone to click today instead of never."
+      ]
+    },
+    {
+      "ad_number": 4,
+      "source_index": 9,
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different. A patent-pending dissolving strip that absorbs through your dog's mouth in under 90 seconds no stomach acid, no guessing, no mess. ✅ Only 5 active ingredients ✅ Vet-formulated & 3rd-party lab tested ✅ Fights bacteria, doesn't just mask it Dog parents are ditching bulky chews for this.",
+      "cta": "Shop now",
+      "fatigue_score": 88,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "A near-identical twin exists in the same week, sending you to the exact same page.",
+        "'Patent-pending dissolving strip' is your best selling point but it is buried on line 3 where most viewers never reach.",
+        "Nothing here tells a first-time visitor what a DentalMelt actually looks like or how it goes in the dog's mouth."
+      ]
+    },
+    {
+      "ad_number": 5,
+      "source_index": 15,
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different. A patent-pending dissolving strip that absorbs through your dog's mouth in under 90 seconds no stomach acid, no guessing, no mess. ✅ Only 5 active ingredients ✅ Vet-formulated & 3rd-party lab tested ✅ Fights bacteria, doesn't just mask it Dog parents are ditching bulky chews for this.",
+      "cta": "Shop now",
+      "fatigue_score": 86,
+      "days_until_fatigue": 7,
+      "severity": "danger",
+      "drivers": [
+        "This ad points to your award page while its twins point to the product page, splitting the same audience across two paths.",
+        "Two separate pages means Meta is learning from half the data it could be, so it takes longer to find your best buyers.",
+        "Anyone who sees both versions in a week gets a jumbled brand story, not a stronger one."
+      ]
+    }
+  ],
+  "ads_compact": [
+    {
+      "headline": "Calm Dogs Start Here",
+      "body": "Your dog doesn't have to shake through every car ride or storm. ZenMelts are vet-formulated calming chews that actually work.",
+      "fatigue_score": 62,
+      "days_until_fatigue": 18
+    },
+    {
+      "headline": "Calmer Car Rides Start Here",
+      "body": "🚗 Whining, pacing, shaking on car rides? ZenMelts offer quick-absorbing calm support to help make travel easier for everyone.",
+      "fatigue_score": 58,
+      "days_until_fatigue": 22
+    },
+    {
+      "headline": "Fresh Breath, Healthier Teeth",
+      "body": "Most dog dental products are 90% filler, 10% results. DentalMelts are different...",
+      "fatigue_score": 84,
+      "days_until_fatigue": 8
+    }
+  ],
+  "hero_concept": {
+    "concept_name": "The Pack T-Shirt Founder Story",
+    "format": "Single image",
+    "hook": "The shirt we wear on every pack walk.",
+    "headline": "Made For Dog People",
+    "primary_text": "Every DentalMelt and ZenMelt starts the same way: a walk with our own dogs, arguing about what to try next.\n\nThis is the shirt we wear on those walks. Soft cotton, unisex fit, the PetPax paw across the chest so other dog people know you're one of them.\n\nFree shipping on any order over $40. Add one to your next box.",
+    "cta": "Shop Now",
+    "visual_direction": "The tee laid flat on a wooden bench next to a leash, a tennis ball, and a bag of DentalMelts, shot from above in soft morning light.",
+    "fills_gap": "Right now every single ad you run sells DentalMelts or ZenMelts, so your account has no way to show shoppers there is a real brand behind the products. A still image of a shirt breaks the wall of talking-head videos and gives a low-price way to get people onto your site who are not ready to buy chews yet.",
+    "image_prompt": "A photorealistic editorial product photograph featuring the product from the reference image, styled in a flat-lay on a warm wooden bench beside a leather leash, a well-loved tennis ball, and a small pouch of dog treats, with soft natural morning light coming from the upper left casting gentle shadows. Warm, earthy, dog-owner-at-home aesthetic that feels lived-in and honest rather than studio-perfect. Square 1:1 composition with breathing room top and bottom for ad text overlay. CRITICAL - preserve the exact colorway of the short-sleeve unisex cotton t-shirt as shown in the reference image AND every printed graphic, logo, and text element on the garment exactly as printed, strictly NO color shift, NO fabric-tone drift, NO recoloring of the print, NO removing of the print, NO changing print placement. STRUCTURE - preserve the exact construction: standard crew neckline, short sleeves ending at mid-bicep, straight unisex regular fit, single-piece body with side seams, printed brand label at the back of the neck if visible, and PRESERVE the front chest printed graphic exactly as shown including every illustration, every word of text, every color, and the same size and placement on the chest. Do NOT add a pocket, do NOT change to a V-neck or henley, do NOT alter sleeve length to long or cap, do NOT change to a fitted or cropped silhouette, do NOT remove the chest print, do NOT redraw or restyle the graphic, do NOT change the graphic's colors, do NOT relocate the print. Render the product's fabric, weave, color, printed graphics AND every visible construction detail (silhouette, neckline, sleeves, printed graphics) EXACTLY as they appear in the reference image. Do NOT change the color, do NOT shift the color temperature, do NOT introduce tones not present in the reference, do NOT add or remove any hardware, do NOT alter the silhouette, do NOT remove or modify printed graphics or text on the garment. IMPORTANT: the 'no text' and 'no logos' items in the NEGATIVE list below apply ONLY to text or logos added as overlay to the photograph itself - text, logos, graphics, prints, and brand labels that exist ON the product in the reference image are part of the product and must be preserved exactly. Premium commerce photography quality. NEGATIVE: no overlay text added to the photograph, no overlay logos added to the photograph, no watermarks, no UI elements, no Facebook interface, no clickable buttons, no faces, no models, no collage, no borders, no duplicate products, no color shift, no metal swap, no silver-to-gold or gold-to-silver conversion, no warm-tone bias on cool metals, no recoloring of fabric or stones, no pattern modifications, no removing or replacing the product's printed graphics, no extra hardware not present in reference, no added pockets or pleats, no silhouette alterations, no design modifications.",
+    "reference_title": "Short-Sleeve Unisex T-Shirt",
+    "reference_url": "https://petpaxco.com/products/short-sleeve-unisex-t-shirt",
+    "image_path": "/creatives/petpax/hero-mockup.jpg"
+  },
+  "next_step": {
+    "urgency": "Roughly half your live ads are the same DentalMelts script and will be near-invisible inside the next week or two.",
+    "headline": "Walk through the PetPax refresh plan with Kyle",
+    "body": "Anthony, in this 30 min call, we'll map out:\n• 3 customer avatars at your price point\n• The motivational hook driving each\n• A 30-day creative + spend roadmap (to outbeat your current ROAS)\n\nYours to keep - work with us or don't.",
+    "calendly_url": "https://calendly.com/kyle-hamar/30min"
+  },
+  "prepared_by": "Prepared by Kyle Hamar - OmniRocket",
+  "method_note": "Based only on your public Facebook and Instagram ads, the pictures, the words, and how long each one has been running. No access to your account or private numbers.",
+  "logodev_token": "pk_ZezWvcllSnOBRBeLqqlx6g",
+  "prospect_logo_url": "https://petpaxco.com/cdn/shop/files/PetPax_Co_LOGO_f5062dbe-0764-4c8f-b219-7366fa2e0f4f.png?v=1767064388&width=32"
+}
