@@ -1,0 +1,167 @@
+{
+  "lead_company": "PetPax",
+  "lead_first_name": "Anthony",
+  "website": "https://petpaxco.com",
+  "brand_domain": "petpaxco.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Fast-dissolving oral melt supplements and wellness products for dogs - SupplaMelts for calm and dental care.",
+    "core_belief": "Not a treat, a smarter way to support your dog's health - founded by two dog dads who couldn't find something better, so they made it.",
+    "proof_points": [
+      "2026 Purina Pet Care Innovation Prize Grand Prize winner at Global Pet Expo",
+      "Human grade ingredients, formulated with vets and pet nutrition experts",
+      "Made in a cGMP-compliant, SQF (Safe Quality Foods) facility with every batch verified by a 3rd party lab in Cambridge, Massachusetts",
+      "Free shipping over $50; biodegradable miniPax and recyclable cardboard packaging"
+    ],
+    "positioning": "Premium, innovation-led alternative to pills, powders, and chews - cleaner ingredients in an easier daily format."
+  },
+  "voice_pillars": [
+    {
+      "name": "Effortless & Simple",
+      "desc": "They frame every product around removing hassle from daily dog care, leading with ease over complexity.",
+      "quote": "No Pills. No Powders. Just Fast-Dissolving Melts."
+    },
+    {
+      "name": "Science-Backed",
+      "desc": "They ground claims in named ingredients, vet input, and lab testing to build credibility.",
+      "quote": "Every ingredient we use is deliberate and has been chosen for their scientifically proven benefits."
+    },
+    {
+      "name": "Warm Dog-Parent",
+      "desc": "They write like obsessed pet parents talking to other pet parents, playful and affectionate.",
+      "quote": "We handle the science. You handle the snuggles!"
+    },
+    {
+      "name": "Playfully Cheeky",
+      "desc": "They use humor and dog puns to keep a light, personable tone across product copy.",
+      "quote": "Minimal effort. Maximum tail wags."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "The invisible toothbrush",
+      "no toothbrush battles, no messy powders, and no stress",
+      "help your dog find their chill",
+      "calm on a strip",
+      "Keep Tails Wagging",
+      "chill vibes only"
+    ],
+    "words": [
+      "Melts",
+      "calm",
+      "fresh breath",
+      "fast-acting",
+      "clean ingredients",
+      "human grade",
+      "fur babies",
+      "pawrents"
+    ],
+    "avoid": [
+      "clinical/sterile medical tone",
+      "guarantees",
+      "fear-mongering",
+      "generic corporate jargon"
+    ]
+  },
+  "icp": "Devoted, obsessed dog parents who want cleaner, science-backed wellness for their pups but hate the mess and struggle of brushing, pills, and powders.",
+  "personas": [
+    {
+      "name": "Anxious-Pup Parent",
+      "description": "Owner of a dog with separation anxiety or storm/travel jitters who wants fast, natural calm support without pills or extra calories."
+    },
+    {
+      "name": "Fresh-Breath Seeker",
+      "description": "Owner tired of brushing battles and bad-breath dogs who wants an easy daily oral care routine - moved by the 'invisible toothbrush' angle."
+    },
+    {
+      "name": "Clean-Label Believer",
+      "description": "Health-conscious pet parent who reads labels and buys on human grade ingredients, vet formulation, and 3rd party lab testing."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Calm & Fresh Bundle - Dental & Zen Melts + Chew Bone",
+      "role": "Hero / best-seller",
+      "price": 34.99
+    },
+    {
+      "title": "DentalMelts: 5 in 1 breath freshening strips for dogs",
+      "role": "Core",
+      "price": 33.75
+    },
+    {
+      "title": "ZenMelts calming support for Dogs: 4-in-1 fast acting melts",
+      "role": "Entry point",
+      "price": 16.99
+    },
+    {
+      "title": "PetPax Co. Black Tennis Ball for Dogs – Durable Rubber Squeaky Ball for Fetch, Training & Play (3 pack)",
+      "role": "Core",
+      "price": 23.95
+    }
+  ],
+  "offers": [
+    "Free shipping on orders $49/$50 or more",
+    "Free Bone with 60 and 90 Melt sizes",
+    "Bundle & Save - Calm & Fresh Bundle at $34.99",
+    "Subscription option with shipping on us plus surprise gifts in random orders",
+    "Multi-size tiers (30/60/90 Melts) for single and multi-dog homes"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Fast-dissolving melts with no pills, no powders, no extra calories",
+        "source": "ZenMelts product page and homepage"
+      },
+      {
+        "claim": "Human grade ingredients, formulated with the help of vets and pet nutrition experts",
+        "source": "About page and FAQ"
+      },
+      {
+        "claim": "Made in a cGMP-compliant, SQF facility with every batch 3rd party lab verified",
+        "source": "FAQ"
+      },
+      {
+        "claim": "Contains science-backed ingredients like chamomile, L-tryptophan, and L-theanine (Zen) and spirulina, sage, parsley, ACV (Dental)",
+        "source": "ZenMelts and DentalMelts product pages"
+      },
+      {
+        "claim": "2026 Purina Pet Care Innovation Prize Grand Prize winner",
+        "source": "Homepage and blog"
+      },
+      {
+        "claim": "Biodegradable miniPax and recyclable cardboard packaging",
+        "source": "FAQ"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Cures or treats dog anxiety or separation anxiety",
+        "why": "Disease claim - supplements may only say 'promotes calm' or 'supports healthy stress relief', not treat/cure a condition."
+      },
+      {
+        "claim": "Treats or prevents periodontal or dental disease",
+        "why": "Disease claim - use 'supports oral health' and 'freshens breath', not treatment of a diagnosed disease."
+      },
+      {
+        "claim": "Clinically proven to support your dog's health",
+        "why": "The FAQ uses 'clinically proven' with no cited study - 'clinically proven' is banned without a cited study."
+      },
+      {
+        "claim": "Freshen breath instantly / calm in seconds guaranteed",
+        "why": "Specific timeline to a health outcome and implied guarantee are banned for this category."
+      },
+      {
+        "claim": "Boosts immunity to prevent illness",
+        "why": "Implying disease prevention is a disease claim; keep to structure/function language only."
+      },
+      {
+        "claim": "Testimonials stating melts fixed a dog's separation anxiety",
+        "why": "Testimonials implying a disease benefit are treated as disease claims under the compliance rules."
+      }
+    ]
+  },
+  "standalone": true,
+  "generated_at": "2026-08-07T08:44:16.668Z"
+}
