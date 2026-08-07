@@ -1,0 +1,169 @@
+{
+  "lead_company": "Beiam",
+  "lead_first_name": "Zack",
+  "website": "https://beiam.co",
+  "brand_domain": "beiam.co",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Modular, interchangeable jewelry and accessories built around a handcrafted Frame plus swappable Core stones.",
+    "core_belief": "Be I Am - a reminder to be yourself. Jewelry that evolves with you so you can express your ever-changing, fluid uniqueness.",
+    "proof_points": [
+      "Handcrafted Cores made from minerals, gems and woods",
+      "Modular system - core, frame and chain each swap out in seconds",
+      "Small, independent business based in CT",
+      "Hypoallergenic ion-plated and stainless steel, brass and .925 Sterling Silver options"
+    ],
+    "positioning": "Meaningful, high-quality, customizable jewelry for self-expression - not fast-fashion accessories, but enduring daily companions."
+  },
+  "voice_pillars": [
+    {
+      "name": "Reflective and Grounding",
+      "desc": "Ties every product back to identity, presence and daily ritual rather than surface style.",
+      "quote": "More than jewelry, Beiam is about presence, self-expression, and daily ritual."
+    },
+    {
+      "name": "Change-Friendly",
+      "desc": "Frames the product as something that adapts alongside the wearer through life's stages.",
+      "quote": "Jewelry that evolves with you"
+    },
+    {
+      "name": "Inclusive and Personal",
+      "desc": "Speaks to diverse people and hands the wearer full control over their combination.",
+      "quote": "compliment humans of diverse backgrounds and identities"
+    },
+    {
+      "name": "Craft-Confident",
+      "desc": "States the making and quality plainly without hype or superlatives.",
+      "quote": "We make Cores by hand, using a variety of materials such as minerals, gems and woods."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Swap stones in seconds to match your mood, intention, or style",
+      "match your outfit/vibe or carry a specific stone with you for their other properties",
+      "The Core Series Necklace changes with you as you change in life",
+      "It's a great companion along the way",
+      "make it their own",
+      "Hundreds of combinations of Cores, metals, finishes and designs to choose from"
+    ],
+    "words": [
+      "modular",
+      "Core",
+      "Frame",
+      "interchangeable",
+      "handcrafted",
+      "evolve",
+      "companion",
+      "ritual"
+    ],
+    "avoid": [
+      "loud hype",
+      "disposable",
+      "trendy",
+      "generic"
+    ]
+  },
+  "icp": "Self-aware, expressive adults who value meaning and craftsmanship, want jewelry they can customize to their mood or intention, and buy pieces meant to last and evolve with them.",
+  "personas": [
+    {
+      "name": "The Intentional Wearer",
+      "description": "Values crystals and stone meaning and daily ritual; moved by the ability to carry a specific stone with them and swap it as their intention shifts."
+    },
+    {
+      "name": "The Self-Expressive Individualist",
+      "description": "Wants pieces that reflect a unique identity; moved by 'Be I Am' and hundreds of combinations to make it their own."
+    },
+    {
+      "name": "The Gift Giver",
+      "description": "Buying a meaningful, lasting piece for someone who values authenticity; moved by the modular, personalize-it angle and gift credit policy."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Keycaps",
+      "role": "Hero / best-seller",
+      "price": 29.99
+    },
+    {
+      "title": "Memory Core Kit",
+      "role": "Premium",
+      "price": 94.99
+    },
+    {
+      "title": "Memory Core",
+      "role": "Entry point",
+      "price": 29.99
+    },
+    {
+      "title": "Stainless Steel Core Series Necklace",
+      "role": "Core",
+      "price": 84.99
+    }
+  ],
+  "offers": [
+    "Free Shipping Over $80 (site banner)",
+    "$5 flat rate shipping in the United States; free flat rate over $70 and free USPS Priority/UPS Ground over $120 (shipping policy)",
+    "Returns accepted up to 30 days after delivery if unused and in original condition",
+    "International and worldwide shipping",
+    "Create Your Own necklaces and keycaps (full customization)",
+    "Newsletter signup for new products and blog posts"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Modular design - swap the Core, Frame and chain to change your look in seconds.",
+        "source": "homepage / product page"
+      },
+      {
+        "claim": "Cores are handcrafted from minerals, gems and woods.",
+        "source": "homepage"
+      },
+      {
+        "claim": "Hypoallergenic ion-plated and stainless steel construction.",
+        "source": "product page (Black/Stainless Core Series)"
+      },
+      {
+        "claim": "Free shipping on orders over $80.",
+        "source": "site banner / shipping policy"
+      },
+      {
+        "claim": "Returns accepted up to 30 days after delivery in original condition.",
+        "source": "refund policy"
+      },
+      {
+        "claim": "The Valkyrie is 3D printed and cast in .925 Sterling Silver and brass.",
+        "source": "product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "The best modular jewelry in the world / #1 modular necklace.",
+        "why": "FTC - unqualified superlative that cannot be substantiated."
+      },
+      {
+        "claim": "Carrying this stone will heal, protect or improve your health.",
+        "why": "FTC substantiation - unprovable health/metaphysical benefit; keep stone 'properties' language descriptive, not a claim."
+      },
+      {
+        "claim": "Lasts a lifetime, guaranteed.",
+        "why": "FTC - guaranteed-results claim; site only says 'last for a lifetime if cared for', so keep the qualifier."
+      },
+      {
+        "claim": "Only 3 left - order in the next 10 minutes!",
+        "why": "Compliance - fake urgency not supported by real inventory data."
+      },
+      {
+        "claim": "Rated 5 stars by hundreds of happy customers.",
+        "why": "FTC - invented review counts; no customer reviews were found."
+      },
+      {
+        "claim": "100% sustainable / eco-friendly jewelry.",
+        "why": "FTC Green Guides - unqualified sustainability claim with no supporting evidence on site."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://beiam.co/cdn/shop/files/logo_3.25.19_no_background.png",
+  "generated_at": "2026-08-07T07:28:01.514Z"
+}
