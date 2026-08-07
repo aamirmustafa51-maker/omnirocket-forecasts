@@ -1,0 +1,152 @@
+{
+  "lead_company": "Connect Roasters",
+  "lead_first_name": "Caleb",
+  "website": "https://connectroasters.com",
+  "brand_domain": "connectroasters.com",
+  "currency": "USD",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Specialty coffee roaster selling small-batch blends and single origins, often tied to pro athlete and cause-driven collaborations.",
+    "core_belief": "Coffee is a way to connect people and give back - blends are built with partners and benefit causes like Kingdom Home.",
+    "proof_points": [
+      "Athlete collaboration blends (Gold Glove Blend with Ian Happ, Hope Blend with Matthew Boyd) plus the Morale Supply Co. partnership",
+      "Cause tie-ins: Hope Blend benefits Kingdom Home",
+      "Single-origin offerings such as Dominican Ramirez",
+      "Published shipping and refund policies"
+    ],
+    "positioning": "Accessible, story-first specialty coffee (blends $16-$20) built on real partnerships rather than a purely premium or commodity play."
+  },
+  "voice_pillars": [
+    {
+      "name": "Partnership-Driven",
+      "desc": "They lead with named collaborators, putting real people and teams at the center of each blend.",
+      "quote": "Gold Glove Blend // Connect Roasters with Ian Happ"
+    },
+    {
+      "name": "Cause-Minded",
+      "desc": "They frame products around giving back and supporting a specific mission.",
+      "quote": "Hope Blend x Matthew Boyd | Benefiting Kingdom Home"
+    },
+    {
+      "name": "Straight-Talking",
+      "desc": "They speak plainly and directly to shoppers, even flagging the fine print out loud.",
+      "quote": "Black Pocket T-Shirt (PLEASE READ)"
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Gold Glove Blend",
+      "Morale Blend",
+      "Hope Blend",
+      "Benefiting Kingdom Home",
+      "Champion Coffee Mug",
+      "Dominican Ramirez"
+    ],
+    "words": [
+      "blend",
+      "roasters",
+      "connect",
+      "hope",
+      "morale",
+      "champion",
+      "benefiting",
+      "single origin"
+    ],
+    "avoid": [
+      "clinical wellness jargon",
+      "luxury snobbery",
+      "hype-heavy superlatives",
+      "vague buzzwords"
+    ]
+  },
+  "icp": "Sports fans and cause-conscious coffee drinkers who buy blends tied to athletes and charities they care about, valuing the story and mission as much as the cup.",
+  "personas": [
+    {
+      "name": "The Team Loyalist",
+      "description": "A baseball and sports fan who buys athlete-collab blends like Gold Glove or Morale to support players they follow."
+    },
+    {
+      "name": "The Give-Back Buyer",
+      "description": "A values-driven shopper moved by cause tie-ins like Hope Blend benefiting Kingdom Home."
+    },
+    {
+      "name": "The Everyday Explorer",
+      "description": "A curious coffee drinker who wants approachable blends and single origins like Dominican Ramirez without a premium price tag."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "Hope Blend x Matthew Boyd | Benefiting Kingdom Home",
+      "role": "Hero / best-seller",
+      "price": 20
+    },
+    {
+      "title": "Gold Glove Blend",
+      "role": "Core",
+      "price": 16
+    },
+    {
+      "title": "INVENTORY CLEARANCE Connect Roasters Champion Coffee Mug Crewneck",
+      "role": "Premium",
+      "price": 25
+    },
+    {
+      "title": "INVENTORY CLEARANCE Black Pocket T-Shirt (PLEASE READ)",
+      "role": "Entry point",
+      "price": 5
+    }
+  ],
+  "offers": [
+    "Published shipping policy",
+    "Published refund policy",
+    "Inventory clearance items (Champion Coffee Mug Crewneck $25, Black Pocket T-Shirt $5)"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Hope Blend benefits Kingdom Home",
+        "source": "product catalog / product title"
+      },
+      {
+        "claim": "Gold Glove Blend made in collaboration with Ian Happ",
+        "source": "product pages"
+      },
+      {
+        "claim": "Hope Blend made in collaboration with Matthew Boyd",
+        "source": "product catalog"
+      },
+      {
+        "claim": "Dominican Ramirez single-origin coffee available",
+        "source": "product page"
+      },
+      {
+        "claim": "Shipping and refund policies published on site",
+        "source": "policy pages"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Drinking this coffee boosts your immunity",
+        "why": "Banned immunity claim under health-claim rules for food and beverage."
+      },
+      {
+        "claim": "This blend helps burn fat or aids weight loss",
+        "why": "Banned fat-burning / weight-loss health claim."
+      },
+      {
+        "claim": "A daily detox in every cup",
+        "why": "Unqualified 'detox' claim is banned."
+      },
+      {
+        "claim": "Treats or prevents any disease or condition",
+        "why": "Disease-treatment claims are prohibited for food and beverage."
+      },
+      {
+        "claim": "All-natural, clean coffee",
+        "why": "'Natural' and 'clean' are vague, risky headline claims and unsupported by the label."
+      }
+    ]
+  },
+  "standalone": false,
+  "generated_at": "2026-08-07T17:06:43.755Z"
+}
