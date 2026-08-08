@@ -1,0 +1,87 @@
+{
+  "lead_company": "Pizza Girl",
+  "lead_first_name": "Rebecca",
+  "website": "https://www.pizzagirl.com",
+  "brand_domain": "pizzagirl.com",
+  "currency": "USD",
+  "brand_voice_note": "Cheeky, founder-forward and warm, claiming her nickname with playful confidence while tying every promise back to real pizza and real ingredients.",
+  "playbook_url": "https://omnirocket-forecasts.vercel.app/playbook/pizza-girl?ref=email&magnet=playbook",
+  "prospect_logo_url": "https://www.pizzagirl.com/cdn/shop/files/pizzagirl-2020-writtenlogo_3x_f8885d85-0763-44d3-a7d8-606d726ce935.png?v=1613002002&width=500",
+  "concepts": [
+    {
+      "product_index": 1,
+      "product_title": "THE PIZZA GIRL PIZZA GRILL - PG PINK",
+      "product_url": "https://www.pizzagirl.com/products/pizza-girl-pizza-grill",
+      "image_url": "/creatives/scroll-stopper/pizza-girl/ad-1.jpg",
+      "ai_image": true,
+      "price": 199,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Problem / Solution",
+      "visual_angle": "Benefit Demo",
+      "claims_used": [],
+      "copy_claims": [
+        "make your perfect pizza in under 5 minutes",
+        "top and bottom heating elements plus a ceramic stone base",
+        "Dual heating controls for a crispy or chewy bottom and bubbly top"
+      ],
+      "primary_text": "Say goodbye to sad, rubbery oven pizza.\n\nMy Pizza Grill has top and bottom heating elements plus a ceramic stone base, so you get your perfect pizza in under 5 minutes with minimal effort.\n\nDual heating controls mean crispy or chewy on the bottom and bubbly on top. Fresh, hot, real pizza - no more cold takeaway. 🍕",
+      "headline": "Real pizza in under 5 minutes",
+      "cta": "Shop Now",
+      "why_it_works": "The pink oven's whole reason to exist is fixing bad home pizza, so showing the sad-vs-perfect result in one frame lands the promise harder than any pretty product shot.",
+      "visual_direction": "The open pink grill on a kitchen counter with a hot bubbly pizza on its stone beside a sad, limp oven-baked slice on a plate."
+    },
+    {
+      "product_index": 3,
+      "product_title": "KIDS - Pink Corduroy Team Pizza Girl Cap",
+      "product_url": "https://www.pizzagirl.com/products/kids-pink-corduroy-team-pizza-girl-cap",
+      "image_url": "/creatives/scroll-stopper/pizza-girl/ad-3.jpg",
+      "ai_image": true,
+      "price": 26.5,
+      "compare_at_price": null,
+      "on_sale": false,
+      "angle_label": "Occasion / Seasonal",
+      "visual_angle": "Origin / Process",
+      "claims_used": [],
+      "copy_claims": [
+        "kids favorite"
+      ],
+      "primary_text": "Team Pizza Girl has a new littlest member.\n\nSoft pink corduroy, a slouchy fit and 'Pizza Girl' stitched right across the front - a pizza kids favorite.\n\nBecause pizza night is a whole-family thing, and now they can look the part too.",
+      "headline": "For your tiniest pizza chef",
+      "cta": "Shop Now",
+      "why_it_works": "The cap is the only kids item, so leaning on the family pizza-night moment with a warm detail-led shot of the corduroy craft sells the team feeling rather than performance.",
+      "visual_direction": "The pink corduroy kids cap resting on a maker's workbench beside black thread, scissors and matching corduroy scraps in soft window light."
+    },
+    {
+      "product_index": 4,
+      "product_title": "PIZZA GIRL STARTER KIT",
+      "product_url": "https://www.pizzagirl.com/products/pizza-girl-starter-kit",
+      "image_url": "/creatives/scroll-stopper/pizza-girl/ad-4.jpg",
+      "ai_image": true,
+      "price": 279,
+      "compare_at_price": 330,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "visual_angle": "Feature Callout",
+      "claims_used": [
+        "Our amazing counter top oven",
+        "Bamboo pizza peel",
+        "Rose gold pizza cutter",
+        "A Pizza Girl apron"
+      ],
+      "copy_claims": [
+        "everything in one starter kit",
+        "includes free semi circle pizza paddles",
+        "a bamboo pizza peel, scraper and rose gold pizza cutter",
+        "a Pizza Girl apron",
+        "free shipping"
+      ],
+      "primary_text": "Not sure you've got everything you need? You do now.\n\nThe Starter Kit is the oven plus free paddles, a bamboo peel, scraper, rose gold cutter and an apron - the whole setup in one box.\n\nFree shipping too.",
+      "headline": "The whole pizza setup, sorted",
+      "cta": "Shop Now",
+      "why_it_works": "The bundle's one advantage over the single ovens is completeness, so a labelled callout of each included piece kills the 'do I need to buy extras' hesitation before the click.",
+      "visual_direction": "An overhead flat-lay of the full Starter Kit - pink grill, bamboo peel, semi-circle paddles, rose gold cutter, scraper and folded apron - with four labels pointing to the key pieces."
+    }
+  ],
+  "generated_at": "2026-08-08T10:09:46.516Z"
+}
