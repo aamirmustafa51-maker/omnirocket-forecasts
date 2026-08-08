@@ -1,0 +1,170 @@
+{
+  "lead_company": "Pizza Girl",
+  "lead_first_name": "Rebecca",
+  "website": "https://www.pizzagirl.com",
+  "brand_domain": "pizzagirl.com",
+  "currency": "PKR",
+  "review_count": 0,
+  "brand_dna": {
+    "category": "Female-founded premium home-pizza brand: countertop pizza grills plus par-baked, fresh-sealed pizzas and sauces.",
+    "core_belief": "Pizza with nothing to hide - the best flour, real olive oil, no shortcuts, no unnecessary anything, so everyone deserves good pizza at home.",
+    "proof_points": [
+      "Three generations of Italian pizza makers behind the founder, Caroline D'Amore",
+      "Par-baked in small batches in LA, fresh-sealed so it arrives exactly as it left the kitchen",
+      "Grill hits almost 800 degrees and cooks pizza in under 5 minutes",
+      "30-Day money back guarantee on the Starter Kit"
+    ],
+    "positioning": "Premium and design-led (retro pastel grills, pink-and-mortar Sunset shop) vs. cold takeout and cardboard frozen pizza."
+  },
+  "voice_pillars": [
+    {
+      "name": "Owns The Nickname",
+      "desc": "First-person, founder-forward, playfully confident - Caroline speaks directly and claims her lane.",
+      "quote": "I've always been the Pizza Girl ...no, really. Ask my grandma."
+    },
+    {
+      "name": "No Shortcuts",
+      "desc": "Every claim ties back to real ingredients and craft, stated plainly and proudly.",
+      "quote": "The best flour, real olive oil, no shortcuts, no unnecessary anything."
+    },
+    {
+      "name": "Fixes Real Life",
+      "desc": "Speaks to busy homes and hungry kids, framing the product as the fix for sad pizza nights.",
+      "quote": "never settle for sad pizza again."
+    },
+    {
+      "name": "Cheeky And Warm",
+      "desc": "Light, teasing, human copy full of winks and personality.",
+      "quote": "And nobody's judging."
+    }
+  ],
+  "customer_language": {
+    "phrases": [
+      "Pizzas are done within 3-5 minutes and are super delicious",
+      "the crust comes out perfect and the toppings never burn",
+      "the kids love making pizzas with me",
+      "it's so simple to use! You literally just plug it in",
+      "I feel it's the ABSOLUTE BEST SAUCE MADE RIGHT NOW",
+      "no funky ingredients or sugar or high fructose corn syrup"
+    ],
+    "words": [
+      "delicious",
+      "so easy",
+      "crispy",
+      "chewy",
+      "restaurant-quality",
+      "5 minutes",
+      "cute",
+      "game changer"
+    ],
+    "avoid": [
+      "clinical or diet-y language",
+      "cheap or discount-heavy tone",
+      "corporate or stiff phrasing",
+      "harsh or judgmental"
+    ]
+  },
+  "icp": "Design-conscious home cooks and busy parents (often moms feeding kids) who want restaurant-quality pizza fast, care about clean ingredients, and love a countertop that looks as good as it cooks.",
+  "personas": [
+    {
+      "name": "The Pizza-Night Mom",
+      "description": "A busy parent tired of late, lukewarm delivery who is moved by fast, kid-friendly pizza nights everyone can make together."
+    },
+    {
+      "name": "The Label Reader",
+      "description": "A quality-obsessed foodie who reads every ingredient and buys on real flour, real olive oil, and zero added sugar."
+    },
+    {
+      "name": "The Aesthetic Host",
+      "description": "A style-driven entertainer drawn to the retro pastel grill as a countertop centerpiece and a fun party centerpiece for guests."
+    }
+  ],
+  "products_ladder": [
+    {
+      "title": "PIZZA GIRL STARTER KIT",
+      "role": "Hero / best-seller",
+      "price": 279
+    },
+    {
+      "title": "The Pizza Girl Grill Bundles",
+      "role": "Core",
+      "price": 249
+    },
+    {
+      "title": "THE PIZZA GIRL PIZZA GRILL - PG PISTACHIO",
+      "role": "Core",
+      "price": 199
+    },
+    {
+      "title": "Meat me in the Kitchen - 6 Pack",
+      "role": "Entry point",
+      "price": 89
+    }
+  ],
+  "offers": [
+    "10% off your first order for newsletter subscribers",
+    "Free shipping on all Pizza Girl Grills",
+    "Starter Kit at Rs.79,700 (from Rs.94,200), save 15% with free shipping included",
+    "30-Day money back guarantee on the Starter Kit",
+    "Grill bundles and multi-pack pizza/sauce packs",
+    "Subscriptions plus a rewards program with LOVE points and VIP perks",
+    "Optional Premium Package Protection at checkout"
+  ],
+  "claims": {
+    "allowed": [
+      {
+        "claim": "Restaurant-quality pizza at home in about 5 minutes on the grill.",
+        "source": "homepage / product page"
+      },
+      {
+        "claim": "Zero added sugar, ever, in the pizzas.",
+        "source": "about page"
+      },
+      {
+        "claim": "Par-baked in small batches in LA, then fresh-sealed.",
+        "source": "product page"
+      },
+      {
+        "claim": "Made with Italian flour, real olive oil, creamy mozzarella and homemade tomato sauce - no fillers, no additives.",
+        "source": "product page"
+      },
+      {
+        "claim": "Grill reaches almost 800 degrees with dual top and bottom heating controls.",
+        "source": "about page / product page"
+      },
+      {
+        "claim": "30-Day money back guarantee on the Starter Kit.",
+        "source": "Starter Kit product page"
+      }
+    ],
+    "banned": [
+      {
+        "claim": "Calling the pizzas 'clean eating' or a 'clean' diet food as a headline claim.",
+        "why": "'Clean' is vague and risky as a headline claim under FDA/FTC food guidance - use specific facts like 'no added sugar' instead."
+      },
+      {
+        "claim": "'All natural' pizza or ingredients.",
+        "why": "'Natural' is undefined and risky for food claims - not supported by any labeling on the site."
+      },
+      {
+        "claim": "Any 'boosts immunity' or 'detox' language around the food.",
+        "why": "Banned health claims for this category - unqualified immunity/detox claims are prohibited."
+      },
+      {
+        "claim": "'Low sugar' or 'high protein' unless it matches the actual Nutrition label.",
+        "why": "Nutrient-content claims must match the verified label; only 'no added sugar' is currently substantiated."
+      },
+      {
+        "claim": "Suggesting the pizza helps with weight loss or 'burns fat'.",
+        "why": "Banned disease/body-composition claim for food and beverage."
+      },
+      {
+        "claim": "Stating a fixed cook time as guaranteed regardless of dough (e.g. 'always 5 minutes').",
+        "why": "Site says time varies with dough thickness - avoid an unqualified absolute time claim."
+      }
+    ]
+  },
+  "standalone": false,
+  "prospect_logo_url": "https://www.pizzagirl.com/cdn/shop/files/pizzagirl-2020-writtenlogo_3x_f8885d85-0763-44d3-a7d8-606d726ce935.png?v=1613002002&width=500",
+  "generated_at": "2026-08-08T10:06:42.563Z"
+}
