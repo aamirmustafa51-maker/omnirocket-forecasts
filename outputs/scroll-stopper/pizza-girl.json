@@ -9,6 +9,36 @@
   "prospect_logo_url": "https://www.pizzagirl.com/cdn/shop/files/pizzagirl-2020-writtenlogo_3x_f8885d85-0763-44d3-a7d8-606d726ce935.png?v=1613002002&width=500",
   "concepts": [
     {
+      "product_index": 4,
+      "product_title": "PIZZA GIRL STARTER KIT",
+      "product_url": "https://www.pizzagirl.com/products/pizza-girl-starter-kit",
+      "image_url": "/creatives/scroll-stopper/pizza-girl/ad-4.jpg",
+      "ai_image": true,
+      "price": 279,
+      "compare_at_price": 330,
+      "on_sale": true,
+      "angle_label": "Objection Crusher",
+      "visual_angle": "Feature Callout",
+      "claims_used": [
+        "Our amazing counter top oven",
+        "Bamboo pizza peel",
+        "Rose gold pizza cutter",
+        "A Pizza Girl apron"
+      ],
+      "copy_claims": [
+        "everything in one starter kit",
+        "includes free semi circle pizza paddles",
+        "a bamboo pizza peel, scraper and rose gold pizza cutter",
+        "a Pizza Girl apron",
+        "free shipping"
+      ],
+      "primary_text": "Not sure you've got everything you need? You do now.\n\nThe Starter Kit is the oven plus free paddles, a bamboo peel, scraper, rose gold cutter and an apron - the whole setup in one box.\n\nFree shipping too.",
+      "headline": "The whole pizza setup, sorted",
+      "cta": "Shop Now",
+      "why_it_works": "The bundle's one advantage over the single ovens is completeness, so a labelled callout of each included piece kills the 'do I need to buy extras' hesitation before the click.",
+      "visual_direction": "An overhead flat-lay of the full Starter Kit - pink grill, bamboo peel, semi-circle paddles, rose gold cutter, scraper and folded apron - with four labels pointing to the key pieces."
+    },
+    {
       "product_index": 1,
       "product_title": "THE PIZZA GIRL PIZZA GRILL - PG PINK",
       "product_url": "https://www.pizzagirl.com/products/pizza-girl-pizza-grill",
@@ -51,36 +81,6 @@
       "cta": "Shop Now",
       "why_it_works": "The cap is the only kids item, so leaning on the family pizza-night moment with a warm detail-led shot of the corduroy craft sells the team feeling rather than performance.",
       "visual_direction": "The pink corduroy kids cap resting on a maker's workbench beside black thread, scissors and matching corduroy scraps in soft window light."
-    },
-    {
-      "product_index": 4,
-      "product_title": "PIZZA GIRL STARTER KIT",
-      "product_url": "https://www.pizzagirl.com/products/pizza-girl-starter-kit",
-      "image_url": "/creatives/scroll-stopper/pizza-girl/ad-4.jpg",
-      "ai_image": true,
-      "price": 279,
-      "compare_at_price": 330,
-      "on_sale": true,
-      "angle_label": "Objection Crusher",
-      "visual_angle": "Feature Callout",
-      "claims_used": [
-        "Our amazing counter top oven",
-        "Bamboo pizza peel",
-        "Rose gold pizza cutter",
-        "A Pizza Girl apron"
-      ],
-      "copy_claims": [
-        "everything in one starter kit",
-        "includes free semi circle pizza paddles",
-        "a bamboo pizza peel, scraper and rose gold pizza cutter",
-        "a Pizza Girl apron",
-        "free shipping"
-      ],
-      "primary_text": "Not sure you've got everything you need? You do now.\n\nThe Starter Kit is the oven plus free paddles, a bamboo peel, scraper, rose gold cutter and an apron - the whole setup in one box.\n\nFree shipping too.",
-      "headline": "The whole pizza setup, sorted",
-      "cta": "Shop Now",
-      "why_it_works": "The bundle's one advantage over the single ovens is completeness, so a labelled callout of each included piece kills the 'do I need to buy extras' hesitation before the click.",
-      "visual_direction": "An overhead flat-lay of the full Starter Kit - pink grill, bamboo peel, semi-circle paddles, rose gold cutter, scraper and folded apron - with four labels pointing to the key pieces."
     }
   ],
   "generated_at": "2026-08-08T10:09:46.516Z"
